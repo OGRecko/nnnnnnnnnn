@@ -1,0 +1,15 @@
+{
+ "frequencies": [
+  1000
+ ],
+ "angularResolution": 10,
+ "points": [
+  {
+   "azimuth": "0",
+   "elevation": 0,
+   "magnitude": [
+    0
+   ]
+  }
+ ]
+}

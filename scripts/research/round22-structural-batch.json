@@ -1,0 +1,492 @@
+{
+  "round": 22,
+  "checkedDate": "2026-10-19",
+  "entries": [
+    {
+      "record": "klipsch-heresy",
+      "field": "driverCount",
+      "value": 3,
+      "source": "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Heresy specification sheet: single 12 in woofer plus mid-frequency and high-frequency compression drivers (3 drive units)."
+    },
+    {
+      "record": "bw-805d3",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_europe_shared/default/dw8b9f6335/archive-manuals/805-d3-info-sheet_0.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "805 D3 information sheet, \"Drive units\": \"1x ø25mm (1 in) diamond dome high-frequency\" and \"1x ø165mm (6.5 in) Continuum cone bass midrange\"."
+    },
+    {
+      "record": "bowers-wilkins-705-s3",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.bowerswilkins.com/product/loudspeakers/705-s3/300522.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "705 S3 technical details, \"Drive units\": 1x ø25mm (1 in) Decoupled Carbon Dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass / midrange."
+    },
+    {
+      "record": "bowers-wilkins-707-s3",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.bowerswilkins.com/product/loudspeakers/707-s3/300525.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "707 S3 technical details, \"Drive units\": 1x ø25mm (1 in) Decoupled Carbon Dome high-frequency; 1x ø130mm (5 in) Continuum cone bass / midrange."
+    },
+    {
+      "record": "bw-805-d4",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/805-d4/150241-01-00-005.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "805 D4 technical details, \"Drive units\": 1x ø25mm (1 in) Diamond dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass midrange."
+    },
+    {
+      "record": "bowers-wilkins-805-d4-signature",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.bowerswilkins.com/en/product/loudspeakers/805-d4-signature/FP43745P.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "805 D4 Signature technical details, \"Drive units\": 1x ø25mm (1 in) Diamond Dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass/midrange."
+    },
+    {
+      "record": "bowers-wilkins-801-d4",
+      "field": "driverCount",
+      "value": 4,
+      "source": "https://www.bowerswilkins.com/product/loudspeakers/801-d4/150237-03-00-005.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "801 D4 technical details, \"Drive units\": 1x ø25mm Diamond dome HF; 1x ø150mm Continuum cone FST midrange; 2x ø250mm Aerofoil cone bass units."
+    },
+    {
+      "record": "bowers-wilkins-802-d4",
+      "field": "driverCount",
+      "value": 4,
+      "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/802-d4/150238-03-00-005.html",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "802 D4 technical details, \"Drive units\": 1x ø25mm Diamond dome HF; 1x ø150mm Continuum cone FST midrange; 2x ø200mm Aerofoil cone bass units."
+    },
+    {
+      "record": "genelec-8341a",
+      "field": "driverCount",
+      "value": 4,
+      "source": "https://www.genelec.com/8341a",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Genelec 8341A product page: two 170 mm woofers, one 90 mm midrange and one 19 mm tweeter (4 drive units)."
+    },
+    {
+      "record": "genelec-8341a",
+      "field": "active",
+      "value": true,
+      "source": "https://www.genelec.com/8341a",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Genelec 8341A product page: active monitor with built-in Class D amplification."
+    },
+    {
+      "record": "genelec-8331a",
+      "field": "driverCount",
+      "value": 4,
+      "source": "https://www.genelec.com/8331a",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Genelec 8331A product page: two 130 mm woofers, one 90 mm midrange and one 19 mm tweeter (4 drive units)."
+    },
+    {
+      "record": "genelec-8351b",
+      "field": "driverCount",
+      "value": 4,
+      "source": "https://www.genelec.com/8351b",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Genelec 8351B product page: two 218 mm woofers, one 130 mm midrange and one 25 mm tweeter (4 drive units)."
+    },
+    {
+      "record": "genelec-8351b",
+      "field": "active",
+      "value": true,
+      "source": "https://www.genelec.com/8351b",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Genelec 8351B product page: active monitor with built-in Class D amplification."
+    },
+    {
+      "record": "dynaudio-bm6a",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://dynaudio.com/professional-audio/classic-bm-range/bm6a",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Dynaudio BM6A product page: 1 in soft-dome tweeter plus 6.9 in woofer (2 drive units)."
+    },
+    {
+      "record": "dynaudio-bm6a",
+      "field": "active",
+      "value": true,
+      "source": "https://dynaudio.com/professional-audio/classic-bm-range/bm6a",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Dynaudio BM6A product page: active nearfield monitor with built-in amplifiers."
+    },
+    {
+      "record": "adam-audio-a77x",
+      "field": "driverCount",
+      "value": 3,
+      "source": "https://www.adam-audio.com/content/uploads/2016/11/adam-audio-product-sheet-a77x_en.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ADAM A77X product sheet: two 7 in woofers and one X-ART tweeter (3 drive units)."
+    },
+    {
+      "record": "adam-audio-a77x",
+      "field": "active",
+      "value": true,
+      "source": "https://www.adam-audio.com/content/uploads/2016/11/adam-audio-product-sheet-a77x_en.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ADAM A77X product sheet: active monitor with built-in amplification."
+    },
+    {
+      "record": "focal-twin6",
+      "field": "driverCount",
+      "value": 3,
+      "source": "https://www.focal.com/products/twin6",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Twin6 product page: two 6.5 in \"W\" woofers and one 1.5 in beryllium tweeter (3 drive units)."
+    },
+    {
+      "record": "focal-trio11-be",
+      "field": "driverCount",
+      "value": 3,
+      "source": "https://www.focal.com/products/trio-11-be",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Trio11 Be product page: 10 in woofer, 5 in midrange and 1 in beryllium tweeter (3 drive units)."
+    },
+    {
+      "record": "focal-trio11-be",
+      "field": "active",
+      "value": true,
+      "source": "https://www.focal.com/products/trio-11-be",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Trio11 Be product page: active monitor with built-in amplification."
+    },
+    {
+      "record": "focal-alpha-50-evo",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.focal.com/products/alpha-50-evo",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Alpha 50 Evo product page: 1 in aluminium inverted dome tweeter and 5 in Slatefiber woofer (2 drive units)."
+    },
+    {
+      "record": "focal-alpha-50-evo",
+      "field": "active",
+      "value": true,
+      "source": "https://www.focal.com/products/alpha-50-evo",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Alpha 50 Evo product page: active monitor with built-in amplification."
+    },
+    {
+      "record": "focal-shape-50",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.focal.com/products/shape-50",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Focal Shape 50 product page: 1 in aluminium/magnesium inverted dome tweeter and 5 in Flax woofer (2 drive units)."
+    },
+    {
+      "record": "eV-etx15p",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://products.electrovoice.com/binary/ETX-15P_EDS_en.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ETX-15P engineering data sheet: 15 in woofer and 1.25 in compression driver (2 drive units)."
+    },
+    {
+      "record": "eV-etx15p",
+      "field": "active",
+      "value": true,
+      "source": "https://products.electrovoice.com/binary/ETX-15P_EDS_en.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ETX-15P engineering data sheet: powered loudspeaker with built-in 1500 W Class D amplifier."
+    },
+    {
+      "record": "eV-elx200-18sp",
+      "field": "driverCount",
+      "value": 1,
+      "source": "https://products.electrovoice.com/ap/en/elx200-18sp",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ELX200-18SP product page: single 18 in woofer."
+    },
+    {
+      "record": "eV-elx200-18sp",
+      "field": "active",
+      "value": true,
+      "source": "https://products.electrovoice.com/ap/en/elx200-18sp",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "ELX200-18SP product page: powered subwoofer with built-in 1200 W Class D amplifier."
+    },
+    {
+      "record": "electro-voice-ekx-12p",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://products.electrovoice.com/emea/de/ekx-12p",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "EKX-12P product page: 12 in woofer and 1.4 in titanium compression driver (2 drive units)."
+    },
+    {
+      "record": "electro-voice-ekx-12p",
+      "field": "active",
+      "value": true,
+      "source": "https://products.electrovoice.com/emea/de/ekx-12p",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "EKX-12P product page: powered loudspeaker with built-in 1500 W Class D amplifier."
+    },
+    {
+      "record": "qsc-ks212c",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks212c/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KS212C product page: dual 12 in (305 mm) woofers in a cardioid subwoofer (2 drive units)."
+    },
+    {
+      "record": "qsc-ks212c",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks212c/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KS212C product page: powered subwoofer with a built-in 3600 W Class D amplifier."
+    },
+    {
+      "record": "qsc-k8.2",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/k.2/q_spk_k2_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC K.2 specification sheet: K8.2 configuration \"Multi-purpose, 2-way active loudspeaker\" with a 203 mm LF cone and a 35.6 mm HF compression driver."
+    },
+    {
+      "record": "qsc-k8.2",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/k.2/q_spk_k2_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC K.2 specification sheet: \"2-way active loudspeaker\" with a 2000 W power module."
+    },
+    {
+      "record": "qsc-cp8",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC CP8 product page: 8 in woofer and 1.4 in compression driver (2 transducers)."
+    },
+    {
+      "record": "qsc-cp8",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC CP8 product page: powered loudspeaker with a built-in 1000 W Class D amplifier."
+    },
+    {
+      "record": "qsc-cp12",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp12/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC CP12 product page: 12 in woofer and 1.4 in compression driver (2 transducers)."
+    },
+    {
+      "record": "qsc-cp12",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp12/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC CP12 product page: powered loudspeaker with a built-in 1000 W Class D amplifier."
+    },
+    {
+      "record": "qsc-ks118",
+      "field": "driverCount",
+      "value": 1,
+      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KS118 product page: single 18 in (457 mm) direct-radiating subwoofer driver."
+    },
+    {
+      "record": "qsc-ks118",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KS118 product page: powered subwoofer with a built-in 3600 W Class D amplifier."
+    },
+    {
+      "record": "qsc-kw122",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KW user manual specification table: KW122 configuration \"12\\\" 2-way multipurpose loudspeaker\" with a 12 in LF cone and a 1.75 in HF compression driver."
+    },
+    {
+      "record": "qsc-kw122",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KW user manual specification table: 1000 W Class D amplifier built into the enclosure."
+    },
+    {
+      "record": "qsc-kw153",
+      "field": "driverCount",
+      "value": 3,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KW user manual specification table: KW153 configuration \"15\\\" 3-way trapezoidal loudspeaker\" with a 15 in LF cone, a 6.5 in midrange cone and a 1.75 in HF compression driver."
+    },
+    {
+      "record": "qsc-kw153",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC KW user manual specification table: 1000 W Class D amplifier built into the enclosure."
+    },
+    {
+      "record": "qsc-e112",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e112/q_spk_e_112_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC E112 specification sheet: 12 in woofer and 1.4 in compression driver (2 transducers)."
+    },
+    {
+      "record": "qsc-e112",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e112/q_spk_e_112_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC E112 specification sheet describes a passive loudspeaker for use with an external amplifier."
+    },
+    {
+      "record": "qsc-ad-c6t",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC AD-C6T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+    },
+    {
+      "record": "qsc-ac-c4t",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC AC-C4T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+    },
+    {
+      "record": "qsc-ac-c6t",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC AC-C6T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+    },
+    {
+      "record": "qsc-ac-c8t",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC AC-C8T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+    },
+    {
+      "record": "qsc-wl3082",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC WideLine-8 specification sheet: passive line-array element requiring external amplification."
+    },
+    {
+      "record": "qsc-wl212-sw",
+      "field": "active",
+      "value": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "QSC WideLine-8 specification sheet: passive subwoofer element requiring external amplification."
+    },
+    {
+      "record": "kef-ls60-wireless",
+      "field": "driverCount",
+      "value": 6,
+      "source": "https://assets.kef.com/product-support/ls60-wireless/LS60_Wireless_Info_sheet_EN.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "LS60 Wireless information sheet: per speaker, four 135 mm LF drivers plus a 100 mm MF driver and a 19 mm HF driver = 6 drive units."
+    },
+    {
+      "record": "kef-ls60-wireless",
+      "field": "active",
+      "value": true,
+      "source": "https://assets.kef.com/product-support/ls60-wireless/LS60_Wireless_Info_sheet_EN.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "LS60 Wireless information sheet: built-in amplification (LF 500 W, MF 100 W, HF 100 W per speaker)."
+    },
+    {
+      "record": "klipsch-r51m",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "R-51M specification sheet: one 5.25 in IMG woofer and one 1 in aluminium dome tweeter (2 drive units)."
+    }
+  ]
+}

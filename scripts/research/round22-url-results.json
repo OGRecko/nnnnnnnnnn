@@ -1,0 +1,4663 @@
+{
+  "round": 22,
+  "checkedDate": "2026-10-19",
+  "entries": [
+    {
+      "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI OBERON series owner manual (manufacturer PDF)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "INACCESSIBLE",
+      "evidence": "PDF parser returned the manual only up to its 30-page extraction limit; the OBERON specification table (Table 2) lies beyond that limit and could not be read. No field evidence was obtained.",
+      "fieldResults": [
+        {
+          "record": "dali-oberon7",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "NOT_EXTRACTED",
+          "note": "Specification table beyond the parser page limit; not read."
+        },
+        {
+          "record": "dali-oberon-3",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "NOT_EXTRACTED",
+          "note": "Specification table beyond the parser page limit; not read."
+        },
+        {
+          "record": "dali-oberon-5",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "NOT_EXTRACTED",
+          "note": "Specification table beyond the parser page limit; not read."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+      "host": "assets.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF LS50 Wireless II Product Information Sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Info sheet: \"LS50 Wireless II\" is a 2-way system with a 25 mm (1 in) vented aluminium dome HF driver and a 130 mm (5.25 in) magnesium/aluminium alloy LF/MF driver, and lists the built-in amplification for each driver (Class AB HF, Class D LF).",
+      "fieldResults": [
+        {
+          "record": "kef-ls50-wireless",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Info sheet lists exactly two drive units: 25 mm HF + 130 mm LF/MF."
+        },
+        {
+          "record": "kef-ls50-wireless",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Info sheet lists built-in amplification (Class AB HF, Class D LF); self-powered."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+      "host": "assets.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF KF92 Subwoofer Information Sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Info sheet: KF92 is a sealed subwoofer with two 9 in (229 mm) aluminium cone woofers and a 1000 W built-in Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "kef-kf92",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Info sheet lists two 9 in (229 mm) woofers."
+        },
+        {
+          "record": "kef-kf92",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Info sheet lists a 1000 W built-in Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
+      "host": "assets.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference Series Model 103 archive page (URL as recorded)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "INACCESSIBLE",
+      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained.",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-3",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "INACCESSIBLE",
+          "note": "HTTP 404 on the recorded archive URL."
+        },
+        {
+          "record": "legacy-kef-3",
+          "field": "active",
+          "value": false,
+          "outcome": "INACCESSIBLE",
+          "note": "HTTP 404 on the recorded archive URL."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
+      "host": "assets.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference Series Model 105.2 archive page (URL as recorded)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "INACCESSIBLE",
+      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained.",
+      "fieldResults": [
+        {
+          "record": "kef-105",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "INACCESSIBLE",
+          "note": "HTTP 404 on the recorded archive URL."
+        },
+        {
+          "record": "kef-105",
+          "field": "active",
+          "value": false,
+          "outcome": "INACCESSIBLE",
+          "note": "HTTP 404 on the recorded archive URL."
+        }
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q150-bookshelf-speaker",
+      "host": "international.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Q150 bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: 2-way bass reflex, 25 mm (1 in) vented aluminium dome tweeter and 130 mm (5.25 in) aluminium Uni-Q driver array.",
+      "fieldResults": [
+        {
+          "record": "kef-q150",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 25 mm tweeter and a 130 mm Uni-Q driver (2 drive units)."
+        },
+        {
+          "record": "kef-q150",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q350-bookshelf-speaker",
+      "host": "international.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Q350 bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: 2-way bass reflex, 25 mm (1 in) vented aluminium dome tweeter and 165 mm (6.5 in) aluminium Uni-Q driver array.",
+      "fieldResults": [
+        {
+          "record": "kef-q350",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 25 mm tweeter and a 165 mm Uni-Q driver (2 drive units)."
+        },
+        {
+          "record": "kef-q350",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "host": "international.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Q750 floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: 2.5-way bass reflex, 25 mm (1 in) vented aluminium dome tweeter, 165 mm (6.5 in) aluminium Uni-Q driver array, one 165 mm (6.5 in) aluminium LF driver and two 165 mm (6.5 in) aluminium ABR radiators. ABRs are passive radiators, not driven units.",
+      "fieldResults": [
+        {
+          "record": "kef-q750",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Page describes 3 driven units plus 2 ABR passive radiators; the schema does not define whether ABRs count, so the stored 5 is not promoted. Owner decision needed."
+        },
+        {
+          "record": "kef-q750",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/r11-meta",
+      "host": "international.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF R11 Meta floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: 3-way bass reflex with one 25 mm (1 in) MAT vented dome tweeter, one 125 mm (5 in) Uni-Q midrange and four 165 mm (6.5 in) aluminium bass drivers.",
+      "fieldResults": [
+        {
+          "record": "kef-r11-meta",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+        },
+        {
+          "record": "kef-r11-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/blade-two",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Blade Two Meta floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: 3-way bass reflex with one 25 mm (1 in) MAT vented dome tweeter, one 125 mm (5 in) Uni-Q midrange and four 165 mm (6.5 in) aluminium bass drivers.",
+      "fieldResults": [
+        {
+          "record": "kef-blade-two-meta",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+        },
+        {
+          "record": "kef-blade-two-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/lsx-2",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF LSX II wireless music system product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: 2-way with a 19 mm (0.75 in) aluminium dome tweeter and a 115 mm (4.5 in) magnesium/aluminium alloy midrange/bass driver, each driven by its own built-in amplifier (Class D).",
+      "fieldResults": [
+        {
+          "record": "kef-lsx-ii",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 19 mm tweeter and a 115 mm mid/bass driver = 2."
+        },
+        {
+          "record": "kef-lsx-ii",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in Class D amplification; self-powered."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/r3-meta",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF R3 Meta bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page labels the model \"Passive HiFi Speaker\" and lists a 3-way bass reflex design with a 25 mm tweeter, a 125 mm Uni-Q midrange and a 165 mm bass driver.",
+      "fieldResults": [
+        {
+          "record": "kef-r3-meta",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 1 bass driver = 3."
+        },
+        {
+          "record": "kef-r3-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/r7-meta",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF R7 Meta floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page labels the model \"Passive HiFi Speaker\" and lists a 3-way bass reflex design with a 25 mm tweeter, a 125 mm Uni-Q midrange and two 165 mm bass drivers.",
+      "fieldResults": [
+        {
+          "record": "kef-r7-meta",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 2 bass drivers = 4."
+        },
+        {
+          "record": "kef-r7-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference 1 Meta bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page labels the model \"Passive HiFi Speaker\" and lists a 3-way bass reflex design with a 25 mm tweeter, a 125 mm Uni-Q midrange and a 165 mm bass driver.",
+      "fieldResults": [
+        {
+          "record": "kef-reference-1-meta",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 1 bass driver = 3."
+        },
+        {
+          "record": "kef-reference-1-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference 3 Meta floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page labels the model \"Passive HiFi Speaker\" and lists a 3-way bass reflex design with a 25 mm tweeter, a 125 mm Uni-Q midrange and two 165 mm bass drivers.",
+      "fieldResults": [
+        {
+          "record": "kef-reference-3-meta",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 2 bass drivers = 4."
+        },
+        {
+          "record": "kef-reference-3-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference 5 Meta floorstanding loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page labels the model \"Passive HiFi Speaker\" and lists a 3-way bass reflex design with a 25 mm tweeter, a 125 mm Uni-Q midrange and four 165 mm bass drivers.",
+      "fieldResults": [
+        {
+          "record": "kef-reference-5-meta",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+        },
+        {
+          "record": "kef-reference-5-meta",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+        }
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/ls50-meta",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "KEF LS50 Meta bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: 2-way bass reflex with a 25 mm (1 in) vented aluminium dome tweeter and a 130 mm (5.25 in) Uni-Q driver array.",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-9",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 25 mm tweeter and a 130 mm Uni-Q driver (2 drive units)."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch AWR-650-SM outdoor loudspeaker specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way outdoor speaker with one 6.5 in (165 mm) IMG woofer and two 0.75 in (19 mm) polymer dome tweeters (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-awr650sm",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 6.5 in woofer and two 0.75 in tweeters = 3."
+        },
+        {
+          "record": "klipsch-awr650sm",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Cornwall IV specification sheet (2019)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 15 in woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-cornwall-iv",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists HF and MF compression drivers plus a 15 in woofer = 3."
+        },
+        {
+          "record": "klipsch-cornwall-iv",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Forte IV specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 12 in woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-forte-iv",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists HF and MF compression drivers plus a 12 in woofer = 3."
+        },
+        {
+          "record": "klipsch-forte-iv",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Heresy IV specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 12 in woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-heresy-iv",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists HF and MF compression drivers plus a 12 in woofer = 3."
+        },
+        {
+          "record": "klipsch-heresy-iv",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference R-120SW subwoofer specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: single 12 in (305 mm) spun-copper IMG woofer driven by a built-in all-digital amplifier rated 200 W continuous / 400 W peak.",
+      "fieldResults": [
+        {
+          "record": "klipsch-r-120sw",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 12 in woofer."
+        },
+        {
+          "record": "klipsch-r-120sw",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in all-digital amplifier (200 W continuous)."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference R-41M bookshelf speaker specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way bookshelf speaker with one 4 in (102 mm) IMG woofer and one 1 in (25 mm) aluminium dome tweeter.",
+      "fieldResults": [
+        {
+          "record": "legacy-klip-8",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 4 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "legacy-klip-8",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference RF-7 III floorstanding speaker specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: three-way design with two 10 in woofers, one 1.75 in titanium compression driver and one 1 in titanium compression driver (four drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-klip-6",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Spec sheet lists two 10 in woofers plus two compression drivers = 4 drive units, while the stored value is 3. Left unchanged pending reconciliation; the stored value is not promoted."
+        },
+        {
+          "record": "legacy-klip-6",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch La Scala II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 15 in woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-la-scala-ii",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists two compression drivers plus a 15 in woofer = 3."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference R-121SW subwoofer specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: single 12 in (305 mm) spun-copper IMG woofer driven by a built-in all-digital amplifier rated 200 W continuous / 400 W peak.",
+      "fieldResults": [
+        {
+          "record": "klipsch-r-121sw",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 12 in woofer."
+        },
+        {
+          "record": "klipsch-r-121sw",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in all-digital amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch SPL-100 subwoofer specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: single 10 in (254 mm) spun-copper Cerametallic woofer driven by a built-in Class D amplifier rated 200 W continuous / 450 W peak.",
+      "fieldResults": [
+        {
+          "record": "klipsch-spl-100",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 10 in woofer."
+        },
+        {
+          "record": "klipsch-spl-100",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch SPL-120 subwoofer specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: single 12 in (305 mm) spun-copper Cerametallic woofer driven by a built-in Class D amplifier rated 300 W continuous / 600 W peak.",
+      "fieldResults": [
+        {
+          "record": "klipsch-spl-120",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 12 in woofer."
+        },
+        {
+          "record": "klipsch-spl-120",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch SPL-150 subwoofer specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: single 15 in (381 mm) spun-copper Cerametallic woofer driven by a built-in Class D amplifier rated 400 W continuous / 800 W peak.",
+      "fieldResults": [
+        {
+          "record": "klipsch-spl-150",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 15 in woofer."
+        },
+        {
+          "record": "klipsch-spl-150",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-5000F II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with two 5.25 in (133 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp-5000f-ii",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists two 5.25 in woofers and one 1 in tweeter = 3."
+        },
+        {
+          "record": "klipsch-rp-5000f-ii",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-500M II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with one 5.25 in (133 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp500m",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-rp500m",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-500M specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with one 5.25 in (133 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp-500m",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-rp-500m",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-6000F II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with two 6.5 in (165 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp6000f",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists two 6.5 in woofers and one 1 in tweeter = 3."
+        },
+        {
+          "record": "klipsch-rp6000f",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-600M II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with one 6.5 in (165 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp600m",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-rp600m",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-600M specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with one 6.5 in (165 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp-600m",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-rp-600m",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-8000F II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: two-way design with two 8 in (203 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp-8000f-ii",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists two 8 in woofers and one 1 in tweeter = 3."
+        },
+        {
+          "record": "klipsch-rp-8000f-ii",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch Reference Premiere RP-8060FA II specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: Dolby Atmos-enabled floorstanding speaker with two 8 in (203 mm) Cerametallic woofers, one 1 in titanium LTS vented tweeter, plus a height-channel 6.5 in woofer and 1 in titanium dome tweeter (five drive units).",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp8060fa",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists 2 main woofers + 1 tweeter + 1 height woofer + 1 height tweeter = 5."
+        },
+        {
+          "record": "klipsch-rp8060fa",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.klipsch.com/products/cdt-5650-c-ii",
+      "host": "www.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch CDT-5650-C II in-ceiling loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: two-way in-ceiling speaker with a 6.5 in (165 mm) IMG woofer and a 1 in (25 mm) titanium tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-cdt5650c",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list one 6.5 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-cdt5650c",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.klipsch.com/products/cdt-5800-c-ii",
+      "host": "www.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch CDT-5800-C II in-ceiling loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: two-way in-ceiling speaker with an 8 in (203 mm) IMG woofer and a 1 in (25 mm) titanium tweeter.",
+      "fieldResults": [
+        {
+          "record": "klipsch-cdt-5800-c-ii",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list one 8 in woofer and one 1 in tweeter = 2."
+        },
+        {
+          "record": "klipsch-cdt-5800-c-ii",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+      "host": "atc.audio",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ATC SCM100ASL Pro monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: active three-way monitor with an ATC 25 mm soft-dome HF driver, a 75 mm ATC SM75-150S midrange and a 314 mm (12 in) ATC LF driver, driven by three built-in ATC amplifiers.",
+      "fieldResults": [
+        {
+          "record": "atc-scm100asl-pro",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list HF, mid and LF drive units = 3."
+        },
+        {
+          "record": "atc-scm100asl-pro",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in ATC amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+      "host": "atc.audio",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ATC SCM45A Pro monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product specifications: active three-way monitor; the specification table lists \"Drivers: HF 25mm, Mid 75mm, LF 164mm\", while the overview bullet and the linked technical datasheet describe dual 6.5 in (164 mm) woofers. The page also lists built-in ATC amplification.",
+      "fieldResults": [
+        {
+          "record": "atc-scm45a-pro",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The specification table row lists 3 driver sizes, but the overview bullet and the datasheet state dual 6.5 in woofers (4 units). The stored 3 remains pinned by src/data/speakers.test.ts; no promotion until the discrepancy is resolved."
+        },
+        {
+          "record": "atc-scm45a-pro",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Product page and datasheet list built-in ATC amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+      "host": "atc.audio",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ATC SCM50ASL Pro monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: active three-way monitor with a 25 mm soft-dome HF driver, a 75 mm SM75-150S midrange and a 234 mm (9 in) LF driver, driven by built-in ATC amplifiers.",
+      "fieldResults": [
+        {
+          "record": "atc-scm50asl-pro",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list HF, mid and LF drive units = 3."
+        },
+        {
+          "record": "atc-scm50asl-pro",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in ATC amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+      "host": "atc.audio",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ATC SCM19 bookshelf loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: two-way passive loudspeaker with an ATC 25 mm soft-dome tweeter and a 150 mm ATC mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "atc-scm19",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 25 mm tweeter and a 150 mm mid/bass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/active/result6",
+      "host": "pmc-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "PMC Result6 active studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: active two-way monitor with a 27 mm soft-dome HF unit and a 170 mm (6.5 in) LF driver, driven by two built-in Class D amplifiers.",
+      "fieldResults": [
+        {
+          "record": "pmc-result6",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 27 mm HF unit and a 170 mm LF driver = 2."
+        },
+        {
+          "record": "pmc-result6",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in Class D amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/pmc-6-2/",
+      "host": "pmc-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "PMC 6-2 active studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: active three-way monitor with a 27 mm HF unit, a 75 mm midrange and two 150 mm (6 in) LF drivers (four drive units), driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "pmc-pmc6-2",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 HF + 1 mid + 2 LF drive units = 4."
+        },
+        {
+          "record": "pmc-pmc6-2",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/pmc-8-2/",
+      "host": "pmc-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "PMC 8-2 active studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product specifications: active three-way monitor with a 27 mm HF unit, a 75 mm midrange and two 200 mm (8 in) LF drivers (four drive units), driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "pmc-pmc8-2",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 HF + 1 mid + 2 LF drive units = 4."
+        },
+        {
+          "record": "pmc-pmc8-2",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Specifications list built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/F01U303039.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice X12-128 engineering data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: X12-128 is a passive two-way 12 in loudspeaker with a 12 in (305 mm) woofer and a 1.4 in (36 mm) titanium compression driver, specified for use with an external amplifier via Speakon connectors.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-x12-128",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Data sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-x12-128",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Data sheet specifies passive operation with external amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Force i engineering data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: Force i is a passive two-way loudspeaker with a 15 in woofer and a 1.25 in compression driver, driven by an external amplifier.",
+      "fieldResults": [
+        {
+          "record": "eV-force-i",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Data sheet lists a 15 in woofer and a 1.25 in compression driver = 2."
+        },
+        {
+          "record": "eV-force-i",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Data sheet specifies passive operation with an external amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice SB122 engineering data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: SB122 is a passive subwoofer with a single 12 in (305 mm) woofer and no built-in amplifier.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-sb122",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Data sheet lists one 12 in woofer."
+        },
+        {
+          "record": "electro-voice-sb122",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive subwoofer; no built-in amplifier is listed."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Sx300PI / Sx300PIX engineering data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: Sx300PI and Sx300PIX are passive, weather-resistant two-way loudspeakers intended for external amplification.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-sx300pi",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive model; data sheet lists no built-in amplifier."
+        },
+        {
+          "record": "electro-voice-sx300pix",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive model; data sheet lists no built-in amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Sx300E engineering data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: Sx300E is a passive two-way loudspeaker with a 12 in (305 mm) woofer and a 1.25 in (32 mm) titanium compression driver, driven by an external amplifier.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-sx300e",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Data sheet lists a 12 in woofer and a 1.25 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-sx300e",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive model; data sheet lists no built-in amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+      "host": "products.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Sx600 high-output two-way loudspeaker data sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: Sx600 is a passive three-way-capable two-way loudspeaker with a 15 in woofer, a 6.5 in midrange and a 1.25 in compression driver (three drive units).",
+      "fieldResults": [
+        {
+          "record": "electro-voice-sx600",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Data sheet lists 15 in woofer + 6.5 in midrange + 1.25 in compression driver = 3."
+        },
+        {
+          "record": "electro-voice-sx600",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive model; data sheet lists no built-in amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-12-g2",
+      "host": "www.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice ZLX-12-G2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page identifies the model as \"Passive 12\\\" 2-Way Loudspeaker\" with a 12 in woofer and a 1 in compression driver.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-zlx-12-g2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 12 in woofer and a 1 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-zlx-12-g2",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page explicitly labels the model \"Passive\"."
+        }
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-15-g2",
+      "host": "www.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice ZLX-15-G2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page identifies the model as \"Passive 15\\\" 2-Way Loudspeaker\" with a 15 in woofer and a 1 in compression driver.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-zlx-15-g2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 15 in woofer and a 1 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-zlx-15-g2",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page explicitly labels the model \"Passive\"."
+        }
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-8-g2",
+      "host": "www.electrovoice.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice ZLX-8-G2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page identifies the model as \"Passive 8\\\" 2-Way Loudspeaker\" with an 8 in woofer and a 1 in compression driver.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-zlx-8-g2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists an 8 in woofer and a 1 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-zlx-8-g2",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page explicitly labels the model \"Passive\"."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/lsr305.html",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL LSR305 studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: LSR305 is a two-way powered studio monitor with a 5 in (127 mm) woofer and a 1 in (25 mm) soft-dome tweeter, driven by dual built-in Class D amplifiers.",
+      "fieldResults": [
+        {
+          "record": "jbl-lsr305",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 5 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "jbl-lsr305",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists dual built-in Class D amplifiers (powered monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL 4430 / 4435 information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Information sheet describes the 4430 and 4435 as passive studio monitors intended for use with an external amplifier; no powered/active variant is listed.",
+      "fieldResults": [
+        {
+          "record": "jbl-4430",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The sheet recommends amplifier power but does not state passive/active wording explicitly."
+        },
+        {
+          "record": "legacy-jbl-6",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The sheet recommends amplifier power but does not state passive/active wording explicitly."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL Control 25 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: Control 25 is a two-way passive loudspeaker with a 5.25 in (130 mm) woofer and a 0.75 in (19 mm) titanium dome tweeter.",
+      "fieldResults": [
+        {
+          "record": "legacy-jbl-11",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a 5.25 in woofer and a 0.75 in tweeter = 2."
+        },
+        {
+          "record": "legacy-jbl-11",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL Control 50 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: Control 50 (stored as Control 52) is a passive subwoofer/satellite system whose subwoofer enclosure uses a single 8 in (200 mm) woofer.",
+      "fieldResults": [
+        {
+          "record": "jbl-control-52",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a single 8 in woofer in the subwoofer enclosure."
+        },
+        {
+          "record": "jbl-control-52",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive system; spec sheet lists no built-in amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL JRX225 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification sheet: JRX225 is a dual 15 in two-way passive loudspeaker with two 15 in (380 mm) woofers and one 1 in (25 mm) compression driver (three drive units).",
+      "fieldResults": [
+        {
+          "record": "jbl-jrx225",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The sheet lists two 15 in woofers plus one compression driver = 3, matching the stored value, but the sheet also describes the model as \"dual 15 in\" which could be read as two total transducers. Not promoted pending an owner ruling on counting compression drivers."
+        },
+        {
+          "record": "jbl-jrx225",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The sheet describes a passive model with Speakon inputs, but does not use the word \"passive\"; not promoted under the standing explicit-evidence rule."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL SRX828SP specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: SRX828SP is a powered dual 18 in subwoofer with two 18 in (457 mm) woofers driven by a built-in 2000 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "jbl-srx828sp",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists two 18 in woofers."
+        },
+        {
+          "record": "jbl-srx828sp",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Spec sheet lists a built-in 2000 W Class D amplifier (powered subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "JBL LSR series owner manual (Chinese-language edition)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Owner manual: LSR32 is a three-way passive studio monitor with a 12 in woofer, a 5 in midrange and a 1 in tweeter (three drive units), intended for external amplification.",
+      "fieldResults": [
+        {
+          "record": "jbl-lsr32",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Manual lists a 12 in woofer, a 5 in midrange and a 1 in tweeter = 3."
+        },
+        {
+          "record": "jbl-lsr32",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Manual describes passive operation with an external amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+      "host": "mackie.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Mackie DLM8 / DLM12 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: DLM8 and DLM12 are powered two-way loudspeakers with an 8 in or 12 in woofer and a 1.75 in compression driver, driven by built-in Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "legacy-mack-7",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a woofer and a 1.75 in compression driver = 2."
+        },
+        {
+          "record": "legacy-mack-7",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in Class D amplification (powered loudspeaker)."
+        }
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+      "host": "mackie.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Mackie SRM V-Class specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: SRM212 is a powered two-way loudspeaker with a 12 in woofer and a 1.4 in titanium compression driver, driven by built-in 2000 W Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "mackie-srm212",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+        },
+        {
+          "record": "mackie-srm212",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in 2000 W Class D amplification (powered loudspeaker)."
+        }
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+      "host": "mackie.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Mackie SRM550 / SRM650 / SRM750 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: SRM550 is a powered two-way loudspeaker with a 12 in woofer and a 1.4 in titanium compression driver, driven by built-in Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "mackie-srm550",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+        },
+        {
+          "record": "mackie-srm550",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in Class D amplification (powered loudspeaker)."
+        }
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+      "host": "mackie.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Mackie Thump XT 2022 specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification sheet: Thump215XT is a powered two-way loudspeaker with a 15 in woofer and a 1.4 in titanium compression driver, driven by built-in 1400 W Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "mackie-thump215xt",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 15 in woofer and a 1.4 in compression driver = 2."
+        },
+        {
+          "record": "mackie-thump215xt",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in 1400 W Class D amplification (powered loudspeaker)."
+        }
+      ]
+    },
+    {
+      "url": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+      "host": "boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bose Professional DesignMax DM5SE product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: DesignMax DM5SE is a passive two-way surface-mount loudspeaker with a 5.25 in (133 mm) woofer and a 1 in (25 mm) tweeter, for use with an external amplifier.",
+      "fieldResults": [
+        {
+          "record": "bose-designmax-dm5se",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 5.25 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "bose-designmax-dm5se",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive model; page lists no built-in amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Contour 20 (2016) product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Archived product page under Dynaudio's \"Passive Products\" navigation; lists a 28 mm Esotar2 soft-dome tweeter and an 18 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "legacy-dyn-7",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+        },
+        {
+          "record": "legacy-dyn-7",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is filed under \"Passive Products\"; no built-in amplifier is listed."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Evidence Platinum product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Archived product page under \"Passive Products\"; lists one 28 mm Esotar2 tweeter, two 15 cm midrange drivers and two 20 cm woofers per cabinet (five drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-dyn-4",
+          "field": "driverCount",
+          "value": 8,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Page lists 1 tweeter + 2 midrange + 2 woofers = 5 drive units, while the stored value is 8. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "legacy-dyn-4",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is filed under \"Passive Products\"; no built-in amplifier is listed."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-20",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Confidence 20 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in Dynaudio's \"Passive Products\" range; lists a 28 mm Esotar3 tweeter and an 18 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-confidence-20",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-confidence-20",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-30",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Confidence 30 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Esotar3 tweeter, a 15 cm MSP midrange and two 18 cm MSP woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-confidence-30",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "dynaudio-confidence-30",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-50",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Confidence 50 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Esotar3 tweeter, a 15 cm MSP midrange and three 18 cm MSP woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-confidence-50",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 3 woofers = 5."
+        },
+        {
+          "record": "dynaudio-confidence-50",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Contour 20i product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Esotar2i tweeter and an 18 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-contour-20i",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-contour-20i",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Contour 30i product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Esotar2i tweeter, a 15 cm MSP midrange and two 18 cm MSP woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-contour-30i",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "dynaudio-contour-30i",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Contour 60i product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Esotar2i tweeter, a 15 cm MSP midrange and three 18 cm MSP woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-contour-60i",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 3 woofers = 5."
+        },
+        {
+          "record": "dynaudio-contour-60i",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-10",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Emit 10 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm soft-dome tweeter and a 14 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-emit-10",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and a 14 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-emit-10",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-20",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Emit 20 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm soft-dome tweeter and an 18 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-emit-20",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-emit-20",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-30",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Emit 30 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm soft-dome tweeter and two 14 cm MSP woofers (three drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-emit-30",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 2 woofers = 3."
+        },
+        {
+          "record": "dynaudio-emit-30",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-10",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Evoke 10 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Cerotar soft-dome tweeter and a 14 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-evoke-10",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and a 14 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-evoke-10",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-20",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Evoke 20 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Cerotar soft-dome tweeter and an 18 cm MSP mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "dynaudio-evoke-20",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+        },
+        {
+          "record": "dynaudio-evoke-20",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-30",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Evoke 30 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Cerotar soft-dome tweeter and two 14 cm MSP woofers (three drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-evoke-30",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 2 woofers = 3."
+        },
+        {
+          "record": "dynaudio-evoke-30",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-50",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio Evoke 50 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page in the \"Passive Products\" range; lists a 28 mm Cerotar soft-dome tweeter, a 15 cm MSP midrange and two 18 cm MSP woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dynaudio-evoke-50",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "dynaudio-evoke-50",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Page is in the \"Passive Products\" range."
+        }
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
+      "host": "dam.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Chora 806 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in (25 mm) TNF aluminium/magnesium inverted dome tweeter and a 6.5 in (165 mm) Slatefiber mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "focal-chora-806",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter and a 6.5 in mid/bass driver = 2."
+        },
+        {
+          "record": "focal-chora-806",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf",
+      "host": "dam.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Chora 826 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 6.5 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-chora-826",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-chora-826",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+      "host": "dam.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Aria 906 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in (25 mm) TNF aluminium/magnesium inverted dome tweeter and a 6.5 in (165 mm) Flax mid/bass driver.",
+      "fieldResults": [
+        {
+          "record": "legacy-focal-8",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter and a 6.5 in mid/bass driver = 2."
+        },
+        {
+          "record": "legacy-focal-8",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+      "host": "dam.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Alpha 80 Evo product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product sheet: active 2-way nearfield monitor with a 1 in (25 mm) aluminium inverted dome tweeter and an 8 in (203 mm) Slatefiber woofer, driven by built-in Class AB/Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "focal-alpha-80-evo",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter and an 8 in woofer = 2."
+        },
+        {
+          "record": "focal-alpha-80-evo",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Aria 926 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 6.5 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-aria-926",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-aria-926",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Aria 936 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and three 6.5 in woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-aria-936",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 3 woofers = 5."
+        },
+        {
+          "record": "focal-aria-936",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Aria 948 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 8.25 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-aria-948",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-aria-948",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Electra SW 1000 Be owner manual",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Owner manual: the Electra SW 1000 Be subwoofer uses a single 13 in (330 mm) \"W\" cone woofer, driven by a built-in 1000 W BASH amplifier.",
+      "fieldResults": [
+        {
+          "record": "legacy-focal-2",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "CONFLICT",
+          "note": "Manual describes a single 13 in woofer for the SW 1000 Be subwoofer, while the stored record shows 4. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "legacy-focal-2",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Manual lists a built-in 1000 W BASH amplifier (powered subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Grande Utopia EM Evo owner manual",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Owner manual: 4-way floorstanding loudspeaker with a 1 in IHL beryllium tweeter, a 6.5 in midrange, an 11 in midbass and two 16 in woofers (five drive units); the manual describes passive operation with external amplification.",
+      "fieldResults": [
+        {
+          "record": "focal-grande-utopia-em-evo",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Manual lists 1 tweeter + 1 midrange + 1 midbass + 2 woofers = 5."
+        },
+        {
+          "record": "focal-grande-utopia-em-evo",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Manual describes passive operation with external amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Kanta N°1 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in IHL beryllium tweeter and a 6.5 in \"W\" midbass driver.",
+      "fieldResults": [
+        {
+          "record": "focal-kanta-n-1",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter and a 6.5 in midbass driver = 2."
+        },
+        {
+          "record": "focal-kanta-n-1",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Kanta N°2 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 6.5 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-kanta-n-2",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-kanta-n-2",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Kanta N°3 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 8.25 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-kanta-n-3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-kanta-n-3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Maestro Utopia Evo owner manual",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Owner manual: 3-way floorstanding loudspeaker with a 1 in IHL beryllium tweeter, a 6.5 in midrange and two 11 in woofers (four drive units); passive operation with external amplification.",
+      "fieldResults": [
+        {
+          "record": "focal-maestro-utopia-evo",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Manual lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-maestro-utopia-evo",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Manual describes passive operation with external amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Scala Utopia Evo product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in IHL beryllium tweeter, a 6.5 in midrange and two 8.25 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-scala-utopia-evo",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "focal-scala-utopia-evo",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Sopra N°1 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in IHL beryllium tweeter and a 6.5 in \"W\" midbass driver.",
+      "fieldResults": [
+        {
+          "record": "focal-sopra-n-1",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter and a 6.5 in midbass driver = 2."
+        },
+        {
+          "record": "focal-sopra-n-1",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Sopra N°2 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in IHL beryllium tweeter, a 6.5 in \"W\" midrange and two 7 in \"W\" woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-sopra-n-2",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Sheet gives only a recommended amplifier-power range (40-300 W) and no passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Sopra N°3 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in IHL beryllium tweeter, a 6.5 in \"W\" midrange and two 8.25 in \"W\" woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "focal-sopra-n-3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "focal-sopra-n-3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Sub One product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product sheet: active subwoofer with two 8 in (20 cm) Slatefiber woofers and a built-in 2 x 200 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "focal-sub-one",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists two 8 in woofers."
+        },
+        {
+          "record": "focal-sub-one",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 2 x 200 W Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Sub6 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product sheet: active subwoofer with a single 11 in (27 cm) \"W\" cone woofer and a built-in 350 W BASH amplifier.",
+      "fieldResults": [
+        {
+          "record": "focal-sub6",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists one 11 in woofer."
+        },
+        {
+          "record": "focal-sub6",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 350 W BASH amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+      "host": "media.focal-naim.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Trio6 product sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product sheet: active 3-way monitor with a 1 in beryllium tweeter, a 5 in \"W\" midrange and an 8 in \"W\" woofer, driven by built-in Class AB/Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "focal-trio6",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a 1 in tweeter, a 5 in midrange and an 8 in woofer = 3."
+        },
+        {
+          "record": "focal-trio6",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.focal.com/products/alpha-65-evo",
+      "host": "www.focal.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Alpha 65 Evo product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: active 2-way nearfield monitor with a 1 in aluminium inverted dome tweeter and a 6.5 in Slatefiber woofer, driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "focal-alpha-65-evo",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 1 in tweeter and a 6.5 in woofer = 2."
+        },
+        {
+          "record": "focal-alpha-65-evo",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+      "host": "www.genelec.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec press release: 4430A loudspeaker (stored as legacy-gen-8)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Press release: the 4430A is an active two-way loudspeaker with two 130 mm (5 in) drivers and built-in amplification (Class D), networked over IP.",
+      "fieldResults": [
+        {
+          "record": "legacy-gen-8",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Release lists two 130 mm drivers = 2."
+        },
+        {
+          "record": "legacy-gen-8",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Release describes an active loudspeaker with built-in amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/1237a",
+      "host": "www.genelec.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 1237A studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: 1237A is an active three-way monitor with a 12 in woofer, a 5 in midrange and a 1 in tweeter (three drive units), driven by built-in Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "legacy-gen-9",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 12 in woofer, a 5 in midrange and a 1 in tweeter = 3."
+        },
+        {
+          "record": "legacy-gen-9",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in Class D amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/8361a",
+      "host": "www.genelec.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 8361A studio monitor product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: 8361A is an active three-way monitor with two 10 in woofers, a 5 in midrange and a 1 in tweeter (four drive units), driven by built-in Class D amplification.",
+      "fieldResults": [
+        {
+          "record": "genelec-8361a",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists two 10 in woofers + 5 in midrange + 1 in tweeter = 4."
+        },
+        {
+          "record": "genelec-8361a",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in Class D amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/syva/",
+      "host": "www.l-acoustics.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "L-Acoustics Syva product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: Syva is a passive two-way colinear source with six 3 in midrange drivers and three 1.75 in compression drivers (nine drive units), for use with an external amplified controller.",
+      "fieldResults": [
+        {
+          "record": "legacy-la-6",
+          "field": "driverCount",
+          "value": 9,
+          "outcome": "PROMOTED",
+          "note": "Page lists six 3 in midrange drivers and three 1.75 in compression drivers = 9."
+        },
+        {
+          "record": "legacy-la-6",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Passive system; page specifies an external amplified controller."
+        }
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/k1/",
+      "host": "www.l-acoustics.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "L-Acoustics K1 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: K1 is a passive three-way line array with two 15 in woofers, four 6.5 in midrange drivers and three 2 in compression drivers (nine drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-la-4",
+          "field": "driverCount",
+          "value": 9,
+          "outcome": "PROMOTED",
+          "note": "Page lists 2 woofers + 4 midrange drivers + 3 compression drivers = 9."
+        }
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/k2/",
+      "host": "www.l-acoustics.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "L-Acoustics K2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: K2 is a passive three-way line array with two 12 in woofers, four 6.5 in midrange drivers and two 3 in compression drivers (eight drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-la-5",
+          "field": "driverCount",
+          "value": 8,
+          "outcome": "PROMOTED",
+          "note": "Page lists 2 woofers + 4 midrange drivers + 2 compression drivers = 8."
+        }
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "host": "www.martinlogan.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "MartinLogan ElectroMotion ESL X product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page: ElectroMotion ESL X is a hybrid electrostatic floorstanding speaker with a Folded Motion XT tweeter, a 6.5 in midrange and two 8 in woofers (three conventional drive units plus the electrostatic panel).",
+      "fieldResults": [
+        {
+          "record": "martinlogan-esl-x",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Page describes an electrostatic panel plus 1 tweeter + 1 midrange + 2 woofers; the schema does not define whether the ESL panel counts, and the stored value is 3. Not promoted."
+        },
+        {
+          "record": "martinlogan-esl-x",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The page gives recommended amplifier power but no explicit passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/motion-20",
+      "host": "www.martinlogan.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "MartinLogan Motion 20 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page: Motion 20 is a 2.5-way floorstanding speaker with a Folded Motion tweeter, a 5.5 in midrange and two 5.5 in woofers (three drive units).",
+      "fieldResults": [
+        {
+          "record": "martinlogan-motion-20",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 1 midrange + 2 woofers = 3."
+        },
+        {
+          "record": "martinlogan-motion-20",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The page gives recommended amplifier power but no explicit passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/motion-60xt",
+      "host": "www.martinlogan.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "MartinLogan Motion 60XT product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page specifications: 1.25 x 2.4 in Folded Motion XT tweeter, 6.5 in aluminium cone midrange and two 8 in aluminium cone woofers (four drive units); recommended amplifier power 20-400 W per channel, with no explicit passive/active wording.",
+      "fieldResults": [
+        {
+          "record": "martinlogan-motion-60xt",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Specification table gives only recommended amplifier power (20-400 W/ch) and no passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "host": "www.martinlogan.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "MartinLogan Motion 40 brochure",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Brochure: Motion 40 is a 2.5-way floorstanding speaker with a Folded Motion tweeter, a 5.5 in midrange and two 5.5 in woofers (three drive units).",
+      "fieldResults": [
+        {
+          "record": "martinlogan-motion-40",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "CONFLICT",
+          "note": "Brochure lists 1 tweeter + 1 midrange + 2 woofers = 5 drive units, while the stored value is 4. Left unchanged; the stored value is not promoted."
+        }
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/linton",
+      "host": "www.wharfedale.co.uk",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Wharfedale Linton heritage loudspeaker product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page specifications: 3-way bass-reflex with a 1 in (25 mm) textile dome tweeter, a 5 in (130 mm) Kevlar midrange and an 8 in (200 mm) Kevlar woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "wharfedale-linton",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 1 woofer = 3."
+        },
+        {
+          "record": "wharfedale-linton",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/diamond-12-0",
+      "host": "www.wharfedale.co.uk",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Wharfedale Diamond 12.0 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex bookshelf with a 1 in (25 mm) textile dome tweeter and a 4 in (100 mm) PP cone midbass driver.",
+      "fieldResults": [
+        {
+          "record": "wharfedale-diamond-12-0",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 1 in tweeter and a 4 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/diamond-12-2",
+      "host": "www.wharfedale.co.uk",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Wharfedale Diamond 12.2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex bookshelf with a 1 in (25 mm) textile dome tweeter and a 6.5 in (150 mm) PP cone midbass driver.",
+      "fieldResults": [
+        {
+          "record": "wharfedale-diamond-12-2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 1 in tweeter and a 6.5 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/evo4-1",
+      "host": "www.wharfedale.co.uk",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Wharfedale EVO4.1 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex standmount with an AMT tweeter and a 5 in (130 mm) woven Kevlar midbass driver.",
+      "fieldResults": [
+        {
+          "record": "wharfedale-evo4-1",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list an AMT tweeter and a 5 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/evo4-2",
+      "host": "www.wharfedale.co.uk",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Wharfedale EVO4.2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 3-way bass-reflex standmount with an AMT tweeter, a 2 in (50 mm) soft-dome midrange and a 6.5 in (165 mm) woven Kevlar woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "wharfedale-evo4-2",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Specifications list AMT tweeter + 2 in midrange + 6.5 in woofer = 3."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI EPICON 2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex standmount with a 29 mm soft-dome ribbon tweeter and a 6.5 in wood-fibre midbass driver.",
+      "fieldResults": [
+        {
+          "record": "dali-epicon-2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI EPICON 6 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2.5-way bass-reflex floorstanding speaker with a 29 mm ribbon tweeter, a 6.5 in wood-fibre midrange and two 6.5 in wood-fibre woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dali-epicon-6",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI EPICON 8 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 3-way bass-reflex floorstanding speaker with a 29 mm ribbon tweeter, a 5 in midrange and three 8 in wood-fibre woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "dali-epicon-8",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 3 woofers = 5."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI OPTICON 8 MK2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page specifications: 3-way bass-reflex floorstanding speaker with a 29 mm soft-dome tweeter, a 6.5 in midrange and two 8 in woofers plus two 8 in passive radiators. The driven count is five.",
+      "fieldResults": [
+        {
+          "record": "dali-opticon-8-mk2",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Page lists 5 driven units plus 2 passive radiators; the schema does not define whether passive radiators count, and the stored value is 5. Not promoted."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI OPTICON 2 MK2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex standmount with a 29 mm soft-dome tweeter and a 6.5 in wood-fibre midbass driver.",
+      "fieldResults": [
+        {
+          "record": "dali-opticon-2-mk2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI OPTICON 6 MK2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2.5-way bass-reflex floorstanding speaker with a 29 mm soft-dome tweeter, a 6.5 in midrange and two 6.5 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dali-opticon-6-mk2",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI RUBICON 2 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2-way bass-reflex standmount with a 29 mm soft-dome ribbon tweeter and a 6.5 in wood-fibre midbass driver.",
+      "fieldResults": [
+        {
+          "record": "dali-rubicon-2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI RUBICON 6 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 2.5-way bass-reflex floorstanding speaker with a 29 mm ribbon tweeter, a 6.5 in midrange and two 6.5 in woofers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "dali-rubicon-6",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
+      "host": "www.dali-speakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "DALI RUBICON 8 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page specifications: 3-way bass-reflex floorstanding speaker with a 29 mm ribbon tweeter, a 6.5 in midrange and three 6.5 in woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "dali-rubicon-8",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Specifications list 1 tweeter + 1 midrange + 3 woofers = 5."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A7 user manual (French edition)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "User manual: A7 is an active 2-way nearfield monitor with a 1 in X-ART tweeter and a 7 in woofer, driven by built-in 2 x 100 W amplifiers.",
+      "fieldResults": [
+        {
+          "record": "adam-a7",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Manual lists a 1 in tweeter and a 7 in woofer = 2."
+        },
+        {
+          "record": "adam-a7",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Manual lists built-in 2 x 100 W amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a44h/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A44H product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: A44H is an active 2-way monitor with two 4 in woofers and a 1 in X-ART tweeter (three drive units), driven by built-in DSP/amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-audio-a44h",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Page lists two 4 in woofers plus one 1 in tweeter = 3."
+        },
+        {
+          "record": "adam-audio-a44h",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a4v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A4V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: A4V is an active 2-way monitor with a 4 in woofer and a 1 in X-ART tweeter, driven by built-in DSP/amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-a4v",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 4 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "adam-a4v",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a77h/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A77H product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: A77H is an active 3-way monitor with two 7 in woofers, a 3.5 in midrange and a 1 in X-ART tweeter (four drive units), driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-audio-a77h",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists two 7 in woofers + 3.5 in midrange + 1 in tweeter = 4."
+        },
+        {
+          "record": "adam-audio-a77h",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a7v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A7V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: A7V is an active 2-way monitor with a 7 in woofer and a 1 in X-ART tweeter, driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "legacy-adam-4",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 7 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "legacy-adam-4",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a8h/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A8H product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page: A8H is an active 3-way monitor with two 8 in woofers, a 3.5 in midrange and a 1 in X-ART tweeter (four drive units), driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-a8h",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Page lists two 8 in woofers + 3.5 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "adam-a8h",
+          "field": "active",
+          "value": true,
+          "outcome": "NOT_STATED",
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/archived-products/s3a/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S3A archived product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Archived product page: S3A is an active 3-way monitor with two 7 in woofers, a 4 in midrange and a 1 in X-ART tweeter (four drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-adam-1",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "legacy-adam-1",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/ax-series/a5x/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio A5X product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: A5X is an active 2-way monitor with a 5 in woofer and a 1 in X-ART tweeter, driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-a5x",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 5 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "adam-a5x",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s2v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S2V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: S2V is an active 2-way monitor with a 7 in woofer and a 1 in S-ART tweeter, driven by built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "legacy-adam-6",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 7 in woofer and a 1 in tweeter = 2."
+        },
+        {
+          "record": "legacy-adam-6",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s3h/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S3H product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: S3H is an active 3-way monitor with two 7 in woofers, a 4 in midrange and a 1 in S-ART tweeter (four drive units).",
+      "fieldResults": [
+        {
+          "record": "adam-audio-s3h",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4."
+        },
+        {
+          "record": "adam-audio-s3h",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s3v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S3V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page: S3V is an active 3-way monitor with two 7 in woofers and a 4 in midrange plus a 1 in S-ART tweeter (four drive units).",
+      "fieldResults": [
+        {
+          "record": "adam-audio-s3v",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "adam-audio-s3v",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s5h/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S5H product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: S5H is an active 3-way monitor with two 10 in woofers, a 4 in midrange and a 1 in S-ART tweeter (four drive units).",
+      "fieldResults": [
+        {
+          "record": "adam-audio-s5h",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Page lists two 10 in woofers + 4 in midrange + 1 in tweeter = 4."
+        },
+        {
+          "record": "adam-audio-s5h",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio S3X-V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page: S3X-V is an active 3-way monitor with two 7 in woofers, a 4 in midrange and a 1 in X-ART tweeter (four drive units).",
+      "fieldResults": [
+        {
+          "record": "adam-s3x",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "CONFLICT",
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        },
+        {
+          "record": "adam-s3x",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes built-in amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t5v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio T5V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: T5V is an active 2-way monitor with a 5 in woofer and a 1.9 in U-ART tweeter, driven by built-in 2 x 50 W amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-t5v",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 5 in woofer and a 1.9 in tweeter = 2."
+        },
+        {
+          "record": "adam-t5v",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in 2 x 50 W amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t7v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio T7V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: T7V is an active 2-way monitor with a 7 in woofer and a 1.9 in U-ART tweeter, driven by built-in 2 x 50 W amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-audio-t7v",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists a 7 in woofer and a 1.9 in tweeter = 2."
+        },
+        {
+          "record": "adam-audio-t7v",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in 2 x 50 W amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t8v/",
+      "host": "www.adam-audio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "ADAM Audio T8V product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: T8V is an active 2-way monitor with an 8 in woofer and a 1.9 in U-ART tweeter, driven by built-in 2 x 50 W amplification.",
+      "fieldResults": [
+        {
+          "record": "adam-audio-t8v",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists an 8 in woofer and a 1.9 in tweeter = 2."
+        },
+        {
+          "record": "adam-audio-t8v",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists built-in 2 x 50 W amplification (active monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/loudspeakers/603-s3/300659.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 603 S3 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page technical details: 3-way vented-box system with one 25 mm titanium dome tweeter, one 150 mm Continuum FST midrange and two 165 mm paper-cone bass drivers (four drive units). The page lists no built-in amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-603-s3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Technical details list 1 tweeter + 1 midrange + 2 woofers = 4."
+        },
+        {
+          "record": "bowers-wilkins-603-s3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Product page lists recommended amplifier power but no explicit passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins ASW610 subwoofer product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Product page: ASW610 is an active subwoofer with a single 250 mm (10 in) paper/AramID cone woofer and a built-in 200 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-asw610",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Page lists one 250 mm woofer."
+        },
+        {
+          "record": "bowers-wilkins-asw610",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page lists a built-in 200 W Class D amplifier (active subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/system-products/607-s3/300661-01-00-005.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 607 S3 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page technical details: 2-way vented-box system with one 25 mm titanium dome tweeter and one 130 mm Continuum cone bass/midrange driver (two drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-607-s3",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Technical details list a 25 mm tweeter and a 130 mm bass/midrange driver = 2."
+        },
+        {
+          "record": "bowers-wilkins-607-s3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Product page lists recommended amplifier power but no explicit passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/product/loudspeakers/606-s3/300660.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 606 S3 product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product page technical details: 2-way vented-box system with one 25 mm titanium dome tweeter and one 165 mm Continuum cone bass/midrange driver (two drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-606-s3",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Technical details list a 25 mm tweeter and a 165 mm bass/midrange driver = 2."
+        },
+        {
+          "record": "bowers-wilkins-606-s3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Product page lists recommended amplifier power but no explicit passive/active wording."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins Formation Flex archived product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Archived product page: Formation Flex is a powered wireless speaker with two 25 mm (1 in) decoupled double-dome tweeters and two 90 mm (3.5 in) woofers, with built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-formation-flex",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Page lists one 25 mm tweeter and one 90 mm woofer = 2 drive units."
+        },
+        {
+          "record": "bowers-wilkins-formation-flex",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes a powered wireless speaker with built-in amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins Formation Wedge archived product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Archived product page: Formation Wedge is a powered wireless speaker with one 25 mm double-dome tweeter, two 90 mm midrange drivers and two 150 mm woofers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-formation-wedge",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Page lists 1 tweeter + 2 midrange + 2 woofers = 5."
+        },
+        {
+          "record": "bowers-wilkins-formation-wedge",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Page describes a powered wireless speaker with built-in amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins DB1D information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: DB1D is an active subwoofer with two 300 mm (12 in) Aerofoil cone woofers and a built-in 2000 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-db1d",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists two 300 mm woofers."
+        },
+        {
+          "record": "bowers-wilkins-db1d",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 2000 W Class D amplifier (active subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins DB4S information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: DB4S is an active subwoofer with a single 300 mm (12 in) Aerofoil cone woofer and a built-in 1000 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-db4s",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists one 300 mm woofer."
+        },
+        {
+          "record": "bowers-wilkins-db4s",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins DB3D information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: DB3D is an active subwoofer with two 200 mm (8 in) Aerofoil cone woofers and a built-in 1000 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-db3d",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists two 200 mm woofers."
+        },
+        {
+          "record": "bowers-wilkins-db3d",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins DB2D information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: DB2D is an active subwoofer with two 250 mm (10 in) Aerofoil cone woofers and a built-in 1000 W Class D amplifier.",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-db2d",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists two 250 mm woofers."
+        },
+        {
+          "record": "bowers-wilkins-db2d",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 800 D3 information sheet (archive)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 800 D3 is a 3-way vented-box system with one 25 mm diamond dome tweeter, one 150 mm Continuum FST midrange and two 250 mm Aerofoil bass drivers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-bw-7",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 702 S3 information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 702 S3 is a 3-way vented-box system with one 25 mm carbon-dome tweeter, one 150 mm Continuum FST midrange and three 165 mm Aerofoil bass drivers (five drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-702-s3",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 3 woofers = 5."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 704 S3 information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 704 S3 is a 3-way vented-box system with one 25 mm carbon-dome tweeter, one 130 mm Continuum FST midrange and two 165 mm Aerofoil bass drivers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-704-s3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins DM6 information sheet (archive)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Archived information sheet: DM6 is a 3-way system with one 25 mm dome tweeter, one 130 mm midrange and one 200 mm woofer (three drive units).",
+      "fieldResults": [
+        {
+          "record": "legacy-bw-1",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 1 woofer = 3."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 802 D3 information sheet (archive)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 802 D3 is a 3-way vented-box system with one 25 mm diamond dome tweeter, one 150 mm Continuum FST midrange and two 200 mm Aerofoil bass drivers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "bw-802d3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 804 D4 information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 804 D4 is a 3-way vented-box system with one 25 mm diamond dome tweeter, one 130 mm Continuum FST midrange and two 165 mm Aerofoil bass drivers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "bowers-wilkins-804-d4",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins 803 D4 information sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Information sheet: 803 D4 is a 3-way vented-box system with one 25 mm diamond dome tweeter, one 130 mm Continuum FST midrange and two 180 mm Aerofoil bass drivers (four drive units).",
+      "fieldResults": [
+        {
+          "record": "bw-803-d4",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins \"History of 800 Series\" article",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Article describes the original 801 as a three-driver, three-way system (one tweeter, one midrange and one woofer).",
+      "fieldResults": [
+        {
+          "record": "legacy-bw-2",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Article describes a three-driver 801 system."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
+      "host": "www.bowerswilkins.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 22,
+      "checkedDate": "2026-10-19",
+      "document": "Bowers & Wilkins \"History of Nautilus\" article",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Article describes Nautilus as a four-way system with four drive units (one each for bass, midbass, midrange and treble).",
+      "fieldResults": [
+        {
+          "record": "legacy-bw-4",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Article describes the four-way Nautilus with four drive units."
+        }
+      ]
+    }
+  ]
+}

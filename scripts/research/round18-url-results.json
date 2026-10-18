@@ -1,0 +1,104 @@
+{
+  "round": 18,
+  "entries": [
+    {
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "host": "www.eviaudio.fr",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "round": 18,
+      "document": "Electro-Voice Zx3 Series Owner’s Manual (covers Zx3-60, Zx3-90, Zx3-60PI, Zx3-90PI). Author: Electro-Voice (manufacturer). Host eviaudio.fr homepage names EVI AUDIO FRANCE, a professional audio distributor of Electro-Voice.",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "chunksTotal": 6,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Electro-Voice Zx3 Owner's Manual, DOC38110265 Rev B (chunks 0-5 inspected): copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337. Spec table (p. 3) covers Zx3-60B/60W/60PI (60° x 60°) and Zx3-90B/90W/90PI (90° x 50°): System Configuration \"Passive or Biamp 2-Way\"; LF Transducer \"DVX3121, 12 in (305 mm) Driver\"; HF Transducer \"ND2, 2 in (50 mm) Voice Coil Compression Driver on a 1 in Exit Horn\"; Frequency Response (-3 dB) \"58 Hz - 15,000 Hz\"; Axial Sensitivity (SPL, 1 W / 1 m) \"97 dB\" (half-space; 95 dB full-space); Power Handling (Full-Range) \"600 W Cont. / 2400 W Peak\"; Nominal Impedance \"8 Ohms\"; Connectors \"(2) 4 Contact Neutrik Speakon\".",
+      "fieldResults": [
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+        },
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "shared Zx3 passive mode statement."
+        }
+      ],
+      "checkedDate": "2026-10-13"
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "host": "www.fmicassets.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 18,
+      "document": "PreSonus R65 and R80 Active AMT Studio Monitors Owner’s Manual. Author: PreSonus (copyright line names PreSonus Audio Electronics, Inc.). Host fmicassets.com: owner-confirmed PreSonus document host (2026-10-13).",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "chunksTotal": 4,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"2-way active AMT studio monitor with DSP\"; \"self-powered\"; \"Class D biamped power configuration: 100W LF, 50W HF\". LF driver: R65 6.5 in woven composite, R80 8 in woven composite; HF driver: AMT 6.8 in2 (equivalent 3 in). Both models named in the same manual with R65 and R80 specification rows. Host www.fmicassets.com: owner confirmed on 2026-10-13 that it is PreSonus's document host (homepage fetch returned HTTP 500, so the operator was not read from the host itself).",
+      "fieldResults": [
+        {
+          "record": "presonus-r65",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
+        },
+        {
+          "record": "presonus-r65",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+        }
+      ],
+      "checkedDate": "2026-10-13",
+      "hostStatus": "ESTABLISHED_OWNER_CONFIRMED_2026-10-13"
+    }
+  ],
+  "checkedDate": "2026-10-13"
+}

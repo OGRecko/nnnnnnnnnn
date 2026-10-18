@@ -1,0 +1,1301 @@
+{
+  "round": 22,
+  "entries": [
+    {
+      "id": "klipsch-heresy",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Heresy specification sheet: single 12 in woofer plus mid-frequency and high-frequency compression drivers (3 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bw-805d3",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_europe_shared/default/dw8b9f6335/archive-manuals/805-d3-info-sheet_0.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 805 D3 information sheet, \"Drive units\": \"1x ø25mm (1 in) diamond dome high-frequency\" and \"1x ø165mm (6.5 in) Continuum cone bass midrange\"."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bowers-wilkins-705-s3",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/product/loudspeakers/705-s3/300522.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 705 S3 technical details, \"Drive units\": 1x ø25mm (1 in) Decoupled Carbon Dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass / midrange."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bowers-wilkins-707-s3",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/product/loudspeakers/707-s3/300525.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 707 S3 technical details, \"Drive units\": 1x ø25mm (1 in) Decoupled Carbon Dome high-frequency; 1x ø130mm (5 in) Continuum cone bass / midrange."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bw-805-d4",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/805-d4/150241-01-00-005.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 805 D4 technical details, \"Drive units\": 1x ø25mm (1 in) Diamond dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass midrange."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bowers-wilkins-805-d4-signature",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/en/product/loudspeakers/805-d4-signature/FP43745P.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 805 D4 Signature technical details, \"Drive units\": 1x ø25mm (1 in) Diamond Dome high-frequency; 1x ø165mm (6.5 in) Continuum cone bass/midrange."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bowers-wilkins-801-d4",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/product/loudspeakers/801-d4/150237-03-00-005.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 801 D4 technical details, \"Drive units\": 1x ø25mm Diamond dome HF; 1x ø150mm Continuum cone FST midrange; 2x ø250mm Aerofoil cone bass units."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "bowers-wilkins-802-d4",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/802-d4/150238-03-00-005.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: 802 D4 technical details, \"Drive units\": 1x ø25mm Diamond dome HF; 1x ø150mm Continuum cone FST midrange; 2x ø200mm Aerofoil cone bass units."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8341a",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8341a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Genelec 8341A product page: two 170 mm woofers, one 90 mm midrange and one 19 mm tweeter (4 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8341a",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8341a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Genelec 8341A product page: active monitor with built-in Class D amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8331a",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4 URL check (2026-10-11): value rejected, not restored. The Genelec page describes a three-way design and does not state a driver count. The held value of 4 is not supported."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8331a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Genelec 8331A product page: two 130 mm woofers, one 90 mm midrange and one 19 mm tweeter (4 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8351b",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8351b",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Genelec 8351B product page: two 218 mm woofers, one 130 mm midrange and one 25 mm tweeter (4 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8351b",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8351b",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Genelec 8351B product page: active monitor with built-in Class D amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "dynaudio-bm6a",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/classic-bm-range/bm6a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Dynaudio BM6A product page: 1 in soft-dome tweeter plus 6.9 in woofer (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "dynaudio-bm6a",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/classic-bm-range/bm6a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Dynaudio BM6A product page: active nearfield monitor with built-in amplifiers."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "adam-audio-a77x",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/content/uploads/2016/11/adam-audio-product-sheet-a77x_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ADAM A77X product sheet: two 7 in woofers and one X-ART tweeter (3 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "adam-audio-a77x",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/content/uploads/2016/11/adam-audio-product-sheet-a77x_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ADAM A77X product sheet: active monitor with built-in amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-twin6",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/twin6",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Twin6 product page: two 6.5 in \"W\" woofers and one 1.5 in beryllium tweeter (3 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-trio11-be",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/trio-11-be",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Trio11 Be product page: 10 in woofer, 5 in midrange and 1 in beryllium tweeter (3 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-trio11-be",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/trio-11-be",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Trio11 Be product page: active monitor with built-in amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-alpha-50-evo",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/alpha-50-evo",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Alpha 50 Evo product page: 1 in aluminium inverted dome tweeter and 5 in Slatefiber woofer (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-alpha-50-evo",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/alpha-50-evo",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Alpha 50 Evo product page: active monitor with built-in amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-shape-50",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/shape-50",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Shape 50 product page: 1 in aluminium/magnesium inverted dome tweeter and 5 in Flax woofer (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "eV-etx15p",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/binary/ETX-15P_EDS_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ETX-15P engineering data sheet: 15 in woofer and 1.25 in compression driver (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "eV-etx15p",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/binary/ETX-15P_EDS_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ETX-15P engineering data sheet: powered loudspeaker with built-in 1500 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "eV-elx200-18sp",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/ap/en/elx200-18sp",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ELX200-18SP product page: single 18 in woofer."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "eV-elx200-18sp",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/ap/en/elx200-18sp",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: ELX200-18SP product page: powered subwoofer with built-in 1200 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "electro-voice-ekx-12p",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/emea/de/ekx-12p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: EKX-12P product page: 12 in woofer and 1.4 in titanium compression driver (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "electro-voice-ekx-12p",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.electrovoice.com/emea/de/ekx-12p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: EKX-12P product page: powered loudspeaker with built-in 1500 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ks212c",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks212c/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KS212C product page: dual 12 in (305 mm) woofers in a cardioid subwoofer (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ks212c",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks212c/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KS212C product page: powered subwoofer with a built-in 3600 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k8.2",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/k.2/q_spk_k2_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC K.2 specification sheet: K8.2 configuration \"Multi-purpose, 2-way active loudspeaker\" with a 203 mm LF cone and a 35.6 mm HF compression driver."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k8.2",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/k.2/q_spk_k2_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC K.2 specification sheet: \"2-way active loudspeaker\" with a 2000 W power module."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-cp8",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC CP8 product page: 8 in woofer and 1.4 in compression driver (2 transducers)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-cp8",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC CP8 product page: powered loudspeaker with a built-in 1000 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-cp12",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp12/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC CP12 product page: 12 in woofer and 1.4 in compression driver (2 transducers)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-cp12",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp12/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC CP12 product page: powered loudspeaker with a built-in 1000 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ks118",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KS118 product page: single 18 in (457 mm) direct-radiating subwoofer driver."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ks118",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KS118 product page: powered subwoofer with a built-in 3600 W Class D amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-kw122",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KW user manual specification table: KW122 configuration \"12\\\" 2-way multipurpose loudspeaker\" with a 12 in LF cone and a 1.75 in HF compression driver."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-kw122",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KW user manual specification table: 1000 W Class D amplifier built into the enclosure."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-kw153",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KW user manual specification table: KW153 configuration \"15\\\" 3-way trapezoidal loudspeaker\" with a 15 in LF cone, a 6.5 in midrange cone and a 1.75 in HF compression driver."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-kw153",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC KW user manual specification table: 1000 W Class D amplifier built into the enclosure."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-e112",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e112/q_spk_e_112_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC E112 specification sheet: 12 in woofer and 1.4 in compression driver (2 transducers)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-e112",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e112/q_spk_e_112_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC E112 specification sheet describes a passive loudspeaker for use with an external amplifier."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ad-c6t",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC AD-C6T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ac-c4t",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC AC-C4T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ac-c6t",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC AC-C6T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-ac-c8t",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC AC-C8T specification sheet: passive 70/100 V ceiling loudspeaker for external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-wl3082",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4 URL check (2026-10-11): not restored; value stays N/A. The WL3082 page lists nominal impedance and continuous power capacity but does not state active or passive; the held False is not confirmed."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive line-array element requiring external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-wl212-sw",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4 URL check (2026-10-11): not restored; value stays N/A. The WL212-sw page lists 4 ohm nominal impedance and 1100 W continuous power capacity but does not state active or passive; the held False is not confirmed."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive subwoofer element requiring external amplification."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "kef-ls60-wireless",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 6,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.kef.com/product-support/ls60-wireless/LS60_Wireless_Info_sheet_EN.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: LS60 Wireless information sheet: per speaker, four 135 mm LF drivers plus a 100 mm MF driver and a 19 mm HF driver = 6 drive units."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "kef-ls60-wireless",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.kef.com/product-support/ls60-wireless/LS60_Wireless_Info_sheet_EN.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: LS60 Wireless information sheet: built-in amplification (LF 500 W, MF 100 W, HF 100 W per speaker)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "klipsch-r51m",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: R-51M specification sheet: one 5.25 in IMG woofer and one 1 in aluminium dome tweeter (2 drive units)."
+        }
+      },
+      "round": 22,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    }
+  ]
+}

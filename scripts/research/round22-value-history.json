@@ -1,0 +1,3881 @@
+{
+  "entries": [
+    {
+      "id": "kef-ls50-wireless",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Info sheet lists exactly two drive units: 25 mm HF + 130 mm LF/MF."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-ls50-wireless",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Info sheet lists built-in amplification (Class AB HF, Class D LF); self-powered."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-kf92",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Info sheet lists two 9 in (229 mm) woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-kf92",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Info sheet lists a 1000 W built-in Class D amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-q150",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://international.kef.com/products/q150-bookshelf-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://international.kef.com/products/q150-bookshelf-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 25 mm tweeter and a 130 mm Uni-Q driver (2 drive units)."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-q350",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://international.kef.com/products/q350-bookshelf-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://international.kef.com/products/q350-bookshelf-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 25 mm tweeter and a 165 mm Uni-Q driver (2 drive units)."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-r11-meta",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://international.kef.com/products/r11-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://international.kef.com/products/r11-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-blade-two-meta",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/blade-two",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/blade-two",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-lsx-ii",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/lsx-2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/lsx-2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 19 mm tweeter and a 115 mm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-lsx-ii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/lsx-2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/lsx-2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in Class D amplification; self-powered."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-r3-meta",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/r3-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/r3-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 1 bass driver = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-r3-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/r3-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/r3-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-r7-meta",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/r7-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/r7-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 2 bass drivers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-r7-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/r7-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/r7-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-1-meta",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 1 bass driver = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-1-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-3-meta",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 2 bass drivers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-3-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-5-meta",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 Uni-Q midrange + 4 bass drivers = 6."
+      },
+      "round": 22
+    },
+    {
+      "id": "kef-reference-5-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page explicitly labels the model a \"Passive HiFi Speaker\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-kef-9",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.kef.com/products/ls50-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.kef.com/products/ls50-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 25 mm tweeter and a 130 mm Uni-Q driver (2 drive units)."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-awr650sm",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 6.5 in woofer and two 0.75 in tweeters = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-cornwall-iv",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists HF and MF compression drivers plus a 15 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-forte-iv",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists HF and MF compression drivers plus a 12 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-heresy-iv",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists HF and MF compression drivers plus a 12 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-r-120sw",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 12 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-r-120sw",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in all-digital amplifier (200 W continuous)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-klip-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 4 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-la-scala-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists two compression drivers plus a 15 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-r-121sw",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 12 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-r-121sw",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in all-digital amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-100",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 10 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-100",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in Class D amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-120",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 12 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-120",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in Class D amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-150",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 15 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-spl-150",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in Class D amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp-5000f-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists two 5.25 in woofers and one 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp500m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp-500m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp6000f",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists two 6.5 in woofers and one 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp600m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp-600m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp-8000f-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists two 8 in woofers and one 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-rp8060fa",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists 2 main woofers + 1 tweeter + 1 height woofer + 1 height tweeter = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-cdt5650c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.klipsch.com/products/cdt-5650-c-ii",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.klipsch.com/products/cdt-5650-c-ii",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list one 6.5 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "klipsch-cdt-5800-c-ii",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.klipsch.com/products/cdt-5800-c-ii",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.klipsch.com/products/cdt-5800-c-ii",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list one 8 in woofer and one 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm100asl-pro",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list HF, mid and LF drive units = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm100asl-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in ATC amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm45a-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Product page and datasheet list built-in ATC amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm50asl-pro",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list HF, mid and LF drive units = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm50asl-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in ATC amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "atc-scm19",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 25 mm tweeter and a 150 mm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-result6",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/active/result6",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/active/result6",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 27 mm HF unit and a 170 mm LF driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-result6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/active/result6",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/active/result6",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in Class D amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-pmc6-2",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/pmc-6-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/pmc-6-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 HF + 1 mid + 2 LF drive units = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-pmc6-2",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/pmc-6-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/pmc-6-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-pmc8-2",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/pmc-8-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/pmc-8-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 HF + 1 mid + 2 LF drive units = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "pmc-pmc8-2",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pmc-speakers.com/studio/pmc-8-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pmc-speakers.com/studio/pmc-8-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-x12-128",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/F01U303039.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/F01U303039.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-x12-128",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/F01U303039.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/F01U303039.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet specifies passive operation with external amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "eV-force-i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet lists a 15 in woofer and a 1.25 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "eV-force-i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet specifies passive operation with an external amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sb122",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet lists one 12 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sb122",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive subwoofer; no built-in amplifier is listed."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx300pi",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive model; data sheet lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx300pix",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive model; data sheet lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx300e",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet lists a 12 in woofer and a 1.25 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx300e",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive model; data sheet lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx600",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Data sheet lists 15 in woofer + 6.5 in midrange + 1.25 in compression driver = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-sx600",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive model; data sheet lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-12-g2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-12-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-12-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 12 in woofer and a 1 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-12-g2",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-12-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-12-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page explicitly labels the model \"Passive\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-15-g2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-15-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-15-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 15 in woofer and a 1 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-15-g2",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-15-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-15-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page explicitly labels the model \"Passive\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-8-g2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-8-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-8-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists an 8 in woofer and a 1 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "electro-voice-zlx-8-g2",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.electrovoice.com/product/zlx-8-g2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.electrovoice.com/product/zlx-8-g2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page explicitly labels the model \"Passive\"."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-lsr305",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/products/lsr305.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/products/lsr305.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 5 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-lsr305",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/products/lsr305.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/products/lsr305.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists dual built-in Class D amplifiers (powered monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-jbl-11",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a 5.25 in woofer and a 0.75 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-control-52",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a single 8 in woofer in the subwoofer enclosure."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-control-52",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive system; spec sheet lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-srx828sp",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists two 18 in woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-srx828sp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Spec sheet lists a built-in 2000 W Class D amplifier (powered subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-lsr32",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists a 12 in woofer, a 5 in midrange and a 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "jbl-lsr32",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual describes passive operation with an external amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-mack-7",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a woofer and a 1.75 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-mack-7",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in Class D amplification (powered loudspeaker)."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-srm212",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-srm212",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in 2000 W Class D amplification (powered loudspeaker)."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-srm550",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 12 in woofer and a 1.4 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-srm550",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in Class D amplification (powered loudspeaker)."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-thump215xt",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 15 in woofer and a 1.4 in compression driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "mackie-thump215xt",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in 1400 W Class D amplification (powered loudspeaker)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bose-designmax-dm5se",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 5.25 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "bose-designmax-dm5se",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive model; page lists no built-in amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-dyn-7",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-dyn-7",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is filed under \"Passive Products\"; no built-in amplifier is listed."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-dyn-4",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is filed under \"Passive Products\"; no built-in amplifier is listed."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-20",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-20",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-30",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-30",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-50",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-50",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-50",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-confidence-50",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-50",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/confidence/confidence-50",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-20i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-20i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-30i",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-30i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-60i",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-contour-60i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-10",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-10",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-10",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and a 14 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-10",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-10",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-10",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-20",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-20",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-30",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 2 woofers = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-emit-30",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/emit/emit-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-10",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-10",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-10",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and a 14 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-10",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-10",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-10",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-20",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 28 mm tweeter and an 18 cm mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-20",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-30",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 2 woofers = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-30",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-30",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-30",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-50",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-50",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-50",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dynaudio-evoke-50",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-50",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/home-audio/evoke/evoke-50",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page is in the \"Passive Products\" range."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-chora-806",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter and a 6.5 in mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-chora-826",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-focal-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter and a 6.5 in mid/bass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-alpha-80-evo",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter and an 8 in woofer = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-alpha-80-evo",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-aria-926",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-aria-936",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-aria-948",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-focal-2",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists a built-in 1000 W BASH amplifier (powered subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-grande-utopia-em-evo",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists 1 tweeter + 1 midrange + 1 midbass + 2 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-grande-utopia-em-evo",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual describes passive operation with external amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-kanta-n-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-kanta-n-2",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-kanta-n-3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-maestro-utopia-evo",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-maestro-utopia-evo",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual describes passive operation with external amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sopra-n-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sopra-n-3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sub-one",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists two 8 in woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sub-one",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 2 x 200 W Class D amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sub6",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists one 11 in woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-sub6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 350 W BASH amplifier."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-trio6",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a 1 in tweeter, a 5 in midrange and an 8 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-trio6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-alpha-65-evo",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.focal.com/products/alpha-65-evo",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.focal.com/products/alpha-65-evo",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 1 in tweeter and a 6.5 in woofer = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "focal-alpha-65-evo",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.focal.com/products/alpha-65-evo",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.focal.com/products/alpha-65-evo",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-gen-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Release lists two 130 mm drivers = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-gen-8",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Release describes an active loudspeaker with built-in amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-gen-9",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/1237a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/1237a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 12 in woofer, a 5 in midrange and a 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-gen-9",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/1237a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/1237a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in Class D amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "genelec-8361a",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/8361a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/8361a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists two 10 in woofers + 5 in midrange + 1 in tweeter = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "genelec-8361a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.genelec.com/8361a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.genelec.com/8361a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in Class D amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-la-6",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.l-acoustics.com/products/syva/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.l-acoustics.com/products/syva/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists six 3 in midrange drivers and three 1.75 in compression drivers = 9."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-la-6",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.l-acoustics.com/products/syva/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.l-acoustics.com/products/syva/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Passive system; page specifies an external amplified controller."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-la-4",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.l-acoustics.com/products/k1/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.l-acoustics.com/products/k1/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 2 woofers + 4 midrange drivers + 3 compression drivers = 9."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-la-5",
+      "field": "driverCount",
+      "value": 8,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.l-acoustics.com/products/k2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.l-acoustics.com/products/k2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 2 woofers + 4 midrange drivers + 2 compression drivers = 8."
+      },
+      "round": 22
+    },
+    {
+      "id": "martinlogan-motion-20",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.martinlogan.com/en/product/motion-20",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.martinlogan.com/en/product/motion-20",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 1 midrange + 2 woofers = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "wharfedale-linton",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/products/linton",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/products/linton",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 1 woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "wharfedale-diamond-12-0",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/products/diamond-12-0",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/products/diamond-12-0",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 1 in tweeter and a 4 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "wharfedale-diamond-12-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/products/diamond-12-2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/products/diamond-12-2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 1 in tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "wharfedale-evo4-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/products/evo4-1",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/products/evo4-1",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list an AMT tweeter and a 5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "wharfedale-evo4-2",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/products/evo4-2",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/products/evo4-2",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list AMT tweeter + 2 in midrange + 6.5 in woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-epicon-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-epicon-6",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-epicon-8",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-opticon-2-mk2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-opticon-6-mk2",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-rubicon-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list a 29 mm tweeter and a 6.5 in midbass driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-rubicon-6",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "dali-rubicon-8",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Specifications list 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a7",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists a 1 in tweeter and a 7 in woofer = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a7",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Manual lists built-in 2 x 100 W amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-a44h",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a44h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a44h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists two 4 in woofers plus one 1 in tweeter = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-a44h",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a44h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a44h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a4v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a4v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a4v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 4 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a4v",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a4v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a4v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-a77h",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a77h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a77h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists two 7 in woofers + 3.5 in midrange + 1 in tweeter = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-a77h",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a77h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a77h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-adam-4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a7v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a7v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 7 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-adam-4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/a-series/a7v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/a-series/a7v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-adam-1",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/archived-products/s3a/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/archived-products/s3a/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a5x",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/ax-series/a5x/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/ax-series/a5x/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 5 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-a5x",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/ax-series/a5x/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/ax-series/a5x/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-adam-6",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s2v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s2v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 7 in woofer and a 1 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-adam-6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s2v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s2v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-s3h",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s3h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s3h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-s3h",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s3h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s3h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-s3v",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s3v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s3v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-s5h",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s5h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s5h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists two 10 in woofers + 4 in midrange + 1 in tweeter = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-s5h",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/s-series/s5h/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/s-series/s5h/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-s3x",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes built-in amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-t5v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t5v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t5v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 5 in woofer and a 1.9 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-t5v",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t5v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t5v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in 2 x 50 W amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-t7v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t7v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t7v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a 7 in woofer and a 1.9 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-t7v",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t7v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t7v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in 2 x 50 W amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-t8v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t8v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t8v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists an 8 in woofer and a 1.9 in tweeter = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "adam-audio-t8v",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.adam-audio.com/en/t-series/t8v/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.adam-audio.com/en/t-series/t8v/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists built-in 2 x 50 W amplification (active monitor)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-603-s3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/603-s3/300659.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/product/loudspeakers/603-s3/300659.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Technical details list 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-asw610",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists one 250 mm woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-asw610",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists a built-in 200 W Class D amplifier (active subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-607-s3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/product/system-products/607-s3/300661-01-00-005.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/product/system-products/607-s3/300661-01-00-005.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Technical details list a 25 mm tweeter and a 130 mm bass/midrange driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-606-s3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/product/loudspeakers/606-s3/300660.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/product/loudspeakers/606-s3/300660.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Technical details list a 25 mm tweeter and a 165 mm bass/midrange driver = 2."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-formation-flex",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists one 25 mm tweeter and one 90 mm woofer = 2 drive units."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-formation-flex",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes a powered wireless speaker with built-in amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-formation-wedge",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page lists 1 tweeter + 2 midrange + 2 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-formation-wedge",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Page describes a powered wireless speaker with built-in amplification."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db1d",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists two 300 mm woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db1d",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 2000 W Class D amplifier (active subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db4s",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists one 300 mm woofer."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db4s",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db3d",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists two 200 mm woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db3d",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db2d",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists two 250 mm woofers."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-db2d",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists a built-in 1000 W Class D amplifier (active subwoofer)."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-bw-7",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-702-s3",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 3 woofers = 5."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-704-s3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-bw-1",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 1 woofer = 3."
+      },
+      "round": 22
+    },
+    {
+      "id": "bw-802d3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "bowers-wilkins-804-d4",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "bw-803-d4",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-bw-2",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Article describes a three-driver 801 system."
+      },
+      "round": 22
+    },
+    {
+      "id": "legacy-bw-4",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 22: Article describes the four-way Nautilus with four drive units."
+      },
+      "round": 22
+    }
+  ],
+  "marker": "round22-queue-batch"
+}

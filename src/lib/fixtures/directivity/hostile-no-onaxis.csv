@@ -1,0 +1,4 @@
+azimuth_deg,elevation_deg,frequency_hz,magnitude_db
+30,0,1000,90
+60,0,1000,89
+90,0,1000,88
