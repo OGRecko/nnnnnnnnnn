@@ -156,6 +156,60 @@ HOST_UPDATES = {
         'sources': ['https://www.hifi-guide.com/loudspeaker/bowers-wilkins-801-matrix/'],
         'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
     },
+    'www.fullcompass.com': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'Full Compass Systems (audio retailer)',
+        'evidence': [
+            'Retailer product pages reproduce manufacturer specification lists; they support but never promote a field (Round 25).',
+        ],
+        'sources': ['https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
+    'audio-database.com': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'audio-database.com (enthusiast specification archive)',
+        'evidence': [
+            'Japanese enthusiast loudspeaker archive; supports but never promotes a field (Round 25).',
+        ],
+        'sources': ['https://audio-database.com/JBL/speaker/4312-e.html'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
+    'www.hifiengine.com': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'HiFi Engine (manual library)',
+        'evidence': [
+            'User-contributed manual library; supports but never promotes a field (Round 25).',
+        ],
+        'sources': ['https://www.hifiengine.com/manual_library/pioneer/hpm-100.shtml'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
+    'www.manualzz.com': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'Manualzz (document aggregator)',
+        'evidence': [
+            'Document aggregator; supports but never promotes a field (Round 25).',
+        ],
+        'sources': ['https://www.manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
+    'www.promusic.cz': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'PRO MUSIC (Czech audio dealer)',
+        'evidence': [
+            'Dealer-hosted copy of an L-Acoustics specification sheet; supports but never promotes a field (Round 25).',
+        ],
+        'sources': ['https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
+    'www.warehousesound.com': {
+        'status': 'NOT_MANUFACTURER',
+        'operator': 'Warehouse Sound (audio dealer)',
+        'evidence': [
+            'Dealer-hosted copy of a JBL specification sheet; supports but never promotes a field (Round 25).',
+        ],
+        'sources': ['https://www.warehousesound.com/r/jblEon15.pdf'],
+        'note': 'Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only.'
+    },
     'www.radiomuseum.org': {
         'status': 'NOT_MANUFACTURER',
         'operator': 'Radiomuseum.org (collector catalogue)',

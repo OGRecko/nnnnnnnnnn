@@ -6099,6 +6099,244 @@
       "sourceClass": "NON_MANUFACTURER_HOST",
       "round": 25,
       "coverage": "Radiomuseum technical specifications: \"Loudspeaker: 2 Loudspeakers\"; \"Power type and voltage: No Power needed\"; year 1958; dimensions 322 x 597 x 302 mm."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX1122 (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: SMX2120\"; \"HF Transducer: DH3\"; \"Nominal Impedance (Passive): 8 Ohms\"; \"Internal Crossover: Yes\"; page title \"500W Passive Loudspeaker\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX1152 (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: 15-inch SMX2151\"; \"1.25-inch DH3/2010A titanium HF compression driver\"; \"Power handling: 500 W continuous\"; \"Internal Crossover: Yes\"; page title \"500W Passive Loudspeaker\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX2152 (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: (2) SMX2151\"; \"HF Transducer: ND2\"; \"Nominal Impedance (passive): 4 ohms\"; \"Internal Crossover: Yes\"; page title \"Dual 15\\\" 2-Way Passive Speaker\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX1181 (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: EVS18S\"; \"Nominal Impedance (Passive): 8 Ohms\"; \"Speaker Type: Subs\"; page title \"18\\\" 500W Passive Subwoofer\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX2181 (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: (2) EVS18S\"; \"Nominal Impedance (Passive): 4 Ohms\"; \"Internal Crossover: No\"; \"Two high-excursion EVS-18S woofers\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX1122FM (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer description: \"The TX1122FM is a 12\\\", two-way passive floor monitor\"; \"12\\\", low-distortion SMX2121 woofer and 1-1/4\\\" DH3/2010A titanium high-frequency compression driver\"; \"Nominal Impedance (Passive): 8 Ohms\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+      "host": "www.fullcompass.com",
+      "document": "Full Compass product page: Electro-Voice TX1152FM (dealer copy of the specification list)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Dealer specification list: \"LF Transducer: SMX2151\"; \"HF Transducer: DH3\"; \"Nominal Impedance (Passive): 8 Ohms\"; page title \"15\\\" 2-Way Passive Vertical Floor Monitor\"."
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/4312-e.html",
+      "host": "audio-database.com",
+      "document": "audio-database.com JBL 4312 specification entry",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Entry: \"Method 3-Way, 3-Speaker, Bass reflex system\"; \"For Low Band: 30 cm Cone Type (2213H)\"; \"For Middle Range: 13 cm Cone Type (LE5-12)\"; \"For High Range: 3.6 cm Cone Type (LE25-2)\"; \"Allowable input 80W (continuous program)\"; 8 Ω."
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/hpm-100.shtml",
+      "host": "www.hifiengine.com",
+      "document": "HiFi Engine Pioneer HPM-100 manual-library entry",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Entry: \"4 way, 4 driver loudspeaker system\"; \"Bass: 1 x 300mm cone\"; \"Midrange: 1 x 100mm cone\"; \"Tweeter: 1 x 45mm cone\"; \"Super Tweeter: 1 x HPM high polymer\"."
+    },
+    {
+      "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+      "host": "www.promusic.cz",
+      "document": "L-Acoustics ARCS WIDE specification sheet (dealer-hosted copy)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Specification sheet: \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms. It features one 12-inch LF speaker ... and one 3-inch diaphragm compression driver\"; \"Transducers LF: 1 x 12-inch, weather-resistant, bass-reflex HF: 1 x 3-inch, diaphragm compression driver\"."
+    },
+    {
+      "url": "https://www.warehousesound.com/r/jblEon15.pdf",
+      "host": "www.warehousesound.com",
+      "document": "JBL EON 15 specification document (dealer-hosted copy)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Specification document: \"The EON 15 is a 15 inch two-way passive speaker system\"; \"Proprietary 15\\\" Differential Drive Low Frequency Transducer\"; \"1\\\" Pure Titanium Diaphragm Compression Driver\"; power handling 250 W; 8 ohms."
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
+      "host": "www.fmicassets.com",
+      "document": "Fender Bassman 410/115 loudspeaker enclosures owner's manual (2005)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 25,
+      "coverage": "Manual: \"Your new Bassman 410/115 loudspeaker enclosures ... are designed for use with the Fender Bassman 250 head amplifier or any other professional quality bass amplifier\"; \"BASSMAN 410: Four 10\" Eminence 8Ω woofers (068843)\"; \"BASSMAN 115: One 15\" Eminence 8Ω woofer\"; both \"8Ω\"."
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/t1650/",
+      "host": "rockfordfosgate.com",
+      "document": "Rockford Fosgate T1650 Power 6.5\" 2-Way Euro Fit Full Range Speaker page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 25,
+      "coverage": "PDP specifications: \"Speaker Type: 2-Way Coax\"; \"Tweeter Size 1.0\" (25.4mm)\"; \"Midrange Size 6.5\" (Nominal Diameter)\"; \"Crossover: Built-in tweeter crossover\"; 4-Ohm."
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "host": "www.fullcompass.com",
+      "document": "Electro-Voice Zx4 data sheet (dealer-hosted copy)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Data sheet: \"EVS15-SF 15\" LF Transducer\"; \"DH3 1.25\" Voice Coil, 1\" Exit Compression Driver\"; \"Nominal Impedance: 8 Ohms\"; block diagram shows a passive LPF/HPF crossover and limiter with no amplifier."
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+      "host": "www.fullcompass.com",
+      "document": "NEXO PS Series brochure, PS15 pages (dealer-hosted copy)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        9
+      ],
+      "chunksTotal": 14,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "coverage": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\"."
+    },
+    {
+      "url": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+      "host": "ca.yamaha.com",
+      "document": "Yamaha NS-5000 history page",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 25,
+      "coverage": "The fetched page returned account/login and navigation content; the NS-5000 history narrative did not include any NS-690 drive-unit specification text in the served chunk."
+    },
+    {
+      "url": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
+      "host": "hub.yamaha.com",
+      "document": "Yamaha \"A History of Yamaha Studio Reference Monitors\" article",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 25,
+      "coverage": "The article narrates Yamaha monitor history and the HS series but the served chunk gives no NS-10M drive-unit count."
     }
   ],
   "openQuestionsForOwner": [

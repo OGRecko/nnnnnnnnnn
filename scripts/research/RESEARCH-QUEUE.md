@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **257** fields across **183** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **255** fields across **181** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **192** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -62,7 +62,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-sentry-500 | Electro-Voice | Sentry 500 (`eV-sentry-500`) | 2 | 0 | 0 |
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
-| fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 1 | 0 | 1 |
 | focal-scala-utopia-evo | Focal | Scala Utopia Evo (`focal-scala-utopia-evo`) | 2 | 0 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
@@ -198,7 +197,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
 | rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
 | revel-ultima-salon2 | Revel | Ultima Salon2 (`revel-ultima-salon2`) | 1 | 0 | 1 |
-| rockford-fosgate-t1650 | Rockford Fosgate | T1650 (`rockford-fosgate-t1650`) | 1 | 0 | 1 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
@@ -281,6 +279,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dynaudio-lyd-5 | Dynaudio | LYD 5 (`dynaudio-lyd-5`) | 0 | 0 | 1 |
 | dynaudio-lyd-7 | Dynaudio | LYD 7 (`dynaudio-lyd-7`) | 0 | 0 | 1 |
 | eaw-kf760 | EAW | KF760 (`eaw-kf760`) | 1 | 0 | 0 |
+| fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 0 | 0 | 1 |
 | focal-aria-926 | Focal | Aria 926 (`focal-aria-926`) | 1 | 0 | 0 |
 | focal-aria-936 | Focal | Aria 936 (`focal-aria-936`) | 1 | 0 | 0 |
 | focal-aria-948 | Focal | Aria 948 (`focal-aria-948`) | 1 | 0 | 0 |
@@ -416,6 +415,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | rockford-fosgate-p3 | Rockford Fosgate | Punch P3D4-12 (Dual 4Ω) (`rockford-fosgate-p3`) | 0 | 0 | 1 |
 | rockford-fosgate-r165x3 | Rockford Fosgate | R165X3 (`rockford-fosgate-r165x3`) | 0 | 0 | 1 |
 | rockford-fosgate-r1675x2 | Rockford Fosgate | R1675X2 (`rockford-fosgate-r1675x2`) | 0 | 0 | 1 |
+| rockford-fosgate-t1650 | Rockford Fosgate | T1650 (`rockford-fosgate-t1650`) | 0 | 0 | 1 |
 | rockford-fosgate-t1650-s | Rockford Fosgate | T1650-S (`rockford-fosgate-t1650-s`) | 0 | 0 | 1 |
 | sonance-vp86 | Sonance | Visual Performance VP86 (`sonance-vp86`) | 0 | 1 | 0 |
 | sonos-play1 | Sonos | Play:1 (`sonos-play1`) | 0 | 0 | 1 |

@@ -764,6 +764,40 @@
         "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given."
       },
       "round": 25
+    },
+    {
+      "id": "fender-bassman-410",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 25: The manual describes the Bassman 410 as a loudspeaker enclosure driven by an external Bassman 250 head or another bass amplifier, with no built-in amplifier."
+      },
+      "round": 25
+    },
+    {
+      "id": "rockford-fosgate-t1650",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://rockfordfosgate.com/products/details/t1650/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://rockfordfosgate.com/products/details/t1650/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 25: The T1650 is a 2-way coaxial with a 6.5-inch midrange and a 1-inch tweeter: 2 transducers."
+      },
+      "round": 25
     }
   ],
   "marker": "round25-queue-batch"
