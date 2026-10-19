@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **400** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 93 brands.
+Records still needing research: **392** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 92 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **221** fields across **162** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **177** fields (no source recorded).
+- CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **167** fields (no source recorded).
 - NO_PROVENANCE: **188** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -62,12 +62,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
-| genelec-1032c | Genelec | 1032C (`genelec-1032c`) | 0 | 2 | 0 |
 | genelec-8020d | Genelec | 8020D (`genelec-8020d`) | 0 | 0 | 2 |
 | genelec-8030c | Genelec | 8030C (`genelec-8030c`) | 0 | 0 | 2 |
-| genelec-8040b | Genelec | 8040B (`genelec-8040b`) | 0 | 2 | 0 |
-| genelec-8260a | Genelec | 8260A (`genelec-8260a`) | 0 | 2 | 0 |
-| genelec-8351a | Genelec | 8351A (`genelec-8351a`) | 0 | 2 | 0 |
 | harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 2 | 0 | 0 |
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
@@ -115,7 +111,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
 | legacy-focal-1 | Focal | Chorus 707 (`legacy-focal-1`) | 1 | 0 | 1 |
 | legacy-focal-5 | Focal | Trio6 Be (`legacy-focal-5`) | 2 | 0 | 0 |
-| legacy-gen-5 | Genelec | 8050B (`legacy-gen-5`) | 0 | 2 | 0 |
 | legacy-jbl-1 | JBL | D130 (`legacy-jbl-1`) | 2 | 0 | 0 |
 | legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 2 | 0 | 0 |
 | legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 2 | 0 | 0 |
@@ -235,9 +230,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-epicon-2 | DALI | Epicon 2 (`dali-epicon-2`) | 0 | 0 | 1 |
 | dali-epicon-6 | DALI | Epicon 6 (`dali-epicon-6`) | 0 | 0 | 1 |
 | dali-epicon-8 | DALI | Epicon 8 (`dali-epicon-8`) | 0 | 0 | 1 |
-| dali-oberon-3 | DALI | Oberon 3 (`dali-oberon-3`) | 1 | 0 | 0 |
-| dali-oberon-5 | DALI | Oberon 5 (`dali-oberon-5`) | 1 | 0 | 0 |
-| dali-oberon7 | Dali | Oberon 7 (`dali-oberon7`) | 1 | 0 | 0 |
 | dali-opticon-2-mk2 | DALI | Opticon 2 MK2 (`dali-opticon-2-mk2`) | 0 | 0 | 1 |
 | dali-opticon-6-mk2 | DALI | Opticon 6 MK2 (`dali-opticon-6-mk2`) | 0 | 0 | 1 |
 | dali-opticon-8-mk2 | DALI | Opticon 8 MK2 (`dali-opticon-8-mk2`) | 0 | 0 | 1 |

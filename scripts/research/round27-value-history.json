@@ -1172,6 +1172,341 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.presonus.com/products/eris-e8-xt-monitor"
+    },
+    {
+      "id": "genelec-8040b",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 165 mm (6.5\") bass cone driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf"
+    },
+    {
+      "id": "genelec-8040b",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"8040B Active Monitoring System\", \"compact bi-amplified active monitor system\" with built-in 90 W bass and 90 W treble amplifiers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf"
+    },
+    {
+      "id": "legacy-gen-5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: 8050B: 205 mm (8\") bass driver + 25 mm (1\") metal dome high-frequency driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf"
+    },
+    {
+      "id": "legacy-gen-5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Manual title \"8040B and 8050B Active Monitoring Systems\"; \"Designed as active loudspeakers, they contain drivers, power amplifiers, active crossover filters and protection circuitry.\""
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf"
+    },
+    {
+      "id": "genelec-8351a",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/previous-models/8351a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Driver dimensions: 19 mm treble + 120 mm midrange (coaxial pair) + two 100 x 215 mm racetrack bass drivers, i.e. four transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/previous-models/8351a"
+    },
+    {
+      "id": "genelec-8351a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/previous-models/8351a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board amplification listed per band (150 W bass, 120 W midrange, 90 W treble) in a Genelec \"Smart Active Monitoring (SAM™)\" monitor."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/previous-models/8351a"
+    },
+    {
+      "id": "genelec-8260a",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Specifications: 255 mm (10 in) bass + 120 mm coaxial midrange + 19 mm coaxial treble."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf"
+    },
+    {
+      "id": "genelec-8260a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Back panel reads \"8260A DSP TRI-AMPLIFIED MONITORING SYSTEM\"; amplifier row lists 150 W bass + 120 W midrange + 120 W treble in the enclosure."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf"
+    },
+    {
+      "id": "genelec-1032c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/1032c",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Driver dimensions: ⌀ 250 mm bass + ⌀ 25 mm treble."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/1032c"
+    },
+    {
+      "id": "genelec-1032c",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/1032c",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board 250 W bass and 150 W treble Class D amplification, \"Active Crossovers\" and \"Smart Active Monitoring (SAM™)\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/1032c"
+    },
+    {
+      "id": "dali-oberon-3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 1 x 180 mm (7\") wood-fibre mid/bass driver in a 2-way system. Confirms the value that was cited but not extractable from the manual."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf"
+    },
+    {
+      "id": "dali-oberon-5",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 2 x 130 mm (5 1/4\") wood-fibre mid/bass drivers in a 2-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf"
+    },
+    {
+      "id": "dali-oberon7",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 2 x 180 mm (7\") wood-fibre mid/bass drivers in a 2-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf"
     }
   ]
 }

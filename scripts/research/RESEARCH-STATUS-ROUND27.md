@@ -293,9 +293,47 @@ either an owner ruling on third-party sources or a manufacturer-hosted copy. `ww
 `ESTABLISHED` and `assets.ctfassets.net` is `ESTABLISHED_FOR_LINKED_DOCUMENTS`, which is why the Genelec
 datasheets above were usable.
 
+## Batch 8 — DALI OBERON driver counts and five Genelec monitors
+
+The DALI manual genuinely omits its Table 2, so those three fields had been left `NOT_EXTRACTED` since
+Round 12. DALI's own technical-information PDF prints the table for every OBERON model, so the values are
+now verified from a different DALI document. The manual URL keeps its outcome, changed to
+`RESOLVED_ELSEWHERE` with the resolving source named — the queue checks that outcome explicitly instead
+of warning about it.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `dali-oberon-3` | `driverCount` | 2 | 1 x 29 mm dome + 1 x 180 mm (7") mid/bass, 2-way |
+| `dali-oberon-5` | `driverCount` | 3 | 1 x 29 mm dome + 2 x 130 mm (5¼") mid/bass, 2-way |
+| `dali-oberon7` | `driverCount` | 3 | 1 x 29 mm dome + 2 x 180 mm (7") mid/bass, 2-way |
+| `genelec-8040b` | `driverCount` / `active` | 2 / true | "8040B Active Monitoring System"; 19 mm dome + 165 mm cone; 90 W + 90 W |
+| `legacy-gen-5` (8050B) | `driverCount` / `active` | 2 / true | manual title "8040B and 8050B Active Monitoring Systems"; 205 mm + 25 mm |
+| `genelec-8351a` | `driverCount` / `active` | 4 / true | dual 100 x 215 mm racetrack bass + 120 mm coax mid + 19 mm coax treble; 150/120/90 W |
+| `genelec-8260a` | `driverCount` / `active` | 3 / true | 255 mm bass + 120 mm coax mid + 19 mm coax treble; "DSP TRI-AMPLIFIED" |
+| `genelec-1032c` | `driverCount` / `active` | 2 / true | ⌀ 250 mm bass + ⌀ 25 mm treble; 250 W + 150 W Class D |
+
+Two documents carried the same 8351A rows; the duplicate rows were collapsed before the applier ran, and
+after the first aborted run the results file had to be corrected because the dedupe had also removed the
+DALI rows (they legitimately appeared in an earlier round against a different URL). The applier is
+idempotent, so re-running after the correction wrote exactly the thirteen missing fields.
+
+## Counts after batch 8
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 741 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 167 |
+| no provenance at all | 188 |
+
+Research backlog: 392 of 657 records. Queue: 218 items across 161 URLs, all assessed
+(`assessed=218, unassessed=0`), zero consistency warnings. Typecheck clean; `npm test` 82/82 (the first
+run failed 15 suites only because the dependency tree had not been reinstalled in this sandbox —
+`npm ci` restored `tsc` and the suites passed unchanged).
+
 ## Remaining in this round
 
-221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed), 193 unsourced fields, 189 fields with no provenance,
+221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 

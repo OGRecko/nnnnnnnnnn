@@ -5,16 +5,16 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 221,
-  "assessedItems": 221,
+  "uncheckedItems": 218,
+  "assessedItems": 218,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 162,
+  "uniqueSourceUrls": 161,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 147,
+    "CHECKED_PARTIAL": 146,
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 197,
+    "CHECKED_PARTIAL": 194,
     "INACCESSIBLE": 24
   },
   "statusCounts": [
@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 273
+      "count": 278
     },
     {
       "field": "active",
@@ -40,19 +40,19 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 97
+      "count": 92
     },
     {
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 76
+      "count": 73
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 455
+      "count": 463
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 80
+      "count": 75
     }
   ],
   "resolvedSourceUrls": [
@@ -84,6 +84,8 @@
     "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
     "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
     "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+    "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+    "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
@@ -91,6 +93,7 @@
     "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+    "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
     "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
     "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
@@ -274,6 +277,8 @@
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
     "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
     "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+    "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+    "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
     "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
     "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
     "https://www.devialet.com/en-us/soundbar/dione/",
@@ -287,8 +292,10 @@
     "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
     "https://www.focal.com/products/alpha-65-evo",
     "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+    "https://www.genelec.com/1032c",
     "https://www.genelec.com/1237a",
     "https://www.genelec.com/8361a",
+    "https://www.genelec.com/previous-models/8351a",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
@@ -369,50 +376,6 @@
   ],
   "warnings": [],
   "groups": [
-    {
-      "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "host": "www.dali-speakers.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 3,
-      "records": [
-        "dali-oberon-3",
-        "dali-oberon-5",
-        "dali-oberon7"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "dali-oberon-3",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "The manual points to \"Table 2\" for technical specifications, but that table is not present in the retrieved text, so no driver count can be read. Value left unchanged."
-        },
-        {
-          "record": "dali-oberon-5",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
-        },
-        {
-          "record": "dali-oberon7",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
-        }
-      ],
-      "checkedRound": 27,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0,
-        4
-      ],
-      "evidence": "The manual refers to \"TABLE 1\" for carton contents (speakers per carton, grilles, pads) and to \"TABLE 2\" for \"10.0 TECHNICAL SPECIFICATIONS\", stating \"I tabel 2 finder du de mest almindelige specifikationer for højttalerserien\". The retrieved text contains neither Table 2 nor any per-model driver complement, driver size or count; the specification table is not present in the extracted text of the pages retrieved (sections 1.0-10.0 in four languages are prose only). No driver count can be read from this document, so none is recorded."
-    },
     {
       "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
       "host": "assets.kef.com",

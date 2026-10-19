@@ -7100,6 +7100,96 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Overview heading: \"2-Way Active Studio Monitor with EBM Waveguide\". Features: \"8-inch woven composite low-frequency transducer\", \"1.25-inch (32 mm), ultra-low-mass, silk-dome, high-frequency transducer\", \"140 Watt, Class AB bi-amplification drives up to 105 dB of sound\". Specs: LF Transducers \"8\" Reinforced Woofer\", HF Transducers \"1.25\" Silk Dome Tweeter\", crossover 2.2 kHz, balanced XLR/TRS and RCA line inputs."
+    },
+    {
+      "url": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+      "host": "www.dali-speakers.com",
+      "document": "DALI OBERON technical information (Technische Information), table \"TECHNISCHE DATEN\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1,
+        2
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The closing \"TECHNISCHE DATEN\" table gives, per model, \"Hochtöner: 1 x 29 mm φ Gewebekalotte\" and \"Tiefmitteltöner\": OBERON 1 \"1 x 130 mm φ (5 1/4\\\")\", OBERON 3 \"1 x 180 mm φ (7\\\")\", OBERON 5 \"2 x 130 mm φ (5 1/4\\\")\", OBERON 7 \"2 x 180 mm φ (7\\\")\"; \"Prinzip: 2-Wege\" for all four. The accompanying text describes the OBERON 5 as having \"zwei 130 mm (5 1/4\\\") großen Holzfaser-Tiefmitteltönern\" and the OBERON 7 as \"zwei 180 mm (7\\\") großen Tiefmitteltönern\"."
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+      "host": "assets.ctfassets.net",
+      "document": "Genelec 8040B datasheet (2023)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Heading \"8040B Active Monitoring System\"; body: \"The Genelec 8040B is a compact bi-amplified active monitor system\". Drivers: \"A 19 mm (3/4\\\") metal dome tweeter\" and \"The 165 mm (6.5\\\") bass cone driver\"; \"The bass and treble amplifiers produce 90 W of output power each\"."
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+      "host": "assets.ctfassets.net",
+      "document": "Genelec 8040B / 8050B Operating Manual",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 8,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Manual title: \"Genelec 8040B and 8050B Active Monitoring Systems\". System section: \"The GENELEC 8040B and 8050B are two way active monitoring loudspeakers ... Designed as active loudspeakers, they contain drivers, power amplifiers, active crossover filters and protection circuitry.\" Drivers: \"The bass driver dimensions are 165 mm (6 1/2\\\") and 205 mm (8\\\") for 8040B and 8050B respectively ... The high frequency driver is a 19 mm (3/4\\\") metal dome on the 8040B and a 25 mm (1\\\") metal dome on the 8050B.\""
+    },
+    {
+      "url": "https://www.genelec.com/previous-models/8351a",
+      "host": "www.genelec.com",
+      "document": "Genelec 8351A product page (technical specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Technical Specifications: \"Amplifier Power 150 W Bass (Class D) + 120 W Midrange (Class D) + 90 W Treble (Class AB)\"; \"Driver Dimensions ⌀ 19 mm Treble + ⌀ 120 mm Midrange + 2 x H 100 x W 215 mm Bass\". The model is presented as a \"SAM™ Studio Monitor\" (Smart Active Monitoring)."
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+      "host": "assets.ctfassets.net",
+      "document": "Genelec 8240A / 8250A / 8351A / 8260A Operating Manual, SPECIFICATIONS table",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        4,
+        5
+      ],
+      "chunksTotal": 11,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "SPECIFICATIONS table, \"Drivers\" row: 8351A \"Dual 8 1/2 x 4 in / 120 mm (5 in) Coax Al-cone / 19 mm (3/4 in) Coax Al-dome\"; 8260A \"255 mm (10 in) / 120 mm (5 in) Coax Al-cone / 19 mm (3/4 in) Coax Al-dome\". Amplifier row: 8351A 150 W bass + 120 W midrange + 90 W treble; 8260A 150 W bass + 120 W midrange + 120 W treble. Back panel of the 8260A is labelled \"8260A DSP TRI-AMPLIFIED MONITORING SYSTEM\"; the manual states \"The amplifier unit is mounted in the rear of the monitor enclosure.\""
+    },
+    {
+      "url": "https://www.genelec.com/1032c",
+      "host": "www.genelec.com",
+      "document": "Genelec 1032C product page (technical specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Technical Specifications: \"Amplifier Power 250 W Bass (Class D) + 150 W Treble (Class D)\"; \"Driver Dimensions ⌀ 250 mm Bass + ⌀ 25 mm Treble\". Feature text: \"the 1032C now features digital connectivity, a universal power supply and powerful Class D amplification\". Key technologies list \"Active Crossovers\" and \"Smart Active Monitoring (SAM™)\"."
     }
   ],
   "openQuestionsForOwner": [

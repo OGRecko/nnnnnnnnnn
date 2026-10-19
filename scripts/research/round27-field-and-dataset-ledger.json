@@ -613,6 +613,106 @@
       "valueAfter": true,
       "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
       "note": "Overview heading \"2-Way Active Studio Monitor\"; \"140 Watt, Class AB bi-amplification\"; line-level inputs only."
+    },
+    {
+      "record": "genelec-8040b",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+      "note": "Drivers section: 19 mm (3/4\") metal dome tweeter + 165 mm (6.5\") bass cone driver."
+    },
+    {
+      "record": "genelec-8040b",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+      "note": "\"8040B Active Monitoring System\", \"compact bi-amplified active monitor system\" with built-in 90 W bass and 90 W treble amplifiers."
+    },
+    {
+      "record": "legacy-gen-5",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+      "note": "8050B: 205 mm (8\") bass driver + 25 mm (1\") metal dome high-frequency driver."
+    },
+    {
+      "record": "legacy-gen-5",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+      "note": "Manual title \"8040B and 8050B Active Monitoring Systems\"; \"Designed as active loudspeakers, they contain drivers, power amplifiers, active crossover filters and protection circuitry.\""
+    },
+    {
+      "record": "genelec-8351a",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 4,
+      "source": "https://www.genelec.com/previous-models/8351a",
+      "note": "Driver dimensions: 19 mm treble + 120 mm midrange (coaxial pair) + two 100 x 215 mm racetrack bass drivers, i.e. four transducers."
+    },
+    {
+      "record": "genelec-8351a",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.genelec.com/previous-models/8351a",
+      "note": "On-board amplification listed per band (150 W bass, 120 W midrange, 90 W treble) in a Genelec \"Smart Active Monitoring (SAM™)\" monitor."
+    },
+    {
+      "record": "genelec-8260a",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+      "note": "Specifications: 255 mm (10 in) bass + 120 mm coaxial midrange + 19 mm coaxial treble."
+    },
+    {
+      "record": "genelec-8260a",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+      "note": "Back panel reads \"8260A DSP TRI-AMPLIFIED MONITORING SYSTEM\"; amplifier row lists 150 W bass + 120 W midrange + 120 W treble in the enclosure."
+    },
+    {
+      "record": "genelec-1032c",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.genelec.com/1032c",
+      "note": "Driver dimensions: ⌀ 250 mm bass + ⌀ 25 mm treble."
+    },
+    {
+      "record": "genelec-1032c",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.genelec.com/1032c",
+      "note": "On-board 250 W bass and 150 W treble Class D amplification, \"Active Crossovers\" and \"Smart Active Monitoring (SAM™)\"."
     }
   ],
   "elx200_15": {

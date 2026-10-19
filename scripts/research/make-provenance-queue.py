@@ -87,6 +87,13 @@ def main():
             elif fr.get('action') == 'RETRACT':
                 if pst != 'UNSOURCED' or rec.get(fr['field']) is not None:
                     result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} RETRACT but provenance is {pst} / value {rec.get(fr["field"])!r}')
+            elif fr['outcome'] == 'RESOLVED_ELSEWHERE':
+                # This document did not carry the field, but another manufacturer document later
+                # verified it. The row keeps this URL's outcome and names the document actually used.
+                if pst not in VERIFIED:
+                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} RESOLVED_ELSEWHERE but provenance status is {pst}')
+                if not fr.get('resolvedBy'):
+                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} RESOLVED_ELSEWHERE without a resolvedBy source')
             elif fr['outcome'] in ('NOT_STATED', 'NOT_EXTRACTED', 'SUPPORTED_NOT_PROMOTED', 'INACCESSIBLE', 'CONFLICT'):
                 if pst != CITED:
                     result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} {fr["outcome"]} but provenance status is {pst}')

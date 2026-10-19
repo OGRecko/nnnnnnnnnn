@@ -6906,9 +6906,10 @@
     },
     "notes": "DALI OBERON 7: official OBERON manual specifies 36–26,000 Hz ±3 dB, 88.5 dB (2.83V/1m), 6 ohms nominal and 30–180 W recommended amplifier power. Two 7-inch LF/MF drivers plus tweeter. Source: DALI OBERON manual. Source-backed fields are retained per exact field; unsupported fields remain N/A. Structured power withheld: the exact source publishes a recommended-amplifier range (30–180 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.dali-speakers.com/media/5320/oberon-manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 2 x 180 mm (7\") wood-fibre mid/bass drivers in a 2-way system."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
@@ -8173,8 +8174,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 4,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -8228,16 +8229,16 @@
     },
     "notes": "Manufacturer: 32 Hz–35 kHz (-6 dB); 150 W LF + 120 W MF + 90 W HF amplification. Source: Genelec 8351A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/previous-models/8351a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Driver dimensions: 19 mm treble + 120 mm midrange (coaxial pair) + two 100 x 215 mm racetrack bass drivers, i.e. four transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/previous-models/8351a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board amplification listed per band (150 W bass, 120 W midrange, 90 W treble) in a Genelec \"Smart Active Monitoring (SAM™)\" monitor."
     }
   },
   {
@@ -10502,8 +10503,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -10557,16 +10558,16 @@
     },
     "notes": "Manufacturer: 23 Hz–40 kHz (-6 dB); 150 W LF + 120 W MF + 120 W HF amplification; 3-way active coaxial monitor. Source: Genelec 8260A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Specifications: 255 mm (10 in) bass + 120 mm coaxial midrange + 19 mm coaxial treble."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/1CrttMuYgAaMuawMUAOOEu/2dbe47e74ff875175d05cc9f6f191cc9/genelec_8240_8250_8351_8260_opman.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Back panel reads \"8260A DSP TRI-AMPLIFIED MONITORING SYSTEM\"; amplifier row lists 150 W bass + 120 W midrange + 120 W treble in the enclosure."
     }
   },
   {
@@ -11878,8 +11879,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -11933,16 +11934,16 @@
     },
     "notes": "Manufacturer: 8040B active two-way studio monitor; 165 mm bass driver (~6.5 in) + 19 mm tweeter; 90 W bass + 90 W treble amplification; 48 Hz–20 kHz ±2 dB, with -6 dB cutoffs 41 Hz–25 kHz. Source: Genelec 8040B product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 165 mm (6.5\") bass cone driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/r3fD1Y5Q2x94TjJUvhZFk/cd8f56d80ca1cfbb48cbd8357a26e1de/8040B_datasheet_2023.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"8040B Active Monitoring System\", \"compact bi-amplified active monitor system\" with built-in 90 W bass and 90 W treble amplifiers."
     }
   },
   {
@@ -20036,8 +20037,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -20091,16 +20092,16 @@
     },
     "notes": "Manufacturer: 8050B active two-way monitor; 205 mm bass driver (~8.07 in) + 25 mm tweeter; 150 W bass + 120 W treble amplification (270 W total); 38 Hz–20 kHz ±2 dB and -6 dB cutoffs 32 Hz–25 kHz. Source: Genelec 8050B product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: 8050B: 205 mm (8\") bass driver + 25 mm (1\") metal dome high-frequency driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/40XD9oi8UXnPIU4N6HS9CB/14c755715192ad67bb4dd8f2fa6a2ceb/GENELEC____________-8040b-8050b-______________________________________.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Manual title \"8040B and 8050B Active Monitoring Systems\"; \"Designed as active loudspeakers, they contain drivers, power amplifiers, active crossover filters and protection circuitry.\""
     }
   },
   {
@@ -46104,9 +46105,10 @@
     "panel": null,
     "notes": "DALI OBERON 3: official OBERON manual specifies 47–26,000 Hz ±3 dB, 87 dB (2.83V/1m), 6 ohms nominal and 25–150 W recommended amplifier power. 7-inch woofer/midbass and tweeter configuration. Source: DALI OBERON manual. Source-backed fields are retained per exact field; unsupported fields remain N/A. Structured power withheld: the exact source publishes a recommended-amplifier range (25–150 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.dali-speakers.com/media/5320/oberon-manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 1 x 180 mm (7\") wood-fibre mid/bass driver in a 2-way system. Confirms the value that was cited but not extractable from the manual."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
@@ -46177,9 +46179,10 @@
     "panel": null,
     "notes": "DALI OBERON 5: official OBERON manual specifies 39–26,000 Hz ±3 dB, 88 dB (2.83V/1m), 6 ohms nominal and 30–150 W recommended amplifier power. Two 5.25-inch LF/MF drivers plus tweeter. Source: DALI OBERON manual. Source-backed fields are retained per exact field; unsupported fields remain N/A. Structured power withheld: the exact source publishes a recommended-amplifier range (30–150 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.dali-speakers.com/media/5320/oberon-manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Technical data table: 1 x 29 mm fabric-dome tweeter + 2 x 130 mm (5 1/4\") wood-fibre mid/bass drivers in a 2-way system."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
@@ -51794,8 +51797,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -51849,16 +51852,16 @@
     },
     "notes": "Manufacturer data: 40 Hz–20 kHz ±2.5 dB operating response; -6 dB limits 33 Hz and 23 kHz; 250 W bass + 150 W treble Class-D amplification; 250 mm bass driver and 25 mm treble driver; maximum peak acoustic output ≥124 dB per pair. The response field stores the manufacturer’s ±2.5 dB band, not the wider -6 dB limits.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/1032c",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Driver dimensions: ⌀ 250 mm bass + ⌀ 25 mm treble."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/1032c",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board 250 W bass and 150 W treble Class D amplification, \"Active Crossovers\" and \"Smart Active Monitoring (SAM™)\"."
     }
   },
   {
