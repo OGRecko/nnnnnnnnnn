@@ -16482,8 +16482,8 @@
     },
     {
       "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "round": 26,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
@@ -16491,21 +16491,21 @@
       "checkedDate": "2026-10-19",
       "sourceClass": "NON_MANUFACTURER_HOST",
       "document": "Bose 802 Series II technical information (Walker Sound)",
-      "evidence": "Technical information: \"Each 802 Series II loudspeaker uses eight 4-1/2\" full-range drivers mounted in symmetric vertical pairs\"; \"Power handling capacity 240W continuous pink noise\"; \"Recommended amplifier power 240W minimum, 480W maximum\".",
+      "evidence": "\"Each 802 Series II loudspeaker uses eight 4-1/2\" full-range drivers\"; \"Recommended amplifier power 240W minimum, 480W maximum\"; 240 W continuous pink noise; phone/XLR connectors; active equalization is in the separate 802C Series II controller.",
       "fieldResults": [
         {
           "record": "bose-802",
           "field": "driverCount",
           "value": 8,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The technical information states eight 4.5-inch full-range drivers per loudspeaker: 8 transducers; dealer host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: eight full-range drivers; third-party copy of the Bose sheet."
         },
         {
           "record": "bose-802",
           "field": "active",
           "value": false,
-          "outcome": "NOT_STATED",
-          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+          "outcome": "PROMOTED",
+          "note": "Round 29: external amplifier and separate controller; passive loudspeaker."
         }
       ],
       "history": []

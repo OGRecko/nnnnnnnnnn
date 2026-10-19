@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 210,
-  "assessedItems": 210,
+  "uncheckedItems": 208,
+  "assessedItems": 208,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 156,
+  "uniqueSourceUrls": 155,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 1,
-    "CHECKED_PARTIAL": 143,
+    "CHECKED_PARTIAL": 142,
     "INACCESSIBLE": 12
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 188,
+    "CHECKED_PARTIAL": 186,
     "INACCESSIBLE": 20
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 141
+      "count": 140
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 4
+      "count": 5
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 69
+      "count": 68
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 4
+      "count": 5
     },
     {
       "field": "driverCount",
@@ -456,6 +456,7 @@
     "https://www.svsound.com/products/sb-3000",
     "https://www.svsound.com/products/sb-4000",
     "https://www.svsound.com/products/sb16-ultra",
+    "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
     "https://www.wharfedale.co.uk/products/diamond-12-0",
     "https://www.wharfedale.co.uk/products/diamond-12-2",
     "https://www.wharfedale.co.uk/products/evo4-1",
@@ -2293,41 +2294,6 @@
         0
       ],
       "evidence": "Release: \"a self-powered stage monitor loudspeaker\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\"; \"a 4in. diaphragm compression driver coupled to a symmetrical (50 degrees horizontal by 50 degrees vertical) constant-directivity horn\"."
-    },
-    {
-      "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "host": "www.walkersound.co.uk",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "bose-802"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "bose-802",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
-        },
-        {
-          "record": "bose-802",
-          "field": "driverCount",
-          "value": 8,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The technical information states eight 4.5-inch full-range drivers per loudspeaker: 8 transducers; dealer host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Technical information: \"Each 802 Series II loudspeaker uses eight 4-1/2\" full-range drivers mounted in symmetric vertical pairs\"; \"Power handling capacity 240W continuous pink noise\"; \"Recommended amplifier power 240W minimum, 480W maximum\"."
     },
     {
       "url": "https://www.warehousesound.com/r/jblEon15.pdf",

@@ -76,6 +76,24 @@ batch 34 from the same page.
 KEF archive PDFs (Model 105.2, Model 103) still answer with "redirecting to kef.com" and serve nothing:
 `kef-105` and `legacy-kef-3` stay `INACCESSIBLE`.
 
+The inventory also counted ids that exist both in `speakers.json` and in an old `removed-*.json` snapshot
+(`legacy-jbl-6`). Those rows are now live-only; `legacy-jbl-6.active` was promoted from the same 4430 page
+in batch 34, and the mislabelled `legacy-kef-3` rows are `INACCESSIBLE` (it is a live record).
+
+## Batch 35 — Bose 802 Series II (distributor-hosted Bose document)
+
+`https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf` is a Bose technical information sheet hosted by a UK
+distributor. Because the host is not Bose, the new third-party tier applies:
+
+* "Each 802 Series II loudspeaker uses eight 4-1/2" full-range drivers mounted in symmetric vertical pairs"
+  → `driverCount` 8, **THIRD_PARTY_VERIFIED**.
+* "Recommended amplifier power 240W minimum, 480W maximum", 240 W continuous pink-noise rating, 1/4-inch
+  phone and XLR inputs, and active equalization performed by the separate 802C Series II controller
+  → `active` false, **THIRD_PARTY_VERIFIED**.
+
+Neither field was labelled MANUFACTURER_VERIFIED: the host is a distributor, exactly the case the policy is
+meant to separate. Ledger: `round29-third-party-ledger.json`; history: `round29-value-history.json`.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -89,20 +107,22 @@ KEF archive PDFs (Model 105.2, Model 103) still answer with "redirecting to kef.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2426** |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **245** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **243** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **28** |
+| `THIRD_PARTY_VERIFIED` | 24 | **30** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **210 / 156 URLs** |
-| records with backlog | 336 of 657 | **333 of 657** |
+| queue items | 212 / 157 URLs | **208 / 155 URLs** |
+| records with backlog | 336 of 657 | **332 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
 
 ## Still open
 
-- 71 `UNSOURCED` fields and 168 no-provenance nulls remain; this round assessed 14 of them with documented
-  outcomes, not values.
+- 71 `UNSOURCED` fields and 168 no-provenance nulls remain. This round recorded 12 documented outcomes for
+  that pool: 8 assessments (ATC, Wilson, Polk, Dutch & Dutch, EV SX300 ×2, EV Eliminator ×2) that stay null,
+  and 4 promotions on explicit evidence (EV EKX-15P driverCount/active with MANUFACTURER_VERIFIED; Bose 802
+  Series II driverCount/active with THIRD_PARTY_VERIFIED).
 - 51 directivity leads (0 imported), the 9 archive ZIPs, Genelec 8331A SOFA (MD5 confirmed on the source).
 - 27 response-dataset blocks (24 active series, 25 records) and the ELX200-15 exclusion.
 - The ~2,4xx MV fields have not been re-audited field-by-field; the queue above only covers

@@ -110,5 +110,25 @@
       "whyNotManufacturer": "The document is not served by the manufacturer and no owner-approved manufacturer copy exists for this model."
     }
   ],
-  "valuesWritten": 8
+  "valuesWritten": 8,
+  "records": [
+    {
+      "record": "bose-802",
+      "field": "driverCount",
+      "value": 8,
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "note": "Round 29 (2026-10-19): Bose 802 Series II technical information (distributor-hosted Bose document) — \"Each 802 Series II loudspeaker uses eight 4-1/2\\\" full-range drivers mounted in symmetric vertical pairs on a faceted Articulated Array baffle assembly.\""
+    },
+    {
+      "record": "bose-802",
+      "field": "active",
+      "value": false,
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "note": "Round 29 (2026-10-19): same document — \"Recommended amplifier power 240W minimum, 480W maximum\", 240 W continuous pink-noise power handling, 1/4-inch phone and XLR input connectors; the active equalization is provided by the separate 802C Series II systems controller, not by the loudspeaker. Passive loudspeaker."
+    }
+  ]
 }

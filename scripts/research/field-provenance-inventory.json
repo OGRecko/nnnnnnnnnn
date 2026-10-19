@@ -8,14 +8,14 @@
     "byStoredStatus": {
       "MANUFACTURER_VERIFIED": 2426,
       "NO_PROVENANCE": 363,
-      "CITED_IN_NOTES_UNCHECKED": 245,
+      "CITED_IN_NOTES_UNCHECKED": 243,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 71,
-      "THIRD_PARTY_VERIFIED": 28,
+      "THIRD_PARTY_VERIFIED": 30,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 177
+    "citedUncheckedUrls": 176
   },
   "entries": [
     {
@@ -801,14 +801,14 @@
       "field": "driverCount",
       "value": 8,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet.",
+      "note": "Round 29 (2026-10-19): Bose 802 Series II technical information (distributor-hosted Bose document) — \"Each 802 Series II loudspeaker uses eight 4-1/2\\\" full-range drivers mounted in symmetric vertical pairs on a faceted Articulated Array baffle assembly.\"",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "bose-802",
@@ -819,14 +819,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier.",
+      "note": "Round 29 (2026-10-19): same document — \"Recommended amplifier power 240W minimum, 480W maximum\", 240 W continuous pink-noise power handling, 1/4-inch phone and XLR input connectors; the active equalization is provided by the separate 802C Series II systems controller, not by the loudspeaker. Passive loudspeaker.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "bose-802",

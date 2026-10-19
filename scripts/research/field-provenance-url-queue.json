@@ -1,9 +1,9 @@
 {
   "schema": "field-provenance-url-queue/v2",
   "note": "Live records are the audit queue. Entries labelled ARCHIVED come from archived records; they are recorded so the inventory is complete, but archived products are not restored and are not part of the research queue.",
-  "liveOutstandingFields": 210,
+  "liveOutstandingFields": 208,
   "archivedOutstandingFields": 35,
-  "liveUrls": 156,
+  "liveUrls": 155,
   "archivedOnlyUrls": 21,
   "urls": [
     {
@@ -54,24 +54,6 @@
           "record": "legacy-jbl-5",
           "field": "active",
           "location": "ARCHIVED"
-        }
-      ]
-    },
-    {
-      "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "bose-802",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "bose-802",
-          "field": "active",
-          "location": "LIVE"
         }
       ]
     },

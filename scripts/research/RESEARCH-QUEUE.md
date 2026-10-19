@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **333** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 87 brands.
+Records still needing research: **332** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 87 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **210** fields across **156** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **208** fields across **155** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -25,7 +25,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | ar-3a | Acoustic Research | AR-3a (`ar-3a`) | 0 | 2 | 0 |
 | b&w-801 | Bowers & Wilkins | 801 Matrix (`b&w-801`) | 1 | 0 | 1 |
 | bang-olufsen-beosound-balance | Bang & Olufsen | Beosound Balance (`bang-olufsen-beosound-balance`) | 2 | 0 | 0 |
-| bose-802 | Bose | 802 Series II (`bose-802`) | 2 | 0 | 0 |
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
