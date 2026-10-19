@@ -4117,6 +4117,100 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/"
+    },
+    {
+      "id": "barefoot-micromain27",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://barefootsound.com/micromain27/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact model is described as an active monitor and every drive unit lists its own built-in amplifier (180 W, 250 W, 250 W, 500 W)."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://barefootsound.com/micromain27/"
+    },
+    {
+      "id": "barefoot-micromain27",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 5,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://barefootsound.com/micromain27/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 1\" tweeter, two 5.25\" midbass drivers and two 10\" subwoofers: five driven transducers, matching the page's own \"5 drive units\" statement."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://barefootsound.com/micromain27/"
+    },
+    {
+      "id": "sonus-faber-sonetto-i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.sonusfaber.com/en/collections/sonetto",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact model is described by the manufacturer as a passive bookshelf speaker. The record has no generation suffix; the first-generation owner's manual also declares the family a passive loudspeaker system, so both generations agree."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.sonusfaber.com/en/collections/sonetto"
+    },
+    {
+      "id": "sonus-faber-sonetto-ii",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.sonusfaber.com/en/collections/sonetto",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact model is described by the manufacturer as a passive bookshelf speaker; the first-generation manual declares the same family passive, so the statement holds for either generation."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.sonusfaber.com/en/collections/sonetto"
     }
   ]
 }

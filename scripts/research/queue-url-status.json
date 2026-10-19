@@ -22185,6 +22185,98 @@
       "sourceUrl": "https://us.kef.com/products/reference-5",
       "fieldResults": [],
       "history": []
+    },
+    {
+      "url": "https://barefootsound.com/micromain27/",
+      "round": 27,
+      "status": "CHECKED_CONFIRMED",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Barefoot Sound MicroMain27 product page and TECH SPECS table",
+      "evidence": "Headline: \"A 3.5-WAY ACTIVE STUDIO MONITOR WITH DUAL-FORCE™ AND MEME™ TECHNOLOGY\"; body: \"3.5-way active monitor\", \"1180 watts of power per monitor\". TECH SPECS: Description \"3.5-way active monitor with with Dual-Force™ and MEME™ Technologies\"; Tweeter 1\" ring radiator \"Amplifier: 180W\"; Midbass 1 and Midbass 2 5.25\" cone, 250W each; Subwoofers \"2 x 10\" aluminum cone\", 500W. The page also states \"5 drive units\" in its description of the model.",
+      "sourceUrl": "https://barefootsound.com/micromain27/",
+      "fieldResults": [
+        {
+          "record": "barefoot-micromain27",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://barefootsound.com/micromain27/",
+          "note": "The exact model is described as an active monitor and every drive unit lists its own built-in amplifier (180 W, 250 W, 250 W, 500 W)."
+        },
+        {
+          "record": "barefoot-micromain27",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 5,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://barefootsound.com/micromain27/",
+          "note": "One 1\" tweeter, two 5.25\" midbass drivers and two 10\" subwoofers: five driven transducers, matching the page's own \"5 drive units\" statement."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/collections/sonetto",
+      "round": 27,
+      "status": "CHECKED_CONFIRMED",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Sonus faber Sonetto collection page, product cards",
+      "evidence": "The collection page's product cards read: Sonetto I - \"A compact passive bookshelf speaker ideal for smaller listening environments\"; Sonetto II - \"A passive bookshelf speaker with a deeply enriched low end bass response\". The page introduces the collection as \"the second generation of the Sonetto Collection\".",
+      "sourceUrl": "https://www.sonusfaber.com/en/collections/sonetto",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-sonetto-i",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": false,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.sonusfaber.com/en/collections/sonetto",
+          "note": "The exact model is described by the manufacturer as a passive bookshelf speaker. The record has no generation suffix; the first-generation owner's manual also declares the family a passive loudspeaker system, so both generations agree."
+        },
+        {
+          "record": "sonus-faber-sonetto-ii",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": false,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.sonusfaber.com/en/collections/sonetto",
+          "note": "The exact model is described by the manufacturer as a passive bookshelf speaker; the first-generation manual declares the same family passive, so the statement holds for either generation."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/products/olympica-iii/tech-specs",
+      "round": 27,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Sonus faber \"Olympica G3 III\" technical specifications",
+      "evidence": "The page is titled \"Olympica G3 III\" and lists Tw 28 mm DAD, Md 165 mm Camelia paper cone and W 2 x 165 mm paper cone (four transducers). The catalogue record is \"Olympica III\" without the G3 generation; a different generation is a different product, so no field is taken from it.",
+      "sourceUrl": "https://www.sonusfaber.com/en/products/olympica-iii/tech-specs",
+      "fieldResults": [],
+      "history": []
     }
   ]
 }

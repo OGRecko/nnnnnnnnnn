@@ -911,21 +911,52 @@ One field promoted, four URLs recorded.
   page. The MKII page does state a three-transducer MTM complement, but it is a different model, so no
   value was inferred for the original from it.
 
-## Counts after batch 26
+## Batch 27 (2026-10-19)
+
+Four fields promoted from three manufacturer pages.
+
+| Record | Field | Result | Source |
+| --- | --- | --- | --- |
+| `barefoot-micromain27` | `active` | true, `MANUFACTURER_VERIFIED` | Barefoot Sound product page |
+| `barefoot-micromain27` | `driverCount` | 5, `MANUFACTURER_VERIFIED` | Barefoot Sound product page |
+| `sonus-faber-sonetto-i` | `active` | false, `MANUFACTURER_VERIFIED` | Sonus faber Sonetto collection |
+| `sonus-faber-sonetto-ii` | `active` | false, `MANUFACTURER_VERIFIED` | Sonus faber Sonetto collection |
+
+- **Barefoot MicroMain27**: "3.5-way active monitor"; the TECH SPECS table lists a 1" tweeter, two 5.25"
+  midbass units and two 10" subwoofers, each with its own amplifier (180/250/250/500 W), and the page
+  states "5 drive units" in its own words. Both `active` and `driverCount` were empty before this batch.
+- **Sonus faber Sonetto I / II**: the collection page describes Sonetto I as "A compact passive
+  bookshelf speaker" and Sonetto II as "A passive bookshelf speaker". The records carry no generation
+  suffix; the first-generation manual declares the same family passive and this page is the second
+  generation, so both possible generations agree and no value is transferred between products.
+- **Olympica III**: the product page now serves the "Olympica G3 III" generation while the record is
+  the earlier Olympica III. Its four-transducer table was read but not used; there is no G3 record to
+  attach it to.
+
+Searched and rejected in the same batch (no value taken):
+- KEF legacy product paths (`ls50`, `reference-1`, `reference-5`) and the product-archive PDFs still
+  serve the 404/redirect stubs recorded in batch 26.
+- The KRK product slugs `rokit-5-g4` and `rokit-8-g4` return 404; the records are G1/G3 and the current
+  site only carries later generations.
+- Wharfedale Linton / Diamond 12.1, Triangle Borea BR02/BR03, Paradigm Monitor SE 6000F, MartinLogan
+  Motion 60XT, Danley SH96 and Funktion-One RES 2 never use the words passive/active/powered in their
+  served pages, so their `active` fields stay open.
+
+## Counts after batch 27
 
 | Status | Fields |
 | --- | ---: |
-| `MANUFACTURER_VERIFIED` | 845 |
+| `MANUFACTURER_VERIFIED` | 849 |
 | `CITED_IN_NOTES_UNCHECKED` | 214 |
-| `UNSOURCED` | 85 |
-| no provenance at all | 170 |
+| `UNSOURCED` | 83 |
+| no provenance at all | 168 |
 
-Research backlog: 343 of 657 records. Queue: 214 items across 159 URLs, all assessed, zero warnings,
-370 source URLs resolved in total. URL result file: 111 entries.
+Research backlog: 342 of 657 records. Queue: 214 items across 159 URLs, all assessed, zero warnings,
+373 source URLs resolved in total. URL result file: 114 entries.
 
 ## Remaining in this round
 
-214 cited-but-unchecked fields across 159 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
+214 cited-but-unchecked fields across 159 URLs (all assessed, 0 unassessed; see batch 8), 83 unsourced fields, 168 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 
@@ -942,7 +973,7 @@ Run against the tree that contains every change in this round:
 | `npm test` | 83/83 suites |
 | `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
 | `docs:release` / `docs:consistency` | regenerated; `issues: []` |
-| `release:source` / `release:source:verify` | 641 files, treeSha256 `0bee44ba953172fbfc76911eebb150ebde3b1e06b851b6898d4f832908c2ed46`, verification `ok: true` |
+| `release:source` / `release:source:verify` | 624 files, treeSha256 `8f40f6874ebc8af1cb0a12b6a9f4ffb2d0992d332eb81a5feb67f4242cd02162`, verification `ok: true` |
 | `audit:release` | 657 files checked, 0 duplicate ids, 0 duplicate brand+model, `problems: []`, warningCount 0 |
 | `npm audit --audit-level=high` | no high/critical findings (8 moderate in the electron-builder toolchain only) |
 | dev server (`npm run dev`) | starts on :3000, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |

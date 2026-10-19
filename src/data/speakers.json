@@ -8328,8 +8328,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 5,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -8383,16 +8383,16 @@
     },
     "notes": "Manufacturer data: 30–45 kHz ±3 dB; 40–40 kHz ±1 dB; 2×10 in subwoofers, 2×5.25 in midbass and 1 in ring-radiator; 180 W tweeter + 250 W + 250 W midbass + 500 W subwoofer amplification per unit. Total 1,180 W is arithmetic sum of the published amplifier channels and is stored only as amplifier output.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://barefootsound.com/micromain27/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 1\" tweeter, two 5.25\" midbass drivers and two 10\" subwoofers: five driven transducers, matching the page's own \"5 drive units\" statement."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://barefootsound.com/micromain27/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact model is described as an active monitor and every drive unit lists its own built-in amplifier (180 W, 250 W, 250 W, 500 W)."
     }
   },
   {
@@ -45311,7 +45311,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -45363,7 +45363,13 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Exact first-generation Sonetto I, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 45 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+    "notes": "Exact first-generation Sonetto I, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 45 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection.",
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sonusfaber.com/en/collections/sonetto",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact model is described by the manufacturer as a passive bookshelf speaker. The record has no generation suffix; the first-generation owner's manual also declares the family a passive loudspeaker system, so both generations agree."
+    }
   },
   {
     "id": "sonus-faber-sonetto-ii",
@@ -45372,7 +45378,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -45424,7 +45430,13 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Exact first-generation Sonetto II, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 42 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+    "notes": "Exact first-generation Sonetto II, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 42 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection.",
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sonusfaber.com/en/collections/sonetto",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact model is described by the manufacturer as a passive bookshelf speaker; the first-generation manual declares the same family passive, so the statement holds for either generation."
+    }
   },
   {
     "id": "sonus-faber-sonetto-iii",

@@ -1825,6 +1825,46 @@
       "valueAfter": 3,
       "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
       "note": "The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers."
+    },
+    {
+      "record": "barefoot-micromain27",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://barefootsound.com/micromain27/",
+      "note": "The exact model is described as an active monitor and every drive unit lists its own built-in amplifier (180 W, 250 W, 250 W, 500 W)."
+    },
+    {
+      "record": "barefoot-micromain27",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 5,
+      "source": "https://barefootsound.com/micromain27/",
+      "note": "One 1\" tweeter, two 5.25\" midbass drivers and two 10\" subwoofers: five driven transducers, matching the page's own \"5 drive units\" statement."
+    },
+    {
+      "record": "sonus-faber-sonetto-i",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.sonusfaber.com/en/collections/sonetto",
+      "note": "The exact model is described by the manufacturer as a passive bookshelf speaker. The record has no generation suffix; the first-generation owner's manual also declares the family a passive loudspeaker system, so both generations agree."
+    },
+    {
+      "record": "sonus-faber-sonetto-ii",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.sonusfaber.com/en/collections/sonetto",
+      "note": "The exact model is described by the manufacturer as a passive bookshelf speaker; the first-generation manual declares the same family passive, so the statement holds for either generation."
     }
   ],
   "elx200_15": {

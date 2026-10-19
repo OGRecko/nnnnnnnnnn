@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **343** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 89 brands.
+Records still needing research: **342** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 88 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **214** fields across **159** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **85** fields (no source recorded).
-- NO_PROVENANCE: **170** fields (null value, no provenance object).
+- UNSOURCED: **83** fields (no source recorded).
+- NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -25,7 +25,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | ar-3a | Acoustic Research | AR-3a (`ar-3a`) | 0 | 2 | 0 |
 | b&w-801 | Bowers & Wilkins | 801 Matrix (`b&w-801`) | 1 | 0 | 1 |
 | bang-olufsen-beosound-balance | Bang & Olufsen | Beosound Balance (`bang-olufsen-beosound-balance`) | 2 | 0 | 0 |
-| barefoot-micromain27 | Barefoot Sound | MicroMain27 (`barefoot-micromain27`) | 0 | 2 | 0 |
 | beolab-5 | Bang & Olufsen | BeoLab 5 (`beolab-5`) | 0 | 2 | 0 |
 | bose-802 | Bose | 802 Series II (`bose-802`) | 2 | 0 | 0 |
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
@@ -125,8 +124,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
-| sonus-faber-sonetto-i | Sonus Faber | Sonetto I (`sonus-faber-sonetto-i`) | 0 | 0 | 2 |
-| sonus-faber-sonetto-ii | Sonus Faber | Sonetto II (`sonus-faber-sonetto-ii`) | 0 | 0 | 2 |
 | sonus-faber-sonetto-iii | Sonus Faber | Sonetto III (`sonus-faber-sonetto-iii`) | 0 | 0 | 2 |
 | sonus-faber-sonetto-v | Sonus Faber | Sonetto V (`sonus-faber-sonetto-v`) | 0 | 0 | 2 |
 | sony-sony-ht-a3000 | Sony | Sony HT-A3000 (`sony-sony-ht-a3000`) | 0 | 0 | 2 |
@@ -346,6 +343,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonus-faber-olympica-nova-ii | Sonus Faber | Olympica Nova II (`sonus-faber-olympica-nova-ii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-iii | Sonus Faber | Olympica Nova III (`sonus-faber-olympica-nova-iii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V (`sonus-faber-olympica-nova-v`) | 1 | 0 | 0 |
+| sonus-faber-sonetto-i | Sonus Faber | Sonetto I (`sonus-faber-sonetto-i`) | 0 | 0 | 1 |
+| sonus-faber-sonetto-ii | Sonus Faber | Sonetto II (`sonus-faber-sonetto-ii`) | 0 | 0 | 1 |
 | triangle-borea-br02 | Triangle | Borea BR02 (`triangle-borea-br02`) | 1 | 0 | 0 |
 | triangle-borea-br03 | Triangle | Borea BR03 (`triangle-borea-br03`) | 1 | 0 | 0 |
 | vox-v212c | Vox | V212C (`vox-v212c`) | 0 | 0 | 1 |
