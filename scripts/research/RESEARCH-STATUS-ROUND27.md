@@ -5,6 +5,9 @@
 
 ## Counts, recomputed from the repository (not carried over from a brief)
 
+> This table records batch 1 only. The current figures are in "Counts after batch 7" below
+> (728 / 221 / 177 / 188; backlog 400 of 657).
+
 | Measure | Before this batch | After this batch |
 | --- | --- | --- |
 | Live records in `src/data/speakers.json` | 657 | 657 |
