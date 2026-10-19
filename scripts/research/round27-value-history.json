@@ -2622,6 +2622,266 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://jblpro.com/en/products/308p-mkii"
+    },
+    {
+      "id": "mackie-thump212",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 12 in (305 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf"
+    },
+    {
+      "id": "mackie-thump212",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf"
+    },
+    {
+      "id": "mackie-thump215",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 15 in (381 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf"
+    },
+    {
+      "id": "mackie-thump215",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf"
+    },
+    {
+      "id": "mackie-thump118s",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: A single 18 in (457 mm) ferrite low-frequency transducer; the sheet lists no high-frequency driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf"
+    },
+    {
+      "id": "mackie-thump118s",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in 1400 W Class D amplification with a detachable IEC line cord."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf"
+    },
+    {
+      "id": "jbl-srx815p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/srx815p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 2275F 15\" low-frequency driver plus one 2432H compression driver in a two-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/products/srx815p"
+    },
+    {
+      "id": "jbl-srx815p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/srx815p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"Self powered\"; 2000 W Class D amplification is integrated (nominal impedance is stated as \"NA - amplification is integrated\")."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/products/srx815p"
+    },
+    {
+      "id": "jbl-srx835p",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/srx835p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 2275F 15\" LF driver, one 2107H midrange driver and one 2432H compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/products/srx835p"
+    },
+    {
+      "id": "jbl-srx835p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/srx835p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"Self powered\"; 2000 W Class D amplification is integrated."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/products/srx835p"
     }
   ]
 }

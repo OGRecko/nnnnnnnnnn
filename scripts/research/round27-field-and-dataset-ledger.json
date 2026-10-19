@@ -1163,6 +1163,106 @@
       "valueAfter": true,
       "source": "https://jblpro.com/en/products/308p-mkii",
       "note": "\"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (112 W)."
+    },
+    {
+      "record": "mackie-thump212",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "note": "One 12 in (305 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
+    },
+    {
+      "record": "mackie-thump212",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "note": "Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
+    },
+    {
+      "record": "mackie-thump215",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "note": "One 15 in (381 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
+    },
+    {
+      "record": "mackie-thump215",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "note": "Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
+    },
+    {
+      "record": "mackie-thump118s",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+      "note": "A single 18 in (457 mm) ferrite low-frequency transducer; the sheet lists no high-frequency driver."
+    },
+    {
+      "record": "mackie-thump118s",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+      "note": "Built-in 1400 W Class D amplification with a detachable IEC line cord."
+    },
+    {
+      "record": "jbl-srx815p",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://jblpro.com/en-US/products/srx815p",
+      "note": "One 2275F 15\" low-frequency driver plus one 2432H compression driver in a two-way system."
+    },
+    {
+      "record": "jbl-srx815p",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://jblpro.com/en-US/products/srx815p",
+      "note": "\"Self powered\"; 2000 W Class D amplification is integrated (nominal impedance is stated as \"NA - amplification is integrated\")."
+    },
+    {
+      "record": "jbl-srx835p",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://jblpro.com/en-US/products/srx835p",
+      "note": "One 2275F 15\" LF driver, one 2107H midrange driver and one 2432H compression driver."
+    },
+    {
+      "record": "jbl-srx835p",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://jblpro.com/en-US/products/srx835p",
+      "note": "\"Self powered\"; 2000 W Class D amplification is integrated."
     }
   ],
   "elx200_15": {

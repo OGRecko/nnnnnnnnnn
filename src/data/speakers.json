@@ -15992,8 +15992,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -16046,16 +16046,16 @@
     },
     "notes": "Manufacturer manual: SRX815P self-powered two-way 15-inch system; 44 Hz–20 kHz ±3 dB; 36 Hz–21 kHz -10 dB; 1500 W continuous / 2000 W peak system power; 137 dB maximum SPL. Power field intentionally left unspecified because both continuous and peak ratings are published. Source: JBL SRX800 User Guide.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/srx815p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 2275F 15\" low-frequency driver plus one 2432H compression driver in a two-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/srx815p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Self powered\"; 2000 W Class D amplification is integrated (nominal impedance is stated as \"NA - amplification is integrated\")."
     }
   },
   {
@@ -16065,8 +16065,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -16119,16 +16119,16 @@
     },
     "notes": "Manufacturer: SRX835P three-way self-powered 15-inch system; 41 Hz–20 kHz ±3 dB, 1500 W continuous and 2000 W peak system power, 137 dB peak SPL, 60° × 40° nominal coverage. Power field intentionally remains separate/unspecified because this schema stores one wattage value and the manufacturer publishes both continuous and peak ratings. Source: JBL SRX835P product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/srx835p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 2275F 15\" LF driver, one 2107H midrange driver and one 2432H compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/srx835p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Self powered\"; 2000 W Class D amplification is integrated."
     }
   },
   {
@@ -49636,7 +49636,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -49686,20 +49686,20 @@
       "source": "https://goknight.com/content/documentation/THUMP_2022_SS.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Mackie (LOUD Audio) Thump 2022 series specification sheet SW1377 Rev. A 07/22, Thump212 column, read from a copy hosted on goknight.com. Powered 2-way: 12 in ferrite woofer + 1 in polymer compression driver; frequency response 54 Hz-20 kHz at -3 dB (47 Hz-23 kHz at -10 dB also published; the stored limits are the -3 dB points); 90 x 60 deg; max SPL 128 dB peak; crossover 2.1 kHz; amplifier 1400 W peak system (1200 W LF + 200 W HF, Class D) - peak rating, not stored as power; 620 x 356 x 356 mm; 12.5 kg. This is the 2022 revision; earlier Thump12/Thump212 generations are separate models. No sensitivity published (active). No response dataset or directivity file imported.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 12 in (305 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
     }
   },
   {
@@ -49709,7 +49709,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -49759,20 +49759,20 @@
       "source": "https://goknight.com/content/documentation/THUMP_2022_SS.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Mackie (LOUD Audio) Thump 2022 series specification sheet SW1377 Rev. A 07/22, Thump215 column, read from a copy hosted on goknight.com. Powered 2-way: 15 in ferrite woofer + 1 in polymer compression driver; frequency response 47 Hz-20 kHz at -3 dB (40 Hz-23 kHz at -10 dB also published; the stored limits are the -3 dB points); 90 x 60 deg; max SPL 129 dB peak; crossover 2.1 kHz; amplifier 1400 W peak system (1200 W LF + 200 W HF, Class D) - peak rating, not stored as power; 696 x 439 x 356 mm; 14.8 kg. Thump215XT is a separate model and was not used. No sensitivity published (active). No response dataset or directivity file imported.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 15 in (381 mm) ferrite woofer plus one 1.0 in (25 mm) polymer compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in 1400 W Class D system amplification (1200 W LF + 200 W HF) with an IEC mains inlet."
     }
   },
   {
@@ -49855,7 +49855,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -49905,20 +49905,20 @@
       "source": "https://goknight.com/content/documentation/THUMP_SUBS_2022_SS.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 1,
     "panel": null,
     "notes": "Mackie (LOUD Audio) Thump 2022 subwoofer series specification sheet SW1375 Rev. A 07/22, Thump118S column, read from a copy hosted on goknight.com. Powered subwoofer: one 18 in ferrite woofer; frequency response 40 Hz-120 Hz at -3 dB (30 Hz-150 Hz at -10 dB also published; stored limits are the -3 dB points); max SPL 131-132 dB peak (132 dB for the 118S); amplifier 1400 W peak Class D (peak rating, not stored as power); 540 x 530 x 605 mm; 29.7 kg. Thump115S is a separate model and was not used. No sensitivity published (active). No response dataset or directivity file imported.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: A single 18 in (457 mm) ferrite low-frequency transducer; the sheet lists no high-frequency driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in 1400 W Class D amplification with a detachable IEC line cord."
     }
   },
   {

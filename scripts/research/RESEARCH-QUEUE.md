@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **368** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **363** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **133** fields (no source recorded).
+- UNSOURCED: **123** fields (no source recorded).
 - NO_PROVENANCE: **177** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -80,8 +80,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
 | jbl-m2 | JBL | M2 Master Reference (`jbl-m2`) | 0 | 2 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
-| jbl-srx815p | JBL | SRX815P (`jbl-srx815p`) | 0 | 2 | 0 |
-| jbl-srx835p | JBL | SRX835P (`jbl-srx835p`) | 0 | 2 | 0 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 2 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 2 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
@@ -127,9 +125,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
 | m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
 | mackie-hr824 | Mackie | HR824 (`mackie-hr824`) | 2 | 0 | 0 |
-| mackie-thump118s | Mackie | Thump118S (`mackie-thump118s`) | 0 | 2 | 0 |
-| mackie-thump212 | Mackie | Thump212 (`mackie-thump212`) | 0 | 2 | 0 |
-| mackie-thump215 | Mackie | Thump215 (`mackie-thump215`) | 0 | 2 | 0 |
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |

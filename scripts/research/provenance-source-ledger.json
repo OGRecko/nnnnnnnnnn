@@ -7390,6 +7390,64 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Headline: \"Powered 8\\\" Two-Way Studio Monitor\". Features: \"Dual integrated, custom Class-D amplifiers provide 112 watts of power\". Limitation: the same copied body paragraph says \"long-throw 5\\\" woofer\"; not used."
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+      "host": "mackie.com",
+      "document": "Mackie Thump212 / Thump215 1400W Powered Loudspeaker Series specification sheet (SW1377 Rev. A 07/22)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Transducers: \"Low Frequency | 12 in / 305 mm [Thump212] 15 in / 381 mm [Thump215] with ferrite\"; \"High Frequency | 1.0 in / 25 mm polymer compression driver\". Power amplifiers: \"System Power Amplification | Rated Power 1400 watts peak\"; \"Low Frequency Power Amplifier | Rated Power 1200 watts peak\"; \"High Frequency Power Amplifier | Rated Power 200 watts peak\"; \"Design | Class D\"; \"Line input | 100-240V~, 50-60 Hz, 75W\"."
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
+      "host": "mackie.com",
+      "document": "Mackie Thump115S / Thump118S 1400W Powered Subwoofer Series specification sheet",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Transducers: \"Low Frequency | 15 in / 381 mm [Thump115S] 18 in / 457 mm [Thump118S] with ferrite\" - no high-frequency device is listed. Power amplifiers: \"System Power Amplification | Rated Power 1400 watts peak\"; \"Low Frequency Power Amplifier | Rated Power 1400 watts peak\"; \"Design | Class D\"; \"Line input | 100-120V~ ... 220-240V~\"."
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/srx815p",
+      "host": "jblpro.com",
+      "document": "JBL Professional SRX815P product page, \"Specifications\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Headline: \"15-inch 2-Way Multipurpose Powered Speaker\". Specifications: \"System Type | Self powered 15\\\", two-way, bass-reflex\"; \"Amplifier Design | Class D\"; \"Power Rating | 2000 W Peak\"; \"Nominal Impedance | NA - amplification is integrated\"; \"LF Driver | 1 x 2275F, Differential Drive®, 15\\\" diameter\"; \"HF Driver | 1 x 2432H compression driver\"."
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/srx835p",
+      "host": "jblpro.com",
+      "document": "JBL Professional SRX835P product page, \"Specifications\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Headline: \"15-inch 3-Way Point-Source Powered Speaker\". Specifications: \"System Type | Self powered 15\\\", three-way, bass-reflex\"; \"LF Driver | 1 x 2275F, Differential Drive®, 15\\\" diameter\"; \"MF Driver | 1 x 2107H\"; \"HF Driver | 1 x 2432H compression driver\"; \"Nominal Impedance | NA - amplification is integrated\"."
     }
   ],
   "openQuestionsForOwner": [

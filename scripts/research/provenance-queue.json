@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 299
+      "count": 304
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 74
+      "count": 69
     },
     {
       "field": "driverCount",
@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 487
+      "count": 492
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 59
+      "count": 54
     }
   ],
   "resolvedSourceUrls": [
@@ -160,6 +160,8 @@
     "https://dynaudio.com/home-audio/evoke/evoke-30",
     "https://dynaudio.com/home-audio/evoke/evoke-50",
     "https://jblpro.com/en-US/products/lsr305.html",
+    "https://jblpro.com/en-US/products/srx815p",
+    "https://jblpro.com/en-US/products/srx835p",
     "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
     "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
     "https://jblpro.com/en/products/305p-mkii",
@@ -176,6 +178,8 @@
     "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
     "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
     "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+    "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
+    "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
     "https://martin-audio.com/products/archive/w8lm",
     "https://martin-audio.com/products/loudspeakers/mla",
     "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",

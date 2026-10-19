@@ -482,6 +482,32 @@ remain `UNAVAILABLE` (the response fields still come from the quick-start guide)
 Research backlog: 368 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 319 source URLs resolved in total. `npm test` 82/82.
 
+## Batch 12 — Mackie Thump 2022 series and JBL SRX800P
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `mackie-thump212` | `driverCount` / `active` | 2 / true | 12 in / 305 mm ferrite woofer + 1.0 in / 25 mm polymer compression driver; 1400 W Class D (1200 W LF + 200 W HF) |
+| `mackie-thump215` | `driverCount` / `active` | 2 / true | 15 in / 381 mm ferrite woofer + 1.0 in / 25 mm polymer compression driver; 1400 W Class D |
+| `mackie-thump118s` | `driverCount` / `active` | 1 / true | single 18 in / 457 mm ferrite transducer, no HF device listed; 1400 W Class D |
+| `jbl-srx815p` | `driverCount` / `active` | 2 / true | "Self powered 15\", two-way"; 1 × 2275F 15" + 1 × 2432H compression driver; "amplification is integrated" |
+| `jbl-srx835p` | `driverCount` / `active` | 3 / true | "Self powered 15\", three-way"; 1 × 2275F + 1 × 2107H + 1 × 2432H |
+
+Both Mackie sheets were read in a single chunk each and the JBL pages in two of three chunks; the
+specification tables themselves were in the chunks read. `legacy-mack-5` (the original Thump15) was
+**not** touched: the 2022 sheet describes the current Thump212/215, not that earlier product.
+
+## Counts after batch 12
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 796 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 123 |
+| no provenance at all | 177 |
+
+Research backlog: 363 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+323 source URLs resolved in total. `npm test` 82/82.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
