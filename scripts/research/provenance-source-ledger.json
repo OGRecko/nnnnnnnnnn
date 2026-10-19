@@ -7640,6 +7640,34 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "\"Electronic section\" rows: \"Midrange and low frequency amplifier | 80W, Class AB\"; \"High frequency amplifier | 25W, Class AB\"; \"Automatic standby\"; \"Electrical supply | Voltages | 220-240V ... or 100-120V\"; \"Electrical supply | Connection | IEC plug and detachable power cord\". \"Transducers\": \"Woofer | 6.5\" (16.5cm) Flax Cone\"; \"Tweeter | 1\" (25mm) profile Aluminum-Magnesium\". The cabinet also carries a double passive radiator, which is not a driven transducer."
+    },
+    {
+      "url": "https://international.kef.com/products/kc62-subwoofer",
+      "host": "international.kef.com",
+      "document": "KEF KC62 product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"KC62 is an incredibly compact subwoofer ... the football-sized KC62 features two 6.5inch force cancelling drive units powered by 1,000W RMS of specially designed Class D amplification.\" The page describes no other transducer."
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/control-25-1",
+      "host": "jblpro.com",
+      "document": "JBL Professional Control 25-1 product page, Specifications table",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Drivers | LF: 135 mm (5.25 in), woven-fiberglass cone ... HF: 19 mm (0.75 in) PEI diaphragm, low-viscosity ferro-magnetic fluid, and lightweight Kapton™ voice coil former.\" The table also prints \"Impedance | 8 ohms (THRU setting)\" and \"Power Rating | 200 W Continuous Program (2 hrs)\" but no passive/active row."
     }
   ],
   "openQuestionsForOwner": [

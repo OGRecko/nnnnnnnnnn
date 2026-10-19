@@ -6998,7 +6998,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -7054,10 +7054,10 @@
     },
     "notes": "Manufacturer data: 85 Hz–17 kHz ±3 dB; 60 Hz–20 kHz -10 dB; 90 dB 1 W/1 m; 8 Ω nominal in THRU mode; 100 W continuous pink-noise handling / 200 W continuous program; 5.25 in woofer and 0.75 in PEI tweeter.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/control-25-1",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The specification table lists one LF driver (135 mm) and one HF driver (19 mm)."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -18013,8 +18013,8 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -18066,7 +18066,19 @@
       "source": "https://us.kef.com/products/kc62-subwoofer",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "KEF US official product page (KC62 powered subwoofer): Uni-Core force-cancelling design; response 11 Hz–200 Hz (±3 dB); built-in Class D amplification 1,000 W RMS (2 x 500 W); two 6.5 in drivers; maximum SPL 105 dB at 1 m; recommended high-pass 40–120 Hz (bypass) / 40–140 Hz (LFE); 246 x 256 x 248 mm; 14 kg. Powered subwoofer: no sensitivity or passive impedance published."
+    "notes": "KEF US official product page (KC62 powered subwoofer): Uni-Core force-cancelling design; response 11 Hz–200 Hz (±3 dB); built-in Class D amplification 1,000 W RMS (2 x 500 W); two 6.5 in drivers; maximum SPL 105 dB at 1 m; recommended high-pass 40–120 Hz (bypass) / 40–140 Hz (LFE); 246 x 256 x 248 mm; 14 kg. Powered subwoofer: no sensitivity or passive impedance published.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://international.kef.com/products/kc62-subwoofer",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two 6.5 inch force-cancelling drive units, stated in KEF's product copy."
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://international.kef.com/products/kc62-subwoofer",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The same sentence says the drivers are powered by 1,000 W RMS of Class D amplification built into the subwoofer."
+    }
   },
   {
     "id": "totem-model1",

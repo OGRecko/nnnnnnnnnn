@@ -28,13 +28,13 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 316
+      "count": 317
     },
     {
       "field": "active",
       "status": "MISSING",
       "value": "null",
-      "count": 139
+      "count": 138
     },
     {
       "field": "active",
@@ -52,19 +52,19 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 503
+      "count": 505
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 37
+      "count": 36
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 44
+      "count": 43
     }
   ],
   "resolvedSourceUrls": [
@@ -159,7 +159,9 @@
     "https://dynaudio.com/home-audio/evoke/evoke-20",
     "https://dynaudio.com/home-audio/evoke/evoke-30",
     "https://dynaudio.com/home-audio/evoke/evoke-50",
+    "https://international.kef.com/products/kc62-subwoofer",
     "https://jblpro.com/en-US/products/708p",
+    "https://jblpro.com/en-US/products/control-25-1",
     "https://jblpro.com/en-US/products/lsr305.html",
     "https://jblpro.com/en-US/products/m2",
     "https://jblpro.com/en-US/products/srx815p",

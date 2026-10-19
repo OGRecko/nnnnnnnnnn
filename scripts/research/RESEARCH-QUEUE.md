@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **351** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
+Records still needing research: **350** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **101** fields (no source recorded).
-- NO_PROVENANCE: **176** fields (null value, no provenance object).
+- UNSOURCED: **100** fields (no source recorded).
+- NO_PROVENANCE: **174** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -69,7 +69,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4350 | JBL | 4350 (`jbl-4350`) | 2 | 0 | 0 |
 | jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 2 | 0 |
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 2 |
-| jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 2 | 0 |
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
@@ -81,7 +80,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
-| kef-kc62 | KEF | KC62 (`kef-kc62`) | 0 | 0 | 2 |
 | kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 2 | 0 | 0 |
 | kef-ls50 | KEF | LS50 (`kef-ls50`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
@@ -225,6 +223,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
 | jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
+| jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 1 | 0 |
 | jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 1 | 0 | 0 |
 | jbl-hdi-3800 | JBL | HDI-3800 (`jbl-hdi-3800`) | 1 | 0 | 0 |
 | jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 1 | 0 | 0 |

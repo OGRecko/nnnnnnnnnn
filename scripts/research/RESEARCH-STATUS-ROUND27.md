@@ -628,6 +628,29 @@ The "double passive radiator" printed for each model is not a driven transducer 
 Research backlog: 351 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 336 source URLs resolved in total.
 
+## Batch 17 — KEF KC62 and JBL Control 25-1
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `kef-kc62` | `driverCount` / `active` | 2 / true | "two 6.5inch force cancelling drive units powered by 1,000W RMS of specially designed Class D amplification" |
+| `jbl-control-25` | `driverCount` | 2 | "Drivers | LF: 135 mm (5.25 in) ... HF: 19 mm (0.75 in)" |
+
+KC62 is self-amplified in KEF's own sentence, so no inference was needed. Control 25-1's table
+prints impedance and a power rating but no passive/active row — only the count was written, for
+the same reason as batch 15.
+
+## Counts after batch 17
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 822 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 100 |
+| no provenance at all | 174 |
+
+Research backlog: 350 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+338 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
