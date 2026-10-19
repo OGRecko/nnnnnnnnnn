@@ -34,6 +34,7 @@ if (process.env.SMOKE_RUN_SOLVER !== 'true') {
 
 const payload = {
   L: 4, W: 4, H: 3, steps: 40,
+  wallMaterial: 'drywall', floorMaterial: 'wood_floor', ceilMaterial: 'stonewool',
   sources: [{ x: 0.5, y: 0.5, z: 1.5 }],
   receivers: [{ x: 0.5, y: 0.5, z: 1.5 }],
 };
