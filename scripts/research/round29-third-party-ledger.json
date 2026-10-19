@@ -108,27 +108,33 @@
       "evidence": "Same brochure: \"4 way active technology with 4 ICEpower amplifiers\" and \"ICEpower, digital amplification\". Reputable-database tier under the 2026-10-19 policy.",
       "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md",
       "whyNotManufacturer": "The document is not served by the manufacturer and no owner-approved manufacturer copy exists for this model."
-    }
-  ],
-  "valuesWritten": 8,
-  "records": [
+    },
     {
       "record": "bose-802",
       "field": "driverCount",
-      "value": 8,
-      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": "THIRD_PARTY",
+      "valueBefore": 8,
+      "valueAfter": 8,
       "status": "THIRD_PARTY_VERIFIED",
-      "note": "Round 29 (2026-10-19): Bose 802 Series II technical information (distributor-hosted Bose document) — \"Each 802 Series II loudspeaker uses eight 4-1/2\\\" full-range drivers mounted in symmetric vertical pairs on a faceted Articulated Array baffle assembly.\""
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "document": "Bose 802 Series II technical information sheet (Bose publication, hosted by Walker Sound)",
+      "evidence": "Round 29 (2026-10-19): Bose 802 Series II technical information (distributor-hosted Bose document) — \"Each 802 Series II loudspeaker uses eight 4-1/2\\\" full-range drivers mounted in symmetric vertical pairs on a faceted Articulated Array baffle assembly.\"",
+      "whyNotManufacturer": "The document is a Bose publication, but the retained copy is hosted on a UK distributor site (walkersound.co.uk), not on a Bose-hosted URL.",
+      "decision": "Promoted to the third-party tier only (exact 802 Series II model, explicit driver count and external-amplifier wording, https URL retained, this ledger entry records the decision)."
     },
     {
       "record": "bose-802",
       "field": "active",
-      "value": false,
-      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": "THIRD_PARTY",
+      "valueBefore": false,
+      "valueAfter": false,
       "status": "THIRD_PARTY_VERIFIED",
-      "note": "Round 29 (2026-10-19): same document — \"Recommended amplifier power 240W minimum, 480W maximum\", 240 W continuous pink-noise power handling, 1/4-inch phone and XLR input connectors; the active equalization is provided by the separate 802C Series II systems controller, not by the loudspeaker. Passive loudspeaker."
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "document": "Bose 802 Series II technical information sheet (Bose publication, hosted by Walker Sound)",
+      "evidence": "Round 29 (2026-10-19): same document — \"Recommended amplifier power 240W minimum, 480W maximum\", 240 W continuous pink-noise power handling, 1/4-inch phone and XLR input connectors; the active equalization is provided by the separate 802C Series II systems controller, not by the loudspeaker. Passive loudspeaker.",
+      "whyNotManufacturer": "The document is a Bose publication, but the retained copy is hosted on a UK distributor site (walkersound.co.uk), not on a Bose-hosted URL.",
+      "decision": "Promoted to the third-party tier only (exact 802 Series II model, explicit driver count and external-amplifier wording, https URL retained, this ledger entry records the decision)."
     }
-  ]
+  ],
+  "valuesWritten": 8
 }

@@ -52,10 +52,19 @@ def main():
             seen.add((p['record'], p['field'], 'PROMOTE_THIRD_PARTY'))
         if p['notesAppend'].strip() and p['notesAppend'].strip() not in rec.get('notes', ''):
             rec['notes'] = (rec.get('notes', '').rstrip() + p['notesAppend']).strip()
-        ledger.setdefault('records', []).append({
-            'record': p['record'], 'field': p['field'], 'value': p['value'],
-            'source': p['source'], 'sourceType': p['sourceType'], 'status': p['status'],
-            'note': p['note']})
+        entry = {
+            'record': p['record'], 'field': p['field'],
+            'valueBefore': before['value'], 'valueAfter': p['value'],
+            'status': p['status'], 'sourceType': p['sourceType'], 'source': p['source'],
+            'document': 'Bose 802 Series II technical information sheet (hosted by walker sound)',
+            'evidence': p['note'],
+            'whyNotManufacturer': ('Bose publication, but the retained copy is hosted on a distributor site '
+                                   '(walkersound.co.uk), not on a Bose URL.'),
+            'decision': 'Third-party tier: exact model, explicit field wording, https URL, ledger row.',
+        }
+        if not any(e.get('record') == entry['record'] and e.get('field') == entry['field']
+                   for e in ledger.setdefault('entries', [])):
+            ledger['entries'].append(entry)
 
     status = json.load(open(STATUS, encoding='utf-8'))
     by_url = {u['url']: u for u in status['urls']}
