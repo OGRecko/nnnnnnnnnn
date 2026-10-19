@@ -431,50 +431,68 @@
     {
       "record": "yamaha-hs5",
       "field": "driverCount",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS5: LF 5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+      "note": "HS5: LF 5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2
     },
     {
       "record": "yamaha-hs5",
       "field": "active",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS5 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 70 W output power and balanced line inputs."
+      "note": "HS5 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 70 W output power and balanced line inputs.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true
     },
     {
       "record": "yamaha-hs7",
       "field": "driverCount",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS7: LF 6.5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+      "note": "HS7: LF 6.5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2
     },
     {
       "record": "yamaha-hs7",
       "field": "active",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS7 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 95 W output power."
+      "note": "HS7 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 95 W output power.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true
     },
     {
       "record": "yamaha-hs8",
       "field": "driverCount",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS8: LF 8\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+      "note": "HS8: LF 8\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2
     },
     {
       "record": "yamaha-hs8",
       "field": "active",
-      "outcome": "PROMOTE",
+      "outcome": "PROMOTED",
       "valueKept": null,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
-      "note": "HS8 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 120 W output power."
+      "note": "HS8 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 120 W output power.",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true
     },
     {
       "record": "genelec-8050a",
