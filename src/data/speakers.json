@@ -46122,11 +46122,12 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Manufacturer: OBERON 1 two-way; 5.25-inch low/mid driver + 29 mm soft-dome tweeter; 86 dB (2.83 V/1 m), 6 ohm nominal, 25–100 W recommended amplifier power, 51 Hz–26 kHz ±3 dB. Power field stores upper recommended amplifier value (100 W). Source: DALI OBERON 1. Source-backed fields are retained per exact field; unsupported fields remain N/A. Structured power withheld: the exact source publishes a recommended-amplifier range (25–100 W); the database power.value is scalar, so no range endpoint is stored. Source: https://dali-speakers.com/en-us/products/oberon/oberon-1/.",
+    "notes": "Manufacturer: OBERON 1 two-way; 5.25-inch low/mid driver + 29 mm soft-dome tweeter; 86 dB (2.83 V/1 m), 6 ohm nominal, 25–100 W recommended amplifier power, 51 Hz–26 kHz ±3 dB. Power field stores upper recommended amplifier value (100 W). Source: DALI OBERON 1. Source-backed fields are retained per exact field; unsupported fields remain N/A. Structured power withheld: the exact source publishes a recommended-amplifier range (25–100 W); the database power.value is scalar, so no range endpoint is stored. Source: https://dali-speakers.com/en-us/products/oberon/oberon-1/. Round 27 (2026-10-19): the discontinued-product page at https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/ prints the 2-way crossover principle with one 29 mm soft-dome HF driver and one 5¼-inch low/mid driver, confirming driverCount = 2; the value was already correct and its provenance was promoted from that readable manufacturer page instead of the retired bare-host URL.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 29 mm soft-dome HF driver plus one 5¼-inch low/mid driver: two driven transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -46342,11 +46343,12 @@
     },
     "driverCount": 4,
     "panel": null,
-    "notes": "Exact DALI OBERON Series manual technical-specifications table (Table 2, p. 45), manufacturer-authored DALI A/S content mirrored at the cited URL; the table has an explicit OBERON 9 column. It gives 35–26,000 Hz ±3 dB, 90.5 dB at 1 m for 2.83 V, 4 ohms nominal, two 9-inch low-frequency drivers, one 7-inch low/mid driver, and one 29 mm soft-dome high-frequency driver. The stored woofer value represents the two published 9-inch woofers; the distinct 7-inch midrange is retained here, not substituted as a woofer. Driver count is the exact sum of the listed LF/MF and HF transducers (4). The manual specifies a single-wire connection, external amplifier connection instructions, and 50–400 W recommended amplifier power, supporting passive operation; the recommended amplifier range is not speaker power handling and power remains N/A. The table also lists a 31 Hz bass-reflex tuning frequency, which is not driver resonant frequency (Fs), so resonantFreq remains N/A. Published bounds are not a measured response curve, and the source does not supply response points or a polar/directivity dataset. Sensitivity reference is retained for impedance-aware normalization. Source: https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf.",
+    "notes": "Exact DALI OBERON Series manual technical-specifications table (Table 2, p. 45), manufacturer-authored DALI A/S content mirrored at the cited URL; the table has an explicit OBERON 9 column. It gives 35–26,000 Hz ±3 dB, 90.5 dB at 1 m for 2.83 V, 4 ohms nominal, two 9-inch low-frequency drivers, one 7-inch low/mid driver, and one 29 mm soft-dome high-frequency driver. The stored woofer value represents the two published 9-inch woofers; the distinct 7-inch midrange is retained here, not substituted as a woofer. Driver count is the exact sum of the listed LF/MF and HF transducers (4). The manual specifies a single-wire connection, external amplifier connection instructions, and 50–400 W recommended amplifier power, supporting passive operation; the recommended amplifier range is not speaker power handling and power remains N/A. The table also lists a 31 Hz bass-reflex tuning frequency, which is not driver resonant frequency (Fs), so resonantFreq remains N/A. Published bounds are not a measured response curve, and the source does not supply response points or a polar/directivity dataset. Sensitivity reference is retained for impedance-aware normalization. Source: https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf. Round 27 (2026-10-19): the manufacturer discontinued-product page at https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/ prints 3-way, \"2 x 9 inch / 1 x 7 inch\" low/mid drivers and \"1 x 29 mm soft dome\", confirming the four-transducer count. The earlier distributor-hosted manual table is retained as the historical support.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two 9-inch bass drivers, one 7-inch midrange and one 29 mm soft-dome HF driver: four driven transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

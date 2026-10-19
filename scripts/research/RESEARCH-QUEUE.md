@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **217** fields across **160** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **215** fields across **160** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **85** fields (no source recorded).
 - NO_PROVENANCE: **170** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -31,8 +31,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
-| dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 2 | 0 | 0 |
-| dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 2 | 0 | 0 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
 | electro-voice-ekx-15p | Electro-Voice | EKX-15P (`electro-voice-ekx-15p`) | 0 | 2 | 0 |
@@ -181,6 +179,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-epicon-2 | DALI | Epicon 2 (`dali-epicon-2`) | 0 | 0 | 1 |
 | dali-epicon-6 | DALI | Epicon 6 (`dali-epicon-6`) | 0 | 0 | 1 |
 | dali-epicon-8 | DALI | Epicon 8 (`dali-epicon-8`) | 0 | 0 | 1 |
+| dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 1 | 0 | 0 |
+| dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 1 | 0 | 0 |
 | dali-opticon-2-mk2 | DALI | Opticon 2 MK2 (`dali-opticon-2-mk2`) | 0 | 0 | 1 |
 | dali-opticon-6-mk2 | DALI | Opticon 6 MK2 (`dali-opticon-6-mk2`) | 0 | 0 | 1 |
 | dali-opticon-8-mk2 | DALI | Opticon 8 MK2 (`dali-opticon-8-mk2`) | 0 | 0 | 1 |

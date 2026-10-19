@@ -7983,6 +7983,69 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "The URL now redirects to garmin.com, which presents a JL Audio brand landing page listing marine, motorsport, car and home ranges; no f113v2 product page or specification table is served. No value can be read from the recorded source."
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/",
+      "host": "www.dali-speakers.com",
+      "document": "DALI OBERON 1 discontinued-product page, Specifications",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specifications: \"Crossover Principle | 2-way\"; \"High Frequency Driver(s) | 1 x 29 mm soft dome\"; \"Low/Mid Frequency Driver(s) | 1 x 5¼ inch\"; \"Nominal Impedance [ohms] | 6\"; \"Recommended Amp. Power [watts] | 25 - 100\". The page does not use the words passive, active, powered or built-in amplification."
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/",
+      "host": "www.dali-speakers.com",
+      "document": "DALI OBERON 9 discontinued-product page, Specifications",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specifications: \"Crossover Principle | 3-way\"; \"Low/Mid Frequency Driver(s) | 2 x 9 inch / 1 x 7 inch\"; \"High Frequency Driver(s) | 1 x 29 mm soft dome\"; \"Nominal Impedance [ohms] | 4\"; \"Recommended Amp. Power [watts] | 50 - 400\". The page does not use the words passive, active, powered or built-in amplification."
+    },
+    {
+      "url": "https://a.storyblok.com/f/259299/x/a134a54e57/owners_sonetto_148x210_low.pdf",
+      "host": "a.storyblok.com",
+      "document": "Sonus faber Sonetto (first generation) owner manual, Italian and English sections",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 27,
+      "coverage": "Contents: \"6 Dati tecnici / 6 Technical information ... 34\". The declaration of conformity covers \"diffusori acustici passivi / passive loudspeaker system ... Sonetto modelli VIII, V, III, II, I, Center I, Center II, Wall\". The technical-information table itself (section 6, page 34) is not present in the extracted text of any opened chunk; no driver row could be read. The PDF is served from a.storyblok.com, a multi-tenant CMS host that the source-host allowlist does not treat as a Sonus faber manufacturer host."
+    },
+    {
+      "url": "https://products.electrovoice.com/na/en/tx1122",
+      "host": "products.electrovoice.com",
+      "document": "Electro-Voice TX1122 product page (recorded manufacturer URL)",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL redirects to https://www.electrovoice.com/, the current brand homepage, which no longer lists the Tour X family. The la/en path was also tried and returned the Application Gateway 404 page. No TX1122 specification or driver row is served at the recorded path."
     }
   ],
   "openQuestionsForOwner": [

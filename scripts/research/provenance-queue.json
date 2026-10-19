@@ -5,8 +5,8 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 217,
-  "assessedItems": 217,
+  "uncheckedItems": 215,
+  "assessedItems": 215,
   "unassessedItems": 0,
   "uniqueSourceUrls": 160,
   "urlsByStatus": {
@@ -14,8 +14,8 @@
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 193,
-    "INACCESSIBLE": 24
+    "CHECKED_PARTIAL": 192,
+    "INACCESSIBLE": 23
   },
   "statusCounts": [
     {
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 73
+      "count": 71
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 521
+      "count": 523
     },
     {
       "field": "driverCount",
@@ -68,6 +68,7 @@
     }
   ],
   "resolvedSourceUrls": [
+    "https://a.storyblok.com/f/259299/x/a134a54e57/owners_sonetto_148x210_low.pdf",
     "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
     "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
     "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
@@ -226,6 +227,7 @@
     "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
     "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
     "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+    "https://products.electrovoice.com/na/en/tx1122",
     "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
     "https://rockfordfosgate.com/products/details/p3d4-12/",
     "https://rockfordfosgate.com/products/details/r165x3/",
@@ -303,6 +305,8 @@
     "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
     "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
     "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+    "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/",
+    "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/",
     "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
@@ -857,41 +861,6 @@
       "evidence": "Specifications table: RP5 \"High Frequency Driver 1\" Soft Dome\"; \"Low Frequency Driver 5\" Aramid Glass Fiber\"; \"AMPLIFIER Power Rating (HF/LF) 15 watts / 30 watts\"; the manual is titled \"ROKIT POWERED SERIES NEAR FIELD STUDIO MONITOR/SUBWOOFER GUIDE\"."
     },
     {
-      "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
-      "host": "dali-speakers.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "dali-oberon-1"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "dali-oberon-1",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Recorded URL returns a 404 page-not-found template; no amplifier statement is available."
-        },
-        {
-          "record": "dali-oberon-1",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Recorded URL returns a 404 page-not-found template; the stored value stays unverified."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The URL returns the DALI \"Page not found\" template; no Oberon 1 specification content is served at this address."
-    },
-    {
       "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "host": "jblpro.com",
       "status": "CHECKED_PARTIAL",
@@ -925,41 +894,6 @@
         0
       ],
       "evidence": "The sheet separates \"Single Amplification\" and \"Biamplification\" maximum power input rows, gives \"Recommended Amplifier Power\", and states \"A switch located adjacent to the connection terminals allows the monitor to be biamplified. A special crossover card is available for the JBL Model 5235 electronic frequency dividing network\". It never uses the words passive, active, powered or built-in amplification for either model. Driver complement: 4430 \"uses a single 380 mm (15 in) low frequency driver\"; 4435 \"uses a pair of 380 mm (15 in) low frequency drivers\"; both use one compression driver on the Bi-Radial horn."
-    },
-    {
-      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
-      "host": "linqcdn.avbportal.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "dali-oberon-9"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "dali-oberon-9",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
-        },
-        {
-          "record": "dali-oberon-9",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The OBERON 9 column lists one 29 mm soft-dome HF driver plus two 9-inch and one 7-inch low/mid drivers: 4 transducers; distributor CDN cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Table 2: OBERON 9 column - \"Crossover principle 3-way\"; \"High frequency driver 1 x 29 mm soft dome\"; \"Low/Mid frequency driver(s) 2 x 9 inch 1 x 7 inch\"; \"Recommended amplifier power 50 - 400 Watt\"; \"Nominal impedance 4 ohm\"."
     },
     {
       "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
@@ -2951,6 +2885,33 @@
       "evidence": "The fetched page returned account/login and navigation content; the NS-5000 history narrative did not include any NS-690 drive-unit specification text in the served chunk."
     },
     {
+      "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
+      "host": "dali-speakers.com",
+      "status": "INACCESSIBLE",
+      "items": 1,
+      "records": [
+        "dali-oberon-1"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "dali-oberon-1",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Recorded URL returns a 404 page-not-found template; no amplifier statement is available."
+        }
+      ],
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "The URL returns the DALI \"Page not found\" template; no Oberon 1 specification content is served at this address."
+    },
+    {
       "url": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
       "host": "dam.focal-naim.com",
       "status": "CHECKED_PARTIAL",
@@ -3489,6 +3450,33 @@
         0
       ],
       "evidence": "Technical data: \"Components LF 2x ND15-L 15\\\" Kevlar Neodymium Driver\"; \"Components MF 2x YX7 7\\\"\"; \"Components HF 2x NH4TA2 4\\\" Diaphragm / 1.5\\\" Exit Compression Driver\"; \"3 way, true line source enclosure\"."
+    },
+    {
+      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+      "host": "linqcdn.avbportal.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "dali-oberon-9"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "dali-oberon-9",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ],
+      "checkedRound": 26,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Table 2: OBERON 9 column - \"Crossover principle 3-way\"; \"High frequency driver 1 x 29 mm soft dome\"; \"Low/Mid frequency driver(s) 2 x 9 inch 1 x 7 inch\"; \"Recommended amplifier power 50 - 400 Watt\"; \"Nominal impedance 4 ohm\"."
     },
     {
       "url": "https://magnepan.com/pages/manual-controller",

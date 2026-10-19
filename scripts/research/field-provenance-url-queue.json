@@ -445,22 +445,6 @@
       ]
     },
     {
-      "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
-      "outstandingFields": 2,
-      "fields": [
-        "dali-oberon-1.active",
-        "dali-oberon-1.driverCount"
-      ]
-    },
-    {
-      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "dali-oberon-9.active",
-        "dali-oberon-9.driverCount"
-      ]
-    },
-    {
       "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -1218,6 +1202,20 @@
       "outstandingFields": 1,
       "fields": [
         "sonus-faber-lumina-iii.active"
+      ]
+    },
+    {
+      "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-oberon-1.active"
+      ]
+    },
+    {
+      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-oberon-9.active"
       ]
     },
     {

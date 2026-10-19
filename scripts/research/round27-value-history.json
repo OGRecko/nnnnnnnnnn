@@ -4042,6 +4042,56 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf"
+    },
+    {
+      "id": "dali-oberon-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 29 mm soft-dome HF driver plus one 5¼-inch low/mid driver: two driven transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-1/"
+    },
+    {
+      "id": "dali-oberon-9",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two 9-inch bass drivers, one 7-inch midrange and one 29 mm soft-dome HF driver: four driven transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/"
     }
   ]
 }

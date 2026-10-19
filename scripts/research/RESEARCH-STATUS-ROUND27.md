@@ -864,9 +864,45 @@ Research backlog: 344 of 657 records. Queue: 217 items across 160 URLs, all asse
 361 source URLs resolved in total. Counts cover the two audited scalar fields (`active`,
 `driverCount`) across all 657 records.
 
+## Batch 25 — DALI OBERON 1 and OBERON 9; Sonetto and Tour X dead ends
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `dali-oberon-1` | `driverCount` | 2 | Discontinued-product page: "2-way", "1 x 29 mm soft dome" HF and "1 x 5¼ inch" low/mid |
+| `dali-oberon-9` | `driverCount` | 4 | Discontinued-product page: "3-way", "2 x 9 inch / 1 x 7 inch" LF/MF and "1 x 29 mm soft dome" HF |
+
+`active` was not promoted for either model. Both pages give a nominal impedance and a recommended
+amplifier-power range but never use passive, active, powered or built-in-amplification wording, and
+the repository rule forbids inferring active status from a recommended-amplifier range.
+
+Two dead ends were recorded rather than converted into values:
+
+- **Sonus faber Sonetto first generation**: the official owner manual was located on the product-guides
+  page and opened. Its declaration covers the "passive loudspeaker system" models VIII, V, III, II and
+  I, but the section 6 technical-information table on page 34 is absent from the extracted text of the
+  six opened chunks, so no driver row could be read. The PDF is served from `a.storyblok.com`, a
+  multi-tenant CMS host that the source-host policy does not treat as a manufacturer host, so even a
+  readable table would not have been promotion-grade. No field was written.
+- **Electro-Voice Tour X**: the recorded `products.electrovoice.com/na/en/tx1122` URL now redirects to
+  the current electrovoice.com homepage, and the `la/en` path returns an Application Gateway 404. The
+  fullcompass copies remain the only opened support for those counts and stay SUPPORTED_NOT_PROMOTED;
+  no value was taken from a reseller or from a search-result snippet.
+
+## Counts after batch 25
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 844 |
+| `CITED_IN_NOTES_UNCHECKED` | 215 |
+| `UNSOURCED` | 85 |
+| no provenance at all | 170 |
+
+Research backlog: 344 of 657 records. Queue: 215 items across 160 URLs, all assessed, zero warnings,
+365 source URLs resolved in total.
+
 ## Remaining in this round
 
-217 cited-but-unchecked fields across 160 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
+215 cited-but-unchecked fields across 160 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 
