@@ -888,21 +888,44 @@ Two dead ends were recorded rather than converted into values:
   fullcompass copies remain the only opened support for those counts and stay SUPPORTED_NOT_PROMOTED;
   no value was taken from a reseller or from a search-result snippet.
 
-## Counts after batch 25
+## Batch 26 (2026-10-19)
+
+One field promoted, four URLs recorded.
+
+| Record | Field | Result | Source |
+| --- | --- | --- | --- |
+| `atc-scm45a-pro` | `driverCount` | 3, `MANUFACTURER_VERIFIED` | ATC SCM45A Pro product page |
+
+- **ATC SCM45A Pro**: the exact-model page lists `Drivers: HF 1"/25mm Dual-Suspension 'S-Spec', Mid
+  3"/75mm Soft Dome, LF 6.5"/164mm short-coil carbon paper cone` and describes the model as an
+  "active 3-way studio monitor" with a 150 W/60 W/25 W tri-amp pack. One HF, one mid and one LF
+  transducer: three driven transducers. The value matched the count already recorded, so this changed
+  provenance only.
+- **KEF legacy product paths**: `international.kef.com/products/ls50` redirects to the JavaScript
+  product-archive selector page, and `us.kef.com/products/{ls50,reference-1,reference-5}` return KEF's
+  404. The product-archive PDFs (`assets.kef.com/pdf_doc/product-archive/1970s/...`) answer with an
+  HTML "redirecting to kef.com" stub instead of the document. No KEF value was written.
+- **Marshall 1936 2x12**, **Polk Signature S60**, **IK Multimedia iLoud MTM** (original): re-checked
+  because their queue items are still open. Marshall returns "Page not found", Polk returns its
+  "wires crossed" error page, and the original iLoud MTM route now redirects to the **MKII** product
+  page. The MKII page does state a three-transducer MTM complement, but it is a different model, so no
+  value was inferred for the original from it.
+
+## Counts after batch 26
 
 | Status | Fields |
 | --- | ---: |
-| `MANUFACTURER_VERIFIED` | 844 |
-| `CITED_IN_NOTES_UNCHECKED` | 215 |
+| `MANUFACTURER_VERIFIED` | 845 |
+| `CITED_IN_NOTES_UNCHECKED` | 214 |
 | `UNSOURCED` | 85 |
 | no provenance at all | 170 |
 
-Research backlog: 344 of 657 records. Queue: 215 items across 160 URLs, all assessed, zero warnings,
-365 source URLs resolved in total.
+Research backlog: 343 of 657 records. Queue: 214 items across 159 URLs, all assessed, zero warnings,
+370 source URLs resolved in total. URL result file: 111 entries.
 
 ## Remaining in this round
 
-215 cited-but-unchecked fields across 160 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
+214 cited-but-unchecked fields across 159 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 
@@ -918,7 +941,7 @@ Run against the tree that contains every change in this round:
 | `npm test` | 82/82 suites |
 | `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
 | `docs:release` / `docs:consistency` | regenerated; `issues: []` |
-| `release:source` / `release:source:verify` | 601 files, treeSha256 `1e6a269a8d2bdaad36cd50a58c61527e0334082a6eaf7a64a8885caa74207511`, verification `ok: true` |
+| `release:source` / `release:source:verify` | 639 files, treeSha256 `81d6a2d04fa11b63913c82c8f0c83836cdfe349d82b9a74b8ab3b329a782d6d5`, verification `ok: true` |
 | `audit:release` | 657 files checked, 0 duplicate ids, 0 duplicate brand+model, `problems: []`, warningCount 0 |
 | `npm audit --audit-level=high` | no high/critical findings (8 moderate in the electron-builder toolchain only) |
 | dev server (`npm run dev`) | starts on :3000, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |

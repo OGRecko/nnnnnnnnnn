@@ -5,16 +5,16 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 215,
-  "assessedItems": 215,
+  "uncheckedItems": 214,
+  "assessedItems": 214,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 160,
+  "uniqueSourceUrls": 159,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 145,
+    "CHECKED_PARTIAL": 144,
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 192,
+    "CHECKED_PARTIAL": 191,
     "INACCESSIBLE": 23
   },
   "statusCounts": [
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 71
+      "count": 70
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 523
+      "count": 524
     },
     {
       "field": "driverCount",
@@ -137,6 +137,7 @@
     "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
     "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
     "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+    "https://atc.audio/professional/loudspeakers/scm45a-pro/",
     "https://atc.audio/professional/loudspeakers/scm50a-pro/",
     "https://audison.com/product/av-k6/",
     "https://audison.com/product/th-k2-ii-a-coro-2/",
@@ -172,6 +173,7 @@
     "https://dynaudio.com/professional-audio/lyd/lyd-7",
     "https://eminence.com/collections/legend-series",
     "https://international.kef.com/products/kc62-subwoofer",
+    "https://international.kef.com/products/ls50",
     "https://jblpro.com/en-US/products/708p",
     "https://jblpro.com/en-US/products/control-25-1",
     "https://jblpro.com/en-US/products/lsr305.html",
@@ -243,12 +245,15 @@
     "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
     "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
     "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+    "https://us.kef.com/products/ls50",
     "https://us.kef.com/products/ls50-meta",
     "https://us.kef.com/products/lsx-2",
     "https://us.kef.com/products/r3-meta",
     "https://us.kef.com/products/r7-meta",
+    "https://us.kef.com/products/reference-1",
     "https://us.kef.com/products/reference-1-bookshelf-speaker",
     "https://us.kef.com/products/reference-3-floorstanding-speaker",
+    "https://us.kef.com/products/reference-5",
     "https://us.kef.com/products/reference-5-floorstanding-speaker",
     "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
     "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
@@ -2775,33 +2780,6 @@
         0
       ],
       "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 150W / 600W\"; \"INPUTS Dual aluminum binding posts / bi-wire / bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
-    },
-    {
-      "url": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
-      "host": "atc.audio",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "atc-scm45a-pro"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "atc-scm45a-pro",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The specification table row lists 3 driver sizes, but the overview bullet and the datasheet state dual 6.5 in woofers (4 units). The stored 3 remains pinned by src/data/speakers.test.ts; no promotion until the discrepancy is resolved."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product specifications: active three-way monitor; the specification table lists \"Drivers: HF 25mm, Mid 75mm, LF 164mm\", while the overview bullet and the linked technical datasheet describe dual 6.5 in (164 mm) woofers. The page also lists built-in ATC amplification."
     },
     {
       "url": "https://audio-database.com/FOCAL-JMLAB/speaker/chorus707.html",

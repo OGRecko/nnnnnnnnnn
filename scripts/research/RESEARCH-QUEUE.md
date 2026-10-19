@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **344** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 89 brands.
+Records still needing research: **343** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 89 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **215** fields across **160** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **214** fields across **159** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **85** fields (no source recorded).
 - NO_PROVENANCE: **170** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -149,7 +149,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | alpine-x-s65c | Alpine | X-S65C (`alpine-x-s65c`) | 0 | 0 | 1 |
 | apple-homepod | Apple | HomePod (2nd gen) (`apple-homepod`) | 0 | 0 | 1 |
 | atc-scm19 | ATC | SCM19 (`atc-scm19`) | 0 | 0 | 1 |
-| atc-scm45a-pro | ATC | SCM45A Pro (`atc-scm45a-pro`) | 1 | 0 | 0 |
 | audison-prima-apk-165 | Audison | Prima APK 165 (`audison-prima-apk-165`) | 1 | 0 | 0 |
 | audison-thesis-th-k2-ii-a | Audison | Thesis TH K2 II A (`audison-thesis-th-k2-ii-a`) | 0 | 0 | 1 |
 | audison-voce-av-k6 | Audison | Voce AV K6 (`audison-voce-av-k6`) | 0 | 0 | 1 |

@@ -8046,6 +8046,62 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "The URL redirects to https://www.electrovoice.com/, the current brand homepage, which no longer lists the Tour X family. The la/en path was also tried and returned the Application Gateway 404 page. No TX1122 specification or driver row is served at the recorded path."
+    },
+    {
+      "url": "https://international.kef.com/products/ls50",
+      "host": "international.kef.com",
+      "document": "KEF International LS50 product path",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The path redirects to https://international.kef.com/pages/product-archive. The archive page only offers a drop-down selector (\"Initial Product Archive......\") and serves no LS50 specification, driver row or datasheet in the opened text."
+    },
+    {
+      "url": "https://us.kef.com/products/ls50",
+      "host": "us.kef.com",
+      "document": "KEF US LS50 product path",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL returns KEF's \"404 Not Found\" page. No product data is served."
+    },
+    {
+      "url": "https://us.kef.com/products/reference-1",
+      "host": "us.kef.com",
+      "document": "KEF US Reference 1 product path",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL returns KEF's \"404 Not Found\" page. No product data is served."
+    },
+    {
+      "url": "https://us.kef.com/products/reference-5",
+      "host": "us.kef.com",
+      "document": "KEF US Reference 5 product path",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL returns KEF's \"404 Not Found\" page. No product data is served."
     }
   ],
   "openQuestionsForOwner": [

@@ -1815,6 +1815,16 @@
       "valueKept": false,
       "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/",
       "note": "The page lists a recommended amplifier-power range and nominal impedance but never states passive/active, powered/unpowered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "atc-scm45a-pro",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+      "note": "The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers."
     }
   ],
   "elx200_15": {

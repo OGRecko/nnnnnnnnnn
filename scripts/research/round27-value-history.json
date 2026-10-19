@@ -4092,6 +4092,31 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.dali-speakers.com/en-us/products/discontinued/oberon/oberon-9/"
+    },
+    {
+      "id": "atc-scm45a-pro",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/"
     }
   ]
 }

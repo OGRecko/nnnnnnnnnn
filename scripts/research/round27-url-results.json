@@ -3632,6 +3632,97 @@
       "status": "INACCESSIBLE",
       "evidence": "The URL redirects to https://www.electrovoice.com/, the current brand homepage, which no longer lists the Tour X family. The la/en path was also tried and returned the Application Gateway 404 page. No TX1122 specification or driver row is served at the recorded path.",
       "fieldResults": []
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+      "sourceUrl": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+      "host": "atc.audio",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "ATC SCM45A Pro product page, Drivers and Specification",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Overview: \"Mid-size very high performance active 3-way studio monitor\". Drivers row: \"HF 1″/25mm Dual-Suspension 'S-Spec', Mid 3″/75mm Soft Dome, LF 6.5″/164mm short-coil carbon paper cone\". Amplifier output: \"Bass 150W rms, Mid 60W rms, High 25W rms\"; crossover frequencies 380 Hz and 3.5 kHz.",
+      "fieldResults": [
+        {
+          "record": "atc-scm45a-pro",
+          "field": "driverCount",
+          "valueBefore": 3,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+          "note": "The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers."
+        }
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/ls50",
+      "sourceUrl": "https://international.kef.com/products/ls50",
+      "host": "international.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "KEF International LS50 product path",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "INACCESSIBLE",
+      "evidence": "The path redirects to https://international.kef.com/pages/product-archive. The archive page only offers a drop-down selector (\"Initial Product Archive......\") and serves no LS50 specification, driver row or datasheet in the opened text.",
+      "fieldResults": []
+    },
+    {
+      "url": "https://us.kef.com/products/ls50",
+      "sourceUrl": "https://us.kef.com/products/ls50",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "KEF US LS50 product path",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "INACCESSIBLE",
+      "evidence": "The URL returns KEF's \"404 Not Found\" page. No product data is served.",
+      "fieldResults": []
+    },
+    {
+      "url": "https://us.kef.com/products/reference-1",
+      "sourceUrl": "https://us.kef.com/products/reference-1",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "KEF US Reference 1 product path",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "INACCESSIBLE",
+      "evidence": "The URL returns KEF's \"404 Not Found\" page. No product data is served.",
+      "fieldResults": []
+    },
+    {
+      "url": "https://us.kef.com/products/reference-5",
+      "sourceUrl": "https://us.kef.com/products/reference-5",
+      "host": "us.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "KEF US Reference 5 product path",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "INACCESSIBLE",
+      "evidence": "The URL returns KEF's \"404 Not Found\" page. No product data is served.",
+      "fieldResults": []
     }
   ]
 }

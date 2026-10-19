@@ -6,16 +6,16 @@
     "live": 3083,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2412,
+      "MANUFACTURER_VERIFIED": 2413,
       "NO_PROVENANCE": 365,
-      "CITED_IN_NOTES_UNCHECKED": 250,
+      "CITED_IN_NOTES_UNCHECKED": 249,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 85,
       "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 181
+    "citedUncheckedUrls": 180
   },
   "entries": [
     {
@@ -49563,14 +49563,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "atc-scm45a-pro",

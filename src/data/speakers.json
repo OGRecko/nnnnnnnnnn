@@ -51166,9 +51166,10 @@
     },
     "notes": "Exact ATC SCM45A Pro manufacturer product page. It identifies an active three-way monitor with 6.5-inch LF, 3-inch midrange, and 1-inch HF drivers (three transducers); free-standing cut-off frequencies are 42 Hz–25 kHz at -6 dB. The listed 150/60/25 W ratings are separate LF/mid/HF amplifier-channel outputs and are not collapsed into a scalar speaker-power or total-output field. The 1 V input-sensitivity figure is not acoustic sensitivity, and balanced input impedance is not speaker-load impedance; those fields remain N/A. No response-point table or directivity dataset is imported. Source: https://atc.audio/professional/loudspeakers/scm45a-pro/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact-model Drivers row names one HF, one mid and one LF transducer: three driven transducers."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
