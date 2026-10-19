@@ -14,7 +14,11 @@ import { runWave } from '../server/solverWorker';
 import { getInterpolatedMagnitude } from '../server/directivityParser';
 
 const rad = (d: number) => (d * Math.PI) / 180;
-const FREQS = [250, 500];
+// The solver injects octave bands 125-2000 Hz at this grid. Supplying the pattern at only one or two of them would
+// leave the rest omnidirectional (the documented rule for uncovered bands) and the measured front/rear difference
+// would be diluted by those bands, which says nothing about whether the pattern is reproduced. The dataset therefore
+// covers every band that the solver actually injects.
+const FREQS = [125, 250, 500, 1000, 2000];
 const REAR_DB = -30;
 const points: Record<string, number[]> = {};
 for (let el = -90; el <= 90; el += 30) for (let az = 0; az < 360; az += 30) { const c = Math.cos(rad(az)) * Math.cos(rad(el)); const m = REAR_DB * (1 - c) / 2; points[`${az},${el}`] = FREQS.map(() => m); }

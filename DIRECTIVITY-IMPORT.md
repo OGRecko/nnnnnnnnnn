@@ -4,16 +4,36 @@
 
 Cavity Audio lets you import your own polar data for a source (right sidebar, under the speaker). It is stored with the project and sent to the room solver. It is **your data**: it is labelled "imported by you, not verified by Cavity Audio" and is never presented as manufacturer or catalog data. No catalog speaker has built-in directivity data; without an import, a source is **omnidirectional** and the app says so ("Not available: omnidirectional assumed").
 
-## Known limitation (measured, currently failing)
-The room solver's directional source does **not** reproduce the pattern it is given. It spreads the source over a small weighted cluster of in-phase injection nodes, and an in-phase cluster cannot create real directivity (that needs phase-differenced multipole terms). Measured with `npm run validate:directivity` (14 m room, receivers outside the injection cluster, pattern specified as 30 dB down at the rear):
+## Measured accuracy (release gate: `npm run validate:directivity`)
+
+The solver does not spread the source over an in-phase cluster. It fits an **equivalent source**: a small shell of
+monopole nodes carrying complex weights (amplitude *and* phase), solved by regularised least squares at each octave-band
+centre. The phase is realised by injecting a 90-degree-advanced copy of the band excitation, so the nodes radiate a real
+phase-differenced pattern.
+
+Measured with `npm run validate:directivity` (14 m room, receivers well outside the source shell, pattern specified as
+30 dB down at the rear, dataset covering every octave band the solver injects):
 
 | Case | Measured front-minus-rear | Specified |
 |---|---|---|
 | Omnidirectional baseline | -0.01 dB | 0 dB |
-| Aimed forward | -0.67 dB | +30 dB |
-| Aimed backward | +0.87 dB | -30 dB |
+| Aimed forward | +20.02 dB | +30 dB |
+| Aimed backward | -21.17 dB | -30 dB |
 
-So imported data currently has a very small effect, and the sign of that effect is not reliable. The app therefore marks the feature **Experimental** and tells you not to rely on directional results. `npm run validate:directivity` exits non-zero until the solver's source model is fixed; it is deliberately not part of `npm test` and is listed as an open FAIL in the final verdict. Do not treat room results for directional sources as validated.
+The polarity and the shape are now correct: aiming the source 180 degrees mirrors the result, and a 14 dB
+cardioid pattern is reproduced to within about 1 dB. A 30 dB pattern is reproduced to about 20 dB, so the release gate
+still fails its +/-3 dB tolerance and the feature remains **Experimental**. The measured limitation is the *depth* of a
+very sharp pattern on an FDTD grid, not its direction.
+
+Why the gap remains: the pattern is fitted at the band centre and the same weights are used across the octave, so the
+deepest part of a 30 dB pattern is shallower away from the centre; and octave bands above roughly `c/(3*dx)` (about
+830 Hz at the gate's 13.7 cm cells) cannot carry a spatial pattern at all, so those bands keep the earlier
+amplitude-cluster approximation. The solver reports how many bands carry directivity, and both limits are stated here
+rather than hidden.
+
+`npm run validate:directivity` exits non-zero until the measured result is inside tolerance; it is deliberately not part
+of `npm test` and is listed as an open FAIL in the final verdict. Do not treat room results for directional sources as
+validated.
 
 ## Formats
 Supported: **CSV** (long or wide) and **JSON**.

@@ -3,7 +3,7 @@
  "specifiedFrontRearDb": 30,
  "toleranceDb": 3,
  "omniDb": -0.01,
- "forwardDb": -0.67,
- "backwardDb": 0.87,
+ "forwardDb": 20.02,
+ "backwardDb": -21.17,
  "pass": false
 }

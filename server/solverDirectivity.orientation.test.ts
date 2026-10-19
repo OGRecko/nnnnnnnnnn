@@ -48,18 +48,42 @@ const F = [1000];
 const sphere = () => { const points: Record<string, number[]> = {}; for (let el = -90; el <= 90; el += 30) for (let az = 0; az < 360; az += 30) { const c = Math.cos(rad(az)) * Math.cos(rad(el)); points[`${az},${el}`] = [-30 * (1 - c) / 2]; } return { frequencies: F, angularResolution: 30, points }; };
 const N = 21, nx = N, ny = N, nz = N, nxz = nx * nz, c = 10;
 const idxToXYZ = (idx: number) => ({ ix: idx % nx, iz: Math.floor(idx / nx) % nz, iy: Math.floor(idx / nxz) });
-/** Fraction of the injected weight that lies in each half-space around the source: [+length, +width, +vertical]. */
+const TEST_DX_M = 0.05;                       // 5 cm cells: 1 kHz is 4.4 samples per wavelength, a resolved pattern
+const K = (2 * Math.PI * 1000) / 343;         // rad/m at the dataset's 1 kHz band
+/**
+ * Far-field amplitude radiated by the (complex) injection nodes in a WORLD direction. A complex weight w = re + j*im
+ * contributes w * exp(-j k s.r); the old test summed raw weights, which is only meaningful for an in-phase cluster and
+ * says nothing about the pattern the nodes actually radiate.
+ */
+function farField(nodes: Array<{ idx: number; re: number; im: number }>, s: [number, number, number]): number {
+  let re = 0, im = 0;
+  for (const n of nodes) {
+    const p = idxToXYZ(n.idx);
+    // grid (ix = length, iy = HEIGHT, iz = width) -> world (length x, width y, up z)
+    const wx = (p.ix - c) * TEST_DX_M, wy = (p.iz - c) * TEST_DX_M, wz = (p.iy - c) * TEST_DX_M;
+    const phase = -K * (s[0] * wx + s[1] * wy + s[2] * wz);
+    const cs = Math.cos(phase), sn = Math.sin(phase);
+    re += n.re * cs - n.im * sn;
+    im += n.re * sn + n.im * cs;
+  }
+  return Math.hypot(re, im);
+}
+/** Amplitude in the six axis directions (world: +length, +width, up) plus the on-axis gain. */
 function lobes(source: any) {
-  const nodes = computeInjectionNodes({ isDirectional: true, directivityData: sphere(), ...source }, c, c, c, nx, ny, nz, nxz, 1000);
-  const w = (f: (d: { ix: number; iy: number; iz: number }) => boolean) => nodes.reduce((s, n) => { const p = idxToXYZ(n.idx); return f({ ix: p.ix - c, iy: p.iy - c, iz: p.iz - c }) ? s + n.weight : s; }, 0);
-  return { lengthPlus: w((d) => d.ix > 0), lengthMinus: w((d) => d.ix < 0), widthPlus: w((d) => d.iz > 0), widthMinus: w((d) => d.iz < 0), up: w((d) => d.iy > 0), down: w((d) => d.iy < 0), total: nodes.reduce((s, n) => s + n.weight, 0) };
+  const nodes = computeInjectionNodes({ isDirectional: true, directivityData: sphere(), ...source }, c, c, c, nx, ny, nz, nxz, 1000, TEST_DX_M);
+  return {
+    lengthPlus: farField(nodes, [1, 0, 0]), lengthMinus: farField(nodes, [-1, 0, 0]),
+    widthPlus: farField(nodes, [0, 1, 0]), widthMinus: farField(nodes, [0, -1, 0]),
+    up: farField(nodes, [0, 0, 1]), down: farField(nodes, [0, 0, -1]),
+    total: nodes.length,
+  };
 }
 
 check('a horizontally-aimed speaker (yaw 0) radiates toward +width, NOT toward the ceiling (regression: the vertical axis was used as forward)', () => {
   const l = lobes({ yawDeg: 0, pitchDeg: 0, rollDeg: 0 });
-  assert.ok(near(l.total, 1, 1e-9), 'injection weights are normalised'); assert.ok(l.widthPlus > 1.5 * l.widthMinus, `forward lobe ${l.widthPlus.toFixed(3)} vs rear ${l.widthMinus.toFixed(3)}`);
-  assert.ok(l.widthPlus > l.up, `forward (${l.widthPlus.toFixed(3)}) must beat straight up (${l.up.toFixed(3)})`); assert.ok(near(l.up, l.down, 0.02), `a level speaker is vertically symmetric (${l.up.toFixed(3)} vs ${l.down.toFixed(3)})`);
-  assert.ok(near(l.lengthPlus, l.lengthMinus, 0.02), 'and left/right symmetric');
+  assert.ok(near(l.widthPlus, 1, 1e-6), `the on-axis gain is normalised to the dataset value, got ${l.widthPlus}`); assert.ok(l.widthPlus > 1.5 * l.widthMinus, `forward lobe ${l.widthPlus.toFixed(3)} vs rear ${l.widthMinus.toFixed(3)}`);
+  assert.ok(l.widthPlus > l.up, `forward (${l.widthPlus.toFixed(3)}) must beat straight up (${l.up.toFixed(3)})`); assert.ok(near(l.up, l.down, 0.05), `a level speaker is vertically symmetric (${l.up.toFixed(3)} vs ${l.down.toFixed(3)})`);
+  assert.ok(near(l.lengthPlus, l.lengthMinus, 0.05), `and left/right symmetric (${l.lengthPlus.toFixed(3)} vs ${l.lengthMinus.toFixed(3)})`);
 });
 
 check('yaw 180 reverses the lobe; yaw 90 and 270 swing it along the length axis (-length / +length)', () => {
@@ -75,7 +99,7 @@ check('pitch +90 aims at the ceiling, pitch -90 at the floor; roll does not move
 });
 
 check('without directional data the source is a single omnidirectional node (nothing fabricated)', () => {
-  const n = computeInjectionNodes({ isDirectional: false }, c, c, c, nx, ny, nz, nxz, 1000); assert.equal(n.length, 1); assert.equal(n[0].weight, 1);
+  const n = computeInjectionNodes({ isDirectional: false }, c, c, c, nx, ny, nz, nxz, 1000); assert.equal(n.length, 1); assert.equal(n[0].re, 1); assert.equal(n[0].im, 0);
   const m = computeInjectionNodes({ isDirectional: true, directivityData: { frequencies: [100], angularResolution: 30, points: { '0,0': [0] } } }, c, c, c, nx, ny, nz, nxz, 8000);
   assert.equal(m.length, 1, 'data more than half an octave away is not reused');
 });

@@ -26,14 +26,14 @@ The source/data gates are prepared and current documentation is generated from t
 
 ## Open gates
 
-- Directivity fidelity: **FAIL**. A pattern specified as 30 dB front-to-rear measured -0.67 dB aimed forward and 0.87 dB aimed backward (omnidirectional baseline -0.01 dB; tolerance +/-3 dB). Reproduce: `npm run validate:directivity`. See DIRECTIVITY-IMPORT.md.
+- Directivity fidelity: **FAIL**. A pattern specified as 30 dB front-to-rear measured 20.02 dB aimed forward and -21.17 dB aimed backward (omnidirectional baseline -0.01 dB; tolerance +/-3 dB). Reproduce: `npm run validate:directivity`. See DIRECTIVITY-IMPORT.md.
 
 ## Scientific/data honesty
 
 - Published bandwidth limits are not presented as measured response curves.
 - No laboratory measurement is claimed without measurement provenance.
 - Generic/reference speaker models are labeled as modeled.
-- Speaker-specific polar/directivity behavior is not fabricated; imported polar data is the user's own and the solver reproduces only a small part of it (see Open gates).
+- Speaker-specific polar/directivity behavior is not fabricated; imported polar data is the user's own. The solver fits an equivalent source to it and reproduces its direction and its low-order shape, but a 30 dB pattern comes back about 20 dB deep on the release-gate grid (see DIRECTIVITY-IMPORT.md and Open gates).
 - Physical scatter is not modeled.
 - 2.83 V/1 m sensitivity is normalized to the 1 W/1 m DSP reference only when nominal impedance is known.
 

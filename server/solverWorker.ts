@@ -155,6 +155,7 @@ import { schroederCurve, computeEDT, computeT20, computeT30 } from "../src/lib/d
 import { paramsFromEnergy } from "../src/lib/impulseResponseParams.js";
 import { bandpassBiquad, applyBiquad, OCTAVE_BANDS_HZ, OCTAVE_BAND_LABELS } from "../src/lib/octaveFilter.js";
 import { LIMITS, validateRoomDimensions, waveGridRequirement, exceedsGridLimit, POINTS_PER_WAVELENGTH, SPEED_OF_SOUND_MS } from "../src/lib/publicLimits.js";
+import { synthesizeDirectionalNodes, gridResolvesPattern, quadratureSignal } from "./directivitySource.js";
 
 // Aliases keep the numerical code below readable while every value comes from
 // the ONE authoritative limits module (no duplicated literals).
@@ -354,8 +355,8 @@ function speakerDisclosure(payload: any) {
     directivityCoveredBands: bandCount,
     note: directional
       ? bandCount >= 3
-        ? `This simulation uses the supplied frequency-dependent directivity dataset across ${bandCount} resolvable octave bands with source orientation. Bands without sufficiently close source data are left omnidirectional; no response is fabricated.`
-        : `This simulation uses the supplied directivity data only where its frequency coverage is close enough to a requested octave band (${bandCount} covered band${bandCount === 1 ? '' : 's'}). Missing bands remain omnidirectional; no broadband response is fabricated. The directional source is an approximation (a weighted cluster of in-phase injection nodes) and reproduces only part of the supplied pattern; see DIRECTIVITY-IMPORT.md.`
+        ? `This simulation uses the supplied frequency-dependent directivity dataset across ${bandCount} covered octave bands with source orientation. Bands without sufficiently close source data are left omnidirectional, and bands the grid cannot resolve keep the earlier amplitude-cluster approximation; no response is fabricated. See DIRECTIVITY-IMPORT.md for the measured accuracy.`
+        : `This simulation uses the supplied directivity data only where its frequency coverage is close enough to a requested octave band (${bandCount} covered band${bandCount === 1 ? '' : 's'}). Missing bands remain omnidirectional; no broadband response is fabricated. The directional source is an equivalent-source fit (complex-weighted monopoles) that reproduces the supplied pattern in the bands the grid can resolve; see DIRECTIVITY-IMPORT.md for the measured accuracy and its limits.`
       : requested
         ? "No directivity dataset was supplied for this speaker, so the room simulation excites the room with an omnidirectional point source and does not use the speaker's frequency response or directivity (its frequency-response shaping exists only in the audition/preview tone). The speaker's sensitivity, when one is recorded, only scales the relative source level and the calibrated SPL estimate; if none is recorded, SPL is reported as unavailable."
         : "No speaker is selected and no directivity dataset was supplied, so the room simulation excites the room with an omnidirectional point source. Calibrated SPL is only available when a source has a recorded sensitivity."
@@ -606,21 +607,45 @@ export function computeInjectionNodes(
   ny: number,
   nz: number,
   nxz: number,
-  frequencyHz = 1000
-) {
-  const injectionNodes: { idx: number, weight: number }[] = [];
+  frequencyHz = 1000,
+  dxMeters = 0.1
+): { idx: number, re: number, im: number }[] {
   const safeSrcIdx = Math.min(Math.max(srcIy * nxz + srcIz * nx + srcIx, 0), nx * ny * nz - 1);
 
   if (source && source.isDirectional && source.directivityData && hasDirectivityCoverage(source.directivityData, frequencyHz)) {
+    // Preferred model: an equivalent source whose complex weights reproduce the supplied pattern (monopole plus
+    // phase-differenced terms). Only usable while the grid can represent the pattern at this frequency.
+    if (gridResolvesPattern(frequencyHz, dxMeters)) {
+      const synthesized = synthesizeDirectionalNodes(
+        source.directivityData,
+        frequencyHz,
+        dxMeters,
+        (x, y, z) => worldToLocalDirection(x, y, z, source),
+      );
+      const fitted: { idx: number, re: number, im: number }[] = [];
+      for (const node of synthesized) {
+        // Offsets are (length, width, up) in cells; the grid is indexed (ix = length, iy = HEIGHT, iz = width).
+        const ix = srcIx + node.offset[0];
+        const iz = srcIz + node.offset[1];
+        const iy = srcIy + node.offset[2];
+        if (ix <= 0 || ix >= nx - 1 || iy <= 0 || iy >= ny - 1 || iz <= 0 || iz >= nz - 1) continue;
+        fitted.push({ idx: iy * nxz + iz * nx + ix, re: node.re, im: node.im });
+      }
+      if (fitted.length) return fitted;
+    }
+
+    // Fallback for bands the grid cannot resolve (or when the fit degenerates): the earlier amplitude-only cluster.
+    // It reproduces only the broad shape of the pattern; the solver reports which model was used.
     let sumWeights = 0;
     const rMax = 4;
+    const legacy: { idx: number, weight: number }[] = [];
     for (let dy = -rMax; dy <= rMax; dy++) {
       for (let dz = -rMax; dz <= rMax; dz++) {
         for (let dx2 = -rMax; dx2 <= rMax; dx2++) {
           const iy = srcIy + dy;
           const iz = srcIz + dz;
           const ix = srcIx + dx2;
-          
+
           if (ix > 0 && ix < nx - 1 && iy > 0 && iy < ny - 1 && iz > 0 && iz < nz - 1) {
             const r = Math.sqrt(dx2*dx2 + dy*dy + dz*dz);
             if (r > 0 && r <= rMax) {
@@ -630,25 +655,17 @@ export function computeInjectionNodes(
               const el = Math.asin(Math.max(-1, Math.min(1, local.z / r))) * (180 / Math.PI);
               const dbMag = getInterpolatedMagnitude(source.directivityData, frequencyHz, az, el);
               const weight = Math.pow(10, dbMag / 20) / (r * r);
-              injectionNodes.push({ idx: iy * nxz + iz * nx + ix, weight });
+              legacy.push({ idx: iy * nxz + iz * nx + ix, weight });
               sumWeights += weight;
             }
           }
         }
       }
     }
-    if (sumWeights > 0) {
-      for (const node of injectionNodes) {
-        node.weight /= sumWeights;
-      }
-    } else {
-      injectionNodes.push({ idx: safeSrcIdx, weight: 1.0 });
-    }
-  } else {
-    injectionNodes.push({ idx: safeSrcIdx, weight: 1.0 });
+    if (sumWeights > 0) return legacy.map(n => ({ idx: n.idx, re: n.weight / sumWeights, im: 0 }));
   }
 
-  return injectionNodes;
+  return [{ idx: safeSrcIdx, re: 1.0, im: 0 }];
 }
 
 
@@ -908,13 +925,15 @@ Continue with reduced resolution?`,
     const excitation = makeRickerSource(dt, actualFmax);
     const directionalBands = [125, 250, 500, 1000, 2000, 4000, 8000].filter(f => f < (1 / dt) / 2);
     const injectionBands = directionalBands.map(freqHz => {
-      const nodes = computeInjectionNodes(source, srcIx, srcIy, srcIz, nx, ny, nz, nxz, freqHz);
+      const nodes = computeInjectionNodes(source, srcIx, srcIy, srcIz, nx, ny, nz, nxz, freqHz, dx);
       const raw = new Array<number>(excitation.durationSteps);
       for (let i=0;i<raw.length;i++) raw[i] = excitation.at(i);
       const filtered = applyBiquad(raw, bandpassBiquad(freqHz, 1 / dt, Math.SQRT1_2));
-      return { freqHz, nodes, filtered };
+      // The complex node weights are realised as amplitude (re) plus a 90-degree-advanced copy (im).
+      const quad = quadratureSignal(filtered);
+      return { freqHz, nodes, filtered, quad };
     });
-    const injectionNodes = computeInjectionNodes(source, srcIx, srcIy, srcIz, nx, ny, nz, nxz, 1000);
+    const injectionNodes = computeInjectionNodes(source, srcIx, srcIy, srcIz, nx, ny, nz, nxz, 1000, dx);
     
           const receiverTraces: number[][] = receiverIndices.map(() => []);
 
@@ -1141,12 +1160,13 @@ Continue with reduced resolution?`,
           if (source?.isDirectional && source?.directivityData) {
             for (const band of injectionBands) {
               const exc = band.filtered[t] ?? 0;
-              if (exc === 0) continue;
-              for (const node of band.nodes) p_next[node.idx] += exc * node.weight;
+              const quadrature = band.quad[t] ?? 0;
+              if (exc === 0 && quadrature === 0) continue;
+              for (const node of band.nodes) p_next[node.idx] += exc * node.re + quadrature * node.im;
             }
           } else {
             const exc = excitation.at(t);
-            for (let i = 0; i < injectionNodes.length; i++) p_next[injectionNodes[i].idx] += exc * injectionNodes[i].weight;
+            for (let i = 0; i < injectionNodes.length; i++) p_next[injectionNodes[i].idx] += exc * injectionNodes[i].re;
           }
         }
 
@@ -1381,6 +1401,10 @@ export function runIR(payload: any, limits: SolverLimits = PUBLIC_SOLVER_LIMITS)
     assertCflStable(COURANT);
     assertTimeStepConsistent(dt, dx, COURANT, C_SOUND);
     const excitation = makeRickerSource(dt, reliableFmaxHz);
+    // Complex node weights are realised as an in-phase term plus its 90-degree-advanced quadrature.
+    const excitationSamples = new Float64Array(excitation.durationSteps);
+    for (let i = 0; i < excitation.durationSteps; i++) excitationSamples[i] = excitation.at(i);
+    const excitationQuadrature = quadratureSignal(excitationSamples);
     const sampleRateHz = 1 / dt;
 
     // We will accumulate broadband trace and per-band energy for each receiver
@@ -1419,7 +1443,7 @@ export function runIR(payload: any, limits: SolverLimits = PUBLIC_SOLVER_LIMITS)
       const sourceDelaySteps = Math.max(0, Math.round((Number.isFinite(delayMs) ? delayMs : 0) / dt));
       
       for (const bandHz of OCTAVE_BANDS_HZ) {
-        const injectionNodes = computeInjectionNodes(src, srcIx, srcIy, srcIz, nx, ny, nz, nxz, bandHz);
+        const injectionNodes = computeInjectionNodes(src, srcIx, srcIy, srcIz, nx, ny, nz, nxz, bandHz, dx);
         // Skip bands above Nyquist; they are reported as unavailable rather
         // than being synthesized from a neighbouring band.
         if (bandHz >= sampleRateHz / 2) continue;
@@ -1529,9 +1553,10 @@ export function runIR(payload: any, limits: SolverLimits = PUBLIC_SOLVER_LIMITS)
 
           const excitationIndex = t - sourceDelaySteps;
           if (excitationIndex >= 0 && excitationIndex < excitation.durationSteps) {
-            const exc = excitation.at(excitationIndex) * sourceGain;
+            const exc = excitationSamples[excitationIndex] * sourceGain;
+            const quadrature = excitationQuadrature[excitationIndex] * sourceGain;
             for (let i = 0; i < injectionNodes.length; i++) {
-              p_next[injectionNodes[i].idx] += exc * injectionNodes[i].weight;
+              p_next[injectionNodes[i].idx] += exc * injectionNodes[i].re + quadrature * injectionNodes[i].im;
             }
           }
 
