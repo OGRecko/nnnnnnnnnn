@@ -3543,6 +3543,27 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://jblpro.com/en-US/products/control-25-1"
+    },
+    {
+      "id": "jbl-control-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Specification sheet lists exactly one low-frequency and one high-frequency transducer."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet"
     }
   ]
 }

@@ -7668,6 +7668,20 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "\"Drivers | LF: 135 mm (5.25 in), woven-fiberglass cone ... HF: 19 mm (0.75 in) PEI diaphragm, low-viscosity ferro-magnetic fluid, and lightweight Kapton™ voice coil former.\" The table also prints \"Impedance | 8 ohms (THRU setting)\" and \"Power Rating | 200 W Continuous Program (2 hrs)\" but no passive/active row."
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+      "host": "jblpro.com",
+      "document": "JBL Control 1 miniature loudspeaker system specification sheet (archive)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Components: 135 mm (5 1/4 in) low frequency loudspeaker, 19 mm (3/4 in) polycarbonate dome tweeter\". Architectural specification: \"The loudspeaker system shall consist of a 135 mm (5 1/4 in) low-frequency transducer, 19 mm (3/4 in) dome high-frequency transducer, and frequency dividing network installed in a ported enclosure.\" No passive/active row."
     }
   ],
   "openQuestionsForOwner": [

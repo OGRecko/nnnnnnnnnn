@@ -2943,6 +2943,33 @@
           "note": "The specification table lists one LF driver (135 mm) and one HF driver (19 mm)."
         }
       ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+      "sourceUrl": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL Control 1 miniature loudspeaker system specification sheet (archive)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"Components: 135 mm (5 1/4 in) low frequency loudspeaker, 19 mm (3/4 in) polycarbonate dome tweeter\". Architectural specification: \"The loudspeaker system shall consist of a 135 mm (5 1/4 in) low-frequency transducer, 19 mm (3/4 in) dome high-frequency transducer, and frequency dividing network installed in a ported enclosure.\" No passive/active row.",
+      "fieldResults": [
+        {
+          "record": "jbl-control-1",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+          "note": "Specification sheet lists exactly one low-frequency and one high-frequency transducer."
+        }
+      ]
     }
   ]
 }

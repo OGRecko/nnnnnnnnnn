@@ -651,6 +651,28 @@ the same reason as batch 15.
 Research backlog: 350 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 338 source URLs resolved in total.
 
+## Batch 18 — JBL Control 1 (vintage)
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `jbl-control-1` | `driverCount` | 2 | "Components: 135 mm (5 1/4 in) low frequency loudspeaker, 19 mm (3/4 in) polycarbonate dome tweeter" |
+
+The archive specification sheet states the complement twice (feature list and architectural
+specification). It also prints 4 ohms nominal impedance and 150 W power capacity but no
+passive/active classification, so `active` stays open under the batch 15 rule.
+
+## Counts after batch 18
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 823 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 100 |
+| no provenance at all | 173 |
+
+Research backlog: 350 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+339 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

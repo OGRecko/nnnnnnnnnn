@@ -1833,7 +1833,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -1887,7 +1887,13 @@
       "source": "https://jblpro.com/en/site_elements/vintage-control-1-spec-sheet",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "JBL Control 1 specification: 120 Hz–20 kHz ±3 dB; usable response extends to 70 Hz."
+    "notes": "JBL Control 1 specification: 120 Hz–20 kHz ±3 dB; usable response extends to 70 Hz.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Specification sheet lists exactly one low-frequency and one high-frequency transducer."
+    }
   },
   {
     "id": "genelec-1031a",

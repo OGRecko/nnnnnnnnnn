@@ -52,13 +52,13 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 505
+      "count": 506
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 36
+      "count": 35
     },
     {
       "field": "driverCount",
@@ -168,6 +168,7 @@
     "https://jblpro.com/en-US/products/srx835p",
     "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
     "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+    "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
     "https://jblpro.com/en/products/305p-mkii",
     "https://jblpro.com/en/products/306p-mkii",
     "https://jblpro.com/en/products/308p-mkii",

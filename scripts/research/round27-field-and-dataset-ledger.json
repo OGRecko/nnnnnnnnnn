@@ -1579,6 +1579,16 @@
       "valueAfter": 2,
       "source": "https://jblpro.com/en-US/products/control-25-1",
       "note": "The specification table lists one LF driver (135 mm) and one HF driver (19 mm)."
+    },
+    {
+      "record": "jbl-control-1",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
+      "note": "Specification sheet lists exactly one low-frequency and one high-frequency transducer."
     }
   ],
   "elx200_15": {
