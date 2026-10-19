@@ -1073,6 +1073,96 @@
       "valueAfter": true,
       "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
       "note": "\"2-way, Bi-amp powered speaker\" with built-in output power (LF 800 W / HF 200 W dynamic)."
+    },
+    {
+      "record": "mackie-cr3-x",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "note": "One 3.0 in (76 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
+    },
+    {
+      "record": "mackie-cr4-x",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "note": "One 4.0 in (102 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
+    },
+    {
+      "record": "mackie-cr5-x",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "note": "One 5.0 in (127 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
+    },
+    {
+      "record": "jbl-305p-mkii",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://jblpro.com/en/products/305p-mkii",
+      "note": "A 5\" woofer and a 1\" neodymium tweeter in a two-way system."
+    },
+    {
+      "record": "jbl-305p-mkii",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://jblpro.com/en/products/305p-mkii",
+      "note": "\"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (82 W)."
+    },
+    {
+      "record": "jbl-306p-mkii",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://jblpro.com/en/products/306p-mkii",
+      "note": "Headline specifies a 6\" two-way monitor and the features list two amplifiers, one per transducer. The copied \"5 inch woofer\" sentence in the body was disregarded."
+    },
+    {
+      "record": "jbl-306p-mkii",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://jblpro.com/en/products/306p-mkii",
+      "note": "\"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (112 W)."
+    },
+    {
+      "record": "jbl-308p-mkii",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://jblpro.com/en/products/308p-mkii",
+      "note": "Headline specifies an 8\" two-way monitor and the features list two amplifiers, one per transducer. The copied \"5 inch woofer\" sentence in the body was disregarded."
+    },
+    {
+      "record": "jbl-308p-mkii",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://jblpro.com/en/products/308p-mkii",
+      "note": "\"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (112 W)."
     }
   ],
   "elx200_15": {

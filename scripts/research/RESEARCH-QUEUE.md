@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **374** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **368** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **139** fields (no source recorded).
-- NO_PROVENANCE: **180** fields (null value, no provenance object).
+- UNSOURCED: **133** fields (no source recorded).
+- NO_PROVENANCE: **177** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -66,9 +66,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
-| jbl-305p-mkii | JBL | 305P MkII (`jbl-305p-mkii`) | 0 | 2 | 0 |
-| jbl-306p-mkii | JBL | 306P MkII (`jbl-306p-mkii`) | 0 | 2 | 0 |
-| jbl-308p-mkii | JBL | 308P MkII (`jbl-308p-mkii`) | 0 | 2 | 0 |
 | jbl-4310 | JBL | 4310 (`jbl-4310`) | 2 | 0 | 0 |
 | jbl-4312 | JBL | 4312 (`jbl-4312`) | 2 | 0 | 0 |
 | jbl-4350 | JBL | 4350 (`jbl-4350`) | 2 | 0 | 0 |
@@ -306,9 +303,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 1 | 0 | 0 |
 | lg-lg-s90tr | LG | LG S90TR (`lg-lg-s90tr`) | 1 | 0 | 0 |
 | lg-lg-sc9s | LG | LG SC9S (`lg-lg-sc9s`) | 1 | 0 | 0 |
-| mackie-cr3-x | Mackie | CR3-X (`mackie-cr3-x`) | 0 | 0 | 1 |
-| mackie-cr4-x | Mackie | CR4-X (`mackie-cr4-x`) | 0 | 0 | 1 |
-| mackie-cr5-x | Mackie | CR5-X (`mackie-cr5-x`) | 0 | 0 | 1 |
 | magnepan-mg1.7 | Magnepan | MG 1.7 (`magnepan-mg1.7`) | 1 | 0 | 0 |
 | marshall-marshall-1936v | Marshall | Marshall 1936V (`marshall-marshall-1936v`) | 1 | 0 | 0 |
 | marshall-marshall-1960a | Marshall | Marshall 1960A (`marshall-marshall-1960a`) | 1 | 0 | 0 |

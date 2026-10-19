@@ -446,6 +446,42 @@ printed in the tables.
 Research backlog: 374 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 315 source URLs resolved in total. `npm test` 82/82.
 
+## Batch 11 — Mackie CR-X and JBL 3 Series MkII
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `mackie-cr3-x`, `cr4-x`, `cr5-x` | `driverCount` | 2 | Owner's manual Appendix B: 3.0 / 4.0 / 5.0 in polypropylene woofer + shared 0.75 in (19 mm) silk-dome tweeter |
+| `jbl-305p-mkii` | `driverCount` / `active` | 2 / true | "Powered 5\" Two-Way Studio Monitor"; 5" woofer + 1" neodymium tweeter; "Dual integrated, custom Class-D amplifiers ... 82 watts" |
+| `jbl-306p-mkii` | `driverCount` / `active` | 2 / true | "Powered 6\" Two-Way Studio Monitor"; dual Class-D amplifiers, 112 W |
+| `jbl-308p-mkii` | `driverCount` / `active` | 2 / true | "Powered 8\" Two-Way Studio Monitor"; dual Class-D amplifiers, 112 W |
+
+### A source defect recorded rather than smoothed over
+
+The JBL 306P and 308P pages reuse the 305P body paragraph verbatim, so both still read
+"long-throw 5\" woofer" even though the same pages are headed "Powered 6\"…" and "Powered 8\"…".
+The contradictory sentence was **not** used. The driver count rests on the model's own headline
+plus "Dual integrated, custom Class-D amplifiers ... custom designed by JBL for each transducer".
+Anyone re-checking these records should expect that sentence and not treat it as a second woofer.
+
+### Test updated with the evidence, not around it
+
+`src/data/speakers.test.ts` previously pinned `driverCount: null` for CR3-X / CR4-X / CR5-X, which was
+correct while only the quick-start guide had been read. The owner's manual now prints the complement,
+so the expectation is 2 and carries a comment naming the manual and the reason `woofer`/`voiceCoil`
+remain `UNAVAILABLE` (the response fields still come from the quick-start guide).
+
+## Counts after batch 11
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 786 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 133 |
+| no provenance at all | 177 |
+
+Research backlog: 368 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+319 source URLs resolved in total. `npm test` 82/82.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

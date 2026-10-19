@@ -12027,8 +12027,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -12082,16 +12082,16 @@
     },
     "notes": "Manufacturer: 6.5-inch LF + 1-inch HF, bi-amped, 56 W LF + 56 W HF (112 W total internal amplification), 47 Hz–20 kHz ±3 dB; 39 Hz–24 kHz -10 dB. Source: JBL 306P MkII product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/306p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Headline specifies a 6\" two-way monitor and the features list two amplifiers, one per transducer. The copied \"5 inch woofer\" sentence in the body was disregarded."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/306p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (112 W)."
     }
   },
   {
@@ -23041,7 +23041,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23092,20 +23092,20 @@
       "source": "https://www.jbl.com/305PMKII.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: 5-inch LF driver + 1-inch HF, bi-amped, 41 W LF + 41 W HF (82 W total internal amplification), 49 Hz–20 kHz ±3 dB; 43 Hz–20 kHz -10 dB. Source: JBL 305P MkII product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/305p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: A 5\" woofer and a 1\" neodymium tweeter in a two-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/305p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (82 W)."
     }
   },
   {
@@ -23115,7 +23115,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23166,20 +23166,20 @@
       "source": "https://global.jbl.com/studio-monitors/308PMKII.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: 8-inch LF + 1-inch HF, bi-amped, 56 W LF + 56 W HF (112 W total internal amplification), 45 Hz–20 kHz ±3 dB; 37 Hz–24 kHz -10 dB. Source: JBL 308P MkII product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/308p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Headline specifies an 8\" two-way monitor and the features list two amplifiers, one per transducer. The copied \"5 inch woofer\" sentence in the body was disregarded."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en/products/308p-mkii",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Powered ... Studio Monitor\" with dual integrated custom Class-D amplifiers (112 W)."
     }
   },
   {
@@ -49321,7 +49321,7 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR3-X entry and labels its frequency range as 70 Hz–20 kHz at −10 dB; it also lists 97 dB maximum peak SPL and a 50 W peak Class-D amplifier. The guide describes a stereo set with one powered monitor and one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
@@ -49329,6 +49329,12 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER",
       "note": "Round 12: CR3-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 3.0 in (76 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
     }
   },
   {
@@ -49388,7 +49394,7 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR4-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 55 Hz–20 kHz. The guide lists 100 dB maximum peak SPL and a 50 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
@@ -49396,6 +49402,12 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER",
       "note": "Round 12: CR4-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 4.0 in (102 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
     }
   },
   {
@@ -49455,7 +49467,7 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR5-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 51 Hz–20 kHz. The guide lists 105 dB maximum peak SPL and an 80 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
@@ -49463,6 +49475,12 @@
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
       "sourceType": "MANUFACTURER",
       "note": "Round 12: CR5-X spec: \"80 watts peak Class D power amplifier\" (built-in amplifier)."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 5.0 in (127 mm) polypropylene woofer plus the shared 0.75 in (19 mm) silk-dome tweeter."
     }
   },
   {

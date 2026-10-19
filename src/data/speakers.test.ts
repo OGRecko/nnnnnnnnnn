@@ -1190,9 +1190,12 @@ check("Mackie source-backed records preserve exact model limits and leave unsupp
     { id: "mackie-mr524", model: "MR524", source: "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf", low: 57, high: 20000, woofer: 5.25, voiceCoil: null, drivers: 2, power: null, responseContext: /57 Hz–20 kHz at −3 dB/i },
     { id: "legacy-mack-3", model: "MR624", source: "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf", low: 45, high: 20000, woofer: 6.5, voiceCoil: null, drivers: 2, power: null, responseContext: /45 Hz–20 kHz at −3 dB/i },
     { id: "mackie-mr824", model: "MR824", source: "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf", low: 38, high: 20000, woofer: 8, voiceCoil: null, drivers: 2, power: null, responseContext: /38 Hz–20 kHz at −3 dB/i },
-    { id: "mackie-cr3-x", model: "CR3-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 70, high: 20000, woofer: null, voiceCoil: null, drivers: null, power: null, responseContext: /70 Hz–20 kHz at −10 dB/i },
-    { id: "mackie-cr4-x", model: "CR4-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 55, high: 20000, woofer: null, voiceCoil: null, drivers: null, power: null, responseContext: /frequency range at −10 dB: 55 Hz–20 kHz/i },
-    { id: "mackie-cr5-x", model: "CR5-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 51, high: 20000, woofer: null, voiceCoil: null, drivers: null, power: null, responseContext: /frequency range at −10 dB: 51 Hz–20 kHz/i },
+    // CR-X driverCount = 2 now comes from CR-X_Series_OM.pdf Appendix B (one polypropylene woofer
+    // plus the shared 0.75 in / 19 mm silk-dome tweeter); the QSG used for the response fields does
+    // not state a driver complement, so woofer/voiceCoil stay UNAVAILABLE here.
+    { id: "mackie-cr3-x", model: "CR3-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 70, high: 20000, woofer: null, voiceCoil: null, drivers: 2, power: null, responseContext: /70 Hz–20 kHz at −10 dB/i },
+    { id: "mackie-cr4-x", model: "CR4-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 55, high: 20000, woofer: null, voiceCoil: null, drivers: 2, power: null, responseContext: /frequency range at −10 dB: 55 Hz–20 kHz/i },
+    { id: "mackie-cr5-x", model: "CR5-X", source: "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf", low: 51, high: 20000, woofer: null, voiceCoil: null, drivers: 2, power: null, responseContext: /frequency range at −10 dB: 51 Hz–20 kHz/i },
     { id: "legacy-mack-7", model: "DLM12", source: "https://mackie.com/img/file_resources/DLM8_12_SS.pdf", low: 38, high: 20000, woofer: 12, voiceCoil: 2.5, drivers: 2, power: 1000, responseContext: /38 Hz–20 kHz at −10 dB/i },
   ];
   for (const c of cases) {

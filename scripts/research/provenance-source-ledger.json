@@ -7333,6 +7333,63 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "\"Speaker type | 2-way, Bi-amp powered speaker, Bass-reflex type\" for DBR15, DBR12 and DBR10; \"Components LF | Diameter:15\\\" cone, Voice Coil:2.5\\\", Magnet:Ferrite\" (DBR15) and \"Diameter:12\\\" cone, Voice Coil:2\\\", Magnet:Ferrite\" (DBR12); \"HF | Diaphragm:1.4\\\", Type: 1\\\" throat compression driver, Magnet:Ferrite\"; \"Output power | Dynamic:1000 W (LF: 800 W, HF: 200 W)\"."
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
+      "host": "mackie.com",
+      "document": "Mackie CR-X Series Owner's Manual, \"Appendix B: Technical Information\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        3
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"CR-X Series Specifications\": \"Low Frequency | 3.0 in / 76 mm [CR3-X]\"; \"Low Frequency | 4.0 in / 102 mm [CR4-X]\"; \"Low Frequency | 5.0 in / 127 mm [CR5-X]\"; \"Polypropylene-coated woofer\"; \"High Frequency | 0.75 in / 19 mm ferrofluid-cooled silk-dome tweeter\"; \"Crossover Frequency | 3.0 kHz\"; \"Rated Power | 50 watts peak [CR3-X, CR4-X] / 80 watts peak [CR5-X]\"."
+    },
+    {
+      "url": "https://jblpro.com/en/products/305p-mkii",
+      "host": "jblpro.com",
+      "document": "JBL Professional 305P MkII product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Headline: \"Powered 5\\\" Two-Way Studio Monitor\". Body: \"a long-throw 5\\\" woofer\" and \"the woven-composite 1\\\" Neodymium tweeter\". Features: \"Dual integrated, custom Class-D amplifiers provide 82 watts of power\"."
+    },
+    {
+      "url": "https://jblpro.com/en/products/306p-mkii",
+      "host": "jblpro.com",
+      "document": "JBL Professional 306P MkII product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Headline: \"Powered 6\\\" Two-Way Studio Monitor\". Features: \"Dual integrated, custom Class-D amplifiers provide 112 watts of power\". Limitation: the body paragraph is copied verbatim from the 305P page and still says \"long-throw 5\\\" woofer\"; that sentence contradicts the headline and was not used."
+    },
+    {
+      "url": "https://jblpro.com/en/products/308p-mkii",
+      "host": "jblpro.com",
+      "document": "JBL Professional 308P MkII product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Headline: \"Powered 8\\\" Two-Way Studio Monitor\". Features: \"Dual integrated, custom Class-D amplifiers provide 112 watts of power\". Limitation: the same copied body paragraph says \"long-throw 5\\\" woofer\"; not used."
     }
   ],
   "openQuestionsForOwner": [

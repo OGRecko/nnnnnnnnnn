@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 296
+      "count": 299
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 77
+      "count": 74
     },
     {
       "field": "driverCount",
@@ -52,19 +52,19 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 481
+      "count": 487
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 41
+      "count": 38
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 62
+      "count": 59
     }
   ],
   "resolvedSourceUrls": [
@@ -162,11 +162,15 @@
     "https://jblpro.com/en-US/products/lsr305.html",
     "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
     "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+    "https://jblpro.com/en/products/305p-mkii",
+    "https://jblpro.com/en/products/306p-mkii",
+    "https://jblpro.com/en/products/308p-mkii",
     "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+    "https://mackie.com/img/file_resources/CR-X_Series_OM.pdf",
     "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
     "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
