@@ -5,30 +5,32 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 213,
-  "assessedItems": 213,
+  "uncheckedItems": 210,
+  "assessedItems": 210,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 158,
+  "uniqueSourceUrls": 156,
   "urlsByStatus": {
+    "CHECKED_CONFIRMED": 1,
     "CHECKED_PARTIAL": 143,
-    "INACCESSIBLE": 15
+    "INACCESSIBLE": 12
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 190,
-    "INACCESSIBLE": 23
+    "CHECKED_CONFIRMED": 2,
+    "CHECKED_PARTIAL": 188,
+    "INACCESSIBLE": 20
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 143
+      "count": 141
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 326
+      "count": 329
     },
     {
       "field": "active",
@@ -38,21 +40,27 @@
     },
     {
       "field": "active",
+      "status": "THIRD_PARTY_VERIFIED",
+      "value": "value",
+      "count": 4
+    },
+    {
+      "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 52
+      "count": 47
     },
     {
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 70
+      "count": 69
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 526
+      "count": 528
     },
     {
       "field": "driverCount",
@@ -62,9 +70,15 @@
     },
     {
       "field": "driverCount",
+      "status": "THIRD_PARTY_VERIFIED",
+      "value": "value",
+      "count": 4
+    },
+    {
+      "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 29
+      "count": 24
     }
   ],
   "resolvedSourceUrls": [
@@ -145,6 +159,7 @@
     "https://barefootsound.com/footprint03/",
     "https://barefootsound.com/micromain27/",
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+    "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
     "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
     "https://celestion.com/product/g12h-anniversary/",
     "https://celestion.com/product/g12m-greenback/",
@@ -173,6 +188,7 @@
     "https://dynaudio.com/professional-audio/lyd/lyd-5",
     "https://dynaudio.com/professional-audio/lyd/lyd-7",
     "https://eminence.com/collections/legend-series",
+    "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-monitors/",
     "https://international.kef.com/products/kc62-subwoofer",
     "https://international.kef.com/products/ls50",
     "https://jblpro.com/en-US/products/708p",
@@ -181,6 +197,7 @@
     "https://jblpro.com/en-US/products/m2",
     "https://jblpro.com/en-US/products/srx815p",
     "https://jblpro.com/en-US/products/srx835p",
+    "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
     "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
     "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
     "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
@@ -751,16 +768,16 @@
           "record": "elac-uni-fi-ub5",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Sell sheet lists three transducer rows, but the tweeter and midrange are one concentric driver, so the physical count is 2 and the transducer count is 3. The schema does not define which convention applies. Not promoted; owner decision needed."
+          "recordedOutcome": "CONFLICT",
+          "recordedNote": "Round 29: concentric tweeter/midrange makes 2 vs 3 ambiguous; not promoted."
         }
       ],
-      "checkedRound": 20,
-      "checkedDate": "2026-10-16",
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "UB5 spec table: \"3-way bass reflex\"; tweeter 1 in soft dome; mid-range 4 in aluminum; woofer 5.25 in aluminum; text says the 1 in tweeter and 4 in midrange form one concentric driver; maximum power input 140 W; nominal impedance 4 ohm. No explicit passive or active statement."
+      "evidence": "UB5: \"3-way bass reflex\"; tweeter 1 in soft dome, mid-range 4 in aluminium, woofer 5.25 in aluminium; the text says the tweeter and midrange form one concentric driver. The number of transducers is therefore ambiguous between two drive units and three transducers; the existing driverCount stays unresolved."
     },
     {
       "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
@@ -870,41 +887,6 @@
         5
       ],
       "evidence": "Specifications table: RP5 \"High Frequency Driver 1\" Soft Dome\"; \"Low Frequency Driver 5\" Aramid Glass Fiber\"; \"AMPLIFIER Power Rating (HF/LF) 15 watts / 30 watts\"; the manual is titled \"ROKIT POWERED SERIES NEAR FIELD STUDIO MONITOR/SUBWOOFER GUIDE\"."
-    },
-    {
-      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "host": "jblpro.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "jbl-4430",
-        "legacy-jbl-6"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-4430",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The sheet describes single-amplification and biamplification wiring and a recommended amplifier power but never states passive/active or built-in amplification. Field stays unverified."
-        },
-        {
-          "record": "legacy-jbl-6",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Same document, same finding: biamplification and external amplifier power are described, but no explicit passive/active classification appears. Field stays unverified."
-        }
-      ],
-      "checkedRound": 27,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The sheet separates \"Single Amplification\" and \"Biamplification\" maximum power input rows, gives \"Recommended Amplifier Power\", and states \"A switch located adjacent to the connection terminals allows the monitor to be biamplified. A special crossover card is available for the JBL Model 5235 electronic frequency dividing network\". It never uses the words passive, active, powered or built-in amplification for either model. Driver complement: 4430 \"uses a single 380 mm (15 in) low frequency driver\"; 4435 \"uses a pair of 380 mm (15 in) low frequency drivers\"; both use one compression driver on the Bi-Radial horn."
     },
     {
       "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
@@ -1155,7 +1137,7 @@
     {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
       "host": "tile.loc.gov",
-      "status": "CHECKED_PARTIAL",
+      "status": "CHECKED_CONFIRMED",
       "items": 2,
       "records": [
         "jbl-4310"
@@ -1169,23 +1151,23 @@
           "record": "jbl-4310",
           "field": "active",
           "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Round 29 (2026-10-19): dividing network inside the enclosure plus \"driven by a 50 Watt sine wave signal\" and \"50 watts program material\" establish a passive system; no amplifier is described. Promotion blocked by the same host policy."
         },
         {
           "record": "jbl-4310",
           "field": "driverCount",
           "value": 3,
           "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+          "recordedNote": "Round 29 (2026-10-19): manual states three direct-radiator transducers (12\" LF, 5\" MF, 1-3/4\" UHF). Host policy (tile.loc.gov is NOT_MANUFACTURER) still blocks promotion; status stays CITED_IN_NOTES_UNCHECKED."
         }
       ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
+      "evidence": "Architectural specification: \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure.\" Components: 12\" woofer (1500 Hz crossover), 5\" midrange, 1-3/4\" ultra-high transducer. Passive wording: the system is \"driven by a 50 Watt sine wave signal\", rated \"50 watts program material\", and the dividing network sits inside the enclosure; no amplifier or mains input is described. Round 12's \"passive/active not stated\" reading is superseded by this quote."
     },
     {
       "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
@@ -1840,22 +1822,22 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Queued product URL returns HTTP 404; no document to read."
+          "recordedNote": "Round 29 retry: 404 page, no specification text."
         },
         {
           "record": "marshall-marshall-1936",
           "field": "driverCount",
           "value": 2,
           "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Queued product URL returns HTTP 404; no document to read."
+          "recordedNote": "Round 29 retry: 404 page, no specification text."
         }
       ],
-      "checkedRound": 23,
+      "checkedRound": 29,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "HTTP 404: the listed product URL returns \"Page not found\" for the 1936 2x12 cabinet, so no specification text could be read. No field evidence was obtained; values were not changed."
+      "evidence": "Retry returned \"Page not found - Sorry, the page you are looking for does not exist.\" The 1936 2x12 cabinet product page is still unavailable on marshall.com."
     },
     {
       "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
@@ -2842,33 +2824,6 @@
       "evidence": "APK 165 page: \"Kit 2 way 4 ohm | AP 1 + AP 6.5 + Crossover\"; \"The two-way system features an AP 1 tweeter and AP 6.5 woofer\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 26 mm (1 in)\"."
     },
     {
-      "url": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
-      "host": "ca.yamaha.com",
-      "status": "INACCESSIBLE",
-      "items": 1,
-      "records": [
-        "legacy-yam-3"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-yam-3",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "No NS-690 drive-unit specification was served in the fetched chunk; the field remains unresolved."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The fetched page returned account/login and navigation content; the NS-5000 history narrative did not include any NS-690 drive-unit specification text in the served chunk."
-    },
-    {
       "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
       "host": "dali-speakers.com",
       "status": "INACCESSIBLE",
@@ -3168,7 +3123,7 @@
     {
       "url": "https://international.kef.com/products/q150-bookshelf-speaker",
       "host": "international.kef.com",
-      "status": "INACCESSIBLE",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
         "kef-q150"
@@ -3181,21 +3136,21 @@
           "record": "kef-q150",
           "field": "active",
           "value": false,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "The opened chunk is navigation/marketing copy without the specification table; the field remains unresolved."
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: opened the KEF page; only \"Amplifier Requirements 10-100W\" is given."
         }
       ],
-      "checkedRound": 25,
+      "checkedRound": 29,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Only the opening navigation/hero chunk could be read during this round; it contains no drive-unit count or amplifier statement."
+      "evidence": "Specifications: \"2-way bass reflex\", Drive Units \"130mm (5.25in.) aluminium Uni-Q\" and \"25mm (1in.) vented aluminium dome HF\", \"Amplifier Requirements 10-100W\". No passive/active/powered wording; an amplifier requirement is not a passive statement."
     },
     {
       "url": "https://international.kef.com/products/q350-bookshelf-speaker",
       "host": "international.kef.com",
-      "status": "INACCESSIBLE",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
         "kef-q350"
@@ -3208,16 +3163,16 @@
           "record": "kef-q350",
           "field": "active",
           "value": false,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "The opened chunk is navigation/marketing copy without the specification table; the field remains unresolved."
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: opened the KEF page; amplifier requirement only."
         }
       ],
-      "checkedRound": 25,
+      "checkedRound": 29,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Only the opening navigation/hero chunk could be read during this round; it contains no drive-unit count or amplifier statement."
+      "evidence": "Same KEF template: 2-way bass reflex with Uni-Q drive units and \"Amplifier Requirements\"; no passive/active/powered statement."
     },
     {
       "url": "https://international.kef.com/products/q750-floorstanding-speaker",

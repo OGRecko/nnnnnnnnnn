@@ -21,6 +21,20 @@ check('withdrawal rules: UNSOURCED must be null; third-party sensitivity and dis
   assert.ok(p.some((x) => x.includes('disputedPoints must be simulationExcluded')));
 });
 
+check('third-party structural provenance requires a third-party source type and an evidence note', () => {
+  const thirdParty = (over: Record<string, unknown> = {}) => ({
+    id: 'tp', driverCount: 2, driverCountProvenance: { status: 'THIRD_PARTY_VERIFIED', source: 'https://example.com/sheet', sourceType: 'THIRD_PARTY', note: 'Sheet title X rev A: "one 5.25-inch woofer and one 1-inch silk tweeter" — two transducers.', ...over },
+    active: null, activeProvenance: { status: 'UNSOURCED', source: null },
+  });
+  assert.deepEqual(auditWithdrawalAndExclusionRules([thirdParty()]), []);
+  const bare = thirdParty();
+  bare.driverCountProvenance = { status: 'THIRD_PARTY_VERIFIED', source: 'https://example.com/sheet', sourceType: 'MANUFACTURER', note: 'short' };
+  const problems = auditWithdrawalAndExclusionRules([bare]);
+  assert.equal(problems.length, 2);
+  assert.ok(problems.some((x) => x.includes('needs sourceType THIRD_PARTY or REPUTABLE_DATABASE')));
+  assert.ok(problems.some((x) => x.includes('needs an auditable evidence note')));
+});
+
 const real = fs.readFileSync('src/lib/speakerResponse.ts', 'utf8');
 
 check('isPublishedHz matches the app rule (finite number > 0)', () => {

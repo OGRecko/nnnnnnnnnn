@@ -1,0 +1,111 @@
+{
+  "schema": "round29-unsourced-ledger/v1",
+  "date": "2026-10-19",
+  "round": 29,
+  "note": "Outcomes for fields that carried no provenance or UNSOURCED status. A row is an outcome record, not a provenance object; fields without explicit evidence keep their null and their status.",
+  "promotions": [
+    {
+      "record": "electro-voice-ekx-15p",
+      "field": "driverCount",
+      "value": 2,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.electrovoice.com/product/ekx-15p"
+    },
+    {
+      "record": "electro-voice-ekx-15p",
+      "field": "active",
+      "value": true,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.electrovoice.com/product/ekx-15p"
+    },
+    {
+      "record": "jbl-4430",
+      "field": "active",
+      "value": false,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    },
+    {
+      "record": "legacy-jbl-6",
+      "field": "active",
+      "value": false,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    }
+  ],
+  "assessments": [
+    {
+      "record": "atc-scm19",
+      "field": "active",
+      "url": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+      "status": "CHECKED_PARTIAL",
+      "outcome": "NOT_STATED",
+      "evidence": "ATC SCM19 specification lists \"Recommended Power Amplifier: 75 to 300 Watts\" and \"Connectors: Binding Posts/4mm Plugs, bi-wire\", plus a separate SCM19A model. The SCM19 page never states passive or powered; an amplifier recommendation is not an explicit passive statement, so the field stays unknown."
+    },
+    {
+      "record": "wilson-watt-puppy",
+      "field": "active",
+      "url": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "status": "CHECKED_CONFIRMED",
+      "outcome": "NOT_STATED",
+      "evidence": "Wilson WATT/Puppy Series 8 technical specifications give enclosure type, drivers, sensitivity, impedance and \"Minimum Amplifier Power 7 Watts per channel\" but no passive/active/powered statement. Not promoted."
+    },
+    {
+      "record": "polk-rti-a7",
+      "field": "active",
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7",
+      "status": "INACCESSIBLE",
+      "outcome": "INACCESSIBLE",
+      "evidence": "Polk archive URL now renders \"Sorry, we've got our wires crossed.\" — the product archive page is gone and carries no specification text."
+    },
+    {
+      "record": "dutch-and-dutch-8c",
+      "field": "driverCount",
+      "url": "https://dutchdutch.com/products/8c",
+      "status": "CHECKED_PARTIAL",
+      "outcome": "NO_SPEC_TABLE",
+      "evidence": "The 8c storefront page is a configuration/purchase page (finish, stands, cables) and has no driver table; https://dutchdutch.com/8c/ returns 404. No driver count statement was found on the pages reachable today."
+    },
+    {
+      "record": "eV-sx300",
+      "field": "active",
+      "url": "https://www.electrovoice.com/product/sx300",
+      "status": "INACCESSIBLE",
+      "outcome": "INACCESSIBLE",
+      "evidence": "electrovoice.com/product/sx300 returns an empty shell with only the site search chrome; no product content is served."
+    },
+    {
+      "record": "eV-sx300",
+      "field": "driverCount",
+      "url": "https://www.electrovoice.com/product/sx300",
+      "status": "INACCESSIBLE",
+      "outcome": "INACCESSIBLE",
+      "evidence": "Same empty shell: no driver information served."
+    },
+    {
+      "record": "eV-eliminator",
+      "field": "active",
+      "url": "https://www.electrovoice.com/product/eliminator",
+      "status": "INACCESSIBLE",
+      "outcome": "INACCESSIBLE",
+      "evidence": "electrovoice.com/product/eliminator returns an empty shell with no product content."
+    },
+    {
+      "record": "eV-eliminator",
+      "field": "driverCount",
+      "url": "https://www.electrovoice.com/product/eliminator",
+      "status": "INACCESSIBLE",
+      "outcome": "INACCESSIBLE",
+      "evidence": "Same empty shell: no driver information served."
+    },
+    {
+      "record": "jbl-4310",
+      "field": "active",
+      "value": false,
+      "outcome": "SUPPORTED_HOST_POLICY_BLOCKED",
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "note": "Manual establishes a passive system (\"frequency dividing network installed in a tube-ported enclosure\"; driven by a 50 W sine wave; 50 W program rating). Kept CITED_IN_NOTES_UNCHECKED because tile.loc.gov is not a manufacturer host.",
+      "supersedes": "queue-url-status round 12 evidence (\"Passive/active not stated\")"
+    }
+  ]
+}

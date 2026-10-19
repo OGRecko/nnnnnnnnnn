@@ -169,6 +169,12 @@ export function auditWithdrawalAndExclusionRules(data) {
       const status = s?.[pk]?.status;
       if (status === 'UNSOURCED' && s?.[f] !== null) problems.push(`${s?.id}: ${f} is set but its provenance is UNSOURCED (must be null)`);
       if (status && status !== 'UNSOURCED' && !/^https?:\/\//i.test(String(s?.[pk]?.source || ''))) problems.push(`${s?.id}: ${f} provenance ${status} has no URL`);
+      // Third-party structural values are allowed only under scripts/research/PROVENANCE-POLICY.md:
+      // a third-party source type and a quoted evidence note are part of the auditable decision.
+      if (status === 'THIRD_PARTY_VERIFIED') {
+        if (!['THIRD_PARTY', 'REPUTABLE_DATABASE'].includes(String(s?.[pk]?.sourceType || ''))) problems.push(`${s?.id}: ${f} THIRD_PARTY_VERIFIED needs sourceType THIRD_PARTY or REPUTABLE_DATABASE`);
+        if (typeof s?.[pk]?.note !== 'string' || s[pk].note.trim().length < 40) problems.push(`${s?.id}: ${f} THIRD_PARTY_VERIFIED needs an auditable evidence note`);
+      }
     }
     const dp = s?.frequencyResponse?.disputedPoints;
     if (dp && (dp.simulationExcluded !== true || typeof dp.exclusionReason !== 'string' || dp.exclusionReason.trim().length < 20)) problems.push(`${s?.id}: disputedPoints must be simulationExcluded with an exclusionReason`);

@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **340** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 88 brands.
+Records still needing research: **333** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 87 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **213** fields across **158** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **81** fields (no source recorded).
+- CITED_IN_NOTES_UNCHECKED: **210** fields across **156** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
 
@@ -25,14 +25,12 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | ar-3a | Acoustic Research | AR-3a (`ar-3a`) | 0 | 2 | 0 |
 | b&w-801 | Bowers & Wilkins | 801 Matrix (`b&w-801`) | 1 | 0 | 1 |
 | bang-olufsen-beosound-balance | Bang & Olufsen | Beosound Balance (`bang-olufsen-beosound-balance`) | 2 | 0 | 0 |
-| beolab-5 | Bang & Olufsen | BeoLab 5 (`beolab-5`) | 0 | 2 | 0 |
 | bose-802 | Bose | 802 Series II (`bose-802`) | 2 | 0 | 0 |
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
-| electro-voice-ekx-15p | Electro-Voice | EKX-15P (`electro-voice-ekx-15p`) | 0 | 2 | 0 |
 | electro-voice-evf-1152d-96 | Electro-Voice | EVF-1152D/96 (`electro-voice-evf-1152d-96`) | 2 | 0 | 0 |
 | electro-voice-sx100 | Electro-Voice | Sx100+ (`electro-voice-sx100`) | 2 | 0 | 0 |
 | electro-voice-tx1122 | Electro-Voice | TX1122 (`electro-voice-tx1122`) | 2 | 0 | 0 |
@@ -44,7 +42,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | electro-voice-tx2181 | Electro-Voice | TX2181 (`electro-voice-tx2181`) | 2 | 0 | 0 |
 | electro-voice-zx4 | Electro-Voice | ZX4 (`electro-voice-zx4`) | 2 | 0 | 0 |
 | eminence-legend | Eminence | Legend V12 (`eminence-legend`) | 0 | 2 | 0 |
-| equator-d5 | Equator Audio | D5 (`equator-d5`) | 0 | 2 | 0 |
 | eV-eliminator | Electro-Voice | Eliminator (`eV-eliminator`) | 0 | 0 | 2 |
 | eV-sentry-100 | Electro-Voice | Sentry 100 (`eV-sentry-100`) | 0 | 2 | 0 |
 | eV-sentry-500 | Electro-Voice | Sentry 500 (`eV-sentry-500`) | 2 | 0 | 0 |
@@ -91,8 +88,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
-| legacy-mack-4 | Mackie | CR3 (`legacy-mack-4`) | 0 | 2 | 0 |
-| legacy-mack-5 | Mackie | Thump15 (`legacy-mack-5`) | 0 | 2 | 0 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
 | legacy-pio-1 | Pioneer | CS-99A (`legacy-pio-1`) | 1 | 0 | 1 |
 | legacy-pio-2 | Pioneer | HPM-100 (`legacy-pio-2`) | 1 | 0 | 1 |
@@ -101,7 +96,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-pio-5 | Pioneer | SP-BS22-LR (`legacy-pio-5`) | 2 | 0 | 0 |
 | legacy-pio-6 | Pioneer | SP-FS52 (`legacy-pio-6`) | 2 | 0 | 0 |
 | legacy-yam-2 | Yamaha | NS-10M (`legacy-yam-2`) | 1 | 0 | 1 |
-| legacy-yam-3 | Yamaha | NS-690 (`legacy-yam-3`) | 1 | 0 | 1 |
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
 | m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
 | mackie-hr824 | Mackie | HR824 (`mackie-hr824`) | 2 | 0 | 0 |
@@ -206,7 +200,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
 | jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 1 | 0 |
-| jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 1 |
 | jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 1 | 0 |
 | jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 1 | 0 | 0 |
@@ -263,7 +256,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-focal-2 | Focal | Electra 1027Be (`legacy-focal-2`) | 1 | 0 | 0 |
 | legacy-focal-8 | Focal | Aria 906 (`legacy-focal-8`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
-| legacy-jbl-6 | JBL | 4430 Studio Monitor (`legacy-jbl-6`) | 1 | 0 | 0 |
 | legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |
@@ -271,6 +263,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 0 | 0 | 1 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |
 | legacy-la-5 | L-Acoustics | K2 (`legacy-la-5`) | 0 | 0 | 1 |
+| legacy-yam-3 | Yamaha | NS-690 (`legacy-yam-3`) | 0 | 0 | 1 |
 | lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 1 | 0 | 0 |
 | lg-lg-s90tr | LG | LG S90TR (`lg-lg-s90tr`) | 1 | 0 | 0 |
 | lg-lg-sc9s | LG | LG SC9S (`lg-lg-sc9s`) | 1 | 0 | 0 |

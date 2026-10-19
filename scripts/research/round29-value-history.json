@@ -1,0 +1,348 @@
+{
+  "round": 29,
+  "entries": [
+    {
+      "id": "legacy-mack-4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Mackie CR Series owner's manual, Appendix B \"Transducers\": \"Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]\" and \"High Frequency 0.75 in / 19 mm silk dome tweeter\" — two transducers. Third-party manual copy; owner instruction 2026-10-19, PROVENANCE-POLICY conditions met (exact CR3 revision named)."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "legacy-mack-4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Same manual, \"Amplifiers\": \"Rated Power 28 watts rms 50 watts peak\", \"Design Class AB\"; \"Power Requirements\" lists AC mains voltages, so the monitor is self-powered. Third-party manual copy under the 2026-10-19 policy."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "legacy-mack-5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Thump15 specification page: \"Woofer Diameter 15\\\" (381 mm)\" and \"Compression Driver 1.4\\\" (36 mm)\", with \"Precision 2-way crossover\" — two transducers. Reputable-database page; exact model Thump15 (not Thump15A/THUMP15BST)."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "legacy-mack-5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Same page: title \"Mackie Thump15 Powered Loudspeaker\", \"1000 W total system power\", \"Ultra-efficient Class-D amplification\" and a \"Power Amplifiers\" table. Reputable-database tier under the 2026-10-19 policy."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "equator-d5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+          "sourceType": "THIRD_PARTY",
+          "note": "gear4music D5 page: \"coaxially designed transducer with a 5.25\\\" woofer and a 1\\\" silk tweeter\"; specification bullets name the 5.25\\\" polypropylene woofer and the 1\\\" silk tweeter — two transducers. Third-party retailer page under the 2026-10-19 policy; manufacturer site still unreachable."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "equator-d5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+          "sourceType": "THIRD_PARTY",
+          "note": "Same page: product title \"Equator D5 Active Studio Monitors with Internal DSP (Pair)\"; description states the internal digital amplifier and DSP. Third-party tier under the 2026-10-19 policy."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "beolab-5",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "B&O BeoLab 5 brochure driver call-outs: \"3/4\\\" treble driver\", \"3\\\" mid-range driver\", \"6 1/2\\\" upper bass driver\", \"Long-throw 15\\\" lower bass driver\" — four transducers. Reputable-database copy of the manufacturer brochure under the 2026-10-19 policy; MK2 caveat unchanged."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "beolab-5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Same brochure: \"4 way active technology with 4 ICEpower amplifiers\" and \"ICEpower, digital amplification\". Reputable-database tier under the 2026-10-19 policy."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "decision": "Owner instruction 2026-10-19: add THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md"
+    },
+    {
+      "id": "legacy-yam-3",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha history page — \"The NS-690, equipped with a soft-dome tweeter and midrange, was introduced in 1973 ... both speaker systems shared the same 30 cm (12\") 3-way bookshelf design\"; the NS-5000 lineage text also refers to \"all three drivers\". A three-way system with a 30 cm woofer, a midrange and a tweeter has three transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html"
+    },
+    {
+      "id": "electro-voice-ekx-15p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.electrovoice.com/product/ekx-15p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Electro-Voice EKX 15P product page — \"The EKX 15P pairs an EV-engineered EVS-15M 15-inch woofer and a DH-1M 1-inch titanium compression driver\"; headline reads \"Powered 15\\\" 2-Way Loudspeaker\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://www.electrovoice.com/product/ekx-15p"
+    },
+    {
+      "id": "electro-voice-ekx-15p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.electrovoice.com/product/ekx-15p",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Electro-Voice EKX 15P page — \"Powered 15\\\" 2-Way Loudspeaker\" and \"1,500 W Class-D amp\" inside the cabinet; explicit powered statement."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://www.electrovoice.com/product/ekx-15p"
+    },
+    {
+      "id": "jbl-4430",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): JBL 4430/4435 information — \"The frequency dividing network of the Bi-Radial monitors has a crossover frequency of 1 kHz\"; \"Maximum Power Input / Single Amplification / Continuous Program: 300 W\"; \"Recommended Amplifier Power\"; \"A switch located adjacent to the connection terminals allows the monitor to be biamplified.\" A passive dividing network driven by an external amplifier."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    },
+    {
+      "id": "legacy-jbl-6",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): duplicate record of the JBL 4430; the combined 4430/4435 page specifies an internal frequency dividing network at 1 kHz, single-amplification power input and an optional biamp switch, so the system is passive."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    }
+  ]
+}

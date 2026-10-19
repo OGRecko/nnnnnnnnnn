@@ -54,7 +54,11 @@ def fields_of(rec, location, archive_file):
 
 def main():
     live = json.loads((ROOT / 'src/data/speakers.json').read_text(encoding='utf-8'))
-    arch = archive_records()
+    # A record can appear both in speakers.json and in an older removed-*.json snapshot (duplicate
+    # legacy ids such as legacy-jbl-6). The live row is the only writable one; without this filter the
+    # same field was counted twice - once LIVE and once ARCHIVED.
+    live_ids = {r['id'] for r in live}
+    arch = {k: v for k, v in archive_records().items() if k not in live_ids}
     entries = []
     for r in live:
         entries.extend(fields_of(r, 'LIVE', None))

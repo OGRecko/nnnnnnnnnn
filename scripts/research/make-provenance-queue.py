@@ -105,6 +105,13 @@ def main():
     result_warnings = []
     for u, st in status_by_url.items():
         for fr in st.get('fieldResults', []):
+            if fr.get('outcome') == 'RECORD_ARCHIVED':
+                # The record was retired after the outcome was recorded; nothing can be written to it.
+                if fr.get('record') in by_id:
+                    result_warnings.append(f'{u}: {fr["record"]} marked RECORD_ARCHIVED but it is still live')
+                elif fr.get('record') not in archived_by_id:
+                    result_warnings.append(f'{u}: {fr["record"]} marked RECORD_ARCHIVED but no archived copy exists')
+                continue
             rec = by_id.get(fr.get('record')) or archived_by_id.get(fr.get('record'))
             if rec is None:
                 result_warnings.append(f'{u}: recorded result for unknown record {fr.get("record")!r}')

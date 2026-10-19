@@ -1529,7 +1529,7 @@
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact JBL 4430 column of the combined 4430/4435 manufacturer information page; no 4435 data is transferred. The 4430 specifications are 35 Hz–16 kHz ±3 dB, 93 dB at 1 W/1 m, 8-ohm nominal impedance, 300 W continuous-program rating, and a two-way/two-driver system using one 15-inch LF transducer with a 4-inch voice coil and one 2425H compression driver. The source also gives frequency-dependent beamwidth, DI/Q and off-axis response data for 4430; those are documented in a directivity lead but not imported as a complete polar payload. No response points are extracted from the plotted curves. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance.",
+    "notes": "Exact JBL 4430 column of the combined 4430/4435 manufacturer information page; no 4435 data is transferred. The 4430 specifications are 35 Hz–16 kHz ±3 dB, 93 dB at 1 W/1 m, 8-ohm nominal impedance, 300 W continuous-program rating, and a two-way/two-driver system using one 15-inch LF transducer with a 4-inch voice coil and one 2425H compression driver. The source also gives frequency-dependent beamwidth, DI/Q and off-axis response data for 4430; those are documented in a directivity lead but not imported as a complete polar payload. No response points are extracted from the plotted curves. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance. Round 29 (2026-10-19): active false promoted from the JBL 4430/4435 information page (single amplification through the internal 1 kHz frequency dividing network; biamp switch optional).",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
@@ -1538,9 +1538,10 @@
       "note": "round11-queue-batch: one 380 mm LF driver + one compression driver = 2 drivers (spec page)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): JBL 4430/4435 information — \"The frequency dividing network of the Bi-Radial monitors has a crossover frequency of 1 kHz\"; \"Maximum Power Input / Single Amplification / Continuous Program: 300 W\"; \"Recommended Amplifier Power\"; \"A switch located adjacent to the connection terminals allows the monitor to be biamplified.\" A passive dividing network driven by an external amplifier."
     }
   },
   {
@@ -12825,8 +12826,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -12882,18 +12883,18 @@
       "sourceType": "THIRD_PARTY",
       "notes": "2026-10-13: the gear4music product page for the Equator D5 (Product Ref 27579) states 'Coaxial Designed 5.25\" Diameter Polypropylene Woofer'. Retailer claim only; no Equator manufacturer page has been reached."
     },
-    "notes": "Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable. Third-party copy only (gear4music.com). driverCount 2 and active true are taken from the same page: '5.25\" woofer and a 1\" silk tweeter' and 'Active Studio Monitors'. The 103 dB SPL figure is a maximum output level and is not stored as sensitivity. Pass-140 (2026-10-10): third-party tier applied. Round 28 (2026-10-19) reassessment: the recorded gear4music page was reopened and still states the coaxial 5.25 in woofer plus 1 in silk tweeter and the active/internal-amplifier design, so driverCount 2 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a third-party page; owner decision needed. The manufacturer site remains unreachable (equatoraudio.com D5 path 404).",
+    "notes": "Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable. Third-party copy only (gear4music.com). driverCount 2 and active true are taken from the same page: '5.25\" woofer and a 1\" silk tweeter' and 'Active Studio Monitors'. The 103 dB SPL figure is a maximum output level and is not stored as sensitivity. Pass-140 (2026-10-10): third-party tier applied. Round 28 (2026-10-19) reassessment: the recorded gear4music page was reopened and still states the coaxial 5.25 in woofer plus 1 in silk tweeter and the active/internal-amplifier design, so driverCount 2 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a third-party page; owner decision needed. The manufacturer site remains unreachable (equatoraudio.com D5 path 404). Round 29 (2026-10-19): the provenance policy was extended to allow THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md. The Round 28 sentence above that said these values stay null is superseded: both fields are now stored at the third-party tier with the quoted evidence.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "sourceType": "THIRD_PARTY",
+      "note": "gear4music D5 page: \"coaxially designed transducer with a 5.25\\\" woofer and a 1\\\" silk tweeter\"; specification bullets name the 5.25\\\" polypropylene woofer and the 1\\\" silk tweeter — two transducers. Third-party retailer page under the 2026-10-19 policy; manufacturer site still unreachable."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "sourceType": "THIRD_PARTY",
+      "note": "Same page: product title \"Equator D5 Active Studio Monitors with Internal DSP (Pair)\"; description states the internal digital amplifier and DSP. Third-party tier under the 2026-10-19 policy."
     }
   },
   {
@@ -14487,8 +14488,8 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 4,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -14544,18 +14545,18 @@
       "sourceType": "REPUTABLE_DATABASE",
       "notes": "Lower bass driver 38 cm / 15 in (long-throw), B&O technical specification table. The 6.5 in upper bass driver is not stored as the woofer."
     },
-    "notes": "Source: B&O 'BeoLab 5' technical brochure (document '16055_BL5_Tekn_EU_UK'), hosted on content.abt.com. The brochure is a manufacturer document copied by a retailer, so it is labelled REPUTABLE_DATABASE. The specification table lists: treble 1.8 cm (3/4 in), mid-range 7.6 cm (3 in), upper bass 16.5 cm (6.5 in), lower bass 38 cm (15 in); 'Sealed box / 5 l.' upper bass and 'Sealed box / 29 l.' lower bass; 'Max. sound pressure level 108 dB (stereo, pair)'; 'Height 97 cm, Ø 49 cm / 61 kg'. driverCount 4 is the four drivers in that table; active=true is the brochure's '4 way active technology with 4 ICEpower amplifiers'. Not stored: sensitivity (not in the brochure; the 91 dB 're 125 mVrms' figure on a secondary site uses a non-standard reference and is not used); impedance (not published here). The brochure carries no revision marker; the 2003 launch date comes from secondary sources (beoworld.org, specs4audio) and is consistent with the brochure's features (ABC microphone, ALT). Earlier pass-128 'MK2' conflict was not re-verified in this pass and remains a caveat. Earlier pass history: No source-backed physical specification is retained for this exact model. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached. Round 28 (2026-10-19) reassessment: the B&O brochure was reopened at content.abt.com/documents/6162/1680009_specs.pdf (its earlier /documents/16055_BL5_Tekn_EU_UK.pdf path now 404s) and lists four drivers plus \"4 way active technology with 4 ICEpower amplifiers\", so driverCount 4 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a retailer-hosted copy; owner decision needed. The MK2 generation caveat is unchanged.",
+    "notes": "Source: B&O 'BeoLab 5' technical brochure (document '16055_BL5_Tekn_EU_UK'), hosted on content.abt.com. The brochure is a manufacturer document copied by a retailer, so it is labelled REPUTABLE_DATABASE. The specification table lists: treble 1.8 cm (3/4 in), mid-range 7.6 cm (3 in), upper bass 16.5 cm (6.5 in), lower bass 38 cm (15 in); 'Sealed box / 5 l.' upper bass and 'Sealed box / 29 l.' lower bass; 'Max. sound pressure level 108 dB (stereo, pair)'; 'Height 97 cm, Ø 49 cm / 61 kg'. driverCount 4 is the four drivers in that table; active=true is the brochure's '4 way active technology with 4 ICEpower amplifiers'. Not stored: sensitivity (not in the brochure; the 91 dB 're 125 mVrms' figure on a secondary site uses a non-standard reference and is not used); impedance (not published here). The brochure carries no revision marker; the 2003 launch date comes from secondary sources (beoworld.org, specs4audio) and is consistent with the brochure's features (ABC microphone, ALT). Earlier pass-128 'MK2' conflict was not re-verified in this pass and remains a caveat. Earlier pass history: No source-backed physical specification is retained for this exact model. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached. Round 28 (2026-10-19) reassessment: the B&O brochure was reopened at content.abt.com/documents/6162/1680009_specs.pdf (its earlier /documents/16055_BL5_Tekn_EU_UK.pdf path now 404s) and lists four drivers plus \"4 way active technology with 4 ICEpower amplifiers\", so driverCount 4 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a retailer-hosted copy; owner decision needed. The MK2 generation caveat is unchanged. Round 29 (2026-10-19): the provenance policy was extended to allow THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md. The Round 28 sentence above that said these values stay null is superseded: both fields are now stored at the third-party tier with the quoted evidence.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "B&O BeoLab 5 brochure driver call-outs: \"3/4\\\" treble driver\", \"3\\\" mid-range driver\", \"6 1/2\\\" upper bass driver\", \"Long-throw 15\\\" lower bass driver\" — four transducers. Reputable-database copy of the manufacturer brochure under the 2026-10-19 policy; MK2 caveat unchanged."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Same brochure: \"4 way active technology with 4 ICEpower amplifiers\" and \"ICEpower, digital amplification\". Reputable-database tier under the 2026-10-19 policy."
     }
   },
   {
@@ -18505,7 +18506,7 @@
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Duplicate legacy record for the exact JBL 4430, synchronized with jbl-4430 from the 4430-specific column of JBL's combined 4430/4435 page. Values and exclusions are identical; none are borrowed from the 4435. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance.",
+    "notes": "Duplicate legacy record for the exact JBL 4430, synchronized with jbl-4430 from the 4430-specific column of JBL's combined 4430/4435 page. Values and exclusions are identical; none are borrowed from the 4435. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance. Round 29 (2026-10-19): active false promoted from the same combined 4430/4435 page (single amplification through the internal dividing network).",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
@@ -18514,9 +18515,10 @@
       "note": "round11-queue-batch: duplicate record of the same JBL 4430 page; one LF + one compression driver = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): duplicate record of the JBL 4430; the combined 4430/4435 page specifies an internal frequency dividing network at 1 kHz, single-amplification power input and an optional biamp switch, so the system is passive."
     }
   },
   {
@@ -19977,11 +19979,12 @@
       "source": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact first-generation Yamaha NS-690 only. Yamaha’s fetched official history identifies the original NS-690 as introduced in 1973, a 30 cm three-way bookshelf speaker, and distinguishes it from NS-690 II (1976) and NS-690 III (1980); no later-generation specifications are transferred. The fetched exact-model Audio Database page publishes three drivers, 35 Hz–20 kHz playback band (no tolerance stated), 90 dB/W/m output level (new JIS), 8 ohms, 60 W maximum allowable input, and a 40 Hz lowest resonance (fo). Its woofer description gives a 66φ voice-coil bobbin but does not state a unit; voice-coil diameter remains unavailable rather than interpreting the notation as millimetres. HiFi Engine’s NS-690 page has separate I and III sections and lists 96 dB for the original without a measurement reference; that unreferenced figure is not substituted for the exact Audio Database 90 dB/W/m rating. No response curve or directivity is imported; onboard amplification status remains unknown. Sources: https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html; https://audio-database.com/YAMAHA/speaker/ns-690.html; https://www.hifiengine.com/manual_library/yamaha/ns-690.shtml#I.",
+    "notes": "Exact first-generation Yamaha NS-690 only. Yamaha’s fetched official history identifies the original NS-690 as introduced in 1973, a 30 cm three-way bookshelf speaker, and distinguishes it from NS-690 II (1976) and NS-690 III (1980); no later-generation specifications are transferred. The fetched exact-model Audio Database page publishes three drivers, 35 Hz–20 kHz playback band (no tolerance stated), 90 dB/W/m output level (new JIS), 8 ohms, 60 W maximum allowable input, and a 40 Hz lowest resonance (fo). Its woofer description gives a 66φ voice-coil bobbin but does not state a unit; voice-coil diameter remains unavailable rather than interpreting the notation as millimetres. HiFi Engine’s NS-690 page has separate I and III sections and lists 96 dB for the original without a measurement reference; that unreferenced figure is not substituted for the exact Audio Database 90 dB/W/m rating. No response curve or directivity is imported; onboard amplification status remains unknown. Sources: https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html; https://audio-database.com/YAMAHA/speaker/ns-690.html; https://www.hifiengine.com/manual_library/yamaha/ns-690.shtml#I. Round 29 (2026-10-19): driverCount 3 promoted from the Yamaha NS-690/NS-5000 history page, which states the 30 cm (12\") 3-way design with soft-dome tweeter and midrange. The previously cited hub.yamaha.com URL returns 404 and is retired as evidence.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha history page — \"The NS-690, equipped with a soft-dome tweeter and midrange, was introduced in 1973 ... both speaker systems shared the same 30 cm (12\") 3-way bookshelf design\"; the NS-5000 lineage text also refers to \"all three drivers\". A three-way system with a 30 cm woofer, a midrange and a tweeter has three transducers."
     }
   },
   {
@@ -20763,8 +20766,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -20820,18 +20823,18 @@
       "sourceType": "THIRD_PARTY",
       "notes": "Mackie CR3 owner's manual: 'Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]'. 2026-10-13: the copy is hosted by pdf-manuals.com, not by Mackie; no Mackie host was reached, so the status is THIRD_PARTY_VERIFIED. The values were re-read from the copy's Appendix B table (CR3 column: 70 Hz-20 kHz at -3 dB; 28 W rms; 3.0 in woofer)."
     },
-    "notes": "The earlier statement that no source-backed physical specification is retained is superseded: see the 2026-10-13 notes on frequencyResponse, power and woofer. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged. Round 28 (2026-10-19) reassessment: the CR3 manual copy was reopened and states the CR3 transducer pair (3.0 in LF, 0.75 in HF) and its internal 28 W Class AB amplifiers, so driverCount 2 and active true are evidence-backed. The values stay null because the driverCount/active schema admits only manufacturer-verified sources and this is a third-party manual copy; owner decision needed. The CR3 vs CR3-X ambiguity does not affect these two facts (the manual names CR3 and its 3.0 in LF driver).",
+    "notes": "The earlier statement that no source-backed physical specification is retained is superseded: see the 2026-10-13 notes on frequencyResponse, power and woofer. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged. Round 28 (2026-10-19) reassessment: the CR3 manual copy was reopened and states the CR3 transducer pair (3.0 in LF, 0.75 in HF) and its internal 28 W Class AB amplifiers, so driverCount 2 and active true are evidence-backed. The values stay null because the driverCount/active schema admits only manufacturer-verified sources and this is a third-party manual copy; owner decision needed. The CR3 vs CR3-X ambiguity does not affect these two facts (the manual names CR3 and its 3.0 in LF driver). Round 29 (2026-10-19): the provenance policy was extended to allow THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md. The Round 28 sentence above that said these values stay null is superseded: both fields are now stored at the third-party tier with the quoted evidence.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Mackie CR Series owner's manual, Appendix B \"Transducers\": \"Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]\" and \"High Frequency 0.75 in / 19 mm silk dome tweeter\" — two transducers. Third-party manual copy; owner instruction 2026-10-19, PROVENANCE-POLICY conditions met (exact CR3 revision named)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Same manual, \"Amplifiers\": \"Rated Power 28 watts rms 50 watts peak\", \"Design Class AB\"; \"Power Requirements\" lists AC mains voltages, so the monitor is self-powered. Third-party manual copy under the 2026-10-19 policy."
     }
   },
   {
@@ -20841,8 +20844,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -20897,18 +20900,18 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred. Pass-130 check (2026-10-10): Mackie Thump15 secondary listings conflict by revision. A zzounds listing for the 'Thump15' gives -3 dB 39 Hz–20 kHz and -10 dB 32 Hz–23 kHz; a Thump15A listing gives 1000 W LF / 300 W HF, 32 Hz–23 kHz and 127 dB; a THUMP15BST listing gives 1300 W total. No Mackie revision was fixed to the record, so nothing is stored. Pass-136 check (2026-10-10): Distributor page reproducing Mackie's Thump15 specification. Stored: –3 dB 39 Hz–20 kHz; 500 W rms system amplifier output; 15 in woofer and 1.4 in titanium compression driver (driverCount 2); powered (active). Not stored: \"Maximum SPL Peak 126 dB SPL @ 1m\" (a maximum output, not sensitivity, and the reference is not a sensitivity condition); the Thump15A (1300 W, 32 Hz–23 kHz, 127 dB) and THUMP15BST records are other products and are not transferred. Round 28 (2026-10-19) reassessment: the Thump15 specification page was reopened and states the 15 in woofer, the 1.4 in compression driver, a 2-way crossover and a powered amplifier section, so driverCount 2 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a reputable-database page; owner decision needed. Thump15A and THUMP15BST remain other products and were not merged.",
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred. Pass-130 check (2026-10-10): Mackie Thump15 secondary listings conflict by revision. A zzounds listing for the 'Thump15' gives -3 dB 39 Hz–20 kHz and -10 dB 32 Hz–23 kHz; a Thump15A listing gives 1000 W LF / 300 W HF, 32 Hz–23 kHz and 127 dB; a THUMP15BST listing gives 1300 W total. No Mackie revision was fixed to the record, so nothing is stored. Pass-136 check (2026-10-10): Distributor page reproducing Mackie's Thump15 specification. Stored: –3 dB 39 Hz–20 kHz; 500 W rms system amplifier output; 15 in woofer and 1.4 in titanium compression driver (driverCount 2); powered (active). Not stored: \"Maximum SPL Peak 126 dB SPL @ 1m\" (a maximum output, not sensitivity, and the reference is not a sensitivity condition); the Thump15A (1300 W, 32 Hz–23 kHz, 127 dB) and THUMP15BST records are other products and are not transferred. Round 28 (2026-10-19) reassessment: the Thump15 specification page was reopened and states the 15 in woofer, the 1.4 in compression driver, a 2-way crossover and a powered amplifier section, so driverCount 2 and active true are evidence-backed. The values stay null because the schema admits only manufacturer-verified sources for these two fields and this is a reputable-database page; owner decision needed. Thump15A and THUMP15BST remain other products and were not merged. Round 29 (2026-10-19): the provenance policy was extended to allow THIRD_PARTY_VERIFIED for driverCount/active under scripts/research/PROVENANCE-POLICY.md. The Round 28 sentence above that said these values stay null is superseded: both fields are now stored at the third-party tier with the quoted evidence.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Thump15 specification page: \"Woofer Diameter 15\\\" (381 mm)\" and \"Compression Driver 1.4\\\" (36 mm)\", with \"Precision 2-way crossover\" — two transducers. Reputable-database page; exact model Thump15 (not Thump15A/THUMP15BST)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Same page: title \"Mackie Thump15 Powered Loudspeaker\", \"1000 W total system power\", \"Ultra-efficient Class-D amplification\" and a \"Power Amplifiers\" table. Reputable-database tier under the 2026-10-19 policy."
     }
   },
   {
@@ -28922,7 +28925,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -28973,20 +28976,20 @@
       "source": "https://products.electrovoice.com/ap/en/ekx-15p/",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
-    "notes": "Manufacturer: EKX-15P powered 15-inch two-way loudspeaker; 1500 W Class D, 55 Hz–18 kHz (-3 dB), 48 Hz–20 kHz (-10 dB), 134 dB maximum SPL. Source: Electro-Voice EKX-15P product page.",
+    "notes": "Manufacturer: EKX-15P powered 15-inch two-way loudspeaker; 1500 W Class D, 55 Hz–18 kHz (-3 dB), 48 Hz–20 kHz (-10 dB), 134 dB maximum SPL. Source: Electro-Voice EKX-15P product page. Round 29 (2026-10-19): driverCount 2 and active true taken from the EKX 15P product page (\"Powered 15\\\" 2-Way Loudspeaker\"; EVS-15M woofer + DH-1M compression driver).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.electrovoice.com/product/ekx-15p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Electro-Voice EKX 15P product page — \"The EKX 15P pairs an EV-engineered EVS-15M 15-inch woofer and a DH-1M 1-inch titanium compression driver\"; headline reads \"Powered 15\\\" 2-Way Loudspeaker\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.electrovoice.com/product/ekx-15p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Electro-Voice EKX 15P page — \"Powered 15\\\" 2-Way Loudspeaker\" and \"1,500 W Class-D amp\" inside the cabinet; explicit powered statement."
     }
   },
   {

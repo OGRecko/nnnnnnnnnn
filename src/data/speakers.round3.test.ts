@@ -20,16 +20,27 @@ const get = (id: string) => {
 };
 
 // 1. driverCount and active carry provenance whenever they are set.
+// The third-party tier is allowed for these two structural fields only under the documented policy
+// (scripts/research/PROVENANCE-POLICY.md): an https source, a third-party/reputable-database source type,
+// and a provenance note containing the quoted evidence. A bare third-party status is rejected.
+const STRUCTURAL_STATUSES = ['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED', 'MANUFACTURER_VERIFIED', 'THIRD_PARTY_VERIFIED'];
 for (const r of records) {
-  if (r.driverCount != null) {
-    assert.ok(r.driverCountProvenance, `${r.id}: driverCount has no provenance`);
-    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED', 'MANUFACTURER_VERIFIED'].includes(r.driverCountProvenance.status), `${r.id}: bad driverCount provenance status`);
-    if (r.driverCountProvenance.status === 'MANUFACTURER_VERIFIED') assert.match(r.driverCountProvenance.source, /^https:\/\//, `${r.id}: verified driverCount needs an https source`);
-  }
-  if (r.active != null) {
-    assert.ok(r.activeProvenance, `${r.id}: active has no provenance`);
-    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED', 'MANUFACTURER_VERIFIED'].includes(r.activeProvenance.status), `${r.id}: bad active provenance status`);
-    if (r.activeProvenance.status === 'MANUFACTURER_VERIFIED') assert.match(r.activeProvenance.source, /^https:\/\//, `${r.id}: verified active needs an https source`);
+  for (const [field, provKey, current] of [
+    ['driverCount', 'driverCountProvenance', r.driverCount],
+    ['active', 'activeProvenance', r.active],
+  ] as const) {
+    if (current == null) continue;
+    const prov = r[provKey];
+    assert.ok(prov, `${r.id}: ${field} has no provenance`);
+    assert.ok(STRUCTURAL_STATUSES.includes(prov.status), `${r.id}: bad ${field} provenance status`);
+    if (prov.status === 'MANUFACTURER_VERIFIED' || prov.status === 'THIRD_PARTY_VERIFIED') {
+      assert.match(prov.source, /^https:\/\//, `${r.id}: verified ${field} needs an https source`);
+    }
+    if (prov.status === 'THIRD_PARTY_VERIFIED') {
+      assert.ok(['THIRD_PARTY', 'REPUTABLE_DATABASE'].includes(prov.sourceType), `${r.id}: ${field} third-party status needs a third-party sourceType`);
+      assert.equal(typeof prov.note, 'string', `${r.id}: ${field} third-party status needs an evidence note`);
+      assert.ok(String(prov.note).trim().length >= 40, `${r.id}: ${field} third-party evidence note is too short to be auditable`);
+    }
   }
 }
 
