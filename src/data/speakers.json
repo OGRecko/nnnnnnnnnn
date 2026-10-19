@@ -987,7 +987,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 3,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -1042,10 +1042,10 @@
     },
     "notes": "Manufacturer JBL service/manual data: 89 dB SPL at 1 W/1 m, 8 Ω nominal, 12-inch LF driver with 3-inch voice coil, 3-way system. JBL publishes a measured response graph, but no single numeric response range is asserted here. Maximum recommended amplifier power is 300 W/ch; the power field remains N/A because amplifier recommendation is not treated as speaker power handling. Source: JBL L112 manual.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 300 mm low-frequency driver, one 130 mm midrange and one 25 mm high-frequency dome."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -6074,7 +6074,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 3,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -6130,10 +6130,10 @@
     },
     "notes": "Manufacturer: RP-8000F three-driver floorstanding loudspeaker with two 8-inch woofers and 1-inch titanium LTS vented tweeter; 98 dB at 2.83 V/1 m; 8 ohm nominal; 150 W continuous / 600 W peak power handling; 32 Hz–25 kHz ±3 dB. Power field stores the published peak rating (600 W) and notes preserve the continuous rating. Source: Klipsch RP-8000F specification sheet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 1-inch high-frequency driver plus \"Dual 8\\\" \" low-frequency woofers."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -8550,7 +8550,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 3,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -8606,10 +8606,10 @@
     },
     "notes": "Manufacturer: 40 Hz–45 kHz (-6 dB); 91 dB (2.83 V/1 m); 6 Ω; 200 W RMS allowable input; 12-inch LF + 50 mm HF + 19 mm UHF drivers. Passive 3-way. Source: JBL 4429.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.jbl.com/4429.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One low-frequency, one high-frequency and one ultrahigh-frequency transducer, each with its own row and model number."
     },
     "activeProvenance": {
       "status": "UNSOURCED",

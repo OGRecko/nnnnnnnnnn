@@ -3338,6 +3338,104 @@
       "status": "INACCESSIBLE",
       "evidence": "The URL now returns \"404 Not Found - Eminence Speaker, LLC\" with the body \"Page not found / Looks like the page you're looking for no longer exists.\" No specification content is served.",
       "fieldResults": []
+    },
+    {
+      "url": "https://www.jbl.com/4429.html",
+      "sourceUrl": "https://www.jbl.com/4429.html",
+      "host": "www.jbl.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL 4429 product page, General Specifications",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"12”, 3-way Studio Monitor\"; \"Low-frequency transducer | 300mm pure-pulp cone woofer 1200FE-8\"; \"High-frequency transducer | 50mm titanium diaphragm 175Nd-3\"; \"Ultrahigh-frequency transducer | 19mm titanium diaphragm 138Nd\". The page additionally prints a second, conflicting \"Audio Specifications\" block (crossovers 2kHz/5kHz, sensitivity 93dB) that is not used here.",
+      "fieldResults": [
+        {
+          "record": "jbl-4429",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.jbl.com/4429.html",
+          "note": "One low-frequency, one high-frequency and one ultrahigh-frequency transducer, each with its own row and model number."
+        }
+      ]
+    },
+    {
+      "url": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+      "sourceUrl": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+      "host": "support.jbl.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL L112 instruction manual, COMPONENTS section",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"LOW FREQUENCY—A 300 mm (12 in) driver with a 4.7 kg (10¼ lb) magnetic assembly\"; \"MIDRANGE—The 130 mm (5 in) midrange loudspeaker, housed within an isolated subchamber\"; \"HIGH FREQUENCY—Designed specifically for the L112, the new 25 mm (1 in) high frequency dome radiator\". The COMPONENT REMOVAL procedure likewise describes removing one low frequency, one midrange and one high frequency unit.",
+      "fieldResults": [
+        {
+          "record": "jbl-l112",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+          "note": "One 300 mm low-frequency driver, one 130 mm midrange and one 25 mm high-frequency dome."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+      "sourceUrl": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+      "host": "assets.klipsch.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Klipsch RP-8000F specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "SPECIFICATIONS table: \"HIGH FREQUENCY DRIVER | 1\\\" Titanium LTS Vented Tweeter with Hybrid Cross-Section Tractrix® Horn\"; \"LOW FREQUENCY DRIVER | Dual 8\\\" Cerametalic Cone Woofers\".",
+      "fieldResults": [
+        {
+          "record": "klipsch-rp8000f",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+          "note": "One 1-inch high-frequency driver plus \"Dual 8\\\" \" low-frequency woofers."
+        }
+      ]
+    },
+    {
+      "url": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+      "sourceUrl": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+      "host": "support.jbl.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL L100 Century owner manual (recorded source)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "INACCESSIBLE",
+      "evidence": "The exact URL recorded as the source for this record's power, impedance, voiceCoil and woofer fields now returns JBL's \"404 - URL Error ... The requested URL is invalid.\" page. No specification content is served, so the driver complement cannot be re-read from this document. The existing verified fields are left untouched: they were read from this document before it stopped resolving.",
+      "fieldResults": []
     }
   ]
 }

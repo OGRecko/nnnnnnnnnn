@@ -9,7 +9,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **89** fields (no source recorded).
+- UNSOURCED: **86** fields (no source recorded).
 - NO_PROVENANCE: **171** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -63,10 +63,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4310 | JBL | 4310 (`jbl-4310`) | 2 | 0 | 0 |
 | jbl-4312 | JBL | 4312 (`jbl-4312`) | 2 | 0 | 0 |
 | jbl-4350 | JBL | 4350 (`jbl-4350`) | 2 | 0 | 0 |
-| jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 2 | 0 |
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
-| jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
@@ -81,7 +79,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
 | klipsch-klipschorn | Klipsch | Klipschorn (`klipsch-klipschorn`) | 0 | 0 | 2 |
-| klipsch-rp8000f | Klipsch | RP-8000F (`klipsch-rp8000f`) | 0 | 2 | 0 |
 | krk-7000 | KRK | 7000B (`krk-7000`) | 2 | 0 | 0 |
 | krk-rokit-5 | KRK | Rokit 5 G1 (`krk-rokit-5`) | 2 | 0 | 0 |
 | krk-rokit-8 | KRK | Rokit 8 G3 (`krk-rokit-8`) | 2 | 0 | 0 |
@@ -214,6 +211,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | hertz-mille-pro-mpk-165-3 | Hertz | Mille Pro MPK 165.3 (`hertz-mille-pro-mpk-165-3`) | 0 | 0 | 1 |
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
+| jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 1 | 0 |
 | jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 1 |
 | jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 1 | 0 |
@@ -222,6 +220,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 1 | 0 | 0 |
 | jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 1 | 0 | 0 |
 | jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
+| jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 1 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
@@ -256,6 +255,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-rp500m | Klipsch | RP-500M II (`klipsch-rp500m`) | 1 | 0 | 0 |
 | klipsch-rp6000f | Klipsch | RP-6000F II (`klipsch-rp6000f`) | 1 | 0 | 0 |
 | klipsch-rp600m | Klipsch | RP-600M II (`klipsch-rp600m`) | 1 | 0 | 0 |
+| klipsch-rp8000f | Klipsch | RP-8000F (`klipsch-rp8000f`) | 0 | 1 | 0 |
 | klipsch-rp8060fa | Klipsch | RP-8060FA II (`klipsch-rp8060fa`) | 1 | 0 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 1 | 0 | 0 |
 | legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 1 | 0 | 0 |

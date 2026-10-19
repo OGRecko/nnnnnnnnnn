@@ -3892,6 +3892,84 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.jensentone.com/specification-sheet/36"
+    },
+    {
+      "id": "jbl-4429",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.jbl.com/4429.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One low-frequency, one high-frequency and one ultrahigh-frequency transducer, each with its own row and model number."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.jbl.com/4429.html"
+    },
+    {
+      "id": "jbl-l112",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 300 mm low-frequency driver, one 130 mm midrange and one 25 mm high-frequency dome."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf"
+    },
+    {
+      "id": "klipsch-rp8000f",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 1-inch high-frequency driver plus \"Dual 8\\\" \" low-frequency woofers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf"
     }
   ]
 }

@@ -1719,6 +1719,36 @@
       "valueAfter": 1,
       "source": "https://www.jensentone.com/specification-sheet/36",
       "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+    },
+    {
+      "record": "jbl-4429",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://www.jbl.com/4429.html",
+      "note": "One low-frequency, one high-frequency and one ultrahigh-frequency transducer, each with its own row and model number."
+    },
+    {
+      "record": "jbl-l112",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+      "note": "One 300 mm low-frequency driver, one 130 mm midrange and one 25 mm high-frequency dome."
+    },
+    {
+      "record": "klipsch-rp8000f",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
+      "note": "One 1-inch high-frequency driver plus \"Dual 8\\\" \" low-frequency woofers."
     }
   ],
   "elx200_15": {

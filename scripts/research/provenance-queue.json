@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 516
+      "count": 519
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 35
+      "count": 32
     }
   ],
   "resolvedSourceUrls": [
@@ -129,6 +129,7 @@
     "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
     "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
     "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+    "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
     "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
     "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
     "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
@@ -232,6 +233,8 @@
     "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
     "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
     "https://support.apple.com/en-us/111843",
+    "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+    "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
     "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
     "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
     "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
@@ -326,6 +329,7 @@
     "https://www.genelec.com/8030c",
     "https://www.genelec.com/8361a",
     "https://www.genelec.com/previous-models/8351a",
+    "https://www.jbl.com/4429.html",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",

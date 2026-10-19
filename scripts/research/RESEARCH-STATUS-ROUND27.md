@@ -783,6 +783,38 @@ inaccessible rather than re-sourced from a reseller.
 Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 353 source URLs resolved in total.
 
+## Batch 23 — JBL 4429, JBL L112, Klipsch RP-8000F
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `jbl-4429` | `driverCount` | 3 | General Specifications rows: 300 mm woofer 1200FE-8, 50 mm HF 175Nd-3, 19 mm UHF 138Nd |
+| `jbl-l112` | `driverCount` | 3 | Manual COMPONENTS: 300 mm low frequency, 130 mm midrange, 25 mm high-frequency dome |
+| `klipsch-rp8000f` | `driverCount` | 3 | Spec sheet: "1\" Titanium LTS Vented Tweeter" + "Dual 8\" Cerametalic Cone Woofers" |
+
+Two documents needed a caveat rather than a value:
+
+- The **JBL 4429 page carries two contradictory specification blocks** — the General Specifications
+  give 40 Hz–45 kHz, 91 dB and crossovers at 800 Hz / 7 kHz, while a second "Audio Specifications"
+  block gives 40 Hz–40 kHz, 93 dB and 2 kHz / 5 kHz. The driver list is identical in both, so the
+  count is safe; the conflicting rows were not used for anything.
+- The **recorded source for `jbl-l100` no longer resolves**: the exact `L100_Century_Owners_Manual.pdf`
+  URL now returns JBL's "404 - URL Error" page. Its existing verified fields are left untouched —
+  they were read from that document while it was served — but the driver complement cannot be
+  re-read from it, so `jbl-l100.driverCount` stays open rather than being filled from a reseller
+  summary of the same manual.
+
+## Counts after batch 23
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 839 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 86 |
+| no provenance at all | 171 |
+
+Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+357 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
