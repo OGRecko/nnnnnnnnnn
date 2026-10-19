@@ -3064,6 +3064,81 @@
           "note": "A separate amplifier power row per band (80 W / 50 W / 50 W) plus a 100-240 V AC input and a DSP crossover: the amplification is built into the monitor."
         }
       ]
+    },
+    {
+      "url": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+      "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+      "host": "docs.meyersound.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Meyer Sound LINA datasheet, Specifications and Architectural Specifications",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "TRANSDUCERS: \"Low Frequency | Two 6.5-inch long-excursion cone drivers; 4 Ω nominal impedance\"; \"High Frequency | One 3-inch diaphragm compression driver coupled to a constant-directivity horn through a patented REM® manifold; 8 Ω nominal impedance\". AMPLIFIER: \"Type | 3-channel, Class-D\"; \"Total Output Power | 1950 W peak\". Architectural specification: \"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array loudspeaker.\"",
+      "fieldResults": [
+        {
+          "record": "meyer-sound-lina",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+          "note": "Two 6.5-inch low-frequency cone drivers plus one 3-inch compression driver."
+        },
+        {
+          "record": "meyer-sound-lina",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+          "note": "Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+      "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+      "host": "docs.meyersound.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Meyer Sound LEOPARD / LEOPARD-M80 datasheet, Specifications and Architectural Specifications",
+      "chunksOpened": [
+        1,
+        2
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "TRANSDUCERS: \"Low Frequency | Two 9-inch long-excursion cone drivers; 2 Ω nominal impedance\"; \"High Frequency | One 3-inch diaphragm compression driver coupled to a constant-directivity horn through a patented REM® manifold; 4 Ω nominal impedance\". AMPLIFIERS: \"Type | 3-channel, open-loop, class D\"; \"Total Output Power | 3900 W peak\". Architectural specification: \"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array loudspeaker.\"",
+      "fieldResults": [
+        {
+          "record": "meyer-sound-leopard",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+          "note": "Two 9-inch low-frequency cone drivers plus one 3-inch compression driver."
+        },
+        {
+          "record": "meyer-sound-leopard",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+          "note": "Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
+        }
+      ]
     }
   ]
 }

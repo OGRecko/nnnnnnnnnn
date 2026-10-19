@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **347** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
+Records still needing research: **345** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **98** fields (no source recorded).
+- UNSOURCED: **94** fields (no source recorded).
 - NO_PROVENANCE: **171** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -122,8 +122,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
 | martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
 | meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
-| meyer-sound-leopard | Meyer Sound | LEOPARD (`meyer-sound-leopard`) | 0 | 2 | 0 |
-| meyer-sound-lina | Meyer Sound | LINA (`meyer-sound-lina`) | 0 | 2 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |

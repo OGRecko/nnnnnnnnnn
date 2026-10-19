@@ -7727,6 +7727,35 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Specification rows: \"Crossover 3-way DSP-based\"; \"Crossover Frequency (Hz) 460/5500 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange 4in MSP\"; \"Woofer 8in MSP\"; \"Amplifier Power Woofer (W) 80\"; \"Amplifier Power midrange (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\"."
+    },
+    {
+      "url": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+      "host": "docs.meyersound.com",
+      "document": "Meyer Sound LINA datasheet, Specifications and Architectural Specifications",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "TRANSDUCERS: \"Low Frequency | Two 6.5-inch long-excursion cone drivers; 4 Ω nominal impedance\"; \"High Frequency | One 3-inch diaphragm compression driver coupled to a constant-directivity horn through a patented REM® manifold; 8 Ω nominal impedance\". AMPLIFIER: \"Type | 3-channel, Class-D\"; \"Total Output Power | 1950 W peak\". Architectural specification: \"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array loudspeaker.\""
+    },
+    {
+      "url": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+      "host": "docs.meyersound.com",
+      "document": "Meyer Sound LEOPARD / LEOPARD-M80 datasheet, Specifications and Architectural Specifications",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1,
+        2
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "TRANSDUCERS: \"Low Frequency | Two 9-inch long-excursion cone drivers; 2 Ω nominal impedance\"; \"High Frequency | One 3-inch diaphragm compression driver coupled to a constant-directivity horn through a patented REM® manifold; 4 Ω nominal impedance\". AMPLIFIERS: \"Type | 3-channel, open-loop, class D\"; \"Total Output Power | 3900 W peak\". Architectural specification: \"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array loudspeaker.\""
     }
   ],
   "openQuestionsForOwner": [

@@ -697,6 +697,33 @@ mains input establish that the amplification is inside the cabinet.
 Research backlog: 347 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 342 source URLs resolved in total.
 
+## Batch 20 — Meyer Sound LINA and LEOPARD
+
+`docs.meyersound.com` was added to the source-host allowlist in this batch (123 hosts) with the
+manufacturer's own documentation portal as operator evidence. Both datasheets state the design in
+words — *"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array
+loudspeaker"* — and then enumerate the transducers and the internal amplifier.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `meyer-sound-lina` | `driverCount` / `active` | 3 / true | Two 6.5-inch cone drivers + one 3-inch compression driver; "self-powered"; 3-channel class-D, 1950 W peak |
+| `meyer-sound-leopard` | `driverCount` / `active` | 3 / true | Two 9-inch cone drivers + one 3-inch compression driver; "self-powered"; 3-channel class-D, 3900 W peak |
+
+The legacy UPA-1P and UPJ-1P remain open: their documentation on the same site is distributed only
+as ZIP archives, which this environment cannot open.
+
+## Counts after batch 20
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 831 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 94 |
+| no provenance at all | 171 |
+
+Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+344 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

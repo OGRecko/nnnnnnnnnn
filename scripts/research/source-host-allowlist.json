@@ -1482,6 +1482,19 @@
         "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
         "https://www.neumann.com/en-us/products/historical/kh-310-a"
       ]
+    },
+    {
+      "host": "docs.meyersound.com",
+      "status": "ESTABLISHED",
+      "operator": "Meyer Sound Laboratories, Inc.",
+      "evidence": [
+        "https://docs.meyersound.com/products/en/datasheet---lina.html page banner \"Meyer Sound Documentation\", product feedback address product-docs@meyersound.com, and the datasheet's own architectural specification (\"The loudspeaker shall be a compact, self-powered ... loudspeaker\").",
+        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html \"Meyer Sound Documentation\" datasheet for LEOPARD with the manufacturer's TRANSDUCERS, AMPLIFIERS and AC POWER tables."
+      ],
+      "sources": [
+        "https://docs.meyersound.com/products/en/datasheet---lina.html",
+        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
+      ]
     }
   ]
 }

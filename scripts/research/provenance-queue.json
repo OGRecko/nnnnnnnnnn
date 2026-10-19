@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 318
+      "count": 320
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 56
+      "count": 54
     },
     {
       "field": "driverCount",
@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 509
+      "count": 511
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 42
+      "count": 40
     }
   ],
   "resolvedSourceUrls": [
@@ -143,6 +143,8 @@
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
     "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
     "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
+    "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+    "https://docs.meyersound.com/products/en/datasheet---lina.html",
     "https://dutchdutch.com/pages/8c",
     "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
     "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",

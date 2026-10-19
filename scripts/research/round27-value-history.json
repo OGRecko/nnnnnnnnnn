@@ -3658,6 +3658,110 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://dynaudio.com/professional-audio/lyd/lyd-48"
+    },
+    {
+      "id": "meyer-sound-lina",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two 6.5-inch low-frequency cone drivers plus one 3-inch compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://docs.meyersound.com/products/en/datasheet---lina.html"
+    },
+    {
+      "id": "meyer-sound-lina",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://docs.meyersound.com/products/en/datasheet---lina.html"
+    },
+    {
+      "id": "meyer-sound-leopard",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two 9-inch low-frequency cone drivers plus one 3-inch compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
+    },
+    {
+      "id": "meyer-sound-leopard",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
     }
   ]
 }

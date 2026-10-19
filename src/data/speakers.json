@@ -52330,8 +52330,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -52384,16 +52384,16 @@
     },
     "notes": "Meyer Sound LEOPARD datasheet (PN 04.243.004.02 E2, 2021), LEOPARD column (not LEOPARD-M80). Self-powered; LF two 9 in long-excursion cone drivers (2 ohm nominal), HF one 3 in compression driver on a constant-directivity horn (4 ohm nominal) = 3 drivers; 3-channel class D, 3900 W peak total; operating frequency range 55 Hz-18 kHz and 110 deg horizontal coverage; maximum SPL 142 dB (free-field, 4 m referred to 1 m); 75 lb / 34.0 kg. NOT stored: frequency response (Meyer publishes a 'recommended maximum operating frequency range' with no dB window, which does not match the dataset's -6 dB limit convention) and power (3900 W is a peak amplifier figure).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two 9-inch low-frequency cone drivers plus one 3-inch compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
     }
   },
   {
@@ -52403,8 +52403,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -52457,16 +52457,16 @@
     },
     "notes": "Meyer Sound LINA datasheet (PN 04.270.004.02 B2, 2021). Self-powered; LF two 6.5 in long-excursion cone drivers (4 ohm nominal), HF one 3 in compression driver on a constant-directivity horn (8 ohm nominal) = 3 drivers; 3-channel class D, 1950 W peak total; operating frequency range 65 Hz-18 kHz and 100 deg horizontal coverage; maximum SPL 138 dB (free-field, 4 m referred to 1 m); 43 lb / 19.5 kg. NOT stored: frequency response (no dB window published) and power (peak amplifier figure).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two 6.5-inch low-frequency cone drivers plus one 3-inch compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://docs.meyersound.com/products/en/datasheet---lina.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
     }
   },
   {
