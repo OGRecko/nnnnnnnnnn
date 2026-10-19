@@ -201,5 +201,11 @@
       "has2500": true,
       "has2600": false
     }
+  },
+  "round23Review": {
+    "date": "2026-10-19",
+    "status": "UNRESOLVED_ROW_COUNT (no change)",
+    "action": "No new primary datasheet edition was obtained in Round 23. The stored 85-point series is untouched and remains excluded from simulation, per the owner decision that the disputed curve must not be reintroduced while unresolved.",
+    "remainingWork": "Obtain a third independent fetch of the English primary engineering data sheet and reconcile the 85-row versus 86-row readings (2.4 kHz / 2.5 kHz / 2.6 kHz presence) before any import."
   }
 }

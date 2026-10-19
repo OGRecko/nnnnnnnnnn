@@ -213,5 +213,11 @@
     "status": "UNRESOLVED_SELF_CONFLICT_20KHZ (no change)",
     "action": "Round 22 verified the LSR32 driverCount and active fields only. The stored response-point series and the 20 kHz exclusion are unchanged; the Amplitude & Phase versus Acoustic Contribution self-conflict remains open.",
     "remainingWork": "Resolve the 20 kHz disagreement in the JBL LSR series owner manual (English edition) before restoring any 20 kHz point."
+  },
+  "round23Review": {
+    "date": "2026-10-19",
+    "status": "UNRESOLVED_SELF_CONFLICT_20KHZ (no change)",
+    "action": "Round 23 did not open a new JBL LSR32 source. The stored response-point series and the 20 kHz exclusion are unchanged; the Amplitude & Phase versus Acoustic Contribution self-conflict remains open.",
+    "remainingWork": "Resolve the 20 kHz disagreement in the JBL LSR series owner manual (English edition) before restoring any 20 kHz point."
   }
 }

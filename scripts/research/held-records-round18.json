@@ -77,5 +77,26 @@
       }
     ],
     "result": "Both held records remain on hold; no values promoted or demoted."
+  },
+  "round23Review": {
+    "date": "2026-10-19",
+    "round": 23,
+    "checks": [
+      {
+        "id": "legacy-mack-4",
+        "url": "https://mackie.com/en/products/cr3",
+        "inspectedThisRound": false,
+        "finding": "Not re-opened in Round 23. The Round 22 reading stands: the Mackie CR3 product URL returned only a cart/checkout overlay with no specification text.",
+        "decision": "HOLD unchanged. No promotion; no value change."
+      },
+      {
+        "id": "equator-d5",
+        "url": "https://equatoraudio.com/product/d5/",
+        "inspectedThisRound": false,
+        "finding": "Not re-opened in Round 23. The Round 22 reading stands: HTTP 404 on the recorded manufacturer product URL.",
+        "decision": "HOLD unchanged. No promotion; no value change."
+      }
+    ],
+    "note": "Round 23 concentrated on the open CITED_IN_NOTES_UNCHECKED backlog (50 URLs) and did not re-attempt these two held records."
   }
 }

@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **468** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 105 brands.
+Records still needing research: **460** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 105 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **444** fields across **290** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **390** fields across **255** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **192** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -121,15 +121,12 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
 | jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 2 | 0 | 0 |
 | jbl-flip6 | JBL | Flip 6 (`jbl-flip6`) | 2 | 0 | 0 |
-| jbl-hdi-3800 | JBL | HDI-3800 (`jbl-hdi-3800`) | 2 | 0 | 0 |
 | jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 2 | 0 | 0 |
 | jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
-| jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 2 | 0 | 0 |
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
-| jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 2 | 0 | 0 |
 | jbl-m2 | JBL | M2 Master Reference (`jbl-m2`) | 0 | 2 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
 | jbl-partybox-1000 | JBL | PartyBox 1000 (`jbl-partybox-1000`) | 2 | 0 | 0 |
@@ -166,15 +163,12 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-klipschorn | Klipsch | Klipschorn (`klipsch-klipschorn`) | 0 | 0 | 2 |
 | klipsch-rp8000f | Klipsch | RP-8000F (`klipsch-rp8000f`) | 0 | 2 | 0 |
 | krk-7000 | KRK | 7000B (`krk-7000`) | 2 | 0 | 0 |
-| krk-rokit-10-3-g4 | KRK | Rokit 10-3 G4 (`krk-rokit-10-3-g4`) | 2 | 0 | 0 |
 | krk-rokit-5 | KRK | Rokit 5 G1 (`krk-rokit-5`) | 2 | 0 | 0 |
 | krk-rokit-5-g4 | KRK | Rokit 5 G4 (`krk-rokit-5-g4`) | 2 | 0 | 0 |
 | krk-rokit-7-g4 | KRK | Rokit 7 G4 (`krk-rokit-7-g4`) | 2 | 0 | 0 |
 | krk-rokit-8 | KRK | Rokit 8 G3 (`krk-rokit-8`) | 2 | 0 | 0 |
-| krk-rokit-8-g4 | KRK | Rokit 8 G4 (`krk-rokit-8-g4`) | 2 | 0 | 0 |
 | krk-v4-s4 | KRK | V4 S4 (`krk-v4-s4`) | 2 | 0 | 0 |
 | krk-v6-s4 | KRK | V6 S4 (`krk-v6-s4`) | 2 | 0 | 0 |
-| krk-v8-s4 | KRK | V8 S4 (`krk-v8-s4`) | 2 | 0 | 0 |
 | lacoustics-arcs | L-Acoustics | ARCS Wide (`lacoustics-arcs`) | 2 | 0 | 0 |
 | lacoustics-arcs-ii | L-Acoustics | ARCS II (`lacoustics-arcs-ii`) | 2 | 0 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 2 | 0 | 0 |
@@ -224,34 +218,16 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | magnepan-mg1.7 | Magnepan | MG 1.7 (`magnepan-mg1.7`) | 2 | 0 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
-| marshall-marshall-1936v | Marshall | Marshall 1936V (`marshall-marshall-1936v`) | 2 | 0 | 0 |
-| marshall-marshall-1960a | Marshall | Marshall 1960A (`marshall-marshall-1960a`) | 2 | 0 | 0 |
-| marshall-marshall-1960av | Marshall | Marshall 1960AV (`marshall-marshall-1960av`) | 2 | 0 | 0 |
 | marshall-marshall-1960b | Marshall | Marshall 1960B (`marshall-marshall-1960b`) | 2 | 0 | 0 |
 | marshall-marshall-1960bv | Marshall | Marshall 1960BV (`marshall-marshall-1960bv`) | 2 | 0 | 0 |
-| marshall-marshall-acton-iii | Marshall | Marshall Acton III (`marshall-marshall-acton-iii`) | 1 | 0 | 1 |
-| marshall-marshall-middleton | Marshall | Marshall Middleton (`marshall-marshall-middleton`) | 2 | 0 | 0 |
-| marshall-marshall-mx112 | Marshall | Marshall MX112 (`marshall-marshall-mx112`) | 2 | 0 | 0 |
-| marshall-marshall-mx212 | Marshall | Marshall MX212 (`marshall-marshall-mx212`) | 2 | 0 | 0 |
-| marshall-marshall-stanmore-iii | Marshall | Marshall Stanmore III (`marshall-marshall-stanmore-iii`) | 1 | 0 | 1 |
-| marshall-marshall-woburn-iii | Marshall | Marshall Woburn III (`marshall-marshall-woburn-iii`) | 1 | 0 | 1 |
 | martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
 | martinlogan-esl-x | MartinLogan | ElectroMotion ESL X (`martinlogan-esl-x`) | 2 | 0 | 0 |
 | martinlogan-motion-40 | MartinLogan | Motion 40 (`martinlogan-motion-40`) | 1 | 0 | 1 |
-| mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) | 1 | 0 | 1 |
-| mesa-boogie-fillmore-2x12 | Mesa/Boogie | Fillmore 2x12 (`mesa-boogie-fillmore-2x12`) | 1 | 0 | 1 |
-| mesa-boogie-lone-star-2x12 | Mesa/Boogie | Lone Star 2x12 (`mesa-boogie-lone-star-2x12`) | 1 | 0 | 1 |
-| mesa-boogie-rectifier-4x12 | Mesa/Boogie | Rectifier 4x12 (`mesa-boogie-rectifier-4x12`) | 1 | 0 | 1 |
 | meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
 | meyer-sound-leopard | Meyer Sound | LEOPARD (`meyer-sound-leopard`) | 0 | 2 | 0 |
 | meyer-sound-lina | Meyer Sound | LINA (`meyer-sound-lina`) | 0 | 2 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
-| monitor-audio-creator-c1m | Monitor Audio | Creator C1M (`monitor-audio-creator-c1m`) | 1 | 0 | 1 |
-| monitor-audio-creator-c2m | Monitor Audio | Creator C2M (`monitor-audio-creator-c2m`) | 1 | 0 | 1 |
-| monitor-audio-creator-c3m | Monitor Audio | Creator C3M (`monitor-audio-creator-c3m`) | 1 | 0 | 1 |
-| monitor-audio-platinum-100-3g | Monitor Audio | Platinum 100 3G (`monitor-audio-platinum-100-3g`) | 1 | 0 | 1 |
-| monitor-audio-platinum-200-3g | Monitor Audio | Platinum 200 3G (`monitor-audio-platinum-200-3g`) | 1 | 0 | 1 |
 | morel-elate-carbon-62a | Morel | Elate Carbon 62A (`morel-elate-carbon-62a`) | 1 | 0 | 1 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
 | neumann-kh-120-ii | Neumann | KH 120 II (`neumann-kh-120-ii`) | 0 | 2 | 0 |
@@ -263,20 +239,11 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | neumann-kh310 | Neumann | KH 310 (`neumann-kh310`) | 0 | 2 | 0 |
 | nexo-ps15 | Nexo | PS15 (`nexo-ps15`) | 2 | 0 | 0 |
 | ohm-walsh-2 | Ohm Acoustics | Walsh 2 (`ohm-walsh-2`) | 0 | 0 | 2 |
-| orange-orange-ppc108 | Orange | Orange PPC108 (`orange-orange-ppc108`) | 1 | 0 | 1 |
-| orange-orange-ppc112 | Orange | Orange PPC112 (`orange-orange-ppc112`) | 1 | 0 | 1 |
-| orange-ppc212 | Orange | PPC212 (`orange-ppc212`) | 1 | 0 | 1 |
-| orange-ppc212v | Orange | PPC212V (`orange-ppc212v`) | 1 | 0 | 1 |
-| orange-ppc412 | Orange | PPC412 (`orange-ppc412`) | 1 | 0 | 1 |
 | paradigm-monitor-11 | Paradigm | Monitor SE 6000F (`paradigm-monitor-11`) | 2 | 0 | 0 |
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
 | pioneer-ts-a | Pioneer | TS-A1670F (`pioneer-ts-a`) | 0 | 1 | 1 |
 | pioneer-ts-d65c | Pioneer | TS-D65C (`pioneer-ts-d65c`) | 1 | 0 | 1 |
 | pioneer-ts-z65f | Pioneer | TS-Z65F (`pioneer-ts-z65f`) | 1 | 0 | 1 |
-| polk-audio-reserve-r100 | Polk Audio | Reserve R100 (`polk-audio-reserve-r100`) | 1 | 0 | 1 |
-| polk-audio-reserve-r200 | Polk Audio | Reserve R200 (`polk-audio-reserve-r200`) | 1 | 0 | 1 |
-| polk-audio-signature-elite-es15 | Polk Audio | Signature Elite ES15 (`polk-audio-signature-elite-es15`) | 1 | 0 | 1 |
-| polk-audio-signature-elite-es20 | Polk Audio | Signature Elite ES20 (`polk-audio-signature-elite-es20`) | 1 | 0 | 1 |
 | polk-rc85i | Polk Audio | RC85i (`polk-rc85i`) | 1 | 0 | 1 |
 | polk-rti-a7 | Polk Audio | RTi A7 (`polk-rti-a7`) | 1 | 0 | 1 |
 | polk-signature-s15 | Polk Audio | Signature S15 (`polk-signature-s15`) | 1 | 0 | 1 |
@@ -286,9 +253,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | presonus-eris-e5 | PreSonus | Eris E5 (`presonus-eris-e5`) | 2 | 0 | 0 |
 | presonus-eris-e8 | PreSonus | Eris E8 XT (`presonus-eris-e8`) | 0 | 2 | 0 |
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
-| psb-synchrony-t600 | PSB | Synchrony T600 (`psb-synchrony-t600`) | 1 | 0 | 1 |
-| q-acoustics-3010i | Q Acoustics | 3010i (`q-acoustics-3010i`) | 1 | 0 | 1 |
-| q-acoustics-3020i | Q Acoustics | 3020i (`q-acoustics-3020i`) | 1 | 0 | 1 |
 | q-acoustics-3030i | Q Acoustics | 3030i (`q-acoustics-3030i`) | 1 | 0 | 1 |
 | q-acoustics-5020 | Q Acoustics | 5020 (`q-acoustics-5020`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
@@ -303,7 +267,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
 | rcf-nx45a | RCF | NX 45-A (`rcf-nx45a`) | 2 | 0 | 0 |
 | rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
-| revel-f206 | Revel | F206 (`revel-f206`) | 1 | 0 | 1 |
 | revel-m106 | Revel | M106 (`revel-m106`) | 1 | 0 | 1 |
 | revel-ultima-salon2 | Revel | Ultima Salon2 (`revel-ultima-salon2`) | 1 | 0 | 1 |
 | rockford-fosgate-p3 | Rockford Fosgate | Punch P3D4-12 (Dual 4Ω) (`rockford-fosgate-p3`) | 1 | 0 | 1 |
@@ -319,9 +282,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonos-sub-mini | Sonos | Sub Mini (`sonos-sub-mini`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-homage-tradition-amati | Sonus Faber | Homage Tradition Amati (`sonus-faber-homage-tradition-amati`) | 2 | 0 | 0 |
-| sonus-faber-lumina-i | Sonus Faber | Lumina I (`sonus-faber-lumina-i`) | 2 | 0 | 0 |
-| sonus-faber-lumina-ii | Sonus Faber | Lumina II (`sonus-faber-lumina-ii`) | 2 | 0 | 0 |
-| sonus-faber-lumina-iii | Sonus Faber | Lumina III (`sonus-faber-lumina-iii`) | 2 | 0 | 0 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
 | sonus-faber-sonetto-i | Sonus Faber | Sonetto I (`sonus-faber-sonetto-i`) | 0 | 0 | 2 |
 | sonus-faber-sonetto-ii | Sonus Faber | Sonetto II (`sonus-faber-sonetto-ii`) | 0 | 0 | 2 |
@@ -331,15 +291,11 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sony-sony-ht-a5000 | Sony | Sony HT-A5000 (`sony-sony-ht-a5000`) | 0 | 0 | 2 |
 | sony-sony-ht-a7000 | Sony | Sony HT-A7000 (`sony-sony-ht-a7000`) | 1 | 0 | 1 |
 | spendor-sp100 | Spendor | SP100 (`spendor-sp100`) | 2 | 0 | 0 |
-| svs-pb-1000-pro | SVS | PB-1000 Pro (`svs-pb-1000-pro`) | 2 | 0 | 0 |
-| svs-pb-2000-pro | SVS | PB-2000 Pro (`svs-pb-2000-pro`) | 2 | 0 | 0 |
 | svs-pb-3000 | SVS | PB-3000 (`svs-pb-3000`) | 2 | 0 | 0 |
 | svs-pb-4000 | SVS | PB-4000 (`svs-pb-4000`) | 2 | 0 | 0 |
 | svs-pb16-ultra | SVS | PB16-Ultra (`svs-pb16-ultra`) | 2 | 0 | 0 |
-| svs-sb-1000-pro | SVS | SB-1000 Pro (`svs-sb-1000-pro`) | 2 | 0 | 0 |
 | svs-sb-2000-pro | SVS | SB-2000 Pro (`svs-sb-2000-pro`) | 2 | 0 | 0 |
 | svs-sb-3000 | SVS | SB-3000 (`svs-sb-3000`) | 2 | 0 | 0 |
-| svs-sb16-ultra | SVS | SB16-Ultra (`svs-sb16-ultra`) | 2 | 0 | 0 |
 | svs-sb4000 | SVS | SB4000 (`svs-sb4000`) | 2 | 0 | 0 |
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 (`tannoy-monitor-gold`) | 0 | 2 | 0 |
 | tannoy-system-600 | Tannoy | System 600 (`tannoy-system-600`) | 2 | 0 | 0 |
@@ -350,9 +306,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | void-air-8 | Void Acoustics | Air 8 (`void-air-8`) | 2 | 0 | 0 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
-| vox-v212c | Vox | V212C (`vox-v212c`) | 1 | 0 | 1 |
 | vox-v212hwx | Vox | V212HWX (`vox-v212hwx`) | 1 | 0 | 1 |
-| wilson-watt-puppy | Wilson Audio | WATT/Puppy 8 (`wilson-watt-puppy`) | 1 | 0 | 1 |
 | yamaha-dbr12 | Yamaha | DBR12 (`yamaha-dbr12`) | 0 | 2 | 0 |
 | yamaha-dbr15 | Yamaha | DBR15 (`yamaha-dbr15`) | 0 | 2 | 0 |
 | yamaha-dxr10 | Yamaha | DXR10 (`yamaha-dxr10`) | 0 | 2 | 0 |
@@ -423,6 +377,9 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
 | jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
+| jbl-hdi-3800 | JBL | HDI-3800 (`jbl-hdi-3800`) | 1 | 0 | 0 |
+| jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
+| jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
 | kef-q150 | KEF | Q150 (`kef-q150`) | 1 | 0 | 0 |
 | kef-q350 | KEF | Q350 (`kef-q350`) | 1 | 0 | 0 |
@@ -468,20 +425,55 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | mackie-cr3-x | Mackie | CR3-X (`mackie-cr3-x`) | 0 | 0 | 1 |
 | mackie-cr4-x | Mackie | CR4-X (`mackie-cr4-x`) | 0 | 0 | 1 |
 | mackie-cr5-x | Mackie | CR5-X (`mackie-cr5-x`) | 0 | 0 | 1 |
+| marshall-marshall-1936v | Marshall | Marshall 1936V (`marshall-marshall-1936v`) | 1 | 0 | 0 |
+| marshall-marshall-1960a | Marshall | Marshall 1960A (`marshall-marshall-1960a`) | 1 | 0 | 0 |
+| marshall-marshall-1960av | Marshall | Marshall 1960AV (`marshall-marshall-1960av`) | 1 | 0 | 0 |
+| marshall-marshall-acton-iii | Marshall | Marshall Acton III (`marshall-marshall-acton-iii`) | 0 | 0 | 1 |
+| marshall-marshall-mx112 | Marshall | Marshall MX112 (`marshall-marshall-mx112`) | 1 | 0 | 0 |
+| marshall-marshall-mx212 | Marshall | Marshall MX212 (`marshall-marshall-mx212`) | 1 | 0 | 0 |
+| marshall-marshall-stanmore-iii | Marshall | Marshall Stanmore III (`marshall-marshall-stanmore-iii`) | 0 | 0 | 1 |
+| marshall-marshall-woburn-iii | Marshall | Marshall Woburn III (`marshall-marshall-woburn-iii`) | 0 | 0 | 1 |
 | martinlogan-motion-20 | MartinLogan | Motion 20 (`martinlogan-motion-20`) | 1 | 0 | 0 |
 | martinlogan-motion-60xt | MartinLogan | Motion 60XT (`martinlogan-motion-60xt`) | 1 | 0 | 0 |
+| mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) | 0 | 0 | 1 |
+| mesa-boogie-fillmore-2x12 | Mesa/Boogie | Fillmore 2x12 (`mesa-boogie-fillmore-2x12`) | 0 | 0 | 1 |
+| mesa-boogie-lone-star-2x12 | Mesa/Boogie | Lone Star 2x12 (`mesa-boogie-lone-star-2x12`) | 0 | 0 | 1 |
+| mesa-boogie-rectifier-4x12 | Mesa/Boogie | Rectifier 4x12 (`mesa-boogie-rectifier-4x12`) | 0 | 0 | 1 |
+| monitor-audio-creator-c1m | Monitor Audio | Creator C1M (`monitor-audio-creator-c1m`) | 0 | 0 | 1 |
+| monitor-audio-creator-c2m | Monitor Audio | Creator C2M (`monitor-audio-creator-c2m`) | 0 | 0 | 1 |
+| monitor-audio-creator-c3m | Monitor Audio | Creator C3M (`monitor-audio-creator-c3m`) | 0 | 0 | 1 |
+| monitor-audio-platinum-100-3g | Monitor Audio | Platinum 100 3G (`monitor-audio-platinum-100-3g`) | 0 | 0 | 1 |
+| monitor-audio-platinum-200-3g | Monitor Audio | Platinum 200 3G (`monitor-audio-platinum-200-3g`) | 0 | 0 | 1 |
+| orange-orange-ppc108 | Orange | Orange PPC108 (`orange-orange-ppc108`) | 0 | 0 | 1 |
+| orange-orange-ppc112 | Orange | Orange PPC112 (`orange-orange-ppc112`) | 0 | 0 | 1 |
+| orange-ppc212 | Orange | PPC212 (`orange-ppc212`) | 0 | 0 | 1 |
+| orange-ppc212v | Orange | PPC212V (`orange-ppc212v`) | 0 | 0 | 1 |
+| orange-ppc412 | Orange | PPC412 (`orange-ppc412`) | 0 | 0 | 1 |
+| polk-audio-reserve-r100 | Polk Audio | Reserve R100 (`polk-audio-reserve-r100`) | 0 | 0 | 1 |
+| polk-audio-reserve-r200 | Polk Audio | Reserve R200 (`polk-audio-reserve-r200`) | 0 | 0 | 1 |
+| polk-audio-signature-elite-es15 | Polk Audio | Signature Elite ES15 (`polk-audio-signature-elite-es15`) | 0 | 0 | 1 |
+| polk-audio-signature-elite-es20 | Polk Audio | Signature Elite ES20 (`polk-audio-signature-elite-es20`) | 0 | 0 | 1 |
+| psb-synchrony-t600 | PSB | Synchrony T600 (`psb-synchrony-t600`) | 0 | 0 | 1 |
+| q-acoustics-3010i | Q Acoustics | 3010i (`q-acoustics-3010i`) | 0 | 0 | 1 |
+| q-acoustics-3020i | Q Acoustics | 3020i (`q-acoustics-3020i`) | 0 | 0 | 1 |
 | qsc-gp118-sw | QSC | GP118-sw (`qsc-gp118-sw`) | 0 | 1 | 0 |
 | qsc-gp212-sw | QSC | GP212-sw (`qsc-gp212-sw`) | 0 | 1 | 0 |
 | qsc-gp218-sw | QSC | GP218-sw (`qsc-gp218-sw`) | 0 | 1 | 0 |
 | qsc-wl218-sw | QSC | WL218-sw (`qsc-wl218-sw`) | 0 | 1 | 0 |
+| revel-f206 | Revel | F206 (`revel-f206`) | 0 | 0 | 1 |
 | sonance-vp86 | Sonance | Visual Performance VP86 (`sonance-vp86`) | 0 | 1 | 0 |
+| sonus-faber-lumina-i | Sonus Faber | Lumina I (`sonus-faber-lumina-i`) | 1 | 0 | 0 |
+| sonus-faber-lumina-ii | Sonus Faber | Lumina II (`sonus-faber-lumina-ii`) | 1 | 0 | 0 |
+| sonus-faber-lumina-iii | Sonus Faber | Lumina III (`sonus-faber-lumina-iii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-i | Sonus Faber | Olympica Nova I (`sonus-faber-olympica-nova-i`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-ii | Sonus Faber | Olympica Nova II (`sonus-faber-olympica-nova-ii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-iii | Sonus Faber | Olympica Nova III (`sonus-faber-olympica-nova-iii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V (`sonus-faber-olympica-nova-v`) | 1 | 0 | 0 |
+| vox-v212c | Vox | V212C (`vox-v212c`) | 0 | 0 | 1 |
 | wharfedale-diamond-12 | Wharfedale | Diamond 12.1 (`wharfedale-diamond-12`) | 1 | 0 | 0 |
 | wharfedale-diamond-12-0 | Wharfedale | Diamond 12.0 (`wharfedale-diamond-12-0`) | 0 | 0 | 1 |
 | wharfedale-diamond-12-2 | Wharfedale | Diamond 12.2 (`wharfedale-diamond-12-2`) | 0 | 0 | 1 |
 | wharfedale-evo4-1 | Wharfedale | EVO4.1 (`wharfedale-evo4-1`) | 0 | 0 | 1 |
 | wharfedale-evo4-2 | Wharfedale | EVO4.2 (`wharfedale-evo4-2`) | 0 | 0 | 1 |
 | wharfedale-linton | Wharfedale | Linton Heritage (`wharfedale-linton`) | 1 | 0 | 0 |
+| wilson-watt-puppy | Wilson Audio | WATT/Puppy 8 (`wilson-watt-puppy`) | 0 | 0 | 1 |

@@ -431,5 +431,16 @@
       "finding": "The Zenodo record page is reachable and names the 410.5 MB SOFA file, but the file download endpoint previously returned HTTP 500 and the file is far larger than this environment can retrieve through the page fetcher. No directivity data was imported and none was fabricated."
     },
     "unchangedLeadCount": 51
+  },
+  "round23Review": {
+    "date": "2026-10-19",
+    "importedThisRound": 0,
+    "genelec8331aSofa": {
+      "status": "PENDING_FILE_INACCESSIBLE",
+      "recordPage": "https://zenodo.org/records/10255555",
+      "file": "LS_directivity_Calibrated_GENELEC_8331A.sofa",
+      "finding": "Not re-attempted in Round 23; the Round 22 result stands (Zenodo record page reachable, 410.5 MB SOFA download not retrievable in this environment). No directivity data was imported and none was fabricated."
+    },
+    "unchangedLeadCount": 51
   }
 }

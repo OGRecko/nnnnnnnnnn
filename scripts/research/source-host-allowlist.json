@@ -201,10 +201,16 @@
     },
     {
       "host": "www.jbl.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected JBL. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
+      "status": "ESTABLISHED",
+      "operator": "JBL (HARMAN International)",
+      "evidence": [
+        "https://www.jbl.com/HDI-3800.html serves JBL HDI-3800 (item JBLHDI3800GRO) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, and carries the JBL Specialty Audio dealer locator."
+      ],
+      "sources": [
+        "https://www.jbl.com/HDI-3800.html"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Upgraded from BRAND_DOMAIN_UNVERIFIED after the Round 23 document check identified the HARMAN-operated catalogue path."
     },
     {
       "host": "sonance.com",
@@ -465,6 +471,188 @@
         "https://www.wharfedale.co.uk/cdn/shop/files/Diamond_12_User_Manual_250729_R13.pdf"
       ],
       "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.marshall.com",
+      "status": "ESTABLISHED",
+      "operator": "Marshall (official Marshall brand site, web store and support site)",
+      "evidence": [
+        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269 is the official Marshall product page for the 1960A and carries the model specification table; cabinet manuals are served from assets.ctfassets.net (Marshall \"Cabs Safety Leaflet\").",
+        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet is Marshall's own support article tree for the 1960AV and repeats the model product details."
+      ],
+      "sources": [
+        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.svsound.com",
+      "status": "ESTABLISHED",
+      "operator": "SVS (SVSound, official brand site and direct web store)",
+      "evidence": [
+        "https://www.svsound.com/products/pb-2000-pro is SVS's own product page and store listing for the PB-2000 Pro, with SVS product imagery and the SVS Subwoofer Control App described in the product copy."
+      ],
+      "sources": [
+        "https://www.svsound.com/products/pb-2000-pro"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.polkaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Polk Audio (HARMAN International)",
+      "evidence": [
+        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html is the official Polk product page; its checkout block links \"Terms of Sale & Privacy Policy\" to https://www.harman.com/privacy-policy-statement/, identifying the HARMAN-operated storefront."
+      ],
+      "sources": [
+        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.revelspeakers.com",
+      "status": "ESTABLISHED",
+      "operator": "Revel Speakers (HARMAN International)",
+      "evidence": [
+        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html serves the Performa3 F206 from /on/demandware.static/-/Sites-masterCatalog_Harman/... (HARMAN catalogue path) and carries the Revel dealer locator and Revel owner's manual PDFs."
+      ],
+      "sources": [
+        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.krkmusic.com",
+      "status": "ESTABLISHED",
+      "operator": "KRK Systems (official KRK web store)",
+      "evidence": [
+        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black is KRK's own store listing; the page cart link points at shop.krksys.com and the product downloads are KRK manuals/brochures hosted on the KRK Shopify CDN."
+      ],
+      "sources": [
+        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.qacoustics.com",
+      "status": "ESTABLISHED",
+      "operator": "Q Acoustics (official brand store)",
+      "evidence": [
+        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair is the Q Acoustics brand store listing (\"QAcoustics\" vendor page) carrying the model copy and Q Acoustics support/warranty links."
+      ],
+      "sources": [
+        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.monitoraudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Monitor Audio Ltd (official product site)",
+      "evidence": [
+        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/ is Monitor Audio's own product site (\"British Design | Performance Loudspeakers | Experts Since 1972\") with the model specification and downloads sections."
+      ],
+      "sources": [
+        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "orangeamps.com",
+      "status": "ESTABLISHED",
+      "operator": "Orange Music Electronic Co Ltd",
+      "evidence": [
+        "https://orangeamps.com/en-us/products/ppc412 page title reads \"Orange PPC412 speaker cabinet ... – Orange Music Electronic Co Ltd\"; the store cart is hosted at storeusa.orangeamps.com."
+      ],
+      "sources": [
+        "https://orangeamps.com/en-us/products/ppc412"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "legacy.mesaboogie.com",
+      "status": "ESTABLISHED",
+      "operator": "MESA/Boogie (MESA Engineering, Petaluma CA)",
+      "evidence": [
+        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html is MESA/Boogie's official legacy catalogue page; the copy states \"ALL MESA® ENCLOSURES ... Made in Petaluma, California\" and product imagery is served from mesa-boogie.imgix.net."
+      ],
+      "sources": [
+        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "voxamps.com",
+      "status": "ESTABLISHED",
+      "operator": "VOX (Korg) — official VOX Amps site",
+      "evidence": [
+        "https://voxamps.com/product/v212c-extension-cabinet/ is VOX's official product page, linking the VOX web shop (voxampshop.com), the VOX dealer locator and VOX owner's manual PDFs."
+      ],
+      "sources": [
+        "https://voxamps.com/product/v212c-extension-cabinet/"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.sonusfaber.com",
+      "status": "ESTABLISHED",
+      "operator": "Sonus faber S.r.l., Arcugnano (Vicenza), Italy",
+      "evidence": [
+        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs footer reads \"Sonus faber S.r.l. Via Antonio Meucci, 10 36057 – Arcugnano (Vicenza) Italy\" and hosts the Lumina technical specifications and owner's manual links."
+      ],
+      "sources": [
+        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.wilsonaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Wilson Audio Specialties (official product site)",
+      "evidence": [
+        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8 is Wilson Audio's product page for the WATT/Puppy Series 8 and links the Series 8 manual PDF hosted on wilsonaudio.com."
+      ],
+      "sources": [
+        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.psbspeakers.com",
+      "status": "ESTABLISHED",
+      "operator": "PSB Speakers (official brand site and store)",
+      "evidence": [
+        "https://www.psbspeakers.com/products/synchrony-t600-tower is PSB's own store listing for the Synchrony T600, with PSB data sheet / owner's manual downloads and support links to support.psbspeakers.com."
+      ],
+      "sources": [
+        "https://www.psbspeakers.com/products/synchrony-t600-tower"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "global.jbl.com",
+      "status": "ESTABLISHED",
+      "operator": "JBL (HARMAN International)",
+      "evidence": [
+        "https://global.jbl.com/JBLL100CLASSICUAM.html serves JBL L100 Classic (item JBLL100CLASSICUAM) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, alongside the JBL Specialty Audio dealer locator."
+      ],
+      "sources": [
+        "https://global.jbl.com/JBLL100CLASSICUAM.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.stereophile.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Stereophile (hi-fi review publication)",
+      "evidence": [
+        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications is a review-magazine \"Specifications\" sidebar that reports manufacturer data; it is a third-party publication, not a manufacturer document, so it can support but never promote a field."
+      ],
+      "sources": [
+        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications"
+      ],
+      "note": "Recorded as a third-party publication in Round 23; SUPPORTED_NOT_PROMOTED outcomes only."
     }
   ]
 }

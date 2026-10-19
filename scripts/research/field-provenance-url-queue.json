@@ -494,22 +494,6 @@
       ]
     },
     {
-      "url": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-l82-classic.driverCount",
-        "jbl-l82-classic.active"
-      ]
-    },
-    {
-      "url": "https://global.jbl.com/JBLL100CLASSICUAM.html",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-l100-classic.driverCount",
-        "jbl-l100-classic.active"
-      ]
-    },
-    {
       "url": "https://www.adam-audio.com/en/a-series/a8h/",
       "outstandingFields": 2,
       "fields": [
@@ -782,14 +766,6 @@
       ]
     },
     {
-      "url": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-sb-1000-pro.active",
-        "svs-sb-1000-pro.driverCount"
-      ]
-    },
-    {
       "url": "https://www.svsound.com/products/sb-2000-pro",
       "outstandingFields": 2,
       "fields": [
@@ -811,30 +787,6 @@
       "fields": [
         "svs-sb4000.active",
         "svs-sb4000.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/sb16-ultra",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-sb16-ultra.active",
-        "svs-sb16-ultra.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-pb-1000-pro.active",
-        "svs-pb-1000-pro.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-2000-pro",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-pb-2000-pro.active",
-        "svs-pb-2000-pro.driverCount"
       ]
     },
     {
@@ -886,27 +838,11 @@
       ]
     },
     {
-      "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-1960a.active",
-        "marshall-marshall-1960a.driverCount"
-      ]
-    },
-    {
       "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
       "outstandingFields": 2,
       "fields": [
         "marshall-marshall-1960b.active",
         "marshall-marshall-1960b.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-1960av.active",
-        "marshall-marshall-1960av.driverCount"
       ]
     },
     {
@@ -923,38 +859,6 @@
       "fields": [
         "marshall-marshall-1936.active",
         "marshall-marshall-1936.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-1936v.active",
-        "marshall-marshall-1936v.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-mx112.active",
-        "marshall-marshall-mx112.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-mx212.active",
-        "marshall-marshall-mx212.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-middleton.active",
-        "marshall-marshall-middleton.driverCount"
       ]
     },
     {
@@ -1027,30 +931,6 @@
       "fields": [
         "audison-prima-apk-165.active",
         "audison-prima-apk-165.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
-      "outstandingFields": 2,
-      "fields": [
-        "sonus-faber-lumina-i.active",
-        "sonus-faber-lumina-i.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs",
-      "outstandingFields": 2,
-      "fields": [
-        "sonus-faber-lumina-ii.active",
-        "sonus-faber-lumina-ii.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.sonusfaber.com/en/products/lumina-iii/tech-specs",
-      "outstandingFields": 2,
-      "fields": [
-        "sonus-faber-lumina-iii.active",
-        "sonus-faber-lumina-iii.driverCount"
       ]
     },
     {
@@ -1142,22 +1022,6 @@
       ]
     },
     {
-      "url": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-rokit-8-g4.active",
-        "krk-rokit-8-g4.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-rokit-10-3-g4.active",
-        "krk-rokit-10-3-g4.driverCount"
-      ]
-    },
-    {
       "url": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
       "outstandingFields": 2,
       "fields": [
@@ -1171,14 +1035,6 @@
       "fields": [
         "krk-v6-s4.active",
         "krk-v6-s4.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-v8-s4.active",
-        "krk-v8-s4.driverCount"
       ]
     },
     {
@@ -1227,14 +1083,6 @@
       "fields": [
         "barefoot-footprint03.driverCount",
         "barefoot-footprint03.active"
-      ]
-    },
-    {
-      "url": "https://www.jbl.com/HDI-3800.html",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-hdi-3800.driverCount",
-        "jbl-hdi-3800.active"
       ]
     },
     {
@@ -1367,13 +1215,6 @@
       ]
     },
     {
-      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
-      "outstandingFields": 1,
-      "fields": [
-        "revel-f206.driverCount"
-      ]
-    },
-    {
       "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
       "outstandingFields": 1,
       "fields": [
@@ -1455,13 +1296,6 @@
       "outstandingFields": 1,
       "fields": [
         "sonus-faber-guarneri.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
-      "outstandingFields": 1,
-      "fields": [
-        "wilson-watt-puppy.driverCount"
       ]
     },
     {
@@ -1549,6 +1383,20 @@
       ]
     },
     {
+      "url": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-l82-classic.active"
+      ]
+    },
+    {
+      "url": "https://global.jbl.com/JBLL100CLASSICUAM.html",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-l100-classic.active"
+      ]
+    },
+    {
       "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "outstandingFields": 1,
       "fields": [
@@ -1616,13 +1464,6 @@
       "outstandingFields": 1,
       "fields": [
         "totem-model1.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.psbspeakers.com/products/synchrony-t600-tower",
-      "outstandingFields": 1,
-      "fields": [
-        "psb-synchrony-t600.driverCount"
       ]
     },
     {
@@ -1899,59 +1740,38 @@
       ]
     },
     {
-      "url": "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
+      "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
       "outstandingFields": 1,
       "fields": [
-        "marshall-marshall-acton-iii.active"
+        "marshall-marshall-1960a.active"
       ]
     },
     {
-      "url": "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
       "outstandingFields": 1,
       "fields": [
-        "marshall-marshall-stanmore-iii.active"
+        "marshall-marshall-1960av.active"
       ]
     },
     {
-      "url": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+      "url": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
       "outstandingFields": 1,
       "fields": [
-        "marshall-marshall-woburn-iii.active"
+        "marshall-marshall-1936v.active"
       ]
     },
     {
-      "url": "https://orangeamps.com/en-us/products/ppc108",
+      "url": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
       "outstandingFields": 1,
       "fields": [
-        "orange-orange-ppc108.driverCount"
+        "marshall-marshall-mx112.active"
       ]
     },
     {
-      "url": "https://orangeamps.com/en-us/products/ppc112",
+      "url": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
       "outstandingFields": 1,
       "fields": [
-        "orange-orange-ppc112.driverCount"
-      ]
-    },
-    {
-      "url": "https://orangeamps.com/en-us/products/ppc212",
-      "outstandingFields": 1,
-      "fields": [
-        "orange-ppc212.driverCount"
-      ]
-    },
-    {
-      "url": "https://orangeamps.com/en-us/products/ppc212v",
-      "outstandingFields": 1,
-      "fields": [
-        "orange-ppc212v.driverCount"
-      ]
-    },
-    {
-      "url": "https://orangeamps.com/en-us/products/ppc412",
-      "outstandingFields": 1,
-      "fields": [
-        "orange-ppc412.driverCount"
+        "marshall-marshall-mx212.active"
       ]
     },
     {
@@ -2095,87 +1915,31 @@
       ]
     },
     {
+      "url": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
+      "outstandingFields": 1,
+      "fields": [
+        "sonus-faber-lumina-i.active"
+      ]
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs",
+      "outstandingFields": 1,
+      "fields": [
+        "sonus-faber-lumina-ii.active"
+      ]
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/products/lumina-iii/tech-specs",
+      "outstandingFields": 1,
+      "fields": [
+        "sonus-faber-lumina-iii.active"
+      ]
+    },
+    {
       "url": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
       "outstandingFields": 1,
       "fields": [
         "dali-opticon-8-mk2.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
-      "outstandingFields": 1,
-      "fields": [
-        "monitor-audio-creator-c1m.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
-      "outstandingFields": 1,
-      "fields": [
-        "monitor-audio-creator-c2m.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
-      "outstandingFields": 1,
-      "fields": [
-        "monitor-audio-creator-c3m.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
-      "outstandingFields": 1,
-      "fields": [
-        "monitor-audio-platinum-100-3g.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
-      "outstandingFields": 1,
-      "fields": [
-        "monitor-audio-platinum-200-3g.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-audio-reserve-r100.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-audio-reserve-r200.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-audio-signature-elite-es15.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-audio-signature-elite-es20.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
-      "outstandingFields": 1,
-      "fields": [
-        "q-acoustics-3010i.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
-      "outstandingFields": 1,
-      "fields": [
-        "q-acoustics-3020i.driverCount"
       ]
     },
     {
@@ -2193,13 +1957,6 @@
       ]
     },
     {
-      "url": "https://voxamps.com/product/v212c-extension-cabinet/",
-      "outstandingFields": 1,
-      "fields": [
-        "vox-v212c.driverCount"
-      ]
-    },
-    {
       "url": "https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf",
       "outstandingFields": 1,
       "fields": [
@@ -2211,34 +1968,6 @@
       "outstandingFields": 1,
       "fields": [
         "vox-v212bn.driverCount"
-      ]
-    },
-    {
-      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
-      "outstandingFields": 1,
-      "fields": [
-        "mesa-boogie-rectifier-4x12.driverCount"
-      ]
-    },
-    {
-      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
-      "outstandingFields": 1,
-      "fields": [
-        "mesa-boogie-2x12-rectifier.driverCount"
-      ]
-    },
-    {
-      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
-      "outstandingFields": 1,
-      "fields": [
-        "mesa-boogie-fillmore-2x12.driverCount"
-      ]
-    },
-    {
-      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
-      "outstandingFields": 1,
-      "fields": [
-        "mesa-boogie-lone-star-2x12.driverCount"
       ]
     },
     {
@@ -2267,6 +1996,13 @@
       "outstandingFields": 1,
       "fields": [
         "revel-ultima-salon2.active"
+      ]
+    },
+    {
+      "url": "https://www.jbl.com/HDI-3800.html",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-hdi-3800.active"
       ]
     },
     {

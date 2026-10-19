@@ -1,0 +1,923 @@
+{
+  "entries": [
+    {
+      "id": "marshall-marshall-1960a",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists four Celestion G12T-75 12-inch drivers (4x12 configuration)."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-mx112",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists a single 12-inch Celestion Seventy-80 (1x12 configuration)."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-middleton",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two 3-inch woofers plus two 3/5-inch tweeters are driven; the two passive radiators are not driven drivers and are excluded."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-middleton",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Built-in Class D amplifiers are listed for both woofer and tweeter pairs."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-acton-iii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Built-in Class D amplifiers are listed for woofer and tweeters; self-powered."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-stanmore-iii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Built-in Class D amplifiers are listed for woofer and tweeters; self-powered."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-1936v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists two 12-inch Celestion G12 Vintage speakers (2x12 configuration)."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-mx212",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists two 12-inch Celestion Seventy-80 speakers (2x12 configuration)."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-woburn-iii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Built-in Class D amplifier bank is listed for woofer, mids and tweeters."
+      },
+      "round": 23
+    },
+    {
+      "id": "marshall-marshall-1960av",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Support page states the 4x12 cabinet \"features four Celestion G12 Vintage speakers\"."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-pb-1000-pro",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description names a single 12-inch high-excursion driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-pb-1000-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description states a 325-watt RMS amplifier is built in."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-sb16-ultra",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb16-ultra",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb16-ultra",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Overview names a single 16-inch SVS Ultra driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-sb16-ultra",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb16-ultra",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb16-ultra",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Overview describes the built-in Sledge STA-1500D amplifier driving the driver; self-powered."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-sb-1000-pro",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description names a single 12-inch high-excursion driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-sb-1000-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description states a 325-watt RMS amplifier is built in."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-pb-2000-pro",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-2000-pro",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-2000-pro",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description names a single 12-inch high-excursion driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "svs-pb-2000-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-2000-pro",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-2000-pro",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Description states a 550-watt RMS amplifier is built in."
+      },
+      "round": 23
+    },
+    {
+      "id": "polk-audio-reserve-r100",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: 1-inch Pinnacle Ring Radiator tweeter + 5¼-inch Turbine Cone woofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "polk-audio-reserve-r200",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: Pinnacle Ring Radiator tweeter + 6.5-inch Turbine Cone woofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "polk-audio-signature-elite-es15",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: 1-inch Terylene dome tweeter + 5.25-inch Dynamic Balance woofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "polk-audio-signature-elite-es20",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: 1-inch Terylene dome tweeter + 6.5-inch Dynamic Balance woofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-rokit-8-g4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: 8-inch LF driver + 1-inch HF driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-rokit-8-g4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Product is a powered monitor with built-in bi-amplification (203W)."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-rokit-10-3-g4",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Three drive units are stated: 10-inch LF, 4.5-inch MF and 1-inch HF."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-rokit-10-3-g4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Product is a powered tri-amp monitor (300W)."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-v8-s4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists two transducers: 8-inch LF woofer + 1-inch HF tweeter."
+      },
+      "round": 23
+    },
+    {
+      "id": "krk-v8-s4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states \"System type: Active Studio Monitor\" with bi-amped Class D power (200W LF + 30W HF)."
+      },
+      "round": 23
+    },
+    {
+      "id": "q-acoustics-3010i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Copy names exactly two precision drivers: 100 mm (4 in) and 22 mm (0.9 in)."
+      },
+      "round": 23
+    },
+    {
+      "id": "q-acoustics-3020i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Copy names exactly two drivers: 22 mm decoupled HF driver + mid/bass driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "monitor-audio-platinum-100-3g",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Two drive units are stated: MPD III transducer + 6-inch RDT III mid-bass driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "monitor-audio-platinum-200-3g",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Four drive units are stated: MPD III transducer + 4-inch mid-range + two 6-inch bass drivers."
+      },
+      "round": 23
+    },
+    {
+      "id": "monitor-audio-creator-c1m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Feature list enumerates exactly two drivers: 1-inch C-CAM tweeter + 7-inch C-CAM mid-bass driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "monitor-audio-creator-c2m",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Feature list enumerates exactly two drivers: 1-inch C-CAM tweeter + 7-inch RST II mid-bass driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "monitor-audio-creator-c3m",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Feature list enumerates exactly three drivers: 1-inch IDC II tweeter + 7-inch RDT III bass driver + 4-inch IDC II midrange."
+      },
+      "round": 23
+    },
+    {
+      "id": "orange-orange-ppc108",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://orangeamps.com/en-us/products/ppc108",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://orangeamps.com/en-us/products/ppc108",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states a single 8-inch Voice of the World driver (1x8 cabinet)."
+      },
+      "round": 23
+    },
+    {
+      "id": "orange-orange-ppc112",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://orangeamps.com/en-us/products/ppc112",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://orangeamps.com/en-us/products/ppc112",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states one Celestion Vintage 30 12-inch speaker (1x12 cabinet)."
+      },
+      "round": 23
+    },
+    {
+      "id": "orange-ppc212",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://orangeamps.com/en-us/products/ppc212",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://orangeamps.com/en-us/products/ppc212",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states two 12-inch Celestion Vintage 30 speakers."
+      },
+      "round": 23
+    },
+    {
+      "id": "orange-ppc212v",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://orangeamps.com/en-us/products/ppc212v",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://orangeamps.com/en-us/products/ppc212v",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Copy states two Celestion Neo Creamback 12-inch speakers in a 2×12 cabinet."
+      },
+      "round": 23
+    },
+    {
+      "id": "orange-ppc412",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://orangeamps.com/en-us/products/ppc412",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://orangeamps.com/en-us/products/ppc412",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states four Celestion Vintage 30 speakers."
+      },
+      "round": 23
+    },
+    {
+      "id": "mesa-boogie-fillmore-2x12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: 2x12 cabinet with two Celestion C90 speakers (180 W total, 90 W each)."
+      },
+      "round": 23
+    },
+    {
+      "id": "mesa-boogie-lone-star-2x12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Wattage row states the cabinet carries two speakers (\"2 x C90\" / \"2 x Vintage 30\")."
+      },
+      "round": 23
+    },
+    {
+      "id": "mesa-boogie-2x12-rectifier",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: 2x12 cabinet with two Celestion Vintage 30 speakers (120 W total, 60 W each)."
+      },
+      "round": 23
+    },
+    {
+      "id": "mesa-boogie-rectifier-4x12",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: 4x12 \"quad box\" with four Celestion Vintage 30 speakers (240 W total, 60 W each)."
+      },
+      "round": 23
+    },
+    {
+      "id": "vox-v212c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://voxamps.com/product/v212c-extension-cabinet/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://voxamps.com/product/v212c-extension-cabinet/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states two 12-inch Celestion G12M Greenback speakers."
+      },
+      "round": 23
+    },
+    {
+      "id": "sonus-faber-lumina-ii",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists two drive units: 29 mm DAD tweeter + 150 mm cone midwoofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "sonus-faber-lumina-iii",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonusfaber.com/en/products/lumina-iii/tech-specs",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonusfaber.com/en/products/lumina-iii/tech-specs",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists four drive units: 29 mm DAD tweeter + 150 mm midrange + two 150 mm woofers."
+      },
+      "round": 23
+    },
+    {
+      "id": "sonus-faber-lumina-i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification lists two drive units: 29 mm DAD tweeter + 120 mm paper cone midwoofer."
+      },
+      "round": 23
+    },
+    {
+      "id": "wilson-watt-puppy",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Driver table states two 8-inch woofers + one 7-inch midrange + one 1-inch tweeter."
+      },
+      "round": 23
+    },
+    {
+      "id": "revel-f206",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification table states two 6.5-inch woofers + one 5.25-inch midrange + one 1-inch tweeter."
+      },
+      "round": 23
+    },
+    {
+      "id": "jbl-hdi-3800",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/HDI-3800.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/HDI-3800.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification table states three 8-inch woofers + one 1-inch compression driver."
+      },
+      "round": 23
+    },
+    {
+      "id": "jbl-l100-classic",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://global.jbl.com/JBLL100CLASSICUAM.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://global.jbl.com/JBLL100CLASSICUAM.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Three drive units are stated: 12-inch woofer + 5.25-inch midrange + 1-inch tweeter."
+      },
+      "round": 23
+    },
+    {
+      "id": "jbl-l82-classic",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification states two drive units: 8-inch woofer + 1-inch tweeter."
+      },
+      "round": 23
+    },
+    {
+      "id": "psb-synchrony-t600",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.psbspeakers.com/products/synchrony-t600-tower",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.psbspeakers.com/products/synchrony-t600-tower",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 23: Specification table states one tweeter + one midrange + three 6.5-inch woofers."
+      },
+      "round": 23
+    }
+  ],
+  "marker": "round23-queue-batch"
+}
