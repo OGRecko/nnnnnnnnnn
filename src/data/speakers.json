@@ -31180,7 +31180,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31231,9 +31231,21 @@
       "source": "https://www.qsys.com/resource-files/productresources/spk/ks/ks112/q_spk_ks_112_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 1,
     "panel": null,
-    "notes": "QSC KS112: 38–121 Hz at -10 dB; -6 dB points are 41–108 Hz. The database stores the wider published -10 dB endpoints."
+    "notes": "QSC KS112: 38–121 Hz at -10 dB; -6 dB points are 41–108 Hz. The database stores the wider published -10 dB endpoints.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Single low-frequency transducer: \"LF Transducer 305 mm (12 in), Cone\"; no high-frequency device is listed in the specification table."
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"active subwoofer ... powered by a 2000 Watt peak power Class D amplifier module\"; the specification table lists the amplifier as built into the product."
+    }
   },
   {
     "id": "qsc-ks118",
@@ -31316,7 +31328,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31366,14 +31378,20 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "QSC official KLA Series page (qsc.com/index.php?id=12780), KLA12 column: 12 in cone transducer; frequency range 44 Hz-20 kHz at -10 dB (NOT stored: the dataset's frequency-response limits use the -6 dB convention and no -6 dB figure is on this page); coverage 90 x 18 deg; peak SPL 131 dB @ 1 m; amplifier listed as '500 W x 500 W continuous' (ambiguous wording, power left N/A); ABS enclosure; 55 lb / 25.0 kg. Described as an active line array. Sensitivity, impedance and driver count not published on this page; left N/A.",
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"500 W x 500 W power module\" built into the enclosure; the sheet calls the KLA Series a \"fixed arcuate, active line array system\" and lists powerCON AC In/Out."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: KLA12: one 12\" cone low-frequency transducer plus one 1.75\" diaphragm compression driver."
     }
   },
   {
@@ -31383,7 +31401,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31434,14 +31452,20 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 1,
     "panel": null,
     "notes": "QSC official KLA Series page (qsc.com/index.php?id=12780), KLA181 column: 18 in cone transducer; amplifier 1000 W continuous Class D; frequency range 33 Hz low limit at -10 dB (NOT stored: no -6 dB figure and no upper limit published on this page); peak SPL 135 dB @ 1 m; birch plywood; 104 lb / 47.2 kg. Sensitivity and impedance not published; left N/A.",
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"1000 W power module\" built into the enclosure, with powerCON AC In/Out and a balanced line-level XLR input."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: KLA181: a single 18\" cone low-frequency transducer; the high-frequency row is \"—\"."
     }
   },
   {
@@ -31670,7 +31694,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": 95,
       "unit": "dB",
@@ -31722,20 +31746,20 @@
       "source": "https://www.qsc.com/index.php?id=12775",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "QSC official E110 product page (qsc.com/index.php?id=12775). 1 x 10 in 2-way non-powered; sensitivity 95 dB, 1 W @ 1 m; nominal impedance 8 ohm; power capacity 300 W continuous / 1200 W peak; frequency response 68 Hz-20 kHz at -6 dB (50 Hz-20 kHz at -10 dB); LF 254 mm/10 in with 64 mm/2.5 in voice coil; HF 1 in exit compression driver; crossover 1.8 kHz; 85 deg conical DMT; peak SPL 126 dB @ 1 m with QSC processing; 330 x 560 x 330 mm; 20 kg / 44 lb. The page carries QSC's footnote 'Preliminary specifications are subject to change'.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 254 mm (10-inch) low-frequency driver plus one 25 mm (1-inch) exit compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Configuration is \"non-powered\"; the input plate carries NL4/barrier-strip speaker-level inputs only and the sheet directs the user to QSC GXD/PLD amplifiers."
     }
   },
   {
@@ -31820,7 +31844,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": 97,
       "unit": "dB",
@@ -31872,20 +31896,20 @@
       "source": "https://www.qsc.com/index.php?id=14661",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "QSC official E115 product page (qsc.com/index.php?id=14661). 1 x 15 in 2-way non-powered; sensitivity 97 dB, 1 W @ 1 m; nominal impedance 8 ohm; power capacity 500 W continuous / 2000 W peak; frequency response 55 Hz-20 kHz at -6 dB (43 Hz-20 kHz at -10 dB); LF 381 mm/15 in with 89 mm/3.5 in voice coil; HF 1.5 in exit, 2.8 in voice-coil compression driver; crossover 1.55 kHz; 75 deg conical DMT; peak SPL 130 dB @ 1 m with QSC processing; 420 x 716 x 445 mm; 31 kg / 68 lb.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 381 mm (15-inch) low-frequency driver plus one 38 mm (1.5-inch) exit compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Configuration is \"passive\" and the document is titled \"Passive Loudspeaker\"; speaker-level NL4/barrier-strip inputs only."
     }
   },
   {
@@ -31895,7 +31919,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": 98,
       "unit": "dB",
@@ -31947,20 +31971,20 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 3,
     "panel": null,
     "notes": "QSC-authored E Series spec sheet for the E215 (dated 11/2017, QSC copyright), retrieved from a copy hosted on markertek.com because the E215 is discontinued and QSC's own page was not located. Passive 2 x 15 in 2-way; sensitivity 98 dB, 1 W @ 1 m; nominal impedance 4 ohm; power capacity 1000 W continuous (500 W per woofer) / 4000 W peak; frequency range 39 Hz-20 kHz at -10 dB only (no -6 dB figure published, so frequency response left N/A); LF 2 x 381 mm/15 in with 89 mm/3.5 in voice coil; HF 1.5 in exit, 2.8 in voice-coil compression driver (3 drivers total); crossover 1.8 kHz; 75 deg conical DMT; peak SPL 134 dB @ 1 m with QSC processing; 420 x 1125 x 464 mm; 49.1 kg. The sheet states 'Additional specifications to be announced'.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two 381 mm (15-inch) low-frequency drivers plus one 38 mm (1.5-inch) exit compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Configuration is \"non-powered\"; the input plate is NL4/barrier strip only and the sheet points to external QSC GXD/PLD amplification."
     }
   },
   {
@@ -32298,7 +32322,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": false,
     "sensitivity": {
       "value": 91,
       "unit": "dB",
@@ -32350,20 +32374,20 @@
       "source": "https://in.qsc.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c820/",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "QSC official AD-C820 product page. Passive 2-way: 8 in ferrite woofer + 1.4 in neodymium compression driver; sensitivity 91 dB SPL, 1 W/1 m; nominal impedance 16 ohm (bypass; 70 V/100 V transformer taps also published); continuous power handling 200 W (IEC, 50 Hz-20 kHz, 6 dB crest), recommended amplifier power 400 W program; frequency response 61 Hz-18 kHz at -6 dB (52 Hz-18 kHz usable at -10 dB), measured half-space (2 pi); 90 deg conical coverage; ported; 18 L back box AD-C800BB; 7.9 kg system. AD-C821 is a separate model and was not used.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 8\" (203 mm) ferrite woofer plus one 1.4\" (36 mm) neodymium compression driver in a coaxial 2-way arrangement."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Configuration is \"Passive\"; the sheet lists 70V/100V transformer taps and a 16 Ω nominal impedance with \"Recommended Max Amp Power 400 W\" rather than on-board amplification."
     }
   },
   {

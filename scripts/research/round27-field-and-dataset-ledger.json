@@ -753,6 +753,146 @@
       "valueAfter": true,
       "source": "https://www.genelec.com/8030c",
       "note": "On-board 50 W bass and 50 W treble Class D amplification."
+    },
+    {
+      "record": "qsc-ks112",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+      "note": "Single low-frequency transducer: \"LF Transducer 305 mm (12 in), Cone\"; no high-frequency device is listed in the specification table."
+    },
+    {
+      "record": "qsc-ks112",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+      "note": "\"active subwoofer ... powered by a 2000 Watt peak power Class D amplifier module\"; the specification table lists the amplifier as built into the product."
+    },
+    {
+      "record": "qsc-kla12",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "note": "KLA12: one 12\" cone low-frequency transducer plus one 1.75\" diaphragm compression driver."
+    },
+    {
+      "record": "qsc-kla12",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "note": "\"500 W x 500 W power module\" built into the enclosure; the sheet calls the KLA Series a \"fixed arcuate, active line array system\" and lists powerCON AC In/Out."
+    },
+    {
+      "record": "qsc-kla181",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "note": "KLA181: a single 18\" cone low-frequency transducer; the high-frequency row is \"—\"."
+    },
+    {
+      "record": "qsc-kla181",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "note": "\"1000 W power module\" built into the enclosure, with powerCON AC In/Out and a balanced line-level XLR input."
+    },
+    {
+      "record": "qsc-e110",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+      "note": "One 254 mm (10-inch) low-frequency driver plus one 25 mm (1-inch) exit compression driver."
+    },
+    {
+      "record": "qsc-e110",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+      "note": "Configuration is \"non-powered\"; the input plate carries NL4/barrier-strip speaker-level inputs only and the sheet directs the user to QSC GXD/PLD amplifiers."
+    },
+    {
+      "record": "qsc-e115",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+      "note": "One 381 mm (15-inch) low-frequency driver plus one 38 mm (1.5-inch) exit compression driver."
+    },
+    {
+      "record": "qsc-e115",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+      "note": "Configuration is \"passive\" and the document is titled \"Passive Loudspeaker\"; speaker-level NL4/barrier-strip inputs only."
+    },
+    {
+      "record": "qsc-e215",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+      "note": "Two 381 mm (15-inch) low-frequency drivers plus one 38 mm (1.5-inch) exit compression driver."
+    },
+    {
+      "record": "qsc-e215",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+      "note": "Configuration is \"non-powered\"; the input plate is NL4/barrier strip only and the sheet points to external QSC GXD/PLD amplification."
+    },
+    {
+      "record": "qsc-ad-c820",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+      "note": "One 8\" (203 mm) ferrite woofer plus one 1.4\" (36 mm) neodymium compression driver in a coaxial 2-way arrangement."
+    },
+    {
+      "record": "qsc-ad-c820",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+      "note": "Configuration is \"Passive\"; the sheet lists 70V/100V transformer taps and a 16 Ω nominal impedance with \"Recommended Max Amp Power 400 W\" rather than on-board amplification."
     }
   ],
   "elx200_15": {

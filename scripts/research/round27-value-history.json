@@ -1591,6 +1591,350 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.genelec.com/8030c"
+    },
+    {
+      "id": "qsc-ks112",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Single low-frequency transducer: \"LF Transducer 305 mm (12 in), Cone\"; no high-frequency device is listed in the specification table."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/"
+    },
+    {
+      "id": "qsc-ks112",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"active subwoofer ... powered by a 2000 Watt peak power Class D amplifier module\"; the specification table lists the amplifier as built into the product."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/"
+    },
+    {
+      "id": "qsc-kla12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: KLA12: one 12\" cone low-frequency transducer plus one 1.75\" diaphragm compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf"
+    },
+    {
+      "id": "qsc-kla12",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"500 W x 500 W power module\" built into the enclosure; the sheet calls the KLA Series a \"fixed arcuate, active line array system\" and lists powerCON AC In/Out."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf"
+    },
+    {
+      "id": "qsc-kla181",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: KLA181: a single 18\" cone low-frequency transducer; the high-frequency row is \"—\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf"
+    },
+    {
+      "id": "qsc-kla181",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"1000 W power module\" built into the enclosure, with powerCON AC In/Out and a balanced line-level XLR input."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf"
+    },
+    {
+      "id": "qsc-e110",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 254 mm (10-inch) low-frequency driver plus one 25 mm (1-inch) exit compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf"
+    },
+    {
+      "id": "qsc-e110",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Configuration is \"non-powered\"; the input plate carries NL4/barrier-strip speaker-level inputs only and the sheet directs the user to QSC GXD/PLD amplifiers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf"
+    },
+    {
+      "id": "qsc-e115",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 381 mm (15-inch) low-frequency driver plus one 38 mm (1.5-inch) exit compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf"
+    },
+    {
+      "id": "qsc-e115",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Configuration is \"passive\" and the document is titled \"Passive Loudspeaker\"; speaker-level NL4/barrier-strip inputs only."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf"
+    },
+    {
+      "id": "qsc-e215",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two 381 mm (15-inch) low-frequency drivers plus one 38 mm (1.5-inch) exit compression driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf"
+    },
+    {
+      "id": "qsc-e215",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Configuration is \"non-powered\"; the input plate is NL4/barrier strip only and the sheet points to external QSC GXD/PLD amplification."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf"
+    },
+    {
+      "id": "qsc-ad-c820",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 8\" (203 mm) ferrite woofer plus one 1.4\" (36 mm) neodymium compression driver in a coaxial 2-way arrangement."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf"
+    },
+    {
+      "id": "qsc-ad-c820",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Configuration is \"Passive\"; the sheet lists 70V/100V transformer taps and a 16 Ω nominal impedance with \"Recommended Max Amp Power 400 W\" rather than on-board amplification."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf"
     }
   ]
 }

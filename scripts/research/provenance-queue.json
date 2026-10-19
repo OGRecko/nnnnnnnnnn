@@ -28,19 +28,19 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 280
+      "count": 287
     },
     {
       "field": "active",
       "status": "MISSING",
       "value": "null",
-      "count": 140
+      "count": 139
     },
     {
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 92
+      "count": 86
     },
     {
       "field": "driverCount",
@@ -52,19 +52,19 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 465
+      "count": 472
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 44
+      "count": 41
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 75
+      "count": 71
     }
   ],
   "resolvedSourceUrls": [
@@ -351,7 +351,13 @@
     "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
     "https://www.qacoustics.com/products/5020-bookshelf-speaker",
     "https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/",
+    "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+    "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+    "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+    "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+    "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
     "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+    "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
     "https://www.rcf.it/en/products/product-detail/nx-45-a",
     "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
     "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",

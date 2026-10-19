@@ -7220,6 +7220,90 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Technical Specifications: \"Amplifier Power 50 W Bass (Class D) + 50 W Treble (Class D)\"; \"Driver Dimensions ⌀ 130 mm Bass + ⌀ 19 mm Treble\"; 47 Hz - 25 kHz (-6 dB)."
+    },
+    {
+      "url": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/subwoofers/ks-series/ks112/",
+      "host": "www.qscaudio.com",
+      "document": "QSC KS112 product page, \"Specifications\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Introduction: \"The KS112 is an ultra-compact active subwoofer ... a highly portable, single 12-inch bandpass design subwoofer, powered by a 2000 Watt peak power Class D amplifier module.\" Specification table: \"Configuration | 6th-Order Bandpass Subwoofer\"; \"LF Transducer | 305 mm (12 in), Cone\"; \"Amplifier | Class D 2000W (peak)\"."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/kla/q_spk_kla_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC KLA Series specification sheet (KLA12 / KLA181)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"The KLA Series is comprised of two models: the KLA12 12-inch, 2-way loudspeaker and the KLA181 18-inch subwoofer. The KLA12 features a highly efficient 500 W x 500 W power amp module and the KLA181 offers the same highly efficient power amp module in a 1000 W configuration.\" Specification table: KLA12 \"Configuration | 2-way Line Array Element\", \"Low-Frequency | 12\\\" cone transducer\", \"High-Frequency | 1.75\\\" diaphragm compression driver\", \"Power Output | 500 W x 500 W power module\"; KLA181 \"Configuration | 18\\\" ported subwoofer\", \"Low-Frequency | 18\\\" cone transducer\", \"High-Frequency | —\", \"Power Output | 1000 W power module\". Both list powerCON AC In/Out and a balanced line-level XLR input."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/e/e110/q_spk_e_110_specsheet.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC E110 specification sheet (\"Two-Way Passive Loudspeaker\")",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Title: \"E110 Two-Way Passive Loudspeaker\". Specification table: \"Configuration: 1 x 10-inch, 2-way, non-powered\"; \"LF 254 mm (10-inch) driver with 64 mm 2.5-inch) voice coil\"; \"HF 25 mm (1-inch) exit, 45 mm (1.75-inch) voice coil, compression driver\"; input connectors \"2 x NL4 1 x barrier strip\" with no mains inlet."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/e/e115/q_spk_e_115_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC E115 specification sheet (\"15-inch Two-Way Passive Loudspeaker\")",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Title: \"E115 15-inch Two-Way Passive Loudspeaker\". Specification table: \"Configuration | 1 x 15-inch, 2-way, passive\"; \"LF | 381 mm / 15-inch driver with 89 mm 3.5-inch voice coil\"; \"HF | 38 mm / 1.5-inch exit, 71 mm / 2.8-inch voice coil, compression driver\"; input connectors \"2 x NL4 1 x barrier strip\"."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/e/e215/q_spk_e_215_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC E215 specification sheet (\"Dual 15-inch Two-Way Passive Loudspeaker\")",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Title: \"Dual 15-inch Two-Way Passive Loudspeaker\". Specification table: \"Configuration: | 2 x 15-inch, 2-way, non-powered\"; \"LF | 2 x 381 mm (15-inch) driver with 89 mm (3.5-inch) voice coil\"; \"HF | 38 mm (1.5-inch) exit, 71 mm (2.8-inch) voice coil, compression driver\"."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/ad/q_spk_adc_820_821_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC AD-C820/C821 AcousticDesign ceiling loudspeaker specification sheet (09/21/2020)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specification table: \"Configuration | Passive\"; \"Transducers Low-frequency 8\" (203 mm) ferrite woofer / High-frequency 1.4\" (36 mm) neodymium compression driver\"; \"Nominal Impedance 16Ω\"; \"Power Rating RMS Power Handling 200 W\"; the 1.4\" compression driver \"fires through the center of the woofer\"."
     }
   ],
   "openQuestionsForOwner": [

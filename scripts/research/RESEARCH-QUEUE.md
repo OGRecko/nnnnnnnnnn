@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **390** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **383** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **167** fields (no source recorded).
-- NO_PROVENANCE: **184** fields (null value, no provenance object).
+- UNSOURCED: **157** fields (no source recorded).
+- NO_PROVENANCE: **180** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -157,13 +157,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | polk-signature-s60 | Polk Audio | Signature S60 (`polk-signature-s60`) | 2 | 0 | 0 |
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
-| qsc-ad-c820 | QSC | AD-C820 (`qsc-ad-c820`) | 0 | 2 | 0 |
-| qsc-e110 | QSC | E110 (`qsc-e110`) | 0 | 2 | 0 |
-| qsc-e115 | QSC | E115 (`qsc-e115`) | 0 | 2 | 0 |
-| qsc-e215 | QSC | E215 (`qsc-e215`) | 0 | 2 | 0 |
-| qsc-kla12 | QSC | KLA12 (`qsc-kla12`) | 0 | 1 | 1 |
-| qsc-kla181 | QSC | KLA181 (`qsc-kla181`) | 0 | 1 | 1 |
-| qsc-ks112 | QSC | KS112 (`qsc-ks112`) | 0 | 0 | 2 |
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
 | rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |

@@ -359,9 +359,9 @@ run failed 15 suites only because the dependency tree had not been reinstalled i
 * Unchanged owner rulings: ELX200-15 response series excluded; QSC WL3082/WL212-sw `active` unknown;
   Yamaha NS-6490 8 Ω US-only; Focal Sopra N°2 sensitivity; Genelec 8331A `LEAD_NOT_IMPORTED`.
 
-## Batch 9 — Genelec 8020D and 8030C
+## Batch 9 — Genelec 8020D/8030C and the QSC specification sheets
 
-Two records that carried no provenance at all. Both values come from the model's own technical
+Two Genelec records that carried no provenance at all. Both values come from the model's own technical
 specification block; the driver dimensions enumerate exactly two transducers and the amplifier line
 states the built-in power per band.
 
@@ -369,6 +369,31 @@ states the built-in power per band.
 | --- | --- | --- | --- |
 | `genelec-8020d` | `driverCount` / `active` | 2 / true | ⌀ 105 mm bass + ⌀ 19 mm treble; 50 W + 50 W Class D |
 | `genelec-8030c` | `driverCount` / `active` | 2 / true | ⌀ 130 mm bass + ⌀ 19 mm treble; 50 W + 50 W Class D |
+
+### QSC
+
+The QSC product-tree URLs changed: `/solutions-products/.../kla-series/kla12/` and
+`/products-solutions/.../kla12/` both redirect to the home page, and `.../spk/e/e110/q_spk_e_110_specs.pdf`
+is a 404. The stable locators are the specification PDFs under `/resource-files/productresources/`, which
+is what was opened and cited.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `qsc-ks112` | `driverCount` / `active` | 1 / true | "single 12-inch bandpass design subwoofer, powered by a 2000 Watt peak power Class D amplifier module"; "LF Transducer 305 mm (12 in), Cone" |
+| `qsc-kla12` | `driverCount` / `active` | 2 / true | "12\" cone transducer" + "1.75\" diaphragm compression driver"; "500 W x 500 W power module", powerCON AC In/Out |
+| `qsc-kla181` | `driverCount` / `active` | 1 / true | "18\" cone transducer", HF "—"; "1000 W power module", powerCON AC In/Out |
+| `qsc-e110` | `driverCount` / `active` | 2 / false | "1 x 10-inch, 2-way, non-powered"; 254 mm LF driver + 25 mm exit compression driver |
+| `qsc-e115` | `driverCount` / `active` | 2 / false | "1 x 15-inch, 2-way, passive"; 381 mm LF driver + 38 mm exit compression driver |
+| `qsc-e215` | `driverCount` / `active` | 3 / false | "2 x 15-inch, 2-way, non-powered"; 2 × 381 mm LF + 38 mm exit compression driver |
+| `qsc-ad-c820` | `driverCount` / `active` | 2 / false | "Configuration | Passive"; 8" ferrite woofer + 1.4" neodymium compression driver |
+
+### Left unresolved on purpose
+
+* `qsc-gp118-sw`, `qsc-gp212-sw`, `qsc-gp218-sw` and `qsc-wl218-sw` still show `active: null`. Their
+  sheets list NL4 inputs and a "recommended power" figure, but none of the text opened prints "passive"
+  or "non-powered". Absence of a mains inlet was treated as insufficient to state the field.
+* `qsc-wl3082` and `qsc-wl212-sw` were not touched — the owner ruling keeps `active` unknown for them.
+* `qsc-e112` and `qsc-e218sw` already carried verified values and were not rewritten.
 
 ### Documents checked and deliberately not used
 
@@ -385,13 +410,14 @@ states the built-in power per band.
 
 | Status | Fields |
 | --- | ---: |
-| `MANUFACTURER_VERIFIED` | 745 |
+| `MANUFACTURER_VERIFIED` | 759 |
 | `CITED_IN_NOTES_UNCHECKED` | 218 |
-| `UNSOURCED` | 167 |
-| no provenance at all | 184 |
+| `UNSOURCED` | 157 |
+| no provenance at all | 180 |
 
-Research backlog: 390 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings.
-`npm test` 82/82.
+Batch 9 wrote 18 field values across nine records; no earlier value or provenance entry was replaced.
+Research backlog: 383 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+313 source URLs resolved in total. `npm test` 82/82.
 
 ## Remaining in this round
 

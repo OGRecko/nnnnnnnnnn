@@ -69,6 +69,28 @@ def main():
             rec_obj = item.get('record', item) if isinstance(item, dict) else {}
             if rec_obj.get('id'):
                 archived_by_id[rec_obj['id']] = rec_obj
+    # A recorded NOT_EXTRACTED means "this document did not yield the field". If the field has since
+    # been verified from a *different* manufacturer document, the honest report is RESOLVED_ELSEWHERE
+    # naming that document - not a conflict warning. The rewrite is derived here, so the stored
+    # outcome in round27-url-results.json keeps what the document itself produced, and re-running the
+    # apply step cannot lose the annotation.
+    for u, st in status_by_url.items():
+        for fr in st.get('fieldResults', []):
+            if fr.get('outcome') != 'NOT_EXTRACTED':
+                continue
+            rec = by_id.get(fr.get('record')) or archived_by_id.get(fr.get('record'))
+            if rec is None:
+                continue
+            prov = rec.get(fr['field'] + 'Provenance') or {}
+            if prov.get('status') in VERIFIED and prov.get('source') and prov.get('source') != u:
+                fr['outcome'] = 'RESOLVED_ELSEWHERE'
+                fr['resolvedBy'] = prov['source']
+                note = 'This document did not yield the field; it was verified from the source named in resolvedBy.'
+                if fr.get('note'):
+                    fr['note'] = fr['note'] + ' ' + note
+                else:
+                    fr['note'] = note
+
     result_warnings = []
     for u, st in status_by_url.items():
         for fr in st.get('fieldResults', []):
