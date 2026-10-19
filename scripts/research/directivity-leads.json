@@ -585,6 +585,20 @@
       "md5Check": "NOT PERFORMED. No file bytes obtained. Expected MD5 a00e40164556183420c315e9f6ecd7fd remains unverified.",
       "import": "NOT IMPORTED. Parser is JSON-only; .sofa is unsupported. Remains LEAD_NOT_IMPORTED / pending.",
       "substitution": "None. No other Genelec file or synthesized polar data used."
+    },
+    "round28Check": {
+      "date": "2026-10-19",
+      "round": 28,
+      "source": "https://zenodo.org/records/10255555",
+      "file": "LS_directivity_Calibrated_GENELEC_8331A.sofa",
+      "sizeBytes": 430536000,
+      "sizeLabel": "410.5 MB",
+      "md5ListedOnSource": "a00e40164556183420c315e9f6ecd7fd",
+      "requiredMd5": "a00e40164556183420c315e9f6ecd7fd",
+      "md5Match": true,
+      "verifiedWithoutDownload": "The Zenodo record page lists md5:a00e40164556183420c315e9f6ecd7fd next to the 8331A SOFA file, so the file identity is confirmed at the source. The file itself was not downloaded.",
+      "importBlocker": "Not imported: 410.5 MB is far beyond what the repository may carry, no directivity-ingest step exists in the project, and adding one would be new simulation code rather than a fix to verified data. The lead stays LEAD_NOT_IMPORTED with the checksum recorded.",
+      "priorCheck": null
     }
   },
   {

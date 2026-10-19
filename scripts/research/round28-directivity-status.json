@@ -1,0 +1,21 @@
+{
+  "schema": "round28-directivity-status/v1",
+  "round": 28,
+  "date": "2026-10-19",
+  "leads": 51,
+  "byStatus": {
+    "LEAD_NOT_IMPORTED": 51
+  },
+  "importedThisRound": 0,
+  "genelec": {
+    "record": "genelec-8331a",
+    "zenodoRecord": "https://zenodo.org/records/10255555",
+    "file": "LS_directivity_Calibrated_GENELEC_8331A.sofa",
+    "sizeLabel": "410.5 MB",
+    "md5": "a00e40164556183420c315e9f6ecd7fd",
+    "md5ConfirmedOnSource": true,
+    "imported": false,
+    "blocker": "dataset size and missing ingest path; no simulation code changed"
+  },
+  "note": "All 51 leads remain unimported. This round re-confirmed the lead count and the Genelec file identity; no lead was imported, and no nominal coverage or beamwidth value was converted into a polar dataset."
+}
