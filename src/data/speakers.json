@@ -7443,8 +7443,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": false,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7498,16 +7498,16 @@
     },
     "notes": "Manufacturer data: 62 Hz–20 kHz ±3 dB; 50 Hz lower range at -10 dB; 300 W AES power handling / 1200 W peak; 8 Ω; 12 in LF driver with 2.5 in voice coil plus 1 in exit HF driver. Sensitivity is not stored because the source does not state a measurement reference suitable for this field.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 12-inch low-frequency driver plus one coaxially mounted 1-inch compression driver: two driven transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The page states three times that the exact model is a passive two-way system, and the crossover is described as passive."
     }
   },
   {
@@ -45153,9 +45153,10 @@
       "note": "Round 23: Specification lists two drive units: 29 mm DAD tweeter + 120 mm paper cone midwoofer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sonusfaber.com/en/collections/lumina",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact model is described by the manufacturer as a two-way passive bookshelf speaker."
     }
   },
   {

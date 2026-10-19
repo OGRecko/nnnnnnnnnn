@@ -1865,6 +1865,36 @@
       "valueAfter": false,
       "source": "https://www.sonusfaber.com/en/collections/sonetto",
       "note": "The exact model is described by the manufacturer as a passive bookshelf speaker; the first-generation manual declares the same family passive, so the statement holds for either generation."
+    },
+    {
+      "record": "sonus-faber-lumina-i",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": false,
+      "valueAfter": false,
+      "source": "https://www.sonusfaber.com/en/collections/lumina",
+      "note": "The exact model is described by the manufacturer as a two-way passive bookshelf speaker."
+    },
+    {
+      "record": "martin-audio-cdd12",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": false,
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+      "note": "The page states three times that the exact model is a passive two-way system, and the crossover is described as passive."
+    },
+    {
+      "record": "martin-audio-cdd12",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+      "note": "One 12-inch low-frequency driver plus one coaxially mounted 1-inch compression driver: two driven transducers."
     }
   ],
   "elx200_15": {

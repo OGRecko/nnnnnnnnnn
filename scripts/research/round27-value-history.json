@@ -4211,6 +4211,83 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.sonusfaber.com/en/collections/sonetto"
+    },
+    {
+      "id": "sonus-faber-lumina-i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.sonusfaber.com/en/collections/lumina",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact model is described by the manufacturer as a two-way passive bookshelf speaker."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.sonusfaber.com/en/collections/lumina"
+    },
+    {
+      "id": "martin-audio-cdd12",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The page states three times that the exact model is a passive two-way system, and the crossover is described as passive."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12"
+    },
+    {
+      "id": "martin-audio-cdd12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://martin-audio.com/products/loudspeakers/cdd12",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 12-inch low-frequency driver plus one coaxially mounted 1-inch compression driver: two driven transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://martin-audio.com/products/loudspeakers/cdd12"
     }
   ]
 }

@@ -77,19 +77,22 @@ def main():
     # apply step cannot lose the annotation.
     for u, st in status_by_url.items():
         for fr in st.get('fieldResults', []):
-            if fr.get('outcome') not in ('NOT_EXTRACTED', 'SUPPORTED_NOT_PROMOTED', 'INACCESSIBLE'):
+            if fr.get('outcome') not in ('NOT_STATED', 'NOT_EXTRACTED', 'SUPPORTED_NOT_PROMOTED', 'INACCESSIBLE'):
                 continue
             rec = by_id.get(fr.get('record')) or archived_by_id.get(fr.get('record'))
             if rec is None:
                 continue
             prov = rec.get(fr['field'] + 'Provenance') or {}
             if prov.get('status') in VERIFIED and prov.get('source') and prov.get('source') != u:
+                # Read the document's own outcome BEFORE rewriting it: comparing against the rewritten
+                # value made every branch below unreachable and gave every row the generic note.
+                prior_outcome = fr['outcome']
                 fr['outcome'] = 'RESOLVED_ELSEWHERE'
                 fr['resolvedBy'] = prov['source']
-                if fr.get('outcome') == 'SUPPORTED_NOT_PROMOTED':
+                if prior_outcome == 'SUPPORTED_NOT_PROMOTED':
                     note = ('This document supports the value but its copy could not be promoted; it was '
                             'verified from the manufacturer copy named in resolvedBy.')
-                elif fr.get('outcome') == 'INACCESSIBLE':
+                elif prior_outcome == 'INACCESSIBLE':
                     note = ('This document could not be read when retried; the field was verified from the '
                             'manufacturer copy named in resolvedBy.')
                 else:

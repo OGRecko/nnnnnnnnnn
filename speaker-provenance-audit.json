@@ -43,14 +43,14 @@
   "nullableFlags": {
     "counts": {
       "driverCount": {
-        "known": 595,
-        "unknown": 62,
+        "known": 596,
+        "unknown": 61,
         "absent": 0,
         "invalid": 0
       },
       "active": {
-        "known": 468,
-        "unknown": 189,
+        "known": 469,
+        "unknown": 188,
         "absent": 0,
         "invalid": 0
       },

@@ -942,21 +942,46 @@ Searched and rejected in the same batch (no value taken):
   Motion 60XT, Danley SH96 and Funktion-One RES 2 never use the words passive/active/powered in their
   served pages, so their `active` fields stay open.
 
-## Counts after batch 27
+## Batch 28 (2026-10-19)
+
+Three fields promoted; the queue's superseded-outcome handling was corrected.
+
+| Record | Field | Result | Source |
+| --- | --- | --- | --- |
+| `martin-audio-cdd12` | `active` | false, `MANUFACTURER_VERIFIED` | Martin Audio CDD12 page |
+| `martin-audio-cdd12` | `driverCount` | 2, `MANUFACTURER_VERIFIED` | Martin Audio CDD12 page |
+| `sonus-faber-lumina-i` | `active` | false, `MANUFACTURER_VERIFIED` | Sonus faber Lumina collection |
+
+- **Martin Audio CDD12**: "a compact, passive two-way system" appears in the lead paragraph, the Features
+  list and the Specification TYPE row; the crossover is listed as "1.9kHz passive". The DRIVER row lists a
+  12" low-frequency unit and a coaxially mounted 1" exit compression driver: two transducers. Both fields
+  were empty before this batch.
+- **Sonus faber Lumina I**: the collection card reads "A two-way passive bookshelf speaker ideal for
+  smaller listening environments." The stored value was already false, but it had only been cited in
+  notes; this is the first exact-model statement that was opened. (The Lumina II card does not use the
+  word passive, so it was not promoted.)
+- **Queue tooling**: the older Lumina I specification page records `NOT_STATED` for `active`, while the
+  field is now verified from a different Sonus faber page. That combination raised a false warning, the
+  same class as the `INACCESSIBLE` case fixed in batch 25. `NOT_STATED` now resolves to
+  `RESOLVED_ELSEWHERE` when another manufacturer document has since verified the field. A latent bug in
+  that rewrite (it compared the rewritten outcome instead of the original, so the per-outcome notes were
+  unreachable) was fixed at the same time.
+
+## Counts after batch 28
 
 | Status | Fields |
 | --- | ---: |
-| `MANUFACTURER_VERIFIED` | 849 |
-| `CITED_IN_NOTES_UNCHECKED` | 214 |
-| `UNSOURCED` | 83 |
+| `MANUFACTURER_VERIFIED` | 852 |
+| `CITED_IN_NOTES_UNCHECKED` | 213 |
+| `UNSOURCED` | 81 |
 | no provenance at all | 168 |
 
-Research backlog: 342 of 657 records. Queue: 214 items across 159 URLs, all assessed, zero warnings,
-373 source URLs resolved in total. URL result file: 114 entries.
+Research backlog: 340 of 657 records. Queue: 213 items across 158 URLs, all assessed, zero warnings,
+376 source URLs resolved in total. URL result file: 116 entries.
 
 ## Remaining in this round
 
-214 cited-but-unchecked fields across 159 URLs (all assessed, 0 unassessed; see batch 8), 83 unsourced fields, 168 fields with no provenance,
+213 cited-but-unchecked fields across 158 URLs (all assessed, 0 unassessed; see batch 8), 81 unsourced fields, 168 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 
@@ -973,7 +998,7 @@ Run against the tree that contains every change in this round:
 | `npm test` | 83/83 suites |
 | `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
 | `docs:release` / `docs:consistency` | regenerated; `issues: []` |
-| `release:source` / `release:source:verify` | 624 files, treeSha256 `8f40f6874ebc8af1cb0a12b6a9f4ffb2d0992d332eb81a5feb67f4242cd02162`, verification `ok: true` |
+| `release:source` / `release:source:verify` | 626 files, treeSha256 `928499fbde0a55ea01c2d0a72988fa3b4ec1736169ed9b8451f660f03aebb362`, verification `ok: true` |
 | `audit:release` | 657 files checked, 0 duplicate ids, 0 duplicate brand+model, `problems: []`, warningCount 0 |
 | `npm audit --audit-level=high` | no high/critical findings (8 moderate in the electron-builder toolchain only) |
 | dev server (`npm run dev`) | starts on :3000, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |

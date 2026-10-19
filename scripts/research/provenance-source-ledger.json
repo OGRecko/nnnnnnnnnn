@@ -8146,6 +8146,34 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "The page is titled \"Olympica G3 III\" and lists Tw 28 mm DAD, Md 165 mm Camelia paper cone and W 2 x 165 mm paper cone (four transducers). The catalogue record is \"Olympica III\" without the G3 generation; a different generation is a different product, so no field is taken from it."
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/collections/lumina",
+      "host": "www.sonusfaber.com",
+      "document": "Sonus faber Lumina collection page, product cards",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Product card for the exact model: \"Lumina I ... A two-way passive bookshelf speaker ideal for smaller listening environments.\" (The Lumina II card in the same list does not use the word passive, so only Lumina I is promoted here.)"
+    },
+    {
+      "url": "https://martin-audio.com/products/loudspeakers/cdd12",
+      "host": "martin-audio.com",
+      "document": "Martin Audio CDD12 product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Lead: \"The CDD12 is a compact, passive two-way system\". Features: \"Compact, CDD™ passive two-way system\". Specification: TYPE \"Compact, high-output, Coaxial Differential Dispersion passive two-way system\"; DRIVER \"LF: 12\" (300mm) ... HF: 1\" (25mm) exit ... compression driver\"; CROSSOVER \"1.9kHz passive\"; NOMINAL IMPEDANCE 8Ω."
     }
   ],
   "openQuestionsForOwner": [

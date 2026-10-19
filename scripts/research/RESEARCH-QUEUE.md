@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **342** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 88 brands.
+Records still needing research: **340** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 88 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **214** fields across **159** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **83** fields (no source recorded).
+- CITED_IN_NOTES_UNCHECKED: **213** fields across **158** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **81** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -108,7 +108,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
-| martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
 | meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
@@ -336,7 +335,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | rockford-fosgate-t1650-s | Rockford Fosgate | T1650-S (`rockford-fosgate-t1650-s`) | 0 | 0 | 1 |
 | sonance-vp86 | Sonance | Visual Performance VP86 (`sonance-vp86`) | 0 | 1 | 0 |
 | sonos-play1 | Sonos | Play:1 (`sonos-play1`) | 0 | 0 | 1 |
-| sonus-faber-lumina-i | Sonus Faber | Lumina I (`sonus-faber-lumina-i`) | 1 | 0 | 0 |
 | sonus-faber-lumina-ii | Sonus Faber | Lumina II (`sonus-faber-lumina-ii`) | 1 | 0 | 0 |
 | sonus-faber-lumina-iii | Sonus Faber | Lumina III (`sonus-faber-lumina-iii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-i | Sonus Faber | Olympica Nova I (`sonus-faber-olympica-nova-i`) | 1 | 0 | 0 |

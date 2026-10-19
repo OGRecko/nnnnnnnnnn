@@ -5,16 +5,16 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 214,
-  "assessedItems": 214,
+  "uncheckedItems": 213,
+  "assessedItems": 213,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 159,
+  "uniqueSourceUrls": 158,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 144,
+    "CHECKED_PARTIAL": 143,
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 191,
+    "CHECKED_PARTIAL": 190,
     "INACCESSIBLE": 23
   },
   "statusCounts": [
@@ -22,13 +22,13 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 144
+      "count": 143
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 324
+      "count": 326
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 53
+      "count": 52
     },
     {
       "field": "driverCount",
@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 525
+      "count": 526
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 30
+      "count": 29
     }
   ],
   "resolvedSourceUrls": [
@@ -201,6 +201,7 @@
     "https://mackie.com/img/file_resources/THUMP_2022_SS.pdf",
     "https://mackie.com/img/file_resources/THUMP_SUBS_2022_SS.pdf",
     "https://martin-audio.com/products/archive/w8lm",
+    "https://martin-audio.com/products/loudspeakers/cdd12",
     "https://martin-audio.com/products/loudspeakers/mla",
     "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
     "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
@@ -423,8 +424,10 @@
     "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
     "https://www.sonos.com/en-us/guides/move",
     "https://www.sonos.com/en-us/guides/submini",
+    "https://www.sonusfaber.com/en/collections/lumina",
     "https://www.sonusfaber.com/en/collections/sonetto",
     "https://www.sonusfaber.com/en/products/olympica-iii/tech-specs",
+    "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
     "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
     "https://www.svsound.com/products/pb-1000-pro-subwoofer",
     "https://www.svsound.com/products/pb-2000-pro",
@@ -5028,33 +5031,6 @@
         0
       ],
       "evidence": "System: \"3-way floorstanding loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Md Ø 150 mm paper cone driver; W Ø 2x150 mm paper cone drivers."
-    },
-    {
-      "url": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
-      "host": "www.sonusfaber.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "sonus-faber-lumina-i"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "sonus-faber-lumina-i",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling or a recommended amplifier-power range), so `active` stays unverified."
-        }
-      ],
-      "checkedRound": 23,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "System: \"2-way shelf loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Mw Ø 120 mm paper cone driver."
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
