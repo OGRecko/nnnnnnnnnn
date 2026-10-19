@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 287
+      "count": 296
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 86
+      "count": 77
     },
     {
       "field": "driverCount",
@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 472
+      "count": 481
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 71
+      "count": 62
     }
   ],
   "resolvedSourceUrls": [
@@ -223,6 +223,8 @@
     "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
     "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
     "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+    "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+    "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
     "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
     "https://voidacoustics.com/products/air/air8/",
     "https://voxamps.com/product/v212c-extension-cabinet/",

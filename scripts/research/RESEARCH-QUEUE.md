@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **383** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **374** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **157** fields (no source recorded).
+- UNSOURCED: **139** fields (no source recorded).
 - NO_PROVENANCE: **180** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -175,15 +175,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | totem-model1 | Totem Acoustic | Model 1 (`totem-model1`) | 1 | 0 | 1 |
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
-| yamaha-dbr12 | Yamaha | DBR12 (`yamaha-dbr12`) | 0 | 2 | 0 |
-| yamaha-dbr15 | Yamaha | DBR15 (`yamaha-dbr15`) | 0 | 2 | 0 |
-| yamaha-dxr10 | Yamaha | DXR10 (`yamaha-dxr10`) | 0 | 2 | 0 |
-| yamaha-dxr10mkii | Yamaha | DXR10mkII (`yamaha-dxr10mkii`) | 0 | 2 | 0 |
-| yamaha-dxr12 | Yamaha | DXR12 (`yamaha-dxr12`) | 0 | 2 | 0 |
-| yamaha-dxr12mkii | Yamaha | DXR12mkII (`yamaha-dxr12mkii`) | 0 | 2 | 0 |
-| yamaha-dxr15 | Yamaha | DXR15 (`yamaha-dxr15`) | 0 | 2 | 0 |
-| yamaha-dxr15mkii | Yamaha | DXR15mkII (`yamaha-dxr15mkii`) | 0 | 2 | 0 |
-| yamaha-dxr8 | Yamaha | DXR8 (`yamaha-dxr8`) | 0 | 2 | 0 |
 | yamaha-hs80m | Yamaha | HS80M (`yamaha-hs80m`) | 0 | 2 | 0 |
 | yamaha-ns-aw392 | Yamaha | NS-AW392 (`yamaha-ns-aw392`) | 0 | 2 | 0 |
 | yamaha-ns1000m | Yamaha | NS-1000M (`yamaha-ns1000m`) | 0 | 2 | 0 |

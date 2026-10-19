@@ -419,6 +419,33 @@ Batch 9 wrote 18 field values across nine records; no earlier value or provenanc
 Research backlog: 383 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 313 source URLs resolved in total. `npm test` 82/82.
 
+## Batch 10 — Yamaha DXR / DXR mkII / DBR
+
+Nine records that had neither a value nor a provenance entry. Two Yamaha USA specification tables
+carry every one of them; each model's own row states the power topology and enumerates the drivers.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `yamaha-dxr8`, `dxr10`, `dxr12`, `dxr15` | `driverCount` / `active` | 2 / true | "8/10/12/15\" 2-way, Bi-amp powered speaker, Bass-reflex type"; one cone LF driver + "Diaphragm:1.4\", Type: 1\" throat compression driver" |
+| `yamaha-dxr10mkii`, `dxr12mkii`, `dxr15mkii` | `driverCount` / `active` | 2 / true | same "Bi-amp powered speaker" row; LF cone + "Diaphragm:1.75\", Type: 1\" throat compression driver" |
+| `yamaha-dbr12`, `dbr15` | `driverCount` / `active` | 2 / true | "2-way, Bi-amp powered speaker, Bass-reflex type"; 12"/15" cone LF driver + 1.4" diaphragm / 1" throat compression driver |
+
+Both pages were read in full (DXR 2/2 chunks, DBR 1/1). No value was inferred from the model number:
+the "Bi-amp powered speaker" wording and the built-in dynamic power split (LF 950 W / HF 150 W) are
+printed in the tables.
+
+## Counts after batch 10
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 777 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 139 |
+| no provenance at all | 180 |
+
+Research backlog: 374 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+315 source URLs resolved in total. `npm test` 82/82.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

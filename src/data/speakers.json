@@ -7583,8 +7583,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7638,16 +7638,16 @@
     },
     "notes": "Manufacturer: Yamaha DXR12 two-way bi-amp powered speaker; frequency range 52 Hz–20 kHz (-10 dB); 700 W continuous / 1100 W dynamic amplifier output.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"12\\\" 2-way ... powered speaker\"; one 12\" cone LF driver plus one 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -17291,8 +17291,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -17346,16 +17346,16 @@
     },
     "notes": "Manufacturer: DBR12 two-way bi-amp powered bass-reflex loudspeaker; 12-inch LF cone, 1.4-inch HF diaphragm compression driver; frequency range 52 Hz–20 kHz (-10 dB); 465 W continuous output (1000 W dynamic). Power field stores the continuous rating and notes preserve dynamic output. Source: Yamaha DBR series specifications.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 12\" cone LF driver plus one 1.4\" diaphragm / 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"2-way, Bi-amp powered speaker\" with built-in output power (LF 800 W / HF 200 W dynamic)."
     }
   },
   {
@@ -23189,7 +23189,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23240,20 +23240,20 @@
       "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: DBR15 two-way bi-amp powered bass-reflex loudspeaker; 15-inch LF cone, 1.4-inch HF diaphragm compression driver; frequency range 50 Hz–20 kHz (-10 dB); 465 W continuous output (1000 W dynamic). Power field stores the continuous rating and notes preserve dynamic output. Source: Yamaha DBR series specifications.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 15\" cone LF driver plus one 1.4\" diaphragm / 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"2-way, Bi-amp powered speaker\" with built-in output power (LF 800 W / HF 200 W dynamic)."
     }
   },
   {
@@ -23263,7 +23263,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23314,20 +23314,20 @@
       "source": "https://mea.yamaha.com/en/business/audio/products/speakers/dxr/specs.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: Yamaha DXR8 two-way bi-amp powered speaker; frequency range 57 Hz–20 kHz (-10 dB); 700 W continuous / 1100 W dynamic amplifier output.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"8\\\" 2-way ... powered speaker\"; one 8\" cone LF driver plus one 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -23337,7 +23337,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23388,20 +23388,20 @@
       "source": "https://mea.yamaha.com/en/business/audio/products/speakers/dxr/specs.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: Yamaha DXR10 two-way bi-amp powered speaker; frequency range 56 Hz–20 kHz (-10 dB); 700 W continuous / 1100 W dynamic amplifier output.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"10\\\" 2-way ... powered speaker\"; one 10\" cone LF driver plus one 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -23411,7 +23411,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23462,20 +23462,20 @@
       "source": "https://mea.yamaha.com/en/business/audio/products/speakers/dxr/specs.html",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Manufacturer: Yamaha DXR15 two-way bi-amp powered speaker; frequency range 49 Hz–20 kHz (-10 dB); 700 W continuous / 1100 W dynamic amplifier output.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"15\\\" 2-way ... powered speaker\"; one 15\" cone LF driver plus one 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -23485,7 +23485,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23536,20 +23536,20 @@
       "source": "https://tw.yamaha.com/files/download/other_assets/8/1249478/dxr15mkII_zh_om_a1.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Yamaha DXR10mkII: 2-way powered loudspeaker. Official Yamaha DXRmkII manual gives -10 dB frequency response 56 Hz–20 kHz, 10-inch LF transducer, and 700 W continuous amplifier rating (1100 W dynamic total).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"10\\\" 2-way ... powered speaker\"; one 10\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -23559,7 +23559,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23610,20 +23610,20 @@
       "source": "https://tw.yamaha.com/files/download/other_assets/8/1249478/dxr15mkII_zh_om_a1.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Yamaha DXR12mkII: 2-way powered loudspeaker. Official Yamaha DXRmkII manual gives -10 dB frequency response 52 Hz–20 kHz, 12-inch LF transducer, and 700 W continuous amplifier rating (1100 W dynamic total).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"12\\\" 2-way ... powered speaker\"; one 12\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {
@@ -23633,7 +23633,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23684,20 +23684,20 @@
       "source": "https://tw.yamaha.com/files/download/other_assets/8/1249478/dxr15mkII_zh_om_a1.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Yamaha DXR15mkII: 2-way powered loudspeaker. Official Yamaha DXRmkII manual gives -10 dB frequency response 49 Hz–20 kHz, 15-inch LF transducer, and 700 W continuous amplifier rating (1100 W dynamic total).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"15\\\" 2-way ... powered speaker\"; one 15\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
     }
   },
   {

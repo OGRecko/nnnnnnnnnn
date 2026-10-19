@@ -1843,6 +1843,221 @@
           "note": "Configuration is \"Passive\"; the sheet lists 70V/100V transformer taps and a 16 Ω nominal impedance with \"Recommended Max Amp Power 400 W\" rather than on-board amplification."
         }
       ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+      "host": "usa.yamaha.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Yamaha USA, DXR mkII Series / DXR Series specifications table",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Both tables print the same structure per column. mkII: \"Speaker type | 15\\\" 2-way, Bi-amp powered speaker, Bass-reflex type\" (also 12\\\", 10\\\", 8\\\"); \"Components LF | Diameter:15\\\" cone, Voice Coil:2.5\\\", Magnet:Ferrite\"; \"HF | Diaphragm:1.75\\\", Type: 1\\\" throat compression driver, Magnet:Neodymium\"; \"Output power | Dynamic:1100W (LF: 950W HF: 150W)\". DXR: \"Speaker type | 12\\\" 2-way, Bi-amp powered speaker, Bass-reflex type\" (also 15\\\", 10\\\", 8\\\"); \"HF | Diaphragm:1.4\\\", Type: 1\\\" throat compression driver, Magnet:Ferrite\"; \"Output power | Dynamic:1100W (LF: 950W HF: 150W) / Continuous: 700W (LF: 600W HF: 100W)\".",
+      "fieldResults": [
+        {
+          "record": "yamaha-dxr8",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"8\\\" 2-way ... powered speaker\"; one 8\" cone LF driver plus one 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr8",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr10",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"10\\\" 2-way ... powered speaker\"; one 10\" cone LF driver plus one 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr10",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr12",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"12\\\" 2-way ... powered speaker\"; one 12\" cone LF driver plus one 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr12",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr15",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"15\\\" 2-way ... powered speaker\"; one 15\" cone LF driver plus one 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr15",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr10mkii",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"10\\\" 2-way ... powered speaker\"; one 10\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr10mkii",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr12mkii",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"12\\\" 2-way ... powered speaker\"; one 12\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr12mkii",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        },
+        {
+          "record": "yamaha-dxr15mkii",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"15\\\" 2-way ... powered speaker\"; one 15\" cone LF driver plus one 1.75\" diaphragm / 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dxr15mkii",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dxr/specs.html",
+          "note": "\"Bi-amp powered speaker\" with built-in output power (LF 950 W / HF 150 W dynamic)."
+        }
+      ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+      "host": "usa.yamaha.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Yamaha USA, DBR series specifications table",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"Speaker type | 2-way, Bi-amp powered speaker, Bass-reflex type\" for DBR15, DBR12 and DBR10; \"Components LF | Diameter:15\\\" cone, Voice Coil:2.5\\\", Magnet:Ferrite\" (DBR15) and \"Diameter:12\\\" cone, Voice Coil:2\\\", Magnet:Ferrite\" (DBR12); \"HF | Diaphragm:1.4\\\", Type: 1\\\" throat compression driver, Magnet:Ferrite\"; \"Output power | Dynamic:1000 W (LF: 800 W, HF: 200 W)\".",
+      "fieldResults": [
+        {
+          "record": "yamaha-dbr12",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+          "note": "One 12\" cone LF driver plus one 1.4\" diaphragm / 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dbr12",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+          "note": "\"2-way, Bi-amp powered speaker\" with built-in output power (LF 800 W / HF 200 W dynamic)."
+        },
+        {
+          "record": "yamaha-dbr15",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+          "note": "One 15\" cone LF driver plus one 1.4\" diaphragm / 1\" throat compression driver."
+        },
+        {
+          "record": "yamaha-dbr15",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/dbr/specs.html",
+          "note": "\"2-way, Bi-amp powered speaker\" with built-in output power (LF 800 W / HF 200 W dynamic)."
+        }
+      ]
     }
   ]
 }
