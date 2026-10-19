@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **226** fields across **165** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **225** fields across **165** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **193** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -195,7 +195,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 (`tannoy-monitor-gold`) | 0 | 2 | 0 |
 | tannoy-system-600 | Tannoy | System 600 (`tannoy-system-600`) | 2 | 0 | 0 |
 | totem-model1 | Totem Acoustic | Model 1 (`totem-model1`) | 1 | 0 | 1 |
-| triangle-borea-br02 | Triangle | Borea BR02 (`triangle-borea-br02`) | 2 | 0 | 0 |
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
 | yamaha-dbr12 | Yamaha | DBR12 (`yamaha-dbr12`) | 0 | 2 | 0 |
@@ -414,6 +413,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonus-faber-olympica-nova-ii | Sonus Faber | Olympica Nova II (`sonus-faber-olympica-nova-ii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-iii | Sonus Faber | Olympica Nova III (`sonus-faber-olympica-nova-iii`) | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V (`sonus-faber-olympica-nova-v`) | 1 | 0 | 0 |
+| triangle-borea-br02 | Triangle | Borea BR02 (`triangle-borea-br02`) | 1 | 0 | 0 |
 | triangle-borea-br03 | Triangle | Borea BR03 (`triangle-borea-br03`) | 1 | 0 | 0 |
 | vox-v212c | Vox | V212C (`vox-v212c`) | 0 | 0 | 1 |
 | vox-v212hwx | Vox | V212HWX (`vox-v212hwx`) | 0 | 0 | 1 |

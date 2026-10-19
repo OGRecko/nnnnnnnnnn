@@ -478,14 +478,6 @@
       ]
     },
     {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
-      "outstandingFields": 2,
-      "fields": [
-        "triangle-borea-br02.active",
-        "triangle-borea-br02.driverCount"
-      ]
-    },
-    {
       "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -1264,6 +1256,13 @@
       "outstandingFields": 1,
       "fields": [
         "dali-opticon-8-mk2.driverCount"
+      ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "outstandingFields": 1,
+      "fields": [
+        "triangle-borea-br02.active"
       ]
     },
     {

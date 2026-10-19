@@ -444,6 +444,80 @@
           "note": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
         }
       ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "sourceUrl": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "host": "trianglehifi.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Triangle Borea BR02 product page, Triangle HiFi (4 chunks; TECHNICAL SPECIFICATIONS read)",
+      "chunksOpened": [
+        2
+      ],
+      "chunksTotal": 4,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Technical specifications: \"Driver informations - 2 Drivers: 1 x 25mm silk dome tweeter; 1 x 13 cm midwoofer with natural cellulose pulp membrane\". \"Sensitivity (dB/W/m): 89dB\" - explicitly a 1 W / 1 m reference, not 2.83 V. \"Nominal impedance: 8 Ohm\", \"Minimum impedance: 3,6 Ohm\", \"Bandwith (+/-3dB Hz): 51Hz-22 000Hz\". Amplifier section: \"Recommended Amplifier power: from 15 to 100 Watts (8 Ohms)\", \"Power Handling: 80W\". The page never states passive, active, powered or built-in amplification.",
+      "fieldResults": [
+        {
+          "record": "triangle-borea-br02",
+          "field": "driverCount",
+          "valueBefore": 2,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": null,
+          "sourceUrl": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+          "note": "The exact product page lists \"2 Drivers\": one 25 mm silk dome tweeter and one 13 cm midwoofer, matching the stored value of 2."
+        },
+        {
+          "record": "triangle-borea-br02",
+          "field": "active",
+          "valueBefore": false,
+          "valueAfter": false,
+          "outcome": "NOT_STATED",
+          "action": null,
+          "sourceUrl": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+          "note": "Recommended amplifier power, power handling and impedance are given, but no passive/active, powered or built-in amplification wording appears. Field stays unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+      "sourceUrl": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+      "host": "assets.kef.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference Series Model 103 (1976-77) archive PDF link",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "The URL does not serve a document: the retrieved content is a single line, \"redirecting to [kef.com](http://www.kef.com/)\". No specification, driver complement or passive/active statement is available, so neither field can be assessed from this URL.",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-3",
+          "field": "driverCount",
+          "valueBefore": 2,
+          "valueAfter": 2,
+          "outcome": "INACCESSIBLE",
+          "action": null,
+          "sourceUrl": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+          "note": "The archive PDF URL returns only a redirect notice to kef.com; no document text is served. Field left unchanged."
+        },
+        {
+          "record": "legacy-kef-3",
+          "field": "active",
+          "valueBefore": false,
+          "valueAfter": false,
+          "outcome": "INACCESSIBLE",
+          "action": null,
+          "sourceUrl": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+          "note": "The archive PDF URL returns only a redirect notice; no passive/active statement is available. Field left unchanged."
+        }
+      ]
     }
   ]
 }

@@ -6,9 +6,9 @@
     "live": 3083,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2274,
+      "MANUFACTURER_VERIFIED": 2275,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 261,
+      "CITED_IN_NOTES_UNCHECKED": 260,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 193,
       "THIRD_PARTY_VERIFIED": 20,
@@ -45117,14 +45117,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact product page lists \"2 Drivers\": one 25 mm silk dome tweeter and one 13 cm midwoofer, matching the stored value of 2.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "triangle-borea-br03",

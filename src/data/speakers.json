@@ -48085,9 +48085,10 @@
     "panel": null,
     "notes": "Exact TRIANGLE Borea BR02 manufacturer product page and technical specifications. The manufacturer states 89 dB/W/m sensitivity, 51 Hz–22 kHz bandwidth at ±3 dB, 8 Ω nominal impedance (3.6 Ω minimum), a 13 cm (5 in) midwoofer plus tweeter (two drivers), and 80 W speaker power handling. Sensitivity reference is retained as 1 W/1 m. The 15–100 W recommended amplifier range is not imported as speaker power. Minimum impedance is preserved here in notes; the scalar impedance field records the stated nominal value. Published bandwidth limits are not a response curve; no response points or directivity dataset are imported. Source: https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact product page lists \"2 Drivers\": one 25 mm silk dome tweeter and one 13 cm midwoofer, matching the stored value of 2."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

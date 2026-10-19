@@ -584,6 +584,31 @@
       "round": 27,
       "action": "RESOLVE_SERIES",
       "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual"
+    },
+    {
+      "id": "triangle-borea-br02",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact product page lists \"2 Drivers\": one 25 mm silk dome tweeter and one 13 cm midwoofer, matching the stored value of 2."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02"
     }
   ]
 }

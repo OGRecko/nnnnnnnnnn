@@ -6988,6 +6988,20 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "WL3082: \"The WL3082 input connectors are a pair of Neutrik NL8's wired in parallel ... The WL3082 loudspeaker is not equipped with a crossover network. All signal processing must be done before connecting audio power to the loudspeaker.\" The manual documents only NL8/NL4 audio-power inputs, per-band nominal impedance and continuous power capacity; it lists no mains connection, no amplifier output rating and no gain/level control. WL212-sw: \"The WL212-sw is equipped with two NL8 connectors with pins 1+ and 1- connected to the transducers\", and \"Its two ceramic magnet, 4\" voice coil, 12\" transducers provide 1100 watt continuous power handling capability.\" The subwoofer section never uses the words passive, active, powered or built-in amplification."
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+      "host": "assets.kef.com",
+      "document": "KEF Reference Series Model 103 (1976-77) archive PDF link",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL does not serve a document: the retrieved content is a single line, \"redirecting to [kef.com](http://www.kef.com/)\". No specification, driver complement or passive/active statement is available, so neither field can be assessed from this URL."
     }
   ],
   "openQuestionsForOwner": [

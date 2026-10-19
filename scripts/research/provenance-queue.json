@@ -5,15 +5,15 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 226,
+  "uncheckedItems": 225,
   "uniqueSourceUrls": 165,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 149,
-    "INACCESSIBLE": 16
+    "CHECKED_PARTIAL": 150,
+    "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 200,
-    "INACCESSIBLE": 26
+    "CHECKED_PARTIAL": 201,
+    "INACCESSIBLE": 24
   },
   "statusCounts": [
     {
@@ -44,13 +44,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 81
+      "count": 80
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 442
+      "count": 443
     },
     {
       "field": "driverCount",
@@ -115,6 +115,7 @@
     "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
     "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
     "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+    "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
     "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
     "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
     "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
@@ -1209,41 +1210,6 @@
         0
       ],
       "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
-    },
-    {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
-      "host": "trianglehifi.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "triangle-borea-br02"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "triangle-borea-br02",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Requested product URL redirected to the trianglehifi.us home page; no model specification shown."
-        },
-        {
-          "record": "triangle-borea-br02",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Requested product URL redirected to the trianglehifi.us home page; no model specification shown."
-        }
-      ],
-      "checkedRound": 24,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        1
-      ],
-      "evidence": "The requested /products/enceinte-bibliotheque-hi-fi-borea-br02 URL redirected to the trianglehifi.us storefront home page; no BR02 specification text was served, so neither field could be read."
     },
     {
       "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
@@ -4042,6 +4008,33 @@
         3
       ],
       "evidence": "Technical information, \"Driver complement\": \"Two (2) 1\\\" (2.54 cm) dome tweeters configured in an array\" and \"One (1) 7\\\" (17.8 cm) high-excursion woofer\"."
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "host": "trianglehifi.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "triangle-borea-br02"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "triangle-borea-br02",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Recommended amplifier power, power handling and impedance are given, but no passive/active, powered or built-in amplification wording appears. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        2
+      ],
+      "evidence": "Technical specifications: \"Driver informations - 2 Drivers: 1 x 25mm silk dome tweeter; 1 x 13 cm midwoofer with natural cellulose pulp membrane\". \"Sensitivity (dB/W/m): 89dB\" - explicitly a 1 W / 1 m reference, not 2.83 V. \"Nominal impedance: 8 Ohm\", \"Minimum impedance: 3,6 Ohm\", \"Bandwith (+/-3dB Hz): 51Hz-22 000Hz\". Amplifier section: \"Recommended Amplifier power: from 15 to 100 Watts (8 Ohms)\", \"Power Handling: 80W\". The page never states passive, active, powered or built-in amplification."
     },
     {
       "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",

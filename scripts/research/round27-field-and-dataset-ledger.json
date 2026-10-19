@@ -241,6 +241,40 @@
       "valueAfter": "85 points retained, UNRESOLVED_ROW_COUNT, editionComparison recorded",
       "source": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
       "note": "Two official editions of the same sheet disagree with each other and with both stored series. The FR edition has 86 rows (2400 and 2600 Hz, no 2500 Hz); the EN edition has 87 rows (2400, 2500, 2600 Hz) and 64 of the shared sensitivity values differ. The FR impedance column falls to 1.1 ohm, below the 7.0 ohm minimum the same sheet publishes; the EN column peaks at 110 ohm at 2500 Hz. The stored 85-point series matches neither edition (9 values differ from FR, 61 from EN, and it has 2500 Hz without 2400/2600). Text-derived -3 dB and -10 dB crossings from either table do not reproduce the stated 77 Hz-16 kHz / 52 Hz-19 kHz limits, so the published limits cannot validate the tables either. Response data stays excluded from simulation; no series is adopted and no point is rewritten."
+    },
+    {
+      "record": "triangle-borea-br02",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "note": "The exact product page lists \"2 Drivers\": one 25 mm silk dome tweeter and one 13 cm midwoofer, matching the stored value of 2."
+    },
+    {
+      "record": "triangle-borea-br02",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "note": "Recommended amplifier power, power handling and impedance are given, but no passive/active, powered or built-in amplification wording appears. Field stays unverified."
+    },
+    {
+      "record": "legacy-kef-3",
+      "field": "driverCount",
+      "outcome": "INACCESSIBLE",
+      "valueKept": 2,
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+      "note": "The archive PDF URL returns only a redirect notice to kef.com; no document text is served. Field left unchanged."
+    },
+    {
+      "record": "legacy-kef-3",
+      "field": "active",
+      "outcome": "INACCESSIBLE",
+      "valueKept": false,
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+      "note": "The archive PDF URL returns only a redirect notice; no passive/active statement is available. Field left unchanged."
     }
   ],
   "elx200_15": {

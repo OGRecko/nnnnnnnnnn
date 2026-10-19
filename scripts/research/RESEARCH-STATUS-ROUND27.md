@@ -9,11 +9,11 @@
 | --- | --- | --- |
 | Live records in `src/data/speakers.json` | 657 | 657 |
 | `driverCount` + `active` fields | 1314 | 1314 |
-| `MANUFACTURER_VERIFIED` | 696 | **706** |
-| `CITED_IN_NOTES_UNCHECKED` | 237 | **226** |
+| `MANUFACTURER_VERIFIED` | 696 | **707** |
+| `CITED_IN_NOTES_UNCHECKED` | 237 | **225** |
 | `UNSOURCED` | 192 | **193** |
 | No provenance object | 189 | 189 |
-| Provenance queue | 171 URLs / 237 items | **165 URLs / 226 items** |
+| Provenance queue | 171 URLs / 237 items | **165 URLs / 225 items** |
 
 `UNSOURCED` rose by one because the WL212-sw `active` value was retracted rather than replaced.
 
@@ -157,8 +157,25 @@ idempotent re-run (0 writes) emptied the file. Both artifacts were rebuilt from
 24 ledger rows). The applier now merges into the existing files and de-duplicates instead of
 truncating them.
 
+## Batch 3 — one promotion, one documented blocker
+
+- **Triangle Borea BR02** — the exact product page states "2 Drivers: 1 x 25mm silk dome tweeter; 1 x 13 cm
+  midwoofer", so `driverCount` 2 is promoted. The same page gives "Sensitivity (dB/W/m): 89dB", i.e. a
+  1 W / 1 m reference (not 2.83 V); `active` stays NOT_STATED — the page gives amplifier power and power
+  handling but never a passive/active classification.
+- **KEF Reference Series Model 103 (1976-77)** — the `assets.kef.com` archive URL serves no document, only
+  "redirecting to [kef.com]"; both `driverCount` and `active` are recorded INACCESSIBLE and left unchanged.
+
+### Note on the figures supplied with this brief
+
+The brief quoted 675 CITED fields across 396 URLs, 252 UNSOURCED, ~394 cited URLs and 70 restored
+structural values. Those figures are **not present in this repository**: `git fetch` shows the branch tip
+is `ef482e9` and `origin/main` contains only a source zip, with no `src/data/speakers.json`. Recounted from
+the live file, the backlog is **225 cited fields across 165 URLs**, 193 UNSOURCED and 189 with no
+provenance. The work below uses the repository numbers.
+
 ## Remaining in this round
 
-226 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
+225 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
