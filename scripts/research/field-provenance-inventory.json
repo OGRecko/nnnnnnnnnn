@@ -2,20 +2,20 @@
   "schema": "field-provenance-inventory/v1",
   "generatedBy": "scripts/research/build-field-provenance-inventory.py",
   "counts": {
-    "entries": 3336,
-    "live": 3082,
+    "entries": 3337,
+    "live": 3083,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2263,
+      "MANUFACTURER_VERIFIED": 2273,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 272,
+      "CITED_IN_NOTES_UNCHECKED": 262,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "UNSOURCED": 192,
+      "UNSOURCED": 193,
       "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 192
+    "citedUncheckedUrls": 186
   },
   "entries": [
     {
@@ -2845,6 +2845,24 @@
       "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
+      "speakerId": "jbl-lsr32",
+      "brand": "JBL",
+      "model": "LSR32",
+      "location": "LIVE",
+      "archiveFile": null,
+      "field": "frequencyResponse.points",
+      "value": "28 points",
+      "unit": "Hz/dB",
+      "storedStatus": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "sourceType": "MANUFACTURER",
+      "reference": null,
+      "note": "Exact JBL LSR Series Owner's Manual, LSR32 \"Amplitude & Phase\" table, SPL (dB) column transcribed verbatim, 28 rows (20 Hz - 20 kHz). The manual states: \"All measurements unless otherwise stated made anechoically at 2 meters and referenced to 1 meter by the inverse square law\"; the microphone is \"perpendicular to the centerline of the mid and high frequency transducers, at the point 55 mm (2.2 in.) below the center of the tweeter diaphragm\". Drive level is not stated, so the series is used as normalised response shape only; absolute loudness comes from the verified sensitivity field. Published tolerance is +1/-1.5 dB (60 Hz - 22 kHz), -3 dB at 54 Hz and -10 dB at 35 Hz. No phase column is imported and no point is interpolated.",
+      "nullField": false,
+      "lastCheckedDate": null,
+      "checkOutcome": "STORED_STATUS_ONLY"
+    },
+    {
       "speakerId": "genelec-8050a",
       "brand": "Genelec",
       "model": "8050A",
@@ -3267,14 +3285,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The S3X-V Technical Data tables state Number 1 for woofer, midrange and tweeter: 3 transducers, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "adam-s3x",
@@ -8181,14 +8199,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The sheet lists \"JBL M115-8A x 2\" low-frequency drivers plus one 2414H-C compression driver: 3 transducers, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-jrx225",
@@ -14533,16 +14551,16 @@
       "location": "LIVE",
       "archiveFile": null,
       "field": "driverCount",
-      "value": 5,
+      "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://international.kef.com/products/q750-floorstanding-speaker",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The page lists a Uni-Q (MF cone + HF dome), one LF driver and two ABRs. Under the convention already recorded for jbl-charge5, jbl-flip6 and klipsch-forte-iv, passive radiators are not counted as drivers, so the count is 3, not 5. The record's own note already stated that ABRs are not counted; the stored value contradicted it.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "kef-q750",
@@ -15345,14 +15363,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The US manufacturer specification table lists an 8-inch woofer, a 4-inch midrange and a 7/8-inch tweeter: 3 transducers, matching the stored value. Host is ESTABLISHED (Yamaha Corporation of America); this is not evidence for any other regional variant.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "yamaha-ns-6490",
@@ -16407,14 +16425,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The brochure lists 1 Folded Motion tweeter + 1 midrange + two 6.5-inch woofers = 4 drive units, matching the stored value. The earlier \"5 drive units\" note was a mis-addition.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "martinlogan-motion-40",
@@ -16713,14 +16731,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.adam-audio.com/en/a-series/a8h/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: One 8-inch MLM woofer, one 3.5-inch DCH midrange and one X-ART tweeter: 3 transducers, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "adam-a8h",
@@ -16731,14 +16749,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.adam-audio.com/en/a-series/a8h/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact page names the product an \"Active Studio Monitor\" and publishes internal amplification (\"Total Peak Amp. Power: 340 W\", hybrid amplification).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "adam-a8h",
@@ -19989,14 +20007,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.adam-audio.com/en/archived-products/s3a/",
-      "sourceType": null,
+      "storedStatus": "MANUFACTURER_VERIFIED",
+      "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf",
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact S3A operation manual describes one ART tweeter and two HexaCone bass/midrange drivers = 3 transducers, matching the stored value. The provenance source is set to the manual because the archived page itself carries no specification table.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-adam-1",
@@ -28846,10 +28864,10 @@
       "value": false,
       "unit": null,
       "storedStatus": "MANUFACTURER_VERIFIED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive line-array element requiring external amplification.",
+      "note": "Round 27: The exact-model QSC manual states that \"audio power\" is connected to the loudspeaker and that it has no crossover network or internal processing; the only inputs are NL8 audio-power connectors. This is an explicit statement of the external-amplification signal path, so the stored passive value is retained and re-sourced from the specification sheet to the manual.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -28940,24 +28958,6 @@
       "sourceType": "MANUFACTURER",
       "reference": null,
       "note": "Round 4 URL check (2026-10-11): exact manufacturer source. User manual: 3-way design; two LF transducers (A and B) plus one HF transducer.",
-      "nullField": false,
-      "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
-    },
-    {
-      "speakerId": "qsc-wl212-sw",
-      "brand": "QSC",
-      "model": "WL212-sw",
-      "location": "LIVE",
-      "archiveFile": null,
-      "field": "active",
-      "value": false,
-      "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
-      "sourceType": "MANUFACTURER",
-      "reference": null,
-      "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive subwoofer element requiring external amplification.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -34119,14 +34119,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact sheet lists one 27 cm woofer, one 16.5 cm midrange and one 27 mm tweeter = 3 transducers. The earlier CONFLICT note read the feature-callout numbers as quantities.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "focal-maestro-utopia-evo",
@@ -35055,14 +35055,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.adam-audio.com/en/s-series/s3v/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact S3V page lists one 9-inch ELE woofer, one 4-inch DCH midrange and one S-ART tweeter: 3 transducers, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "adam-audio-s3v",
@@ -54176,6 +54176,24 @@
       "sourceType": null,
       "reference": null,
       "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field.",
+      "nullField": true,
+      "lastCheckedDate": null,
+      "checkOutcome": "NOT_CHECKED"
+    },
+    {
+      "speakerId": "qsc-wl212-sw",
+      "brand": "QSC",
+      "model": "WL212-sw",
+      "location": "LIVE",
+      "archiveFile": null,
+      "field": "active",
+      "value": null,
+      "unit": null,
+      "storedStatus": "UNSOURCED",
+      "source": null,
+      "sourceType": null,
+      "reference": null,
+      "note": "Round 27: Neither the specification sheet nor the user manual states passive/active or built-in amplification for the WL212-sw; the manual only describes the NL8/NL4 wiring to the transducers and a 1100 W continuous power-handling capability. Under the standing explicit-evidence rule the Round 22 manufacturer-verified promotion is retracted and the field returns to unknown.",
       "nullField": true,
       "lastCheckedDate": null,
       "checkOutcome": "NOT_CHECKED"

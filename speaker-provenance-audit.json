@@ -16,26 +16,26 @@
     "MEASUREMENT": 1
   },
   "responseCurveData": {
-    "embeddedJsonCurves": 23,
+    "embeddedJsonCurves": 24,
     "embeddedCurveProvenance": {
-      "total": 23,
-      "manufacturer": 23,
+      "total": 24,
+      "manufacturer": 24,
       "measurement": 0,
       "reputable_database": 0
     },
     "embeddedCurveProblems": 0,
-    "declaredManufacturerCurves": 23,
+    "declaredManufacturerCurves": 24,
     "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 634,
+    "physicallyModeledCurves": 633,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
       "total": 102,
       "missingBothLimits": 96,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
-      "modeledFromPublishedLimits": 532,
-      "explicitCurves": 23,
+      "modeledFromPublishedLimits": 531,
+      "explicitCurves": 24,
       "speakers": 657
     },
     "categoryBasedSynthesisAbsent": true
@@ -49,8 +49,8 @@
         "invalid": 0
       },
       "active": {
-        "known": 410,
-        "unknown": 247,
+        "known": 409,
+        "unknown": 248,
         "absent": 0,
         "invalid": 0
       },

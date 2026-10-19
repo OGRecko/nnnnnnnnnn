@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **413** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 96 brands.
+Records still needing research: **410** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 94 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **237** fields across **171** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **192** fields (no source recorded).
+- CITED_IN_NOTES_UNCHECKED: **227** fields across **165** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **193** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -17,7 +17,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 
 | Record | Brand | Model | Cited unchecked | Unsourced | No provenance |
 |---|---|---|---|---|---|
-| adam-a8h | Adam Audio | A8H (`adam-a8h`) | 2 | 0 | 0 |
 | advent-loudspeaker | Advent | The Advent Loudspeaker (`advent-loudspeaker`) | 0 | 2 | 0 |
 | altec-604e | Altec Lansing | 604E Duplex (`altec-604e`) | 0 | 2 | 0 |
 | altec-a7 | Altec Lansing | A7 Voice of the Theatre (`altec-a7`) | 0 | 0 | 2 |
@@ -62,7 +61,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-sentry-500 | Electro-Voice | Sentry 500 (`eV-sentry-500`) | 2 | 0 | 0 |
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
-| focal-scala-utopia-evo | Focal | Scala Utopia Evo (`focal-scala-utopia-evo`) | 2 | 0 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
 | genelec-1029a | Genelec | 1029A (`genelec-1029a`) | 0 | 2 | 0 |
@@ -91,7 +89,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 2 |
 | jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 2 | 0 |
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
-| jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
@@ -108,7 +105,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kef-kc62 | KEF | KC62 (`kef-kc62`) | 0 | 0 | 2 |
 | kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 2 | 0 | 0 |
 | kef-ls50 | KEF | LS50 (`kef-ls50`) | 2 | 0 | 0 |
-| kef-q750 | KEF | Q750 (`kef-q750`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
@@ -156,7 +152,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
 | martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
 | martinlogan-esl-x | MartinLogan | ElectroMotion ESL X (`martinlogan-esl-x`) | 2 | 0 | 0 |
-| martinlogan-motion-40 | MartinLogan | Motion 40 (`martinlogan-motion-40`) | 1 | 0 | 1 |
 | meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
 | meyer-sound-leopard | Meyer Sound | LEOPARD (`meyer-sound-leopard`) | 0 | 2 | 0 |
 | meyer-sound-lina | Meyer Sound | LINA (`meyer-sound-lina`) | 0 | 2 | 0 |
@@ -217,13 +212,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | yamaha-hs7 | Yamaha | HS7 (`yamaha-hs7`) | 0 | 2 | 0 |
 | yamaha-hs8 | Yamaha | HS8 (`yamaha-hs8`) | 0 | 2 | 0 |
 | yamaha-hs80m | Yamaha | HS80M (`yamaha-hs80m`) | 0 | 2 | 0 |
-| yamaha-ns-6490 | Yamaha | NS-6490 (`yamaha-ns-6490`) | 1 | 0 | 1 |
 | yamaha-ns-aw392 | Yamaha | NS-AW392 (`yamaha-ns-aw392`) | 0 | 2 | 0 |
 | yamaha-ns1000m | Yamaha | NS-1000M (`yamaha-ns1000m`) | 0 | 2 | 0 |
 | yamaha-ns10m | Yamaha | NS-10M Studio (`yamaha-ns10m`) | 0 | 2 | 0 |
 | yamaha-ns500 | Yamaha | NS-500 (`yamaha-ns500`) | 1 | 0 | 1 |
-| adam-audio-s3v | ADAM Audio | S3V (`adam-audio-s3v`) | 1 | 0 | 0 |
-| adam-s3x | Adam Audio | S3X-V (`adam-s3x`) | 1 | 0 | 0 |
 | adamson-e15 | Adamson | E15 (`adamson-e15`) | 1 | 0 | 0 |
 | alpine-r-s65c | Alpine | R-S65C (`alpine-r-s65c`) | 0 | 0 | 1 |
 | alpine-s-s65 | Alpine | S-S65 (`alpine-s-s65`) | 0 | 0 | 1 |
@@ -278,6 +270,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | focal-kanta-n-1 | Focal | Kanta N°1 (`focal-kanta-n-1`) | 1 | 0 | 0 |
 | focal-kanta-n-2 | Focal | Kanta N°2 (`focal-kanta-n-2`) | 1 | 0 | 0 |
 | focal-kanta-n-3 | Focal | Kanta N°3 (`focal-kanta-n-3`) | 1 | 0 | 0 |
+| focal-scala-utopia-evo | Focal | Scala Utopia Evo (`focal-scala-utopia-evo`) | 1 | 0 | 0 |
 | focal-shape-50 | Focal | Shape 50 (`focal-shape-50`) | 0 | 1 | 0 |
 | focal-sopra-n-1 | Focal | Sopra N°1 (`focal-sopra-n-1`) | 1 | 0 | 0 |
 | focal-sopra-n-2 | Focal | Sopra N°2 (`focal-sopra-n-2`) | 1 | 0 | 0 |
@@ -292,12 +285,14 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
 | jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 1 | 0 | 0 |
 | jbl-hdi-3800 | JBL | HDI-3800 (`jbl-hdi-3800`) | 1 | 0 | 0 |
+| jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 1 | 0 | 0 |
 | jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 1 | 0 | 0 |
 | jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
 | kef-q150 | KEF | Q150 (`kef-q150`) | 1 | 0 | 0 |
 | kef-q350 | KEF | Q350 (`kef-q350`) | 1 | 0 | 0 |
+| kef-q750 | KEF | Q750 (`kef-q750`) | 1 | 0 | 0 |
 | kef-r11 | KEF | R11 (`kef-r11`) | 0 | 0 | 1 |
 | kef-r11-meta | KEF | R11 Meta (`kef-r11-meta`) | 1 | 0 | 0 |
 | kef-r3 | KEF | R3 (`kef-r3`) | 0 | 0 | 1 |
@@ -326,7 +321,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-rp6000f | Klipsch | RP-6000F II (`klipsch-rp6000f`) | 1 | 0 | 0 |
 | klipsch-rp600m | Klipsch | RP-600M II (`klipsch-rp600m`) | 1 | 0 | 0 |
 | klipsch-rp8060fa | Klipsch | RP-8060FA II (`klipsch-rp8060fa`) | 1 | 0 | 0 |
-| legacy-adam-1 | Adam Audio | S3A (`legacy-adam-1`) | 1 | 0 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 1 | 0 | 0 |
 | legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 1 | 0 | 0 |
 | legacy-bw-1 | Bowers & Wilkins | DM6 (`legacy-bw-1`) | 0 | 0 | 1 |
@@ -365,6 +359,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | marshall-marshall-stanmore-iii | Marshall | Marshall Stanmore III (`marshall-marshall-stanmore-iii`) | 0 | 0 | 1 |
 | marshall-marshall-woburn-iii | Marshall | Marshall Woburn III (`marshall-marshall-woburn-iii`) | 0 | 0 | 1 |
 | martinlogan-motion-20 | MartinLogan | Motion 20 (`martinlogan-motion-20`) | 1 | 0 | 0 |
+| martinlogan-motion-40 | MartinLogan | Motion 40 (`martinlogan-motion-40`) | 0 | 0 | 1 |
 | martinlogan-motion-60xt | MartinLogan | Motion 60XT (`martinlogan-motion-60xt`) | 1 | 0 | 0 |
 | mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) | 0 | 0 | 1 |
 | mesa-boogie-fillmore-2x12 | Mesa/Boogie | Fillmore 2x12 (`mesa-boogie-fillmore-2x12`) | 0 | 0 | 1 |
@@ -400,6 +395,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | qsc-gp118-sw | QSC | GP118-sw (`qsc-gp118-sw`) | 0 | 1 | 0 |
 | qsc-gp212-sw | QSC | GP212-sw (`qsc-gp212-sw`) | 0 | 1 | 0 |
 | qsc-gp218-sw | QSC | GP218-sw (`qsc-gp218-sw`) | 0 | 1 | 0 |
+| qsc-wl212-sw | QSC | WL212-sw (`qsc-wl212-sw`) | 0 | 1 | 0 |
 | qsc-wl218-sw | QSC | WL218-sw (`qsc-wl218-sw`) | 0 | 1 | 0 |
 | revel-f206 | Revel | F206 (`revel-f206`) | 0 | 0 | 1 |
 | revel-m106 | Revel | M106 (`revel-m106`) | 0 | 0 | 1 |
@@ -429,4 +425,5 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | wharfedale-linton | Wharfedale | Linton Heritage (`wharfedale-linton`) | 1 | 0 | 0 |
 | wilson-watt-puppy | Wilson Audio | WATT/Puppy 8 (`wilson-watt-puppy`) | 0 | 0 | 1 |
 | yamaha-ns-5000 | Yamaha | NS-5000 (`yamaha-ns-5000`) | 0 | 0 | 1 |
+| yamaha-ns-6490 | Yamaha | NS-6490 (`yamaha-ns-6490`) | 0 | 0 | 1 |
 | yamaha-ns-777 | Yamaha | NS-777 (`yamaha-ns-777`) | 0 | 0 | 1 |

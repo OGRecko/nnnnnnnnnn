@@ -1385,6 +1385,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - JBL LSR32 — power
 - JBL LSR32 — resonant frequency
 - JBL LSR32 — sensitivity
+- JBL LSR32 — source-backed response points (manufacturer)
 - JBL LSR32 — voice-coil size
 - JBL LSR32 — woofer size
 

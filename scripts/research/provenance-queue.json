@@ -5,14 +5,14 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 237,
-  "uniqueSourceUrls": 171,
+  "uncheckedItems": 227,
+  "uniqueSourceUrls": 165,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 154,
+    "CHECKED_PARTIAL": 148,
     "INACCESSIBLE": 17
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 208,
+    "CHECKED_PARTIAL": 198,
     "INACCESSIBLE": 29
   },
   "statusCounts": [
@@ -20,7 +20,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 146
+      "count": 145
     },
     {
       "field": "active",
@@ -38,19 +38,19 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 105
+      "count": 106
     },
     {
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 91
+      "count": 82
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 432
+      "count": 441
     },
     {
       "field": "driverCount",
@@ -209,6 +209,7 @@
     "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
     "https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus",
     "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+    "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
     "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
     "https://voidacoustics.com/products/air/air8/",
     "https://voxamps.com/product/v212c-extension-cabinet/",
@@ -218,10 +219,14 @@
     "https://www.adam-audio.com/en/a-series/a4v/",
     "https://www.adam-audio.com/en/a-series/a77h/",
     "https://www.adam-audio.com/en/a-series/a7v/",
+    "https://www.adam-audio.com/en/a-series/a8h/",
+    "https://www.adam-audio.com/en/archived-products/s3a/",
     "https://www.adam-audio.com/en/ax-series/a5x/",
     "https://www.adam-audio.com/en/s-series/s2v/",
     "https://www.adam-audio.com/en/s-series/s3h/",
+    "https://www.adam-audio.com/en/s-series/s3v/",
     "https://www.adam-audio.com/en/s-series/s5h/",
+    "https://www.adam-audio.com/en/sx-series/s3x-v/",
     "https://www.adam-audio.com/en/t-series/t5v/",
     "https://www.adam-audio.com/en/t-series/t7v/",
     "https://www.adam-audio.com/en/t-series/t8v/",
@@ -302,6 +307,7 @@
     "https://www.marshall.com/us/en/product/middleton?pid=1006034",
     "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
     "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+    "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
     "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
     "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
@@ -324,6 +330,7 @@
     "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
     "https://www.qacoustics.com/products/5020-bookshelf-speaker",
     "https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/",
+    "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
     "https://www.rcf.it/en/products/product-detail/nx-45-a",
     "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
     "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
@@ -887,41 +894,6 @@
       "evidence": "The URL returns the DALI \"Page not found\" template; no Oberon 1 specification content is served at this address."
     },
     {
-      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
-      "host": "international.kef.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "kef-q750"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kef-q750",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
-        },
-        {
-          "record": "kef-q750",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Page describes 3 driven units plus 2 ABR passive radiators; the schema does not define whether ABRs count, so the stored 5 is not promoted. Owner decision needed."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product specifications: 2.5-way bass reflex, 25 mm (1 in) vented aluminium dome tweeter, 165 mm (6.5 in) aluminium Uni-Q driver array, one 165 mm (6.5 in) aluminium LF driver and two 165 mm (6.5 in) aluminium ABR radiators. ABRs are passive radiators, not driven units."
-    },
-    {
       "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "host": "jblpro.com",
       "status": "CHECKED_PARTIAL",
@@ -955,41 +927,6 @@
         0
       ],
       "evidence": "Information sheet describes the 4430 and 4435 as passive studio monitors intended for use with an external amplifier; no powered/active variant is listed."
-    },
-    {
-      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
-      "host": "jblpro.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "jbl-jrx225"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-jrx225",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The sheet describes a passive model with Speakon inputs, but does not use the word \"passive\"; not promoted under the standing explicit-evidence rule."
-        },
-        {
-          "record": "jbl-jrx225",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The sheet lists two 15 in woofers plus one compression driver = 3, matching the stored value, but the sheet also describes the model as \"dual 15 in\" which could be read as two total transducers. Not promoted pending an owner ruling on counting compression drivers."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification sheet: JRX225 is a dual 15 in two-way passive loudspeaker with two 15 in (380 mm) woofers and one 1 in (25 mm) compression driver (three drive units)."
     },
     {
       "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
@@ -1165,41 +1102,6 @@
         0
       ],
       "evidence": "Data sheet: \"The Electro-Voice Sx100+ is a 200-watt, 12-inch two-way\"; \"LF Transducer: 12\\\" (300mm)\"; \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"Power Handling: 200W Continuous, 800W Peak\"; \"Connectors: Neutrik Speakon\"."
-    },
-    {
-      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
-      "host": "media.focal-naim.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "focal-scala-utopia-evo"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "focal-scala-utopia-evo",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
-        },
-        {
-          "record": "focal-scala-utopia-evo",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in IHL beryllium tweeter, a 6.5 in midrange and two 8.25 in woofers (four drive units)."
     },
     {
       "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
@@ -1411,41 +1313,6 @@
         0
       ],
       "evidence": "Spec sheet: \"Channels 9.1.5 ch\"; \"Total Power 810W\"; \"Number of Speaker Units 17\"; \"Front (Left / Right) (35W x 2) x 2\"; \"Subwoofer 220W(Wireless)\"; \"Wireless Active Subwoofer Yes\"."
-    },
-    {
-      "url": "https://www.adam-audio.com/en/a-series/a8h/",
-      "host": "www.adam-audio.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "adam-a8h"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "adam-a8h",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
-        },
-        {
-          "record": "adam-a8h",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Page lists two 8 in woofers + 3.5 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product page: A8H is an active 3-way monitor with two 8 in woofers, a 3.5 in midrange and a 1 in X-ART tweeter (four drive units), driven by built-in amplification."
     },
     {
       "url": "https://www.bhphotovideo.com/lit_files/115920.pdf",
@@ -3507,6 +3374,33 @@
       "evidence": "Only the opening navigation/hero chunk could be read during this round; it contains no drive-unit count or amplifier statement."
     },
     {
+      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "host": "international.kef.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "kef-q750"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "kef-q750",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Only a recommended amplifier power range (15-150 W) is given; no passive/active, powered or built-in amplification wording. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specifications \"Drive Units\": \"165mm (6.5in.) aluminium Uni-Q / 25mm (1in.) vented aluminium dome HF / 165mm (6.5in.) aluminium LF / 2 x 165mm (6.5in.) aluminium ABR\". The Uni-Q section contributes one MF cone and one HF dome; with the separate LF driver that is 3 driven transducers, plus two ABRs (passive radiators). The page gives only \"Amplifier Requirements 15-150W\" and never states passive, active, powered or built-in amplification."
+    },
+    {
       "url": "https://international.kef.com/products/r11-meta",
       "host": "international.kef.com",
       "status": "CHECKED_PARTIAL",
@@ -3613,6 +3507,33 @@
         0
       ],
       "evidence": "Specification sheet: Control 25 is a two-way passive loudspeaker with a 5.25 in (130 mm) woofer and a 0.75 in (19 mm) titanium dome tweeter."
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "host": "jblpro.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "jbl-jrx225"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "jbl-jrx225",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The sheet publishes a recommended external amplifier range and passive-cabinet style inputs but never writes passive/active, powered or built-in amplification. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specifications: \"Low Frequency Driver: JBL M115-8A x 2\"; \"High Frequency Driver: JBL 2414H-C, 1\\\" exit compression driver mounted on Progressive Transition Waveguide\"; \"System Type: Dual 15\\\" 2-way, sound reinforcement speaker\". Two woofers plus one compression driver = 3 transducers. The sheet says \"passive\" nowhere; it gives \"Recommended Amplifier Power: 500-1000 watts @ 4 ohms\", Speakon NL-4 and 1/4-inch inputs, and a 500 W power capacity."
     },
     {
       "url": "https://jp.jbl.com/jamaica.html",
@@ -3912,6 +3833,33 @@
       "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in tweeter, a 6.5 in midrange and two 8.25 in woofers (four drive units)."
     },
     {
+      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+      "host": "media.focal-naim.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "focal-scala-utopia-evo"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "focal-scala-utopia-evo",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The sheet gives only a recommended amplifier power range (50-500 W); it never states passive, active, powered or built-in amplification. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specification table \"Speakers\" row: \"11\\\" (27cm) 'W' woofer / Power Flower 61/2\\\" (16.5cm) 'W' midrange, with TMD suspension, with NIC motor / 11/16\\\" (27mm) 'IAL2' pure Beryllium inverted dome tweeter\". One woofer, one midrange and one tweeter: 3 transducers. The \"1\", \"2\", \"3\" in the callouts are numbered feature markers, not quantities. No explicit passive/active wording appears anywhere in the sheet; only \"Recommended amplifier power 50 - 500W\"."
+    },
+    {
       "url": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
       "host": "media.focal-naim.com",
       "status": "CHECKED_PARTIAL",
@@ -4155,114 +4103,6 @@
         0
       ],
       "evidence": "Product specifications: 3-way bass reflex with one 25 mm (1 in) MAT vented dome tweeter, one 125 mm (5 in) Uni-Q midrange and four 165 mm (6.5 in) aluminium bass drivers."
-    },
-    {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
-      "host": "usa.yamaha.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "yamaha-ns-6490"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "yamaha-ns-6490",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "US manufacturer page lists three named drivers. Host usa.yamaha.com is not in source-host-allowlist.json, so no promotion until the host decision (owner decision 8) is made. Not a regional impedance answer."
-        }
-      ],
-      "checkedRound": 15,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Driver: 8\" cone woofer, 4\" cone mid-range, 7/8\" balanced dome tweeter (three drivers). Nominal impedance 8 ohms; sensitivity 90 dB/2.83 V/m; nominal input 70 W, maximum 140 W; 45 Hz - 23 kHz. US product only."
-    },
-    {
-      "url": "https://www.adam-audio.com/en/archived-products/s3a/",
-      "host": "www.adam-audio.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "legacy-adam-1"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-adam-1",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Archived product page: S3A is an active 3-way monitor with two 7 in woofers, a 4 in midrange and a 1 in X-ART tweeter (four drive units)."
-    },
-    {
-      "url": "https://www.adam-audio.com/en/s-series/s3v/",
-      "host": "www.adam-audio.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "adam-audio-s3v"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "adam-audio-s3v",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product page: S3V is an active 3-way monitor with two 7 in woofers and a 4 in midrange plus a 1 in S-ART tweeter (four drive units)."
-    },
-    {
-      "url": "https://www.adam-audio.com/en/sx-series/s3x-v/",
-      "host": "www.adam-audio.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "adam-s3x"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "adam-s3x",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product page: S3X-V is an active 3-way monitor with two 7 in woofers, a 4 in midrange and a 1 in X-ART tweeter (four drive units)."
     },
     {
       "url": "https://www.behringer.com/en/products/0313-ACS",
@@ -5156,33 +4996,6 @@
         0
       ],
       "evidence": "Product page specifications: 1.25 x 2.4 in Folded Motion XT tweeter, 6.5 in aluminium cone midrange and two 8 in aluminium cone woofers (four drive units); recommended amplifier power 20-400 W per channel, with no explicit passive/active wording."
-    },
-    {
-      "url": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
-      "host": "www.martinlogan.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "martinlogan-motion-40"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "martinlogan-motion-40",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Brochure lists 1 tweeter + 1 midrange + 2 woofers = 5 drive units, while the stored value is 4. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Brochure: Motion 40 is a 2.5-way floorstanding speaker with a Folded Motion tweeter, a 5.5 in midrange and two 5.5 in woofers (three drive units)."
     },
     {
       "url": "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf",

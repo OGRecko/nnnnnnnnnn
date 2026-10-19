@@ -1,0 +1,144 @@
+# Round 27 — disputed records and settlement of the review backlog
+
+**Date:** 2026-10-19 · **Branch:** `arena/cdfc16bd-nnnnnnnnnn`
+**Batch 1 of Round 27:** disputed-record adjudication (10 documents, 15 field outcomes, 12 value writes)
+
+## Counts, recomputed from the repository (not carried over from a brief)
+
+| Measure | Before this batch | After this batch |
+| --- | --- | --- |
+| Live records in `src/data/speakers.json` | 657 | 657 |
+| `driverCount` + `active` fields | 1314 | 1314 |
+| `MANUFACTURER_VERIFIED` | 696 | **705** |
+| `CITED_IN_NOTES_UNCHECKED` | 237 | **227** |
+| `UNSOURCED` | 192 | **193** |
+| No provenance object | 189 | 189 |
+| Provenance queue | 171 URLs / 237 items | **165 URLs / 227 items** |
+
+`UNSOURCED` rose by one because the WL212-sw `active` value was retracted rather than replaced.
+
+## What was opened and read (not a search snippet)
+
+Every document below was retrieved in full or to the end of the relevant section, and the
+quoted text is recorded in `scripts/research/round27_disputes_data.py`.
+
+1. **ADAM Audio S3V** product page — one 9-inch ELE woofer, one 4-inch DCH midrange, one S-ART tweeter.
+2. **ADAM Audio S3X-V** archived page — Technical Data "Number 1" rows for woofer, midrange and tweeter.
+3. **ADAM Audio A8H** product page — one 8-inch MLM woofer, one 3.5-inch DCH midrange, one X-ART tweeter; named "Active Studio Monitor" with internal amplification.
+4. **ADAM Audio S3A** archived page **and its linked operation manual** — "a three-way ported active system … a single ART tweeter … two HexaCone-bass/midrange drivers".
+5. **MartinLogan Motion 40** brochure — 1 Folded Motion tweeter + 1 midrange + **two** 6.5-inch woofers = 4.
+6. **Focal Scala Utopia Evo** data sheet — 1 × 27 cm woofer, 1 × 16.5 cm midrange, 1 × 27 mm tweeter = 3 (the "1/2/3" are feature callouts, not quantities).
+7. **JBL JRX225** spec sheet — "JBL M115-8A x 2" plus one 2414H-C compression driver = 3; no passive/active wording.
+8. **Yamaha NS-6490** US specification page — 8-inch woofer, 4-inch midrange, 7/8-inch tweeter = 3; 8 Ω for this variant only.
+9. **KEF Q750** product page — Uni-Q (MF cone + HF dome), one LF driver, 2 × ABR.
+10. **QSC WideLine-8 user manual, TD-000237-00 rev D** — WL3082 "audio power" input, no crossover network; WL212-sw NL8 wiring to transducers, 1100 W continuous, no passive/active statement.
+
+## Outcomes
+
+### Promotions (stored value confirmed by the exact document)
+
+| Record | Field | Value | Source |
+| --- | --- | --- | --- |
+| `adam-audio-s3v` | driverCount | 3 | S3V product page |
+| `adam-s3x` | driverCount | 3 | S3X-V archived page |
+| `adam-a8h` | driverCount, active | 3, true | A8H product page |
+| `legacy-adam-1` | driverCount | 3 | S3A operation manual (PDF) |
+| `martinlogan-motion-40` | driverCount | 4 | Motion 40 brochure |
+| `focal-scala-utopia-evo` | driverCount | 3 | Scala Utopia Evo data sheet |
+| `jbl-jrx225` | driverCount | 3 | JRX225 spec sheet |
+| `yamaha-ns-6490` | driverCount | 3 | Yamaha US specs page |
+
+The earlier `CONFLICT` notes on the three ADAM models and the Motion 40 were arithmetic errors:
+the pages list *one of each* driver, and the Motion 40 lists **two** woofers, not three.
+
+### Corrections
+
+- **`kef-q750.driverCount` 5 → 3.** KEF lists a Uni-Q (MF cone + HF dome), one LF driver and two ABRs.
+  Passive radiators are not counted, as already recorded for `jbl-charge5`, `jbl-flip6` and
+  `klipsch-forte-iv`; the record's own note said so while storing 5.
+- **`qsc-wl212-sw.active` false → unknown (retraction).** Neither the WideLine-8 specification sheet nor
+  the user manual states passive/active for the subwoofer. The Round 22 manufacturer-verified promotion
+  contradicted the record's own Round 8 note ("Active/passive not stated on the sheet; active stays
+  null"). The field now carries an `UNSOURCED` provenance with the retraction reason; no value was
+  invented in either direction.
+- **`qsc-wl3082.active` false retained, re-sourced.** The manual states that "all signal processing must
+  be done before connecting audio power to the loudspeaker" and documents only NL8 audio-power inputs,
+  with no internal amplification, mains inlet or level control. Value unchanged; source moved from the
+  specification sheet to the manual that actually carries the statement.
+
+### JBL LSR32 — the 20 kHz conflict is resolved
+
+The exact owner's manual was re-read end to end. Its **LSR32 Amplitude & Phase** table reads **92 dB at
+20 kHz** (28 rows, 20 Hz–20 kHz) and the **LSR32 Acoustic Contribution** fundamental also reads 92 dB.
+The 61 dB figure belongs to the **LSR28P** section of the same manual (61 dB at 10 kHz with a blank 20 kHz
+row). The "self-conflict" was a mis-read of a different model's table.
+
+The stored 27-row series was also not the LSR32 table: 12 of its 27 values differed (30, 40, 50, 70, 80,
+300, 400, 500, 600, 700, 900, 1000 Hz) and it omitted 20 kHz. It has been replaced by the verbatim 28-row
+table, now the record's source-backed response series (`pointsStatus: MANUFACTURER_VERIFIED`,
+`pointsSourceType: MANUFACTURER`). The previous rows, the exclusion reason and the prior status are
+preserved under `frequencyResponse.resolution.priorPoints` and in `round27-value-history.json`.
+The manual measures anechoically at 2 m referenced to 1 m; the drive level is not stated, so the series
+is normalized shape only and absolute level continues to come from the verified sensitivity field.
+
+### Electro-Voice ELX200-15 — still irreconcilable, still excluded
+
+Both official editions were fetched and their tables transcribed verbatim
+(`scripts/research/data/elx200-15-editions-2026-10-19.py`):
+
+| | FR edition | EN edition | Stored series |
+| --- | --- | --- | --- |
+| Rows | 86 | 87 | 85 |
+| 2400 Hz | 93.5 dB | 95 dB | absent |
+| 2500 Hz | absent | 95 dB | present |
+| 2600 Hz | 94 dB | 95 dB | absent |
+| Impedance column | falls to 1.1 Ω | peaks at 110 Ω @ 2500 Hz | — |
+
+The two editions differ at 64 shared frequencies; the stored series matches neither (9 values differ from
+FR, 61 from EN). Both sheets state 77 Hz–16 kHz (−3 dB) and 52 Hz–19 kHz (−10 dB), but the tables' own
+crossings are 75 Hz–13 kHz / 55 Hz–17 kHz (FR) and 80 Hz–17 kHz / 55 Hz–19 kHz (EN), so the text limits
+cannot validate either table. The FR impedance column falls below the 7.0 Ω minimum the same sheet
+publishes, which is physically impossible. **No point was written, no alternate series adopted, and
+`simulationExcluded` remains `true`.** The comparison is recorded in `disputedPoints.editionComparison`.
+
+### Records left deliberately unchanged
+
+- **Focal Sopra N°2** — the exact sheet states "Sensitivity (2.83V / 1m) 91dB"; the existing
+  `MANUFACTURER_VERIFIED` value and reference are correct and were not altered.
+- **Focal Scala Utopia Evo `active`**, **JBL JRX225 `active`**, **KEF Q750 `active`** — no explicit
+  passive/active wording in the documents; all remain unverified.
+- **`legacy-mack-4`** and **`equator-d5`** — held; nothing new was found and no value was invented.
+- **Turbosound iP15B** — still no record with that model in the catalogue; the distributor datasheet's
+  origin is unresolved, so no reclassification exists to make.
+- **Genelec 8331A** — the SOFA/CLF dataset was not obtained, so nothing was imported; the directivity
+  lead remains `LEAD_NOT_IMPORTED`.
+
+## Files
+
+| File | Change |
+| --- | --- |
+| `src/data/speakers.json` | 12 field writes, 2 value changes, LSR32 series replaced, ELX comparison recorded |
+| `scripts/research/round27_disputes_data.py` | new — verbatim quotations and every outcome |
+| `scripts/research/prepare-round27-batches.py` | new — validates each outcome against the live catalogue |
+| `scripts/research/apply-round27-batch.py` | new — applies values, history, queue status and ledger |
+| `scripts/research/round27-url-results.json` | new — 10 URLs / 15 field results / 11 value writes |
+| `scripts/research/round27-value-history.json` | new — every before/after pair, including the 27 superseded LSR32 rows |
+| `scripts/research/round27-field-and-dataset-ledger.json` | new — one row per adjudicated item |
+| `scripts/research/queue-url-status.json` | 10 entries rewritten; earlier snapshots preserved |
+| `scripts/research/provenance-source-ledger.json` | 2 documents added |
+| `scripts/research/provenance-queue.json` | regenerated: 165 URLs / 227 items |
+| `RESEARCH-QUEUE.md`, `SPEAKER-DATA-STATUS.md`, `SPEAKER-SOURCES.md`, `AUDIT.md`, `FINAL_VERIFICATION.md` | regenerated by the existing generators |
+
+## Verification
+
+- `npm run typecheck` — clean.
+- `npm test` — 82/82 suites.
+- `audit:speaker`, `audit:provenance`, `audit:final`, `audit:third-party` — `problems: []`.
+- `docs:consistency` — `issues: []`.
+- `make-provenance-queue.py` — `records=657 unchecked_items=227 unique_urls=165 warnings=0`.
+
+## Remaining in this round
+
+227 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
+25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
+resolved here; they are the next batches.

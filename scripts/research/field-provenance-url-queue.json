@@ -174,14 +174,6 @@
       ]
     },
     {
-      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-jrx225.driverCount",
-        "jbl-jrx225.active"
-      ]
-    },
-    {
       "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
       "outstandingFields": 2,
       "fields": [
@@ -262,14 +254,6 @@
       ]
     },
     {
-      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
-      "outstandingFields": 2,
-      "fields": [
-        "kef-q750.driverCount",
-        "kef-q750.active"
-      ]
-    },
-    {
       "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
       "outstandingFields": 2,
       "fields": [
@@ -283,14 +267,6 @@
       "fields": [
         "kef-reference-5.driverCount",
         "kef-reference-5.active"
-      ]
-    },
-    {
-      "url": "https://www.adam-audio.com/en/a-series/a8h/",
-      "outstandingFields": 2,
-      "fields": [
-        "adam-a8h.driverCount",
-        "adam-a8h.active"
       ]
     },
     {
@@ -459,14 +435,6 @@
       "fields": [
         "electro-voice-evf-1152d-96.active",
         "electro-voice-evf-1152d-96.driverCount"
-      ]
-    },
-    {
-      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "focal-scala-utopia-evo.active",
-        "focal-scala-utopia-evo.driverCount"
       ]
     },
     {
@@ -642,13 +610,6 @@
       ]
     },
     {
-      "url": "https://www.adam-audio.com/en/sx-series/s3x-v/",
-      "outstandingFields": 1,
-      "fields": [
-        "adam-s3x.driverCount"
-      ]
-    },
-    {
       "url": "https://www.martinlogan.com/en/product/motion-60xt",
       "outstandingFields": 1,
       "fields": [
@@ -702,6 +663,13 @@
       "outstandingFields": 1,
       "fields": [
         "behringer-b215xl.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-jrx225.active"
       ]
     },
     {
@@ -873,6 +841,13 @@
       ]
     },
     {
+      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "outstandingFields": 1,
+      "fields": [
+        "kef-q750.active"
+      ]
+    },
+    {
       "url": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
       "outstandingFields": 1,
       "fields": [
@@ -884,20 +859,6 @@
       "outstandingFields": 1,
       "fields": [
         "jbl-l100-classic.active"
-      ]
-    },
-    {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
-      "outstandingFields": 1,
-      "fields": [
-        "yamaha-ns-6490.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "martinlogan-motion-40.driverCount"
       ]
     },
     {
@@ -989,13 +950,6 @@
       "outstandingFields": 1,
       "fields": [
         "legacy-mack-6.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.adam-audio.com/en/archived-products/s3a/",
-      "outstandingFields": 1,
-      "fields": [
-        "legacy-adam-1.driverCount"
       ]
     },
     {
@@ -1195,10 +1149,10 @@
       ]
     },
     {
-      "url": "https://www.adam-audio.com/en/s-series/s3v/",
+      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
       "outstandingFields": 1,
       "fields": [
-        "adam-audio-s3v.driverCount"
+        "focal-scala-utopia-evo.active"
       ]
     },
     {

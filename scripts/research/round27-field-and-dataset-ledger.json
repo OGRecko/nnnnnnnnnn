@@ -1,0 +1,68 @@
+{
+  "round": 27,
+  "checkedDate": "2026-10-19",
+  "entries": [
+    {
+      "record": "focal-scala-utopia-evo",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+      "note": "The sheet gives only a recommended amplifier power range (50-500 W); it never states passive, active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "jbl-jrx225",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "note": "The sheet publishes a recommended external amplifier range and passive-cabinet style inputs but never writes passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "kef-q750",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "note": "Only a recommended amplifier power range (15-150 W) is given; no passive/active, powered or built-in amplification wording. Field stays unverified."
+    }
+  ],
+  "elx200_15": {
+    "record": "electro-voice-elx200-15",
+    "frEdition": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+    "enEdition": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
+    "facts": {
+      "frRows": 86,
+      "enRows": 87,
+      "storedRows": 85,
+      "storedAlternateRows": 87,
+      "frMissingHz": [
+        2500
+      ],
+      "enMissingHz": [],
+      "storedMissingHz": [
+        2400,
+        2600
+      ],
+      "storedVsFrDiffs": 9,
+      "storedVsEnDiffs": 61,
+      "frVsEnSharedDiffs": 64,
+      "frMinImpedanceOhm": 1.1,
+      "enMinImpedanceOhm": 6.5,
+      "statedMinImpedanceOhm": 7.0,
+      "statedMinus3dB": "77 Hz - 16 kHz",
+      "statedMinus10dB": "52 Hz - 19 kHz",
+      "frTableMinus3dB": "75 Hz - 13 kHz",
+      "frTableMinus10dB": "55 Hz - 17 kHz",
+      "enTableMinus3dB": "80 Hz - 17 kHz",
+      "enTableMinus10dB": "55 Hz - 19 kHz"
+    },
+    "verdict": "STILL_IRRECONCILABLE",
+    "reason": "Two official editions of the same sheet disagree with each other and with both stored series. The FR edition has 86 rows (2400 and 2600 Hz, no 2500 Hz); the EN edition has 87 rows (2400, 2500, 2600 Hz) and 64 of the shared sensitivity values differ. The FR impedance column falls to 1.1 ohm, below the 7.0 ohm minimum the same sheet publishes; the EN column peaks at 110 ohm at 2500 Hz. The stored 85-point series matches neither edition (9 values differ from FR, 61 from EN, and it has 2500 Hz without 2400/2600). Text-derived -3 dB and -10 dB crossings from either table do not reproduce the stated 77 Hz-16 kHz / 52 Hz-19 kHz limits, so the published limits cannot validate the tables either. Response data stays excluded from simulation; no series is adopted and no point is rewritten."
+  },
+  "lsr32": {
+    "resolution": "RESOLVED_VERBATIM_MANUAL_TABLE_20KHZ",
+    "rows": 28,
+    "priorRows": 27
+  }
+}

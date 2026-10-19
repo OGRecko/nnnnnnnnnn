@@ -78,11 +78,15 @@ def main():
                 continue
             prov = rec.get(fr['field'] + 'Provenance') or {}
             pst = prov.get('status', 'MISSING')
-            if fr['outcome'] == 'PROMOTED':
+            if fr['outcome'] in ('PROMOTED', 'CORRECTED'):
                 if pst not in VERIFIED:
-                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} PROMOTED but provenance status is {pst}')
-                if prov.get('source') != u:
-                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} PROMOTED but provenance source is {prov.get("source")!r}')
+                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} {fr["outcome"]} but provenance status is {pst}')
+                expected_source = fr.get('sourceUrl') or st.get('sourceUrl') or u
+                if prov.get('source') != expected_source:
+                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} {fr["outcome"]} but provenance source is {prov.get("source")!r}')
+            elif fr.get('action') == 'RETRACT':
+                if pst != 'UNSOURCED' or rec.get(fr['field']) is not None:
+                    result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} RETRACT but provenance is {pst} / value {rec.get(fr["field"])!r}')
             elif fr['outcome'] in ('NOT_STATED', 'NOT_EXTRACTED', 'SUPPORTED_NOT_PROMOTED', 'INACCESSIBLE', 'CONFLICT'):
                 if pst != CITED:
                     result_warnings.append(f'{u}: {fr["record"]}.{fr["field"]} {fr["outcome"]} but provenance status is {pst}')

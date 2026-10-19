@@ -6959,6 +6959,35 @@
       "sourceClass": "NON_MANUFACTURER_HOST",
       "round": 26,
       "coverage": "SP-BS22-LR page: \"4\" Structured Surface Woofer\"; \"1\" High Efficiency Soft Dome Tweeter\"; specifications \"Configuration 2-way\", \"Woofer 4\"\", \"Tweeter 1\"\", \"Maximum Input Power 80 W\"."
+    },
+    {
+      "url": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf",
+      "host": "www.adam-audio.com",
+      "document": "ADAM Audio S3A archived-product page and its linked operation manual (adam-audio-user-manual-S3A-en-de.pdf, 6 chunks; introduction read)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The archived page has no specification table but links the exact S3A operation manual. The manual states: \"The S3A is a three-way ported active system that uses a single ART tweeter, ensuring full compatibility with the latest expanded high frequency resolution media formats, and two HexaCone-bass/midrange drivers. One woofer acts as a full-range driver with the second woofer joining it only below 150 Hz\". One tweeter + two bass/midrange drivers = 3 transducers. The A and B variants differ only in the left/right placement of the two woofers, not in driver count."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D (4 chunks)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "WL3082: \"The WL3082 input connectors are a pair of Neutrik NL8's wired in parallel ... The WL3082 loudspeaker is not equipped with a crossover network. All signal processing must be done before connecting audio power to the loudspeaker.\" The manual documents only NL8/NL4 audio-power inputs, per-band nominal impedance and continuous power capacity; it lists no mains connection, no amplifier output rating and no gain/level control. WL212-sw: \"The WL212-sw is equipped with two NL8 connectors with pins 1+ and 1- connected to the transducers\", and \"Its two ceramic magnet, 4\" voice coil, 12\" transducers provide 1100 watt continuous power handling capability.\" The subwoofer section never uses the words passive, active, powered or built-in amplification."
     }
   ],
   "openQuestionsForOwner": [
