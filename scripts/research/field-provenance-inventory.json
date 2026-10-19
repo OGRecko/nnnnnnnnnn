@@ -6,16 +6,16 @@
     "live": 3082,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2245,
+      "MANUFACTURER_VERIFIED": 2263,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 290,
+      "CITED_IN_NOTES_UNCHECKED": 272,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 192,
       "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 202
+    "citedUncheckedUrls": 192
   },
   "entries": [
     {
@@ -7785,14 +7785,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged.",
+      "note": "Round 25: The components table lists one 15-inch LF driver and one 3-inch diaphragm compression driver: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lacoustics-arcs-ii",
@@ -7803,14 +7803,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged.",
+      "note": "Round 25: The data sheet states an \"active 2-way design\" driven and bi-amplified by the external LA8 controller, which also supplies the preset processing.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lacoustics-arcs-ii",
@@ -12519,14 +12519,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The W7AE manual documents the 12W7AE as one subwoofer driver: 1 transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-12w7",
@@ -12537,14 +12537,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual gives a recommended amplifier power range for the single driver and no built-in amplifier; the driver is fed by an external amplifier.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-12w7",
@@ -21771,14 +21771,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Appendix C lists two 8-inch LF transducers and one 3-inch compression driver: 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-la-3",
@@ -39195,14 +39195,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The kit uses an in-line passive high-pass filter on the tweeter and a natural-roll-off low-pass on the woofer, driven from the vehicle amplifier; no amplification is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c1-650",
@@ -39303,14 +39303,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The C1-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c2-650",
@@ -39321,14 +39321,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual wires the amplifier output into passive C2 crossover networks (1st-order low-pass, 2nd-order high-pass) that feed the drivers; no amplification is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c2-650",
@@ -39429,14 +39429,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The C2-650 is a 2-way component system built from one 6.5-inch woofer and one 19 mm tweeter per channel: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c3-650",
@@ -39447,14 +39447,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c3-650",
@@ -39555,14 +39555,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c5-650",
@@ -39573,14 +39573,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-c5-650",
@@ -39681,14 +39681,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-10w3v3",
@@ -39699,14 +39699,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual specifies a recommended amplifier power range for one driver and says the speaker is to be used in a bi-amplified system with external amplifiers; no amplifier is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-10w3v3",
@@ -39753,14 +39753,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual covers one subwoofer driver per channel (10W3v3-2/-4/-8 are impedance variants of the same driver): 1 transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-12w3v3",
@@ -39771,14 +39771,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jl-audio-12w3v3",
@@ -39825,14 +39825,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "hertz-dieci-dsk-165-3",
@@ -48105,14 +48105,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manufacturer manual states the input terminals take connections \"from the associated power amplifier(s)\" and offers single-wired, bi-wired or bi-amplified wiring, i.e. the loudspeaker has no built-in amplification.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "revel-ultima-salon2",

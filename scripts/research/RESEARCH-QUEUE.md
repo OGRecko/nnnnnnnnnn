@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **421** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 96 brands.
+Records still needing research: **413** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 96 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **255** fields across **181** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **237** fields across **171** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **192** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -102,13 +102,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-srx835p | JBL | SRX835P (`jbl-srx835p`) | 0 | 2 | 0 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 2 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 2 | 0 |
-| jl-audio-10w3v3 | JL Audio | 10W3v3 (`jl-audio-10w3v3`) | 2 | 0 | 0 |
-| jl-audio-12w3v3 | JL Audio | 12W3v3 (`jl-audio-12w3v3`) | 2 | 0 | 0 |
-| jl-audio-12w7 | JL Audio | 12W7AE-3 (`jl-audio-12w7`) | 2 | 0 | 0 |
-| jl-audio-c1-650 | JL Audio | C1-650 (`jl-audio-c1-650`) | 2 | 0 | 0 |
-| jl-audio-c2-650 | JL Audio | C2-650 (`jl-audio-c2-650`) | 2 | 0 | 0 |
-| jl-audio-c3-650 | JL Audio | C3-650 (`jl-audio-c3-650`) | 2 | 0 | 0 |
-| jl-audio-c5-650 | JL Audio | C5-650 (`jl-audio-c5-650`) | 2 | 0 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
@@ -127,7 +120,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | krk-rokit-5 | KRK | Rokit 5 G1 (`krk-rokit-5`) | 2 | 0 | 0 |
 | krk-rokit-8 | KRK | Rokit 8 G3 (`krk-rokit-8`) | 2 | 0 | 0 |
 | lacoustics-arcs | L-Acoustics | ARCS Wide (`lacoustics-arcs`) | 2 | 0 | 0 |
-| lacoustics-arcs-ii | L-Acoustics | ARCS II (`lacoustics-arcs-ii`) | 2 | 0 | 0 |
 | legacy-bw-3 | Bowers & Wilkins | Matrix 801 (`legacy-bw-3`) | 0 | 0 | 2 |
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
@@ -141,7 +133,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 2 | 0 | 0 |
-| legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 1 | 0 | 1 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
 | legacy-mack-4 | Mackie | CR3 (`legacy-mack-4`) | 0 | 2 | 0 |
 | legacy-mack-5 | Mackie | Thump15 (`legacy-mack-5`) | 0 | 2 | 0 |
@@ -196,7 +187,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | qsc-ks112 | QSC | KS112 (`qsc-ks112`) | 0 | 0 | 2 |
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
 | rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
-| revel-ultima-salon2 | Revel | Ultima Salon2 (`revel-ultima-salon2`) | 1 | 0 | 1 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
@@ -354,6 +344,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |
+| legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 0 | 0 | 1 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |
 | legacy-la-5 | L-Acoustics | K2 (`legacy-la-5`) | 0 | 0 | 1 |
 | lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 1 | 0 | 0 |
@@ -412,6 +403,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | qsc-wl218-sw | QSC | WL218-sw (`qsc-wl218-sw`) | 0 | 1 | 0 |
 | revel-f206 | Revel | F206 (`revel-f206`) | 0 | 0 | 1 |
 | revel-m106 | Revel | M106 (`revel-m106`) | 0 | 0 | 1 |
+| revel-ultima-salon2 | Revel | Ultima Salon2 (`revel-ultima-salon2`) | 0 | 0 | 1 |
 | rockford-fosgate-p3 | Rockford Fosgate | Punch P3D4-12 (Dual 4Ω) (`rockford-fosgate-p3`) | 0 | 0 | 1 |
 | rockford-fosgate-r165x3 | Rockford Fosgate | R165X3 (`rockford-fosgate-r165x3`) | 0 | 0 | 1 |
 | rockford-fosgate-r1675x2 | Rockford Fosgate | R1675X2 (`rockford-fosgate-r1675x2`) | 0 | 0 | 1 |

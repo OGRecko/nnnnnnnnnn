@@ -1301,6 +1301,174 @@
         "https://www.warehousesound.com/r/jblEon15.pdf"
       ],
       "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.sisme.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sisme S.p.A. (Italian L-Acoustics distributor)",
+      "evidence": [
+        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf is an L-Acoustics-branded ARCS II data sheet served from the distributor host; it carries the ARCS II specification table quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf"
+      ],
+      "note": "Distributor host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.customsounds.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Custom Sounds (authorized JL Audio dealer)",
+      "evidence": [
+        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf is JL Audio's own 10W3v3 owner's manual, served verbatim by the dealer; it carries the text quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "tacotunes.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Taco Tunes (authorized JL Audio dealer)",
+      "evidence": [
+        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf is JL Audio's C3-650 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.bobscb.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Bob's Car Audio (authorized JL Audio dealer)",
+      "evidence": [
+        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf is JL Audio's C1-650 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "status": "NOT_MANUFACTURER",
+      "operator": "OnlineCarStereo (authorized JL Audio dealer)",
+      "evidence": [
+        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf is JL Audio's 12W3v3 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "manualzz.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Manualzz (document aggregator)",
+      "evidence": [
+        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet serves an Electro-Voice data sheet as extracted text; the URL is written without the www prefix in the queue."
+      ],
+      "sources": [
+        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "manualmachine.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "ManualMachine (document aggregator)",
+      "evidence": [
+        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/ serves the Spendor SP-100 owner's manual as page images plus extracted text."
+      ],
+      "sources": [
+        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "manualsnet.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Manualsnet (document aggregator)",
+      "evidence": [
+        "https://manualsnet.com/kef/reference-series-model-ls3-5a serves the KEF LS3/5A installation manual text quoted in Round 26."
+      ],
+      "sources": [
+        "https://manualsnet.com/kef/reference-series-model-ls3-5a"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "static1.squarespace.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Squarespace CDN (generic asset host; site owner not identified by the URL)",
+      "evidence": [
+        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf is the Kali Audio LP-6 manual, but the host is a generic CDN and the URL carries no brand domain."
+      ],
+      "sources": [
+        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
+      ],
+      "note": "Generic CDN; support only until brand-host ownership is established."
+    },
+    {
+      "host": "valueelectronics.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Value Electronics (authorized LG dealer)",
+      "evidence": [
+        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf is LG's S95TR spec sheet served by the dealer."
+      ],
+      "sources": [
+        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf"
+      ],
+      "note": "Dealer host; support only."
+    },
+    {
+      "host": "www.zzounds.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "zZounds (authorized Vox retailer)",
+      "evidence": [
+        "https://www.zzounds.com/item--VOXV212 is a retail product page carrying the V212BN spec block quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.zzounds.com/item--VOXV212"
+      ],
+      "note": "Retailer host; support only."
+    },
+    {
+      "host": "www.svconline.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound & Video Contractor (trade press)",
+      "evidence": [
+        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 reproduces a Meyer Sound product announcement."
+      ],
+      "sources": [
+        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663"
+      ],
+      "note": "Trade-press host; support only."
+    },
+    {
+      "host": "www.soundstagehifi.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "SoundStage! Hi-Fi (review publication)",
+      "evidence": [
+        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers carries the review text quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers"
+      ],
+      "note": "Review host; support only."
+    },
+    {
+      "host": "www.mono.no",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Mono AS (Norwegian Sonus faber dealer)",
+      "evidence": [
+        "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf is a Sonus faber Guarneri Evolution data sheet served by the dealer."
+      ],
+      "sources": [
+        "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf"
+      ],
+      "note": "Dealer host; support only."
     }
   ]
 }

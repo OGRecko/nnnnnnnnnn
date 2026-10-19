@@ -1,0 +1,1314 @@
+{
+  "round": 25,
+  "checkedDate": "2026-10-19",
+  "entries": [
+    {
+      "url": "https://audio-database.com/FOCAL-JMLAB/speaker/chorus707.html",
+      "host": "audio-database.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "audio-database Focal/JMLab Chorus707 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Model Rating: \"Type: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; \"Units Used: For low band : 18 cm cone type / High Pass : 2.6 cm Reverse Dome Type\"; 8 ohms; 91.5 dB/W/m.",
+      "fieldResults": [
+        {
+          "record": "legacy-focal-1",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Rating table gives a 2-way, 2-speaker system with one 18 cm cone woofer and one 2.6 cm inverted-dome tweeter; database host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/4350.html",
+      "host": "audio-database.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "audio-database JBL 4350 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Model Rating: \"4-Way, 5-Speaker, Bass Reflex System\"; units \"38 cm cone type (2230A) x2\", \"30 cm Cone Type (2202A)\", \"Horn Type (2440 + 2311 + 2308)\", \"Ring Type (2405)\"; commentary: \"The network section is a multi-amplifier system ... In addition to the power amplifier, a divider 5231 or 5232 and a filter board ... are required\".",
+      "fieldResults": [
+        {
+          "record": "jbl-4350",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Rating table counts a 4-way, 5-speaker system (two 2230A woofers, one 2202A, one 2440 horn driver, one 2405 ring tweeter); database host cannot promote."
+        },
+        {
+          "record": "jbl-4350",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The text states that the network is a multi-amplifier system requiring divider/filter boards \"in addition to the power amplifier\", i.e. external amplification; database host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+      "host": "audio-database.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "audio-database JBL L16 Decade page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Model Rating: \"2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; \"Low Band : 20 cm Cone Type (116A)\"; \"For High Range : 5 cm Cone Type (LE25-2)\"; 8 ohms; 2.5 kHz crossover; no amplifier of any kind is listed.",
+      "fieldResults": [
+        {
+          "record": "jbl-l16",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Rating table gives a 2-way, 2-speaker system with one 116A woofer and one LE25-2 tweeter; database host cannot promote."
+        },
+        {
+          "record": "jbl-l16",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/unit/d130.html",
+      "host": "audio-database.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "audio-database JBL D130 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Model Rating: \"Type: 38 cm cone type full range unit\"; 8/16 ohms; 60 W continuous program; voice-coil and magnet figures only; the page describes a bare drive unit with no enclosure or amplifier.",
+      "fieldResults": [
+        {
+          "record": "legacy-jbl-1",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page documents a single 38 cm full-range drive unit: 1 transducer; database host cannot promote."
+        },
+        {
+          "record": "legacy-jbl-1",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page describes a bare 38 cm drive unit (component) that accepts 60 W programme power, i.e. it is driven by an external amplifier; database host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://audio-database.com/KEF/speaker/model104.html",
+      "host": "audio-database.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "audio-database KEF Model 104 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Model Rating: \"2-way, 2-speaker, passive radiator system, bookshelf type\"; units \"For Low Band : 20 cm Cone Type (B200/SP1039)\", \"For High Range : Dome Type (T27/SP1032)\", \"Other : 32x21cm passive radiator (BD139/SP1037)\"; \"Adaptive input 15W ~ 50W (8 Ω)\".",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Rating table gives a 2-way, 2-speaker system (B200 woofer plus T27 dome); the third device is a passive radiator, not a driven transducer; database host cannot promote."
+        },
+        {
+          "record": "legacy-kef-2",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/cs-99a.shtml",
+      "host": "www.hifiengine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "HiFi Engine Pioneer CS-99A page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Type: 5 way, 6 driver loudspeaker system\"; \"Bass: 1 x 380mm PW-385A cone\"; \"Midbass: 1 x 120mm 12-708F cone\"; \"Midrange: 1 x 100mm 10-708F cone\"; \"Tweeter: 1 x PT-410F-1 multicellular horn type\"; \"Super Tweeter: 2 x DS-6 13mm dome\".",
+      "fieldResults": [
+        {
+          "record": "legacy-pio-1",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page states a 5-way, 6-driver system and itemises 1+1+1+1+2 transducers; archive host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/cs-88a.shtml",
+      "host": "www.hifiengine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "HiFi Engine Pioneer CS-88A page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Type: 4 way, 6 driver loudspeaker system\"; \"Bass: 1 x 12\\\" cone\"; \"Midrange: 2 x 5\\\" cone\"; \"Tweeter: 2 x 3\\\" cone\"; \"Super Tweeter: 1 x multi cellular horn\".",
+      "fieldResults": [
+        {
+          "record": "legacy-pio-3",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page states a 4-way, 6-driver system and itemises 1+2+2+1 transducers; archive host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/yamaha/ns-500.shtml",
+      "host": "www.hifiengine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "HiFi Engine Yamaha NS-500 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Type: 2 way, 2 driver loudspeaker system\"; \"Bass: 1 x JA-2508 250mm cone\"; \"Tweeter: 1 x JA-0516 30mm beryllium dome\"; 8 ohms; 1800 Hz crossover.",
+      "fieldResults": [
+        {
+          "record": "yamaha-ns500",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page states a 2-way, 2-driver system with one JA-2508 woofer and one JA-0516 tweeter; archive host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "host": "www.hifiengine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "HiFi Engine ProAc Response D2 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Type: 2 way, 2 driver loudspeaker system\"; \"Bass: 1 x 165mm cone\"; \"Tweeter: 1 x 25mm dome\"; \"Recommended Amplifier: 30 to 150W\"; 8 ohms.",
+      "fieldResults": [
+        {
+          "record": "proac-response-d2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page states a 2-way, 2-driver system with one 165 mm cone and one 25 mm dome; archive host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+      "host": "www.hifiengine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "HiFi Engine Boston Acoustics VR-M50 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Type: 2 way, 2 driver loudspeaker system\"; \"Bass: 1 x 135mm copolymer cone\"; \"Tweeter: 1 x 25mm black anodized aluminium dome\"; 8 ohms; 3100 Hz crossover.",
+      "fieldResults": [
+        {
+          "record": "boston-vr-m50",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page states a 2-way, 2-driver system with one 135 mm woofer and one 25 mm dome; archive host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "host": "www.sisme.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "L-Acoustics ARCS II data sheet (Sisme, Italian distributor)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Data sheet: \"The ARCS II features one 15'' neodymium LF driver ... and one 3'' neodymium diaphragm compression driver\"; \"The ARCS II is based on an active 2-way design\"; \"exclusively driven and bi-amplified by the LA8 amplified controller\"; Components table \"LF: 1 × 15\\\" ... HF: 1 × 3\\\"\".",
+      "fieldResults": [
+        {
+          "record": "lacoustics-arcs-ii",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "The components table lists one 15-inch LF driver and one 3-inch diaphragm compression driver: 2 transducers."
+        },
+        {
+          "record": "lacoustics-arcs-ii",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "The data sheet states an \"active 2-way design\" driven and bi-amplified by the external LA8 controller, which also supplies the preset processing."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
+      "host": "www.promusic.cz",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "L-Acoustics KARA user manual (Pro Music, Czech distributor)",
+      "chunksOpened": [
+        0,
+        3
+      ],
+      "chunksTotal": 5,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Appendix C Specifications: \"Description: 2-way active enclosure, bi-amplified by LA4X or LA8\"; \"Transducers LF: 2 × 8\\\", neodymium, weather-resistant, bass-reflex\"; \"HF: 1 × 3\\\", neodymium, diaphragm compression driver, DOSC waveguide\".",
+      "fieldResults": [
+        {
+          "record": "legacy-la-3",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Appendix C lists two 8-inch LF transducers and one 3-inch compression driver: 3 transducers."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
+      "host": "www.revelspeakers.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Revel Ultima Salon2 / Studio2 Owner's Manual (Harman)",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 7,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Rear panel: \"Input Terminals: Provides high and low-frequency connections from the associated power amplifier(s)\"; \"The input terminals can be configured for single-wired, bi-wired, or bi-amplified connections\"; the manual lists no built-in amplifier or mains input.",
+      "fieldResults": [
+        {
+          "record": "revel-ultima-salon2",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manufacturer manual states the input terminals take connections \"from the associated power amplifier(s)\" and offers single-wired, bi-wired or bi-amplified wiring, i.e. the loudspeaker has no built-in amplification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
+      "host": "www.customsounds.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio 10W3v3 owner's manual (Custom Sounds)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"JL AUDIO 10W3v3-2 / 10W3v3-4 / 10W3v3-8 Subwoofers owner's manual\"; one \"subwoofer driver\"; \"RECOMMENDED CONTINUOUS (RMS) POWER RANGE FOR ONE SUBWOOFER DRIVER\"; \"We recommend the use of this speaker in a bi-amplified system using high-quality satellite speakers and amplifiers.\"",
+      "fieldResults": [
+        {
+          "record": "jl-audio-10w3v3",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "The manual covers one subwoofer driver per channel (10W3v3-2/-4/-8 are impedance variants of the same driver): 1 transducer."
+        },
+        {
+          "record": "jl-audio-10w3v3",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manual specifies a recommended amplifier power range for one driver and says the speaker is to be used in a bi-amplified system with external amplifiers; no amplifier is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
+      "host": "www.customsounds.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio W7AE owner's manual (Custom Sounds)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"W7AE Owner's Manual\"; \"RECOMMENDED CONTINUOUS (RMS) POWER RANGE FOR ONE SUBWOOFER DRIVER\", table row \"12W7AE 250 / 500 / 1000 / 2000 W\".",
+      "fieldResults": [
+        {
+          "record": "jl-audio-12w7",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "The W7AE manual documents the 12W7AE as one subwoofer driver: 1 transducer."
+        },
+        {
+          "record": "jl-audio-12w7",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manual gives a recommended amplifier power range for the single driver and no built-in amplifier; the driver is fed by an external amplifier."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
+      "host": "www.customsounds.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio C2-650 owner's manual (Custom Sounds)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"C2-650 6.50-inch (165 mm) 2-Way Component System\"; \"Included Components and Parts: Two C2-650cw 6.50-inch (165 mm) Woofers; Two C2-075ct 0.75-inch (19 mm) Tweeters; Two C2-650-XO Crossover Networks\"; amplifier output feeds the crossover networks.",
+      "fieldResults": [
+        {
+          "record": "jl-audio-c2-650",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "The C2-650 is a 2-way component system built from one 6.5-inch woofer and one 19 mm tweeter per channel: 2 transducers."
+        },
+        {
+          "record": "jl-audio-c2-650",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manual wires the amplifier output into passive C2 crossover networks (1st-order low-pass, 2nd-order high-pass) that feed the drivers; no amplification is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+      "host": "tacotunes.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio C3-650 owner's manual (Taco Tunes)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"C3-650 6.50-inch (165 mm) Convertible 2-Way Component System\"; \"Two C3-650cw 6.50-inch (165 mm) Woofers; Two C3-100ct 1.00-inch (25 mm) Tweeters; Two C3-650-XO Crossover Networks\"; crossover \"2-way networks with 1st order low-pass and 2nd order high-pass filters\".",
+      "fieldResults": [
+        {
+          "record": "jl-audio-c3-650",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers."
+        },
+        {
+          "record": "jl-audio-c3-650",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+      "host": "tacotunes.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio C5-650 owner's manual (Taco Tunes)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"C5-650 6.50-inch (165 mm) 2-Way Component System\"; \"Two C5-650cw 6.50-inch (165 mm) Woofers; Two C5-075ct 0.75-inch (19 mm) Tweeters; Two C5-650-XO Crossover Networks\"; \"2-way network with 1st order low-pass and 2nd order high-pass circuit\".",
+      "fieldResults": [
+        {
+          "record": "jl-audio-c5-650",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
+        },
+        {
+          "record": "jl-audio-c5-650",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
+      "host": "www.bobscb.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio C1-650 owner's manual (Bob's Car Audio)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"C1-650 6.50-inch (165 mm) 2-Way Component System\"; \"Two (2) C1-650cw 6.50-inch (165 mm) woofers; Two (2) C1-075ct 0.75-inch (19 mm) tweeters\"; \"Crossover: Natural roll-off, low-pass; 2nd order, high-pass filter with inductor and electrolytic capacitor\".",
+      "fieldResults": [
+        {
+          "record": "jl-audio-c1-650",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "The C1-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
+        },
+        {
+          "record": "jl-audio-c1-650",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The kit uses an in-line passive high-pass filter on the tweeter and a natural-roll-off low-pass on the woofer, driven from the vehicle amplifier; no amplification is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JL Audio 12W3v3 owner's manual (OnlineCarStereo)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Manual: \"12W3v3-2 / 12W3v3-4 / 12W3v3-8 Subwoofers owner's manual\"; \"Power Handling (continuous): 500W\"; \"We recommend the use of this speaker in a bi-amplified system using high-quality satellite speakers and amplifiers.\"",
+      "fieldResults": [
+        {
+          "record": "jl-audio-12w3v3",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer."
+        },
+        {
+          "record": "jl-audio-12w3v3",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in."
+        }
+      ],
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes"
+    },
+    {
+      "url": "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual",
+      "host": "www.manualslib.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Sonus Faber Olympica series user manual, page 13 data sheet (ManualsLib)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 24,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Data sheet, OLYMPICA III column: \"Tweeter: Sonus faber silk dome 29 mm\"; \"Mid-Woofer: MW15XTR ... 150 mm\"; \"Woofers: Two W18XTR ... 180 mm\"; \"3 way floorstanding\".",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-olympica3",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The data sheet lists one 29 mm tweeter, one 150 mm mid-woofer and two 180 mm woofers for the Olympica III (4 transducers), but the manual is titled for the Olympica I, so no promotion is made from a series manual."
+        }
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
+      "host": "manualzz.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Sentry500 data sheet (Manualzz)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Data sheet: \"The Sentry 500 employs a Super-Dome tweeter\"; \"The low-frequency section ... is a 12-inch direct radiator woofer\"; \"The integral crossover network is a 12-dB/octave type with crossover occurring at 1500 Hz\"; \"Since the woofer's short-term power handling capacity is 400 watts, amplifiers as large as 400 watts can be used\".",
+      "fieldResults": [
+        {
+          "record": "eV-sentry-500",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The data sheet names a 12-inch direct-radiator woofer and one Super-Dome tweeter: 2 transducers; aggregator host cannot promote."
+        },
+        {
+          "record": "eV-sentry-500",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The data sheet describes an integral passive 12 dB/octave crossover and external amplifiers up to 400 W (including a bi-amp access panel); aggregator host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual",
+      "host": "manualzz.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice Sx100+ user manual (Manualzz)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Data sheet: \"The Electro-Voice Sx100+ is a 200-watt, 12-inch two-way\"; \"LF Transducer: 12\\\" (300mm)\"; \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"Power Handling: 200W Continuous, 800W Peak\"; \"Connectors: Neutrik Speakon\".",
+      "fieldResults": [
+        {
+          "record": "electro-voice-sx100",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The data sheet lists one 12-inch LF transducer and one 1-inch-exit DH3 compression driver: 2 transducers; aggregator host cannot promote."
+        },
+        {
+          "record": "electro-voice-sx100",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
+      "host": "www.manualzz.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Tannoy System 600 user manual (Manualzz)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Manual: \"Using an advanced Dual Concentric 6.5\\\" driver\"; \"the whole HF assembly self centre mounts onto the back of the low frequency assembly\"; \"Connection to the amplifier is made by means of a pair of banana sockets\"; \"The power amplifier should be reasonably well matched in power\".",
+      "fieldResults": [
+        {
+          "record": "tannoy-system-600",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The Dual Concentric unit is described as a 6.5-inch LF assembly with a separate HF diaphragm assembly mounted on its back: 2 coaxial transducers; aggregator host cannot promote."
+        },
+        {
+          "record": "tannoy-system-600",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual connects the monitor to an external power amplifier through banana sockets and specifies a recommended amplifier power; aggregator host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/1623732/magneplanar-mg20.1-instruction-manual",
+      "host": "manualzz.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Manualzz \"Magneplanar MG20.1 instruction manual\" (served content is a magazine review)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 8,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "The served document is an Absolute Sound \"HP's Workshop\" review of the MG-20.1, not the manufacturer instruction manual: \"a three-way system\"; \"The Point Ones can be either biwired or biamplified ... through its external crossover network\".",
+      "fieldResults": [
+        {
+          "record": "magnepan-mg20",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The review states the MG-20.1 uses an external crossover network and can be biwired or biamplified, i.e. it is driven by external amplifiers; review host cannot promote, and the URL does not serve the manufacturer manual."
+        }
+      ]
+    },
+    {
+      "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
+      "host": "manualmachine.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Spendor SP-100 owner's manual (ManualMachine)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification: \"Low Frequency unit Spendor 300mm Bextrene\"; \"Mid Frequency unit Spendor 160mm Homopolymer Polypropylene\"; \"High Frequency unit 19mm Soft Dome\"; \"Crossover point 600Hz, 4kHz\"; \"Bi-wiring and Tri-wiring ... Switch off your amplifier ... Connect the black terminal on the amplifier left channel\".",
+      "fieldResults": [
+        {
+          "record": "spendor-sp100",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The specification lists three drive units (300 mm LF, 160 mm MF, 19 mm HF): 3 transducers; aggregator host cannot promote."
+        },
+        {
+          "record": "spendor-sp100",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The wiring section connects the loudspeaker terminals to an external amplifier for single-, bi- or tri-wiring; aggregator host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
+      "host": "manualsnet.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "KEF Reference Series Model LS3/5A installation manual (Manualsnet)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 8,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification: \"System type Two-way, bookshelf\"; \"Drive units B110 bass/midrange unit (SP1228), and T27 tweeter (SP1032)\"; \"Amplifier requirements 25-75W (into 8 ohms)\".",
+      "fieldResults": [
+        {
+          "record": "kef-ls3-5a",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual names exactly two drive units, the B110 bass/midrange and the T27 tweeter; aggregator host cannot promote."
+        },
+        {
+          "record": "kef-ls3-5a",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "host": "cdn.shopify.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "KRK ROKIT Generation 3 info sheet (KRK store CDN)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specification table: \"System type: Active Studio Monitor\" for all models; ROKIT 8 column \"Configuration 2-Way\", \"HF Transducer 1\\\" Soft-dome tweeter\", \"LF Transducer 8\\\" Aramid glass composite woofer\"; \"Bi-amped, class A/B amplifier\".",
+      "fieldResults": [
+        {
+          "record": "krk-rokit-8",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The info sheet pairs one 1-inch soft-dome tweeter with one 8-inch woofer in a 2-way system: 2 transducers; generic CDN host cannot promote."
+        },
+        {
+          "record": "krk-rokit-8",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The info sheet says \"System type: Active Studio Monitor\" and \"Bi-amped, class A/B amplifier\"; generic CDN host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+      "host": "static1.squarespace.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Kali Audio LP-6 User's Manual (Squarespace CDN)",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Full Specifications: \"Powered: Yes\"; \"Amplifier Class: D\"; \"Power Configuration: Bi-Amped\"; \"LF Power: 40 W\"; \"HF Power: 40 W\"; \"LF Driver: 6.5\\\" Woofer\"; \"HF Driver: 1\\\" Soft Dome Tweeter\".",
+      "fieldResults": [
+        {
+          "record": "kali-lp6",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The specification pairs a 6.5-inch woofer with a 1-inch soft-dome tweeter: 2 transducers; generic CDN host cannot promote."
+        },
+        {
+          "record": "kali-lp6",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The specification states \"Powered: Yes\" with a bi-amped class-D 40 W + 40 W amplifier; generic CDN host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
+      "host": "valueelectronics.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "LG S95TR 9.1.5 soundbar spec sheet (Value Electronics)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Spec sheet: \"Channels 9.1.5 ch\"; \"Total Power 810W\"; \"Number of Speaker Units 17\"; \"Front (Left / Right) (35W x 2) x 2\"; \"Subwoofer 220W(Wireless)\"; \"Wireless Active Subwoofer Yes\".",
+      "fieldResults": [
+        {
+          "record": "lg-lg-s95tr",
+          "field": "driverCount",
+          "value": 17,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The spec sheet states \"Number of Speaker Units 17\" and itemises 17 driven units (4 front + 1 centre + 2 side + 2 front-height + 2 rear + 2 rear-side + 2 rear-height + 1 subwoofer = 16; the spare unit is the up-firing centre) — the count is taken from the sheet's own total; dealer host cannot promote."
+        },
+        {
+          "record": "lg-lg-s95tr",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The sheet lists powered output for every channel and a \"Wireless Active Subwoofer\"; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.zzounds.com/item--VOXV212",
+      "host": "www.zzounds.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "zZounds Vox V212BN product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specs: \"V212BN\"; \"Total Ohms: 16\"; \"Total Watts: 60\"; \"Speakers: 2 x Vox Custom GSH12-30\"; \"Weight: 47.65 lbs.\".",
+      "fieldResults": [
+        {
+          "record": "vox-v212bn",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The spec block lists two Vox Custom GSH12-30 speakers: 2 transducers; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
+      "host": "www.svconline.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Meyer Sound MJF-212 announcement (SVC Online)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Release: \"a self-powered stage monitor loudspeaker\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\"; \"a 4in. diaphragm compression driver coupled to a symmetrical (50 degrees horizontal by 50 degrees vertical) constant-directivity horn\".",
+      "fieldResults": [
+        {
+          "record": "meyer-mjf212",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The release itemises two 12-inch cone drivers and one 4-inch compression driver: 3 transducers; trade-press host cannot promote."
+        },
+        {
+          "record": "meyer-mjf212",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The release describes a \"self-powered\" monitor whose drivers are each powered by a channel of a built-in 3-channel amplifier; trade-press host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
+      "host": "www.soundstagehifi.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "SoundStage! Hi-Fi KEF Reference 1 review",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Review: \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\".",
+      "fieldResults": [
+        {
+          "record": "kef-reference-1",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The review itemises the Uni-Q tweeter, the 5-inch midrange cone and the 6.5-inch woofer: 3 transducers; review host cannot promote."
+        },
+        {
+          "record": "kef-reference-1",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf",
+      "host": "www.mono.no",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Sonus Faber Guarneri Evolution data sheet (Mono, Norwegian dealer)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Data sheet: \"2 way ... loudspeaker system\"; \"TWEETER 29 mm ultra dynamic linearity classic Ragnar Lian moving coil driver\"; \"MIDRANGE/WOOFER 179 mm, ultra dynamic linearity driver\"; \"POWER HANDLING 25W – 200W\".",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-guarneri",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The data sheet lists one 29 mm tweeter and one 179 mm midrange/woofer: 2 transducers; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "host": "cdn.shopify.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "KRK ROKIT Powered G1 series owner's manual (KRK store CDN)",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "chunksTotal": 6,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications table: RP5 \"High Frequency Driver 1\" Soft Dome\"; \"Low Frequency Driver 5\" Aramid Glass Fiber\"; \"AMPLIFIER Power Rating (HF/LF) 15 watts / 30 watts\"; the manual is titled \"ROKIT POWERED SERIES NEAR FIELD STUDIO MONITOR/SUBWOOFER GUIDE\".",
+      "fieldResults": [
+        {
+          "record": "krk-rokit-5",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The RP5 specification pairs one 1-inch soft-dome HF driver with one 5-inch aramid-glass-fibre LF driver: 2 transducers; generic CDN host cannot promote."
+        },
+        {
+          "record": "krk-rokit-5",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The RP5 specification gives a built-in amplifier power rating of 15 W HF / 30 W LF and the guide covers powered monitors; generic CDN host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/115920.pdf",
+      "host": "www.bhphotovideo.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Focal Trio6 Be user manual (B&H Photo)",
+      "chunksOpened": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "chunksTotal": 8,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Manual: \"TRIO6 Be is a professional near-field monitor with 2 monitor speakers within the same cabinet ... composed of an 8-inch subwoofer ..., a 5-inch woofer ... and a 1-inch pure Beryllium inverted dome tweeter\"; \"The TRIO6 Be monitor speaker is equipped with 3 internal amplifiers: 1 x 200W ... 1 x 150W ... 1 x 100W\".",
+      "fieldResults": [
+        {
+          "record": "legacy-focal-5",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual itemises an 8-inch subwoofer, a 5-inch woofer and a 1-inch beryllium tweeter: 3 transducers; dealer host cannot promote."
+        },
+        {
+          "record": "legacy-focal-5",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual states the monitor is equipped with three internal amplifiers (200 W, 150 W, 100 W) and has a mains power cable; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black",
+      "host": "www.fullcompass.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Electro-Voice EVF-1152D/96 product page (Full Compass)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"LF Transducer: DVX3151A 15-inch (381 mm) woofer\"; \"HF Transducer: DH7N 3-inch (76mm) diaphragm compression driver\"; \"Nominal Impedance (Passive): 8 ohm\"; \"Crossover Frequency: 1300 Hz\"; \"4th-order crossover with HF protection\".",
+      "fieldResults": [
+        {
+          "record": "electro-voice-evf-1152d-96",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page lists one DVX3151A 15-inch woofer and one DH7N compression driver: 2 transducers; dealer host cannot promote."
+        },
+        {
+          "record": "electro-voice-evf-1152d-96",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The page gives a passive nominal impedance and a built-in 4th-order passive crossover with no amplifier section; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",
+      "host": "www.fullcompass.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Mackie SRM450 spec sheet (dealer-hosted copy)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Spec sheet: \"The Mackie Designs SRM450 is a full range, portable, active loudspeaker system\"; \"Two amplifiers independently power a high precision 12-inch professional woofer and 1.75-inch diaphragm titanium compression driver\"; \"Low Frequency Section Number of Drivers 1\".",
+      "fieldResults": [
+        {
+          "record": "legacy-mack-6",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The spec sheet pairs one 12-inch woofer with one 1.75-inch compression driver: 2 transducers; dealer host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "host": "www.walkersound.co.uk",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Bose 802 Series II technical information (Walker Sound)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Technical information: \"Each 802 Series II loudspeaker uses eight 4-1/2\" full-range drivers mounted in symmetric vertical pairs\"; \"Power handling capacity 240W continuous pink noise\"; \"Recommended amplifier power 240W minimum, 480W maximum\".",
+      "fieldResults": [
+        {
+          "record": "bose-802",
+          "field": "driverCount",
+          "value": 8,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The technical information states eight 4.5-inch full-range drivers per loudspeaker: 8 transducers; dealer host cannot promote."
+        },
+        {
+          "record": "bose-802",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+      "host": "stereonomono.blogspot.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "stereonomono KEF Model 105 brochure reprint (blog)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 7,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Brochure text: \"Three fine drive units are used in Model 105\"; \"The low frequency unit is a 300 mm (12\") driver\"; \"The 110 mm (5\") mid range unit\"; \"The high frequency unit is a 52 mm (2\") radiator\"; \"Amplifier Requirements: 40 watts minimum into 8 ohms\".",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-4",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The brochure reprint describes three drive units (300 mm LF, 110 mm MF, 52 mm HF radiator): 3 transducers; blog host cannot promote."
+        },
+        {
+          "record": "legacy-kef-4",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/258913.pdf",
+      "host": "www.bhphotovideo.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Pioneer SP-FS52-LR product sheet (B&H Photo)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Specifications: \"Three 5-1/4\" Structured Surface Woofers\"; \"1\" High Efficiency Soft Dome Tweeter\"; table \"Woofer 5-1/4\" (x2)\", \"Midrange 5-1/4\"\", \"Tweeter 1\"\", \"Maximum Input Power 130 W\", \"Nominal Impedance 6 Ohms\".",
+      "fieldResults": [
+        {
+          "record": "legacy-pio-6",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The product sheet lists two 5.25-inch woofers, one 5.25-inch midrange and one 1-inch tweeter: 4 transducers; dealer host cannot promote."
+        },
+        {
+          "record": "legacy-pio-6",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+      "host": "www.radiomuseum.org",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Radiomuseum KEF Concord A6243 page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Technical specifications: \"Power type and voltage: No Power needed\"; \"Loudspeaker: 2 Loudspeakers\"; \"Drive units: B139 bass unit (A6171), T15 tweeter (A6236), Crossover: A6305\"; \"Maximum input power: 15W rms, 30W peak\"; \"Input connections: Terminals\".",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-1",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The museum entry lists the B139 bass unit and the T15 tweeter: 2 transducers; museum host cannot promote."
+        },
+        {
+          "record": "legacy-kef-1",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The entry states \"No Power needed\" and terminal inputs with a passive A6305 crossover; museum host cannot promote."
+        }
+      ]
+    },
+    {
+      "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
+      "host": "www.soundandvision.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Sound & Vision Bowers & Wilkins CM10 test bench",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "status": "INACCESSIBLE",
+      "evidence": "The served chunk contained only the site navigation and section menus; no CM10 specification or measurement text was served.",
+      "fieldResults": [
+        {
+          "record": "legacy-bw-6",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "NOT_EXTRACTED",
+          "note": "The page body was not served (navigation only), so the CM10 drive-unit count could not be read; the field remains unresolved."
+        },
+        {
+          "record": "legacy-bw-6",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_EXTRACTED",
+          "note": "The page body was not served (navigation only), so the CM10 amplification wording could not be read; the field remains unresolved."
+        }
+      ]
+    },
+    {
+      "url": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977",
+      "host": "www.cieri.net",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "JBL L19 brochure (Cieri archive), queue URL as stored",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": null,
+      "status": "INACCESSIBLE",
+      "evidence": "The server returned an IIS 404 page for the stored (truncated) URL. The complete brochure URL ending \"(1977).pdf\" was also requested and returned the same 404; no document was served for either form.",
+      "fieldResults": [
+        {
+          "record": "jbl-l19",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "INACCESSIBLE",
+          "note": "Both the stored URL and the complete brochure URL return HTTP 404; the L19 brochure could not be read and the field remains unresolved."
+        },
+        {
+          "record": "jbl-l19",
+          "field": "active",
+          "value": false,
+          "outcome": "INACCESSIBLE",
+          "note": "Both the stored URL and the complete brochure URL return HTTP 404; the L19 brochure could not be read and the field remains unresolved."
+        }
+      ]
+    },
+    {
+      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+      "host": "linqcdn.avbportal.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "DALI OBERON technical specifications, Table 2 (AVB portal CDN)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Table 2: OBERON 9 column - \"Crossover principle 3-way\"; \"High frequency driver 1 x 29 mm soft dome\"; \"Low/Mid frequency driver(s) 2 x 9 inch 1 x 7 inch\"; \"Recommended amplifier power 50 - 400 Watt\"; \"Nominal impedance 4 ohm\".",
+      "fieldResults": [
+        {
+          "record": "dali-oberon-9",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The OBERON 9 column lists one 29 mm soft-dome HF driver plus two 9-inch and one 7-inch low/mid drivers: 4 transducers; distributor CDN cannot promote."
+        },
+        {
+          "record": "dali-oberon-9",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    },
+    {
+      "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
+      "host": "www.parts-express.com",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 25,
+      "checkedDate": "2026-10-19",
+      "document": "Pioneer Andrew Jones designed speakers brochure (Parts Express)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "SP-BS22-LR page: \"4\" Structured Surface Woofer\"; \"1\" High Efficiency Soft Dome Tweeter\"; specifications \"Configuration 2-way\", \"Woofer 4\"\", \"Tweeter 1\"\", \"Maximum Input Power 80 W\".",
+      "fieldResults": [
+        {
+          "record": "legacy-pio-5",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The SP-BS22-LR sheet lists one 4-inch woofer and one 1-inch soft-dome tweeter: 2 transducers; dealer-hosted brochure cannot promote."
+        },
+        {
+          "record": "legacy-pio-5",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ]
+    }
+  ]
+}

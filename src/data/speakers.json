@@ -8907,16 +8907,16 @@
     },
     "notes": "Owner decision (2026-10-12): ARCS II is a separate product from the former catalog row 'ARCS' (legacy-la-2), which was removed on 2026-10-12 for lack of an exact-model source. Source: the L-Acoustics ARCS II product datasheet, footer 'ARCS II_SP_EN_2-0/10-11', hosted at https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf (a third-party host; the official l-acoustics.com ARCS II product page was not reached on 2026-10-12, so the copy is treated as THIRD_PARTY_VERIFIED under the authenticated-copy rule, as for Kara). The datasheet identifies the exact model and revision, and the sheet's L-Acoustics branding, WST/LA8 content and specifications are consistent. Stored: full-range active 2-way enclosure; one 15 in neodymium LF with a 4 in coil and one 3 in neodymium HF compression driver (2 transducers in total); nominal impedance 8 ohm LF and 8 ohm HF; usable bandwidth -10 dB 50 Hz to 20 kHz with the [ARCS II] preset. Not stored: the datasheet's maximum SPL is 140 dB at 1 m with the [ARCS II] preset. A second copy of the ARCS II System User Manual is reported to print 142 dB, so the two revisions conflict; no value is stored from either because the maximum SPL has no schema field. RMS power is printed per transducer (LF 600 W, HF 100 W) with no single enclosure rating, so power stays N/A. Sensitivity is not published and stays N/A. The -6 dB coverage is 22.5 deg symmetric x 60 deg asymmetric (-20/+40 deg) and is not an angle-resolved polar, so it is not imported. Weight 50 kg and dimensions are not schema fields.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": null,
-      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The components table lists one 15-inch LF driver and one 3-inch diaphragm compression driver: 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": null,
-      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The data sheet states an \"active 2-way design\" driven and bi-amplified by the external LA8 controller, which also supplies the preset processing."
     }
   },
   {
@@ -13703,14 +13703,16 @@
     },
     "notes": "Exact-model cross-check: JL Audio's W7AE product page (part number 010-03031-00, now hosted on Garmin) identifies this variant as a 12-inch single-3-ohm 12W7AE-3 and explicitly lists Size: 12 inches. The woofer-size field is sourced from that product page, not inferred from the model name. The sensitivity, continuous power handling, impedance, and free-air resonance fields retain their separate source URL, the JL-authored W7AE manual's 12W7AE-3 specification table: https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf. That manual's efficiency label and 1 W/1 m reference are preserved; no frequency-response bound, voice-coil diameter, response curve, or directivity data are claimed. JL Audio product-page source for woofer size: https://www.garmin.com/en-US/p/1669677/pn/010-03031-00/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The W7AE manual documents the 12W7AE as one subwoofer driver: 1 transducer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual gives a recommended amplifier power range for the single driver and no built-in amplifier; the driver is fed by an external amplifier."
     }
   },
   {
@@ -22459,9 +22461,10 @@
     },
     "notes": "Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred. Pass-131 check (2026-10-10): the L-Acoustics KARA product URL (l-acoustics.com/products/kara/) did not resolve to a KARA product page (it redirects to the KARA-ANGARMEX accessory). The KARA vs KARA II identity conflict remains open. Pass-137 check (2026-10-10): the L-Acoustics KARA II manufacturer page and its datasheet (usable bandwidth −10 dB 55 Hz–20 kHz; max SPL 142 dB; LF 2×8 in, HF 1×3 in; 8 Ω; 26 kg) describe KARA II, a different model from this record's KARA. These values are not transferred. No exact KARA manufacturer page was located; the record remains UNVERIFIED with no fields. Pass-143 (2026-10-11) re-check: the copy at https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf is titled 'KARA® / KARAi SYSTEM user manual VERSION 2.1' and carries 'Document reference: KARA_UM_EN_2.1', 'Distribution date: January 7, 2014', '© 2013 L-ACOUSTICS' and the footer 'www.l-acoustics.com'. It is third-party-hosted: PRO MUSIC s.r.o. (promusic.cz) is listed by muzikus.cz as the exclusive distributor of the L-ACOUSTICS brand in the Czech Republic. Model identity: the manual's Appendix C 'KARA' entry is a '2-way active enclosure, bi-amplified by LA4X or LA8' with 'Transducers LF: 2 × 8\", neodymium, weather-resistant, bass-reflex; HF: 1 × 3\", neodymium, diaphragm compression driver, DOSC waveguide' and 'Nominal impedance 8 Ω'. Stored: impedance 8 Ω; woofer 8 in (each LF driver; two per enclosure); driverCount 3 (2 LF + 1 HF). Not stored: RMS power (LF 450 W, HF 80 W, per band); maximum SPL (139 dB, preset-dependent); usable bandwidth 55 Hz–20 kHz (−10 dB, [KARA] preset); sensitivity (not published). Authenticity basis: (a) the manufacturer's document reference, date, copyright and URL on the PDF; (b) the distributor host above; (c) L-Acoustics' official archive page (https://www.l-acoustics.com/archives-product/) lists a 'Kara' documentation ZIP (46.73 MB) on its own storage. That ZIP could not be retrieved (the fetch tool returned HTTP 500 and the sandbox cannot reach the storage host), so the PDF was not matched to the archive contents. Other revisions hosted by third parties (3.1 at premier-ltd.com; 5.0 at static.audiobizz.eu) give the same LF 2 × 8 in, HF 1 × 3 in and 8 Ω. KARA II is not used. The L-Acoustics KARA II datasheet (Pass-137) lists the same LF/HF/impedance values, so those values do not separate the two models. The identity rests on this manual's own KARA entry, not on the numbers. The Pass-131 URL (l-acoustics.com/products/kara/) still redirects to the KARA-ANGARMEX accessory. Status is PARTIALLY_VERIFIED on the basis of this authenticated-copy rule; a future pass with access to the official ZIP can confirm the exact PDF.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: Appendix C lists two 8-inch LF transducers and one 3-inch compression driver: 3 transducers."
     }
   },
   {
@@ -42843,14 +42846,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C1-650 Owner's Manual (the document heading identifies the C1-650 6.50-inch 2-way component system; it is not the C1-650x). The manual specifies 50 W continuous power handling, 4-ohm nominal impedance, 48 Hz–24 kHz ±3 dB system response, a 6.50-inch woofer and a 1.0-inch woofer voice coil. JL labels its acoustic rating 'Efficiency': 90.5 dB @ 1 W/1 m and 96.5 dB @ 1 W/0.5 m; it separately lists 93.0 dB @ 2.83 V/1 m. The stored sensitivity is only the published 1 W/1 m figure; no conversion or impedance-derived normalization is made. The 10–75 W/ch recommended-amplifier range is not stored as scalar power. The manual lists two woofers and two tweeters in the passive kit; driverCount is 2 per speaker side, and active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The C1-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The kit uses an in-line passive high-pass filter on the tweeter and a natural-roll-off low-pass on the woofer, driven from the vehicle amplifier; no amplification is built in."
     }
   },
   {
@@ -42916,14 +42921,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C2-650 Owner's Manual (the document heading identifies the C2-650 6.50-inch 2-way component system; it is not the C2-650x). The manual specifies 60 W continuous power handling, 4-ohm nominal impedance, 59 Hz–22 kHz ±3 dB system response, a 6.50-inch woofer and a 1.0-inch woofer voice coil. JL labels its acoustic rating 'Efficiency': 91.0 dB @ 1 W/1 m and 97.0 dB @ 1 W/0.5 m; it separately lists 94.0 dB @ 2.83 V/1 m. The stored sensitivity is only the published 1 W/1 m figure; no conversion or impedance-derived normalization is made. The 15–100 W/ch recommended-amplifier range is not stored as scalar power. The manual lists two woofers and two tweeters in the passive kit; driverCount is 2 per speaker side, and active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The C2-650 is a 2-way component system built from one 6.5-inch woofer and one 19 mm tweeter per channel: 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual wires the amplifier output into passive C2 crossover networks (1st-order low-pass, 2nd-order high-pass) that feed the drivers; no amplification is built in."
     }
   },
   {
@@ -42989,14 +42996,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C3-650 Owner's Manual: it identifies a 6.50-inch convertible 2-way component system, with two C3-650cw woofers and two C3-100ct tweeters in the kit. It specifies 75 W continuous power handling, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response, 90.0 dB efficiency @ 1 W/1 m, a 6.50-inch woofer and a 1.2-inch (31 mm) woofer voice coil. Sensitivity uses the manual's explicit 1 W/1 m reference; no conversion is made. DriverCount is 2 per speaker side despite the kit being sold as a pair, and active=false reflects the external amplifier and passive crossover network; the convertible coaxial/component mounting option does not change the per-side transducer count. No peak or recommended-amplifier figure is promoted into the scalar power field. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in."
     }
   },
   {
@@ -43062,14 +43071,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C5-650 Owner's Manual (6.50-inch 2-way component system; not the C5-650x). It specifies 75 W continuous power handling, 225 W peak music power, a 25–150 W recommended amplifier range, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response and 89.5 dB efficiency @ 1 W/1 m. It identifies two 6.50-inch woofers per kit and a 1.0-inch woofer voice coil. The stored sensitivity retains the manual's explicit 1 W/1 m reference. Only continuous power handling is stored; peak music power and the recommended-amplifier range are context, not scalar power values. DriverCount is 2 per speaker side for the pair kit; active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in."
     }
   },
   {
@@ -43134,14 +43145,16 @@
     "panel": null,
     "notes": "Fetched the JL Audio 10W3v3 owner's manual; its specification table covers all three exact impedance variants (10W3v3-2, -4, and -8). This unsuffixed family record receives only properties the manual states identically for every variant: 10.0-inch nominal diameter and 500 W continuous power handling, plus one passive subwoofer driver. Variant-specific values are deliberately withheld: the manual lists efficiencies of 85.37/84.87/85.22 dB, free-air resonance of 32.97/31.49/32.60 Hz, and nominal impedance of 2/4/8 ohms for -2/-4/-8 respectively. Sensitivity, impedance, and resonant frequency therefore remain N/A on this unsuffixed record; the manual supplies no voice-coil diameter or full-response bounds/curve/directivity for this record. Source: https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual covers one subwoofer driver per channel (10W3v3-2/-4/-8 are impedance variants of the same driver): 1 transducer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual specifies a recommended amplifier power range for one driver and says the speaker is to be used in a bi-amplified system with external amplifiers; no amplifier is built in."
     }
   },
   {
@@ -43206,14 +43219,16 @@
     "panel": null,
     "notes": "Fetched the JL Audio 12W3v3 owner's manual; its specification table covers all three exact impedance variants (12W3v3-2, -4, and -8). This unsuffixed family record receives only properties the manual states identically for every variant: 12.0-inch nominal diameter and 500 W continuous power handling, plus one passive subwoofer driver. Variant-specific values are deliberately withheld: the manual lists efficiencies of 87.15/87.15/87.02 dB, free-air resonance of 27.97/26.72/28.28 Hz, and nominal impedance of 2/4/8 ohms for -2/-4/-8 respectively. Sensitivity, impedance, and resonant frequency therefore remain N/A on this unsuffixed record; the manual supplies no voice-coil diameter or full-response bounds/curve/directivity for this record. Source: https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in."
     }
   },
   {
@@ -51727,9 +51742,10 @@
     },
     "notes": "The exact Revel Ultima Salon2/Studio2 owner’s manual has separate model tables; only the SALON2 section is used. It specifies 86.4 dB SPL at 2.83 V/1 m (2π anechoic), 6.0 ohms nominal/3.7 ohms minimum, and 23 Hz–45 kHz at −3 dB (4π anechoic). External amplifier terminals/jumpers and the manual’s single-wire/bi-wire/bi-amplifier instructions support passive operation. The manual does not provide a raw response-point or polar dataset suitable for import. The text table used here does not enumerate transducer sizes/count, so those fields remain N/A. Recommended amplifier ranges are not stored as speaker power handling. Source: https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 25: The manufacturer manual states the input terminals take connections \"from the associated power amplifier(s)\" and offers single-wired, bi-wired or bi-amplified wiring, i.e. the loudspeaker has no built-in amplification."
     }
   },
   {

@@ -166,14 +166,6 @@
       ]
     },
     {
-      "url": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "lacoustics-arcs-ii.driverCount",
-        "lacoustics-arcs-ii.active"
-      ]
-    },
-    {
       "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -243,14 +235,6 @@
       "fields": [
         "fostex-6301b.driverCount",
         "fostex-6301b.active"
-      ]
-    },
-    {
-      "url": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-12w7.driverCount",
-        "jl-audio-12w7.active"
       ]
     },
     {
@@ -499,54 +483,6 @@
       "fields": [
         "marshall-marshall-1936.active",
         "marshall-marshall-1936.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-c1-650.active",
-        "jl-audio-c1-650.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-c2-650.active",
-        "jl-audio-c2-650.driverCount"
-      ]
-    },
-    {
-      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-c3-650.active",
-        "jl-audio-c3-650.driverCount"
-      ]
-    },
-    {
-      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-c5-650.active",
-        "jl-audio-c5-650.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-10w3v3.active",
-        "jl-audio-10w3v3.driverCount"
-      ]
-    },
-    {
-      "url": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jl-audio-12w3v3.active",
-        "jl-audio-12w3v3.driverCount"
       ]
     },
     {
@@ -1105,13 +1041,6 @@
       ]
     },
     {
-      "url": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "legacy-la-3.driverCount"
-      ]
-    },
-    {
       "url": "https://www.bowerswilkins.com/en-us/product/system-products/607-s3/300661-01-00-005.html",
       "outstandingFields": 1,
       "fields": [
@@ -1410,13 +1339,6 @@
       "outstandingFields": 1,
       "fields": [
         "ik-multimedia-iloud-mtm.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "revel-ultima-salon2.active"
       ]
     },
     {
