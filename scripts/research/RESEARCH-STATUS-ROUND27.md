@@ -9,11 +9,11 @@
 | --- | --- | --- |
 | Live records in `src/data/speakers.json` | 657 | 657 |
 | `driverCount` + `active` fields | 1314 | 1314 |
-| `MANUFACTURER_VERIFIED` | 696 | **707** |
-| `CITED_IN_NOTES_UNCHECKED` | 237 | **225** |
-| `UNSOURCED` | 192 | **193** |
+| `MANUFACTURER_VERIFIED` | 696 | **710** |
+| `CITED_IN_NOTES_UNCHECKED` | 237 | **221** |
+| `UNSOURCED` | 192 | **194** |
 | No provenance object | 189 | 189 |
-| Provenance queue | 171 URLs / 237 items | **165 URLs / 225 items** |
+| Provenance queue | 171 URLs / 237 items | **162 URLs / 221 items** |
 
 `UNSOURCED` rose by one because the WL212-sw `active` value was retracted rather than replaced.
 
@@ -174,8 +174,17 @@ is `ef482e9` and `origin/main` contains only a source zip, with no `src/data/spe
 the live file, the backlog is **225 cited fields across 165 URLs**, 193 UNSOURCED and 189 with no
 provenance. The work below uses the repository numbers.
 
+## Batch 4 — four more documents, three promotions and one retraction
+
+| Record | Field | Result | Evidence |
+| --- | --- | --- | --- |
+| `legacy-dyn-4` (Evidence Platinum) | driverCount 8 | **promoted** | Spec block: "Tweeter 2x 28mm Esotar2 / Midrange 2x15 cm MSP / Woofer 4x18 cm MSP" = 8 |
+| `dali-opticon-8-mk2` | driverCount 5 | **promoted** | "two 8-inch bass drivers and dedicated 6.5-inch midrange" + hybrid tweeter "marries a 29 mm soft dome tweeter with a custom 17 x 45 mm planar element. Both drivers…" = 5 |
+| `martinlogan-esl-x` | driverCount 3 | **promoted** | "XStat electrostatic transducer" + "Twin 8-inch high-excursion woofers" = 3; `active` NOT_STATED |
+| `sony-sony-ht-a7000` | driverCount 11 → **null** | **retracted** | The Sony spec page states "Amplifier Channels 11ch" and "Speaker Structure 7.1.2ch" but never enumerates drive units; the stored 11 was the amplifier channel count, not a documented driver complement |
+
 ## Remaining in this round
 
-225 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
+221 cited-but-unchecked fields across 162 URLs, 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.

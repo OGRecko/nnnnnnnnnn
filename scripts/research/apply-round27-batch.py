@@ -70,6 +70,9 @@ def main():
             )
             if already:
                 continue
+            if (fr.get('action') == 'RETRACT' and record.get(field) is None
+                    and prov.get('status') == 'UNSOURCED'):
+                continue
             assert record.get(field) == fr['valueBefore'], (
                 f"{fr['record']}.{field} moved after prepare")
             outcome, action = fr['outcome'], fr.get('action')

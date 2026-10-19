@@ -5,14 +5,14 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 225,
-  "uniqueSourceUrls": 165,
+  "uncheckedItems": 221,
+  "uniqueSourceUrls": 162,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 150,
+    "CHECKED_PARTIAL": 147,
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 201,
+    "CHECKED_PARTIAL": 197,
     "INACCESSIBLE": 24
   },
   "statusCounts": [
@@ -44,13 +44,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 80
+      "count": 76
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 443
+      "count": 446
     },
     {
       "field": "driverCount",
@@ -62,7 +62,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 87
+      "count": 88
     }
   ],
   "resolvedSourceUrls": [
@@ -135,6 +135,7 @@
     "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
     "https://dutchdutch.com/pages/8c",
     "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+    "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
     "https://dynaudio.com/home-audio/confidence/confidence-20",
     "https://dynaudio.com/home-audio/confidence/confidence-30",
     "https://dynaudio.com/home-audio/confidence/confidence-50",
@@ -257,6 +258,7 @@
     "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
     "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
     "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+    "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
@@ -339,6 +341,7 @@
     "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
     "https://www.sonos.com/en-us/guides/move",
     "https://www.sonos.com/en-us/guides/submini",
+    "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
     "https://www.svsound.com/products/pb-1000-pro-subwoofer",
     "https://www.svsound.com/products/pb-2000-pro",
     "https://www.svsound.com/products/pb-3000",
@@ -1882,41 +1885,6 @@
       "evidence": "HTTP 404: the listed product URL returns \"Page not found\" for the 1936 2x12 cabinet, so no specification text could be read. No field evidence was obtained; values were not changed."
     },
     {
-      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
-      "host": "www.martinlogan.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "martinlogan-esl-x"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "martinlogan-esl-x",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The page gives recommended amplifier power but no explicit passive/active wording."
-        },
-        {
-          "record": "martinlogan-esl-x",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Page describes an electrostatic panel plus 1 tweeter + 1 midrange + 2 woofers; the schema does not define whether the ESL panel counts, and the stored value is 3. Not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product page: ElectroMotion ESL X is a hybrid electrostatic floorstanding speaker with a Folded Motion XT tweeter, a 6.5 in midrange and two 8 in woofers (three conventional drive units plus the electrostatic panel)."
-    },
-    {
       "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
       "host": "www.parts-express.com",
       "status": "CHECKED_PARTIAL",
@@ -3063,33 +3031,6 @@
       "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in (25 mm) TNF aluminium/magnesium inverted dome tweeter and a 6.5 in (165 mm) Flax mid/bass driver."
     },
     {
-      "url": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
-      "host": "dynaudio.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "legacy-dyn-4"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-dyn-4",
-          "field": "driverCount",
-          "value": 8,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Page lists 1 tweeter + 2 midrange + 2 woofers = 5 drive units, while the stored value is 8. Left unchanged; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Archived product page under \"Passive Products\"; lists one 28 mm Esotar2 tweeter, two 15 cm midrange drivers and two 20 cm woofers per cabinet (five drive units)."
-    },
-    {
       "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
       "host": "eaw.com",
       "status": "CHECKED_PARTIAL",
@@ -4199,33 +4140,6 @@
       "evidence": "Product page technical details: 2-way vented-box system with one 25 mm titanium dome tweeter and one 165 mm Continuum cone bass/midrange driver (two drive units)."
     },
     {
-      "url": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
-      "host": "www.dali-speakers.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "dali-opticon-8-mk2"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "dali-opticon-8-mk2",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Page lists 5 driven units plus 2 passive radiators; the schema does not define whether passive radiators count, and the stored value is 5. Not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product page specifications: 3-way bass-reflex floorstanding speaker with a 29 mm soft-dome tweeter, a 6.5 in midrange and two 8 in woofers plus two 8 in passive radiators. The driven count is five."
-    },
-    {
       "url": "https://www.danleysoundlabs.com/products/sh96/",
       "host": "www.danleysoundlabs.com",
       "status": "CHECKED_PARTIAL",
@@ -4930,6 +4844,33 @@
       "evidence": "Support page: \"The 1960BV 280W 4x12 Base Cabinet features four Celestion G12 Vintage speakers.\" Product details list power handling 280W mono/140W stereo and two inputs."
     },
     {
+      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "host": "www.martinlogan.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "martinlogan-esl-x"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "martinlogan-esl-x",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The page publishes a recommended amplifier power (20-400 W per channel), impedance and bi-wire binding posts but never states passive/active or built-in amplification. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Page: \"The ElectroMotion ESL X features a new larger XStat electrostatic transducer ... Twin 8-inch high-excursion woofers are housed in a non-resonant asymmetrical bass reflex (ported) chamber\". One electrostatic panel plus two 8-inch woofers = 3 drive units. The same page also describes \"a naturally dipolar radiation pattern\"."
+    },
+    {
       "url": "https://www.martinlogan.com/en/product/motion-20",
       "host": "www.martinlogan.com",
       "status": "CHECKED_PARTIAL",
@@ -5144,33 +5085,6 @@
         0
       ],
       "evidence": "System: \"2-way shelf loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Mw Ø 120 mm paper cone driver."
-    },
-    {
-      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
-      "host": "www.sony.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "sony-sony-ht-a7000"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sony-sony-ht-a7000",
-          "field": "driverCount",
-          "value": 11,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Page gives 11 amplifier channels and a 7.1.2 speaker structure but does not state the number of drive units."
-        }
-      ],
-      "checkedRound": 24,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "HT-A7000 specifications: \"Amplifier Channels 11ch\"; \"Speaker Structure 7.1.2ch (Built-in Subwoofer)\"; no transducer count is given."
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",

@@ -126,14 +126,6 @@
       ]
     },
     {
-      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
-      "outstandingFields": 2,
-      "fields": [
-        "martinlogan-esl-x.driverCount",
-        "martinlogan-esl-x.active"
-      ]
-    },
-    {
       "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -601,6 +593,13 @@
       ]
     },
     {
+      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "outstandingFields": 1,
+      "fields": [
+        "martinlogan-esl-x.active"
+      ]
+    },
+    {
       "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
       "outstandingFields": 1,
       "fields": [
@@ -965,13 +964,6 @@
       ]
     },
     {
-      "url": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
-      "outstandingFields": 1,
-      "fields": [
-        "legacy-dyn-4.driverCount"
-      ]
-    },
-    {
       "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
       "outstandingFields": 1,
       "fields": [
@@ -1147,13 +1139,6 @@
       ]
     },
     {
-      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
-      "outstandingFields": 1,
-      "fields": [
-        "sony-sony-ht-a7000.driverCount"
-      ]
-    },
-    {
       "url": "https://www.lg.com/ca_en/speakers/soundbars/s90tr/",
       "outstandingFields": 1,
       "fields": [
@@ -1249,13 +1234,6 @@
       "outstandingFields": 1,
       "fields": [
         "sonus-faber-lumina-iii.active"
-      ]
-    },
-    {
-      "url": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
-      "outstandingFields": 1,
-      "fields": [
-        "dali-opticon-8-mk2.driverCount"
       ]
     },
     {

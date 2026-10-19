@@ -6,16 +6,16 @@
     "live": 3083,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2275,
+      "MANUFACTURER_VERIFIED": 2278,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 260,
+      "CITED_IN_NOTES_UNCHECKED": 256,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "UNSOURCED": 193,
+      "UNSOURCED": 194,
       "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 186
+    "citedUncheckedUrls": 183
   },
   "entries": [
     {
@@ -5535,14 +5535,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact page states one XStat electrostatic transducer plus \"Twin 8-inch high-excursion woofers\": 3 drive units, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "martinlogan-esl-x",
@@ -21069,14 +21069,14 @@
       "field": "driverCount",
       "value": 8,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact Dynaudio specification block states 2x 28 mm Esotar2 tweeter, 2x15 cm MSP midrange and 4x18 cm MSP woofer: 8 drive units, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-dyn-4",
@@ -37603,24 +37603,6 @@
       "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
-      "speakerId": "sony-sony-ht-a7000",
-      "brand": "Sony",
-      "model": "Sony HT-A7000",
-      "location": "LIVE",
-      "archiveFile": null,
-      "field": "driverCount",
-      "value": 11,
-      "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
-      "sourceType": null,
-      "reference": null,
-      "note": null,
-      "nullField": false,
-      "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
-    },
-    {
       "speakerId": "sony-sony-ht-a5000",
       "brand": "Sony",
       "model": "Sony HT-A5000",
@@ -43371,14 +43353,14 @@
       "field": "driverCount",
       "value": 5,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The exact page enumerates two 8-inch bass drivers, one 6.5-inch midrange and a hybrid tweeter module that \"marries a 29 mm soft dome tweeter with a custom 17 x 45 mm planar element. Both drivers are mounted...\": 5 drive units, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "dali-rubicon-2",
@@ -54644,6 +54626,24 @@
       "sourceType": null,
       "reference": null,
       "note": null,
+      "nullField": true,
+      "lastCheckedDate": null,
+      "checkOutcome": "NOT_CHECKED"
+    },
+    {
+      "speakerId": "sony-sony-ht-a7000",
+      "brand": "Sony",
+      "model": "Sony HT-A7000",
+      "location": "LIVE",
+      "archiveFile": null,
+      "field": "driverCount",
+      "value": null,
+      "unit": null,
+      "storedStatus": "UNSOURCED",
+      "source": null,
+      "sourceType": null,
+      "reference": null,
+      "note": "Round 27: The specifications page states 11 amplifier channels and a 7.1.2-channel speaker structure, but never enumerates drive units. The stored 11 is the amplifier channel count, not a documented driver complement, so the value is removed rather than kept as an unsupported inference.",
       "nullField": true,
       "lastCheckedDate": null,
       "checkOutcome": "NOT_CHECKED"

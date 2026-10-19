@@ -6481,9 +6481,10 @@
     },
     "notes": "Manufacturer data: 41 Hz–22 kHz ±3 dB; 91 dB @ 2.83 V/m; 6 Ω nominal; 1.6 Ω @ 20 kHz; 20–400 W recommended amplification; two 8 in woofers plus an electrostatic panel. Structured power withheld: the exact source publishes a recommended-amplifier range (20–400 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.martinlogan.com/en/product/electromotion-esl-x.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact page states one XStat electrostatic transducer plus \"Twin 8-inch high-excursion woofers\": 3 drive units, matching the stored value."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -21930,9 +21931,10 @@
     },
     "notes": "Exact discontinued Dynaudio Evidence Platinum manufacturer specification: 89 dB sensitivity at 2.83 V/1 m, 550 W IEC long-term power handling, 4-ohm rated impedance, 28 Hz–25 kHz at +/- 3 dB, two 28 mm Esotar2 tweeters, two 15 cm MSP midrange drivers, and four 18 cm MSP woofers (eight transducers total). The product page links the model-specific Evidence Platinum user manual, which instructs connection to an external amplifier; active is false. This is the original Evidence Platinum, not the 2026 Collector's Edition. Published frequency limits are retained only; no response points or directivity dataset are imported. Source page: https://dynaudio.com/discontinued-models/evidence/evidence-platinum; exact-model manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_evidence_evidence_platinum_en.pdf?hsLang=en.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact Dynaudio specification block states 2x 28 mm Esotar2 tweeter, 2x15 cm MSP midrange and 4x18 cm MSP woofer: 8 drive units, matching the stored value."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
@@ -41181,13 +41183,14 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": 11,
+    "driverCount": null,
     "panel": null,
     "notes": "Sony official HT-A7000 specification page (sony.com): 7.1.2ch soundbar with built-in subwoofer; amplifier channels 11ch; 'Power Output (Total)' 500 W (basis not stated, so stored only as amplifier_output with that caveat). Driver count 11 is derived from Sony's stated configuration on the regional HT-A7000 page: two up-firing speakers, two beam tweeters, five front speakers, and a built-in dual subwoofer (2+2+5+2). Sony's 'amplifier channels 11ch' figure is not used as a driver count on its own. No sensitivity, impedance, or frequency response is published on the page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
-      "sourceType": null
+      "status": "UNSOURCED",
+      "source": null,
+      "sourceType": null,
+      "note": "Round 27: The specifications page states 11 amplifier channels and a 7.1.2-channel speaker structure, but never enumerates drive units. The stored 11 is the amplifier channel count, not a documented driver complement, so the value is removed rather than kept as an unsupported inference."
     }
   },
   {
@@ -46449,9 +46452,10 @@
     "panel": null,
     "notes": "DALI's exact OPTICON 8 MK2 product specification lists 38 Hz–30 kHz frequency range (±3 dB), 88.5 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, two 8-inch bass drivers, one 6½-inch midrange driver, one 29 mm soft-dome tweeter and one 17 × 45 mm planar tweeter (5 drive units). The published 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The exact page enumerates two 8-inch bass drivers, one 6.5-inch midrange and a hybrid tweeter module that \"marries a 29 mm soft dome tweeter with a custom 17 x 45 mm planar element. Both drivers are mounted...\": 5 drive units, matching the stored value."
     }
   },
   {

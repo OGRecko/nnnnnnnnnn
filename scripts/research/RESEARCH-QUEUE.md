@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **410** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 94 brands.
+Records still needing research: **409** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 94 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **225** fields across **165** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **193** fields (no source recorded).
+- CITED_IN_NOTES_UNCHECKED: **221** fields across **162** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **194** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -39,7 +39,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
 | dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 2 | 0 | 0 |
 | dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 2 | 0 | 0 |
-| dali-opticon-8-mk2 | DALI | Opticon 8 MK2 (`dali-opticon-8-mk2`) | 1 | 0 | 1 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | dynaudio-lyd-48 | Dynaudio | LYD 48 (`dynaudio-lyd-48`) | 0 | 2 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
@@ -150,7 +149,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
 | martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
-| martinlogan-esl-x | MartinLogan | ElectroMotion ESL X (`martinlogan-esl-x`) | 2 | 0 | 0 |
 | meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
 | meyer-sound-leopard | Meyer Sound | LEOPARD (`meyer-sound-leopard`) | 0 | 2 | 0 |
 | meyer-sound-lina | Meyer Sound | LINA (`meyer-sound-lina`) | 0 | 2 | 0 |
@@ -190,7 +188,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonus-faber-sonetto-v | Sonus Faber | Sonetto V (`sonus-faber-sonetto-v`) | 0 | 0 | 2 |
 | sony-sony-ht-a3000 | Sony | Sony HT-A3000 (`sony-sony-ht-a3000`) | 0 | 0 | 2 |
 | sony-sony-ht-a5000 | Sony | Sony HT-A5000 (`sony-sony-ht-a5000`) | 0 | 0 | 2 |
-| sony-sony-ht-a7000 | Sony | Sony HT-A7000 (`sony-sony-ht-a7000`) | 1 | 0 | 1 |
+| sony-sony-ht-a7000 | Sony | Sony HT-A7000 (`sony-sony-ht-a7000`) | 0 | 1 | 1 |
 | spendor-sp100 | Spendor | SP100 (`spendor-sp100`) | 2 | 0 | 0 |
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 (`tannoy-monitor-gold`) | 0 | 2 | 0 |
 | tannoy-system-600 | Tannoy | System 600 (`tannoy-system-600`) | 2 | 0 | 0 |
@@ -251,6 +249,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-oberon7 | Dali | Oberon 7 (`dali-oberon7`) | 1 | 0 | 0 |
 | dali-opticon-2-mk2 | DALI | Opticon 2 MK2 (`dali-opticon-2-mk2`) | 0 | 0 | 1 |
 | dali-opticon-6-mk2 | DALI | Opticon 6 MK2 (`dali-opticon-6-mk2`) | 0 | 0 | 1 |
+| dali-opticon-8-mk2 | DALI | Opticon 8 MK2 (`dali-opticon-8-mk2`) | 0 | 0 | 1 |
 | dali-rubicon-2 | DALI | Rubicon 2 (`dali-rubicon-2`) | 0 | 0 | 1 |
 | dali-rubicon-6 | DALI | Rubicon 6 (`dali-rubicon-6`) | 0 | 0 | 1 |
 | dali-rubicon-8 | DALI | Rubicon 8 (`dali-rubicon-8`) | 0 | 0 | 1 |
@@ -328,7 +327,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-dyn-1 | Dynaudio | Contour 1.3 (`legacy-dyn-1`) | 0 | 0 | 1 |
 | legacy-dyn-2 | Dynaudio | Special Twenty-Five (`legacy-dyn-2`) | 0 | 0 | 1 |
 | legacy-dyn-3 | Dynaudio | Confidence C1 (`legacy-dyn-3`) | 0 | 0 | 1 |
-| legacy-dyn-4 | Dynaudio | Evidence Platinum (`legacy-dyn-4`) | 1 | 0 | 0 |
 | legacy-focal-2 | Focal | Electra 1027Be (`legacy-focal-2`) | 1 | 0 | 0 |
 | legacy-focal-8 | Focal | Aria 906 (`legacy-focal-8`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
@@ -357,6 +355,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | marshall-marshall-mx212 | Marshall | Marshall MX212 (`marshall-marshall-mx212`) | 1 | 0 | 0 |
 | marshall-marshall-stanmore-iii | Marshall | Marshall Stanmore III (`marshall-marshall-stanmore-iii`) | 0 | 0 | 1 |
 | marshall-marshall-woburn-iii | Marshall | Marshall Woburn III (`marshall-marshall-woburn-iii`) | 0 | 0 | 1 |
+| martinlogan-esl-x | MartinLogan | ElectroMotion ESL X (`martinlogan-esl-x`) | 1 | 0 | 0 |
 | martinlogan-motion-20 | MartinLogan | Motion 20 (`martinlogan-motion-20`) | 1 | 0 | 0 |
 | martinlogan-motion-40 | MartinLogan | Motion 40 (`martinlogan-motion-40`) | 0 | 0 | 1 |
 | martinlogan-motion-60xt | MartinLogan | Motion 60XT (`martinlogan-motion-60xt`) | 1 | 0 | 0 |

@@ -275,6 +275,54 @@
       "valueKept": false,
       "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
       "note": "The archive PDF URL returns only a redirect notice; no passive/active statement is available. Field left unchanged."
+    },
+    {
+      "record": "legacy-dyn-4",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 8,
+      "valueAfter": 8,
+      "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+      "note": "The exact Dynaudio specification block states 2x 28 mm Esotar2 tweeter, 2x15 cm MSP midrange and 4x18 cm MSP woofer: 8 drive units, matching the stored value."
+    },
+    {
+      "record": "dali-opticon-8-mk2",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 5,
+      "valueAfter": 5,
+      "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+      "note": "The exact page enumerates two 8-inch bass drivers, one 6.5-inch midrange and a hybrid tweeter module that \"marries a 29 mm soft dome tweeter with a custom 17 x 45 mm planar element. Both drivers are mounted...\": 5 drive units, matching the stored value."
+    },
+    {
+      "record": "martinlogan-esl-x",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "note": "The exact page states one XStat electrostatic transducer plus \"Twin 8-inch high-excursion woofers\": 3 drive units, matching the stored value."
+    },
+    {
+      "record": "sony-sony-ht-a7000",
+      "field": "driverCount",
+      "outcome": "RETRACTED",
+      "action": "RETRACT",
+      "valueBefore": 11,
+      "valueAfter": null,
+      "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+      "note": "The specifications page states 11 amplifier channels and a 7.1.2-channel speaker structure, but never enumerates drive units. The stored 11 is the amplifier channel count, not a documented driver complement, so the value is removed rather than kept as an unsupported inference."
+    },
+    {
+      "record": "martinlogan-esl-x",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "note": "The page publishes a recommended amplifier power (20-400 W per channel), impedance and bi-wire binding posts but never states passive/active or built-in amplification. Field stays unverified."
     }
   ],
   "elx200_15": {

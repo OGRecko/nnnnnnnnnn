@@ -609,6 +609,106 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02"
+    },
+    {
+      "id": "legacy-dyn-4",
+      "field": "driverCount",
+      "value": 8,
+      "before": {
+        "value": 8,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 8,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact Dynaudio specification block states 2x 28 mm Esotar2 tweeter, 2x15 cm MSP midrange and 4x18 cm MSP woofer: 8 drive units, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum"
+    },
+    {
+      "id": "dali-opticon-8-mk2",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "value": 5,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 5,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact page enumerates two 8-inch bass drivers, one 6.5-inch midrange and a hybrid tweeter module that \"marries a 29 mm soft dome tweeter with a custom 17 x 45 mm planar element. Both drivers are mounted...\": 5 drive units, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/"
+    },
+    {
+      "id": "martinlogan-esl-x",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact page states one XStat electrostatic transducer plus \"Twin 8-inch high-excursion woofers\": 3 drive units, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.martinlogan.com/en/product/electromotion-esl-x"
+    },
+    {
+      "id": "sony-sony-ht-a7000",
+      "field": "driverCount",
+      "value": null,
+      "before": {
+        "value": 11,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 27: The specifications page states 11 amplifier channels and a 7.1.2-channel speaker structure, but never enumerates drive units. The stored 11 is the amplifier channel count, not a documented driver complement, so the value is removed rather than kept as an unsupported inference."
+        }
+      },
+      "round": 27,
+      "action": "RETRACT",
+      "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications"
     }
   ]
 }
