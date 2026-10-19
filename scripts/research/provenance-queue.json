@@ -5,30 +5,30 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 390,
-  "uniqueSourceUrls": 255,
+  "uncheckedItems": 302,
+  "uniqueSourceUrls": 204,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 75,
-    "INACCESSIBLE": 5,
-    "OPEN": 175
+    "CHECKED_PARTIAL": 92,
+    "INACCESSIBLE": 7,
+    "OPEN": 105
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 88,
-    "INACCESSIBLE": 11,
-    "OPEN": 291
+    "CHECKED_PARTIAL": 108,
+    "INACCESSIBLE": 14,
+    "OPEN": 180
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 196
+      "count": 170
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 214
+      "count": 240
     },
     {
       "field": "active",
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 194
+      "count": 132
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 329
+      "count": 391
     },
     {
       "field": "driverCount",
@@ -127,8 +127,13 @@
     "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
     "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
     "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+    "https://audison.com/product/av-k6/",
+    "https://audison.com/product/th-k2-ii-a-coro-2/",
+    "https://avantonepro.com/en/products/mixcube-passive",
+    "https://barefootsound.com/footprint03/",
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
     "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+    "https://dutchdutch.com/pages/8c",
     "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
     "https://dynaudio.com/home-audio/confidence/confidence-20",
     "https://dynaudio.com/home-audio/confidence/confidence-30",
@@ -156,17 +161,21 @@
     "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
     "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
     "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+    "https://martin-audio.com/products/archive/w8lm",
     "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
     "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
     "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
     "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
     "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
     "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+    "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
     "https://orangeamps.com/en-us/products/ppc108",
     "https://orangeamps.com/en-us/products/ppc112",
     "https://orangeamps.com/en-us/products/ppc212",
     "https://orangeamps.com/en-us/products/ppc212v",
     "https://orangeamps.com/en-us/products/ppc412",
+    "https://pioneer-car.eu/ts-d65c/ts-d65c",
+    "https://pioneer-car.eu/ts-z65f/ts-z65f",
     "https://pmc-speakers.com/studio/active/result6",
     "https://pmc-speakers.com/studio/pmc-6-2/",
     "https://pmc-speakers.com/studio/pmc-8-2/",
@@ -176,6 +185,14 @@
     "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
     "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
     "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+    "https://rockfordfosgate.com/products/details/p3d4-12/",
+    "https://rockfordfosgate.com/products/details/r165x3/",
+    "https://rockfordfosgate.com/products/details/r1675x2/",
+    "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+    "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+    "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+    "https://support.apple.com/en-us/111843",
+    "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
     "https://us.kef.com/products/ls50-meta",
     "https://us.kef.com/products/lsx-2",
     "https://us.kef.com/products/r3-meta",
@@ -183,6 +200,10 @@
     "https://us.kef.com/products/reference-1-bookshelf-speaker",
     "https://us.kef.com/products/reference-3-floorstanding-speaker",
     "https://us.kef.com/products/reference-5-floorstanding-speaker",
+    "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+    "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+    "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+    "https://voidacoustics.com/products/air/air8/",
     "https://voxamps.com/product/v212c-extension-cabinet/",
     "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
     "https://www.adam-audio.com/en/a-series/a44h/",
@@ -196,7 +217,9 @@
     "https://www.adam-audio.com/en/t-series/t5v/",
     "https://www.adam-audio.com/en/t-series/t7v/",
     "https://www.adam-audio.com/en/t-series/t8v/",
+    "https://www.auratoneaudio.com/products",
     "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+    "https://www.behringer.com/en/products/0316-AAI",
     "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
     "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
     "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
@@ -221,6 +244,7 @@
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
     "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
     "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+    "https://www.devialet.com/en-us/soundbar/dione/",
     "https://www.electrovoice.com/product/zlx-12-g2",
     "https://www.electrovoice.com/product/zlx-15-g2",
     "https://www.electrovoice.com/product/zlx-8-g2",
@@ -230,8 +254,20 @@
     "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
     "https://www.genelec.com/1237a",
     "https://www.genelec.com/8361a",
+    "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+    "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+    "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+    "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+    "https://www.kicker.com/47KSC650",
+    "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+    "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+    "https://www.kicker.com/ds-coaxial-speakers-65",
     "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+    "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+    "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
     "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+    "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+    "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
     "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
     "https://www.l-acoustics.com/products/k1/",
     "https://www.l-acoustics.com/products/k2/",
@@ -247,17 +283,32 @@
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
+    "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+    "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
+    "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+    "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+    "https://www.presonus.com/products/eris-e45-studio-monitor",
     "https://www.psbspeakers.com/products/synchrony-t600-tower",
     "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
     "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
+    "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+    "https://www.rcf.it/en/products/product-detail/nx-45-a",
     "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
+    "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+    "https://www.sonos.com/en-us/guides/submini",
     "https://www.svsound.com/products/pb-1000-pro-subwoofer",
     "https://www.svsound.com/products/pb-2000-pro",
+    "https://www.svsound.com/products/pb-3000",
+    "https://www.svsound.com/products/pb-4000",
+    "https://www.svsound.com/products/pb16-ultra",
     "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+    "https://www.svsound.com/products/sb-2000-pro",
+    "https://www.svsound.com/products/sb-3000",
+    "https://www.svsound.com/products/sb-4000",
     "https://www.svsound.com/products/sb16-ultra",
     "https://www.wharfedale.co.uk/products/diamond-12-0",
     "https://www.wharfedale.co.uk/products/diamond-12-2",
@@ -581,75 +632,9 @@
       "evidence": null
     },
     {
-      "url": "https://audison.com/product/apk-165/",
-      "host": "audison.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "audison-prima-apk-165"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "audison-prima-apk-165",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "audison-prima-apk-165",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://avantonepro.com/en/products/mixcube-passive",
-      "host": "avantonepro.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "ath-avantone-mixcube"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "ath-avantone-mixcube",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "ath-avantone-mixcube",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
       "host": "bangolufsenrmaskillgohel.blob.core.windows.net",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 2,
       "records": [
         "bang-olufsen-beosound-balance"
@@ -663,54 +648,23 @@
           "record": "bang-olufsen-beosound-balance",
           "field": "active",
           "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         },
         {
           "record": "bang-olufsen-beosound-balance",
           "field": "driverCount",
           "value": 7,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://barefootsound.com/footprint03/",
-      "host": "barefootsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "barefoot-footprint03"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
       ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "barefoot-footprint03",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "barefoot-footprint03",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "Beosound Balance technical page: \"SPEAKER DRIVERS 2 x 5,25\\\" woofer drivers; 2 x 3\\\" fullrange drivers; 2 x 2\\\" full range drivers; 1 x ¾\\\" tweeter\"; \"POWER AMPLIFIERS 2 x Class D at 200 W for woofer; 4 x Class D at 100 W for full range; 1 x Class D at 80 W for tweeter\"."
     },
     {
       "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
@@ -750,7 +704,7 @@
     {
       "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
       "host": "cdn.shopify.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 2,
       "records": [
         "krk-7000"
@@ -764,21 +718,23 @@
           "record": "krk-7000",
           "field": "active",
           "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Sheet states an 8-ohm passive crossover and 150 W power handling, but never says passive/unpowered or that no amplifier is built in."
         },
         {
           "record": "krk-7000",
           "field": "driverCount",
           "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "7000B spec sheet: \"The components are comprised of a 7-inch Kevlar woofer and a 1-inch Kevlar dome tweeter\"; \"Drivers: 7\\\" kevlar/1\\\" kevlar\"; \"Crossover: Passive 2-way\"; \"Nominal Impedance: 8 ohms\"; \"Max. Power Handling: 150W\"."
     },
     {
       "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
@@ -903,72 +859,6 @@
           "record": "yamaha-dxs12",
           "field": "driverCount",
           "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
-      "host": "eaw.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "eaw-kf760"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "eaw-kf760",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "eaw-kf760",
-          "field": "driverCount",
-          "value": 6,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://funktion-one.com/product/res-2/",
-      "host": "funktion-one.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "funktion-one-res2"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "funktion-one-res2",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "funktion-one-res2",
-          "field": "driverCount",
-          "value": 3,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -1381,39 +1271,6 @@
       "evidence": null
     },
     {
-      "url": "https://martin-audio.com/products/archive/w8lm",
-      "host": "martin-audio.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "legacy-ma-3"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-ma-3",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "legacy-ma-3",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://martin-audio.com/products/loudspeakers/mla",
       "host": "martin-audio.com",
       "status": "OPEN",
@@ -1536,105 +1393,6 @@
         },
         {
           "record": "legacy-bose-7",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
-      "host": "products.bose.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "bose-301"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "bose-301",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "bose-301",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
-      "host": "products.bose.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "legacy-bose-2"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-bose-2",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "legacy-bose-2",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
-      "host": "products.bose.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "bose-virtually-invisible-791"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "bose-virtually-invisible-791",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "bose-virtually-invisible-791",
           "field": "driverCount",
           "value": 3,
           "recordedOutcome": null,
@@ -1781,7 +1539,7 @@
     {
       "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
       "host": "tcfurlong.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 2,
       "records": [
         "fostex-6301b"
@@ -1795,21 +1553,23 @@
           "record": "fostex-6301b",
           "field": "active",
           "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         },
         {
           "record": "fostex-6301b",
           "field": "driverCount",
           "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\"."
     },
     {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
@@ -1847,42 +1607,9 @@
       "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
     },
     {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
-      "host": "trianglehifi.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "triangle-comete-ez"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "triangle-comete-ez",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "triangle-comete-ez",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
       "host": "trianglehifi.com",
-      "status": "OPEN",
+      "status": "INACCESSIBLE",
       "items": 2,
       "records": [
         "triangle-borea-br02"
@@ -1896,87 +1623,23 @@
           "record": "triangle-borea-br02",
           "field": "active",
           "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Requested product URL redirected to the trianglehifi.us home page; no model specification shown."
         },
         {
           "record": "triangle-borea-br02",
           "field": "driverCount",
           "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Requested product URL redirected to the trianglehifi.us home page; no model specification shown."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
-      "host": "trianglehifi.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "triangle-borea-br03"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        1
       ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "triangle-borea-br03",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "triangle-borea-br03",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
-      "host": "us.sennheiser-hearing.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "sennheiser-ambeo-soundbar-max"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sennheiser-ambeo-soundbar-max",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "sennheiser-ambeo-soundbar-max",
-          "field": "driverCount",
-          "value": 13,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "The requested /products/enceinte-bibliotheque-hi-fi-borea-br02 URL redirected to the trianglehifi.us storefront home page; no BR02 specification text was served, so neither field could be read."
     },
     {
       "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
@@ -2078,39 +1741,6 @@
       "evidence": null
     },
     {
-      "url": "https://voidacoustics.com/products/air/air8/",
-      "host": "voidacoustics.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "void-air-8"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "void-air-8",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "void-air-8",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://www.adam-audio.com/en/a-series/a8h/",
       "host": "www.adam-audio.com",
       "status": "CHECKED_PARTIAL",
@@ -2167,105 +1797,6 @@
         },
         {
           "record": "alpine-s-s65",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.auratoneaudio.com/products",
-      "host": "www.auratoneaudio.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "auratone-5c"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "auratone-5c",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "auratone-5c",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.behringer.com/en/products/0313-ACS",
-      "host": "www.behringer.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "behringer-b215xl"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "behringer-b215xl",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "behringer-b215xl",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.behringer.com/en/products/0316-AAI",
-      "host": "www.behringer.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "behringer-truth-b2031"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "behringer-truth-b2031",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "behringer-truth-b2031",
           "field": "driverCount",
           "value": 2,
           "recordedOutcome": null,
@@ -2509,39 +2040,6 @@
       "evidence": null
     },
     {
-      "url": "https://www.danleysoundlabs.com/products/sh96/",
-      "host": "www.danleysoundlabs.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "danley-sh96"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "danley-sh96",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "danley-sh96",
-          "field": "driverCount",
-          "value": 11,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
       "host": "www.dasaudio.com",
       "status": "OPEN",
@@ -2598,39 +2096,6 @@
           "record": "dandb-t10",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.devialet.com/en-us/soundbar/dione/",
-      "host": "www.devialet.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "devialet-dione"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "devialet-dione",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "devialet-dione",
-          "field": "driverCount",
-          "value": 17,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -3025,237 +2490,6 @@
         },
         {
           "record": "electro-voice-evf-1152d-96",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
-      "host": "www.jbl.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "jbl-flip6"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-flip6",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "jbl-flip6",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
-      "host": "www.jbl.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "jbl-partybox-1000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-partybox-1000",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "jbl-partybox-1000",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
-      "host": "www.jbl.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "jbl-charge5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-charge5",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "jbl-charge5",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
-      "host": "www.krkmusic.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "krk-rokit-5-g4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-rokit-5-g4",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "krk-rokit-5-g4",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
-      "host": "www.krkmusic.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "krk-rokit-7-g4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-rokit-7-g4",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "krk-rokit-7-g4",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
-      "host": "www.krkmusic.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "krk-v4-s4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-v4-s4",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "krk-v4-s4",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
-      "host": "www.krkmusic.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "krk-v6-s4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-v6-s4",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "krk-v6-s4",
           "field": "driverCount",
           "value": 2,
           "recordedOutcome": null,
@@ -3705,72 +2939,6 @@
       "evidence": "HTTP 404: the listed product URL returns \"Page not found\" for the 1936 2x12 cabinet, so no specification text could be read. No field evidence was obtained; values were not changed."
     },
     {
-      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
-      "host": "www.marshall.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "marshall-marshall-1960b"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "marshall-marshall-1960b",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "marshall-marshall-1960b",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
-      "host": "www.marshall.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "marshall-marshall-1960bv"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "marshall-marshall-1960bv",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "marshall-marshall-1960bv",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
       "host": "www.martinlogan.com",
       "status": "CHECKED_PARTIAL",
@@ -3804,39 +2972,6 @@
         0
       ],
       "evidence": "Product page: ElectroMotion ESL X is a hybrid electrostatic floorstanding speaker with a Folded Motion XT tweeter, a 6.5 in midrange and two 8 in woofers (three conventional drive units plus the electrostatic panel)."
-    },
-    {
-      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
-      "host": "www.paradigm.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "paradigm-monitor-11"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "paradigm-monitor-11",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "paradigm-monitor-11",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
     },
     {
       "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
@@ -3905,39 +3040,6 @@
         0
       ],
       "evidence": "The queued archive URL no longer resolves: the page returns the site error message \"Sorry, we've got our wires crossed.\" (product removed from the current catalogue). No specification text could be read; values were not changed."
-    },
-    {
-      "url": "https://www.presonus.com/products/eris-e45-studio-monitor",
-      "host": "www.presonus.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "presonus-eris-4-5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "presonus-eris-4-5",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "presonus-eris-4-5",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
     },
     {
       "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
@@ -4039,39 +3141,6 @@
       "evidence": null
     },
     {
-      "url": "https://www.rcf.it/en/products/product-detail/nx-45-a",
-      "host": "www.rcf.it",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "rcf-nx45a"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "rcf-nx45a",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "rcf-nx45a",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
       "host": "www.sisme.com",
       "status": "OPEN",
@@ -4126,39 +3195,6 @@
         },
         {
           "record": "legacy-sonos-5",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.sonos.com/en-us/guides/submini",
-      "host": "www.sonos.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "sonos-sub-mini"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sonos-sub-mini",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "sonos-sub-mini",
           "field": "driverCount",
           "value": 2,
           "recordedOutcome": null,
@@ -4462,204 +3498,6 @@
           "record": "meyer-mjf212",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-3000",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-pb-3000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-pb-3000",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-pb-3000",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-4000",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-pb-4000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-pb-4000",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-pb-4000",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/pb16-ultra",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-pb16-ultra"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-pb16-ultra",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-pb16-ultra",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/sb-2000-pro",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-sb-2000-pro"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-sb-2000-pro",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-sb-2000-pro",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/sb-3000",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-sb-3000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-sb-3000",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-sb-3000",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.svsound.com/products/sb-4000",
-      "host": "www.svsound.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "svs-sb4000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "svs-sb4000",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "svs-sb4000",
-          "field": "driverCount",
-          "value": 1,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -5166,54 +4004,31 @@
       "evidence": null
     },
     {
-      "url": "https://audison.com/product/av-k6/",
+      "url": "https://audison.com/product/apk-165/",
       "host": "audison.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "audison-voce-av-k6"
+        "audison-prima-apk-165"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "audison-voce-av-k6",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "audison-prima-apk-165",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page describes a passive-crossover component kit but never states passive/unpowered or that no amplifier is included."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://audison.com/product/th-k2-ii-a-coro-2/",
-      "host": "audison.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "audison-thesis-th-k2-ii-a"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
       ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "audison-thesis-th-k2-ii-a",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "APK 165 page: \"Kit 2 way 4 ohm | AP 1 + AP 6.5 + Crossover\"; \"The two-way system features an AP 1 tweeter and AP 6.5 woofer\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 26 mm (1 in)\"."
     },
     {
       "url": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
@@ -5243,7 +4058,7 @@
     {
       "url": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
       "host": "cdn.shopify.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
         "rel-s812"
@@ -5256,14 +4071,16 @@
           "record": "rel-s812",
           "field": "active",
           "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "S/812 specifications: \"TYPE Front-firing active woofer, down-firing passive radiator\"; \"ACTIVE DRIVER SIZE & MATERIAL 12 in., 300 mm\"; \"POWER OUTPUT 800 watts (RMS)\"; \"AMPLIFIER TYPE NextGen5 Class D\"."
     },
     {
       "url": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
@@ -5347,31 +4164,6 @@
       "evidence": "Product sheet: 2-way bass-reflex bookshelf speaker with a 1 in (25 mm) TNF aluminium/magnesium inverted dome tweeter and a 6.5 in (165 mm) Flax mid/bass driver."
     },
     {
-      "url": "https://dutchdutch.com/pages/8c",
-      "host": "dutchdutch.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "dutch-and-dutch-8c"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "dutch-and-dutch-8c",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
       "host": "dynaudio.com",
       "status": "CHECKED_PARTIAL",
@@ -5397,6 +4189,60 @@
         0
       ],
       "evidence": "Archived product page under \"Passive Products\"; lists one 28 mm Esotar2 tweeter, two 15 cm midrange drivers and two 20 cm woofers per cabinet (five drive units)."
+    },
+    {
+      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+      "host": "eaw.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "eaw-kf760"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "eaw-kf760",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Sheet says \"Powering: Tri-amplified\" (external amplification) but never states passive/unpowered or that no amplifier is built in."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "KF760 \"PHYSICAL\": \"System Configuration 3-way, full range\"; \"Powering Tri-amplified\"; \"LF Subsystem 2x 12-in woofers, horn-loaded\"; \"MF Subsystem 2x 10-in cone ... horn-loaded\"; \"HF Subsystem 2x 2-in exit/3-in voice coil compression driver, horn-loaded\"."
+    },
+    {
+      "url": "https://funktion-one.com/product/res-2/",
+      "host": "funktion-one.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "funktion-one-res2"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "funktion-one-res2",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page says \"Three-way bi-amped (passive HF)\" - external amplification implied but no explicit passive/unpowered or built-in-amplifier wording."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Res 2 technical specification: driver rows \"15\\\"\" (28Hz-250Hz, 8Ω, 400W AES) and \"8\\\" + 1\\\"\" (250Hz-Up, 12Ω, 250W AES); features list \"Three-way bi-amped (passive HF)\"; connectors \"2 x Neutrik NL4\"."
     },
     {
       "url": "https://global.jbl.com/JBLL100CLASSICUAM.html",
@@ -5961,154 +4807,86 @@
       "evidence": "Product sheet: 3-way bass-reflex floorstanding speaker with a 1 in IHL beryllium tweeter, a 6.5 in \"W\" midrange and two 8.25 in \"W\" woofers (four drive units)."
     },
     {
-      "url": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
-      "host": "newsroom.sonos.com",
-      "status": "OPEN",
+      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+      "host": "products.bose.com",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "sonos-play1"
+        "bose-301"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "sonos-play1",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "bose-301",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Guide only gives amplifier compatibility (10-150 W/ch, 8 ohms); no explicit passive/unpowered or built-in-amplifier wording."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Technical information, \"Driver complement\": \"One (1) 8-inch (20 cm) woofer\", \"One (1) 3-inch (7.6 cm) high-sensitivity tweeter\", \"One (1) 2-inch (5 cm) high-sensitivity tweeter\"."
     },
     {
-      "url": "https://pioneer-car.eu/ts-d65c/ts-d65c",
-      "host": "pioneer-car.eu",
-      "status": "OPEN",
+      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+      "host": "products.bose.com",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "pioneer-ts-d65c"
+        "legacy-bose-2"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "pioneer-ts-d65c",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "legacy-bose-2",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Manual describes connecting the speaker to an external amplifier and fusing it, but never uses passive/unpowered wording or states that no amplifier is built in."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Manual section III \"Design Features\": \"The BOSE Model 501 Direct/Reflecting speaker system incorporates a ten-inch woofer and two three-inch tweeters\"."
     },
     {
-      "url": "https://pioneer-car.eu/ts-z65f/ts-z65f",
-      "host": "pioneer-car.eu",
-      "status": "OPEN",
+      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+      "host": "products.bose.com",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "pioneer-ts-z65f"
+        "bose-virtually-invisible-791"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "pioneer-ts-z65f",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "bose-virtually-invisible-791",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Guide gives only amplifier compatibility (10-100 W, 4-8 ohms) and 50 W power handling; no explicit passive wording."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://rockfordfosgate.com/products/details/p3d4-12/",
-      "host": "rockfordfosgate.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "rockford-fosgate-p3"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        3
       ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "rockford-fosgate-p3",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://rockfordfosgate.com/products/details/r165x3/",
-      "host": "rockfordfosgate.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "rockford-fosgate-r165x3"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "rockford-fosgate-r165x3",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://rockfordfosgate.com/products/details/r1675x2/",
-      "host": "rockfordfosgate.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "rockford-fosgate-r1675x2"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "rockford-fosgate-r1675x2",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "Technical information, \"Driver complement\": \"Two (2) 1\\\" (2.54 cm) dome tweeters configured in an array\" and \"One (1) 7\\\" (17.8 cm) high-excursion woofer\"."
     },
     {
       "url": "https://rockfordfosgate.com/products/details/t1650-s/",
@@ -6161,104 +4939,31 @@
       "evidence": null
     },
     {
-      "url": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
-      "host": "static.hertz-audio.com",
-      "status": "OPEN",
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+      "host": "trianglehifi.com",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "hertz-dieci-dsk-165-3"
+        "triangle-borea-br03"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "hertz-dieci-dsk-165-3",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "triangle-borea-br03",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives only recommended amplifier power and impedance; no explicit passive/unpowered wording."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
-      "host": "static.hertz-audio.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "hertz-mille-pro-mpk-165-3"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        2
       ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "hertz-mille-pro-mpk-165-3",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
-      "host": "static.hertz-audio.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "hertz-cento-ck-165"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "hertz-cento-ck-165",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://support.apple.com/en-us/111843",
-      "host": "support.apple.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "apple-homepod"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "apple-homepod",
-          "field": "driverCount",
-          "value": 6,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "BR03 \"Driver informations\": \"2 Drivers: 1 x 25mm silk dome tweeter; 1 x 16 cm midwoofer with natural cellulose pulp membrane\"; \"Crossover: 2 Ways\"; recommended amplifier power 25-130 W (8 ohms)."
     },
     {
       "url": "https://us.kef.com/products/blade-two",
@@ -6288,31 +4993,6 @@
       "evidence": "Product specifications: 3-way bass reflex with one 25 mm (1 in) MAT vented dome tweeter, one 125 mm (5 in) Uni-Q midrange and four 165 mm (6.5 in) aluminium bass drivers."
     },
     {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
-      "host": "usa.yamaha.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "yamaha-ns-5000"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "yamaha-ns-5000",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "host": "usa.yamaha.com",
       "status": "CHECKED_PARTIAL",
@@ -6338,31 +5018,6 @@
         0
       ],
       "evidence": "Driver: 8\" cone woofer, 4\" cone mid-range, 7/8\" balanced dome tweeter (three drivers). Nominal impedance 8 ohms; sensitivity 90 dB/2.83 V/m; nominal input 70 W, maximum 140 W; 45 Hz - 23 kHz. US product only."
-    },
-    {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
-      "host": "usa.yamaha.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "yamaha-ns-777"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "yamaha-ns-777",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
     },
     {
       "url": "https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf",
@@ -6496,6 +5151,33 @@
       "evidence": null
     },
     {
+      "url": "https://www.behringer.com/en/products/0313-ACS",
+      "host": "www.behringer.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "behringer-b215xl"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "behringer-b215xl",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives power handling and parallel inputs for an external power amp but no explicit passive/unpowered or built-in-amplifier wording."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "B215XL page headline: \"1000W 2-Way PA Speaker System with 15\\\" Woofer and 1.75\\\" Titanium Compression Driver\"; copy describes \"15\\\" long-excursion Low-Frequency (LF)\" and \"1.75\\\" titanium-diaphragm High-Frequency (HF) compression drivers\" and parallel inputs for a power amp."
+    },
+    {
       "url": "https://www.bowerswilkins.com/en-us/product/loudspeakers/603-s3/300659.html",
       "host": "www.bowerswilkins.com",
       "status": "CHECKED_PARTIAL",
@@ -6602,6 +5284,33 @@
         0
       ],
       "evidence": "Product page specifications: 3-way bass-reflex floorstanding speaker with a 29 mm soft-dome tweeter, a 6.5 in midrange and two 8 in woofers plus two 8 in passive radiators. The driven count is five."
+    },
+    {
+      "url": "https://www.danleysoundlabs.com/products/sh96/",
+      "host": "www.danleysoundlabs.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "danley-sh96"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "danley-sh96",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives an 8-ohm impedance and a 1400 W continuous power rating but never states passive/unpowered or built-in amplification."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "SH96 page: \"four 15-inch drivers, six 4-inch mid-range drivers and a 1.4-inch-high frequency driver - that makes a jaw-dropping 11 drivers coupled to a single horn\"; \"Driver Complement: four 15\\\" woofers; six 4\\\" Mid Range; one 1.4\\\" High Freq\"; \"Power Rating 1400 Watts Continuous\"."
     },
     {
       "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
@@ -6856,7 +5565,7 @@
     {
       "url": "https://www.ikmultimedia.com/news/?id=iloudmtm",
       "host": "www.ikmultimedia.com",
-      "status": "OPEN",
+      "status": "INACCESSIBLE",
       "items": 1,
       "records": [
         "ik-multimedia-iloud-mtm"
@@ -6869,14 +5578,16 @@
           "record": "ik-multimedia-iloud-mtm",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Recorded URL no longer serves the iLoud MTM article; blog index carries no driver specification."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "The recorded news URL now redirects to the general IK Multimedia blog index; the requested article id=iloudmtm is not present and no iLoud MTM specification text is served at this URL."
     },
     {
       "url": "https://www.jbl.com/HDI-3800.html",
@@ -6906,31 +5617,6 @@
       "evidence": "Specification table: High Frequency Transducer \"1-inch (25mm) Teonex compression driver\"; Low / Mid Frequency Transducers \"Three 8-inch (200mm) ... woofers\"; description calls it a 2½-way design with \"triple 8-inch\" woofers."
     },
     {
-      "url": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
-      "host": "www.kenwood.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "kenwood-kfc-1666s"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kenwood-kfc-1666s",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
       "url": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
       "host": "www.kenwood.com",
       "status": "OPEN",
@@ -6946,106 +5632,6 @@
           "record": "kenwood-excelon-kfc-xp6903c",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.kicker.com/47KSC650",
-      "host": "www.kicker.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "kicker-47ksc6504"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kicker-47ksc6504",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
-      "host": "www.kicker.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "kicker-46csc654"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kicker-46csc654",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
-      "host": "www.kicker.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "kicker-46css674"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kicker-46css674",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.kicker.com/ds-coaxial-speakers-65",
-      "host": "www.kicker.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "kicker-43dsc6504"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kicker-43dsc6504",
-          "field": "driverCount",
-          "value": 2,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -7270,6 +5856,60 @@
       "evidence": "Support page product details: \"The 1960AV 280W 4x12 Angled Cabinet features four Celestion G12 Vintage speakers\"; power handling 280W mono, 140W stereo; impedance 16/4Ω mono, 8Ω stereo."
     },
     {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+      "host": "www.marshall.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "marshall-marshall-1960b"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "marshall-marshall-1960b",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives only enclosure power handling (300W mono/150W stereo); it never states passive, unpowered or that an amplifier is absent."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Support page: \"The 1960B 300W 4x12 Base Cabinet features four Celestion G12T-75 speakers.\" Product details list power handling 300W mono/150W stereo and two inputs; no amplifier or passive/unpowered wording."
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+      "host": "www.marshall.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "marshall-marshall-1960bv"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "marshall-marshall-1960bv",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives only enclosure power handling; no explicit passive/unpowered or amplifier wording."
+        }
+      ],
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Support page: \"The 1960BV 280W 4x12 Base Cabinet features four Celestion G12 Vintage speakers.\" Product details list power handling 280W mono/140W stereo and two inputs."
+    },
+    {
       "url": "https://www.martinlogan.com/en/product/motion-20",
       "host": "www.martinlogan.com",
       "status": "CHECKED_PARTIAL",
@@ -7401,104 +6041,31 @@
       "evidence": null
     },
     {
-      "url": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
-      "host": "www.polkaudio.com",
-      "status": "OPEN",
+      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
+      "host": "www.paradigm.com",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
-        "polk-rti-a7"
+        "paradigm-monitor-11"
       ],
       "fields": [
-        "driverCount"
+        "active"
       ],
       "outstanding": [
         {
-          "record": "polk-rti-a7",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "record": "paradigm-monitor-11",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Specifications give impedance and crossover data only; no explicit passive/powered wording."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
-      "host": "www.polkaudio.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "polk-signature-s50"
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
       ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "polk-signature-s50",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
-      "host": "www.polkaudio.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "polk-signature-s15"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "polk-signature-s15",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
-      "host": "www.polkaudio.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "polk-rc85i"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "polk-rc85i",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "evidence": "Monitor SE 6000F specifications: \"DESIGN 5-driver, 3-way bass reflex, floorstanding\"; \"HIGH FREQUENCY DRIVER 1\\\" X-PAL dome\"; \"MIDRANGE FREQUENCY DRIVER 5-1/2\\\"\"; \"LOW FREQUENCY DRIVER Three 5-1/2\\\"\"."
     },
     {
       "url": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
@@ -7516,31 +6083,6 @@
           "record": "legacy-la-3",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
-      "host": "www.qacoustics.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "q-acoustics-3030i"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "q-acoustics-3030i",
-          "field": "driverCount",
-          "value": 2,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -7616,31 +6158,6 @@
           "record": "revel-ultima-salon2",
           "field": "active",
           "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
-      "host": "www.revelspeakers.com",
-      "status": "OPEN",
-      "items": 1,
-      "records": [
-        "revel-m106"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "revel-m106",
-          "field": "driverCount",
-          "value": 2,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -7734,7 +6251,7 @@
     {
       "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
       "host": "www.sony.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
         "sony-sony-ht-a7000"
@@ -7747,14 +6264,16 @@
           "record": "sony-sony-ht-a7000",
           "field": "driverCount",
           "value": 11,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Page gives 11 amplifier channels and a 7.1.2 speaker structure but does not state the number of drive units."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 24,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "HT-A7000 specifications: \"Amplifier Channels 11ch\"; \"Speaker Structure 7.1.2ch (Built-in Subwoofer)\"; no transducer count is given."
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",

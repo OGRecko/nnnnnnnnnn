@@ -110,38 +110,6 @@
       ]
     },
     {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-charge5.driverCount",
-        "jbl-charge5.active"
-      ]
-    },
-    {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-flip6.driverCount",
-        "jbl-flip6.active"
-      ]
-    },
-    {
-      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-partybox-1000.driverCount",
-        "jbl-partybox-1000.active"
-      ]
-    },
-    {
-      "url": "https://www.sonos.com/en-us/guides/submini",
-      "outstandingFields": 2,
-      "fields": [
-        "sonos-sub-mini.driverCount",
-        "sonos-sub-mini.active"
-      ]
-    },
-    {
       "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
       "outstandingFields": 2,
       "fields": [
@@ -166,27 +134,11 @@
       ]
     },
     {
-      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
-      "outstandingFields": 2,
-      "fields": [
-        "paradigm-monitor-11.driverCount",
-        "paradigm-monitor-11.active"
-      ]
-    },
-    {
       "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
       "outstandingFields": 2,
       "fields": [
         "elac-uni-fi-ub5.driverCount",
         "elac-uni-fi-ub5.active"
-      ]
-    },
-    {
-      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "bose-virtually-invisible-791.driverCount",
-        "bose-virtually-invisible-791.active"
       ]
     },
     {
@@ -203,14 +155,6 @@
       "fields": [
         "presonus-eris-e5.driverCount",
         "presonus-eris-e5.active"
-      ]
-    },
-    {
-      "url": "https://avantonepro.com/en/products/mixcube-passive",
-      "outstandingFields": 2,
-      "fields": [
-        "ath-avantone-mixcube.driverCount",
-        "ath-avantone-mixcube.active"
       ]
     },
     {
@@ -251,30 +195,6 @@
       "fields": [
         "nexo-ps15.driverCount",
         "nexo-ps15.active"
-      ]
-    },
-    {
-      "url": "https://funktion-one.com/product/res-2/",
-      "outstandingFields": 2,
-      "fields": [
-        "funktion-one-res2.driverCount",
-        "funktion-one-res2.active"
-      ]
-    },
-    {
-      "url": "https://www.rcf.it/en/products/product-detail/nx-45-a",
-      "outstandingFields": 2,
-      "fields": [
-        "rcf-nx45a.driverCount",
-        "rcf-nx45a.active"
-      ]
-    },
-    {
-      "url": "https://www.behringer.com/en/products/0313-ACS",
-      "outstandingFields": 2,
-      "fields": [
-        "behringer-b215xl.driverCount",
-        "behringer-b215xl.active"
       ]
     },
     {
@@ -358,27 +278,11 @@
       ]
     },
     {
-      "url": "https://www.auratoneaudio.com/products",
-      "outstandingFields": 2,
-      "fields": [
-        "auratone-5c.driverCount",
-        "auratone-5c.active"
-      ]
-    },
-    {
       "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
       "outstandingFields": 2,
       "fields": [
         "fostex-6301b.driverCount",
         "fostex-6301b.active"
-      ]
-    },
-    {
-      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "bose-301.driverCount",
-        "bose-301.active"
       ]
     },
     {
@@ -390,43 +294,11 @@
       ]
     },
     {
-      "url": "https://www.behringer.com/en/products/0316-AAI",
-      "outstandingFields": 2,
-      "fields": [
-        "behringer-truth-b2031.driverCount",
-        "behringer-truth-b2031.active"
-      ]
-    },
-    {
-      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "eaw-kf760.driverCount",
-        "eaw-kf760.active"
-      ]
-    },
-    {
       "url": "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
       "outstandingFields": 2,
       "fields": [
         "adamson-e15.driverCount",
         "adamson-e15.active"
-      ]
-    },
-    {
-      "url": "https://voidacoustics.com/products/air/air8/",
-      "outstandingFields": 2,
-      "fields": [
-        "void-air-8.driverCount",
-        "void-air-8.active"
-      ]
-    },
-    {
-      "url": "https://www.danleysoundlabs.com/products/sh96/",
-      "outstandingFields": 2,
-      "fields": [
-        "danley-sh96.driverCount",
-        "danley-sh96.active"
       ]
     },
     {
@@ -499,14 +371,6 @@
       "fields": [
         "adam-a8h.driverCount",
         "adam-a8h.active"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/pb16-ultra",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-pb16-ultra.driverCount",
-        "svs-pb16-ultra.active"
       ]
     },
     {
@@ -630,27 +494,11 @@
       ]
     },
     {
-      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "legacy-bose-2.driverCount",
-        "legacy-bose-2.active"
-      ]
-    },
-    {
       "url": "https://products.bose.com/pdf/customer_service/owners/251_guide.pdf",
       "outstandingFields": 2,
       "fields": [
         "legacy-bose-7.driverCount",
         "legacy-bose-7.active"
-      ]
-    },
-    {
-      "url": "https://martin-audio.com/products/archive/w8lm",
-      "outstandingFields": 2,
-      "fields": [
-        "legacy-ma-3.driverCount",
-        "legacy-ma-3.active"
       ]
     },
     {
@@ -766,46 +614,6 @@
       ]
     },
     {
-      "url": "https://www.svsound.com/products/sb-2000-pro",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-sb-2000-pro.active",
-        "svs-sb-2000-pro.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/sb-3000",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-sb-3000.active",
-        "svs-sb-3000.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/sb-4000",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-sb4000.active",
-        "svs-sb4000.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-3000",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-pb-3000.active",
-        "svs-pb-3000.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.svsound.com/products/pb-4000",
-      "outstandingFields": 2,
-      "fields": [
-        "svs-pb-4000.active",
-        "svs-pb-4000.driverCount"
-      ]
-    },
-    {
       "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -835,22 +643,6 @@
       "fields": [
         "lg-lg-sc9s.active",
         "lg-lg-sc9s.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-1960b.active",
-        "marshall-marshall-1960b.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
-      "outstandingFields": 2,
-      "fields": [
-        "marshall-marshall-1960bv.active",
-        "marshall-marshall-1960bv.driverCount"
       ]
     },
     {
@@ -926,14 +718,6 @@
       ]
     },
     {
-      "url": "https://audison.com/product/apk-165/",
-      "outstandingFields": 2,
-      "fields": [
-        "audison-prima-apk-165.active",
-        "audison-prima-apk-165.driverCount"
-      ]
-    },
-    {
       "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
       "outstandingFields": 2,
       "fields": [
@@ -982,83 +766,11 @@
       ]
     },
     {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
-      "outstandingFields": 2,
-      "fields": [
-        "triangle-borea-br03.active",
-        "triangle-borea-br03.driverCount"
-      ]
-    },
-    {
-      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
-      "outstandingFields": 2,
-      "fields": [
-        "triangle-comete-ez.active",
-        "triangle-comete-ez.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.presonus.com/products/eris-e45-studio-monitor",
-      "outstandingFields": 2,
-      "fields": [
-        "presonus-eris-4-5.active",
-        "presonus-eris-4-5.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-rokit-5-g4.active",
-        "krk-rokit-5-g4.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-rokit-7-g4.active",
-        "krk-rokit-7-g4.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-v4-s4.active",
-        "krk-v4-s4.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
-      "outstandingFields": 2,
-      "fields": [
-        "krk-v6-s4.active",
-        "krk-v6-s4.driverCount"
-      ]
-    },
-    {
       "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
       "outstandingFields": 2,
       "fields": [
         "bang-olufsen-beosound-balance.active",
         "bang-olufsen-beosound-balance.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.devialet.com/en-us/soundbar/dione/",
-      "outstandingFields": 2,
-      "fields": [
-        "devialet-dione.active",
-        "devialet-dione.driverCount"
-      ]
-    },
-    {
-      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
-      "outstandingFields": 2,
-      "fields": [
-        "sennheiser-ambeo-soundbar-max.active",
-        "sennheiser-ambeo-soundbar-max.driverCount"
       ]
     },
     {
@@ -1075,14 +787,6 @@
       "fields": [
         "sennheiser-ambeo-mini.active",
         "sennheiser-ambeo-mini.driverCount"
-      ]
-    },
-    {
-      "url": "https://barefootsound.com/footprint03/",
-      "outstandingFields": 2,
-      "fields": [
-        "barefoot-footprint03.driverCount",
-        "barefoot-footprint03.active"
       ]
     },
     {
@@ -1201,13 +905,6 @@
       ]
     },
     {
-      "url": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-rti-a7.driverCount"
-      ]
-    },
-    {
       "url": "https://www.martinlogan.com/en/product/motion-60xt",
       "outstandingFields": 1,
       "fields": [
@@ -1215,10 +912,10 @@
       ]
     },
     {
-      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
       "outstandingFields": 1,
       "fields": [
-        "revel-m106.driverCount"
+        "paradigm-monitor-11.active"
       ]
     },
     {
@@ -1243,10 +940,24 @@
       ]
     },
     {
-      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
       "outstandingFields": 1,
       "fields": [
-        "polk-rc85i.driverCount"
+        "bose-virtually-invisible-791.active"
+      ]
+    },
+    {
+      "url": "https://funktion-one.com/product/res-2/",
+      "outstandingFields": 1,
+      "fields": [
+        "funktion-one-res2.active"
+      ]
+    },
+    {
+      "url": "https://www.behringer.com/en/products/0313-ACS",
+      "outstandingFields": 1,
+      "fields": [
+        "behringer-b215xl.active"
       ]
     },
     {
@@ -1285,6 +996,13 @@
       ]
     },
     {
+      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-301.active"
+      ]
+    },
+    {
       "url": "https://www.wharfedale.co.uk/products/linton",
       "outstandingFields": 1,
       "fields": [
@@ -1299,10 +1017,17 @@
       ]
     },
     {
-      "url": "https://rockfordfosgate.com/products/details/p3d4-12/",
+      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
       "outstandingFields": 1,
       "fields": [
-        "rockford-fosgate-p3.driverCount"
+        "eaw-kf760.active"
+      ]
+    },
+    {
+      "url": "https://www.danleysoundlabs.com/products/sh96/",
+      "outstandingFields": 1,
+      "fields": [
+        "danley-sh96.active"
       ]
     },
     {
@@ -1310,13 +1035,6 @@
       "outstandingFields": 1,
       "fields": [
         "jbl-paragon.driverCount"
-      ]
-    },
-    {
-      "url": "https://support.apple.com/en-us/111843",
-      "outstandingFields": 1,
-      "fields": [
-        "apple-homepod.driverCount"
       ]
     },
     {
@@ -1401,41 +1119,6 @@
       "outstandingFields": 1,
       "fields": [
         "yamaha-ns-6490.driverCount"
-      ]
-    },
-    {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
-      "outstandingFields": 1,
-      "fields": [
-        "yamaha-ns-777.driverCount"
-      ]
-    },
-    {
-      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
-      "outstandingFields": 1,
-      "fields": [
-        "yamaha-ns-5000.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-signature-s50.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "polk-signature-s15.driverCount"
-      ]
-    },
-    {
-      "url": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
-      "outstandingFields": 1,
-      "fields": [
-        "sonos-play1.driverCount"
       ]
     },
     {
@@ -1562,6 +1245,13 @@
       "outstandingFields": 1,
       "fields": [
         "legacy-dyn-4.driverCount"
+      ]
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-bose-2.active"
       ]
     },
     {
@@ -1747,10 +1437,24 @@
       ]
     },
     {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+      "outstandingFields": 1,
+      "fields": [
+        "marshall-marshall-1960b.active"
+      ]
+    },
+    {
       "url": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
       "outstandingFields": 1,
       "fields": [
         "marshall-marshall-1960av.active"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+      "outstandingFields": 1,
+      "fields": [
+        "marshall-marshall-1960bv.active"
       ]
     },
     {
@@ -1782,27 +1486,6 @@
       ]
     },
     {
-      "url": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "hertz-dieci-dsk-165-3.driverCount"
-      ]
-    },
-    {
-      "url": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "hertz-cento-ck-165.driverCount"
-      ]
-    },
-    {
-      "url": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
-      "outstandingFields": 1,
-      "fields": [
-        "hertz-mille-pro-mpk-165-3.driverCount"
-      ]
-    },
-    {
       "url": "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers",
       "outstandingFields": 1,
       "fields": [
@@ -1810,45 +1493,10 @@
       ]
     },
     {
-      "url": "https://pioneer-car.eu/ts-z65f/ts-z65f",
-      "outstandingFields": 1,
-      "fields": [
-        "pioneer-ts-z65f.driverCount"
-      ]
-    },
-    {
-      "url": "https://pioneer-car.eu/ts-d65c/ts-d65c",
-      "outstandingFields": 1,
-      "fields": [
-        "pioneer-ts-d65c.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
-      "outstandingFields": 1,
-      "fields": [
-        "kenwood-kfc-1666s.driverCount"
-      ]
-    },
-    {
       "url": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
       "outstandingFields": 1,
       "fields": [
         "kenwood-excelon-kfc-xp6903c.driverCount"
-      ]
-    },
-    {
-      "url": "https://rockfordfosgate.com/products/details/r165x3/",
-      "outstandingFields": 1,
-      "fields": [
-        "rockford-fosgate-r165x3.driverCount"
-      ]
-    },
-    {
-      "url": "https://rockfordfosgate.com/products/details/r1675x2/",
-      "outstandingFields": 1,
-      "fields": [
-        "rockford-fosgate-r1675x2.driverCount"
       ]
     },
     {
@@ -1866,34 +1514,6 @@
       ]
     },
     {
-      "url": "https://www.kicker.com/ds-coaxial-speakers-65",
-      "outstandingFields": 1,
-      "fields": [
-        "kicker-43dsc6504.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.kicker.com/47KSC650",
-      "outstandingFields": 1,
-      "fields": [
-        "kicker-47ksc6504.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
-      "outstandingFields": 1,
-      "fields": [
-        "kicker-46css674.driverCount"
-      ]
-    },
-    {
-      "url": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
-      "outstandingFields": 1,
-      "fields": [
-        "kicker-46csc654.driverCount"
-      ]
-    },
-    {
       "url": "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158",
       "outstandingFields": 1,
       "fields": [
@@ -1901,17 +1521,10 @@
       ]
     },
     {
-      "url": "https://audison.com/product/av-k6/",
+      "url": "https://audison.com/product/apk-165/",
       "outstandingFields": 1,
       "fields": [
-        "audison-voce-av-k6.driverCount"
-      ]
-    },
-    {
-      "url": "https://audison.com/product/th-k2-ii-a-coro-2/",
-      "outstandingFields": 1,
-      "fields": [
-        "audison-thesis-th-k2-ii-a.driverCount"
+        "audison-prima-apk-165.active"
       ]
     },
     {
@@ -1943,17 +1556,17 @@
       ]
     },
     {
-      "url": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
-      "outstandingFields": 1,
-      "fields": [
-        "q-acoustics-3030i.driverCount"
-      ]
-    },
-    {
       "url": "https://www.qacoustics.com/products/5020-bookshelf-speaker",
       "outstandingFields": 1,
       "fields": [
         "q-acoustics-5020.driverCount"
+      ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+      "outstandingFields": 1,
+      "fields": [
+        "triangle-borea-br03.active"
       ]
     },
     {
@@ -1982,13 +1595,6 @@
       "outstandingFields": 1,
       "fields": [
         "ik-multimedia-iloud-mtm.driverCount"
-      ]
-    },
-    {
-      "url": "https://dutchdutch.com/pages/8c",
-      "outstandingFields": 1,
-      "fields": [
-        "dutch-and-dutch-8c.active"
       ]
     },
     {

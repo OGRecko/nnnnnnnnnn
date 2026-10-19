@@ -5048,14 +5048,16 @@
     },
     "notes": "Exact-model JBL Charge 5 manufacturer specification sheet (©2020). It specifies a 60 Hz–20 kHz frequency response (no dB tolerance stated), a 52 × 90 mm racetrack woofer, a 20 mm tweeter, two passive bass radiators, 30 W RMS woofer output plus 10 W RMS tweeter output, and a rechargeable battery/Bluetooth portable system. driverCount is two active transducers; the passive radiators are not counted as drivers. The scalar power field remains N/A because the sheet publishes separate woofer/tweeter amplifier ratings rather than a single total in the field’s structure; no total is derived. The racetrack woofer’s two dimensions are not compressed into a circular inch-size field. Sensitivity and passive-speaker impedance are not specified. No response points or directivity data are imported. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Spec sheet lists one 52 x 90 mm woofer and one 20 mm tweeter (2 transducers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Spec sheet gives built-in rated output power and an internal battery for a portable powered speaker."
     }
   },
   {
@@ -5119,14 +5121,16 @@
     },
     "notes": "Exact-model JBL Flip 6 manufacturer specification sheet (©2021). It specifies 63 Hz–20 kHz frequency response (no dB tolerance stated), a 45 × 80 mm racetrack woofer, a 16 mm tweeter, two passive bass radiators, 20 W RMS woofer output plus 10 W RMS tweeter output, and a rechargeable battery/Bluetooth portable system. driverCount is two active transducers; the passive radiators are not counted as drivers. The scalar power field remains N/A because the sheet publishes separate woofer/tweeter amplifier ratings rather than one total rating in the field’s structure; no total is derived. The racetrack woofer’s two dimensions are not compressed into a circular inch-size field. Sensitivity and passive-speaker impedance are not specified. No response points or directivity data are imported. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Spec sheet lists one racetrack woofer and one separate tweeter (2 transducers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Spec sheet gives built-in output power (20 W + 10 W RMS) and an internal battery for a portable powered speaker."
     }
   },
   {
@@ -5191,14 +5195,16 @@
     },
     "notes": "Exact JBL PartyBox 1000 Quick Start Guide. It specifies a 30 Hz–20 kHz response at -6 dB, total built-in amplifier output of 1100 W, one 12-inch subwoofer, two 7-inch midrange drivers, and one compression driver (four transducers); the system is powered from AC and has an internal amplifier. The 1100 W value is recorded as amplifier output, not passive speaker power handling. The guide lists 3-ohm subwoofer, 4-ohm midrange, and 4-ohm compression-driver impedances; because the system has distinct driver impedances, no single nominal impedance is entered. The separately listed 150 W AC power consumption is not substituted for amplifier output. Sensitivity, voice-coil size, response points, and directivity remain N/A. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list one 12-inch subwoofer, two 7-inch mid-range drivers and one compression driver (4 units)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications give a mains AC power input and power consumption for the self-powered unit."
     }
   },
   {
@@ -5262,14 +5268,16 @@
     },
     "notes": "Exact Sonos Sub Mini manufacturer guide: two 6-inch force-canceling woofers and two Class-D amplifiers (driverCount=2; active=true). The guide's phrase ‘plays down to 25 Hz’ has no stated tolerance or standardized response-limit context, so no structured frequency-response bound is entered. Sensitivity, passive impedance, and speaker power handling remain N/A; no response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/submini.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/submini",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications state two 6-inch force-canceling woofers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/submini",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list two built-in Class-D digital amplifiers and an internal power supply."
     }
   },
   {
@@ -6135,9 +6143,10 @@
     },
     "notes": "Polk's exact archived RTi A7 specification lists 89 dB sensitivity at 1 W/1 m, nominal impedance 8 ohms, two 7-inch subwoofer drivers, one 6.5-inch midrange, and one 1-inch tweeter (four drivers total). The manufacturer gives total response as 20 Hz–27 kHz and separately labels 35 Hz–26 kHz as the lower/upper -3 dB limits; the structured bounds use the explicitly labeled -3 dB limits, not the wider total response. The 20–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The page supplies no resonant frequency or voice-coil diameter. No response points or directivity data are imported. Source: https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Driver complement lists one 6.5-inch midrange, two 7-inch subwoofers and one 1-inch tweeter (4 units)."
     }
   },
   {
@@ -6419,9 +6428,10 @@
     },
     "notes": "Manufacturer data for Monitor SE 6000F: 53 Hz–21 kHz ±3 dB on-axis; 40–17 kHz ±3 dB at 30°; 43 Hz DIN low extension; 15–130 W suitable amplifier; 8 Ω compatible; three 5.5 in LF drivers, one 5.5 in midrange and 1 in tweeter. Paradigm reports 90 dB anechoic and 93 dB room sensitivity but does not state a measurement reference compatible with the simulator’s 1 W/1 m calibration, so sensitivity is intentionally left N/A rather than assumed. Structured power withheld: the exact source publishes a recommended-amplifier range (15–130 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.paradigm.com/en/floorstanding/monitor-se-6000f.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications state \"5-driver, 3-way\" and itemise one tweeter + one midrange + three woofers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -6557,9 +6567,10 @@
     },
     "notes": "Exact Revel M106 Performa3 manufacturer product page. It specifies nominal 8-ohm impedance and two transducers: one 6.5-inch woofer and one 1-inch tweeter. The manufacturer publishes low-frequency extension at 39 Hz (-10 dB), 54 Hz (-6 dB), and 59 Hz (-3 dB). The primary frequencyResponse lower bound stores the explicit -3 dB point, 59 Hz; the deeper -6/-10 dB extensions remain documented here, not substituted as the primary response limit. No upper limit or response curve is inferred. Published sensitivity is 87 dB without a measurement reference, so sensitivity remains N/A. The 50–150 W recommended-amplifier range is not speaker power handling, so power remains N/A. No resonant frequency, voice-coil size, response-point table, or directivity data are imported. Source: https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists one 1-inch tweeter and one 6.5-inch woofer (2 units)."
     }
   },
   {
@@ -7059,9 +7070,10 @@
     },
     "notes": "The Polk RCi-series owner's-manual specification table has a distinct RC85i column: 30 Hz–20 kHz frequency response, 90 dB efficiency at 1 W/1 m, one 8-inch mineral-filled polypropylene mid-bass cone, and one 1-inch soft-dome swivel-mount tweeter. The manual does not state a response tolerance or measurement condition, so these endpoints are not described as ±3 dB and are not response-curve points. It lists 20–100 W RMS recommended power and compatibility with 8-ohm amplifiers; recommended amplifier power is not speaker power handling, and amplifier compatibility is not treated as a published nominal impedance, so those fields remain N/A. Resonant frequency and voice-coil diameter remain N/A; no directivity data are imported. Source: https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists one 8-inch mid-bass driver and one 1-inch tweeter (2 units)."
     }
   },
   {
@@ -7200,9 +7212,10 @@
     },
     "notes": "Exact-model Bose Virtually Invisible 791 Installation Guide (©2009, AM321052 Rev. 01), for the unsuffixed 791 model—not the later Virtually Invisible 791 Series II. The guide specifies two 1-inch dome tweeters and one 7-inch high-excursion woofer per speaker (three drivers total); it lists 50 W IEC continuous power handling at rated 6 ohms. The separate 10–100 W/channel, 4–8 ohm figure is amplifier compatibility, not speaker power handling. This is a passive in-ceiling loudspeaker. Sensitivity and response limits are not published and remain N/A; no response curve, resonance, voice coil, or directivity is asserted. Source: https://products.bose.com/pdf/customer_service/owners/og_791.pdf (Bose legacy guide redirects to HTTP).",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Driver complement lists two 1-inch dome tweeters and one 7-inch woofer (3 units)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -8378,14 +8391,16 @@
     },
     "notes": "This catalog's unqualified Avantone model is aligned with the manufacturer's original passive Mixcube page (a single 5.25-inch dynamic full-range driver, external binding posts, nominal 8-ohm system), not the separately documented Mixcube Active. The manufacturer publishes 200 Hz–10 kHz with no tolerance, and sensitivity 93 dB at 1 W/1 m. Its 10–200 W range is explicitly recommended amplifier power, not speaker power handling, so the power field remains N/A; active-model amplifier data are not transferred. The product page supplies no published response-point table or polar/directivity dataset. Source: https://avantonepro.com/en/products/mixcube-passive.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://avantonepro.com/en/products/mixcube-passive",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification lists a single 5.25-inch driver; system type is full-range mono."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://avantonepro.com/en/products/mixcube-passive",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Model is named \"Mixcube Passive\", specifies nominal 8-ohm impedance and a recommended external power of 10-200 W."
     }
   },
   {
@@ -9033,9 +9048,10 @@
     },
     "notes": "Funktion-One's exact Res 2 manufacturer page identifies a 15-inch bass driver, 8-inch midrange, and 1-inch HF driver (3 total), a three-way bi-amplified design with passive HF, and lists usable bandwidth (-3 dB) as 60 Hz–18 kHz. That current official figure is stored with the source's 'usable bandwidth' meaning. The exact 2015 manufacturer-authored Res 2 specification sheet, rehosted by Coherent Distribution, instead labels 50 Hz–18 kHz as 'Frequency Response ±3 dB'; it also splits power/sensitivity by drivers (15-inch 400 W RMS, 8-inch 200 W RMS, 1-inch 50 W RMS; sensitivities 102/106/107 dB at 1 W/1 m; the 8-inch and 1-inch sections each have 12 Ω total). The current page's upper section combines 8-inch + 1-inch at 250 W AES and gives voltage-referenced sensitivities (102 dB at 2.8 V LF; 106 dB at 4 V upper section). These are not collapsed into scalar power, impedance, or sensitivity fields. The low-end bandwidth discrepancy and differing source labels are retained explicitly; the manufacturer gives no revision mapping, so the current page's stated 60 Hz usable bandwidth is selected without averaging and the older 50 Hz figure remains documented. The Res 2's nominal 50° × 25° dispersion is not a polar dataset. The manufacturer's current downloads listing has specification/drawing files for Res 2 but no EASE data; the separate Res 2SH entry has EASE Data and is a distinct model, so it is not transferred. No exact Res 2 response-point or polar dataset is imported. Sources: https://funktion-one.com/product/res-2/ ; https://coherentdistribution.com/wp-content/uploads/2021/08/Funktion-One-Res-2-Specification-Sheet.pdf ; https://funktion-one.com/downloads/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://funktion-one.com/product/res-2/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification names a 15-inch bass driver plus an 8-inch midrange and a 1-inch HF driver (3 drive units)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -9105,14 +9121,16 @@
     },
     "notes": "Exact archived RCF NX 45-A manufacturer product page. It specifies a 45 Hz–20 kHz frequency response but gives no tolerance, so none is added; 700 W RMS total Class-D amplifier output (500 W LF + 200 W HF; 1400 W peak is retained only as context); one 15-inch LF woofer with a 3.5-inch voice coil and one 1.4-inch exit compression driver whose voice coil is 4.0 inches; two transducers total; active powered operation; and nominal 90° × 50° coverage. The scalar voice-coil field is the LF woofer's 3.5-inch value; the separate HF coil is not collapsed into it. Input sensitivity in dBu is an electrical input level, not acoustic sensitivity; no sensitivity or passive speaker impedance is assigned. Maximum SPL is not sensitivity. Nominal coverage is not imported as a polar response. Source: https://www.rcf.it/en/products/product-detail/nx-45-a.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications name one 15-inch woofer and one 1.4-inch compression driver (2 drive units)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states \"ACTIVE TWO WAY\" and describes a built-in 1400 W 2-way class-D amplifier."
     }
   },
   {
@@ -9177,9 +9195,10 @@
     },
     "notes": "Exact Behringer EUROLIVE B215XL manufacturer product page identifies a passive two-way PA speaker with a 15-inch LF driver and a 1.75-inch titanium-diaphragm HF compression driver (two transducers) and explicitly calls its 1000 W claim 'power handling capacity.' The scalar stores that generic manufacturer power-handling claim without assigning a continuous, program, peak, or test-standard convention, none of which the page states. The page describes external power-amplifier connections, so active is false. It does not publish an acoustic sensitivity, nominal impedance, standardized frequency-response limits, voice-coil size, or response-point data; those remain N/A. Source: https://www.behringer.com/en/products/0313-ACS.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.behringer.com/en/products/0313-ACS",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page headline states a 2-way system with one 15-inch woofer and one 1.75-inch compression driver."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -11625,14 +11644,16 @@
     },
     "notes": "Auratone's own current product page lists the exact unqualified base product “5C Super Sound Cube” as a passive reference monitor and lists “5C Active Super Sound Cube” separately; the catalog's unqualified “5C Sound Cube” is aligned with that base passive model, not the Active variant. The manufacturer specifies one 4.5-inch full-range cone, sealed 5/8-inch MDF, 80 Hz–15 kHz (no tolerance stated), nominal 8 ohms, 90 dB SPL at 1 W/1 m, and 25 W RMS / 50 W peak power handling. The scalar power field retains the RMS value and role; the separately published 50 W peak is not treated as a continuous rating. An older exact-product page at Auratone's exclusive US distributor, TransAudio Group, lists 75 Hz as the low endpoint; the manufacturer's current direct product page states 80 Hz, which is retained without averaging or importing active-model values. Auratone/TransAudio's 2022 announcement calls the powered product the first-ever Active 5C, confirming the product distinction. No Fs, voice-coil size, response-point table, or polar/directivity dataset is published. Sources: https://www.auratoneaudio.com/products ; https://www.transaudiogroup.com/products/auratone/5c/ ; https://www.transaudiogroup.com/press-releases/auratone-introduces-the-first-ever-active-5c-super-sound-cube/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.auratoneaudio.com/products",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table states a single 4.5-inch full-range driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.auratoneaudio.com/products",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table states \"Type: Passive reference monitor\" and the product is headed \"Passive Monitor\"."
     }
   },
   {
@@ -12138,9 +12159,10 @@
     },
     "notes": "Exact-model Bose 301 Series IV Direct/Reflecting Speakers Owner's Guide (October 30, 2001, AM181869_04_V). The guide lists one 8-inch woofer, one 3-inch high-sensitivity tweeter, and one 2-inch high-sensitivity tweeter per enclosure (three drivers total), and rated 8-ohm impedance. These are passive speakers. The guide says compatible amplifiers are 10–150 W per channel; that is an amplifier-compatibility range, not speaker power handling, so no scalar power is entered. Sensitivity and frequency-response limits are not specified and remain N/A. No resonance, voice-coil, response curve, or directivity data are asserted. Source: https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf (HTTPS request redirects to Bose's legacy owner-guide PDF).",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Driver complement lists one 8-inch woofer and two tweeters (3 units)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -12633,14 +12655,16 @@
     },
     "notes": "Exact Behringer B2031A manufacturer page: active two-way monitor, 8.75-inch Kevlar woofer + 1-inch tweeter, 265 W total internal amplification. No unsupported response/sensitivity values are added. Source: https://www.behringer.com/en/products/0316-AAI",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.behringer.com/en/products/0316-AAI",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a 2-way monitor with one 8.75-inch woofer and one 1-inch tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.behringer.com/en/products/0316-AAI",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page title and copy state \"Active\" / \"powered\" with internal bi-amplification (265 W)."
     }
   },
   {
@@ -12782,9 +12806,10 @@
     },
     "notes": "EAW's exact KF760 manufacturer spec sheet describes a 3-way, tri-amplified, externally powered enclosure with two 12-inch LF woofers, two 10-inch MF cones, and two 2-inch-exit HF compression drivers (6 total). Its ±3 dB response is 80 Hz–16 kHz for one enclosure; the distinct eight-enclosure-array range is 40 Hz–16 kHz and is not assigned to a single-module record. The sheet gives subsystem sensitivity (single enclosure LF/MF/HF 96/108/113 dB at 1 W/1 m; eight-box array 106/125/117 dB), continuous power (LF/MF/HF 2000/800/300 W), and impedance (LF 2 × 8 Ω, MF 8 Ω from two 16 Ω drivers, HF 8 Ω from two 16 Ω drivers). No single-value sensitivity, power, or impedance is substituted for these subsystem/array-specific values; the HF 3-inch voice coil is not stored in the single generic voice-coil field. Nominal horizontal coverage is 80° when used in the KF760 array, with array vertical splay up to 3°; neither is a full polar dataset. The official EAW EASE page currently offers Standard EASE rev18 and EASE GLL v1.11 archives, but its page does not identify a KF760 entry and the archives have not been inspected. EAW's 2023 announcement described RADIUS as its first GLL and said KF-line GLLs were planned; this does not confirm a KF760 file in the later archive. No response points or polar data are imported, and no coverage angle is converted into directivity. Sources: https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf ; https://eaw.com/ease-data/ ; https://eaw.com/wp-content/uploads/2026/06/EAW-EASE-GLL-v1_11.zip ; https://eaw.com/eaw-adds-ease-gll-and-q-sys-plugins/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification sheet lists 2 LF + 2 MF + 2 HF transducers (6 drive units)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -12926,14 +12951,16 @@
     },
     "notes": "Void's current Air 8 page and TD10706 v2.0 specification sheet (©2026) identify the exact passive 8-inch two-way coaxial model, 95 dB sensitivity referenced exactly as 1 W/1 m (manufacturer footnote: measured in half-space), 300 W AES handling, 8 Ω nominal impedance, and one 8-inch LF driver with one 1-inch coaxial HF driver. The current specification sheet gives 80 Hz–20 kHz at -10 dB per IEC 60268-5 and 80° × 80° nominal dispersion; neither is written into fields that cannot retain that tolerance/directivity context. An older exact Air 8 specification sheet (v1.0, ©2018) instead states 70 Hz–20 kHz ±3 dB, 90° × 90°, and contains numeric response points plus horizontal/vertical directivity-isobar plots; its revision equivalence to the current v2.0 Air 8 is not established, so none of those points/plots or its 2-inch LF voice-coil value is imported. The old sheet's calculated peak-output figure (121 dB) also differs from the current sheet's 125 dB; maximum-output values are not a sensitivity substitute and are not stored. A guessed Air_8_v2.2.gll URL returned a page-not-found response; the current product page's GLL target has not been verified, and no GLL binary/header or polar payload is confirmed. No synthetic directivity is derived from either nominal coverage statement. Sources: https://voidacoustics.com/products/air/air8/ ; https://voidacoustics.com/wp-content/uploads/TD10706-2.0-Void-Acoustics-Air-8-Spec-Sheet.pdf ; historical exact-model v1.0 sheet: https://d181c7pevbxova.cloudfront.net/media/support-materials/pdfs/Void%20Technical%20Public/Specification%20Sheets/Air%20Series/Air_8_Specification_Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://voidacoustics.com/products/air/air8/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a two-way coaxial loudspeaker with an 8-inch coaxial driver (2 transducers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://voidacoustics.com/products/air/air8/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states \"Passive\" in the model description."
     }
   },
   {
@@ -13141,9 +13168,10 @@
     },
     "notes": "Danley's exact SH96 product page and 2022 specification sheet specify 50 Hz–16 kHz ±3 dB and 36 Hz–19 kHz ±10 dB, 101 dB sensitivity at 2.83 V into rated impedance/1 m in free space, 8 Ω rated impedance, four 15-inch LF, six 4-inch MF, and one 1.4-inch HF driver (11 total), 1400 W continuous and 2800 W program power. The structured power field stores only the continuous rating; program and the older sheet's separate 5600 W peak figure remain distinct. The 2012 exact SH96 sheet separately publishes the numeric table retained as response points, labelled 'outside tds (dB, Pascals)'; its measurement setup is not specified, so raw dB values and uncertainty are preserved in pointsContext rather than presented as normalized SPL. The newer page's separate 'Magnitude Response 65 Hz–16 kHz' label is not substituted for its operating-frequency limits. The user manual states that SM/SH models other than SH96HO, SH46, and SM80M are wired passive; the standard SH96 therefore is not self-powered. A separately mentioned powered version is not merged. The manufacturer lists nominal 90° × 60° coverage but no polar data were extracted. Its exact SH96 CLF and GLL archives are linked from the product page, but both archives failed to fetch/inspect; no directivity payload is imported. Sources: https://www.danleysoundlabs.com/products/sh96/ ; https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf ; https://www.danleysoundlabs.com/wp-content/uploads/2021/11/SH96.pdf ; https://www.danleysoundlabs.com/wp-content/uploads/2021/12/Danley-Sound-Labs-SH-96.zip ; https://www.danleysoundlabs.com/wp-content/uploads/2025/04/SH96-v4.0-GLL-v5.0.gll_.zip.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.danleysoundlabs.com/products/sh96/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Driver complement is itemised as 4 + 6 + 1 = 11 drivers, matching the page headline \"11 Drivers, 1 Horn!\"."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -13737,9 +13765,10 @@
     },
     "notes": "Exact Rockford Fosgate P3D4-12 single 12-inch Punch subwoofer driver. Its official page specifies one 12-inch subwoofer, 85 dB SPL at 1 W/1 m, 600 W RMS power handling (1200 W maximum), 2.5-inch voice-coil diameter, and Fs=27.7 Hz. The manufacturer specifies dual 4-ohm voice coils; because the effective system load depends on wiring, the scalar impedance field remains N/A rather than treating one coil or one wiring option as the single nominal load. Fs is retained as resonant frequency, not misrepresented as a response cutoff. No standardized response limits, response curve, or directivity data are published/imported. Source: https://rockfordfosgate.com/products/details/p3d4-12/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://rockfordfosgate.com/products/details/p3d4-12/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page describes a single 12-inch Punch P3 subwoofer (one drive unit)."
     }
   },
   {
@@ -14437,9 +14466,10 @@
     },
     "notes": "Apple official HomePod (2nd generation) Tech Specs page (support.apple.com/en-us/111843, year introduced 2023): '4-inch high-excursion woofer' and 'Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet'. driverCount 6 = 1 woofer + 5 tweeters as listed in Apple's text. No sensitivity, impedance, power, amplifier, frequency-response or polar data is published on the page, so none is stored. Source: https://support.apple.com/en-us/111843.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://support.apple.com/en-us/111843",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Tech specs list one 4-inch woofer plus an array of five tweeters (6 drivers)."
     }
   },
   {
@@ -16235,9 +16265,10 @@
     },
     "notes": "Exact Yamaha NS-777 manufacturer specification page. It lists a 3-way bass-reflex floorstanding speaker with two 8-inch PMD woofers, one 5-inch midrange, and one 1-inch aluminum-dome tweeter (four transducers). Published frequency response is 30 Hz–35 kHz, with no tolerance stated. Sensitivity is 89 dB at 2.83 V/1 m and is retained with its exact voltage reference; nominal impedance is 6 ohms. Input power is 100 W nominal / 250 W maximum; only nominal input is stored as allowable_input, not as speaker power handling. No response points or directivity data are imported. Source: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists dual 8-inch woofers, one 5-inch midrange and one 1-inch tweeter (4 units)."
     }
   },
   {
@@ -16303,9 +16334,10 @@
     },
     "notes": "Exact Yamaha NS-5000 manufacturer specification page. It lists a 3-way bookshelf bass-reflex speaker with one 12-inch cone woofer, a 3.25-inch dome midrange, and a 1.25-inch dome tweeter (three transducers). Published response is 26 Hz–40 kHz at -10 dB; the separately listed 100 kHz at -30 dB is not combined into the stored limits. Sensitivity is 88 dB at 2.83 V/1 m and is retained with its exact voltage reference; nominal impedance is 6 ohms (3.5-ohm minimum). Nominal input power is 200 W and maximum input power is 600 W; only the nominal input figure is stored as allowable_input, not speaker power handling. No response points or directivity data are imported. Source: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists one 12-inch woofer, one 3-1/4-inch dome midrange and one 1-1/4-inch dome tweeter (3 units)."
     }
   },
   {
@@ -16882,9 +16914,10 @@
     },
     "notes": "Polk's exact archived Signature S50 product specification lists total frequency response 33 Hz–40 kHz, sensitivity 89 dB at 1 W/1 m, and a driver complement of two 5.25-inch mid/woofers plus one 1-inch tweeter. The response endpoints are the published total-response range; no tolerance or measurement condition is stated, and no response points or directivity data are imported. The 20–150 W figure is recommended amplifier power rather than speaker power handling, so power remains N/A. The product page does not state nominal impedance, resonant frequency, or voice-coil diameter; those remain N/A. Source: https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Driver complement lists two 5.25-inch mid/woofers plus one 1-inch tweeter (3 units)."
     }
   },
   {
@@ -16949,9 +16982,10 @@
     },
     "notes": "Polk's official Signature Series information sheet has a model-specific S15 specification table: 50 Hz–40 kHz overall response, 88 dB sensitivity (the sheet does not state its drive or distance reference), a 5.25-inch mid-bass driver, and a 1-inch tweeter. Sensitivity is retained with its reference explicitly marked unspecified, so simulation must use the neutral fallback rather than interpreting it as 1 W/1 m or 2.83 V/1 m. The sheet's 20–100 W figure is recommended amplification, not speaker power handling. It describes compatibility with 8-ohm outputs but does not give a nominal impedance; impedance remains N/A. The response has no stated tolerance/measurement condition; no response points or directivity data are imported. Source: https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists one 1-inch tweeter and one 5.25-inch mid-bass driver (2 units)."
     }
   },
   {
@@ -17237,9 +17271,10 @@
     },
     "notes": "Exact Sonos Play:1 manufacturer announcement identifies one custom-designed mid-woofer and one tweeter, supporting driverCount=2. It does not establish amplifier class/count, so active remains N/A; no response limits, sensitivity, passive impedance, acoustic power rating, response curve, or directivity data are populated from this source. Source: https://newsroom.sonos.com/254814-introducing-sonos-play-1/. Pass-137 driver-count check (2026-10-10): Sonos PLAY:1 specification sheet (text copy hosted on a third-party domain, not sonos.com): 1 tweeter and 1 mid-woofer; this matches driverCount 2. The sheet publishes no frequency, sensitivity or impedance. Third-party copy of the Sonos PLAY:1 specification sheet (static.qobuz.com). The sheet publishes no frequency response, sensitivity, impedance or power rating, so none is stored. Pass-142 (2026-10-11): third-party tier applied to the mid-woofer diameter.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Press release names a custom-designed mid-woofer and a tweeter (2 drivers)."
     }
   },
   {
@@ -17740,14 +17775,16 @@
     },
     "notes": "SVS's exact PB16-Ultra manufacturer page specifies one 16-inch driver with an 8-inch-diameter edge-wound voice coil and a built-in Sledge STA-1500D amplifier rated 1,500 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 5,000+ W peak dynamic is context only. Structured response limits use the standard mode (all ports open): 15–280 Hz ±3 dB; the manufacturer also publishes 13–280 Hz ±3 dB in extended mode (two ports open) and 14–360 Hz ±3 dB in sealed mode (all ports sealed). SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic); mode-specific ranges are kept distinct, and no graph points are imported. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/pb16-ultra",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb16-ultra",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification list states a single front-firing 16-inch driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb16-ultra",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification list gives the built-in Sledge STA-1500D amplifier."
     }
   },
   {
@@ -21961,9 +21998,10 @@
     },
     "notes": "Exact unsuffixed Bose MODEL 501 Direct/Reflecting Speaker System Owner's Manual (©1977), matching the catalog label '501'; this is the original Model 501, not Series II, III, IV, or V. The manual specifies one 10-inch acoustic-suspension woofer with a 1.5-inch voice coil and two 3-inch tweeters (three drivers total), and conservatively rated 4-ohm system impedance. It recommends a minimum 20 W RMS/channel amplifier and says to fuse when using amplifiers above 50 W/channel; neither statement is speaker power handling, so power remains N/A. Sensitivity, response limits, and resonance are not published; no curve or directivity data are asserted. No later-series specifications are transferred. Source: https://products.bose.com/pdf/customer_service/owners/501_guide.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Manual states one ten-inch woofer plus two three-inch tweeters (3 drivers)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -22250,14 +22288,16 @@
     },
     "notes": "The exact Martin Audio W8LM manufacturer archive page and datasheet describe a three-way mini line-array cabinet with two 8-inch LF+MF drivers (each specified with a 2-inch/50 mm voice coil) and two 1-inch HF compression drivers, four transducers total. The datasheet publishes 60 Hz–18 kHz ±3 dB (on-axis, open 4π space, measured at 2 m and referred to 1 m), 12-ohm full-range impedance, and 400 W AES / 1600 W peak passive power handling; the scalar power stores the explicitly stated passive AES rating (the separate bi-amp LF+MF and HF ratings are mode/component-specific). Sensitivity is specified separately for LF+MF (100 dB), HF (106 dB), and full range (99 dB rising to 105 dB at HF); its footnote states 1 W, open 4π space at 2 m, band-limited pink noise, referred to 1 m. Because the scalar field cannot represent these band/mode-specific figures, no sensitivity scalar is assigned. The speaker requires external amplification; its selectable passive/bi-amp crossover does not make it self-powered. The datasheet has a partial angle-resolved table (0°–50°, 2–20 kHz, dB SPL/2.83 V with 1/3-octave smoothing), frequency-dependent HF horizontal beamwidth, nominal coverage and polar plots; these do not supply the complete full-band angle-resolved response required for a directivity payload. The 2–20 kHz table also cannot stand in for a full-band response curve or safely replace the separately published 60 Hz–18 kHz limits, so neither curve nor directivity pattern is imported. Sources: https://martin-audio.com/products/archive/w8lm and https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://martin-audio.com/products/archive/w8lm",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification names two 8-inch LF/MF units and two 1-inch HF compression drivers (4 drive units)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://martin-audio.com/products/archive/w8lm",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification type line reads \"Three-way, active/passive\" and the cabinet is driven from a recommended external iK81 power amplifier; no internal amplification is listed."
     }
   },
   {
@@ -40353,14 +40393,16 @@
     "panel": null,
     "notes": "SVS's exact SB-2000 Pro manufacturer page describes a powered sealed subwoofer with one 12-inch high-excursion driver and a 550 W RMS built-in Sledge amplifier. The 550 W scalar is explicitly amplifier_output, not passive-speaker power handling; the page also mentions 1,500+ W peak, which is retained only as context and not stored as continuous output. SVS publishes 19–240 Hz ±3 dB, measured on a 2-meter ground plane away from reflective structures (quasi-anechoic); these are acoustic response limits, not curve points, and the published chart is not imported as a dataset. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/sb-2000-pro",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-2000-pro",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Summary names a single 12-inch driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-2000-pro",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Summary describes the built-in 550-watt RMS amplifier and subwoofer control app."
     }
   },
   {
@@ -40425,14 +40467,16 @@
     "panel": null,
     "notes": "SVS's exact SB-3000 manufacturer page specifies one 13-inch high-excursion driver and a built-in Sledge STA-800D2 amplifier rated 800 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 2,500+ W peak dynamic is context only. SVS publishes 18–270 Hz ±3 dB on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. The structured bounds are not response-curve points; no chart data or directivity dataset is imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/sb-3000",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-3000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy names a single 13-inch SVS driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-3000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy describes the built-in Sledge STA-800D2 amplifier."
     }
   },
   {
@@ -40497,14 +40541,16 @@
     "panel": null,
     "notes": "SVS's exact SB-4000 (dataset label SB4000) manufacturer page describes a powered sealed subwoofer with one 13.5-inch driver, a 3-inch edge-wound voice coil, and built-in Sledge STA-1200D amplification rated 1,200 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 4,000+ W peak dynamic is context only. SVS publishes 19–310 Hz ±3 dB on a 2-meter ground plane away from reflective structures (quasi-anechoic). The bounds are not imported as a response curve; the displayed response chart is not available as source-backed points. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/sb-4000",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-4000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy names one 13.5-inch SVS driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/sb-4000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy describes the built-in Sledge STA-1200D amplifier."
     }
   },
   {
@@ -40791,14 +40837,16 @@
     "panel": null,
     "notes": "SVS's exact PB-3000 manufacturer page specifies one 13-inch high-excursion driver and a built-in Sledge STA-800D2 amplifier rated 800 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 2,500+ W peak dynamic is context only. Structured response limits use standard port mode: 16–260 Hz ±3 dB; the manufacturer separately specifies 18–260 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. The structured bounds are not curve points; no chart data or directivity dataset is imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/pb-3000",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb-3000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy names a single 13-inch SVS high-excursion driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb-3000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy describes the built-in Sledge STA-800D2 subwoofer amplifier and its DSP/app controls."
     }
   },
   {
@@ -40863,14 +40911,16 @@
     "panel": null,
     "notes": "SVS's exact PB-4000 manufacturer page specifies one 13.5-inch driver, a 3-inch edge-wound voice coil, and a built-in Sledge STA-1200D amplifier rated 1,200 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 4,000+ W peak dynamic is context only. Structured response limits use standard mode: 16–200 Hz ±3 dB; the manufacturer separately lists 13–200 Hz ±3 dB in extended mode and 18–200 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. Mode-specific bounds are not combined; no response-curve points or directivity dataset are imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/pb-4000",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb-4000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy names one 13.5-inch SVS driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.svsound.com/products/pb-4000",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product copy describes the built-in Sledge STA-1200D amplifier."
     }
   },
   {
@@ -41492,9 +41542,10 @@
     "panel": null,
     "notes": "Exact Marshall support entry titled 1960B 4x12 Base Cabinet: it identifies the 1960B 300 W cabinet, four 12-inch Celestion G12T-75 speakers, 300 W mono / 150 W stereo handling, and 16/4 Ω mono or 8 Ω stereo unit impedance. The direct product route previously returned Page not found; this exact-model manufacturer support page supplies the evidence used here. `power.value=300 W` retains the published mono total handling, with the stereo rating preserved in this note. The cabinet is passive, so active=false. Impedance remains N/A because the published load varies by wiring mode and the data field accepts only one scalar value. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product details name four 12-inch Celestion G12T-75 speakers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -41637,9 +41688,10 @@
     "panel": null,
     "notes": "Exact Marshall support entry titled 1960BV 4x12 Base Cabinet: it identifies the 1960BV 280 W cabinet, four 12-inch Celestion G12-Vintage speakers, 280 W mono / 140 W stereo handling, and 16/4 Ω mono or 8 Ω stereo unit impedance. `power.value=280 W` retains the published mono total handling; the stereo rating is preserved in this note. The cabinet is passive, so active=false. Impedance remains N/A because the published load is mode-dependent and the data field accepts only one scalar. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Product details name four 12-inch Celestion G12 Vintage speakers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -43194,9 +43246,10 @@
     "panel": null,
     "notes": "Exact Hertz Dieci DSK165.3 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 24 mm tweeter, 80 W continuous / 160 W peak handling, 4-ohm nominal impedance, 50 Hz–23 kHz response with no tolerance stated, and a 25 mm woofer voice coil. The woofer's electro-acoustic table gives Fs=67 Hz; this is retained as the LF driver's resonance. Sensitivity is listed as 93 dB SPL without a measurement reference, so sensitivity remains N/A. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 24 mm tweeter."
     }
   },
   {
@@ -43261,9 +43314,10 @@
     "panel": null,
     "notes": "Exact Hertz Cento CK 165 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 26 mm tweeter, 95 W continuous / 285 W peak handling, 4-ohm impedance, 55 Hz–22.5 kHz response with no tolerance stated, and a 25 mm woofer voice coil. The LF driver's electro-acoustic table gives Fs=60 Hz. Sensitivity is printed as 93 dB SPL but has no measurement reference, so sensitivity remains N/A. The database stores continuous power, not peak. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 26 mm tweeter."
     }
   },
   {
@@ -43328,9 +43382,10 @@
     "panel": null,
     "notes": "Exact Hertz Mille Pro MPK165.3 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 29 mm tweeter, 110 W continuous / 220 W peak handling, 4-ohm impedance, and 40 Hz–22.5 kHz frequency response with no tolerance stated. Both LF woofer and HF tweeter voice coils are specified as 25 mm; the stored value is the woofer coil. The LF driver's electro-acoustic table gives Fs=70 Hz. Sensitivity is listed as 92 dB SPL without a measurement reference, so sensitivity remains N/A. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 29 mm tweeter."
     }
   },
   {
@@ -43596,9 +43651,10 @@
     "panel": null,
     "notes": "Exact Pioneer TS-Z65F Z-Series 17 cm two-way coaxial speaker page. It lists 110 W nominal input power (330 W maximum), 4 Ω impedance, 32 Hz–96 kHz frequency response, and 17 cm diameter; the manufacturer also lists sensitivity as 85 dB but gives no measurement reference, so the sensitivity field remains N/A. The nominal input rating is preserved as allowable_input; the 330 W maximum is not substituted as continuous power handling. The page states no response tolerance/test conditions, so the frequency limits are not treated as a measured curve. No response-point table or directivity data is imported. Source: https://pioneer-car.eu/ts-z65f/ts-z65f.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://pioneer-car.eu/ts-z65f/ts-z65f",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a 2-way coaxial speaker with a built-in tweeter and a mid-bass driver (2 units)."
     }
   },
   {
@@ -43663,9 +43719,10 @@
     "panel": null,
     "notes": "Exact Pioneer TS-D65C D-Series 17 cm separate two-way component speaker system. The official product page gives 32 Hz–49 kHz frequency response, 4-ohm impedance, 17 cm diameter, 90 W nominal input power and 270 W maximum input power; only the nominal figure is retained as allowable_input, not speaker power handling. The page lists sensitivity as 84 dB but states no measurement reference, so sensitivity remains N/A. The official user manual identifies the TS-D65C as a 2-way separate system sold as a pair; driverCount=2 is per individual speaker side (one woofer plus one tweeter), not the four transducers in the pair. The response limits have no stated tolerance or measurement conditions and are not treated as a measured curve. No response points or directivity data are imported. Sources: https://pioneer-car.eu/ts-d65c/ts-d65c; https://pioneer-car.eu/asset/user_manuals/UPLOAD_ID_12621/21672013de98603d667ca07e9b1d9d4e2a84e3f6.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://pioneer-car.eu/ts-d65c/ts-d65c",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a 2-way component system with a 17 cm woofer and a 26 mm tweeter (2 units)."
     }
   },
   {
@@ -43730,9 +43787,10 @@
     "panel": null,
     "notes": "Kenwood’s exact KFC-1666S specification table lists a 160 mm/6.5-inch woofer and separate 25 mm/1-inch tweeter (two drivers), 4 ohms, 40–22,000 Hz (no tolerance stated), 30 W RMS input power, and 300 W peak input power. The 30 W RMS input rating is stored as speaker power handling; the 300 W peak figure remains separately identified in this note and is not substituted. Kenwood labels sensitivity 90 dB at 1 m but does not state the electrical input reference, so the sensitivity field remains N/A rather than being relabelled 1 W/1 m or 2.83 V/1 m. No response points or polar dataset are published here. Source: https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists a 6.5-inch woofer and a 1-inch tweeter (2 drive units)."
     }
   },
   {
@@ -43869,9 +43927,10 @@
     "panel": null,
     "notes": "Exact Rockford Fosgate R165X3 Prime 6.50-inch three-way coaxial full-range speaker. The manufacturer lists 91 dB sensitivity at 1 W/1 m, 45 W RMS power handling (90 W maximum), 4-ohm nominal impedance, a 6.5-inch nominal midrange/woofer, and 52 Hz–20 kHz frequency response. The product is sold as a pair; driverCount=3 is per speaker, not per pair. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/r165x3/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://rockfordfosgate.com/products/details/r165x3/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table states a 3-way coaxial speaker with 6.5-inch midrange and 0.5-inch tweeter; features list a pole-mounted tweeter and midrange over the woofer (3 units)."
     }
   },
   {
@@ -43937,9 +43996,10 @@
     "panel": null,
     "notes": "Exact Rockford Fosgate R1675X2 Prime 6.75-inch two-way coaxial full-range speaker. The manufacturer lists 91 dB sensitivity at 1 W/1 m, 45 W RMS power handling (90 W maximum), 4-ohm nominal impedance, a 6.75-inch nominal midrange/woofer, and 52 Hz–20 kHz frequency response. The product is sold as a pair; driverCount=2 is per speaker, not per pair. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/r1675x2/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://rockfordfosgate.com/products/details/r1675x2/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table states a 2-way coaxial speaker with a 6.75-inch midrange and a 0.5-inch tweeter (2 units)."
     }
   },
   {
@@ -44141,9 +44201,10 @@
     "panel": null,
     "notes": "Exact KICKER DS Series 6.5-inch coax product page; its support section links the 2016 DS Coaxials manual, and the official DS lineup maps SKU 43DSC6504 to this 6.5-inch, 4-ohm model. The product specification lists a 2-way design, 6.5-inch woofer and 0.5-inch tweeter (two drivers per speaker side), rated 4-ohm impedance, 90 dB sensitivity at 1 W/1 m, and 40 Hz–20 kHz effective response with no tolerance stated. The 240 W figure is a peak input rating per ANSI/CTA-2031-A, stored as allowable_input rather than continuous/RMS power handling; KICKER's separate 60 W RMS recommended-amplifier figure is not substituted. Sources: https://www.kicker.com/ds-coaxial-speakers-65; https://www.kicker.com/2016-ds-series.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.kicker.com/ds-coaxial-speakers-65",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 1/2-inch tweeter."
     }
   },
   {
@@ -44208,9 +44269,10 @@
     "panel": null,
     "notes": "Exact KICKER KS Series KSC650 product page and linked 2020 KS manual identify the 47KSC6504 6.5-inch 4-ohm coaxial model. The manufacturer specifies a 2-way system with one 6.5-inch woofer and one 0.75-inch tweeter (two drivers per speaker side), 4-ohm rated impedance, 90 dB sensitivity at 1 W/1 m, and 43 Hz–21 kHz frequency response with no tolerance stated. The 15–100 W RMS figure is recommended amplifier power, not speaker power handling, so power remains N/A. Source: https://www.kicker.com/47KSC650.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.kicker.com/47KSC650",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 3/4-inch tweeter."
     }
   },
   {
@@ -44275,9 +44337,10 @@
     "panel": null,
     "notes": "Exact KICKER 2019 CS Series CSS67 component-system page; the manufacturer's CS lineup maps SKU 46CSS674 to the 6.75-inch, 4-ohm component system. The per-side component set contains one 6.75-inch woofer and one 0.75-inch tweeter (two transducers; the full kit is sold as a pair). Published effective frequency range is 35 Hz–21 kHz with no tolerance stated. The listed 300 W peak rating is per ANSI/CTA-2031-A and is stored as allowable_input; 100 W RMS is recommended amplifier power, not continuous speaker handling. The product page does not publish a sensitivity value, so sensitivity remains N/A. Sources: https://www.kicker.com/CSS67-Component-System-4-Ohm; https://www.kicker.com/2019-CS-Series.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists one 6.75-inch woofer and one 3/4-inch tweeter."
     }
   },
   {
@@ -44343,9 +44406,10 @@
     "panel": null,
     "notes": "Exact KICKER 2019 CS Series CSC65 page; the official CS lineup maps code 46CSC654 to this 6.5-inch, 4-ohm coaxial. The manufacturer specifies a 2-way design, 6.5-inch woofer plus 0.5-inch tweeter (two drivers per speaker side), 90 dB sensitivity at 1 W/1 m, and 40 Hz–20 kHz effective frequency range with no tolerance stated. The 3.3-ohm table entry is DC resistance, not substituted for nominal impedance. The listed 300 W peak rating is per ANSI/CTA-2031-A and is stored as allowable_input; 100 W RMS is recommended amplifier power, not continuous speaker handling. Sources: https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm; https://www.kicker.com/2019-CS-Series.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 1/2-inch tweeter."
     }
   },
   {
@@ -44542,9 +44606,10 @@
     "panel": null,
     "notes": "Exact Audison Prima APK 165 manufacturer product page. It identifies a two-way AP 6.5 woofer + AP 1 tweeter kit with supplied passive crossovers; active=false reflects the explicitly passive system. The LF specifications are 165 mm woofer, 4-ohm impedance, 100 W continuous / 300 W peak handling, 60 Hz–20 kHz response with no tolerance stated, and 32 mm woofer voice coil. The LF electro-acoustic table gives Fs=80 Hz. The 93.5 dB SPL figure has no measurement reference, so sensitivity remains N/A. No response curve or directivity data are imported. Source: https://audison.com/product/apk-165/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://audison.com/product/apk-165/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a two-way kit comprising one AP 6.5 woofer and one AP 1 tweeter."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -44614,9 +44679,10 @@
     "panel": null,
     "notes": "Exact Audison Voce AV K6 manufacturer product page identifies a two-way kit consisting of an AV 6.5 woofer, AV 1.1 tweeter, and crossover. It specifies 165 mm LF size, 4-ohm impedance, 125 W continuous / 250 W peak handling, 50 Hz–22 kHz response with no tolerance stated, and a 30 mm woofer voice coil (the HF coil is separately 28 mm). The LF electro-acoustic table gives Fs=68 Hz. Its 91 dB SPL figure has no measurement reference, so sensitivity remains N/A. No response curve or directivity data are imported. Source: https://audison.com/product/av-k6/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://audison.com/product/av-k6/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a two-way kit comprising one AV 6.5 woofer and one AV 1.1 tweeter."
     }
   },
   {
@@ -44688,9 +44754,10 @@
     "panel": null,
     "notes": "Official Audison product page for the TH K2 II A CORO kit (audison.com/product/th-k2-ii-a-coro-2/): 'Kit | 300 W Peak Power | Kit 2 way 4 ohm | TH 1.5 II Violino + TH 6.5 Sax'. driverCount 2 is the kit's two transducers (TH 1.5 II Violino tweeter and TH 6.5 II Sax woofer). Revision: the 'A' variant (the 'P CORO' is a separate Audison kit and is not merged). Sensitivity is NOT stored: the page prints 'Spl 87 dB' only inside the LF electro-acoustic table, with no reference condition and for the woofer alone, so it is not a verified kit sensitivity. Re, Qts, Vas, Xmax and other woofer parameters are on the same page and are not record fields. Source: https://audison.com/product/th-k2-ii-a-coro-2/. Earlier pass history: No source-backed physical specification is retained for this exact model. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred. Pass-130 check (2026-10-10): retailer and magazine copies describe the TH K2 II A Coro kit, which conflicts with other variant listings ('Sax Violino' kit; woofer 165 mm vs 50 mm; 87 dB; 4 Ω; 40 Hz–26 kHz; 150 W RMS / 300 W peak). No Audison manufacturer page was reached and the variant is not established.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states a two-way kit comprising one TH 6.5 Sax woofer and one TH 1.5 II Violino tweeter."
     }
   },
   {
@@ -47656,9 +47723,10 @@
     "panel": null,
     "notes": "Q Acoustics' exact 3030i product page identifies a 2-way reflex design with a 165 mm (6.5 in) bass unit and 22 mm treble unit. It lists frequency-response limits of 46 Hz–30 kHz with the source's combined '(+/−3 dB, −6 dB)' notation; that notation does not unambiguously assign a tolerance to each endpoint, so it is preserved here without interpretation. Sensitivity is listed as 88 dB at 2.83 V/1 m, but RMS is not specified; the value is stored with that reference, not treated as 1 W/1 m. The page gives average impedance 6 Ω and minimum impedance 4 Ω, not nominal impedance, so the structured impedance field stays N/A and no impedance-dependent sensitivity conversion is made. The 25–75 W stereo-amplifier and 50–145 W AV-receiver ranges are recommendations, not speaker power handling, so power remains N/A. No response-point curve or polar/directivity dataset is provided. Resonant frequency and voice-coil diameter remain N/A; active/passive status is not explicitly classified. Source: https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specification lists one 165 mm bass unit and one 22 mm treble unit in a 2-way reflex enclosure."
     }
   },
   {
@@ -47863,9 +47931,10 @@
     "panel": null,
     "notes": "Exact TRIANGLE Borea BR03 manufacturer product page and technical specifications. The manufacturer states 90 dB/W/m sensitivity, 46 Hz–22 kHz bandwidth at ±3 dB, 8 Ω nominal impedance (4.2 Ω minimum), a 16 cm (6 in) midwoofer plus tweeter (two drivers), and 100 W speaker power handling. Sensitivity reference is retained as 1 W/1 m. The 25–130 W recommended amplifier range is not imported as speaker power. Minimum impedance is preserved here in notes; the scalar impedance field records the stated nominal value. Published bandwidth limits are not a response curve; no response points or directivity dataset are imported. Source: https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states \"2 Drivers\": one 25 mm silk dome tweeter and one 16 cm midwoofer."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -47936,14 +48005,16 @@
     "panel": null,
     "notes": "Exact TRIANGLE Comète Ez manufacturer product page and technical specifications; this is the Esprit EZ generation, not the 40th-anniversary Comète 40th. The manufacturer states 89 dB/W/m sensitivity, 49 Hz–22 kHz bandwidth at ±3 dB, 8 Ω nominal impedance (4.2 Ω minimum), one 16.5 cm (6.5 in) natural-cellulose midwoofer plus horn tweeter (two drivers), and 80 W average continuous speaker power handling. Sensitivity reference is retained as 1 W/1 m. The 25–130 W recommended amplifier range is not imported as speaker power. Minimum impedance is preserved here in notes; the scalar impedance field records the stated nominal value. Published bandwidth limits are not a response curve; no response points or directivity dataset are imported. Source: https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page lists one 16 cm (6-inch) natural cellulose midwoofer and one titanium horn tweeter (2 units)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page labels the model \"High-Fidelity Passive Speaker\"."
     }
   },
   {
@@ -48227,14 +48298,16 @@
     "panel": null,
     "notes": "Exact PreSonus Eris E4.5 (non-Bluetooth) product: the official product page identifies SKU 2777500103 and links this owner's manual. The manual distinguishes Eris E4.5 from E4.5 BT (Bluetooth is available only on BT models) and documents a paired system with one active and one passive enclosure. Per monitor, the source lists a 4.5-inch LF driver and 1-inch silk-dome HF driver; driverCount=2 and active=true describe that powered two-way monitor system. The published E4.5 frequency-response limits are 70 Hz–20 kHz; no tolerance is stated, so none is added. The manual lists 50 W amplifier power for the pair (25 W per speaker); the stored 50 W retains the pair-level total and amplifier-output role, not speaker power handling. The 100 dB value is peak SPL, not sensitivity; 10 kΩ is line-input impedance, not speaker impedance. Resonance, voice coil, response points, and a quantitative directivity dataset are not provided. The record's bare Eris 4.5 maps to the official non-BT E4.5 product/SKU, not the distinct 4.5BT 2nd Gen product. Sources: https://www.presonus.com/products/eris-e45-studio-monitor ; https://www.fmicassets.com/Damroot/Original/10017/OM_2777500103_PreSonus-Eris-E4.5_EN.pdf ; https://www.presonus.com/products/eris-45bt-2nd-gen-pair.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page lists one 4.5-inch low-frequency and one 1-inch high-frequency transducer (2 units)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states \"50W of onboard Class AB power\" (built-in amplification)."
     }
   },
   {
@@ -48447,14 +48520,16 @@
     "panel": null,
     "notes": "KRK official ROKIT 5 Generation 4 page (https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black), exact model ROKIT 5 G4 (not the Rokit 5 G1 or G5). Spec table: frequency response 43 Hz-40 kHz (no tolerance/-3 dB window published, so the limits are stored as published and not as a stated -3 dB bandwidth); power output 55 W (page does not say peak or RMS; stored as amplifier_output); max SPL 104 dB; input impedance 5.12 kOhm balanced (an analog input impedance, NOT stored as speaker impedance); 285 x 190 x 241 mm (H x W x D); 4.85 kg. driverCount 2 / active true: KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486) states the 5 in, 7 in and 8 in versions are two-way monitors with one tweeter and one woofer; the page lists a 1 in HF driver. Woofer size left N/A: the page title says 5 in but the same page's summary line says 'LF Driver: 7\"', so the manufacturer page contradicts itself and no honest value can be stored. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list one 5-inch LF driver and one 1-inch HF driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page headline calls it a powered near-field studio monitor and lists its wattage."
     }
   },
   {
@@ -48518,14 +48593,16 @@
     "panel": null,
     "notes": "KRK official ROKIT 7 Generation 4 page (https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black), exact model ROKIT 7 G4. Spec table: frequency response 42 Hz-40 kHz (no tolerance window published); max SPL 110 dB; input impedance 5.12 kOhm balanced (analog input, not stored as speaker impedance); 339 x 225 x 284 mm (H x W x D); 7.6 kg. Woofer 7 in: page title and summary line both state 7 in LF / 1 in HF (some retailers say 6.5 in; the manufacturer value is used). driverCount 2 / active true per KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486), which describes the 5/7/8 in versions as two-way. Power left N/A: the same page states 'Wattage: 203 Watts' in its summary line but 'Power Output: 145 Watts' in its specifications table, so the manufacturer page contradicts itself and no value is stored. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list one 7-inch LF driver and one 1-inch HF driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page headline calls it a powered near-field studio monitor and lists its wattage."
     }
   },
   {
@@ -48738,14 +48815,16 @@
     "panel": null,
     "notes": "KRK official V4 Series 4 page (https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor), exact model V4 Series 4. Frequency response 58 Hz-19 kHz at +/-3 dB is stored; 50 Hz-24 kHz at -10 dB is also published. Amplifiers: LF 55 W + HF 30 W = total 85 W (Class-D bi-amp; stored as the published total, amplifier_output; peak/RMS not stated). Drivers: 4 in Kevlar woofer + 1 in Kevlar dome tweeter, 2-way, crossover 2.1 kHz; peak SPL 110 dB; balanced 10 kOhm XLR/TRS input (analog input impedance, not stored as speaker impedance); 256 x 166 x 218 mm (H x W x D); 5.8 kg. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list one 4-inch woofer and one 1-inch tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications state \"System type: Active Studio Monitor\"."
     }
   },
   {
@@ -48810,14 +48889,16 @@
     "panel": null,
     "notes": "Exact KRK V6 Series 4 powered monitor page; the database's V6 S4 label denotes this Series 4 model, not another V6 revision. It is an active two-way monitor with a 6.5-inch woofer and 1-inch tweeter. The published response is 49 Hz–19 kHz at ±3 dB; the separate 40 Hz–24 kHz -10 dB range is not substituted for it. KRK specifies 155 W total internal amplifier output (125 W LF + 30 W HF), stored as amplifier_output rather than passive-speaker handling. Peak SPL is not sensitivity, and electrical input impedance is not driver load impedance; those fields remain N/A. No response-point curve or directivity data are imported. Source: https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list one 6.5-inch woofer and one 1-inch tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications state \"System type: Active Studio Monitor\"."
     }
   },
   {
@@ -50363,14 +50444,16 @@
     "panel": null,
     "notes": "Devialet’s official Dione page specifies 17 physical drivers (nine full-range and eight subwoofers), 950 W RMS total amplification, and 24 Hz–21 kHz response (no tolerance stated). Its 101 dB maximum SPL at 1 m is not sensitivity. The page does not state a subwoofer driver diameter or publish raw response/polar points; those fields remain N/A. Source: https://www.devialet.com/en-us/soundbar/dione/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.devialet.com/en-us/soundbar/dione/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications itemise 17 drivers: 9 full-range + 8 subwoofers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.devialet.com/en-us/soundbar/dione/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications give a total amplification power of 950 W RMS and eight SAM-powered built-in subwoofers."
     }
   },
   {
@@ -50435,14 +50518,16 @@
     "panel": null,
     "notes": "Sennheiser’s exact AMBEO Soundbar Max specifications list 13 Class-D amplifier channels/drivers, 500 W total audio power (explicitly peak), six 4-inch woofers, five 1-inch tweeters, two 3.5-inch top-facing full-range drivers, and 30 Hz–20 kHz (−3 dB). The stored power role is amplifier output; “peak” is retained in this note and is not represented as RMS/continuous. No sensitivity or speaker impedance is stated, and no raw response/polar dataset is imported. Source: https://us.sennheiser-hearing.com/products/ambeo-soundbar.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications state \"Total number of speakers 13\" and itemise 6 woofers + 5 tweeters + 2 full-range units."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Specifications list 13 built-in Class D amplifiers."
     }
   },
   {
@@ -51164,14 +51249,16 @@
     },
     "notes": "Barefoot’s exact Footprint03 page calls it a true three-way active, tri-amplified monitor and lists 260 watts of power per monitor, 45 Hz–40 kHz frequency response, a 6.5-inch woofer, 3.5-inch midrange, and 1-inch ring-radiator tweeter (three drivers). The manufacturer does not state a frequency tolerance or whether the 260 W is RMS/continuous/peak; the power field is therefore explicitly amplifier output, with no further rating implied. Its 105 dB figure is maximum peak SPL, not sensitivity. No measured response points or polar data are supplied/imported. Source: https://barefootsound.com/footprint03/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://barefootsound.com/footprint03/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Bullet list names three drive units: 6.5-inch woofer, 3.5-inch midrange, 1-inch tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://barefootsound.com/footprint03/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: Page states \"A TRUE 3-WAY ACTIVE PORTED DESIGN\" and \"Tri-amplified 3-way ... 260 watts of power per monitor\"."
     }
   },
   {
@@ -51451,9 +51538,10 @@
     },
     "notes": "Dutch & Dutch’s exact 8c page specifies three-way active design, 20 Hz–20 kHz response (no tolerance stated), and 1000 W/channel amplification. The rating remains per channel; no whole-system sum or driverCount is inferred. Cardioid/constant-directivity are technology descriptions, not an angle-resolved polar dataset, and no directivity/response points are imported. Source: https://dutchdutch.com/pages/8c.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dutchdutch.com/pages/8c",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 24: FAQ states amplification, streaming and DSP are built into the loudspeaker."
     }
   },
   {

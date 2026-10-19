@@ -1,0 +1,1501 @@
+{
+  "entries": [
+    {
+      "id": "svs-pb-3000",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-3000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-3000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy names a single 13-inch SVS high-excursion driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-pb-3000",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-3000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-3000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy describes the built-in Sledge STA-800D2 subwoofer amplifier and its DSP/app controls."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-pb-4000",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-4000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-4000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy names one 13.5-inch SVS driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-pb-4000",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb-4000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb-4000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy describes the built-in Sledge STA-1200D amplifier."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-pb16-ultra",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb16-ultra",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb16-ultra",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification list states a single front-firing 16-inch driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-pb16-ultra",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/pb16-ultra",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/pb16-ultra",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification list gives the built-in Sledge STA-1500D amplifier."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb-2000-pro",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-2000-pro",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-2000-pro",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Summary names a single 12-inch driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb-2000-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-2000-pro",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-2000-pro",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Summary describes the built-in 550-watt RMS amplifier and subwoofer control app."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb-3000",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-3000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-3000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy names a single 13-inch SVS driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb-3000",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-3000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-3000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy describes the built-in Sledge STA-800D2 amplifier."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb4000",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-4000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-4000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy names one 13.5-inch SVS driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "svs-sb4000",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.svsound.com/products/sb-4000",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.svsound.com/products/sb-4000",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product copy describes the built-in Sledge STA-1200D amplifier."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-rokit-5-g4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list one 5-inch LF driver and one 1-inch HF driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-rokit-5-g4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page headline calls it a powered near-field studio monitor and lists its wattage."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-rokit-7-g4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list one 7-inch LF driver and one 1-inch HF driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-rokit-7-g4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page headline calls it a powered near-field studio monitor and lists its wattage."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-v4-s4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list one 4-inch woofer and one 1-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-v4-s4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications state \"System type: Active Studio Monitor\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-v6-s4",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list one 6.5-inch woofer and one 1-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "krk-v6-s4",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications state \"System type: Active Studio Monitor\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "marshall-marshall-1960b",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product details name four 12-inch Celestion G12T-75 speakers."
+      },
+      "round": 24
+    },
+    {
+      "id": "marshall-marshall-1960bv",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Product details name four 12-inch Celestion G12 Vintage speakers."
+      },
+      "round": 24
+    },
+    {
+      "id": "polk-rti-a7",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Driver complement lists one 6.5-inch midrange, two 7-inch subwoofers and one 1-inch tweeter (4 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "polk-signature-s50",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Driver complement lists two 5.25-inch mid/woofers plus one 1-inch tweeter (3 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "kicker-47ksc6504",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.kicker.com/47KSC650",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.kicker.com/47KSC650",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 3/4-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "kicker-46csc654",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 1/2-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "kicker-46css674",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists one 6.75-inch woofer and one 3/4-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "rockford-fosgate-r165x3",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://rockfordfosgate.com/products/details/r165x3/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://rockfordfosgate.com/products/details/r165x3/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table states a 3-way coaxial speaker with 6.5-inch midrange and 0.5-inch tweeter; features list a pole-mounted tweeter and midrange over the woofer (3 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "rockford-fosgate-r1675x2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://rockfordfosgate.com/products/details/r1675x2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://rockfordfosgate.com/products/details/r1675x2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table states a 2-way coaxial speaker with a 6.75-inch midrange and a 0.5-inch tweeter (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "hertz-dieci-dsk-165-3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 24 mm tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "hertz-mille-pro-mpk-165-3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 29 mm tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "hertz-cento-ck-165",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Data sheet states a two-way system with one 165 mm woofer and one 26 mm tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "legacy-bose-2",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Manual states one ten-inch woofer plus two three-inch tweeters (3 drivers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "bose-301",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Driver complement lists one 8-inch woofer and two tweeters (3 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "bose-virtually-invisible-791",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Driver complement lists two 1-inch dome tweeters and one 7-inch woofer (3 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "audison-prima-apk-165",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://audison.com/product/apk-165/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://audison.com/product/apk-165/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a two-way kit comprising one AP 6.5 woofer and one AP 1 tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "audison-voce-av-k6",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://audison.com/product/av-k6/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://audison.com/product/av-k6/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a two-way kit comprising one AV 6.5 woofer and one AV 1.1 tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "audison-thesis-th-k2-ii-a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a two-way kit comprising one TH 6.5 Sax woofer and one TH 1.5 II Violino tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "triangle-comete-ez",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page lists one 16 cm (6-inch) natural cellulose midwoofer and one titanium horn tweeter (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "triangle-comete-ez",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page labels the model \"High-Fidelity Passive Speaker\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "yamaha-ns-5000",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists one 12-inch woofer, one 3-1/4-inch dome midrange and one 1-1/4-inch dome tweeter (3 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "yamaha-ns-777",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists dual 8-inch woofers, one 5-inch midrange and one 1-inch tweeter (4 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "revel-m106",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists one 1-inch tweeter and one 6.5-inch woofer (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "pioneer-ts-d65c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pioneer-car.eu/ts-d65c/ts-d65c",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pioneer-car.eu/ts-d65c/ts-d65c",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a 2-way component system with a 17 cm woofer and a 26 mm tweeter (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "pioneer-ts-z65f",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://pioneer-car.eu/ts-z65f/ts-z65f",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://pioneer-car.eu/ts-z65f/ts-z65f",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a 2-way coaxial speaker with a built-in tweeter and a mid-bass driver (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "presonus-eris-4-5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page lists one 4.5-inch low-frequency and one 1-inch high-frequency transducer (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "presonus-eris-4-5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.presonus.com/products/eris-e45-studio-monitor",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states \"50W of onboard Class AB power\" (built-in amplification)."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-flip6",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Spec sheet lists one racetrack woofer and one separate tweeter (2 transducers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-flip6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Spec sheet gives built-in output power (20 W + 10 W RMS) and an internal battery for a portable powered speaker."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-charge5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Spec sheet lists one 52 x 90 mm woofer and one 20 mm tweeter (2 transducers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-charge5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Spec sheet gives built-in rated output power and an internal battery for a portable powered speaker."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-partybox-1000",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list one 12-inch subwoofer, two 7-inch mid-range drivers and one compression driver (4 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "jbl-partybox-1000",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications give a mains AC power input and power consumption for the self-powered unit."
+      },
+      "round": 24
+    },
+    {
+      "id": "kicker-43dsc6504",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.kicker.com/ds-coaxial-speakers-65",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.kicker.com/ds-coaxial-speakers-65",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists a 2-way design with one 6.5-inch woofer and one 1/2-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "behringer-b215xl",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.behringer.com/en/products/0313-ACS",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.behringer.com/en/products/0313-ACS",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page headline states a 2-way system with one 15-inch woofer and one 1.75-inch compression driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "behringer-truth-b2031",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.behringer.com/en/products/0316-AAI",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.behringer.com/en/products/0316-AAI",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a 2-way monitor with one 8.75-inch woofer and one 1-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "behringer-truth-b2031",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.behringer.com/en/products/0316-AAI",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.behringer.com/en/products/0316-AAI",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page title and copy state \"Active\" / \"powered\" with internal bi-amplification (265 W)."
+      },
+      "round": 24
+    },
+    {
+      "id": "auratone-5c",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.auratoneaudio.com/products",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.auratoneaudio.com/products",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table states a single 4.5-inch full-range driver."
+      },
+      "round": 24
+    },
+    {
+      "id": "auratone-5c",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.auratoneaudio.com/products",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.auratoneaudio.com/products",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table states \"Type: Passive reference monitor\" and the product is headed \"Passive Monitor\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "void-air-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://voidacoustics.com/products/air/air8/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://voidacoustics.com/products/air/air8/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states a two-way coaxial loudspeaker with an 8-inch coaxial driver (2 transducers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "void-air-8",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://voidacoustics.com/products/air/air8/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://voidacoustics.com/products/air/air8/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states \"Passive\" in the model description."
+      },
+      "round": 24
+    },
+    {
+      "id": "apple-homepod",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://support.apple.com/en-us/111843",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://support.apple.com/en-us/111843",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Tech specs list one 4-inch woofer plus an array of five tweeters (6 drivers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "sonos-play1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Press release names a custom-designed mid-woofer and a tweeter (2 drivers)."
+      },
+      "round": 24
+    },
+    {
+      "id": "sonos-sub-mini",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/submini",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/submini",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications state two 6-inch force-canceling woofers."
+      },
+      "round": 24
+    },
+    {
+      "id": "sonos-sub-mini",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/submini",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/submini",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list two built-in Class-D digital amplifiers and an internal power supply."
+      },
+      "round": 24
+    },
+    {
+      "id": "dutch-and-dutch-8c",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://dutchdutch.com/pages/8c",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dutchdutch.com/pages/8c",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: FAQ states amplification, streaming and DSP are built into the loudspeaker."
+      },
+      "round": 24
+    },
+    {
+      "id": "sennheiser-ambeo-soundbar-max",
+      "field": "driverCount",
+      "value": 13,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications state \"Total number of speakers 13\" and itemise 6 woofers + 5 tweeters + 2 full-range units."
+      },
+      "round": 24
+    },
+    {
+      "id": "sennheiser-ambeo-soundbar-max",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications list 13 built-in Class D amplifiers."
+      },
+      "round": 24
+    },
+    {
+      "id": "triangle-borea-br03",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states \"2 Drivers\": one 25 mm silk dome tweeter and one 16 cm midwoofer."
+      },
+      "round": 24
+    },
+    {
+      "id": "polk-signature-s15",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists one 1-inch tweeter and one 5.25-inch mid-bass driver (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "polk-rc85i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists one 8-inch mid-bass driver and one 1-inch tweeter (2 units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "rockford-fosgate-p3",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://rockfordfosgate.com/products/details/p3d4-12/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://rockfordfosgate.com/products/details/p3d4-12/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page describes a single 12-inch Punch P3 subwoofer (one drive unit)."
+      },
+      "round": 24
+    },
+    {
+      "id": "eaw-kf760",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification sheet lists 2 LF + 2 MF + 2 HF transducers (6 drive units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "ath-avantone-mixcube",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://avantonepro.com/en/products/mixcube-passive",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://avantonepro.com/en/products/mixcube-passive",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification lists a single 5.25-inch driver; system type is full-range mono."
+      },
+      "round": 24
+    },
+    {
+      "id": "ath-avantone-mixcube",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://avantonepro.com/en/products/mixcube-passive",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://avantonepro.com/en/products/mixcube-passive",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Model is named \"Mixcube Passive\", specifies nominal 8-ohm impedance and a recommended external power of 10-200 W."
+      },
+      "round": 24
+    },
+    {
+      "id": "rcf-nx45a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications name one 15-inch woofer and one 1.4-inch compression driver (2 drive units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "rcf-nx45a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states \"ACTIVE TWO WAY\" and describes a built-in 1400 W 2-way class-D amplifier."
+      },
+      "round": 24
+    },
+    {
+      "id": "devialet-dione",
+      "field": "driverCount",
+      "value": 17,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.devialet.com/en-us/soundbar/dione/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.devialet.com/en-us/soundbar/dione/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications itemise 17 drivers: 9 full-range + 8 subwoofers."
+      },
+      "round": 24
+    },
+    {
+      "id": "devialet-dione",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.devialet.com/en-us/soundbar/dione/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.devialet.com/en-us/soundbar/dione/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications give a total amplification power of 950 W RMS and eight SAM-powered built-in subwoofers."
+      },
+      "round": 24
+    },
+    {
+      "id": "kenwood-kfc-1666s",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification table lists a 6.5-inch woofer and a 1-inch tweeter (2 drive units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "paradigm-monitor-11",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specifications state \"5-driver, 3-way\" and itemise one tweeter + one midrange + three woofers."
+      },
+      "round": 24
+    },
+    {
+      "id": "q-acoustics-3030i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification lists one 165 mm bass unit and one 22 mm treble unit in a 2-way reflex enclosure."
+      },
+      "round": 24
+    },
+    {
+      "id": "legacy-ma-3",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://martin-audio.com/products/archive/w8lm",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://martin-audio.com/products/archive/w8lm",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification names two 8-inch LF/MF units and two 1-inch HF compression drivers (4 drive units)."
+      },
+      "round": 24
+    },
+    {
+      "id": "legacy-ma-3",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://martin-audio.com/products/archive/w8lm",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://martin-audio.com/products/archive/w8lm",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification type line reads \"Three-way, active/passive\" and the cabinet is driven from a recommended external iK81 power amplifier; no internal amplification is listed."
+      },
+      "round": 24
+    },
+    {
+      "id": "danley-sh96",
+      "field": "driverCount",
+      "value": 11,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.danleysoundlabs.com/products/sh96/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.danleysoundlabs.com/products/sh96/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Driver complement is itemised as 4 + 6 + 1 = 11 drivers, matching the page headline \"11 Drivers, 1 Horn!\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "barefoot-footprint03",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://barefootsound.com/footprint03/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://barefootsound.com/footprint03/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Bullet list names three drive units: 6.5-inch woofer, 3.5-inch midrange, 1-inch tweeter."
+      },
+      "round": 24
+    },
+    {
+      "id": "barefoot-footprint03",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://barefootsound.com/footprint03/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://barefootsound.com/footprint03/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Page states \"A TRUE 3-WAY ACTIVE PORTED DESIGN\" and \"Tri-amplified 3-way ... 260 watts of power per monitor\"."
+      },
+      "round": 24
+    },
+    {
+      "id": "funktion-one-res2",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://funktion-one.com/product/res-2/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://funktion-one.com/product/res-2/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 24: Specification names a 15-inch bass driver plus an 8-inch midrange and a 1-inch HF driver (3 drive units)."
+      },
+      "round": 24
+    }
+  ],
+  "marker": "round24-queue-batch"
+}

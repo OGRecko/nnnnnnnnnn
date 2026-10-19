@@ -4531,6 +4531,978 @@
       "sourceClass": "NON_MANUFACTURER_HOST",
       "round": 23,
       "coverage": "Specifications: \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\""
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-3000",
+      "host": "www.svsound.com",
+      "document": "SVS PB-3000 subwoofer product page (Overview/Description)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "PB-3000 product copy: \"All New First Ever 13-inch High-Excursion SVS Driver\"; \"Sledge STA-800D2 Amplifier - Massive Power with Precise Control\"; the page describes the built-in Sledge amplifier and subwoofer DSP app. One 13-inch drive unit."
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-4000",
+      "host": "www.svsound.com",
+      "document": "SVS PB-4000 subwoofer product page (Overview/Description)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "PB-4000 product copy: \"excursion of the 13.5-inch driver\"; \"The PB-4000 Sledge STA-1200D amplifier uses an efficient Class D design\". One 13.5-inch drive unit with a built-in Sledge amplifier."
+    },
+    {
+      "url": "https://www.svsound.com/products/pb16-ultra",
+      "host": "www.svsound.com",
+      "document": "SVS PB16-Ultra subwoofer product page (Overview/Description/Subwoofer Specs)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "PB16-Ultra \"Subwoofer Specs\": \"Front-firing 16\\\" driver\"; \"Amplifier Specs: Sledge STA-1500D with 1500 watts RMS continuous power\". One 16-inch drive unit with a built-in amplifier."
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-2000-pro",
+      "host": "www.svsound.com",
+      "document": "SVS SB-2000 Pro subwoofer product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "SB-2000 Pro summary: \"Its 12-inch high-excursion driver, 550-watt RMS amplifier\"; sealed subwoofer with SVS Subwoofer Control App."
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-3000",
+      "host": "www.svsound.com",
+      "document": "SVS SB-3000 subwoofer product page (Overview/Description)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 8,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "SB-3000 product copy: \"All New First Ever 13-inch High-Excursion SVS Driver\"; \"Sledge STA-800D2 Amplifier\". One 13-inch drive unit with a built-in amplifier."
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-4000",
+      "host": "www.svsound.com",
+      "document": "SVS SB-4000 subwoofer product page (Overview/Description)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "SB-4000 product copy: \"excursion of the 13.5-inch driver\"; \"The SB-4000 Sledge STA-1200D amplifier uses an efficient Class D design\". One 13.5-inch drive unit with a built-in amplifier."
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+      "host": "www.krkmusic.com",
+      "document": "KRK ROKIT 5 Generation 4 product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "ROKIT 5 G4 key specifications: \"LF Driver: 5\\\"\", \"HF Driver: 1\\\"\", \"Wattage: 55 Watts\"; page headline \"5\\\" Powered Near-Field Studio Monitor\"."
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+      "host": "www.krkmusic.com",
+      "document": "KRK ROKIT 7 Generation 4 product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "ROKIT 7 G4 key specifications: \"LF Driver: 7\\\"\", \"HF Driver: 1\\\"\", \"Wattage: 203 Watts\"; page headline \"7\\\" Powered Near-Field Studio Monitor\"."
+    },
+    {
+      "url": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+      "host": "www.krkmusic.com",
+      "document": "KRK V4 Series 4 product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "V4 S4 specifications: \"System type: Active Studio Monitor\"; \"Low-Frequency Transducer: Woofer, 4\\\"\"; \"High-Frequency Transducer: Tweeter, 1\\\"\"."
+    },
+    {
+      "url": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+      "host": "www.krkmusic.com",
+      "document": "KRK V6 Series 4 product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "V6 S4 specifications: \"System type: Active Studio Monitor\"; \"Low-Frequency Transducer: Woofer, 6.5\\\"\"; \"High-Frequency Transducer: Tweeter, 1\\\"\"."
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+      "host": "www.marshall.com",
+      "document": "Marshall 1960B 4x12 base cabinet support page (product details)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Support page: \"The 1960B 300W 4x12 Base Cabinet features four Celestion G12T-75 speakers.\" Product details list power handling 300W mono/150W stereo and two inputs; no amplifier or passive/unpowered wording."
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+      "host": "www.marshall.com",
+      "document": "Marshall 1960BV 4x12 base cabinet support page (product details)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Support page: \"The 1960BV 280W 4x12 Base Cabinet features four Celestion G12 Vintage speakers.\" Product details list power handling 280W mono/140W stereo and two inputs."
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+      "host": "www.polkaudio.com",
+      "document": "Polk Audio RTi A7 archived product page (details & specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "RTi A7 specifications: \"Type 3-way\"; Mid-High Array Driver Complement \"(1) 6.5\\\" ... Dynamic Balance driver ... - Midrange\"; Subwoofer Array Driver Complement \"(2) 7\\\" ... Dynamic Balance drivers ... - Subwoofer\"; Front Array Driver Complement \"(1) 1\\\" ... dome - Tweeter\". Four drive units in total."
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+      "host": "www.polkaudio.com",
+      "document": "Polk Audio Signature S50 archived product page (details & specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Signature S50 \"Driver Complement\": \"(2) 5.25\\\" (13.34 cm) d (Round) - Mid/Woofer\" and \"(1) 1\\\" (2.54 cm) d (Round) - Tweeter\". Three drive units in total."
+    },
+    {
+      "url": "https://www.kicker.com/47KSC650",
+      "host": "www.kicker.com",
+      "document": "KICKER KSC650 6.5-inch coaxial speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "KSC650 specifications: \"Speaker Design 2-Way\", \"Woofer 6-1/2, 160\", \"Tweeter 3/4, 20\". One woofer plus one tweeter."
+    },
+    {
+      "url": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+      "host": "www.kicker.com",
+      "document": "KICKER CSC65 6.5-inch coaxial speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "CSC65 specifications: \"Speaker Design 2 - way\", \"Woofer Size [ in, mm ] 6 1/2, 160\", \"Tweeter Size [ in, mm ] 1/2, 13\"."
+    },
+    {
+      "url": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+      "host": "www.kicker.com",
+      "document": "KICKER CSS67 6.75-inch component speaker system product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "CSS67 specifications: \"Woofer Size | in [mm] 6 3/4 [165]\", \"Tweeter Size | in [mm] 3/4 [20]\", \"High Pass ... 12, 4000\", \"Low Pass ... 12, 4000\". One woofer and one tweeter per component set."
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/r165x3/",
+      "host": "rockfordfosgate.com",
+      "document": "Rockford Fosgate Prime R165X3 6.50 in 3-way full-range speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "R165X3 specifications: \"Speaker Type 3-Way Coax\"; \"Midrange Size (Nominal Diameter) 6.5\\\"\"; \"Tweeter Size (Nominal Diameter) 0.5\\\" (12 mm)\". Features: \"Silk dome pole mounted Piezo tweeter and midrange\". A 3-way coax with woofer, pole-mounted midrange and tweeter."
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/r1675x2/",
+      "host": "rockfordfosgate.com",
+      "document": "Rockford Fosgate Prime R1675X2 6.75 in 2-way full-range speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "R1675X2 specifications: \"Speaker Type 2-Way Coax\"; \"Midrange Size (Nominal Diameter) 6.75\\\"\"; \"Tweeter Size (Nominal Diameter) 0.50\\\" (12.7 mm)\"."
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+      "host": "static.hertz-audio.com",
+      "document": "Hertz DIECI DSK 165.3 technical data sheet",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "DSK165.3 technical specifications: \"Component: Two way system\"; \"Woofer size mm (in.) 165 (6.5)\"; \"Tweeter size mm (in.) 24 (0.9)\"."
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+      "host": "static.hertz-audio.com",
+      "document": "Hertz Mille PRO MPK 165.3 technical data sheet",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "MPK 165.3 technical specification: \"Component 2-way system\"; \"Woofer mm (in.) 165 (6.5)\"; \"Tweeter diaphragm mm (in.) 29 (1.14)\"."
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+      "host": "static.hertz-audio.com",
+      "document": "Hertz Cento CK 165 technical data sheet (rev18A)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "CK 165 technical specifications: \"Component 2-way system\"; \"Woofer mm (in.) 165 (6.5)\"; \"Tweeter diaphragm mm (in.) 26 (1)\"."
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+      "host": "products.bose.com",
+      "document": "Bose Model 501 Direct/Reflecting speaker system owner's manual (1977)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Manual section III \"Design Features\": \"The BOSE Model 501 Direct/Reflecting speaker system incorporates a ten-inch woofer and two three-inch tweeters\"."
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+      "host": "products.bose.com",
+      "document": "Bose 301 Series IV Direct/Reflecting speaker owner's guide (technical information)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Technical information, \"Driver complement\": \"One (1) 8-inch (20 cm) woofer\", \"One (1) 3-inch (7.6 cm) high-sensitivity tweeter\", \"One (1) 2-inch (5 cm) high-sensitivity tweeter\"."
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+      "host": "products.bose.com",
+      "document": "Bose Virtually Invisible 791 speakers installation guide (technical information)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        3
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Technical information, \"Driver complement\": \"Two (2) 1\\\" (2.54 cm) dome tweeters configured in an array\" and \"One (1) 7\\\" (17.8 cm) high-excursion woofer\"."
+    },
+    {
+      "url": "https://audison.com/product/apk-165/",
+      "host": "audison.com",
+      "document": "Audison Prima APK 165 two-way component kit product page (specifications)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "APK 165 page: \"Kit 2 way 4 ohm | AP 1 + AP 6.5 + Crossover\"; \"The two-way system features an AP 1 tweeter and AP 6.5 woofer\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 26 mm (1 in)\"."
+    },
+    {
+      "url": "https://audison.com/product/av-k6/",
+      "host": "audison.com",
+      "document": "Audison Voce AV K6 two-way component kit product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "AV K6 page: \"Kit 2 way 4 ohm | AV 1.1 + AV 6.5 + Crossover\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 28 mm (1.1 in)\"."
+    },
+    {
+      "url": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "host": "audison.com",
+      "document": "Audison Thesis TH K2 II A Coro two-way component kit product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "TH K2 II A CORO page: \"Kit 2 way 4 ohm | TH 1.5 II Violino + TH 6.5 Sax\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 38 mm (1.5 in)\"."
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+      "host": "trianglehifi.com",
+      "document": "Triangle Esprit Ez Comete bookshelf speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Comete Ez page key points: \"High-Fidelity Passive Speaker\"; \"Titanium Horn Tweeter\"; \"16cm (6\\\") Natural Cellulose Midwoofer\"; \"Power Handling 80 W\"."
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "host": "trianglehifi.com",
+      "document": "Triangle Borea BR02 bookshelf speaker product page (requested URL)",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "The requested /products/enceinte-bibliotheque-hi-fi-borea-br02 URL redirected to the trianglehifi.us storefront home page; no BR02 specification text was served, so neither field could be read."
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+      "host": "usa.yamaha.com",
+      "document": "Yamaha NS-5000 specifications page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "NS-5000 spec table: \"Type 3-way bookshelf bass-reflex type\"; \"Woofers 12\\\" cone type\"; \"MidRange Driver 3-1/4\\\" dome type\"; \"Tweeter 1-1/4\\\" dome type\"."
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+      "host": "usa.yamaha.com",
+      "document": "Yamaha NS-777 specifications page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "NS-777 spec table: \"Type 3-way bass reflex design\"; \"Woofers Dual 8\\\" PMD cone\"; \"MidRange Driver 5\\\" cone with waveguide horn\"; \"Tweeters 1\\\" aluminum dome with waveguide horn\"."
+    },
+    {
+      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+      "host": "www.revelspeakers.com",
+      "document": "Revel Performa3 M106 product page (general specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "M106 general specifications: \"High-frequency Driver Components 1\\\" (2.5 cm) Aluminum Tweeter with Acoustic Lens Waveguide\"; \"Low-frequency Driver Components 6.5\\\" (16.5 cm) Aluminum Cone, Cast-frame Woofer\"."
+    },
+    {
+      "url": "https://pioneer-car.eu/ts-d65c/ts-d65c",
+      "host": "pioneer-car.eu",
+      "document": "Pioneer TS-D65C 17 cm two-way component speaker system product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "TS-D65C page: \"17cm 2-Way Component Speaker System (270 W)\"; spec table \"Diameter Size: 17 cm\", \"Tweeter Diameter Size: 26 mm\", \"Magnets: Woofer: Ferrite. Tweeter: Neodymium\"."
+    },
+    {
+      "url": "https://pioneer-car.eu/ts-z65f/ts-z65f",
+      "host": "pioneer-car.eu",
+      "document": "Pioneer TS-Z65F 17 cm two-way coaxial speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "TS-Z65F page: \"17cm 2-Way Coaxial Speakers (330 W)\"; feature copy \"Featuring a built-in Tweeter and Mid Bass driver\"; \"Magnets: Woofer: Ferrite. Tweeter: Neodymium\"."
+    },
+    {
+      "url": "https://www.presonus.com/products/eris-e45-studio-monitor",
+      "host": "www.presonus.com",
+      "document": "PreSonus Eris E4.5 studio monitor product page (features and specs)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Eris E4.5: Overview \"50W of onboard Class AB power\"; Features \"4.5-inch, woven-composite, low-frequency transducer\" and \"1-inch (25 mm), ultra-low-mass, silk-dome, high-frequency transducer\"; Specs \"HF Transducers 1\\\" Silk Dome Tweeter\", \"LF Transducers 4.5\\\"\"."
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+      "host": "www.jbl.com",
+      "document": "JBL Flip 6 portable speaker spec sheet (English)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Flip 6 technical specifications: \"Transducers: 45 x 80mm woofer/ 1.75 x 3\\\", 16mm tweeter/0.6\\\"\"; \"Output power: 20W RMS for woofer, 10W RMS for tweeter\"; battery Li-ion polymer."
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+      "host": "www.jbl.com",
+      "document": "JBL Charge 5 portable speaker spec sheet (English)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Charge 5 technical specifications: \"Transducer: 52mm x 90mm woofer, 20mm tweeter\"; \"Rated output power: 30W RMS for woofer, 10W RMS for tweeter\"; internal Li-ion battery."
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+      "host": "www.jbl.com",
+      "document": "JBL PartyBox 1000 quick start guide (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 7,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "PartyBox 1000 specifications: \"Speaker drivers: 1 x12\\\" Sub woofer + 2 x 7\\\" Mid-range + 1 x Compression driver\"; \"AC power input: 100-240V ~ 50/60Hz\"; \"Power consumption: 150W\"."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
+      "host": "cdn.shopify.com",
+      "document": "REL S/812 subwoofer brochure (specifications)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 24,
+      "coverage": "S/812 specifications: \"TYPE Front-firing active woofer, down-firing passive radiator\"; \"ACTIVE DRIVER SIZE & MATERIAL 12 in., 300 mm\"; \"POWER OUTPUT 800 watts (RMS)\"; \"AMPLIFIER TYPE NextGen5 Class D\"."
+    },
+    {
+      "url": "https://www.kicker.com/ds-coaxial-speakers-65",
+      "host": "www.kicker.com",
+      "document": "KICKER DS Series DSC650 6.5-inch coaxial speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "DSC650 specifications: \"Speaker Design 2 - Way\"; \"Woofer [in, mm] 6-1/2, 160\"; \"Tweeter [in, mm] 1/2, 13\"; \"Mid [in, mm] n/a\"."
+    },
+    {
+      "url": "https://www.behringer.com/en/products/0313-ACS",
+      "host": "www.behringer.com",
+      "document": "Behringer EUROLIVE B215XL product page",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "B215XL page headline: \"1000W 2-Way PA Speaker System with 15\\\" Woofer and 1.75\\\" Titanium Compression Driver\"; copy describes \"15\\\" long-excursion Low-Frequency (LF)\" and \"1.75\\\" titanium-diaphragm High-Frequency (HF) compression drivers\" and parallel inputs for a power amp."
+    },
+    {
+      "url": "https://www.behringer.com/en/products/0316-AAI",
+      "host": "www.behringer.com",
+      "document": "Behringer B2031A product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "B2031A page: title \"High-Resolution, Active 2-Way Reference Studio Monitor\"; copy \"powered 2-way reference monitor with a custom 8.75-inch long-throw Kevlar woofer and a 1-inch ultra-high-frequency ferrofluid-cooled tweeter\"; \"Bi-amplified internally with 265 W of dedicated power\"."
+    },
+    {
+      "url": "https://www.auratoneaudio.com/products",
+      "host": "www.auratoneaudio.com",
+      "document": "Auratone products page (5C Super Sound Cube specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "5C Super Sound Cube table: \"Type Passive reference monitor\"; \"Driver 4.5\\\" full-range, single cone\"; product heading \"Passive Monitor\"."
+    },
+    {
+      "url": "https://voidacoustics.com/products/air/air8/",
+      "host": "voidacoustics.com",
+      "document": "Void Acoustics Air 8 product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Air 8 page heading: \"Passive 8 inch two-way coaxial surface-mount loudspeaker for high-end environments\"; repeated icon text \"Passive 8 inch two-way coaxial surface-mount loudspeaker\"."
+    },
+    {
+      "url": "https://support.apple.com/en-us/111843",
+      "host": "support.apple.com",
+      "document": "Apple HomePod (2nd generation) tech specs",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "HomePod (2nd generation) tech specs, \"Audio Technology\": \"4-inch high-excursion woofer\"; \"Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet\"."
+    },
+    {
+      "url": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
+      "host": "newsroom.sonos.com",
+      "document": "Sonos newsroom press release introducing the PLAY:1",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "PLAY:1 press release: \"A custom-designed mid-woofer and tweeter deliver deep, rich and surprisingly big sound.\""
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/submini",
+      "host": "www.sonos.com",
+      "document": "Sonos Sub Mini product guide (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Sub Mini specifications: \"Amplifier: Two Class-D digital amplifiers\"; \"Woofers: Two 6\\\" force-canceling woofers positioned face-to-face\"."
+    },
+    {
+      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+      "host": "www.sony.com",
+      "document": "Sony HT-A7000 support specifications page",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "HT-A7000 specifications: \"Amplifier Channels 11ch\"; \"Speaker Structure 7.1.2ch (Built-in Subwoofer)\"; no transducer count is given."
+    },
+    {
+      "url": "https://dutchdutch.com/pages/8c",
+      "host": "dutchdutch.com",
+      "document": "Dutch & Dutch 8c product page (FAQ)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "8c FAQ: \"Do I need a separate amplifier or streamer? No. The 8c is a complete high-end audio system with amplification, streaming, DACs, DSP, and room integration built in.\""
+    },
+    {
+      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+      "host": "us.sennheiser-hearing.com",
+      "document": "Sennheiser AMBEO Soundbar Max product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        3
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "AMBEO Soundbar Max specifications: \"Total number of speakers 13\"; \"Amplifier 13x class D Amplifiers\"; \"Woofers 6x 4\\\" Cellulose Sandwich Cones\"; \"Tweeters 5x 1\\\" Tweeters Aluminium Cones\"; \"Full range 2x 3,5\\\" Top Facing Full Range\"."
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+      "host": "trianglehifi.com",
+      "document": "Triangle Borea BR03 bookshelf speaker product page (specifications)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        2
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "BR03 \"Driver informations\": \"2 Drivers: 1 x 25mm silk dome tweeter; 1 x 16 cm midwoofer with natural cellulose pulp membrane\"; \"Crossover: 2 Ways\"; recommended amplifier power 25-130 W (8 ohms)."
+    },
+    {
+      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+      "host": "www.polkaudio.com",
+      "document": "Polk Signature Series product information sheet (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Signature Series specification table, S15 column: model described as \"Full Range Passive Bookshelf Loudspeaker\"; \"Tweeter 1-1in Terylene High-Res Dome Tweeter\"; \"Mid-bass 1-5.25in Dynamic Balance Mica Reinforced Polypropylene Driver\"."
+    },
+    {
+      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+      "host": "www.polkaudio.com",
+      "document": "Polk RC60i/RC80i/RC85i in-ceiling loudspeaker owner's manual (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        2
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "RC85i specifications: \"Drive Unit Complement Mid-Bass 1-8\\\" (20cm) mineral filled polypropylene cone, rubber suspension\"; \"Tweeter 1\\\" (2.5cm) soft dome in swivel mount\"."
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/p3d4-12/",
+      "host": "rockfordfosgate.com",
+      "document": "Rockford Fosgate Punch P3D4-12 12-inch subwoofer product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "P3D4-12 page: \"Punch 12\\\" P3 4-Ohm DVC Subwoofer P3D4-12\"; \"The P3 12\\\" features Dual 4-Ohm voice coils, 600 Watts RMS of power handling\"."
+    },
+    {
+      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+      "host": "eaw.com",
+      "document": "EAW KF760 specifications sheet (rev 1)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "KF760 \"PHYSICAL\": \"System Configuration 3-way, full range\"; \"Powering Tri-amplified\"; \"LF Subsystem 2x 12-in woofers, horn-loaded\"; \"MF Subsystem 2x 10-in cone ... horn-loaded\"; \"HF Subsystem 2x 2-in exit/3-in voice coil compression driver, horn-loaded\"."
+    },
+    {
+      "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+      "host": "tcfurlong.com",
+      "document": "Fostex Model 6301B Personal Monitor owner's manual",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 24,
+      "coverage": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\"."
+    },
+    {
+      "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
+      "host": "bangolufsenrmaskillgohel.blob.core.windows.net",
+      "document": "Bang & Olufsen Beosound Balance product sheet (September 2024)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "round": 24,
+      "coverage": "Beosound Balance technical page: \"SPEAKER DRIVERS 2 x 5,25\\\" woofer drivers; 2 x 3\\\" fullrange drivers; 2 x 2\\\" full range drivers; 1 x ¾\\\" tweeter\"; \"POWER AMPLIFIERS 2 x Class D at 200 W for woofer; 4 x Class D at 100 W for full range; 1 x Class D at 80 W for tweeter\"."
+    },
+    {
+      "url": "https://avantonepro.com/en/products/mixcube-passive",
+      "host": "avantonepro.com",
+      "document": "Avantone Pro Mixcube Passive product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Mixcube Passive specifications: \"System Type: Dynamic Shielded Full-Range Mono\"; \"Driver: 5.25\\\" cast aluminum frame\"; \"Impedance: Nominal 8 ohms\"; \"Recommended Power: From 10-200 watts\"; product name \"Mixcube Passive\"."
+    },
+    {
+      "url": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+      "host": "www.rcf.it",
+      "document": "RCF NX 45-A active two-way multipurpose speaker product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "NX 45-A page title/specs: \"ACTIVE TWO WAY MULTIPURPOSE SPEAKER\"; \"1400 W 2-way class-D amplifier\"; features \"15\\\" neodymium woofer, 3.5\\\" voice coil\", \"Horn loaded 4.0'' neodymium c. driver\"."
+    },
+    {
+      "url": "https://www.devialet.com/en-us/soundbar/dione/",
+      "host": "www.devialet.com",
+      "document": "Devialet Dione soundbar product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Dione specifications: \"17x Devialet custom neodymium drivers: 9x Full-range aluminium drivers, 8x Aluminium long-throw subwoofers\"; \"Total amplification power 950 Watts RMS\"."
+    },
+    {
+      "url": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+      "host": "www.kenwood.com",
+      "document": "Kenwood KFC-1666S speaker specification page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "KFC-1666S specifications: \"Woofer ... Size 160mm / 6.5in\"; \"Tweeter ... Size 25mm / 1 in.\"; \"Impedance 4Ω\"; \"Peak Input Power 300W\"."
+    },
+    {
+      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
+      "host": "www.paradigm.com",
+      "document": "Paradigm Monitor SE 6000F floorstanding loudspeaker product page (specifications)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Monitor SE 6000F specifications: \"DESIGN 5-driver, 3-way bass reflex, floorstanding\"; \"HIGH FREQUENCY DRIVER 1\\\" X-PAL dome\"; \"MIDRANGE FREQUENCY DRIVER 5-1/2\\\"\"; \"LOW FREQUENCY DRIVER Three 5-1/2\\\"\"."
+    },
+    {
+      "url": "https://www.ikmultimedia.com/news/?id=iloudmtm",
+      "host": "www.ikmultimedia.com",
+      "document": "IK Multimedia news item for iLoud MTM (URL no longer resolves to an article)",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "The recorded news URL now redirects to the general IK Multimedia blog index; the requested article id=iloudmtm is not present and no iLoud MTM specification text is served at this URL."
+    },
+    {
+      "url": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+      "host": "www.qacoustics.com",
+      "document": "Q Acoustics 3030i bookshelf speaker product page (specification block)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "3030i \"Specification\": \"Enclosure type: 2-way reflex\"; \"Bass unit: 165 mm (6.5 in)\"; \"Treble unit: 22 mm (0.9 in)\"; \"Average impedance: 6 Ω\"."
+    },
+    {
+      "url": "https://martin-audio.com/products/archive/w8lm",
+      "host": "martin-audio.com",
+      "document": "Martin Audio W8LM mini three-way line array enclosure product page (specifications)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "W8LM specification: \"TYPE: Three-way, active/passive, mini line array element\"; \"DRIVERS: LF + MF Section - 8\\\" (200mm)/2\\\" ... reflex-loaded direct radiator; 8\\\" (200mm) ... front horn loaded\"; \"DRIVERS: HF Section 2 x 1\\\" (25mm) exit HF compression drivers, horn loaded\"; page recommends \"Martin Audio iKON iK81 Eight-channel 10,000W Class D Power Performance Amplifier\"."
+    },
+    {
+      "url": "https://www.danleysoundlabs.com/products/sh96/",
+      "host": "www.danleysoundlabs.com",
+      "document": "Danley Sound Labs SH96 Synergy Horn product page (product specifications)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "SH96 page: \"four 15-inch drivers, six 4-inch mid-range drivers and a 1.4-inch-high frequency driver - that makes a jaw-dropping 11 drivers coupled to a single horn\"; \"Driver Complement: four 15\\\" woofers; six 4\\\" Mid Range; one 1.4\\\" High Freq\"; \"Power Rating 1400 Watts Continuous\"."
+    },
+    {
+      "url": "https://barefootsound.com/footprint03/",
+      "host": "barefootsound.com",
+      "document": "Barefoot Sound Footprint03 studio monitor product page",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Footprint03 page: \"A TRUE 3-WAY ACTIVE PORTED DESIGN MONITOR\"; bullet list \"Tri-amplified 3-way\", \"260 watts of power per monitor\", \"6.5\\\" aluminum cone woofer\", \"3.5\\\" aluminum cone midrange\", \"1\\\" ring radiator tweeter\"."
+    },
+    {
+      "url": "https://funktion-one.com/product/res-2/",
+      "host": "funktion-one.com",
+      "document": "Funktion-One Res 2 loudspeaker product page (technical specification)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 24,
+      "coverage": "Res 2 technical specification: driver rows \"15\\\"\" (28Hz-250Hz, 8Ω, 400W AES) and \"8\\\" + 1\\\"\" (250Hz-Up, 12Ω, 250W AES); features list \"Three-way bi-amped (passive HF)\"; connectors \"2 x Neutrik NL4\"."
     }
   ],
   "openQuestionsForOwner": [
