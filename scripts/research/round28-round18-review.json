@@ -1,0 +1,333 @@
+{
+  "schema": "round28-round18-review/v1",
+  "round": 28,
+  "checkedDate": "2026-10-19",
+  "purpose": "Recheck the Round 18 field checks against the exact documents they cite.",
+  "documents": {
+    "zx3Manual": {
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "documentOrigin": "Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B",
+      "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy, owner decision 1)",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "chunksTotal": 6
+    },
+    "presonusManual": {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "chunksTotal": 4
+    },
+    "presonusR80Sheet": {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1
+    }
+  },
+  "zx3Verdict": {
+    "values": "All seven stored fields are stated verbatim in the manual specification table (p. 10).",
+    "statuses": "Unchanged. Every field already had MANUFACTURER_VERIFIED and the document supports each one independently; no field was promoted because a sibling field was verified.",
+    "defectsFound": [
+      "Page reference said p. 3; the specification table is on p. 10.",
+      "Sensitivity note claimed \"95 dB full-space\", which the manual does not state.",
+      "Active note quoted a \"System Configuration\" row not present in the manual, and misquoted the connector row.",
+      "Power note called the row \"Full-Range\" instead of \"Power Handling (Passive)\"."
+    ],
+    "unresolved": "none"
+  },
+  "presonusVerdict": {
+    "values": "R65 and R80 driverCount, active, woofer and frequency response match the manual; power matches the tech sheets; sensitivity and load impedance remain UNAVAILABLE with reasons recorded.",
+    "host": "www.fmicassets.com stays ESTABLISHED under the owner confirmation of 2026-10-13; unchanged.",
+    "defectsFound": [
+      "R80 woofer provenance did not record why 8 in is kept against the tech sheet table row that says 6.5 in."
+    ],
+    "unresolved": "none"
+  },
+  "fieldChecks": [
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "driverCount",
+      "outcome": "NOTE_CORRECTED",
+      "value": 2,
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "active",
+      "outcome": "NOTE_CORRECTED",
+      "value": false,
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "sensitivity",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 97,
+        "unit": "dB",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Axial Sensitivity: 97 dB (1W/1m)\", footnote 1 \"Half Space Measurement\". The manual publishes no separate full-space figure; the earlier note's \"95 dB full-space\" clause was not in the document and has been removed rather than repeated."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "impedance",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 8,
+        "unit": "ohm",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Nominal Impedance: 8 Ohms\" and \"Minimum Impedance: 6.2 Ohms\"."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "power",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 600,
+        "unit": "W",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "role": "speaker_power_handling",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Power Handling (Passive): 600W Continuous, 2400W Peak\". The stored scalar is the continuous rating for passive operation; the peak figure is context only. The earlier note called this row \"Full-Range\", which is not the manual's wording."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "frequencyResponse",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "low_hz": 58,
+        "high_hz": 15000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Freq. Response (-3 dB): 58 Hz - 15 kHz\" under footnote 1 \"Half Space Measurement\". The -10 dB range (48 Hz - 20 kHz) stays context and is not substituted for the -3 dB limits."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "woofer",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 12,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10), LF Transducer \"DVX3121, 12 in (305mm) Driver\". Origin and hosting remain recorded separately."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-60",
+      "field": "driverCount/active/woofer/sensitivity",
+      "outcome": "EVIDENCE_CONFIRMED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "driverCount",
+      "outcome": "NOTE_CORRECTED",
+      "value": 2,
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "active",
+      "outcome": "NOTE_CORRECTED",
+      "value": false,
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "sensitivity",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 97,
+        "unit": "dB",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Axial Sensitivity: 97 dB (1W/1m)\", footnote 1 \"Half Space Measurement\". The manual publishes no separate full-space figure; the earlier note's \"95 dB full-space\" clause was not in the document and has been removed rather than repeated."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "impedance",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 8,
+        "unit": "ohm",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Nominal Impedance: 8 Ohms\" and \"Minimum Impedance: 6.2 Ohms\"."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "power",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 600,
+        "unit": "W",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "role": "speaker_power_handling",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Power Handling (Passive): 600W Continuous, 2400W Peak\". The stored scalar is the continuous rating for passive operation; the peak figure is context only. The earlier note called this row \"Full-Range\", which is not the manual's wording."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "frequencyResponse",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "low_hz": 58,
+        "high_hz": 15000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Freq. Response (-3 dB): 58 Hz - 15 kHz\" under footnote 1 \"Half Space Measurement\". The -10 dB range (48 Hz - 20 kHz) stays context and is not substituted for the -3 dB limits."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "woofer",
+      "outcome": "NOTE_CORRECTED",
+      "value": {
+        "value": 12,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "documentOrigin": "Electro-Voice Zx3 Owners Manual, DOC38110265 Rev B; copyright Electro-Voice, 12000 Portland Ave South, Burnsville, MN 55337.",
+        "hostingLocation": "www.eviaudio.fr (EVI Audio France distributor copy; permitted under owner decision 1, 2026-10-12).",
+        "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10), LF Transducer \"DVX3121, 12 in (305mm) Driver\". Origin and hosting remain recorded separately."
+      },
+      "status": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx3-90",
+      "field": "driverCount/active/woofer/sensitivity",
+      "outcome": "EVIDENCE_CONFIRMED"
+    },
+    {
+      "record": "presonus-r80",
+      "field": "woofer",
+      "outcome": "NOTE_CORRECTED",
+      "value": 8,
+      "status": "MANUFACTURER_VERIFIED"
+    }
+  ],
+  "presonusFieldMatrix": [
+    {
+      "record": "presonus-r65",
+      "driverCount": [
+        2,
+        "2-way active AMT; LF driver + AMT HF driver"
+      ],
+      "active": [
+        true,
+        "manual: \"2-way active AMT studio monitor\", \"self-powered\""
+      ],
+      "woofer": [
+        6.5,
+        "manual Technical Specifications row"
+      ],
+      "frequencyResponse": [
+        "45-22000 Hz (-3 dB)",
+        "manual Technical Specifications row"
+      ],
+      "power": [
+        150,
+        "tech sheet: \"150 watt, Class D biamplification\""
+      ],
+      "sensitivity": [
+        "UNAVAILABLE",
+        "manual publishes max/peak SPL, not acoustic sensitivity"
+      ],
+      "impedance": [
+        "UNAVAILABLE",
+        "manual publishes line INPUT impedance (20k/10k ohm), not load impedance"
+      ]
+    },
+    {
+      "record": "presonus-r80",
+      "driverCount": [
+        2,
+        "2-way active AMT; LF driver + AMT HF driver"
+      ],
+      "active": [
+        true,
+        "manual: \"2-way active AMT studio monitor\", \"self-powered\""
+      ],
+      "woofer": [
+        8,
+        "manual Technical Specifications row"
+      ],
+      "frequencyResponse": [
+        "40-22000 Hz (-3 dB)",
+        "manual Technical Specifications row"
+      ],
+      "power": [
+        150,
+        "tech sheet: \"150 watt, Class D biamplification\""
+      ],
+      "sensitivity": [
+        "UNAVAILABLE",
+        "manual publishes max/peak SPL, not acoustic sensitivity"
+      ],
+      "impedance": [
+        "UNAVAILABLE",
+        "manual publishes line INPUT impedance (20k/10k ohm), not load impedance"
+      ]
+    }
+  ],
+  "valueChanges": 0
+}

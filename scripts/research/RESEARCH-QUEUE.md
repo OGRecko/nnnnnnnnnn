@@ -11,7 +11,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 - CITED_IN_NOTES_UNCHECKED: **213** fields across **158** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **81** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
-- Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
+- Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
 

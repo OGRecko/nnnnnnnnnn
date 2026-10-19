@@ -44,7 +44,7 @@ out.push('## Field-level provenance backlog (live records)', '');
 out.push(`- CITED_IN_NOTES_UNCHECKED: **${count('CITED_IN_NOTES_UNCHECKED')}** fields across **${citedUrls}** source URLs (not yet opened and checked for these fields).`);
 out.push(`- UNSOURCED: **${count('UNSOURCED')}** fields (no source recorded).`);
 out.push(`- NO_PROVENANCE: **${count('NO_PROVENANCE')}** fields (null value, no provenance object).`);
-out.push('- Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).', '');
+out.push('- Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.', '');
 out.push('Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.', '');
 out.push('| Record | Brand | Model | Cited unchecked | Unsourced | No provenance |', '|---|---|---|---|---|---|');
 for (const [id, r] of rows) out.push(`| ${id} | ${r.brand} | ${r.model} (\`${id}\`) | ${r.cited} | ${r.unsourced} | ${r.none} |`);

@@ -1,0 +1,53 @@
+{
+  "schema": "round28-url-results/v1",
+  "round": 28,
+  "entries": [
+    {
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "status": "CHECKED_PARTIAL",
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Both pages of the JBL Professional Series Model 4310 brochure were opened. Chunk 1: \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure\" and the Model 4310 specifications table (power capacity 50 W program, crossover 1500 and 7000 Hz, nominal impedance 8 ohms, dispersion 90 degrees, 45-15000 Hz +/-3 dB, sensitivity 42 dB at 30 ft with 1 mW). The document never uses the words passive, active or powered and gives no amplifier or mains input, but that absence is not treated as evidence; active stays unresolved.",
+      "fieldResults": [
+        {
+          "record": "jbl-4310",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 28: Architectural Specifications say \"three direct-radiator transducers\" (12 in LF, 5 in MF, 1.75 in HF direct radiator). Value is supported by this document but cannot be promoted: tile.loc.gov is not an established manufacturer host under the Round 14 host policy."
+        },
+        {
+          "record": "jbl-4310",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Round 28: both pages read; the brochure describes a frequency dividing network inside the enclosure and a 50 W program power capacity, but never states passive or self-powered and shows no amplifier. Value remains unresolved, not promoted."
+        }
+      ],
+      "hostPolicy": "tile.loc.gov is not an established manufacturer host; the document is JBL's own brochure, so the value is supported but not promotable."
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4311-information",
+      "status": "CHECKED_PARTIAL",
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Both chunks opened. The page describes a matched frequency dividing network with front-panel controls, 8-ohm nominal impedance, 75 W continuous-program capacity and a 1 W / 1 m response table; it never uses the words passive, active or powered, so active remains unresolved. The chunk-1 text is the sensitivity footnote and the JBL address block.",
+      "fieldResults": [
+        {
+          "record": "jbl-4311",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Round 28: both chunks read; no passive/active/powered statement and no amplifier rating. The record note claiming a \"passive monitor\" was corrected in this batch."
+        }
+      ],
+      "hostPolicy": "Manufacturer host; no promotion because the document does not state the field."
+    }
+  ]
+}

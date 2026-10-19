@@ -25771,7 +25771,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table: System Configuration \"Passive or Biamp 2-Way\"; Connectors \"(2) 4 Contact Neutrik Speakon\"; external amplifier required.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: the manual states \"Passive and biamp selectable\", lists \"Power Handling (Passive): 600W Continuous, 2400W Peak\" and prints a \"Block Diagram - Passive Mode\"; it gives no amplifier power rating and the system is driven by an external amplifier, so it is not self-powered. The earlier note quoted a \"System Configuration\" row that this document does not contain.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25789,7 +25789,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Axial Sensitivity (SPL, 1 W / 1 m) = 97 dB (half-space; 95 dB full-space for 60° x 60° model).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Axial Sensitivity: 97 dB (1W/1m)\", footnote 1 \"Half Space Measurement\". The manual publishes no separate full-space figure; the earlier note's \"95 dB full-space\" clause was not in the document and has been removed rather than repeated.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25807,7 +25807,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Power Handling (Full-Range) = 600 W Cont. / 2400 W Peak.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Power Handling (Passive): 600W Continuous, 2400W Peak\". The stored scalar is the continuous rating for passive operation; the peak figure is context only. The earlier note called this row \"Full-Range\", which is not the manual's wording.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25825,7 +25825,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Nominal Impedance = 8 Ohms (Minimum Impedance 6.2 Ohms).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Nominal Impedance: 8 Ohms\" and \"Minimum Impedance: 6.2 Ohms\".",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25843,7 +25843,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms LF Transducer = DVX3121, 12 in (305 mm) driver.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10), LF Transducer \"DVX3121, 12 in (305mm) Driver\". Origin and hosting remain recorded separately.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25861,7 +25861,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table: LF Transducer DVX3121 12 in (305 mm) driver + HF Transducer ND2 2 in (50 mm) voice-coil compression driver (2 transducers; Passive or Biamp 2-Way).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B, Specifications (p. 10): LF Transducer \"DVX3121, 12 in (305mm) Driver\"; HF Transducer \"ND2, 1 in (25.4mm) exit Neodymium Compression Driver\". Two driven transducers, in both passive and biamp modes.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25879,7 +25879,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table: System Configuration \"Passive or Biamp 2-Way\"; Connectors \"(2) 4 Contact Neutrik Speakon\"; external amplifier required.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: the manual states \"Passive and biamp selectable\", lists \"Power Handling (Passive): 600W Continuous, 2400W Peak\" and prints a \"Block Diagram - Passive Mode\"; it gives no amplifier power rating and the system is driven by an external amplifier, so it is not self-powered. The earlier note quoted a \"System Configuration\" row that this document does not contain.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25897,7 +25897,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Axial Sensitivity (SPL, 1 W / 1 m) = 97 dB (half-space; 95 dB full-space for 90° x 50° model).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Axial Sensitivity: 97 dB (1W/1m)\", footnote 1 \"Half Space Measurement\". The manual publishes no separate full-space figure; the earlier note's \"95 dB full-space\" clause was not in the document and has been removed rather than repeated.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25915,7 +25915,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Power Handling (Full-Range) = 600 W Cont. / 2400 W Peak.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Power Handling (Passive): 600W Continuous, 2400W Peak\". The stored scalar is the continuous rating for passive operation; the peak figure is context only. The earlier note called this row \"Full-Range\", which is not the manual's wording.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25933,7 +25933,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms Nominal Impedance = 8 Ohms (Minimum Impedance 6.2 Ohms).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10) \"Nominal Impedance: 8 Ohms\" and \"Minimum Impedance: 6.2 Ohms\".",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25951,7 +25951,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table confirms LF Transducer = DVX3121, 12 in (305 mm) driver.",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Specifications (p. 10), LF Transducer \"DVX3121, 12 in (305mm) Driver\". Origin and hosting remain recorded separately.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -25969,7 +25969,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Round 18 (2026-10-16): Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B p. 3 spec table: LF Transducer DVX3121 12 in (305 mm) driver + HF Transducer ND2 2 in (50 mm) voice-coil compression driver (2 transducers; Passive or Biamp 2-Way).",
+      "note": "Round 28 (2026-10-19) recheck of the Round 18 check: Electro-Voice Zx3 Owner's Manual DOC38110265 Rev B, Specifications (p. 10): LF Transducer \"DVX3121, 12 in (305mm) Driver\"; HF Transducer \"ND2, 1 in (25.4mm) exit Neodymium Compression Driver\". Two driven transducers, in both passive and biamp modes.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -47749,7 +47749,7 @@
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 28 (2026-10-19) recheck: the accepted owner's manual, Technical Specifications (p. 12), lists \"R80 | 8\\\" Woven composite\" and the R80 tech sheet's Key Features say \"8-inch woven composite LF drivers\", while that sheet's technical table prints \"LF Driver | 6.5\\\" Woven Composite\" for the R80. The 8-inch value is kept on the model-specific manual row and the sheet's feature bullet; the contradictory table row is recorded here rather than followed.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"

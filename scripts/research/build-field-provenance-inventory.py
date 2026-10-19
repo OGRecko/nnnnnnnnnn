@@ -80,9 +80,21 @@ def main():
     cited = [e for e in entries if e['storedStatus'] == 'CITED_IN_NOTES_UNCHECKED']
     url_counts = collections.Counter(e['source'] for e in cited if e['source'])
     no_url = sum(1 for e in cited if not e['source'])
-    queue = [{'url': u, 'outstandingFields': n,
-              'fields': [f"{e['speakerId']}.{e['field']}" for e in cited if e['source'] == u]}
-             for u, n in url_counts.most_common()]
+    # The queue is a live-records work list. Archived records are still inventoried above (their
+    # fields exist and must not be silently dropped), but they are labelled here so an auditor never
+    # treats an archived lead as live work: archived products are not restored and not re-researched.
+    def queue_entry(u):
+        rows = [e for e in cited if e['source'] == u]
+        return {
+            'url': u,
+            'outstandingFields': len(rows),
+            'liveOutstandingFields': sum(1 for e in rows if e['location'] == 'LIVE'),
+            'archivedOutstandingFields': sum(1 for e in rows if e['location'] == 'ARCHIVED'),
+            'fields': [{'record': e['speakerId'], 'field': e['field'], 'location': e['location']} for e in rows],
+        }
+    queue = [queue_entry(u) for u, _ in url_counts.most_common()]
+    live_urls = {e['source'] for e in cited if e['location'] == 'LIVE' and e['source']}
+    archived_urls = {e['source'] for e in cited if e['location'] == 'ARCHIVED' and e['source']} - live_urls
     inv = {'schema': 'field-provenance-inventory/v1', 'generatedBy': 'scripts/research/build-field-provenance-inventory.py',
            'counts': {'entries': len(entries), 'live': sum(1 for e in entries if e['location'] == 'LIVE'),
                       'archived': sum(1 for e in entries if e['location'] == 'ARCHIVED'),
@@ -90,7 +102,15 @@ def main():
                       'citedUncheckedWithoutUrl': no_url, 'citedUncheckedUrls': len(url_counts)},
            'entries': entries}
     (ROOT / 'scripts/research/field-provenance-inventory.json').write_text(json.dumps(inv, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-    (ROOT / 'scripts/research/field-provenance-url-queue.json').write_text(json.dumps({'schema': 'field-provenance-url-queue/v1', 'urls': queue}, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    (ROOT / 'scripts/research/field-provenance-url-queue.json').write_text(json.dumps({
+        'schema': 'field-provenance-url-queue/v2',
+        'note': ('Live records are the audit queue. Entries labelled ARCHIVED come from archived records; '
+                 'they are recorded so the inventory is complete, but archived products are not restored '
+                 'and are not part of the research queue.'),
+        'liveOutstandingFields': sum(1 for e in cited if e['location'] == 'LIVE' and e['source']),
+        'archivedOutstandingFields': sum(1 for e in cited if e['location'] == 'ARCHIVED' and e['source']),
+        'liveUrls': len(live_urls), 'archivedOnlyUrls': len(archived_urls), 'urls': queue,
+    }, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(json.dumps(inv['counts'], indent=1))
     print('top URLs:', [(q['url'][:70], q['outstandingFields']) for q in queue[:8]])
 

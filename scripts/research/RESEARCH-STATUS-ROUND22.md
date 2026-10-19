@@ -31,7 +31,13 @@ decision 1):
 
 - `driverCount = 2` — LF Transducer DVX3121 12 in (305 mm) plus HF Transducer ND2 compression driver.
 - `active = false` — System Configuration "Passive or Biamp 2-Way", Speakon connectors, external amplifier.
-- `woofer = 12 in`, `sensitivity = 97 dB` (1 W / 1 m, half space; 95 dB full space for the 90 x 50 model), `power = 600 W`, `impedance = 8 ohm`, frequency response 58 Hz – 15 kHz.
+- `woofer = 12 in`, `sensitivity = 97 dB` (1 W / 1 m, half space), `power = 600 W`, `impedance = 8 ohm`, frequency response 58 Hz – 15 kHz.
+
+> **Correction (2026-10-19, Round 28).** This section was written in Round 22 and is kept as the
+> historical record. Two clauses in it do not match the manual that was reopened in Round 28: there is
+> no "95 dB full space" figure for the 90 x 50 model (the manual prints one axial sensitivity, 97 dB,
+> with the footnote "Half Space Measurement"), and the specification table is on page 10, not page 3.
+> The record notes now quote the manual verbatim; see `round28-round18-review.json`.
 
 All six fields now carry the same `documentOrigin` and `hostingLocation`, and the notes contain a
 single `Round 18:` prefix (no duplicated prefixes anywhere in the catalogue). The reconciliation is
