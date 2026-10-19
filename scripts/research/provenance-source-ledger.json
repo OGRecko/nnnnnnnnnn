@@ -7448,6 +7448,36 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Headline: \"15-inch 3-Way Point-Source Powered Speaker\". Specifications: \"System Type | Self powered 15\\\", three-way, bass-reflex\"; \"LF Driver | 1 x 2275F, Differential Drive®, 15\\\" diameter\"; \"MF Driver | 1 x 2107H\"; \"HF Driver | 1 x 2432H compression driver\"; \"Nominal Impedance | NA - amplification is integrated\"."
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/m2",
+      "host": "jblpro.com",
+      "document": "JBL Professional M2 Master Reference Monitor product page, \"Specifications\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"System Format | 2-Way Floor Standing or Soffit Mountable\"; \"HF Driver | D2430K Dual Diaphragm Dual Voice Coil Compression Driver\"; \"LF Driver | 2216Nd 15 in (381 mm) Differential Drive® Woofer\"; \"The System Requires | One Crown® iTech 5000HD power amp for each speaker, or One Crown® iTech 3x3500HD power amp for two (2) speakers\"; \"Input Connectors | Spring Terminals\"."
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/708p",
+      "host": "jblpro.com",
+      "document": "JBL Professional 708P product page, \"Specifications\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"HF Driver | 2409H\"; \"LF Driver | 728G - 8in (203mm)\"; \"Dividing Network Transition Frequency | 1.7 kHz\"; \"LF Driver Power Handling | 250W Class D\"; \"Amplifier Power Rating | 250W\"; inputs are XLR analog and XLR AES3."
     }
   ],
   "openQuestionsForOwner": [

@@ -2387,6 +2387,82 @@
           "note": "\"Self powered\"; 2000 W Class D amplification is integrated."
         }
       ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/m2",
+      "sourceUrl": "https://jblpro.com/en-US/products/m2",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL Professional M2 Master Reference Monitor product page, \"Specifications\"",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 4,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"System Format | 2-Way Floor Standing or Soffit Mountable\"; \"HF Driver | D2430K Dual Diaphragm Dual Voice Coil Compression Driver\"; \"LF Driver | 2216Nd 15 in (381 mm) Differential Drive® Woofer\"; \"The System Requires | One Crown® iTech 5000HD power amp for each speaker, or One Crown® iTech 3x3500HD power amp for two (2) speakers\"; \"Input Connectors | Spring Terminals\".",
+      "fieldResults": [
+        {
+          "record": "jbl-m2",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://jblpro.com/en-US/products/m2",
+          "note": "One D2430K dual-diaphragm compression driver plus one 2216Nd 15\" woofer in a two-way system."
+        },
+        {
+          "record": "jbl-m2",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": false,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://jblpro.com/en-US/products/m2",
+          "note": "The loudspeaker has spring-terminal inputs and the page states the system \"requires\" an external Crown iTech power amplifier; no amplifier is integrated in the cabinet."
+        }
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/708p",
+      "sourceUrl": "https://jblpro.com/en-US/products/708p",
+      "host": "jblpro.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "JBL Professional 708P product page, \"Specifications\"",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"HF Driver | 2409H\"; \"LF Driver | 728G - 8in (203mm)\"; \"Dividing Network Transition Frequency | 1.7 kHz\"; \"LF Driver Power Handling | 250W Class D\"; \"Amplifier Power Rating | 250W\"; inputs are XLR analog and XLR AES3.",
+      "fieldResults": [
+        {
+          "record": "jbl-708p",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://jblpro.com/en-US/products/708p",
+          "note": "One 2409H high-frequency driver plus one 728G 8 in (203 mm) low-frequency driver."
+        },
+        {
+          "record": "jbl-708p",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://jblpro.com/en-US/products/708p",
+          "note": "On-board \"250W Class D\" amplifier with XLR analog and AES3 inputs; no external amplifier is specified."
+        }
+      ]
     }
   ]
 }

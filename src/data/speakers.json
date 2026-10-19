@@ -8619,8 +8619,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": false,
     "panel": null,
     "sensitivity": {
       "value": 92,
@@ -8675,16 +8675,16 @@
     },
     "notes": "Manufacturer data: 20 Hz–40 kHz ±3 dB, 92 dB sensitivity, 8 Ω, 1,200 W amplification requirement, 15 in LF driver plus D2430K dual-diaphragm HF compression driver. Passive loudspeaker; no fabricated response curve is added.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/m2",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One D2430K dual-diaphragm compression driver plus one 2216Nd 15\" woofer in a two-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/m2",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The loudspeaker has spring-terminal inputs and the page states the system \"requires\" an external Crown iTech power amplifier; no amplifier is integrated in the cabinet."
     }
   },
   {
@@ -51433,8 +51433,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -51487,16 +51487,16 @@
     },
     "notes": "Manufacturer: 708P two-way bi-amplified reference monitor; -1.5 dB response 45 Hz–23 kHz and frequency range 35 Hz–36 kHz. Max SPL >108 dB SPL/1 m, peak >114 dB SPL/1 m. Source: JBL 708P product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/708p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 2409H high-frequency driver plus one 728G 8 in (203 mm) low-frequency driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://jblpro.com/en-US/products/708p",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board \"250W Class D\" amplifier with XLR analog and AES3 inputs; no external amplifier is specified."
     }
   },
   {

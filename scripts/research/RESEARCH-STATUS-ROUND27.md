@@ -508,6 +508,28 @@ specification tables themselves were in the chunks read. `legacy-mack-5` (the or
 Research backlog: 363 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 323 source URLs resolved in total. `npm test` 82/82.
 
+## Batch 13 — JBL M2 and 708P
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `jbl-m2` | `driverCount` / `active` | 2 / **false** | "2-Way Floor Standing or Soffit Mountable"; D2430K dual-diaphragm compression driver + 2216Nd 15" woofer; "The System Requires One Crown® iTech 5000HD power amp for each speaker"; spring-terminal inputs |
+| `jbl-708p` | `driverCount` / `active` | 2 / true | HF 2409H + LF 728G 8 in (203 mm); "200W/250W Class D" amplifier power rating; XLR analog and AES3 inputs |
+
+The M2 is the counter-example to the "premium monitor therefore active" assumption: JBL's own page
+lists the external Crown amplifier the system requires, so `active` is recorded as **false**.
+
+## Counts after batch 13
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 800 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 119 |
+| no provenance at all | 177 |
+
+Research backlog: 361 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+325 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

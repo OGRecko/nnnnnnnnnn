@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **363** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **361** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **123** fields (no source recorded).
+- UNSOURCED: **119** fields (no source recorded).
 - NO_PROVENANCE: **177** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -70,7 +70,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4312 | JBL | 4312 (`jbl-4312`) | 2 | 0 | 0 |
 | jbl-4350 | JBL | 4350 (`jbl-4350`) | 2 | 0 | 0 |
 | jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 2 | 0 |
-| jbl-708p | JBL | 708P (`jbl-708p`) | 0 | 2 | 0 |
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 2 |
 | jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 2 | 0 |
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
@@ -78,7 +77,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
-| jbl-m2 | JBL | M2 Master Reference (`jbl-m2`) | 0 | 2 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 2 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 2 | 0 |
