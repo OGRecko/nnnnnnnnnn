@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 511
+      "count": 516
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 40
+      "count": 35
     }
   ],
   "resolvedSourceUrls": [
@@ -141,6 +141,9 @@
     "https://avantonepro.com/en/products/mixcube-passive",
     "https://barefootsound.com/footprint03/",
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+    "https://celestion.com/product/g12h-anniversary/",
+    "https://celestion.com/product/g12m-greenback/",
+    "https://celestion.com/product/vintage-30/",
     "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
     "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
     "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
@@ -164,6 +167,7 @@
     "https://dynaudio.com/professional-audio/lyd/lyd-48",
     "https://dynaudio.com/professional-audio/lyd/lyd-5",
     "https://dynaudio.com/professional-audio/lyd/lyd-7",
+    "https://eminence.com/collections/legend-series",
     "https://international.kef.com/products/kc62-subwoofer",
     "https://jblpro.com/en-US/products/708p",
     "https://jblpro.com/en-US/products/control-25-1",
@@ -325,6 +329,8 @@
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+    "https://www.jensentone.com/specification-sheet/36",
+    "https://www.jensentone.com/specification-sheet/38",
     "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
     "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
     "https://www.kicker.com/47KSC650",

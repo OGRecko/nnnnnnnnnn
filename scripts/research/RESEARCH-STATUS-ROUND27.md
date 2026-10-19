@@ -752,6 +752,37 @@ amplifier channels"*. No value was written; the three URLs are recorded as check
 Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 347 source URLs resolved in total.
 
+## Batch 22 — Celestion and Jensen guitar loudspeakers
+
+A guitar speaker sold as a component is one loudspeaker chassis, not a multi-way system. Each page
+below prints a single-chassis specification block (one nominal diameter, one magnet, one voice coil,
+one basket, mounting holes for that one chassis), so the count is read off the page rather than
+inferred from a cabinet.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `celestion-v30` | `driverCount` | 1 | "12 inch 60W Guitar Speaker"; one 305 mm chassis, one 50 oz ceramic magnet, one 1.75 in voice coil |
+| `celestion-greenback` | `driverCount` | 1 | "12 inch 25W Guitar Speaker"; one 305 mm chassis, 35 oz magnet, 1.75 in voice coil |
+| `celestion-g12h30` | `driverCount` | 1 | "G12H Anniversary - 12 inch 30W Guitar Speaker"; same single-chassis block already used for its other fields |
+| `jensen-p12n` | `driverCount` | 1 | "12" - 50 W Vintage Alnico Loudspeaker"; one 307 mm chassis, one 38 mm voice coil |
+| `jensen-p10r` | `driverCount` | 1 | "10" - 25 W Vintage Alnico Loudspeaker"; one 259 mm chassis, one 25 mm voice coil |
+
+`eminence-legend` could not be advanced: the recorded collection URL
+(`eminence.com/collections/legend-series`) now returns the store's 404 page, so it is recorded as
+inaccessible rather than re-sourced from a reseller.
+
+## Counts after batch 22
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 836 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 89 |
+| no provenance at all | 171 |
+
+Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+353 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

@@ -13336,7 +13336,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -13392,10 +13392,10 @@
     },
     "notes": "Manufacturer: 75 Hz–5 kHz; 100 dB sensitivity; 60 W; 8 Ω; 12-inch guitar speaker. Source: Celestion Vintage 30.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://celestion.com/product/vintage-30/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -13411,7 +13411,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -13467,10 +13467,10 @@
     },
     "notes": "Manufacturer: 75 Hz–5 kHz; 98 dB sensitivity; 25 W; 8 Ω; 12-inch guitar speaker. Source: Celestion G12M Greenback.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://celestion.com/product/g12m-greenback/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -13486,7 +13486,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -13542,10 +13542,10 @@
     },
     "notes": "Manufacturer: 70 Hz–5.5 kHz; 100 dB sensitivity; 30 W; 8 Ω; 12-inch guitar speaker. Source: Celestion G12H.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://celestion.com/product/g12h-anniversary/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -13636,7 +13636,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -13692,10 +13692,10 @@
     },
     "notes": "Manufacturer: 97.5 dB sensitivity; 50 W; 8 Ω; 12-inch guitar speaker. Source: Jensen P12N specification sheet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.jensentone.com/specification-sheet/38",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -13711,7 +13711,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -13767,10 +13767,10 @@
     },
     "notes": "Manufacturer: 94.2 dB sensitivity; 25 W; 8 Ω; 10-inch guitar speaker. Source: Jensen P10R specification sheet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.jensentone.com/specification-sheet/36",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     },
     "activeProvenance": {
       "status": "UNSOURCED",

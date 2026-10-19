@@ -3762,6 +3762,136 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
+    },
+    {
+      "id": "celestion-v30",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://celestion.com/product/vintage-30/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://celestion.com/product/vintage-30/"
+    },
+    {
+      "id": "celestion-greenback",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://celestion.com/product/g12m-greenback/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://celestion.com/product/g12m-greenback/"
+    },
+    {
+      "id": "celestion-g12h30",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://celestion.com/product/g12h-anniversary/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://celestion.com/product/g12h-anniversary/"
+    },
+    {
+      "id": "jensen-p12n",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.jensentone.com/specification-sheet/38",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.jensentone.com/specification-sheet/38"
+    },
+    {
+      "id": "jensen-p10r",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.jensentone.com/specification-sheet/36",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.jensentone.com/specification-sheet/36"
     }
   ]
 }

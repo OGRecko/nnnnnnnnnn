@@ -9,7 +9,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **94** fields (no source recorded).
+- UNSOURCED: **89** fields (no source recorded).
 - NO_PROVENANCE: **171** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -31,9 +31,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | bose-901-series-vi | Bose | 901 Series VI (`bose-901-series-vi`) | 0 | 2 | 0 |
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
-| celestion-g12h30 | Celestion | G12H-30 (`celestion-g12h30`) | 0 | 2 | 0 |
-| celestion-greenback | Celestion | G12M Greenback (`celestion-greenback`) | 0 | 2 | 0 |
-| celestion-v30 | Celestion | Vintage 30 (`celestion-v30`) | 0 | 2 | 0 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
 | dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 2 | 0 | 0 |
 | dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 2 | 0 | 0 |
@@ -73,8 +70,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
-| jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 2 | 0 |
-| jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 2 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
@@ -184,6 +179,9 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | bw-803-d4 | Bowers & Wilkins | 803 D4 (`bw-803-d4`) | 0 | 0 | 1 |
 | bw-805-d4 | Bowers & Wilkins | 805 D4 (`bw-805-d4`) | 0 | 1 | 0 |
 | bw-805d3 | Bowers & Wilkins | 805 D3 (`bw-805d3`) | 0 | 1 | 0 |
+| celestion-g12h30 | Celestion | G12H-30 (`celestion-g12h30`) | 0 | 1 | 0 |
+| celestion-greenback | Celestion | G12M Greenback (`celestion-greenback`) | 0 | 1 | 0 |
+| celestion-v30 | Celestion | Vintage 30 (`celestion-v30`) | 0 | 1 | 0 |
 | dali-epicon-2 | DALI | Epicon 2 (`dali-epicon-2`) | 0 | 0 | 1 |
 | dali-epicon-6 | DALI | Epicon 6 (`dali-epicon-6`) | 0 | 0 | 1 |
 | dali-epicon-8 | DALI | Epicon 8 (`dali-epicon-8`) | 0 | 0 | 1 |
@@ -225,6 +223,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 1 | 0 | 0 |
 | jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
+| jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
+| jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
 | kef-q150 | KEF | Q150 (`kef-q150`) | 1 | 0 | 0 |
 | kef-q350 | KEF | Q350 (`kef-q350`) | 1 | 0 | 0 |

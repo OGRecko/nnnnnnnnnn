@@ -3187,6 +3187,157 @@
       "status": "CHECKED_PARTIAL",
       "evidence": "\"POWER AMPLIFIERS | One 90 Watt Class D amplifier for the woofer; Two 15W Class D amplifiers for the mids; Two 15 Watt Class D amplifiers for the tweeters\". Channel groups are not a transducer count.",
       "fieldResults": []
+    },
+    {
+      "url": "https://celestion.com/product/vintage-30/",
+      "sourceUrl": "https://celestion.com/product/vintage-30/",
+      "host": "celestion.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Celestion Vintage 30 product page, Specifications",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Page title \"Celestion Vintage 30 - 12 inch 60W Guitar Speaker\"; strapline \"12-inch guitar speaker with complex overtones\". Specifications block: \"Nominal diameter 305mm / 12in\"; \"Power rating 60W\"; \"Chassis type Pressed steel\"; \"Magnet type Ceramic\"; \"Magnet weight 1.42kg / 50oz\"; \"Voice coil diameter 1.75in / 44mm\"; \"Frequency range 70-5000Hz\". Mounting information lists \"Number of mounting holes 4\" for the single chassis.",
+      "fieldResults": [
+        {
+          "record": "celestion-v30",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 1,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://celestion.com/product/vintage-30/",
+          "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      ]
+    },
+    {
+      "url": "https://celestion.com/product/g12m-greenback/",
+      "sourceUrl": "https://celestion.com/product/g12m-greenback/",
+      "host": "celestion.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Celestion G12M Greenback product page, Specifications",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Page title \"Celestion G12M Greenback - 12 inch 25W Guitar Speaker\"; strapline \"12-inch rock guitar speaker\". Specifications block: \"Nominal diameter 305mm / 12in\"; \"Power rating 25W\"; \"Chassis type Pressed steel\"; \"Magnet type Ceramic\"; \"Magnet weight 0.99kg / 35oz\"; \"Voice coil diameter 1.75in / 44mm\"; \"Frequency range 75-5000Hz\".",
+      "fieldResults": [
+        {
+          "record": "celestion-greenback",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 1,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://celestion.com/product/g12m-greenback/",
+          "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      ]
+    },
+    {
+      "url": "https://celestion.com/product/g12h-anniversary/",
+      "sourceUrl": "https://celestion.com/product/g12h-anniversary/",
+      "host": "celestion.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Celestion G12H Anniversary product page, Specifications",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Page title \"Celestion G12H Anniversary - 12 inch 30W Guitar Speaker\". Specifications block: \"Nominal diameter 305mm / 12in\"; \"Power rating 30W\"; \"Chassis type Pressed steel\"; \"Magnet type Ceramic\"; \"Magnet weight 1.42kg / 50oz\"; \"Voice coil diameter 1.75in / 44mm\"; \"Frequency range 75-5000Hz\". This is the page already recorded as the exact source for the record's sensitivity, power, impedance and woofer fields.",
+      "fieldResults": [
+        {
+          "record": "celestion-g12h30",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 1,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://celestion.com/product/g12h-anniversary/",
+          "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      ]
+    },
+    {
+      "url": "https://www.jensentone.com/specification-sheet/38",
+      "sourceUrl": "https://www.jensentone.com/specification-sheet/38",
+      "host": "www.jensentone.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Jensen P12N specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Page heading \"Specification Sheet - P12N\"; strapline \"12\\\" - 50 W Vintage Alnico Loudspeaker\". One chassis table: \"Nominal Overall Diameter 307 mm / 12 in\"; \"Nominal Voice Coil Diameter 38 mm / 1.5 in\"; \"Magnet Alnico\"; \"Voice Coil Winding Copper\"; \"Cone Material Paper\"; \"Basket Material Pressed Sheet Steel\".",
+      "fieldResults": [
+        {
+          "record": "jensen-p12n",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 1,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.jensentone.com/specification-sheet/38",
+          "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      ]
+    },
+    {
+      "url": "https://www.jensentone.com/specification-sheet/36",
+      "sourceUrl": "https://www.jensentone.com/specification-sheet/36",
+      "host": "www.jensentone.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Jensen P10R specification sheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Page heading \"Specification Sheet - P10R\"; strapline \"10\\\" - 25 W Vintage Alnico Loudspeaker\". One chassis table: \"Nominal Overall Diameter 259 mm / 10 in\"; \"Nominal Voice Coil Diameter 25 mm / 0.98 in\"; \"Magnet Alnico\"; \"Cone Material Paper\"; \"Basket Material Pressed Sheet Steel\".",
+      "fieldResults": [
+        {
+          "record": "jensen-p10r",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 1,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.jensentone.com/specification-sheet/36",
+          "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+        }
+      ]
+    },
+    {
+      "url": "https://eminence.com/collections/legend-series",
+      "sourceUrl": "https://eminence.com/collections/legend-series",
+      "host": "eminence.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Eminence Legend Series collection page (recorded source)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "INACCESSIBLE",
+      "evidence": "The URL now returns \"404 Not Found - Eminence Speaker, LLC\" with the body \"Page not found / Looks like the page you're looking for no longer exists.\" No specification content is served.",
+      "fieldResults": []
     }
   ]
 }

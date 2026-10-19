@@ -1669,6 +1669,56 @@
       "valueAfter": true,
       "source": "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html",
       "note": "Datasheet states the cabinet is \"self-powered\" and documents its internal 3-channel class-D amplifier and AC power section."
+    },
+    {
+      "record": "celestion-v30",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://celestion.com/product/vintage-30/",
+      "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+    },
+    {
+      "record": "celestion-greenback",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://celestion.com/product/g12m-greenback/",
+      "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+    },
+    {
+      "record": "celestion-g12h30",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://celestion.com/product/g12h-anniversary/",
+      "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+    },
+    {
+      "record": "jensen-p12n",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://www.jensentone.com/specification-sheet/38",
+      "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
+    },
+    {
+      "record": "jensen-p10r",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://www.jensentone.com/specification-sheet/36",
+      "note": "The product is one loudspeaker chassis: the page prints a single nominal diameter, one magnet (type and weight), one voice coil (diameter and material), one cone and one basket. No second transducer or crossover is documented."
     }
   ],
   "elx200_15": {
