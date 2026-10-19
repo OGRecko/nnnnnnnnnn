@@ -6,16 +6,16 @@
     "live": 3082,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2198,
+      "MANUFACTURER_VERIFIED": 2243,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 337,
+      "CITED_IN_NOTES_UNCHECKED": 292,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 192,
       "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 225
+    "citedUncheckedUrls": 204
   },
   "entries": [
     {
@@ -6831,14 +6831,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500107_Eris-E5_Tech-Sheet_EN.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Tech sheet lists a 5.25-inch LF transducer and a 1-inch HF transducer: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "presonus-eris-e5",
@@ -6849,14 +6849,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500107_Eris-E5_Tech-Sheet_EN.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Tech sheet heads the model \"2-Way Active Studio Monitors\" and gives 45 W LF / 35 W HF Class AB amplifier power.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "presonus-eris-e5",
@@ -7605,14 +7605,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Data sheet names dual 6.5-inch drivers plus a 1.4-inch exit compression driver: 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "dandb-t10",
@@ -7623,14 +7623,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Data sheet states the T10 uses a \"passive crossover network\" and describes no built-in amplifier.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "dandb-t10",
@@ -8433,14 +8433,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-vrx932",
@@ -8451,14 +8451,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-vrx932",
@@ -8667,14 +8667,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Report names a 12-inch 12LNC4 woofer and an M-75N compression driver: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "das-audio-aero-12a",
@@ -8685,14 +8685,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Report describes the Aero 12A as incorporating its own 600 W amplifier.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "das-audio-aero-12a",
@@ -9477,14 +9477,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://magnepan.com/pages/manual-controller",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Manual names a quasi-ribbon bass/midrange, a tweeter and a super-tweeter in a 3-way design: 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "magnepan-mg1.7",
@@ -11151,14 +11151,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://global.jbl.com/DD67000RW-.html",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification copy names two 15-inch woofers, one 4-inch beryllium compression driver and one 1-inch beryllium UHF driver: 4 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-everest-dd67000",
@@ -11709,14 +11709,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: 2 LF + 2 MF + 2 HF devices listed = 6 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "adamson-e15",
@@ -13509,14 +13509,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://global.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw168a89f9/pdfs/JBL%20Project%20K2%209900%20Data%20Sheet.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Data sheet lists a 15-inch woofer, a 4-inch compression driver and a 1-inch UHF compression driver: 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-k2-s9900",
@@ -18387,14 +18387,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-5",
@@ -18405,14 +18405,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-5",
@@ -18477,14 +18477,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-7",
@@ -19719,14 +19719,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-mack-2",
@@ -19737,14 +19737,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-mack-2",
@@ -21267,14 +21267,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/move",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification lists one tweeter and one mid-woofer: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-sonos-5",
@@ -21285,14 +21285,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/move",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification lists \"Two Class-D digital amplifiers\" built into the speaker.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-sonos-5",
@@ -21501,14 +21501,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://products.bose.com/pdf/customer_service/owners/251_guide.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Two Twiddler drivers plus one 5¼-inch woofer per speaker = 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-bose-7",
@@ -21717,14 +21717,14 @@
       "field": "driverCount",
       "value": 7,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://martin-audio.com/products/loudspeakers/mla",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: LF 2 + MF 2 + HF 3 = 7 transducers, each listed explicitly for the MLA.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-ma-4",
@@ -21735,14 +21735,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://martin-audio.com/products/loudspeakers/mla",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Page states \"active array element\", \"Six channel Class D\" amplification and \"self-powered\".",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-ma-4",
@@ -22419,14 +22419,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification table calls the DXS12 a \"Powered Subwoofer\" with a built-in Class-D amplifier (950 W dynamic / 600 W continuous).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "yamaha-dxs12",
@@ -22491,14 +22491,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: DXS12 spec row lists one 12-inch cone LF driver and no HF device: 1 transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "electro-voice-everse-8",
@@ -28161,14 +28161,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The E218SW is announced within the E Series \"passive loudspeakers\" range and no amplifier is described.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "qsc-e218sw",
@@ -28233,14 +28233,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Release states the E218SW \"features two 18-inch die-cast frame woofers\": 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "qsc-ad-c4t",
@@ -37755,14 +37755,14 @@
       "field": "driverCount",
       "value": 13,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.lg.com/ca_en/speakers/soundbars/s90tr/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: LG \"All Spec\" row states \"Number of Speakers 13 EA\".",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lg-lg-s80tr",
@@ -37809,14 +37809,14 @@
       "field": "driverCount",
       "value": 11,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.lg.com/pt/audio/soundbars/s80tr/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: LG specification row states \"Número de Colunas 11 EA\" (number of speakers).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lg-lg-sc9s",
@@ -37863,14 +37863,14 @@
       "field": "driverCount",
       "value": 9,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.lg.com/africa/audio/lg-sc9s",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: LG specification row states \"Number of Speakers 9 EA\".",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "marshall-marshall-1960a",
@@ -39015,14 +39015,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.fender.com/products/blues-junior-iv",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: PDP states \"Amplifier Type Tube\" and \"15 Watts\" output for this combo, i.e. the amplifier is built into the cabinet.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "fender-blues-junior-iv",
@@ -39087,14 +39087,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.fender.com/products/blues-junior-iv",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: PDP states \"Speakers: One - 12\\\" Celestion A-Type\": 1 transducer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "fender-bassman-410",
@@ -40239,14 +40239,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: S-S65 is listed as a \"6.5-inch Coaxial 2-Way Speaker\" with a 1-inch silk tweeter: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "alpine-r-s65c",
@@ -40311,14 +40311,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: R-S65C is listed as a \"6.5-inch Component 2-Way Speakers\" set with a 1-inch silk tweeter: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "alpine-x-s65c",
@@ -40383,14 +40383,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: X-S65C is described as a 6.5-inch component 2-way speaker set with a 1-inch carbon-graphite tweeter: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "pioneer-ts-z65f",
@@ -40671,14 +40671,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The set comprises a 6x9-inch woofer, a 3-1/2-inch mid-high speaker and a 25 mm tweeter: 3 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "rockford-fosgate-r165x3",
@@ -41031,14 +41031,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://rockfordfosgate.com/products/details/t1650-s/",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: A 2-way component system with a separate tweeter and one 6.5-inch midrange = 2 transducers per system.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "kicker-43dsc6504",
@@ -41481,14 +41481,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The Elate Carbon 62A is a 6½-inch 2-way system: 2 transducers (woofer plus tweeter).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "audison-prima-apk-165",
@@ -42543,14 +42543,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-amati",
@@ -42615,14 +42615,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-guarneri",
@@ -45009,14 +45009,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://www.qacoustics.com/products/5020-bookshelf-speaker",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification lists one 125 mm bass unit and one 25 mm treble unit: 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "triangle-borea-br02",
@@ -46557,14 +46557,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: V212HWX speaker specification line reads \"2 x 12\\\" 8 Ohm Celestion Alnico Blue\": 2 transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "vox-v212bn",
@@ -47241,14 +47241,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Table lists \"9x class D amplifiers\" and 400 W total audio power built into the soundbar.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "sennheiser-ambeo-soundbar-plus",
@@ -47295,14 +47295,14 @@
       "field": "driverCount",
       "value": 9,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification table states \"Total number of speakers 9\" (7 full-range + 2 woofers).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "sennheiser-ambeo-mini",
@@ -47313,14 +47313,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Table lists \"6x class D amplifiers\" and 250 W total amplification built into the soundbar.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "sennheiser-ambeo-mini",
@@ -47367,14 +47367,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 25: Specification table states \"Total number of speakers 6\" (4 full-range + 2 woofers).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "atc-scm25a-pro",

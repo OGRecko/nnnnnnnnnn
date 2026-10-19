@@ -1049,6 +1049,186 @@
         "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf"
       ],
       "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "data.yamaha.com",
+      "status": "ESTABLISHED",
+      "operator": "Yamaha Corporation (document/asset host)",
+      "evidence": [
+        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf is the Yamaha DXR/DXS Owner's Manual served from Yamaha's own data.yamaha.com asset host and carries the specification table quoted in Round 25."
+      ],
+      "sources": [
+        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.dbaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "d&b audiotechnik GmbH",
+      "evidence": [
+        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf is the d&b T10 data sheet on the brand-operated dbaudio.com site and carries the text quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.dasaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "DAS Audio",
+      "evidence": [
+        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf is the DAS Audio Aero 12A technical report on the brand site and carries the text quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "legacy.adamson.ai",
+      "status": "ESTABLISHED",
+      "operator": "Adamson Systems Engineering (legacy support archive)",
+      "evidence": [
+        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file is the Adamson E-series E15 technical data sheet on Adamson's legacy support host."
+      ],
+      "sources": [
+        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "magnepan.com",
+      "status": "ESTABLISHED",
+      "operator": "Magnepan, Inc.",
+      "evidence": [
+        "https://magnepan.com/pages/manual-controller serves the Magnepan 1.7 owner's manual on the brand site and carries the model description quoted in Round 25."
+      ],
+      "sources": [
+        "https://magnepan.com/pages/manual-controller"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.fender.com",
+      "status": "ESTABLISHED",
+      "operator": "Fender Musical Instruments Corporation",
+      "evidence": [
+        "https://www.fender.com/products/blues-junior-iv is the Fender product page for the Blues Junior IV and carries the specification block quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.fender.com/products/blues-junior-iv"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.lg.com",
+      "status": "ESTABLISHED",
+      "operator": "LG Electronics",
+      "evidence": [
+        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/ is LG's own product page and its \"All Spec\" panel carries the speaker-count row quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.alpine-usa.com",
+      "status": "ESTABLISHED",
+      "operator": "Alpine Electronics of America, Inc.",
+      "evidence": [
+        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers is an Alpine Electronics of America press release on the brand site listing the X-Series speaker models."
+      ],
+      "sources": [
+        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.morelhifi.com",
+      "status": "ESTABLISHED",
+      "operator": "Morel HiFi",
+      "evidence": [
+        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158 is the Morel Elate Carbon product page and carries the model/configuration table quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.rockfordfosgate.com",
+      "status": "ESTABLISHED",
+      "operator": "Rockford Fosgate",
+      "evidence": [
+        "https://www.rockfordfosgate.com/products/details/t1650-s/ is the brand-operated Rockford Fosgate product page (www host of the established rockfordfosgate.com domain)."
+      ],
+      "sources": [
+        "https://www.rockfordfosgate.com/products/details/t1650-s/"
+      ],
+      "note": "www variant of the established rockfordfosgate.com host; recorded in Round 25."
+    },
+    {
+      "host": "www.manualslib.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "ManualsLib (document aggregator)",
+      "evidence": [
+        "Aggregator that hosts verbatim manufacturer owner's manuals. Round 25 promotions from this host rest on Owner Decision 1 (2026-10-12): a distributor/aggregator copy of an exact-model manufacturer manual counts as manufacturer-verified."
+      ],
+      "sources": [
+        "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10"
+      ],
+      "note": "Aggregator host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.soundonsound.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound On Sound Ltd (magazine)",
+      "evidence": [
+        "Review magazine; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.soundonsound.com/reviews/mackie-hr824"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.soundandvision.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound & Vision (magazine)",
+      "evidence": [
+        "Review magazine; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.hifi-guide.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "hifi-guide.com (enthusiast loudspeaker database)",
+      "evidence": [
+        "Community database of loudspeaker specifications; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.hifi-guide.com/loudspeaker/bowers-wilkins-801-matrix/"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.radiomuseum.org",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Radiomuseum.org (collector catalogue)",
+      "evidence": [
+        "Collector-maintained equipment catalogue; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
     }
   ]
 }

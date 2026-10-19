@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **435** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 99 brands.
+Records still needing research: **421** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 96 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **302** fields across **204** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **257** fields across **183** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **192** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -18,11 +18,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Record | Brand | Model | Cited unchecked | Unsourced | No provenance |
 |---|---|---|---|---|---|
 | adam-a8h | Adam Audio | A8H (`adam-a8h`) | 2 | 0 | 0 |
-| adamson-e15 | Adamson | E15 (`adamson-e15`) | 2 | 0 | 0 |
 | advent-loudspeaker | Advent | The Advent Loudspeaker (`advent-loudspeaker`) | 0 | 2 | 0 |
-| alpine-r-s65c | Alpine | R-S65C (`alpine-r-s65c`) | 1 | 0 | 1 |
-| alpine-s-s65 | Alpine | S-S65 (`alpine-s-s65`) | 1 | 0 | 1 |
-| alpine-x-s65c | Alpine | X-S65C (`alpine-x-s65c`) | 1 | 0 | 1 |
 | altec-604e | Altec Lansing | 604E Duplex (`altec-604e`) | 0 | 2 | 0 |
 | altec-a7 | Altec Lansing | A7 Voice of the Theatre (`altec-a7`) | 0 | 0 | 2 |
 | altec-model-19 | Altec Lansing | Model 19 (`altec-model-19`) | 0 | 0 | 2 |
@@ -45,8 +41,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 2 | 0 | 0 |
 | dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 2 | 0 | 0 |
 | dali-opticon-8-mk2 | DALI | Opticon 8 MK2 (`dali-opticon-8-mk2`) | 1 | 0 | 1 |
-| dandb-t10 | d&b audiotechnik | T10 (`dandb-t10`) | 2 | 0 | 0 |
-| das-audio-aero-12a | DAS Audio | Aero 12A (`das-audio-aero-12a`) | 2 | 0 | 0 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | dynaudio-lyd-48 | Dynaudio | LYD 48 (`dynaudio-lyd-48`) | 0 | 2 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
@@ -69,7 +63,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 1 | 0 | 1 |
-| fender-blues-junior-iv | Fender | Blues Junior IV (`fender-blues-junior-iv`) | 2 | 0 | 0 |
 | focal-scala-utopia-evo | Focal | Scala Utopia Evo (`focal-scala-utopia-evo`) | 2 | 0 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
@@ -99,9 +92,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 2 |
 | jbl-control-25 | JBL | Control 25-1 (`jbl-control-25`) | 0 | 2 | 0 |
 | jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
-| jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 2 | 0 | 0 |
 | jbl-jrx225 | JBL | JRX225 (`jbl-jrx225`) | 2 | 0 | 0 |
-| jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
@@ -110,7 +101,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
 | jbl-srx815p | JBL | SRX815P (`jbl-srx815p`) | 0 | 2 | 0 |
 | jbl-srx835p | JBL | SRX835P (`jbl-srx835p`) | 0 | 2 | 0 |
-| jbl-vrx932 | JBL | VRX932LA (`jbl-vrx932`) | 2 | 0 | 0 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 2 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 2 | 0 |
 | jl-audio-10w3v3 | JL Audio | 10W3v3 (`jl-audio-10w3v3`) | 2 | 0 | 0 |
@@ -129,7 +119,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kef-q750 | KEF | Q750 (`kef-q750`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |
-| kenwood-excelon-kfc-xp6903c | Kenwood | Excelon KFC-XP6903C (`kenwood-excelon-kfc-xp6903c`) | 1 | 0 | 1 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
@@ -140,7 +129,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | krk-rokit-8 | KRK | Rokit 8 G3 (`krk-rokit-8`) | 2 | 0 | 0 |
 | lacoustics-arcs | L-Acoustics | ARCS Wide (`lacoustics-arcs`) | 2 | 0 | 0 |
 | lacoustics-arcs-ii | L-Acoustics | ARCS II (`lacoustics-arcs-ii`) | 2 | 0 | 0 |
-| legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 2 | 0 | 0 |
 | legacy-bw-3 | Bowers & Wilkins | Matrix 801 (`legacy-bw-3`) | 0 | 0 | 2 |
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
@@ -152,14 +140,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 2 | 0 | 0 |
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
-| legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 2 | 0 | 0 |
-| legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 2 | 0 | 0 |
 | legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 1 | 0 | 1 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
-| legacy-ma-4 | Martin Audio | MLA (`legacy-ma-4`) | 2 | 0 | 0 |
-| legacy-mack-2 | Mackie | HR624 (`legacy-mack-2`) | 2 | 0 | 0 |
 | legacy-mack-4 | Mackie | CR3 (`legacy-mack-4`) | 0 | 2 | 0 |
 | legacy-mack-5 | Mackie | Thump15 (`legacy-mack-5`) | 0 | 2 | 0 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
@@ -169,20 +153,15 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-pio-4 | Pioneer | Elite S-1EX (`legacy-pio-4`) | 2 | 0 | 0 |
 | legacy-pio-5 | Pioneer | SP-BS22-LR (`legacy-pio-5`) | 2 | 0 | 0 |
 | legacy-pio-6 | Pioneer | SP-FS52 (`legacy-pio-6`) | 2 | 0 | 0 |
-| legacy-sonos-5 | Sonos | Move (`legacy-sonos-5`) | 2 | 0 | 0 |
 | legacy-yam-2 | Yamaha | NS-10M (`legacy-yam-2`) | 1 | 0 | 1 |
 | legacy-yam-3 | Yamaha | NS-690 (`legacy-yam-3`) | 1 | 0 | 1 |
-| lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 2 | 0 | 0 |
-| lg-lg-s90tr | LG | LG S90TR (`lg-lg-s90tr`) | 2 | 0 | 0 |
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
-| lg-lg-sc9s | LG | LG SC9S (`lg-lg-sc9s`) | 2 | 0 | 0 |
 | m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
 | mackie-hr824 | Mackie | HR824 (`mackie-hr824`) | 2 | 0 | 0 |
 | mackie-thump118s | Mackie | Thump118S (`mackie-thump118s`) | 0 | 2 | 0 |
 | mackie-thump212 | Mackie | Thump212 (`mackie-thump212`) | 0 | 2 | 0 |
 | mackie-thump215 | Mackie | Thump215 (`mackie-thump215`) | 0 | 2 | 0 |
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
-| magnepan-mg1.7 | Magnepan | MG 1.7 (`magnepan-mg1.7`) | 2 | 0 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
 | martin-audio-cdd12 | Martin Audio | CDD12 (`martin-audio-cdd12`) | 0 | 2 | 0 |
@@ -193,7 +172,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | meyer-sound-lina | Meyer Sound | LINA (`meyer-sound-lina`) | 0 | 2 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
-| morel-elate-carbon-62a | Morel | Elate Carbon 62A (`morel-elate-carbon-62a`) | 1 | 0 | 1 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
 | neumann-kh-120-ii | Neumann | KH 120 II (`neumann-kh-120-ii`) | 0 | 2 | 0 |
 | neumann-kh-150 | Neumann | KH 150 (`neumann-kh-150`) | 0 | 1 | 1 |
@@ -207,16 +185,13 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
 | pioneer-ts-a | Pioneer | TS-A1670F (`pioneer-ts-a`) | 0 | 1 | 1 |
 | polk-signature-s60 | Polk Audio | Signature S60 (`polk-signature-s60`) | 2 | 0 | 0 |
-| presonus-eris-e5 | PreSonus | Eris E5 (`presonus-eris-e5`) | 2 | 0 | 0 |
 | presonus-eris-e8 | PreSonus | Eris E8 XT (`presonus-eris-e8`) | 0 | 2 | 0 |
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
-| q-acoustics-5020 | Q Acoustics | 5020 (`q-acoustics-5020`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
 | qsc-ad-c820 | QSC | AD-C820 (`qsc-ad-c820`) | 0 | 2 | 0 |
 | qsc-e110 | QSC | E110 (`qsc-e110`) | 0 | 2 | 0 |
 | qsc-e115 | QSC | E115 (`qsc-e115`) | 0 | 2 | 0 |
 | qsc-e215 | QSC | E215 (`qsc-e215`) | 0 | 2 | 0 |
-| qsc-e218sw | QSC | E218SW (`qsc-e218sw`) | 2 | 0 | 0 |
 | qsc-kla12 | QSC | KLA12 (`qsc-kla12`) | 0 | 1 | 1 |
 | qsc-kla181 | QSC | KLA181 (`qsc-kla181`) | 0 | 1 | 1 |
 | qsc-ks112 | QSC | KS112 (`qsc-ks112`) | 0 | 0 | 2 |
@@ -224,12 +199,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
 | revel-ultima-salon2 | Revel | Ultima Salon2 (`revel-ultima-salon2`) | 1 | 0 | 1 |
 | rockford-fosgate-t1650 | Rockford Fosgate | T1650 (`rockford-fosgate-t1650`) | 1 | 0 | 1 |
-| rockford-fosgate-t1650-s | Rockford Fosgate | T1650-S (`rockford-fosgate-t1650-s`) | 1 | 0 | 1 |
-| sennheiser-ambeo-mini | Sennheiser | AMBEO Mini (`sennheiser-ambeo-mini`) | 2 | 0 | 0 |
-| sennheiser-ambeo-soundbar-plus | Sennheiser | AMBEO Soundbar Plus (`sennheiser-ambeo-soundbar-plus`) | 2 | 0 | 0 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
-| sonus-faber-homage-tradition-amati | Sonus Faber | Homage Tradition Amati (`sonus-faber-homage-tradition-amati`) | 2 | 0 | 0 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
 | sonus-faber-sonetto-i | Sonus Faber | Sonetto I (`sonus-faber-sonetto-i`) | 0 | 0 | 2 |
 | sonus-faber-sonetto-ii | Sonus Faber | Sonetto II (`sonus-faber-sonetto-ii`) | 0 | 0 | 2 |
@@ -245,7 +216,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | triangle-borea-br02 | Triangle | Borea BR02 (`triangle-borea-br02`) | 2 | 0 | 0 |
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
-| vox-v212hwx | Vox | V212HWX (`vox-v212hwx`) | 1 | 0 | 1 |
 | yamaha-dbr12 | Yamaha | DBR12 (`yamaha-dbr12`) | 0 | 2 | 0 |
 | yamaha-dbr15 | Yamaha | DBR15 (`yamaha-dbr15`) | 0 | 2 | 0 |
 | yamaha-dxr10 | Yamaha | DXR10 (`yamaha-dxr10`) | 0 | 2 | 0 |
@@ -255,7 +225,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | yamaha-dxr15 | Yamaha | DXR15 (`yamaha-dxr15`) | 0 | 2 | 0 |
 | yamaha-dxr15mkii | Yamaha | DXR15mkII (`yamaha-dxr15mkii`) | 0 | 2 | 0 |
 | yamaha-dxr8 | Yamaha | DXR8 (`yamaha-dxr8`) | 0 | 2 | 0 |
-| yamaha-dxs12 | Yamaha | DXS12 (`yamaha-dxs12`) | 2 | 0 | 0 |
 | yamaha-hs5 | Yamaha | HS5 (`yamaha-hs5`) | 0 | 2 | 0 |
 | yamaha-hs7 | Yamaha | HS7 (`yamaha-hs7`) | 0 | 2 | 0 |
 | yamaha-hs8 | Yamaha | HS8 (`yamaha-hs8`) | 0 | 2 | 0 |
@@ -267,6 +236,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | yamaha-ns500 | Yamaha | NS-500 (`yamaha-ns500`) | 1 | 0 | 1 |
 | adam-audio-s3v | ADAM Audio | S3V (`adam-audio-s3v`) | 1 | 0 | 0 |
 | adam-s3x | Adam Audio | S3X-V (`adam-s3x`) | 1 | 0 | 0 |
+| adamson-e15 | Adamson | E15 (`adamson-e15`) | 1 | 0 | 0 |
+| alpine-r-s65c | Alpine | R-S65C (`alpine-r-s65c`) | 0 | 0 | 1 |
+| alpine-s-s65 | Alpine | S-S65 (`alpine-s-s65`) | 0 | 0 | 1 |
+| alpine-x-s65c | Alpine | X-S65C (`alpine-x-s65c`) | 0 | 0 | 1 |
 | apple-homepod | Apple | HomePod (2nd gen) (`apple-homepod`) | 0 | 0 | 1 |
 | atc-scm19 | ATC | SCM19 (`atc-scm19`) | 0 | 0 | 1 |
 | atc-scm45a-pro | ATC | SCM45A Pro (`atc-scm45a-pro`) | 1 | 0 | 0 |
@@ -328,7 +301,9 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
 | jbl-4430 | JBL | 4430 (`jbl-4430`) | 1 | 0 | 0 |
+| jbl-everest-dd67000 | JBL | Everest DD67000 (`jbl-everest-dd67000`) | 1 | 0 | 0 |
 | jbl-hdi-3800 | JBL | HDI-3800 (`jbl-hdi-3800`) | 1 | 0 | 0 |
+| jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 1 | 0 | 0 |
 | jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
@@ -339,6 +314,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kef-r3 | KEF | R3 (`kef-r3`) | 0 | 0 | 1 |
 | kef-r5 | KEF | R5 (`kef-r5`) | 0 | 0 | 1 |
 | kef-r7 | KEF | R7 (`kef-r7`) | 0 | 0 | 1 |
+| kenwood-excelon-kfc-xp6903c | Kenwood | Excelon KFC-XP6903C (`kenwood-excelon-kfc-xp6903c`) | 0 | 0 | 1 |
 | kenwood-kfc-1666s | Kenwood | KFC-1666S (`kenwood-kfc-1666s`) | 0 | 0 | 1 |
 | kicker-43dsc6504 | Kicker | 43DSC6504 (`kicker-43dsc6504`) | 0 | 0 | 1 |
 | kicker-46csc654 | Kicker | 46CSC654 (`kicker-46csc654`) | 0 | 0 | 1 |
@@ -363,6 +339,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-rp8060fa | Klipsch | RP-8060FA II (`klipsch-rp8060fa`) | 1 | 0 | 0 |
 | legacy-adam-1 | Adam Audio | S3A (`legacy-adam-1`) | 1 | 0 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 1 | 0 | 0 |
+| legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 1 | 0 | 0 |
 | legacy-bw-1 | Bowers & Wilkins | DM6 (`legacy-bw-1`) | 0 | 0 | 1 |
 | legacy-bw-2 | Bowers & Wilkins | 801 (`legacy-bw-2`) | 0 | 0 | 1 |
 | legacy-bw-4 | Bowers & Wilkins | Nautilus (`legacy-bw-4`) | 0 | 0 | 1 |
@@ -375,13 +352,18 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-focal-8 | Focal | Aria 906 (`legacy-focal-8`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
 | legacy-jbl-6 | JBL | 4430 Studio Monitor (`legacy-jbl-6`) | 1 | 0 | 0 |
+| legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |
 | legacy-la-5 | L-Acoustics | K2 (`legacy-la-5`) | 0 | 0 | 1 |
+| lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 1 | 0 | 0 |
+| lg-lg-s90tr | LG | LG S90TR (`lg-lg-s90tr`) | 1 | 0 | 0 |
+| lg-lg-sc9s | LG | LG SC9S (`lg-lg-sc9s`) | 1 | 0 | 0 |
 | mackie-cr3-x | Mackie | CR3-X (`mackie-cr3-x`) | 0 | 0 | 1 |
 | mackie-cr4-x | Mackie | CR4-X (`mackie-cr4-x`) | 0 | 0 | 1 |
 | mackie-cr5-x | Mackie | CR5-X (`mackie-cr5-x`) | 0 | 0 | 1 |
+| magnepan-mg1.7 | Magnepan | MG 1.7 (`magnepan-mg1.7`) | 1 | 0 | 0 |
 | marshall-marshall-1936v | Marshall | Marshall 1936V (`marshall-marshall-1936v`) | 1 | 0 | 0 |
 | marshall-marshall-1960a | Marshall | Marshall 1960A (`marshall-marshall-1960a`) | 1 | 0 | 0 |
 | marshall-marshall-1960av | Marshall | Marshall 1960AV (`marshall-marshall-1960av`) | 1 | 0 | 0 |
@@ -403,6 +385,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | monitor-audio-creator-c3m | Monitor Audio | Creator C3M (`monitor-audio-creator-c3m`) | 0 | 0 | 1 |
 | monitor-audio-platinum-100-3g | Monitor Audio | Platinum 100 3G (`monitor-audio-platinum-100-3g`) | 0 | 0 | 1 |
 | monitor-audio-platinum-200-3g | Monitor Audio | Platinum 200 3G (`monitor-audio-platinum-200-3g`) | 0 | 0 | 1 |
+| morel-elate-carbon-62a | Morel | Elate Carbon 62A (`morel-elate-carbon-62a`) | 0 | 0 | 1 |
 | orange-orange-ppc108 | Orange | Orange PPC108 (`orange-orange-ppc108`) | 0 | 0 | 1 |
 | orange-orange-ppc112 | Orange | Orange PPC112 (`orange-orange-ppc112`) | 0 | 0 | 1 |
 | orange-ppc212 | Orange | PPC212 (`orange-ppc212`) | 0 | 0 | 1 |
@@ -423,6 +406,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | q-acoustics-3010i | Q Acoustics | 3010i (`q-acoustics-3010i`) | 0 | 0 | 1 |
 | q-acoustics-3020i | Q Acoustics | 3020i (`q-acoustics-3020i`) | 0 | 0 | 1 |
 | q-acoustics-3030i | Q Acoustics | 3030i (`q-acoustics-3030i`) | 0 | 0 | 1 |
+| q-acoustics-5020 | Q Acoustics | 5020 (`q-acoustics-5020`) | 0 | 0 | 1 |
 | qsc-gp118-sw | QSC | GP118-sw (`qsc-gp118-sw`) | 0 | 1 | 0 |
 | qsc-gp212-sw | QSC | GP212-sw (`qsc-gp212-sw`) | 0 | 1 | 0 |
 | qsc-gp218-sw | QSC | GP218-sw (`qsc-gp218-sw`) | 0 | 1 | 0 |
@@ -432,6 +416,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | rockford-fosgate-p3 | Rockford Fosgate | Punch P3D4-12 (Dual 4Ω) (`rockford-fosgate-p3`) | 0 | 0 | 1 |
 | rockford-fosgate-r165x3 | Rockford Fosgate | R165X3 (`rockford-fosgate-r165x3`) | 0 | 0 | 1 |
 | rockford-fosgate-r1675x2 | Rockford Fosgate | R1675X2 (`rockford-fosgate-r1675x2`) | 0 | 0 | 1 |
+| rockford-fosgate-t1650-s | Rockford Fosgate | T1650-S (`rockford-fosgate-t1650-s`) | 0 | 0 | 1 |
 | sonance-vp86 | Sonance | Visual Performance VP86 (`sonance-vp86`) | 0 | 1 | 0 |
 | sonos-play1 | Sonos | Play:1 (`sonos-play1`) | 0 | 0 | 1 |
 | sonus-faber-lumina-i | Sonus Faber | Lumina I (`sonus-faber-lumina-i`) | 1 | 0 | 0 |
@@ -443,6 +428,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V (`sonus-faber-olympica-nova-v`) | 1 | 0 | 0 |
 | triangle-borea-br03 | Triangle | Borea BR03 (`triangle-borea-br03`) | 1 | 0 | 0 |
 | vox-v212c | Vox | V212C (`vox-v212c`) | 0 | 0 | 1 |
+| vox-v212hwx | Vox | V212HWX (`vox-v212hwx`) | 0 | 0 | 1 |
 | wharfedale-diamond-12 | Wharfedale | Diamond 12.1 (`wharfedale-diamond-12`) | 1 | 0 | 0 |
 | wharfedale-diamond-12-0 | Wharfedale | Diamond 12.0 (`wharfedale-diamond-12-0`) | 0 | 0 | 1 |
 | wharfedale-diamond-12-2 | Wharfedale | Diamond 12.2 (`wharfedale-diamond-12-2`) | 0 | 0 | 1 |
