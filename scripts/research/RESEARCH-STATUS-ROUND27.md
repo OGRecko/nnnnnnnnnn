@@ -280,6 +280,16 @@ Recomputed from `src/data/speakers.json` (1,314 field slots over 657 records):
 Research backlog: 400 of 657 records. Queue: 221 cited-but-unchecked items across 162 URLs, all assessed
 (`assessed=221, unassessed=0`), zero consistency warnings.
 
+
+### Host-policy note
+
+`audio-database.com` is `NOT_MANUFACTURER` in `source-host-allowlist.json` and `cdn.shopify.com` is
+likewise `NOT_MANUFACTURER`, so the ten queue items carried by audio-database.com pages and the KRK
+Shopify PDFs cannot be promoted to manufacturer-verified even if the value is stated there. They need
+either an owner ruling on third-party sources or a manufacturer-hosted copy. `www.genelec.com` is
+`ESTABLISHED` and `assets.ctfassets.net` is `ESTABLISHED_FOR_LINKED_DOCUMENTS`, which is why the Genelec
+datasheets above were usable.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed), 193 unsourced fields, 189 fields with no provenance,
