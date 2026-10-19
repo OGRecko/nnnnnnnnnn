@@ -108,9 +108,10 @@ console.log(`\n=== ${passed} passed ===`);
 
 // ----------------------------------------------------------------- end to end through the real FDTD solver
 // IMPORTANT: these tests establish that orientation REACHES the solver and changes its result consistently. They deliberately do
-// NOT assert that the radiated pattern matches the supplied data, because it does not: the solver's directional source (a
-// weighted cluster of in-phase injection nodes) reproduces well under 1 dB of a pattern specified as 30 dB. That shortfall is
-// measured by scripts/validate-directivity-fidelity.mjs and is a documented, open FAIL in FINAL_VERIFICATION, not a passing test.
+// NOT assert that the radiated pattern matches the supplied data: the solver reproduces the DIRECTION and polarity of an
+// imported pattern, but a 30 dB front-to-rear pattern comes back about 20 dB deep on this grid (see
+// directivity-fidelity-results.json and DIRECTIVITY-IMPORT.md). That gap is measured by `npm run validate:directivity`, which
+// is a documented, open FAIL in FINAL_VERIFICATION, not a passing test.
 import { runWave } from './solverWorker';
 {
   const quiet = <T>(fn: () => T): T => { const l = console.log, w = console.warn; console.log = () => {}; console.warn = () => {}; try { return fn(); } finally { console.log = l; console.warn = w; } };

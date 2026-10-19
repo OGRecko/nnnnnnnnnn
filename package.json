@@ -16,7 +16,7 @@
     "firebase:rules:test": "npx --yes firebase-tools@15.32.1 emulators:exec --only firestore,storage --project demo-cavity \"node scripts/firebase-emulator-smoke.mjs\"",
     "storage:lifecycle": "node scripts/apply-storage-lifecycle.mjs",
     "cleanup": "node scripts/trigger-cleanup.mjs",
-    "verify": "npm run docs:release && npm run docs:consistency && npm run typecheck && npm test && npm run firebase:rules:test && npm run audit:final && npm run audit:release && npm run audit:speaker && npm run audit:provenance && npm run audit:third-party && npm run release:source && npm run release:source:verify && npm run build && npm audit --audit-level=high",
+    "verify": "npm run docs:release && npm run docs:consistency && npm run data:archived-index:check && npm run typecheck && npm test && npm run firebase:rules:test && npm run test:electron-permissions && npm run audit:final && npm run audit:release && npm run audit:speaker && npm run audit:provenance && npm run audit:third-party && npm run release:source && npm run release:source:verify && npm run build && npm audit --audit-level=high",
     "production:smoke": "node scripts/production-smoke.mjs",
     "storage:lifecycle:check": "node scripts/check-storage-lifecycle.mjs",
     "abuse:smoke": "node scripts/abuse-smoke.mjs",
