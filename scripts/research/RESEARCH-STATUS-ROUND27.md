@@ -188,3 +188,34 @@ provenance. The work below uses the repository numbers.
 221 cited-but-unchecked fields across 162 URLs, 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
+
+
+## Whole-application verification (2026-10-19)
+
+Run against the tree that contains every change in this round:
+
+| Check | Result |
+| --- | --- |
+| `npm run build` (vite + server + solver worker bundles) | pass — `dist/index.html`, one JS bundle, `dist/server.cjs`, `dist/solverWorker.cjs` |
+| `npm run typecheck` | clean |
+| `npm test` | 82/82 suites |
+| `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
+| `docs:release` / `docs:consistency` | regenerated; `issues: []` |
+| `release:source` / `release:source:verify` | 601 files, treeSha256 `1e6a269a8d2bdaad36cd50a58c61527e0334082a6eaf7a64a8885caa74207511`, verification `ok: true` |
+| `audit:release` | 657 files checked, 0 duplicate ids, 0 duplicate brand+model, `problems: []`, warningCount 0 |
+| `npm audit --audit-level=high` | no high/critical findings (8 moderate in the electron-builder toolchain only) |
+| dev server (`npm run dev`) | starts on :3000, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |
+
+Data-to-simulation spot check through the real response builder:
+
+| Record | Model provenance | Points | Band | Sensitivity |
+| --- | --- | --- | --- | --- |
+| `jbl-lsr32` | manufacturer | 28 | 20–20,000 Hz | 90.0 dB, manufacturer |
+| `electro-voice-elx200-15` | physically_modeled (envelope) | 31 band points | 77–16,000 Hz | 95 dB, manufacturer |
+| `electro-voice-elx200-10` | manufacturer | 71 | 30–20,000 Hz | 90 dB, manufacturer |
+| `sony-sony-ht-a7000` | physically_modeled, generic reference | 31 | 20–20,000 Hz | neutral fallback |
+
+The ELX200-15 result is the important one: the disputed 85-point table is **not** consumed by the
+simulator — the record falls back to the published-band envelope — while the LSR32 now consumes its
+verified manual table. Production startup without cloud credentials still fails fast with the full
+configuration list, which is the intended guard rather than a defect.
