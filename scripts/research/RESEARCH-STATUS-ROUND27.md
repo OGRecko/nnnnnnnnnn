@@ -331,6 +331,34 @@ Research backlog: 392 of 657 records. Queue: 218 items across 161 URLs, all asse
 run failed 15 suites only because the dependency tree had not been reinstalled in this sandbox —
 `npm ci` restored `tsc` and the suites passed unchanged).
 
+## Final whole-application pass (2026-10-19, after batch 8)
+
+| Check | Result |
+| --- | --- |
+| `npm ci` | 743 packages installed; the earlier `tsc: not found` and 15 red suites were a missing toolchain in a fresh sandbox, not a regression |
+| `npm run typecheck` | clean |
+| `npm test` | 82/82 suites |
+| `npm run build` | Vite client bundle, `dist/server.cjs`, `dist/solverWorker.cjs` |
+| dev server | `:3000`, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |
+| `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
+| `docs:release` / `docs:consistency` | regenerated; `issues: []` |
+| `release:source` / `release:source:verify` | 602 files, treeSha256 `597848e5d52ebe1cae0a9269ba573f2c626edd3333156e14c9c90d4fdd472105`, verification `ok: true` |
+| `audit:release` | 657 records, 0 duplicate ids, 0 duplicate brand+model, `problems: []` |
+| `npm audit --audit-level=high` | exit 0; 8 moderate findings, all in the electron-builder toolchain |
+
+### What is still open, stated plainly
+
+* 218 cited fields remain `CITED_IN_NOTES_UNCHECKED` because the documents that carry the citation do
+  not state the value (typically `active` on a passive home loudspeaker, where the manual only describes
+  connecting to an amplifier). All 218 have a recorded outcome; none is unexamined.
+* 167 fields are `UNSOURCED` and 188 carry no provenance at all — 250 records with a data gap. These are
+  research backlog, not software defects: the application builds, runs and reports them as unknown
+  rather than inventing a value.
+* Blocked by host policy: `audio-database.com` and `cdn.shopify.com` are `NOT_MANUFACTURER`, so the JBL
+  and KRK pages hosted there cannot be promoted without an owner ruling or a manufacturer copy.
+* Unchanged owner rulings: ELX200-15 response series excluded; QSC WL3082/WL212-sw `active` unknown;
+  Yamaha NS-6490 8 Ω US-only; Focal Sopra N°2 sensitivity; Genelec 8331A `LEAD_NOT_IMPORTED`.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
