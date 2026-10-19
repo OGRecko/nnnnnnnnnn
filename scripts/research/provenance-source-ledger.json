@@ -7756,6 +7756,48 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "TRANSDUCERS: \"Low Frequency | Two 9-inch long-excursion cone drivers; 2 Ω nominal impedance\"; \"High Frequency | One 3-inch diaphragm compression driver coupled to a constant-directivity horn through a patented REM® manifold; 4 Ω nominal impedance\". AMPLIFIERS: \"Type | 3-channel, open-loop, class D\"; \"Total Output Power | 3900 W peak\". Architectural specification: \"The loudspeaker shall be a compact, self-powered, linear, low-distortion, line array loudspeaker.\""
+    },
+    {
+      "url": "https://www.marshall.com/gb/en/product/acton-iii",
+      "host": "www.marshall.com",
+      "document": "Marshall Acton III product page, POWER AMPLIFIERS block",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"POWER AMPLIFIERS | One 30 Watt Class D amplifier for the woofer; Two 15 Watt Class D amplifiers for the tweeters\"; \"MAINS INPUT VOLTAGE 100–240 V\". No row states how many drive units the cabinet contains."
+    },
+    {
+      "url": "https://www.marshall.com/gb/en/product/stanmore-iii",
+      "host": "www.marshall.com",
+      "document": "Marshall Stanmore III product page, POWER AMPLIFIERS block",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"POWER AMPLIFIERS | One 50 Watt Class D amplifier for the woofer; Two 15 Watt Class D amplifiers for the tweeters\"; \"The two-way driver system delivers a heavy but balanced sound\". No row states the number of drive units."
+    },
+    {
+      "url": "https://www.marshall.com/gb/en/product/woburn-iii",
+      "host": "www.marshall.com",
+      "document": "Marshall Woburn III product page, POWER AMPLIFIERS block",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"POWER AMPLIFIERS | One 90 Watt Class D amplifier for the woofer; Two 15W Class D amplifiers for the mids; Two 15 Watt Class D amplifiers for the tweeters\". Channel groups are not a transducer count."
     }
   ],
   "openQuestionsForOwner": [

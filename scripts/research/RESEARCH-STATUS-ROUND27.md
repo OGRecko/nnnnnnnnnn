@@ -724,6 +724,34 @@ as ZIP archives, which this environment cannot open.
 Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 344 source URLs resolved in total.
 
+## Batch 21 — Marshall Acton III / Stanmore III / Woburn III: checked, nothing promotable
+
+Marshall's product pages print a POWER AMPLIFIERS block that names the amplifier feeding each
+transducer group:
+
+| Model | POWER AMPLIFIERS rows |
+| --- | --- |
+| Acton III | One 30 W amplifier for the woofer; two 15 W amplifiers for the tweeters |
+| Stanmore III | One 50 W amplifier for the woofer; two 15 W amplifiers for the tweeters |
+| Woburn III | One 90 W woofer amplifier; two 15 W midrange amplifiers; two 15 W tweeter amplifiers |
+
+Reading a driver complement out of that block would be a guess about how many drive units each
+channel group feeds, and **the repository forbids it**: `src/data/speakers.test.ts` asserts
+`driverCount === null` for all three models with the message *"do not infer driver count from
+amplifier channels"*. No value was written; the three URLs are recorded as checked so they close.
+
+## Counts after batch 21
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 831 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 94 |
+| no provenance at all | 171 |
+
+Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+347 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
