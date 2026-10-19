@@ -119,6 +119,24 @@ Monitor"). Six fields promoted.
 * `elac-uni-fi-ub5.active` — the sell sheet has no passive/powered statement → NOT_STATED; the
   driverCount ambiguity (2 vs 3 transducers) stands.
 
+## MV host audit — 23 mislabelled fields corrected
+
+The 2026-10-19 instruction restricts `MANUFACTURER_VERIFIED` to manufacturer-owned hosts or explicitly
+approved manufacturer copies. Cross-checking every MV `driverCount`/`active` source against
+`source-host-allowlist.json` found 23 fields whose host is `NOT_MANUFACTURER`:
+
+| Host | Fields | Records |
+| --- | --- | --- |
+| manualslib.com (document aggregator, now in the allowlist as NOT_MANUFACTURER) | 17 | jbl-vrx932, legacy-kef-5, legacy-kef-7, legacy-mack-2, Sonus faber Olympica Nova I/II/III/V, Homage Tradition Amati/Guarneri/Serafino |
+| tacotunes.com (retailer) | 4 | jl-audio-c3-650, jl-audio-c5-650 |
+| onlinecarstereo.blob.core.windows.net (retailer storage) | 2 | jl-audio-12w3v3 |
+
+Every value is kept (none was contradicted); the status becomes `CITED_IN_NOTES_UNCHECKED`, the original
+evidence note is preserved with a policy sentence appended, and each change has a `DEMOTE_POLICY` history
+entry. The queue rows move from `PROMOTED` to `SUPPORTED_NOT_PROMOTED`. Report:
+`round29-mv-host-audit.json`. This is a correction, not a loss of data — the MV count drops by 23 and the
+cited backlog grows by the same amount.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -131,13 +149,13 @@ Monitor"). Six fields promoted.
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2426** |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **230** |
+| `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **253** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
 | `THIRD_PARTY_VERIFIED` | 24 | **43** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **195 / 149 URLs** |
-| records with backlog | 336 of 657 | **326 of 657** |
+| queue items | 212 / 157 URLs | **218 / 157 URLs** |
+| records with backlog | 336 of 657 | **335 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
@@ -150,5 +168,6 @@ values were written by an audit script and no test was relaxed.
   Series II driverCount/active with THIRD_PARTY_VERIFIED).
 - 51 directivity leads (0 imported), the 9 archive ZIPs, Genelec 8331A SOFA (MD5 confirmed on the source).
 - 27 response-dataset blocks (24 active series, 25 records) and the ELX200-15 exclusion.
-- The ~2,4xx MV fields have not been re-audited field-by-field; the queue above only covers
-  `driverCount`/`active`.
+- The MV fields have been host-audited only for `driverCount`/`active` on non-manufacturer hosts (23
+  corrections); the remaining 2,403 MV fields, including the large non-structural set, have not been
+  re-audited field-by-field.

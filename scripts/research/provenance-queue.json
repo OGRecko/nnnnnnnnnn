@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 195,
-  "assessedItems": 195,
+  "uncheckedItems": 218,
+  "assessedItems": 218,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 149,
+  "uniqueSourceUrls": 157,
   "urlsByStatus": {
-    "CHECKED_CONFIRMED": 1,
+    "CHECKED_CONFIRMED": 9,
     "CHECKED_PARTIAL": 136,
     "INACCESSIBLE": 12
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 173,
+    "CHECKED_CONFIRMED": 20,
+    "CHECKED_PARTIAL": 178,
     "INACCESSIBLE": 20
   },
   "statusCounts": [
@@ -24,13 +24,13 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 134
+      "count": 143
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 329
+      "count": 320
     },
     {
       "field": "active",
@@ -54,13 +54,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 61
+      "count": 75
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 528
+      "count": 514
     },
     {
       "field": "driverCount",
@@ -234,7 +234,6 @@
     "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
     "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
     "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
-    "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
     "https://orangeamps.com/en-us/products/ppc108",
     "https://orangeamps.com/en-us/products/ppc112",
     "https://orangeamps.com/en-us/products/ppc212",
@@ -265,8 +264,6 @@
     "https://support.apple.com/en-us/111843",
     "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
     "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
-    "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-    "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
     "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
     "https://us.kef.com/products/ls50",
     "https://us.kef.com/products/ls50-meta",
@@ -388,11 +385,6 @@
     "https://www.l-acoustics.com/products/k2/",
     "https://www.l-acoustics.com/products/syva/",
     "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-    "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-    "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-    "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-    "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-    "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
     "https://www.marshall.com/gb/en/product/acton-iii",
     "https://www.marshall.com/gb/en/product/stanmore-iii",
     "https://www.marshall.com/gb/en/product/woburn-iii",
@@ -471,6 +463,159 @@
   ],
   "warnings": [],
   "groups": [
+    {
+      "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 4,
+      "records": [
+        "sonus-faber-homage-tradition-guarneri",
+        "sonus-faber-homage-tradition-serafino"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "sonus-faber-homage-tradition-guarneri",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "sonus-faber-homage-tradition-guarneri",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "sonus-faber-homage-tradition-serafino",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "sonus-faber-homage-tradition-serafino",
+          "field": "driverCount",
+          "value": 4,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Technical table Guarneri / Serafino / VOX; header \"Homage tradition passive loudspeakers\". Aggregator-hosted: THIRD_PARTY."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 4,
+      "records": [
+        "sonus-faber-olympica-nova-iii",
+        "sonus-faber-olympica-nova-v"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "sonus-faber-olympica-nova-iii",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-iii",
+          "field": "driverCount",
+          "value": 4,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "sonus-faber-olympica-nova-v",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-v",
+          "field": "driverCount",
+          "value": 5,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 4,
+      "records": [
+        "sonus-faber-olympica-nova-i",
+        "sonus-faber-olympica-nova-ii"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "sonus-faber-olympica-nova-i",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-i",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "sonus-faber-olympica-nova-ii",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-ii",
+          "field": "driverCount",
+          "value": 3,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
+    },
     {
       "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
       "host": "assets.kef.com",
@@ -892,6 +1037,41 @@
       "evidence": "Data sheet: \"The Electro-Voice Sx100+ is a 200-watt, 12-inch two-way\"; \"LF Transducer: 12\\\" (300mm)\"; \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"Power Handling: 200W Continuous, 800W Peak\"; \"Connectors: Neutrik Speakon\"."
     },
     {
+      "url": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "jl-audio-12w3v3"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "jl-audio-12w3v3",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in. Round 29 (2026-10-19): host onlinecarstereo.blob.core.windows.net is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "jl-audio-12w3v3",
+          "field": "driverCount",
+          "value": 1,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer. Round 29 (2026-10-19): host onlinecarstereo.blob.core.windows.net is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 26,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Manual: \"12W3v3-2 / 12W3v3-4 / 12W3v3-8 Subwoofers owner's manual\"; \"Power Handling (continuous): 500W\"; \"We recommend the use of this speaker in a bi-amplified system using high-quality satellite speakers and amplifiers.\""
+    },
+    {
       "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
       "host": "static1.squarespace.com",
       "status": "CHECKED_PARTIAL",
@@ -961,6 +1141,76 @@
         0
       ],
       "evidence": "Brochure text: \"Three fine drive units are used in Model 105\"; \"The low frequency unit is a 300 mm (12\") driver\"; \"The 110 mm (5\") mid range unit\"; \"The high frequency unit is a 52 mm (2\") radiator\"; \"Amplifier Requirements: 40 watts minimum into 8 ohms\"."
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+      "host": "tacotunes.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "jl-audio-c3-650"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "jl-audio-c3-650",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "jl-audio-c3-650",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 26,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Manual: \"C3-650 6.50-inch (165 mm) Convertible 2-Way Component System\"; \"Two C3-650cw 6.50-inch (165 mm) Woofers; Two C3-100ct 1.00-inch (25 mm) Tweeters; Two C3-650-XO Crossover Networks\"; crossover \"2-way networks with 1st order low-pass and 2nd order high-pass filters\"."
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+      "host": "tacotunes.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "jl-audio-c5-650"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "jl-audio-c5-650",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "jl-audio-c5-650",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 26,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Manual: \"C5-650 6.50-inch (165 mm) 2-Way Component System\"; \"Two C5-650cw 6.50-inch (165 mm) Woofers; Two C5-075ct 0.75-inch (19 mm) Tweeters; Two C5-650-XO Crossover Networks\"; \"2-way network with 1st order low-pass and 2nd order high-pass circuit\"."
     },
     {
       "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
@@ -1526,76 +1776,145 @@
       "evidence": "Specifications: \"LF Transducer: DVX3151A 15-inch (381 mm) woofer\"; \"HF Transducer: DH7N 3-inch (76mm) diaphragm compression driver\"; \"Nominal Impedance (Passive): 8 ohm\"; \"Crossover Frequency: 1300 Hz\"; \"4th-order crossover with HF protection\"."
     },
     {
-      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
       "host": "www.manualslib.com",
-      "status": "CHECKED_PARTIAL",
+      "status": "CHECKED_CONFIRMED",
       "items": 2,
       "records": [
-        "sonus-faber-olympica-nova-iii",
-        "sonus-faber-olympica-nova-v"
+        "sonus-faber-homage-tradition-amati"
       ],
       "fields": [
-        "active"
+        "active",
+        "driverCount"
       ],
       "outstanding": [
         {
-          "record": "sonus-faber-olympica-nova-iii",
+          "record": "sonus-faber-homage-tradition-amati",
           "field": "active",
           "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
-          "record": "sonus-faber-olympica-nova-v",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
+          "record": "sonus-faber-homage-tradition-amati",
+          "field": "driverCount",
+          "value": 4,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
-      "checkedRound": 15,
-      "checkedDate": "2026-10-12",
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
       "chunksOpened": [
         0,
         1
       ],
-      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
+      "evidence": "Header: \"Homage tradition passive loudspeakers\". AMATI column: \"3.5 way floorstanding loudspeaker system\"; \"H28 XTR-04 Sonus faber silk dome 28 mm\"; \"M15 XTR-04 ... 150 mm ... midrange\"; \"2 x W22XTR-08 Sonus faber designed 220 mm ... woofers\"; 4 Ω; \"100 – 500 W\"."
     },
     {
-      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "url": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
       "host": "www.manualslib.com",
       "status": "CHECKED_PARTIAL",
       "items": 2,
       "records": [
-        "sonus-faber-olympica-nova-i",
-        "sonus-faber-olympica-nova-ii"
+        "legacy-kef-7"
       ],
       "fields": [
-        "active"
+        "active",
+        "driverCount"
       ],
       "outstanding": [
         {
-          "record": "sonus-faber-olympica-nova-i",
+          "record": "legacy-kef-7",
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
+          "recordedNote": "The manual gives \"Amplifier requirements 50 - 400W\" but never says passive/unpowered or shows a built-in amplifier."
         },
         {
-          "record": "sonus-faber-olympica-nova-ii",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
+          "record": "legacy-kef-7",
+          "field": "driverCount",
+          "value": 6,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
-      "checkedRound": 15,
-      "checkedDate": "2026-10-12",
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
       "chunksOpened": [
-        0,
-        1
+        0
       ],
-      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
+      "evidence": "Specification table: \"Design Three-way bass reflex\"; \"MF: 125mm (5in.) Li-Mg-Al/LCP hybrid cone\"; \"HF: 25mm (1in.) Al dome\"; \"Bass units: LF: 4 x 225mm (9in.) with force cancelling\"; \"Amplifier requirements 50 - 400W\". Page 8 (amplifier requirements) never uses the word passive."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "legacy-kef-5"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-kef-5",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "legacy-kef-5",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specification table, Q100 column: \"Two-way bass reflex\"; \"130mm (5.25in.) aluminium Uni-Q\"; \"25mm (1in.) vented aluminium dome HF\"; \"Amplifier N/A\"; \"Amplifier requirements 10 - 100W\"; 86 dB; 8Ω."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "legacy-mack-2"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-mack-2",
+          "field": "active",
+          "value": true,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "legacy-mack-2",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specification sheet: \"The HR624 studio monitors are high-resolution, two-way, bi-amplified, active monitors\"; \"a 1-inch aluminum-alloy high-frequency transducer, a high-precision 6.7-inch die-cast magnesium frame low-frequency transducer, and a 6-inch x 9-inch elliptical flat piston passive radiator\"; \"The low-frequency amplifier is rated at 100 watts rms ... the high-frequency amplifier is rated at 40 watts rms\"."
     },
     {
       "url": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
@@ -1631,6 +1950,41 @@
         0
       ],
       "evidence": "The technical table covers Opera Live 202, 205 and 402 only (\"1 woofer 12\\\" ... 1 driver 1\\\"\", \"bi-amp\", built-in amplifiers); the document contains no Opera 405 column."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_CONFIRMED",
+      "items": 2,
+      "records": [
+        "jbl-vrx932"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "jbl-vrx932",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        },
+        {
+          "record": "jbl-vrx932",
+          "field": "driverCount",
+          "value": 4,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+        }
+      ],
+      "checkedRound": 25,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specifications: \"12\\\" two-way, line array loudspeaker system\"; \"LF Driver: 1 x JBL 2262H 305 mm (12 in) Differential Drive woofer\"; \"HF Driver: 3 x JBL 2407J, 25.4 mm (1 in) voice-coil ... compression driver\"; \"Crossover Modes: Bi-amp / passive, externally switchable\"; \"Power Rating ... Passive: 800 W\"."
     },
     {
       "url": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
@@ -4250,33 +4604,6 @@
         4
       ],
       "evidence": "PDP specification block: \"Número de Colunas 11 EA\"; 5.1.3 channels; 580 W output. No amplifier-device count or passive/active wording."
-    },
-    {
-      "url": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "legacy-kef-7"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-7",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The manual gives \"Amplifier requirements 50 - 400W\" but never says passive/unpowered or shows a built-in amplifier."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification table: \"Design Three-way bass reflex\"; \"MF: 125mm (5in.) Li-Mg-Al/LCP hybrid cone\"; \"HF: 25mm (1in.) Al dome\"; \"Bass units: LF: 4 x 225mm (9in.) with force cancelling\"; \"Amplifier requirements 50 - 400W\". Page 8 (amplifier requirements) never uses the word passive."
     },
     {
       "url": "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual",

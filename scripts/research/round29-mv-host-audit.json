@@ -1,0 +1,239 @@
+{
+  "schema": "round29-mv-host-audit/v1",
+  "date": "2026-10-19",
+  "round": 29,
+  "policy": "MANUFACTURER_VERIFIED requires an ESTABLISHED manufacturer host or an approved manufacturer copy; see source-host-allowlist.json and PROVENANCE-POLICY.md.",
+  "demoted": 23,
+  "rows": [
+    {
+      "record": "jbl-vrx932",
+      "field": "driverCount",
+      "value": 4,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jbl-vrx932",
+      "field": "active",
+      "value": false,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "legacy-kef-5",
+      "field": "driverCount",
+      "value": 2,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "legacy-kef-5",
+      "field": "active",
+      "value": false,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "legacy-kef-7",
+      "field": "driverCount",
+      "value": 6,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "legacy-mack-2",
+      "field": "driverCount",
+      "value": 2,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "legacy-mack-2",
+      "field": "active",
+      "value": true,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-c3-650",
+      "field": "driverCount",
+      "value": 2,
+      "host": "tacotunes.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-c3-650",
+      "field": "active",
+      "value": false,
+      "host": "tacotunes.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-c5-650",
+      "field": "driverCount",
+      "value": 2,
+      "host": "tacotunes.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-c5-650",
+      "field": "active",
+      "value": false,
+      "host": "tacotunes.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-12w3v3",
+      "field": "driverCount",
+      "value": 1,
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "jl-audio-12w3v3",
+      "field": "active",
+      "value": false,
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-olympica-nova-i",
+      "field": "driverCount",
+      "value": 2,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-olympica-nova-ii",
+      "field": "driverCount",
+      "value": 3,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-olympica-nova-iii",
+      "field": "driverCount",
+      "value": 4,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-olympica-nova-v",
+      "field": "driverCount",
+      "value": 5,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-amati",
+      "field": "driverCount",
+      "value": 4,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-amati",
+      "field": "active",
+      "value": false,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-guarneri",
+      "field": "driverCount",
+      "value": 2,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-guarneri",
+      "field": "active",
+      "value": false,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-serafino",
+      "field": "driverCount",
+      "value": 4,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    },
+    {
+      "record": "sonus-faber-homage-tradition-serafino",
+      "field": "active",
+      "value": false,
+      "host": "manualslib.com",
+      "hostStatus": "NOT_MANUFACTURER",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "from": "MANUFACTURER_VERIFIED",
+      "to": "CITED_IN_NOTES_UNCHECKED"
+    }
+  ]
+}

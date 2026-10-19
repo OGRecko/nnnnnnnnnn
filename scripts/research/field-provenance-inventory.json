@@ -6,16 +6,16 @@
     "live": 3084,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2426,
+      "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
-      "CITED_IN_NOTES_UNCHECKED": 230,
+      "CITED_IN_NOTES_UNCHECKED": 253,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 71,
       "THIRD_PARTY_VERIFIED": 43,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 170
+    "citedUncheckedUrls": 178
   },
   "entries": [
     {
@@ -9135,14 +9135,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers.",
+      "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jbl-vrx932",
@@ -9153,14 +9153,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers.",
+      "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jbl-vrx932",
@@ -19611,14 +19611,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers.",
+      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "legacy-kef-5",
@@ -19629,14 +19629,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier.",
+      "note": "Round 25: The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "legacy-kef-5",
@@ -19701,14 +19701,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers.",
+      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "legacy-kef-7",
@@ -20979,14 +20979,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer.",
+      "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "legacy-mack-2",
@@ -20997,14 +20997,14 @@
       "field": "active",
       "value": true,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers.",
+      "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "legacy-mack-2",
@@ -41661,14 +41661,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in.",
+      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jl-audio-c3-650",
@@ -41769,14 +41769,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers.",
+      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jl-audio-c5-650",
@@ -41787,14 +41787,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in.",
+      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jl-audio-c5-650",
@@ -41895,14 +41895,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers.",
+      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jl-audio-10w3v3",
@@ -41985,14 +41985,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in.",
+      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "jl-audio-12w3v3",
@@ -42039,14 +42039,14 @@
       "field": "driverCount",
       "value": 1,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer.",
+      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "hertz-dieci-dsk-165-3",
@@ -44505,14 +44505,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-olympica-nova-ii",
@@ -44595,14 +44595,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-olympica-nova-iii",
@@ -44685,14 +44685,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-olympica-nova-v",
@@ -44775,14 +44775,14 @@
       "field": "driverCount",
       "value": 5,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-amati",
@@ -44793,14 +44793,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given.",
+      "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-amati",
@@ -44865,14 +44865,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers.",
+      "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-guarneri",
@@ -44883,14 +44883,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-guarneri",
@@ -44955,14 +44955,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-serafino",
@@ -44973,14 +44973,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "sonus-faber-homage-tradition-serafino",
@@ -45045,14 +45045,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
+      "sourceType": null,
       "reference": null,
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: ",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "STORED_STATUS_ONLY"
+      "checkOutcome": "NOT_CHECKED"
     },
     {
       "speakerId": "dali-oberon-1",

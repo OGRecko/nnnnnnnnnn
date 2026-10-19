@@ -4,6 +4,33 @@
   "policy": "A host may support MANUFACTURER_VERIFIED only when status is ESTABLISHED: the host is the official asset/product host of the brand's current owner, and that link is recorded here with evidence. NOT_ESTABLISHED and NOT_MANUFACTURER hosts cannot support MANUFACTURER_VERIFIED; their values are demoted to CITED_IN_NOTES_UNCHECKED with history. BRAND_DOMAIN_UNVERIFIED hosts keep their existing claims but are flagged for review; they are not counted as verified ownership.",
   "hosts": [
     {
+      "host": "adn.harmanpro.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Harman Professional. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "amphion.fi",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Amphion. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "ap.kef.com",
+      "status": "ESTABLISHED",
+      "operator": "GP Acoustics Group (KEF)",
+      "evidence": [
+        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
+      ],
+      "sources": [
+        "https://us.kef.com/pages/terms-and-conditions"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
       "host": "assets.boseprofessional.com",
       "status": "ESTABLISHED",
       "operator": "Transom Post OpCo LLC, dba Bose Professional (brand sold by Bose Corporation, April 2023)",
@@ -15,6 +42,18 @@
       "sources": [
         "https://www.pehub.com/transom-capital-buys-bose-corporations-professional-unit/",
         "https://www.facebook.com/boseprofessional/"
+      ]
+    },
+    {
+      "host": "assets.ctfassets.net",
+      "status": "ESTABLISHED_FOR_LINKED_DOCUMENTS",
+      "operator": "Genelec content (Contentful space 4zjnzn055a4v)",
+      "evidence": [
+        "genelec.com/previous-models/s30-s30nf links the S30 datasheet and system specifications from assets.ctfassets.net/4zjnzn055a4v/...",
+        "Applies only to documents linked from genelec.com; not to the host in general."
+      ],
+      "sources": [
+        "https://www.genelec.com/previous-models/s30-s30nf"
       ]
     },
     {
@@ -32,6 +71,470 @@
       ]
     },
     {
+      "host": "assets.kef.com",
+      "status": "ESTABLISHED",
+      "operator": "GP Acoustics (UK) Limited / GP Acoustics Group (KEF)",
+      "evidence": [
+        "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf and https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf carry \"GP Acoustics (UK) Limited, Eccleston Road, Tovil, Maidstone, Kent, ME15 6QP, UK\"."
+      ],
+      "sources": [
+        "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+        "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "assets.klipsch.com",
+      "status": "ESTABLISHED",
+      "operator": "Klipsch Group, Inc. (Premium Audio Company / Gentex Corporation)",
+      "evidence": [
+        "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf and https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf carry \"3502 WOODVIEW TRACE INDIANAPOLIS, IN 46268 | KLIPSCH.COM\" and \"©2018 KLIPSCH GROUP, INC.\""
+      ],
+      "sources": [
+        "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf",
+        "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf"
+      ],
+      "previousStatus": "OWNER_IDENTIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "atc.audio",
+      "status": "ESTABLISHED",
+      "operator": "Loudspeaker Technology Ltd (ATC)",
+      "evidence": [
+        "https://atc.audio/wp-content/uploads/2017/05/SCM45A-Pro-Tech.-Datasheet-revB.pdf (linked from https://atc.audio/professional/loudspeakers/scm45a-pro/) carries \"Loudspeaker Technology Ltd, Gypsy Lane, Aston Down, Stroud, Gloucestershire, GL6 8HR\"."
+      ],
+      "sources": [
+        "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+        "https://atc.audio/wp-content/uploads/2017/05/SCM45A-Pro-Tech.-Datasheet-revB.pdf"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "audio-database.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "audio-database.com (enthusiast specification archive)",
+      "evidence": [
+        "Japanese enthusiast loudspeaker archive; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://audio-database.com/JBL/speaker/4312-e.html"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "audison.com",
+      "status": "ESTABLISHED",
+      "operator": "Audison (Elektromedia S.p.A.)",
+      "evidence": [
+        "https://audison.com/product/apk-165/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://audison.com/product/apk-165/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "avantonepro.com",
+      "status": "ESTABLISHED",
+      "operator": "Avantone Pro",
+      "evidence": [
+        "https://avantonepro.com/en/products/mixcube-passive is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://avantonepro.com/en/products/mixcube-passive"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "bangolufsenrmaskillgohel.blob.core.windows.net",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Azure blob storage account, ownership not established",
+      "evidence": [
+        "Storage-account host whose name embeds a person's name; brand ownership could not be established, so SUPPORTED_NOT_PROMOTED only."
+      ],
+      "sources": [
+        "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf"
+      ],
+      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "barefootsound.com",
+      "status": "ESTABLISHED",
+      "operator": "Barefoot Sound",
+      "evidence": [
+        "https://barefootsound.com/footprint03/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://barefootsound.com/footprint03/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "boseprofessional.com",
+      "status": "ESTABLISHED",
+      "operator": "Transom Post OpCo LLC, dba Bose Professional",
+      "evidence": [
+        "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair links directly to assets.boseprofessional.com technical data sheets carrying \"©2025 Transom Post OpCo LLC\"."
+      ],
+      "sources": [
+        "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair"
+      ]
+    },
+    {
+      "host": "cdn.shopify.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Shopify Inc. (multi-tenant storefront CDN)",
+      "evidence": [
+        "Multi-tenant CDN: the /s/files/<shop>/ path belongs to one store, but the host itself cannot be attributed to a single manufacturer, so documents served from it support but never promote a field."
+      ],
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022"
+      ],
+      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "celestion.com",
+      "status": "ESTABLISHED",
+      "operator": "Celestion International Ltd",
+      "evidence": [
+        "celestion.com product pages carry Celestion branding, the company's own 'About Us', 'Careers' and 'A Century of Sound' history pages, and a 'Save Page as PDF' product brochure generated by the site itself; the Vintage 30, G12M Greenback and G12H Anniversary specification tables were read there."
+      ],
+      "sources": [
+        "https://celestion.com/product/vintage-30/",
+        "https://celestion.com/product/g12m-greenback/",
+        "https://celestion.com/product/g12h-anniversary/"
+      ]
+    },
+    {
+      "host": "dam.focal-naim.com",
+      "status": "ESTABLISHED",
+      "operator": "Focal-JMlab (Vervent Audio Group / Focal Naim)",
+      "evidence": [
+        "Official Focal-Naim DAM asset host serving Focal product datasheets (FP_Aria_906_GB-pdf.pdf, FP_Chora806_GB-pdf.pdf, FP_Chora826_GB-pdf.pdf, FP_Alpha_80_Evo_EN-pdf.pdf) produced by Focal-JMlab, La Talaudière, France."
+      ],
+      "sources": [
+        "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+        "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf"
+      ],
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "data.yamaha.com",
+      "status": "ESTABLISHED",
+      "operator": "Yamaha Corporation (document/asset host)",
+      "evidence": [
+        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf is the Yamaha DXR/DXS Owner's Manual served from Yamaha's own data.yamaha.com asset host and carries the specification table quoted in Round 25."
+      ],
+      "sources": [
+        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "docs.meyersound.com",
+      "status": "ESTABLISHED",
+      "operator": "Meyer Sound Laboratories, Inc.",
+      "evidence": [
+        "https://docs.meyersound.com/products/en/datasheet---lina.html page banner \"Meyer Sound Documentation\", product feedback address product-docs@meyersound.com, and the datasheet's own architectural specification (\"The loudspeaker shall be a compact, self-powered ... loudspeaker\").",
+        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html \"Meyer Sound Documentation\" datasheet for LEOPARD with the manufacturer's TRANSDUCERS, AMPLIFIERS and AC POWER tables."
+      ],
+      "sources": [
+        "https://docs.meyersound.com/products/en/datasheet---lina.html",
+        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
+      ]
+    },
+    {
+      "host": "dutchdutch.com",
+      "status": "ESTABLISHED",
+      "operator": "Dutch & Dutch",
+      "evidence": [
+        "https://dutchdutch.com/pages/8c is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://dutchdutch.com/pages/8c"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "dynaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Dynaudio A/S (owned by GoerTek since 2014)",
+      "evidence": [
+        "https://dynaudio.com/hubfs/2022_DynaudioCore7_SpecSheet_WEB.pdf and https://dynaudio.com/hubfs/user-manuals/home-audio/dynaudio_manuals_home_audio_passive_speakers_en.pdf carry \"Dynaudio A/S, Sverigesvej 15, 8660 Skanderborg, Denmark\" and \"© Dynaudio A/S\"."
+      ],
+      "sources": [
+        "https://dynaudio.com/hubfs/2022_DynaudioCore7_SpecSheet_WEB.pdf",
+        "https://dynaudio.com/hubfs/user-manuals/home-audio/dynaudio_manuals_home_audio_passive_speakers_en.pdf"
+      ],
+      "previousStatus": "OWNER_IDENTIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "eaw.com",
+      "status": "ESTABLISHED",
+      "operator": "Eastern Acoustic Works (EAW)",
+      "evidence": [
+        "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "funktion-one.com",
+      "status": "ESTABLISHED",
+      "operator": "Funktion-One",
+      "evidence": [
+        "https://funktion-one.com/product/res-2/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://funktion-one.com/product/res-2/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "global.jbl.com",
+      "status": "ESTABLISHED",
+      "operator": "JBL (HARMAN International)",
+      "evidence": [
+        "https://global.jbl.com/JBLL100CLASSICUAM.html serves JBL L100 Classic (item JBLL100CLASSICUAM) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, alongside the JBL Specialty Audio dealer locator."
+      ],
+      "sources": [
+        "https://global.jbl.com/JBLL100CLASSICUAM.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "international.kef.com",
+      "status": "ESTABLISHED",
+      "operator": "GP Acoustics Group (KEF)",
+      "evidence": [
+        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
+      ],
+      "sources": [
+        "https://us.kef.com/pages/terms-and-conditions"
+      ],
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "jblpro.com",
+      "status": "ESTABLISHED",
+      "operator": "HARMAN International Industries, Incorporated (JBL Professional)",
+      "evidence": [
+        "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet and https://jblpro.com/en-US/site_elements/jrx225-spec-sheet carry \"HARMAN Professional 8500 Balboa Blvd. Northridge, CA 91329 USA\" and \"© HARMAN International Industries, Incorporated\".",
+        "https://jblpro.com/en-US/products/lsr305.html footer carries \"© 2026 HARMAN International. All Rights Reserved.\""
+      ],
+      "sources": [
+        "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+        "https://jblpro.com/en-US/products/lsr305.html"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "legacy.adamson.ai",
+      "status": "ESTABLISHED",
+      "operator": "Adamson Systems Engineering (legacy support archive)",
+      "evidence": [
+        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file is the Adamson E-series E15 technical data sheet on Adamson's legacy support host."
+      ],
+      "sources": [
+        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "legacy.mesaboogie.com",
+      "status": "ESTABLISHED",
+      "operator": "MESA/Boogie (MESA Engineering, Petaluma CA)",
+      "evidence": [
+        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html is MESA/Boogie's official legacy catalogue page; the copy states \"ALL MESA® ENCLOSURES ... Made in Petaluma, California\" and product imagery is served from mesa-boogie.imgix.net."
+      ],
+      "sources": [
+        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "mackie.com",
+      "status": "ESTABLISHED",
+      "operator": "LOUD Audio, LLC (formerly LOUD Technologies Inc.)",
+      "evidence": [
+        "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf and https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf carry \"©2020–2022 LOUD Audio, LLC. All Rights Reserved.\"",
+        "https://mackie.com/img/file_resources/DLM8_12_SS.pdf carries \"©2012 LOUD Technologies Inc. 16220 Wood-Red Road NE, Woodinville, WA 98072 USA\"."
+      ],
+      "sources": [
+        "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+        "https://mackie.com/img/file_resources/DLM8_12_SS.pdf"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "magnepan.com",
+      "status": "ESTABLISHED",
+      "operator": "Magnepan, Inc.",
+      "evidence": [
+        "https://magnepan.com/pages/manual-controller serves the Magnepan 1.7 owner's manual on the brand site and carries the model description quoted in Round 25."
+      ],
+      "sources": [
+        "https://magnepan.com/pages/manual-controller"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "manualmachine.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "ManualMachine (document aggregator)",
+      "evidence": [
+        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/ serves the Spendor SP-100 owner's manual as page images plus extracted text."
+      ],
+      "sources": [
+        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "manualslib.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Manualslib (user-uploaded document aggregator)",
+      "evidence": [
+        "Aggregator that mirrors manuals uploaded by third parties; pages carry uploader metadata, not a manufacturer publication path.",
+        "Used by 17 structural fields that were promoted to MANUFACTURER_VERIFIED in Rounds 15/25; demoted in Round 29."
+      ],
+      "sources": [
+        "https://www.manualslib.com/"
+      ]
+    },
+    {
+      "host": "manualsnet.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Manualsnet (document aggregator)",
+      "evidence": [
+        "https://manualsnet.com/kef/reference-series-model-ls3-5a serves the KEF LS3/5A installation manual text quoted in Round 26."
+      ],
+      "sources": [
+        "https://manualsnet.com/kef/reference-series-model-ls3-5a"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "manualzz.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Manualzz (document aggregator)",
+      "evidence": [
+        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet serves an Electro-Voice data sheet as extracted text; the URL is written without the www prefix in the queue."
+      ],
+      "sources": [
+        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet"
+      ],
+      "note": "Aggregator host; support only."
+    },
+    {
+      "host": "martin-audio.com",
+      "status": "ESTABLISHED",
+      "operator": "Martin Audio Ltd",
+      "evidence": [
+        "https://martin-audio.com/products/archive/w8lm is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://martin-audio.com/products/archive/w8lm"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "media.focal-naim.com",
+      "status": "ESTABLISHED",
+      "operator": "Focal-JMlab (Vervent Audio Group / Focal Naim)",
+      "evidence": [
+        "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf and https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf carry \"Focal-JMlab - BP 374 - 108, rue de l'Avenir - 42353 La Talaudière cedex - France - www.focal.com\"."
+      ],
+      "sources": [
+        "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+        "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "newsroom.sonos.com",
+      "status": "ESTABLISHED",
+      "operator": "Sonos, Inc. (newsroom)",
+      "evidence": [
+        "https://newsroom.sonos.com/254814-introducing-sonos-play-1/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://newsroom.sonos.com/254814-introducing-sonos-play-1/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "onlinecarstereo.blob.core.windows.net",
+      "status": "NOT_MANUFACTURER",
+      "operator": "OnlineCarStereo (authorized JL Audio dealer)",
+      "evidence": [
+        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf is JL Audio's 12W3v3 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "orangeamps.com",
+      "status": "ESTABLISHED",
+      "operator": "Orange Music Electronic Co Ltd",
+      "evidence": [
+        "https://orangeamps.com/en-us/products/ppc412 page title reads \"Orange PPC412 speaker cabinet ... – Orange Music Electronic Co Ltd\"; the store cart is hosted at storeusa.orangeamps.com."
+      ],
+      "sources": [
+        "https://orangeamps.com/en-us/products/ppc412"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "pioneer-car.eu",
+      "status": "ESTABLISHED",
+      "operator": "Pioneer Europe (car audio)",
+      "evidence": [
+        "https://pioneer-car.eu/ts-d65c/ts-d65c is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://pioneer-car.eu/ts-d65c/ts-d65c"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "pmc-speakers.com",
+      "status": "ESTABLISHED",
+      "operator": "Professional Monitor Company Limited (PMC)",
+      "evidence": [
+        "https://pmc-speakers.com/privacy-policy states: \"Our company name is Professional Monitor Company Limited (PMC). Our registered address is Holme Court, Biggleswade SG18 9ST, United Kingdom, company number 02472746.\""
+      ],
+      "sources": [
+        "https://pmc-speakers.com/privacy-policy",
+        "https://pmc-speakers.com/studio/active/result6"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "products.bose.com",
+      "status": "ESTABLISHED",
+      "operator": "Bose Corporation (owner-support document host)",
+      "evidence": [
+        "https://products.bose.com/pdf/customer_service/owners/og_791.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://products.bose.com/pdf/customer_service/owners/og_791.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
       "host": "products.electrovoice.com",
       "status": "ESTABLISHED",
       "operator": "Electro-Voice product site",
@@ -43,16 +546,108 @@
       ]
     },
     {
-      "host": "assets.ctfassets.net",
-      "status": "ESTABLISHED_FOR_LINKED_DOCUMENTS",
-      "operator": "Genelec content (Contentful space 4zjnzn055a4v)",
+      "host": "rel.net",
+      "status": "ESTABLISHED",
+      "operator": "REL Acoustics",
       "evidence": [
-        "genelec.com/previous-models/s30-s30nf links the S30 datasheet and system specifications from assets.ctfassets.net/4zjnzn055a4v/...",
-        "Applies only to documents linked from genelec.com; not to the host in general."
+        "Bare-domain form of www.rel.net, which is already ESTABLISHED as REL Acoustics' own site.",
+        "The recorded S/812 brochure URL at rel.net/wp-content/uploads/2019/08/S812-brochure.pdf answered with a redirect to REL's Shopify CDN asset cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf; the served document is the REL S/812 brochure quoted in Round 27."
       ],
       "sources": [
-        "https://www.genelec.com/previous-models/s30-s30nf"
+        "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+        "https://www.rel.net/"
+      ],
+      "note": "Alias of www.rel.net; added in Round 27 when the brochure URL was re-read."
+    },
+    {
+      "host": "rockfordfosgate.com",
+      "status": "ESTABLISHED",
+      "operator": "Rockford Fosgate",
+      "evidence": [
+        "https://rockfordfosgate.com/products/details/p3d4-12/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://rockfordfosgate.com/products/details/p3d4-12/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "sonance.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Sonance. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "static.hertz-audio.com",
+      "status": "ESTABLISHED",
+      "operator": "Hertz (Elektromedia S.p.A.) asset host",
+      "evidence": [
+        "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "static1.squarespace.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Squarespace CDN (generic asset host; site owner not identified by the URL)",
+      "evidence": [
+        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf is the Kali Audio LP-6 manual, but the host is a generic CDN and the URL carries no brand domain."
+      ],
+      "sources": [
+        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
+      ],
+      "note": "Generic CDN; support only until brand-host ownership is established."
+    },
+    {
+      "host": "support.apple.com",
+      "status": "ESTABLISHED",
+      "operator": "Apple Inc.",
+      "evidence": [
+        "https://support.apple.com/en-us/111843 is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://support.apple.com/en-us/111843"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "support.jbl.com",
+      "status": "ESTABLISHED",
+      "operator": "JBL (Harman International Industries, Inc.)",
+      "evidence": [
+        "support.jbl.com hosts Harman's JBL owner manuals and 404 page under JBL branding; the L112 instruction manual (JPEG-branded 'L112 INSTRUCTION MANUAL') was read there, and the same host serves the L100 Century manual URL recorded on jbl-l100."
+      ],
+      "sources": [
+        "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf"
       ]
+    },
+    {
+      "host": "tacotunes.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Taco Tunes (authorized JL Audio dealer)",
+      "evidence": [
+        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf is JL Audio's C3-650 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "tcfurlong.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "TC Furlong (third-party backline rental firm)",
+      "evidence": [
+        "Rental company mirror of an owner's manual; not the manufacturer or an owner-approved distributor, so SUPPORTED_NOT_PROMOTED only."
+      ],
+      "sources": [
+        "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf"
+      ],
+      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
     },
     {
       "host": "tile.loc.gov",
@@ -64,13 +659,257 @@
       "sources": []
     },
     {
-      "host": "www.walkersound.co.uk",
-      "status": "NOT_MANUFACTURER",
-      "operator": "UK retailer/distributor (dealer PDF)",
+      "host": "trianglehifi.com",
+      "status": "ESTABLISHED",
+      "operator": "Triangle HiFi",
       "evidence": [
-        "Bose 802 MkII PDF hosted on a UK sound-equipment dealer's site, not on a Bose domain."
+        "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
       ],
+      "sources": [
+        "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "us.kef.com",
+      "status": "ESTABLISHED",
+      "operator": "GP Acoustics Group (KEF)",
+      "evidence": [
+        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
+      ],
+      "sources": [
+        "https://us.kef.com/pages/terms-and-conditions"
+      ],
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "us.sennheiser-hearing.com",
+      "status": "ESTABLISHED",
+      "operator": "Sonova Consumer Hearing (Sennheiser brand licensee)",
+      "evidence": [
+        "https://us.sennheiser-hearing.com/products/ambeo-soundbar is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://us.sennheiser-hearing.com/products/ambeo-soundbar"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "usa.yamaha.com",
+      "status": "ESTABLISHED",
+      "operator": "Yamaha Corporation of America",
+      "evidence": [
+        "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "valueelectronics.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Value Electronics (authorized LG dealer)",
+      "evidence": [
+        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf is LG's S95TR spec sheet served by the dealer."
+      ],
+      "sources": [
+        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf"
+      ],
+      "note": "Dealer host; support only."
+    },
+    {
+      "host": "voidacoustics.com",
+      "status": "ESTABLISHED",
+      "operator": "Void Acoustics",
+      "evidence": [
+        "https://voidacoustics.com/products/air/air8/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://voidacoustics.com/products/air/air8/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "voxamps.com",
+      "status": "ESTABLISHED",
+      "operator": "VOX (Korg) — official VOX Amps site",
+      "evidence": [
+        "https://voxamps.com/product/v212c-extension-cabinet/ is VOX's official product page, linking the VOX web shop (voxampshop.com), the VOX dealer locator and VOX owner's manual PDFs."
+      ],
+      "sources": [
+        "https://voxamps.com/product/v212c-extension-cabinet/"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.adam-audio.com",
+      "status": "ESTABLISHED",
+      "operator": "ADAM Audio GmbH (part of Focusrite Group since 2019-07-16)",
+      "evidence": [
+        "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf and https://www.adam-audio.com/content/uploads/2016/12/adam-audio-manual-S3A-en-de.pdf carry \"ADAM Audio GmbH, Berlin, Germany\".",
+        "https://www.adam-audio.com/en/a-series/a4v/ footer carries \"© ADAM Audio GmbH\"."
+      ],
+      "sources": [
+        "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+        "https://www.adam-audio.com/en/a-series/a4v/"
+      ],
+      "previousStatus": "OWNER_IDENTIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.alpine-usa.com",
+      "status": "ESTABLISHED",
+      "operator": "Alpine Electronics of America, Inc.",
+      "evidence": [
+        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers is an Alpine Electronics of America press release on the brand site listing the X-Series speaker models."
+      ],
+      "sources": [
+        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.auratoneaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Auratone",
+      "evidence": [
+        "https://www.auratoneaudio.com/products is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.auratoneaudio.com/products"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.bang-olufsen.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Bang & Olufsen. Not confirmed in this round.",
+      "evidence": [],
       "sources": []
+    },
+    {
+      "host": "www.behringer.com",
+      "status": "ESTABLISHED",
+      "operator": "Behringer (Music Tribe)",
+      "evidence": [
+        "https://www.behringer.com/en/products/0313-ACS is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.behringer.com/en/products/0313-ACS"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.bobscb.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Bob's Car Audio (authorized JL Audio dealer)",
+      "evidence": [
+        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf is JL Audio's C1-650 owner's manual served verbatim by the dealer."
+      ],
+      "sources": [
+        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.bowerswilkins.com",
+      "status": "ESTABLISHED",
+      "operator": "B&W Group Ltd. (Bowers & Wilkins, owned by Harman / Samsung Electronics)",
+      "evidence": [
+        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf and 804d4-information-sheet.pdf carry \"B&W Group Ltd., Dale Road, Worthing, West Sussex, BN11 2BH, England\" and \"Copyright © B&W Group Ltd.\""
+      ],
+      "sources": [
+        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf"
+      ],
+      "previousStatus": "OWNER_IDENTIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.customsounds.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Custom Sounds (authorized JL Audio dealer)",
+      "evidence": [
+        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf is JL Audio's own 10W3v3 owner's manual, served verbatim by the dealer; it carries the text quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf"
+      ],
+      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.dali-speakers.com",
+      "status": "ESTABLISHED",
+      "operator": "DALI A/S (Danish Audiophile Loudspeaker Industries)",
+      "evidence": [
+        "https://www.dali-speakers.com/media/5320/oberon-manual.pdf and https://www.dali-speakers.com/en/about-dali/ identify operator \"DALI A/S, Dali Allé 1, DK-9610 Nørager, Denmark, www.dali-speakers.com\"."
+      ],
+      "sources": [
+        "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "https://www.dali-speakers.com/en/about-dali/"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.danleysoundlabs.com",
+      "status": "ESTABLISHED",
+      "operator": "Danley Sound Labs",
+      "evidence": [
+        "https://www.danleysoundlabs.com/products/sh96/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.danleysoundlabs.com/products/sh96/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.dasaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "DAS Audio",
+      "evidence": [
+        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf is the DAS Audio Aero 12A technical report on the brand site and carries the text quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.dbaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "d&b audiotechnik GmbH",
+      "evidence": [
+        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf is the d&b T10 data sheet on the brand-operated dbaudio.com site and carries the text quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.devialet.com",
+      "status": "ESTABLISHED",
+      "operator": "Devialet",
+      "evidence": [
+        "https://www.devialet.com/en-us/soundbar/dione/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.devialet.com/en-us/soundbar/dione/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.electrovoice.com",
+      "status": "ESTABLISHED",
+      "operator": "Electro-Voice brand site",
+      "evidence": [
+        "Brand's own site (tools-resources page)."
+      ],
+      "sources": [
+        "https://www.electrovoice.com/tools-resources"
+      ]
     },
     {
       "host": "www.eviaudio.fr",
@@ -86,6 +925,18 @@
       ],
       "previousStatus": "NOT_ESTABLISHED",
       "note": "Established under Owner Decision 1 (distributor copy of verbatim manufacturer manual) and Decision 8 (document check)."
+    },
+    {
+      "host": "www.fender.com",
+      "status": "ESTABLISHED",
+      "operator": "Fender Musical Instruments Corporation",
+      "evidence": [
+        "https://www.fender.com/products/blues-junior-iv is the Fender product page for the Blues Junior IV and carries the specification block quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.fender.com/products/blues-junior-iv"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
     },
     {
       "host": "www.fmicassets.com",
@@ -104,127 +955,29 @@
       "note": "Established by Owner Decision (2026-10-13) and Decision 8 document check."
     },
     {
-      "host": "www.qsys.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected QSC (Q-SYS platform). Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
-    },
-    {
-      "host": "www.qscaudio.com",
+      "host": "www.focal.com",
       "status": "ESTABLISHED",
-      "operator": "QSC, LLC (QSC Audio Products)",
+      "operator": "Focal-JMlab",
       "evidence": [
-        "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D, https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf: \"Copyright 2017, QSC, LLC\" and \"QSC(R) is a registered trademark of QSC, LLC\" (fetched 2026-10-12)."
-      ],
-      "sources": [],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by owner decision 8 (document check). No values were promoted from this host in round 15."
-    },
-    {
-      "host": "dynaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "Dynaudio A/S (owned by GoerTek since 2014)",
-      "evidence": [
-        "https://dynaudio.com/hubfs/2022_DynaudioCore7_SpecSheet_WEB.pdf and https://dynaudio.com/hubfs/user-manuals/home-audio/dynaudio_manuals_home_audio_passive_speakers_en.pdf carry \"Dynaudio A/S, Sverigesvej 15, 8660 Skanderborg, Denmark\" and \"© Dynaudio A/S\"."
+        "https://www.focal.com/products/alpha-65-evo and Focal product sheets (\"Focal-JMlab - BP 374 - 108, rue de l'Avenir - 42353 La Talaudière cedex - France - www.focal.com\")."
       ],
       "sources": [
-        "https://dynaudio.com/hubfs/2022_DynaudioCore7_SpecSheet_WEB.pdf",
-        "https://dynaudio.com/hubfs/user-manuals/home-audio/dynaudio_manuals_home_audio_passive_speakers_en.pdf"
+        "https://www.focal.com/products/alpha-65-evo",
+        "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf"
       ],
-      "previousStatus": "OWNER_IDENTIFIED",
       "note": "Established by Decision 8 document check."
     },
     {
-      "host": "mackie.com",
-      "status": "ESTABLISHED",
-      "operator": "LOUD Audio, LLC (formerly LOUD Technologies Inc.)",
+      "host": "www.fullcompass.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Full Compass Systems (audio retailer)",
       "evidence": [
-        "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf and https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf carry \"©2020–2022 LOUD Audio, LLC. All Rights Reserved.\"",
-        "https://mackie.com/img/file_resources/DLM8_12_SS.pdf carries \"©2012 LOUD Technologies Inc. 16220 Wood-Red Road NE, Woodinville, WA 98072 USA\"."
+        "Retailer product pages reproduce manufacturer specification lists; they support but never promote a field (Round 25)."
       ],
       "sources": [
-        "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
-        "https://mackie.com/img/file_resources/DLM8_12_SS.pdf"
+        "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black"
       ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "assets.kef.com",
-      "status": "ESTABLISHED",
-      "operator": "GP Acoustics (UK) Limited / GP Acoustics Group (KEF)",
-      "evidence": [
-        "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf and https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf carry \"GP Acoustics (UK) Limited, Eccleston Road, Tovil, Maidstone, Kent, ME15 6QP, UK\"."
-      ],
-      "sources": [
-        "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
-        "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "ap.kef.com",
-      "status": "ESTABLISHED",
-      "operator": "GP Acoustics Group (KEF)",
-      "evidence": [
-        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
-      ],
-      "sources": [
-        "https://us.kef.com/pages/terms-and-conditions"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "adn.harmanpro.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected Harman Professional. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
-    },
-    {
-      "host": "jblpro.com",
-      "status": "ESTABLISHED",
-      "operator": "HARMAN International Industries, Incorporated (JBL Professional)",
-      "evidence": [
-        "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet and https://jblpro.com/en-US/site_elements/jrx225-spec-sheet carry \"HARMAN Professional 8500 Balboa Blvd. Northridge, CA 91329 USA\" and \"© HARMAN International Industries, Incorporated\".",
-        "https://jblpro.com/en-US/products/lsr305.html footer carries \"© 2026 HARMAN International. All Rights Reserved.\""
-      ],
-      "sources": [
-        "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
-        "https://jblpro.com/en-US/products/lsr305.html"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.jbl.com",
-      "status": "ESTABLISHED",
-      "operator": "JBL (HARMAN International)",
-      "evidence": [
-        "https://www.jbl.com/HDI-3800.html serves JBL HDI-3800 (item JBLHDI3800GRO) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, and carries the JBL Specialty Audio dealer locator."
-      ],
-      "sources": [
-        "https://www.jbl.com/HDI-3800.html"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Upgraded from BRAND_DOMAIN_UNVERIFIED after the Round 23 document check identified the HARMAN-operated catalogue path."
-    },
-    {
-      "host": "sonance.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected Sonance. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
-    },
-    {
-      "host": "www.bang-olufsen.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected Bang & Olufsen. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
     },
     {
       "host": "www.genelec.com",
@@ -241,986 +994,6 @@
       "note": "Established by Decision 8 document check."
     },
     {
-      "host": "www.martinlogan.com",
-      "status": "ESTABLISHED",
-      "operator": "MartinLogan, Ltd.",
-      "evidence": [
-        "https://www.martinlogan.com/uploads/documents/manuals/manual_motion_60xt.pdf and https://www.martinlogan.com/en/privacy-policy carry \"MartinLogan, Ltd., 2101 Delaware Street, Lawrence, Kansas 66046, USA\" and \"© MartinLogan, Ltd.\""
-      ],
-      "sources": [
-        "https://www.martinlogan.com/uploads/documents/manuals/manual_motion_60xt.pdf",
-        "https://www.martinlogan.com/en/privacy-policy"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.l-acoustics.com",
-      "status": "ESTABLISHED",
-      "operator": "L-ACOUSTICS",
-      "evidence": [
-        "https://prdstglaxxwe001.blob.core.windows.net/media/documents/Syva_DoC_EN.pdf and SYVA_SPS_EN_2.2.pdf (linked directly from https://www.l-acoustics.com/products/syva/) carry \"L-ACOUSTICS, 13 rue Levacher Cintrat – 91460 Marcoussis – France\" and \"info@l-acoustics.com / www.l-acoustics.com\"."
-      ],
-      "sources": [
-        "https://www.l-acoustics.com/products/syva/",
-        "https://prdstglaxxwe001.blob.core.windows.net/media/documents/Syva_DoC_EN.pdf"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "amphion.fi",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected Amphion. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
-    },
-    {
-      "host": "media.focal-naim.com",
-      "status": "ESTABLISHED",
-      "operator": "Focal-JMlab (Vervent Audio Group / Focal Naim)",
-      "evidence": [
-        "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf and https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf carry \"Focal-JMlab - BP 374 - 108, rue de l'Avenir - 42353 La Talaudière cedex - France - www.focal.com\"."
-      ],
-      "sources": [
-        "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
-        "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "atc.audio",
-      "status": "ESTABLISHED",
-      "operator": "Loudspeaker Technology Ltd (ATC)",
-      "evidence": [
-        "https://atc.audio/wp-content/uploads/2017/05/SCM45A-Pro-Tech.-Datasheet-revB.pdf (linked from https://atc.audio/professional/loudspeakers/scm45a-pro/) carries \"Loudspeaker Technology Ltd, Gypsy Lane, Aston Down, Stroud, Gloucestershire, GL6 8HR\"."
-      ],
-      "sources": [
-        "https://atc.audio/professional/loudspeakers/scm45a-pro/",
-        "https://atc.audio/wp-content/uploads/2017/05/SCM45A-Pro-Tech.-Datasheet-revB.pdf"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "pmc-speakers.com",
-      "status": "ESTABLISHED",
-      "operator": "Professional Monitor Company Limited (PMC)",
-      "evidence": [
-        "https://pmc-speakers.com/privacy-policy states: \"Our company name is Professional Monitor Company Limited (PMC). Our registered address is Holme Court, Biggleswade SG18 9ST, United Kingdom, company number 02472746.\""
-      ],
-      "sources": [
-        "https://pmc-speakers.com/privacy-policy",
-        "https://pmc-speakers.com/studio/active/result6"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.adam-audio.com",
-      "status": "ESTABLISHED",
-      "operator": "ADAM Audio GmbH (part of Focusrite Group since 2019-07-16)",
-      "evidence": [
-        "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf and https://www.adam-audio.com/content/uploads/2016/12/adam-audio-manual-S3A-en-de.pdf carry \"ADAM Audio GmbH, Berlin, Germany\".",
-        "https://www.adam-audio.com/en/a-series/a4v/ footer carries \"© ADAM Audio GmbH\"."
-      ],
-      "sources": [
-        "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
-        "https://www.adam-audio.com/en/a-series/a4v/"
-      ],
-      "previousStatus": "OWNER_IDENTIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.dali-speakers.com",
-      "status": "ESTABLISHED",
-      "operator": "DALI A/S (Danish Audiophile Loudspeaker Industries)",
-      "evidence": [
-        "https://www.dali-speakers.com/media/5320/oberon-manual.pdf and https://www.dali-speakers.com/en/about-dali/ identify operator \"DALI A/S, Dali Allé 1, DK-9610 Nørager, Denmark, www.dali-speakers.com\"."
-      ],
-      "sources": [
-        "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-        "https://www.dali-speakers.com/en/about-dali/"
-      ],
-      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.electrovoice.com",
-      "status": "ESTABLISHED",
-      "operator": "Electro-Voice brand site",
-      "evidence": [
-        "Brand's own site (tools-resources page)."
-      ],
-      "sources": [
-        "https://www.electrovoice.com/tools-resources"
-      ]
-    },
-    {
-      "host": "assets.klipsch.com",
-      "status": "ESTABLISHED",
-      "operator": "Klipsch Group, Inc. (Premium Audio Company / Gentex Corporation)",
-      "evidence": [
-        "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf and https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf carry \"3502 WOODVIEW TRACE INDIANAPOLIS, IN 46268 | KLIPSCH.COM\" and \"©2018 KLIPSCH GROUP, INC.\""
-      ],
-      "sources": [
-        "https://assets.klipsch.com/product-specsheets/Heresy-Spec.pdf",
-        "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf"
-      ],
-      "previousStatus": "OWNER_IDENTIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.bowerswilkins.com",
-      "status": "ESTABLISHED",
-      "operator": "B&W Group Ltd. (Bowers & Wilkins, owned by Harman / Samsung Electronics)",
-      "evidence": [
-        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf and 804d4-information-sheet.pdf carry \"B&W Group Ltd., Dale Road, Worthing, West Sussex, BN11 2BH, England\" and \"Copyright © B&W Group Ltd.\""
-      ],
-      "sources": [
-        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
-        "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf"
-      ],
-      "previousStatus": "OWNER_IDENTIFIED",
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "boseprofessional.com",
-      "status": "ESTABLISHED",
-      "operator": "Transom Post OpCo LLC, dba Bose Professional",
-      "evidence": [
-        "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair links directly to assets.boseprofessional.com technical data sheets carrying \"©2025 Transom Post OpCo LLC\"."
-      ],
-      "sources": [
-        "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair"
-      ]
-    },
-    {
-      "host": "us.kef.com",
-      "status": "ESTABLISHED",
-      "operator": "GP Acoustics Group (KEF)",
-      "evidence": [
-        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
-      ],
-      "sources": [
-        "https://us.kef.com/pages/terms-and-conditions"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "international.kef.com",
-      "status": "ESTABLISHED",
-      "operator": "GP Acoustics Group (KEF)",
-      "evidence": [
-        "https://us.kef.com/pages/terms-and-conditions states: \"using the website displayed at the URL kef.com and its associate domains or sub-domains (the 'Site') ... operated by GP Acoustics Group and/or its affiliates ('KEF')\"."
-      ],
-      "sources": [
-        "https://us.kef.com/pages/terms-and-conditions"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "dam.focal-naim.com",
-      "status": "ESTABLISHED",
-      "operator": "Focal-JMlab (Vervent Audio Group / Focal Naim)",
-      "evidence": [
-        "Official Focal-Naim DAM asset host serving Focal product datasheets (FP_Aria_906_GB-pdf.pdf, FP_Chora806_GB-pdf.pdf, FP_Chora826_GB-pdf.pdf, FP_Alpha_80_Evo_EN-pdf.pdf) produced by Focal-JMlab, La Talaudière, France."
-      ],
-      "sources": [
-        "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
-        "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.focal.com",
-      "status": "ESTABLISHED",
-      "operator": "Focal-JMlab",
-      "evidence": [
-        "https://www.focal.com/products/alpha-65-evo and Focal product sheets (\"Focal-JMlab - BP 374 - 108, rue de l'Avenir - 42353 La Talaudière cedex - France - www.focal.com\")."
-      ],
-      "sources": [
-        "https://www.focal.com/products/alpha-65-evo",
-        "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.klipsch.com",
-      "status": "ESTABLISHED",
-      "operator": "Klipsch Group, Inc.",
-      "evidence": [
-        "Official Klipsch brand domain named on all Klipsch spec sheets (\"3502 WOODVIEW TRACE INDIANAPOLIS, IN 46268 | KLIPSCH.COM\", \"© KLIPSCH GROUP, INC.\")."
-      ],
-      "sources": [
-        "https://www.klipsch.com/products/cdt-5650-c-ii",
-        "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.wharfedale.co.uk",
-      "status": "ESTABLISHED",
-      "operator": "IAG Group Ltd. (International Audio Group / Wharfedale)",
-      "evidence": [
-        "https://www.wharfedale.co.uk/cdn/shop/files/Diamond_12_User_Manual_250729_R13.pdf (linked from https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1) carries \"IAG House, 13/14 Glebe Road, Huntingdon, Cambridgeshire, PE29 7DL, UK ... www.wharfedale.co.uk\" and identifies manufacturer \"IAG Group Ltd.\""
-      ],
-      "sources": [
-        "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
-        "https://www.wharfedale.co.uk/cdn/shop/files/Diamond_12_User_Manual_250729_R13.pdf"
-      ],
-      "note": "Established by Decision 8 document check."
-    },
-    {
-      "host": "www.marshall.com",
-      "status": "ESTABLISHED",
-      "operator": "Marshall (official Marshall brand site, web store and support site)",
-      "evidence": [
-        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269 is the official Marshall product page for the 1960A and carries the model specification table; cabinet manuals are served from assets.ctfassets.net (Marshall \"Cabs Safety Leaflet\").",
-        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet is Marshall's own support article tree for the 1960AV and repeats the model product details."
-      ],
-      "sources": [
-        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
-        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.svsound.com",
-      "status": "ESTABLISHED",
-      "operator": "SVS (SVSound, official brand site and direct web store)",
-      "evidence": [
-        "https://www.svsound.com/products/pb-2000-pro is SVS's own product page and store listing for the PB-2000 Pro, with SVS product imagery and the SVS Subwoofer Control App described in the product copy."
-      ],
-      "sources": [
-        "https://www.svsound.com/products/pb-2000-pro"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.polkaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "Polk Audio (HARMAN International)",
-      "evidence": [
-        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html is the official Polk product page; its checkout block links \"Terms of Sale & Privacy Policy\" to https://www.harman.com/privacy-policy-statement/, identifying the HARMAN-operated storefront."
-      ],
-      "sources": [
-        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.revelspeakers.com",
-      "status": "ESTABLISHED",
-      "operator": "Revel Speakers (HARMAN International)",
-      "evidence": [
-        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html serves the Performa3 F206 from /on/demandware.static/-/Sites-masterCatalog_Harman/... (HARMAN catalogue path) and carries the Revel dealer locator and Revel owner's manual PDFs."
-      ],
-      "sources": [
-        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.krkmusic.com",
-      "status": "ESTABLISHED",
-      "operator": "KRK Systems (official KRK web store)",
-      "evidence": [
-        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black is KRK's own store listing; the page cart link points at shop.krksys.com and the product downloads are KRK manuals/brochures hosted on the KRK Shopify CDN."
-      ],
-      "sources": [
-        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.qacoustics.com",
-      "status": "ESTABLISHED",
-      "operator": "Q Acoustics (official brand store)",
-      "evidence": [
-        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair is the Q Acoustics brand store listing (\"QAcoustics\" vendor page) carrying the model copy and Q Acoustics support/warranty links."
-      ],
-      "sources": [
-        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.monitoraudio.com",
-      "status": "ESTABLISHED",
-      "operator": "Monitor Audio Ltd (official product site)",
-      "evidence": [
-        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/ is Monitor Audio's own product site (\"British Design | Performance Loudspeakers | Experts Since 1972\") with the model specification and downloads sections."
-      ],
-      "sources": [
-        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "orangeamps.com",
-      "status": "ESTABLISHED",
-      "operator": "Orange Music Electronic Co Ltd",
-      "evidence": [
-        "https://orangeamps.com/en-us/products/ppc412 page title reads \"Orange PPC412 speaker cabinet ... – Orange Music Electronic Co Ltd\"; the store cart is hosted at storeusa.orangeamps.com."
-      ],
-      "sources": [
-        "https://orangeamps.com/en-us/products/ppc412"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "legacy.mesaboogie.com",
-      "status": "ESTABLISHED",
-      "operator": "MESA/Boogie (MESA Engineering, Petaluma CA)",
-      "evidence": [
-        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html is MESA/Boogie's official legacy catalogue page; the copy states \"ALL MESA® ENCLOSURES ... Made in Petaluma, California\" and product imagery is served from mesa-boogie.imgix.net."
-      ],
-      "sources": [
-        "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "voxamps.com",
-      "status": "ESTABLISHED",
-      "operator": "VOX (Korg) — official VOX Amps site",
-      "evidence": [
-        "https://voxamps.com/product/v212c-extension-cabinet/ is VOX's official product page, linking the VOX web shop (voxampshop.com), the VOX dealer locator and VOX owner's manual PDFs."
-      ],
-      "sources": [
-        "https://voxamps.com/product/v212c-extension-cabinet/"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.sonusfaber.com",
-      "status": "ESTABLISHED",
-      "operator": "Sonus faber S.r.l., Arcugnano (Vicenza), Italy",
-      "evidence": [
-        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs footer reads \"Sonus faber S.r.l. Via Antonio Meucci, 10 36057 – Arcugnano (Vicenza) Italy\" and hosts the Lumina technical specifications and owner's manual links."
-      ],
-      "sources": [
-        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.wilsonaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "Wilson Audio Specialties (official product site)",
-      "evidence": [
-        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8 is Wilson Audio's product page for the WATT/Puppy Series 8 and links the Series 8 manual PDF hosted on wilsonaudio.com."
-      ],
-      "sources": [
-        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.psbspeakers.com",
-      "status": "ESTABLISHED",
-      "operator": "PSB Speakers (official brand site and store)",
-      "evidence": [
-        "https://www.psbspeakers.com/products/synchrony-t600-tower is PSB's own store listing for the Synchrony T600, with PSB data sheet / owner's manual downloads and support links to support.psbspeakers.com."
-      ],
-      "sources": [
-        "https://www.psbspeakers.com/products/synchrony-t600-tower"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "global.jbl.com",
-      "status": "ESTABLISHED",
-      "operator": "JBL (HARMAN International)",
-      "evidence": [
-        "https://global.jbl.com/JBLL100CLASSICUAM.html serves JBL L100 Classic (item JBLL100CLASSICUAM) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, alongside the JBL Specialty Audio dealer locator."
-      ],
-      "sources": [
-        "https://global.jbl.com/JBLL100CLASSICUAM.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 23)."
-    },
-    {
-      "host": "www.stereophile.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Stereophile (hi-fi review publication)",
-      "evidence": [
-        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications is a review-magazine \"Specifications\" sidebar that reports manufacturer data; it is a third-party publication, not a manufacturer document, so it can support but never promote a field."
-      ],
-      "sources": [
-        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications"
-      ],
-      "note": "Recorded as a third-party publication in Round 23; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "www.kicker.com",
-      "status": "ESTABLISHED",
-      "operator": "Kicker (Stillwater Designs)",
-      "evidence": [
-        "https://www.kicker.com/47KSC650 is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.kicker.com/47KSC650"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.behringer.com",
-      "status": "ESTABLISHED",
-      "operator": "Behringer (Music Tribe)",
-      "evidence": [
-        "https://www.behringer.com/en/products/0313-ACS is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.behringer.com/en/products/0313-ACS"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.auratoneaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "Auratone",
-      "evidence": [
-        "https://www.auratoneaudio.com/products is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.auratoneaudio.com/products"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "voidacoustics.com",
-      "status": "ESTABLISHED",
-      "operator": "Void Acoustics",
-      "evidence": [
-        "https://voidacoustics.com/products/air/air8/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://voidacoustics.com/products/air/air8/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "support.apple.com",
-      "status": "ESTABLISHED",
-      "operator": "Apple Inc.",
-      "evidence": [
-        "https://support.apple.com/en-us/111843 is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://support.apple.com/en-us/111843"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.sonos.com",
-      "status": "ESTABLISHED",
-      "operator": "Sonos, Inc.",
-      "evidence": [
-        "https://www.sonos.com/en-us/guides/submini is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.sonos.com/en-us/guides/submini"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "newsroom.sonos.com",
-      "status": "ESTABLISHED",
-      "operator": "Sonos, Inc. (newsroom)",
-      "evidence": [
-        "https://newsroom.sonos.com/254814-introducing-sonos-play-1/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://newsroom.sonos.com/254814-introducing-sonos-play-1/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "dutchdutch.com",
-      "status": "ESTABLISHED",
-      "operator": "Dutch & Dutch",
-      "evidence": [
-        "https://dutchdutch.com/pages/8c is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://dutchdutch.com/pages/8c"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.rel.net",
-      "status": "ESTABLISHED",
-      "operator": "REL Acoustics",
-      "evidence": [
-        "https://www.rel.net/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.rel.net/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "rel.net",
-      "status": "ESTABLISHED",
-      "operator": "REL Acoustics",
-      "evidence": [
-        "Bare-domain form of www.rel.net, which is already ESTABLISHED as REL Acoustics' own site.",
-        "The recorded S/812 brochure URL at rel.net/wp-content/uploads/2019/08/S812-brochure.pdf answered with a redirect to REL's Shopify CDN asset cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf; the served document is the REL S/812 brochure quoted in Round 27."
-      ],
-      "sources": [
-        "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
-        "https://www.rel.net/"
-      ],
-      "note": "Alias of www.rel.net; added in Round 27 when the brochure URL was re-read."
-    },
-    {
-      "host": "pioneer-car.eu",
-      "status": "ESTABLISHED",
-      "operator": "Pioneer Europe (car audio)",
-      "evidence": [
-        "https://pioneer-car.eu/ts-d65c/ts-d65c is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://pioneer-car.eu/ts-d65c/ts-d65c"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.presonus.com",
-      "status": "ESTABLISHED",
-      "operator": "PreSonus (Fender Musical Instruments)",
-      "evidence": [
-        "https://www.presonus.com/products/eris-e45-studio-monitor is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.presonus.com/products/eris-e45-studio-monitor"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "audison.com",
-      "status": "ESTABLISHED",
-      "operator": "Audison (Elektromedia S.p.A.)",
-      "evidence": [
-        "https://audison.com/product/apk-165/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://audison.com/product/apk-165/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "rockfordfosgate.com",
-      "status": "ESTABLISHED",
-      "operator": "Rockford Fosgate",
-      "evidence": [
-        "https://rockfordfosgate.com/products/details/p3d4-12/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://rockfordfosgate.com/products/details/p3d4-12/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "static.hertz-audio.com",
-      "status": "ESTABLISHED",
-      "operator": "Hertz (Elektromedia S.p.A.) asset host",
-      "evidence": [
-        "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "products.bose.com",
-      "status": "ESTABLISHED",
-      "operator": "Bose Corporation (owner-support document host)",
-      "evidence": [
-        "https://products.bose.com/pdf/customer_service/owners/og_791.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://products.bose.com/pdf/customer_service/owners/og_791.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "usa.yamaha.com",
-      "status": "ESTABLISHED",
-      "operator": "Yamaha Corporation of America",
-      "evidence": [
-        "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "trianglehifi.com",
-      "status": "ESTABLISHED",
-      "operator": "Triangle HiFi",
-      "evidence": [
-        "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "us.sennheiser-hearing.com",
-      "status": "ESTABLISHED",
-      "operator": "Sonova Consumer Hearing (Sennheiser brand licensee)",
-      "evidence": [
-        "https://us.sennheiser-hearing.com/products/ambeo-soundbar is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://us.sennheiser-hearing.com/products/ambeo-soundbar"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.rcf.it",
-      "status": "ESTABLISHED",
-      "operator": "RCF S.p.A.",
-      "evidence": [
-        "https://www.rcf.it/en/products/product-detail/nx-45-a is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.rcf.it/en/products/product-detail/nx-45-a"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.devialet.com",
-      "status": "ESTABLISHED",
-      "operator": "Devialet",
-      "evidence": [
-        "https://www.devialet.com/en-us/soundbar/dione/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.devialet.com/en-us/soundbar/dione/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.kenwood.com",
-      "status": "ESTABLISHED",
-      "operator": "JVCKenwood",
-      "evidence": [
-        "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.paradigm.com",
-      "status": "ESTABLISHED",
-      "operator": "Paradigm Electronics",
-      "evidence": [
-        "https://www.paradigm.com/en/floorstanding/monitor-se-6000f is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.paradigm.com/en/floorstanding/monitor-se-6000f"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "martin-audio.com",
-      "status": "ESTABLISHED",
-      "operator": "Martin Audio Ltd",
-      "evidence": [
-        "https://martin-audio.com/products/archive/w8lm is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://martin-audio.com/products/archive/w8lm"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.danleysoundlabs.com",
-      "status": "ESTABLISHED",
-      "operator": "Danley Sound Labs",
-      "evidence": [
-        "https://www.danleysoundlabs.com/products/sh96/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.danleysoundlabs.com/products/sh96/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "barefootsound.com",
-      "status": "ESTABLISHED",
-      "operator": "Barefoot Sound",
-      "evidence": [
-        "https://barefootsound.com/footprint03/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://barefootsound.com/footprint03/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "funktion-one.com",
-      "status": "ESTABLISHED",
-      "operator": "Funktion-One",
-      "evidence": [
-        "https://funktion-one.com/product/res-2/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://funktion-one.com/product/res-2/"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "avantonepro.com",
-      "status": "ESTABLISHED",
-      "operator": "Avantone Pro",
-      "evidence": [
-        "https://avantonepro.com/en/products/mixcube-passive is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://avantonepro.com/en/products/mixcube-passive"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "eaw.com",
-      "status": "ESTABLISHED",
-      "operator": "Eastern Acoustic Works (EAW)",
-      "evidence": [
-        "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.ikmultimedia.com",
-      "status": "ESTABLISHED",
-      "operator": "IK Multimedia",
-      "evidence": [
-        "https://www.ikmultimedia.com/news/?id=iloudmtm is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.ikmultimedia.com/news/?id=iloudmtm"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "www.sony.com",
-      "status": "ESTABLISHED",
-      "operator": "Sony Corporation",
-      "evidence": [
-        "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
-      ],
-      "sources": [
-        "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications"
-      ],
-      "note": "Established by Decision 8 document check (Round 24)."
-    },
-    {
-      "host": "cdn.shopify.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Shopify Inc. (multi-tenant storefront CDN)",
-      "evidence": [
-        "Multi-tenant CDN: the /s/files/<shop>/ path belongs to one store, but the host itself cannot be attributed to a single manufacturer, so documents served from it support but never promote a field."
-      ],
-      "sources": [
-        "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022"
-      ],
-      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "tcfurlong.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "TC Furlong (third-party backline rental firm)",
-      "evidence": [
-        "Rental company mirror of an owner's manual; not the manufacturer or an owner-approved distributor, so SUPPORTED_NOT_PROMOTED only."
-      ],
-      "sources": [
-        "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf"
-      ],
-      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "bangolufsenrmaskillgohel.blob.core.windows.net",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Azure blob storage account, ownership not established",
-      "evidence": [
-        "Storage-account host whose name embeds a person's name; brand ownership could not be established, so SUPPORTED_NOT_PROMOTED only."
-      ],
-      "sources": [
-        "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf"
-      ],
-      "note": "Recorded in Round 24; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "data.yamaha.com",
-      "status": "ESTABLISHED",
-      "operator": "Yamaha Corporation (document/asset host)",
-      "evidence": [
-        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf is the Yamaha DXR/DXS Owner's Manual served from Yamaha's own data.yamaha.com asset host and carries the specification table quoted in Round 25."
-      ],
-      "sources": [
-        "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.dbaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "d&b audiotechnik GmbH",
-      "evidence": [
-        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf is the d&b T10 data sheet on the brand-operated dbaudio.com site and carries the text quoted in Round 25."
-      ],
-      "sources": [
-        "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.dasaudio.com",
-      "status": "ESTABLISHED",
-      "operator": "DAS Audio",
-      "evidence": [
-        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf is the DAS Audio Aero 12A technical report on the brand site and carries the text quoted in Round 25."
-      ],
-      "sources": [
-        "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "legacy.adamson.ai",
-      "status": "ESTABLISHED",
-      "operator": "Adamson Systems Engineering (legacy support archive)",
-      "evidence": [
-        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file is the Adamson E-series E15 technical data sheet on Adamson's legacy support host."
-      ],
-      "sources": [
-        "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "magnepan.com",
-      "status": "ESTABLISHED",
-      "operator": "Magnepan, Inc.",
-      "evidence": [
-        "https://magnepan.com/pages/manual-controller serves the Magnepan 1.7 owner's manual on the brand site and carries the model description quoted in Round 25."
-      ],
-      "sources": [
-        "https://magnepan.com/pages/manual-controller"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.fender.com",
-      "status": "ESTABLISHED",
-      "operator": "Fender Musical Instruments Corporation",
-      "evidence": [
-        "https://www.fender.com/products/blues-junior-iv is the Fender product page for the Blues Junior IV and carries the specification block quoted in Round 25."
-      ],
-      "sources": [
-        "https://www.fender.com/products/blues-junior-iv"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.lg.com",
-      "status": "ESTABLISHED",
-      "operator": "LG Electronics",
-      "evidence": [
-        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/ is LG's own product page and its \"All Spec\" panel carries the speaker-count row quoted in Round 25."
-      ],
-      "sources": [
-        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.alpine-usa.com",
-      "status": "ESTABLISHED",
-      "operator": "Alpine Electronics of America, Inc.",
-      "evidence": [
-        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers is an Alpine Electronics of America press release on the brand site listing the X-Series speaker models."
-      ],
-      "sources": [
-        "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.morelhifi.com",
-      "status": "ESTABLISHED",
-      "operator": "Morel HiFi",
-      "evidence": [
-        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158 is the Morel Elate Carbon product page and carries the model/configuration table quoted in Round 25."
-      ],
-      "sources": [
-        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158"
-      ],
-      "note": "Established by Decision 8 document check (Round 25)."
-    },
-    {
-      "host": "www.rockfordfosgate.com",
-      "status": "ESTABLISHED",
-      "operator": "Rockford Fosgate",
-      "evidence": [
-        "https://www.rockfordfosgate.com/products/details/t1650-s/ is the brand-operated Rockford Fosgate product page (www host of the established rockfordfosgate.com domain)."
-      ],
-      "sources": [
-        "https://www.rockfordfosgate.com/products/details/t1650-s/"
-      ],
-      "note": "www variant of the established rockfordfosgate.com host; recorded in Round 25."
-    },
-    {
-      "host": "www.manualslib.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "ManualsLib (document aggregator)",
-      "evidence": [
-        "Aggregator that hosts verbatim manufacturer owner's manuals. Round 25 promotions from this host rest on Owner Decision 1 (2026-10-12): a distributor/aggregator copy of an exact-model manufacturer manual counts as manufacturer-verified."
-      ],
-      "sources": [
-        "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10"
-      ],
-      "note": "Aggregator host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "www.soundonsound.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Sound On Sound Ltd (magazine)",
-      "evidence": [
-        "Review magazine; supports but never promotes a field (Round 25)."
-      ],
-      "sources": [
-        "https://www.soundonsound.com/reviews/mackie-hr824"
-      ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "www.soundandvision.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Sound & Vision (magazine)",
-      "evidence": [
-        "Review magazine; supports but never promotes a field (Round 25)."
-      ],
-      "sources": [
-        "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications"
-      ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
       "host": "www.hifi-guide.com",
       "status": "NOT_MANUFACTURER",
       "operator": "hifi-guide.com (enthusiast loudspeaker database)",
@@ -1229,42 +1002,6 @@
       ],
       "sources": [
         "https://www.hifi-guide.com/loudspeaker/bowers-wilkins-801-matrix/"
-      ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "www.radiomuseum.org",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Radiomuseum.org (collector catalogue)",
-      "evidence": [
-        "Collector-maintained equipment catalogue; supports but never promotes a field (Round 25)."
-      ],
-      "sources": [
-        "https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2"
-      ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "www.fullcompass.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Full Compass Systems (audio retailer)",
-      "evidence": [
-        "Retailer product pages reproduce manufacturer specification lists; they support but never promote a field (Round 25)."
-      ],
-      "sources": [
-        "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black"
-      ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
-    },
-    {
-      "host": "audio-database.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "audio-database.com (enthusiast specification archive)",
-      "evidence": [
-        "Japanese enthusiast loudspeaker archive; supports but never promotes a field (Round 25)."
-      ],
-      "sources": [
-        "https://audio-database.com/JBL/speaker/4312-e.html"
       ],
       "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
     },
@@ -1281,6 +1018,130 @@
       "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
     },
     {
+      "host": "www.ikmultimedia.com",
+      "status": "ESTABLISHED",
+      "operator": "IK Multimedia",
+      "evidence": [
+        "https://www.ikmultimedia.com/news/?id=iloudmtm is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.ikmultimedia.com/news/?id=iloudmtm"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.jbl.com",
+      "status": "ESTABLISHED",
+      "operator": "JBL (HARMAN International)",
+      "evidence": [
+        "https://www.jbl.com/HDI-3800.html serves JBL HDI-3800 (item JBLHDI3800GRO) from /on/demandware.static/-/Sites-masterCatalog_Harman/..., HARMAN's catalogue, and carries the JBL Specialty Audio dealer locator."
+      ],
+      "sources": [
+        "https://www.jbl.com/HDI-3800.html"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Upgraded from BRAND_DOMAIN_UNVERIFIED after the Round 23 document check identified the HARMAN-operated catalogue path."
+    },
+    {
+      "host": "www.jensentone.com",
+      "status": "ESTABLISHED",
+      "operator": "Jensen Loudspeakers",
+      "evidence": [
+        "www.jensentone.com serves 'Jensen Loudspeakers' branded specification sheets under /specification-sheet/<id> with the Jensen logo and the manufacturer's own product navigation; the P12N and P10R sheets were read there."
+      ],
+      "sources": [
+        "https://www.jensentone.com/specification-sheet/38",
+        "https://www.jensentone.com/specification-sheet/36"
+      ]
+    },
+    {
+      "host": "www.kenwood.com",
+      "status": "ESTABLISHED",
+      "operator": "JVCKenwood",
+      "evidence": [
+        "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.kicker.com",
+      "status": "ESTABLISHED",
+      "operator": "Kicker (Stillwater Designs)",
+      "evidence": [
+        "https://www.kicker.com/47KSC650 is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.kicker.com/47KSC650"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.klipsch.com",
+      "status": "ESTABLISHED",
+      "operator": "Klipsch Group, Inc.",
+      "evidence": [
+        "Official Klipsch brand domain named on all Klipsch spec sheets (\"3502 WOODVIEW TRACE INDIANAPOLIS, IN 46268 | KLIPSCH.COM\", \"© KLIPSCH GROUP, INC.\")."
+      ],
+      "sources": [
+        "https://www.klipsch.com/products/cdt-5650-c-ii",
+        "https://assets.klipsch.com/product-specsheets/R-51M_Spec-Sheet_v01.pdf"
+      ],
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.krkmusic.com",
+      "status": "ESTABLISHED",
+      "operator": "KRK Systems (official KRK web store)",
+      "evidence": [
+        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black is KRK's own store listing; the page cart link points at shop.krksys.com and the product downloads are KRK manuals/brochures hosted on the KRK Shopify CDN."
+      ],
+      "sources": [
+        "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.l-acoustics.com",
+      "status": "ESTABLISHED",
+      "operator": "L-ACOUSTICS",
+      "evidence": [
+        "https://prdstglaxxwe001.blob.core.windows.net/media/documents/Syva_DoC_EN.pdf and SYVA_SPS_EN_2.2.pdf (linked directly from https://www.l-acoustics.com/products/syva/) carry \"L-ACOUSTICS, 13 rue Levacher Cintrat – 91460 Marcoussis – France\" and \"info@l-acoustics.com / www.l-acoustics.com\"."
+      ],
+      "sources": [
+        "https://www.l-acoustics.com/products/syva/",
+        "https://prdstglaxxwe001.blob.core.windows.net/media/documents/Syva_DoC_EN.pdf"
+      ],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.lg.com",
+      "status": "ESTABLISHED",
+      "operator": "LG Electronics",
+      "evidence": [
+        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/ is LG's own product page and its \"All Spec\" panel carries the speaker-count row quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.lg.com/ca_en/speakers/soundbars/s90tr/"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
+    },
+    {
+      "host": "www.manualslib.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "ManualsLib (document aggregator)",
+      "evidence": [
+        "Aggregator that hosts verbatim manufacturer owner's manuals. Round 25 promotions from this host rest on Owner Decision 1 (2026-10-12): a distributor/aggregator copy of an exact-model manufacturer manual counts as manufacturer-verified."
+      ],
+      "sources": [
+        "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10"
+      ],
+      "note": "Aggregator host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
       "host": "www.manualzz.com",
       "status": "NOT_MANUFACTURER",
       "operator": "Manualzz (document aggregator)",
@@ -1293,184 +1154,44 @@
       "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
     },
     {
-      "host": "www.promusic.cz",
-      "status": "NOT_MANUFACTURER",
-      "operator": "PRO MUSIC (Czech audio dealer)",
+      "host": "www.marshall.com",
+      "status": "ESTABLISHED",
+      "operator": "Marshall (official Marshall brand site, web store and support site)",
       "evidence": [
-        "Dealer-hosted copy of an L-Acoustics specification sheet; supports but never promotes a field (Round 25)."
+        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269 is the official Marshall product page for the 1960A and carries the model specification table; cabinet manuals are served from assets.ctfassets.net (Marshall \"Cabs Safety Leaflet\").",
+        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet is Marshall's own support article tree for the 1960AV and repeats the model product details."
       ],
       "sources": [
-        "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf"
+        "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+        "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet"
       ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+      "note": "Established by Decision 8 document check (Round 23)."
     },
     {
-      "host": "www.warehousesound.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Warehouse Sound (audio dealer)",
+      "host": "www.martinlogan.com",
+      "status": "ESTABLISHED",
+      "operator": "MartinLogan, Ltd.",
       "evidence": [
-        "Dealer-hosted copy of a JBL specification sheet; supports but never promotes a field (Round 25)."
+        "https://www.martinlogan.com/uploads/documents/manuals/manual_motion_60xt.pdf and https://www.martinlogan.com/en/privacy-policy carry \"MartinLogan, Ltd., 2101 Delaware Street, Lawrence, Kansas 66046, USA\" and \"© MartinLogan, Ltd.\""
       ],
       "sources": [
-        "https://www.warehousesound.com/r/jblEon15.pdf"
+        "https://www.martinlogan.com/uploads/documents/manuals/manual_motion_60xt.pdf",
+        "https://www.martinlogan.com/en/privacy-policy"
       ],
-      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by Decision 8 document check."
     },
     {
-      "host": "www.sisme.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Sisme S.p.A. (Italian L-Acoustics distributor)",
+      "host": "www.monitoraudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Monitor Audio Ltd (official product site)",
       "evidence": [
-        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf is an L-Acoustics-branded ARCS II data sheet served from the distributor host; it carries the ARCS II specification table quoted in Round 26."
+        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/ is Monitor Audio's own product site (\"British Design | Performance Loudspeakers | Experts Since 1972\") with the model specification and downloads sections."
       ],
       "sources": [
-        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf"
+        "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/"
       ],
-      "note": "Distributor host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "www.customsounds.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Custom Sounds (authorized JL Audio dealer)",
-      "evidence": [
-        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf is JL Audio's own 10W3v3 owner's manual, served verbatim by the dealer; it carries the text quoted in Round 26."
-      ],
-      "sources": [
-        "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf"
-      ],
-      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "tacotunes.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Taco Tunes (authorized JL Audio dealer)",
-      "evidence": [
-        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf is JL Audio's C3-650 owner's manual served verbatim by the dealer."
-      ],
-      "sources": [
-        "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf"
-      ],
-      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "www.bobscb.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Bob's Car Audio (authorized JL Audio dealer)",
-      "evidence": [
-        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf is JL Audio's C1-650 owner's manual served verbatim by the dealer."
-      ],
-      "sources": [
-        "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf"
-      ],
-      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "onlinecarstereo.blob.core.windows.net",
-      "status": "NOT_MANUFACTURER",
-      "operator": "OnlineCarStereo (authorized JL Audio dealer)",
-      "evidence": [
-        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf is JL Audio's 12W3v3 owner's manual served verbatim by the dealer."
-      ],
-      "sources": [
-        "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf"
-      ],
-      "note": "Authorized-dealer host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
-    },
-    {
-      "host": "manualzz.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Manualzz (document aggregator)",
-      "evidence": [
-        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet serves an Electro-Voice data sheet as extracted text; the URL is written without the www prefix in the queue."
-      ],
-      "sources": [
-        "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet"
-      ],
-      "note": "Aggregator host; support only."
-    },
-    {
-      "host": "manualmachine.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "ManualMachine (document aggregator)",
-      "evidence": [
-        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/ serves the Spendor SP-100 owner's manual as page images plus extracted text."
-      ],
-      "sources": [
-        "https://manualmachine.com/spendor/sp100/2351828-owners-manual/"
-      ],
-      "note": "Aggregator host; support only."
-    },
-    {
-      "host": "manualsnet.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Manualsnet (document aggregator)",
-      "evidence": [
-        "https://manualsnet.com/kef/reference-series-model-ls3-5a serves the KEF LS3/5A installation manual text quoted in Round 26."
-      ],
-      "sources": [
-        "https://manualsnet.com/kef/reference-series-model-ls3-5a"
-      ],
-      "note": "Aggregator host; support only."
-    },
-    {
-      "host": "static1.squarespace.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Squarespace CDN (generic asset host; site owner not identified by the URL)",
-      "evidence": [
-        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf is the Kali Audio LP-6 manual, but the host is a generic CDN and the URL carries no brand domain."
-      ],
-      "sources": [
-        "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
-      ],
-      "note": "Generic CDN; support only until brand-host ownership is established."
-    },
-    {
-      "host": "valueelectronics.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Value Electronics (authorized LG dealer)",
-      "evidence": [
-        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf is LG's S95TR spec sheet served by the dealer."
-      ],
-      "sources": [
-        "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf"
-      ],
-      "note": "Dealer host; support only."
-    },
-    {
-      "host": "www.zzounds.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "zZounds (authorized Vox retailer)",
-      "evidence": [
-        "https://www.zzounds.com/item--VOXV212 is a retail product page carrying the V212BN spec block quoted in Round 26."
-      ],
-      "sources": [
-        "https://www.zzounds.com/item--VOXV212"
-      ],
-      "note": "Retailer host; support only."
-    },
-    {
-      "host": "www.svconline.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "Sound & Video Contractor (trade press)",
-      "evidence": [
-        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 reproduces a Meyer Sound product announcement."
-      ],
-      "sources": [
-        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663"
-      ],
-      "note": "Trade-press host; support only."
-    },
-    {
-      "host": "www.soundstagehifi.com",
-      "status": "NOT_MANUFACTURER",
-      "operator": "SoundStage! Hi-Fi (review publication)",
-      "evidence": [
-        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers carries the review text quoted in Round 26."
-      ],
-      "sources": [
-        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers"
-      ],
-      "note": "Review host; support only."
+      "note": "Established by Decision 8 document check (Round 23)."
     },
     {
       "host": "www.mono.no",
@@ -1483,6 +1204,18 @@
         "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf"
       ],
       "note": "Dealer host; support only."
+    },
+    {
+      "host": "www.morelhifi.com",
+      "status": "ESTABLISHED",
+      "operator": "Morel HiFi",
+      "evidence": [
+        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158 is the Morel Elate Carbon product page and carries the model/configuration table quoted in Round 25."
+      ],
+      "sources": [
+        "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158"
+      ],
+      "note": "Established by Decision 8 document check (Round 25)."
     },
     {
       "host": "www.neumann.com",
@@ -1498,53 +1231,332 @@
       ]
     },
     {
-      "host": "docs.meyersound.com",
+      "host": "www.paradigm.com",
       "status": "ESTABLISHED",
-      "operator": "Meyer Sound Laboratories, Inc.",
+      "operator": "Paradigm Electronics",
       "evidence": [
-        "https://docs.meyersound.com/products/en/datasheet---lina.html page banner \"Meyer Sound Documentation\", product feedback address product-docs@meyersound.com, and the datasheet's own architectural specification (\"The loudspeaker shall be a compact, self-powered ... loudspeaker\").",
-        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html \"Meyer Sound Documentation\" datasheet for LEOPARD with the manufacturer's TRANSDUCERS, AMPLIFIERS and AC POWER tables."
+        "https://www.paradigm.com/en/floorstanding/monitor-se-6000f is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
       ],
       "sources": [
-        "https://docs.meyersound.com/products/en/datasheet---lina.html",
-        "https://docs.meyersound.com/products/en/datasheet---leopard---leopard-m80.html"
-      ]
+        "https://www.paradigm.com/en/floorstanding/monitor-se-6000f"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
     },
     {
-      "host": "celestion.com",
+      "host": "www.polkaudio.com",
       "status": "ESTABLISHED",
-      "operator": "Celestion International Ltd",
+      "operator": "Polk Audio (HARMAN International)",
       "evidence": [
-        "celestion.com product pages carry Celestion branding, the company's own 'About Us', 'Careers' and 'A Century of Sound' history pages, and a 'Save Page as PDF' product brochure generated by the site itself; the Vintage 30, G12M Greenback and G12H Anniversary specification tables were read there."
+        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html is the official Polk product page; its checkout block links \"Terms of Sale & Privacy Policy\" to https://www.harman.com/privacy-policy-statement/, identifying the HARMAN-operated storefront."
       ],
       "sources": [
-        "https://celestion.com/product/vintage-30/",
-        "https://celestion.com/product/g12m-greenback/",
-        "https://celestion.com/product/g12h-anniversary/"
-      ]
+        "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
     },
     {
-      "host": "www.jensentone.com",
+      "host": "www.presonus.com",
       "status": "ESTABLISHED",
-      "operator": "Jensen Loudspeakers",
+      "operator": "PreSonus (Fender Musical Instruments)",
       "evidence": [
-        "www.jensentone.com serves 'Jensen Loudspeakers' branded specification sheets under /specification-sheet/<id> with the Jensen logo and the manufacturer's own product navigation; the P12N and P10R sheets were read there."
+        "https://www.presonus.com/products/eris-e45-studio-monitor is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
       ],
       "sources": [
-        "https://www.jensentone.com/specification-sheet/38",
-        "https://www.jensentone.com/specification-sheet/36"
-      ]
+        "https://www.presonus.com/products/eris-e45-studio-monitor"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
     },
     {
-      "host": "support.jbl.com",
-      "status": "ESTABLISHED",
-      "operator": "JBL (Harman International Industries, Inc.)",
+      "host": "www.promusic.cz",
+      "status": "NOT_MANUFACTURER",
+      "operator": "PRO MUSIC (Czech audio dealer)",
       "evidence": [
-        "support.jbl.com hosts Harman's JBL owner manuals and 404 page under JBL branding; the L112 instruction manual (JPEG-branded 'L112 INSTRUCTION MANUAL') was read there, and the same host serves the L100 Century manual URL recorded on jbl-l100."
+        "Dealer-hosted copy of an L-Acoustics specification sheet; supports but never promotes a field (Round 25)."
       ],
       "sources": [
-        "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf"
-      ]
+        "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.psbspeakers.com",
+      "status": "ESTABLISHED",
+      "operator": "PSB Speakers (official brand site and store)",
+      "evidence": [
+        "https://www.psbspeakers.com/products/synchrony-t600-tower is PSB's own store listing for the Synchrony T600, with PSB data sheet / owner's manual downloads and support links to support.psbspeakers.com."
+      ],
+      "sources": [
+        "https://www.psbspeakers.com/products/synchrony-t600-tower"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.qacoustics.com",
+      "status": "ESTABLISHED",
+      "operator": "Q Acoustics (official brand store)",
+      "evidence": [
+        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair is the Q Acoustics brand store listing (\"QAcoustics\" vendor page) carrying the model copy and Q Acoustics support/warranty links."
+      ],
+      "sources": [
+        "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.qscaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "QSC, LLC (QSC Audio Products)",
+      "evidence": [
+        "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D, https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf: \"Copyright 2017, QSC, LLC\" and \"QSC(R) is a registered trademark of QSC, LLC\" (fetched 2026-10-12)."
+      ],
+      "sources": [],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by owner decision 8 (document check). No values were promoted from this host in round 15."
+    },
+    {
+      "host": "www.qsys.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected QSC (Q-SYS platform). Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.radiomuseum.org",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Radiomuseum.org (collector catalogue)",
+      "evidence": [
+        "Collector-maintained equipment catalogue; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.rcf.it",
+      "status": "ESTABLISHED",
+      "operator": "RCF S.p.A.",
+      "evidence": [
+        "https://www.rcf.it/en/products/product-detail/nx-45-a is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.rcf.it/en/products/product-detail/nx-45-a"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.rel.net",
+      "status": "ESTABLISHED",
+      "operator": "REL Acoustics",
+      "evidence": [
+        "https://www.rel.net/ is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.rel.net/"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.revelspeakers.com",
+      "status": "ESTABLISHED",
+      "operator": "Revel Speakers (HARMAN International)",
+      "evidence": [
+        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html serves the Performa3 F206 from /on/demandware.static/-/Sites-masterCatalog_Harman/... (HARMAN catalogue path) and carries the Revel dealer locator and Revel owner's manual PDFs."
+      ],
+      "sources": [
+        "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.rockfordfosgate.com",
+      "status": "ESTABLISHED",
+      "operator": "Rockford Fosgate",
+      "evidence": [
+        "https://www.rockfordfosgate.com/products/details/t1650-s/ is the brand-operated Rockford Fosgate product page (www host of the established rockfordfosgate.com domain)."
+      ],
+      "sources": [
+        "https://www.rockfordfosgate.com/products/details/t1650-s/"
+      ],
+      "note": "www variant of the established rockfordfosgate.com host; recorded in Round 25."
+    },
+    {
+      "host": "www.sisme.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sisme S.p.A. (Italian L-Acoustics distributor)",
+      "evidence": [
+        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf is an L-Acoustics-branded ARCS II data sheet served from the distributor host; it carries the ARCS II specification table quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf"
+      ],
+      "note": "Distributor host; only DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL entries carrying the owner-decision ID may promote."
+    },
+    {
+      "host": "www.sonos.com",
+      "status": "ESTABLISHED",
+      "operator": "Sonos, Inc.",
+      "evidence": [
+        "https://www.sonos.com/en-us/guides/submini is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.sonos.com/en-us/guides/submini"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.sonusfaber.com",
+      "status": "ESTABLISHED",
+      "operator": "Sonus faber S.r.l., Arcugnano (Vicenza), Italy",
+      "evidence": [
+        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs footer reads \"Sonus faber S.r.l. Via Antonio Meucci, 10 36057 – Arcugnano (Vicenza) Italy\" and hosts the Lumina technical specifications and owner's manual links."
+      ],
+      "sources": [
+        "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.sony.com",
+      "status": "ESTABLISHED",
+      "operator": "Sony Corporation",
+      "evidence": [
+        "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications is the brand-operated page/document for this model and carries the specification text quoted in Round 24."
+      ],
+      "sources": [
+        "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications"
+      ],
+      "note": "Established by Decision 8 document check (Round 24)."
+    },
+    {
+      "host": "www.soundandvision.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound & Vision (magazine)",
+      "evidence": [
+        "Review magazine; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.soundonsound.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound On Sound Ltd (magazine)",
+      "evidence": [
+        "Review magazine; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.soundonsound.com/reviews/mackie-hr824"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.soundstagehifi.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "SoundStage! Hi-Fi (review publication)",
+      "evidence": [
+        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers carries the review text quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers"
+      ],
+      "note": "Review host; support only."
+    },
+    {
+      "host": "www.stereophile.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Stereophile (hi-fi review publication)",
+      "evidence": [
+        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications is a review-magazine \"Specifications\" sidebar that reports manufacturer data; it is a third-party publication, not a manufacturer document, so it can support but never promote a field."
+      ],
+      "sources": [
+        "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications"
+      ],
+      "note": "Recorded as a third-party publication in Round 23; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.svconline.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Sound & Video Contractor (trade press)",
+      "evidence": [
+        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 reproduces a Meyer Sound product announcement."
+      ],
+      "sources": [
+        "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663"
+      ],
+      "note": "Trade-press host; support only."
+    },
+    {
+      "host": "www.svsound.com",
+      "status": "ESTABLISHED",
+      "operator": "SVS (SVSound, official brand site and direct web store)",
+      "evidence": [
+        "https://www.svsound.com/products/pb-2000-pro is SVS's own product page and store listing for the PB-2000 Pro, with SVS product imagery and the SVS Subwoofer Control App described in the product copy."
+      ],
+      "sources": [
+        "https://www.svsound.com/products/pb-2000-pro"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.walkersound.co.uk",
+      "status": "NOT_MANUFACTURER",
+      "operator": "UK retailer/distributor (dealer PDF)",
+      "evidence": [
+        "Bose 802 MkII PDF hosted on a UK sound-equipment dealer's site, not on a Bose domain."
+      ],
+      "sources": []
+    },
+    {
+      "host": "www.warehousesound.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Warehouse Sound (audio dealer)",
+      "evidence": [
+        "Dealer-hosted copy of a JBL specification sheet; supports but never promotes a field (Round 25)."
+      ],
+      "sources": [
+        "https://www.warehousesound.com/r/jblEon15.pdf"
+      ],
+      "note": "Recorded in Round 25; SUPPORTED_NOT_PROMOTED outcomes only."
+    },
+    {
+      "host": "www.wharfedale.co.uk",
+      "status": "ESTABLISHED",
+      "operator": "IAG Group Ltd. (International Audio Group / Wharfedale)",
+      "evidence": [
+        "https://www.wharfedale.co.uk/cdn/shop/files/Diamond_12_User_Manual_250729_R13.pdf (linked from https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1) carries \"IAG House, 13/14 Glebe Road, Huntingdon, Cambridgeshire, PE29 7DL, UK ... www.wharfedale.co.uk\" and identifies manufacturer \"IAG Group Ltd.\""
+      ],
+      "sources": [
+        "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+        "https://www.wharfedale.co.uk/cdn/shop/files/Diamond_12_User_Manual_250729_R13.pdf"
+      ],
+      "note": "Established by Decision 8 document check."
+    },
+    {
+      "host": "www.wilsonaudio.com",
+      "status": "ESTABLISHED",
+      "operator": "Wilson Audio Specialties (official product site)",
+      "evidence": [
+        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8 is Wilson Audio's product page for the WATT/Puppy Series 8 and links the Series 8 manual PDF hosted on wilsonaudio.com."
+      ],
+      "sources": [
+        "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8"
+      ],
+      "note": "Established by Decision 8 document check (Round 23)."
+    },
+    {
+      "host": "www.zzounds.com",
+      "status": "NOT_MANUFACTURER",
+      "operator": "zZounds (authorized Vox retailer)",
+      "evidence": [
+        "https://www.zzounds.com/item--VOXV212 is a retail product page carrying the V212BN spec block quoted in Round 26."
+      ],
+      "sources": [
+        "https://www.zzounds.com/item--VOXV212"
+      ],
+      "note": "Retailer host; support only."
     }
   ]
 }

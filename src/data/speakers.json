@@ -9570,16 +9570,16 @@
     },
     "notes": "JBL-authored VRX932LA user's guide, exact base LA model (not VRX932LA-1), preserved by ManualsLib. The passive-mode table specifies 75 Hz–20 kHz (±3 dB), 95 dB at 1 W/1 m, 8-ohm nominal impedance, and 800 W continuous / 1600 W program / 3200 W peak power handling; 800 W is the continuous passive-system rating, not the separate LF/HF bi-amp ratings. It lists one 2262H 12-inch LF driver and three 2407J HF drivers (four transducers total). The guide states 57 Hz–20 kHz at −10 dB and nominal 100° × 15° coverage; these are retained here as context only, not used to alter the ±3 dB response field or synthesize a polar pattern. LA and LA-1 are distinct revisions; the guide's LA-1 driver/power specifications have not been transferred. Source: https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4; JBL VRX900 Series guide: https://www.avc-group.com/assets/products/JBL/manuals/jbl-um-vrx900series.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers."
+      "sourceType": null,
+      "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers."
+      "sourceType": null,
+      "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -19418,16 +19418,16 @@
     },
     "notes": "The cited page is the KEF Q100 specification table in a third-party-hosted copy of the Q100 manual. It lists 49 Hz–40 kHz ±3 dB response, 86 dB sensitivity at 2.83 V/1 m, 8 Ω impedance, and a 130 mm (5.25 in) LF driver. KEF's 10–100 W recommended-amplifier range is retained as a range only and is not placed in the scalar power field. Passive two-way Uni-Q design; driverCount counts LF and HF transducers. This is published specification data only; no measured response curve or directivity dataset is imported. Source: https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers."
+      "sourceType": null,
+      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier."
+      "sourceType": null,
+      "note": "Round 25: The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -19492,10 +19492,10 @@
     },
     "notes": "Page 10 of the third-party-hosted KEF Blade owner's manual contains a specification table headed Blade, with no Meta, One or Two suffix; it supports this exact original Blade record only and must not be transferred to Blade Meta. The table lists 40 Hz–35 kHz ±3 dB response (and separately 28 Hz–45 kHz ±6 dB), sensitivity 90 dB at 2.83 V/1 m, 4 Ω nominal/3.2 Ω minimum impedance, four 225 mm (9 in) LF units plus 125 mm MF and 25 mm HF transducers, 117 dB maximum output, and 50–400 W recommended-amplifier requirements. The amplifier range is retained as a range only and is not collapsed into scalar power. The six active transducers are counted; this is a passive loudspeaker. Source: https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers."
+      "sourceType": null,
+      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -20681,16 +20681,16 @@
     },
     "notes": "Secondary copy of the Mackie HR624 (original, not MK2) owner's manual, hosted by ManualsLib: active 2-way, bi-amplified studio monitor with a 6.7-inch (170 mm) die-cast LF driver and 1-inch titanium/aluminum HF dome, plus a rear passive radiator (not counted as a driver). Frequency response +/-1.5 dB 52 Hz - 20 kHz; LF amplifier 100 W rms, HF amplifier 40 W rms. The LF and HF amplifier ratings are not summed into one scalar power value (not a single published figure). Sensitivity and impedance per driver are listed in the manual's technical data but the excerpt's exact-model match with the catalog row is by model name only and so no sensitivity is entered from this copy. The HR624 MK2 manual is a different revision and its values are not used. Official Mackie original-HR624 PDF not located in this pass. Source: https://www.manualslib.com/manual/293781/Mackie-Hr624.html.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer."
+      "sourceType": null,
+      "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers."
+      "sourceType": null,
+      "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -43279,16 +43279,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C3-650 Owner's Manual: it identifies a 6.50-inch convertible 2-way component system, with two C3-650cw woofers and two C3-100ct tweeters in the kit. It specifies 75 W continuous power handling, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response, 90.0 dB efficiency @ 1 W/1 m, a 6.50-inch woofer and a 1.2-inch (31 mm) woofer voice coil. Sensitivity uses the manual's explicit 1 W/1 m reference; no conversion is made. DriverCount is 2 per speaker side despite the kit being sold as a pair, and active=false reflects the external amplifier and passive crossover network; the convertible coaxial/component mounting option does not change the per-side transducer count. No peak or recommended-amplifier figure is promoted into the scalar power field. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers."
+      "sourceType": null,
+      "note": "Round 25: The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in."
+      "sourceType": null,
+      "note": "Round 25: Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -43354,16 +43354,16 @@
     "panel": null,
     "notes": "Fetched the exact JL Audio C5-650 Owner's Manual (6.50-inch 2-way component system; not the C5-650x). It specifies 75 W continuous power handling, 225 W peak music power, a 25–150 W recommended amplifier range, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response and 89.5 dB efficiency @ 1 W/1 m. It identifies two 6.50-inch woofers per kit and a 1.0-inch woofer voice coil. The stored sensitivity retains the manual's explicit 1 W/1 m reference. Only continuous power handling is stored; peak music power and the recommended-amplifier range are context, not scalar power values. DriverCount is 2 per speaker side for the pair kit; active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
+      "sourceType": null,
+      "note": "Round 25: The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in."
+      "sourceType": null,
+      "note": "Round 25: The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -43502,16 +43502,16 @@
     "panel": null,
     "notes": "Fetched the JL Audio 12W3v3 owner's manual; its specification table covers all three exact impedance variants (12W3v3-2, -4, and -8). This unsuffixed family record receives only properties the manual states identically for every variant: 12.0-inch nominal diameter and 500 W continuous power handling, plus one passive subwoofer driver. Variant-specific values are deliberately withheld: the manual lists efficiencies of 87.15/87.15/87.02 dB, free-air resonance of 27.97/26.72/28.28 Hz, and nominal impedance of 2/4/8 ohms for -2/-4/-8 respectively. Sensitivity, impedance, and resonant frequency therefore remain N/A on this unsuffixed record; the manual supplies no voice-coil diameter or full-response bounds/curve/directivity for this record. Source: https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer."
+      "sourceType": null,
+      "note": "Round 25: The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in."
+      "sourceType": null,
+      "note": "Round 25: The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -45635,10 +45635,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova I specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova I in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 2-way stand-mount system: one H28 XTR3 tweeter and one 150 mm MW15 XTR2-04 midwoofer (150 mm converted to 5.91 in for the database's inch field). It publishes 45–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 35–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/2e9356d7ba/owners_olympica_nova_low-3.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45708,10 +45708,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova II specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova II in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and one 180 mm W18XTR2-04 woofer (180 mm converted to 7.09 in for the database's inch field). It publishes 40–35,000 Hz frequency response, 88 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/0c43f45653/owners_olympica_nova_low-2.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45781,10 +45781,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova III specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova III in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and two 180 mm W18XTR2-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 35–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–300 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/905b48db22/owners_olympica_nova_low-1.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45854,10 +45854,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova V specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova V in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and three 180 mm W18XTR2-12 woofers (180 mm converted to 7.09 in for the database's inch field; five total drivers). It publishes 32–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 60–400 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/3ed2428d5f/owners_olympica_nova_low.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45927,16 +45927,16 @@
     "panel": null,
     "notes": "Exact Homage Tradition Amati row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 29 Technical Specifications row describes a passive 3.5-way floorstander with one H28 XTR-04 tweeter, one M15 XTR-04 midrange, and two 220 mm W22XTR-08 woofers (220 mm converted to 8.66 in for the database's inch field; four total drivers). It publishes 28–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 100–500 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 25 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers."
+      "sourceType": null,
+      "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given."
+      "sourceType": null,
+      "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -46001,16 +46001,16 @@
     "panel": null,
     "notes": "Exact Homage Tradition Guarneri row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 2-way stand-mount system with one H28 XTR-04 tweeter and one 150 mm W15 XTR-04 midwoofer (150 mm converted to 5.91 in for the database's inch field; two total drivers). It publishes 40–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 30–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {
@@ -46075,16 +46075,16 @@
     "panel": null,
     "notes": "Exact Homage Tradition Serafino row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 3.5-way floorstander with one H28 XTR-04 tweeter, one M15 XTR-04 midrange, and two 180 mm W18XTR-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 30–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 80–350 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      "sourceType": null,
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
     }
   },
   {

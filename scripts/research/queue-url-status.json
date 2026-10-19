@@ -7286,15 +7286,15 @@
           "record": "jl-audio-12w3v3",
           "field": "driverCount",
           "value": 1,
-          "outcome": "PROMOTED",
-          "note": "The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual covers a single 12-inch subwoofer driver (impedance variants -2/-4/-8): 1 transducer. Round 29 (2026-10-19): host onlinecarstereo.blob.core.windows.net is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "jl-audio-12w3v3",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual specifies 500 W continuous power handling and a bi-amplified system with external amplifiers; no amplifier is built in. Round 29 (2026-10-19): host onlinecarstereo.blob.core.windows.net is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -8137,15 +8137,15 @@
           "record": "jl-audio-c3-650",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The C3-650 kit pairs one 6.5-inch woofer with one 25 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "jl-audio-c3-650",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Positive and negative connections to the crossover are made from the amplifier outputs and the crossover is a passive LC network; no amplification is built in. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -8167,15 +8167,15 @@
           "record": "jl-audio-c5-650",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The C5-650 kit pairs one 6.5-inch woofer with one 19 mm tweeter per channel: 2 transducers. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "jl-audio-c5-650",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual connects the amplifier output to passive C5 crossover networks feeding the drivers; no amplification is built in. Round 29 (2026-10-19): host tacotunes.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -13592,15 +13592,15 @@
           "record": "sonus-faber-homage-tradition-amati",
           "field": "driverCount",
           "value": 4,
-          "outcome": "PROMOTED",
-          "note": "AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-homage-tradition-amati",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -13623,29 +13623,29 @@
           "record": "sonus-faber-homage-tradition-serafino",
           "field": "driverCount",
           "value": 4,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-homage-tradition-serafino",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-homage-tradition-guarneri",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-homage-tradition-guarneri",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": [
@@ -13733,8 +13733,8 @@
           "record": "legacy-kef-7",
           "field": "driverCount",
           "value": 6,
-          "outcome": "PROMOTED",
-          "note": "Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "legacy-kef-7",
@@ -13764,15 +13764,15 @@
           "record": "sonus-faber-olympica-nova-iii",
           "field": "driverCount",
           "value": 4,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-olympica-nova-v",
           "field": "driverCount",
           "value": 5,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-olympica-nova-iii",
@@ -13875,15 +13875,15 @@
           "record": "sonus-faber-olympica-nova-i",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-olympica-nova-ii",
           "field": "driverCount",
           "value": 3,
-          "outcome": "PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "sonus-faber-olympica-nova-i",
@@ -13985,15 +13985,15 @@
           "record": "legacy-kef-5",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "legacy-kef-5",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -14015,15 +14015,15 @@
           "record": "legacy-mack-2",
           "field": "driverCount",
           "value": 2,
-          "outcome": "PROMOTED",
-          "note": "One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "legacy-mack-2",
           "field": "active",
           "value": true,
-          "outcome": "PROMOTED",
-          "note": "Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
@@ -14075,15 +14075,15 @@
           "record": "jbl-vrx932",
           "field": "driverCount",
           "value": 4,
-          "outcome": "PROMOTED",
-          "note": "One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         },
         {
           "record": "jbl-vrx932",
           "field": "active",
           "value": false,
-          "outcome": "PROMOTED",
-          "note": "Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers."
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
         }
       ],
       "history": []
