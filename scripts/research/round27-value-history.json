@@ -709,6 +709,469 @@
       "round": 27,
       "action": "RETRACT",
       "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications"
+    },
+    {
+      "id": "yamaha-hs5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS5: LF 5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "yamaha-hs5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS5 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 70 W output power and balanced line inputs."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "yamaha-hs7",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS7: LF 6.5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "yamaha-hs7",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS7 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 95 W output power."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "yamaha-hs8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS8: LF 8\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "yamaha-hs8",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: HS8 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 120 W output power."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html"
+    },
+    {
+      "id": "genelec-8050a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Drivers section: 25 mm (1\") metal dome tweeter + 205 mm (8\") bass cone driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-8050a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Sheet title \"8050A Active Monitoring System\" and text \"bi-amplified active monitor system\", with 150 W bass / 120 W treble amplifiers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-8030a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-8030a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Sheet title \"8030A Active Monitoring System\" and \"bi-amplified active monitor system\", with separate 40 W bass and treble amplifiers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1030a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome driver + 170 mm (6 1/2\") polymer composite cone bass driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1030a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: \"bi-amplified active monitoring system\" with two power amplifiers, one per driver, built into the enclosure."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1032a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Specifications list two drivers: Bass 250 mm (10\") cone + Treble 25 mm (1\") metal dome, with the note \"Both drivers are magnetically shielded\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1032a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Cover and system text: \"Bi-amplified Active Monitoring System\", with multiple power amplifiers and an active low-level crossover."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1029a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone woofer."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf"
+    },
+    {
+      "id": "genelec-1029a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Sheet title \"1029A Active Monitoring System\" and \"bi-amplified active monitor system\", with two power amplifiers, one per driver."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf"
+    },
+    {
+      "id": "presonus-eris-e8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Features list exactly two transducers: 8-inch woven composite low-frequency transducer and 1.25-inch silk-dome high-frequency transducer."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.presonus.com/products/eris-e8-xt-monitor"
+    },
+    {
+      "id": "presonus-eris-e8",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Overview heading \"2-Way Active Studio Monitor\"; \"140 Watt, Class AB bi-amplification\"; line-level inputs only."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.presonus.com/products/eris-e8-xt-monitor"
     }
   ]
 }

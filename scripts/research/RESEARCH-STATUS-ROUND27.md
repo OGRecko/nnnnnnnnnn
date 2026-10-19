@@ -223,9 +223,66 @@ records=657 unchecked_items=221 (assessed=221, unassessed=0) unique_urls=162 res
 Every remaining cited field has been triaged against its document. What remains is that the evidence
 did not support the value, not that nobody looked.
 
+## Batch 6 — first promotions out of the UNSOURCED bucket
+
+Both fields were UNSOURCED on three Yamaha monitors, so nothing was being replaced: the record held no
+claim at all. The HS Series specifications table names each model and states the system type itself.
+
+| Record | Field | Outcome | Evidence |
+| --- | --- | --- | --- |
+| `yamaha-hs5` | `driverCount` | PROMOTED to 2 | LF 5" cone + HF 1" dome |
+| `yamaha-hs5` | `active` | PROMOTED to true | "2-way bi-amp powered studio monitor", 70 W output |
+| `yamaha-hs7` | `driverCount` | PROMOTED to 2 | LF 6.5" cone + HF 1" dome |
+| `yamaha-hs7` | `active` | PROMOTED to true | "2-way bi-amp powered studio monitor", 95 W output |
+| `yamaha-hs8` | `driverCount` | PROMOTED to 2 | LF 8" cone + HF 1" dome |
+| `yamaha-hs8` | `active` | PROMOTED to true | "2-way bi-amp powered studio monitor", 120 W output |
+
+Source: `https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html`.
+
+### A defect in the applier, found and fixed here
+
+The first run of this batch wrote nothing. `apply-round27-batch.py` only writes a row whose `outcome` is
+`PROMOTED`/`CORRECTED` (or whose action is `RESOURCE`/`RETRACT`); this batch arrived with `outcome:
+PROMOTE`, so all six rows fell through to the "value kept" branch and were logged without being applied.
+The outcome strings were normalised to `PROMOTED` in both the batch module and `round27-url-results.json`,
+after which the applier wrote exactly six fields and six values. Re-running the applier is safe: the
+LSR32 series block and the ELX200-15 edition block both short-circuit when already recorded.
+
+## Batch 7 — Genelec active monitors and the PreSonus Eris E8 XT
+
+Six records, twelve fields, all previously empty. Each value comes from the exact model's own datasheet;
+the active/monitoring-system wording is quoted rather than inferred from the presence of a mains inlet.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `genelec-8050a` | `driverCount` / `active` | 2 / true | "8050A Active Monitoring System", "bi-amplified active monitor system"; 25 mm tweeter + 205 mm bass |
+| `genelec-8030a` | `driverCount` / `active` | 2 / true | "8030A Active Monitoring System", "bi-amplified active monitor system"; 19 mm + 130 mm |
+| `genelec-1030a` | `driverCount` / `active` | 2 / true | "bi-amplified active monitoring system"; 19 mm metal dome + 170 mm polymer cone |
+| `genelec-1032a` | `driverCount` / `active` | 2 / true | "Bi-amplified Active Monitoring System"; specifications list Bass 250 mm + Treble 25 mm |
+| `genelec-1029a` | `driverCount` / `active` | 2 / true | "1029A Active Monitoring System"; 19 mm tweeter + 130 mm woofer |
+| `presonus-eris-e8` | `driverCount` / `active` | 2 / true | "2-Way Active Studio Monitor"; 8" woven-composite LF + 1.25" silk-dome HF; 140 W Class AB bi-amp |
+
+`genelec-1030a.driverCount` carried no provenance object at all (it was in the no-provenance bucket, not the
+UNSOURCED bucket); the applier was extended only in the batch preparation step to accept that case when the
+value is `null`, and the write still required the datasheet to state the driver complement explicitly.
+
+## Counts after batch 7
+
+Recomputed from `src/data/speakers.json` (1,314 field slots over 657 records):
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 728 |
+| `CITED_IN_NOTES_UNCHECKED` | 221 |
+| `UNSOURCED` | 177 |
+| no provenance at all | 188 |
+
+Research backlog: 400 of 657 records. Queue: 221 cited-but-unchecked items across 162 URLs, all assessed
+(`assessed=221, unassessed=0`), zero consistency warnings.
+
 ## Remaining in this round
 
-221 cited-but-unchecked fields across 162 URLs, 193 unsourced fields, 189 fields with no provenance,
+221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed), 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 

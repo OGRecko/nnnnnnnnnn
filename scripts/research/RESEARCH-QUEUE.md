@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **409** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 94 brands.
+Records still needing research: **400** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 93 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **221** fields across **162** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **194** fields (no source recorded).
-- NO_PROVENANCE: **189** fields (null value, no provenance object).
+- UNSOURCED: **177** fields (no source recorded).
+- NO_PROVENANCE: **188** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -62,15 +62,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
-| genelec-1029a | Genelec | 1029A (`genelec-1029a`) | 0 | 2 | 0 |
-| genelec-1030a | Genelec | 1030A (`genelec-1030a`) | 0 | 1 | 1 |
-| genelec-1032a | Genelec | 1032A (`genelec-1032a`) | 0 | 2 | 0 |
 | genelec-1032c | Genelec | 1032C (`genelec-1032c`) | 0 | 2 | 0 |
 | genelec-8020d | Genelec | 8020D (`genelec-8020d`) | 0 | 0 | 2 |
-| genelec-8030a | Genelec | 8030A (`genelec-8030a`) | 0 | 2 | 0 |
 | genelec-8030c | Genelec | 8030C (`genelec-8030c`) | 0 | 0 | 2 |
 | genelec-8040b | Genelec | 8040B (`genelec-8040b`) | 0 | 2 | 0 |
-| genelec-8050a | Genelec | 8050A (`genelec-8050a`) | 0 | 2 | 0 |
 | genelec-8260a | Genelec | 8260A (`genelec-8260a`) | 0 | 2 | 0 |
 | genelec-8351a | Genelec | 8351A (`genelec-8351a`) | 0 | 2 | 0 |
 | harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 2 | 0 | 0 |
@@ -167,7 +162,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
 | pioneer-ts-a | Pioneer | TS-A1670F (`pioneer-ts-a`) | 0 | 1 | 1 |
 | polk-signature-s60 | Polk Audio | Signature S60 (`polk-signature-s60`) | 2 | 0 | 0 |
-| presonus-eris-e8 | PreSonus | Eris E8 XT (`presonus-eris-e8`) | 0 | 2 | 0 |
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
 | qsc-ad-c820 | QSC | AD-C820 (`qsc-ad-c820`) | 0 | 2 | 0 |
@@ -204,9 +198,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | yamaha-dxr15 | Yamaha | DXR15 (`yamaha-dxr15`) | 0 | 2 | 0 |
 | yamaha-dxr15mkii | Yamaha | DXR15mkII (`yamaha-dxr15mkii`) | 0 | 2 | 0 |
 | yamaha-dxr8 | Yamaha | DXR8 (`yamaha-dxr8`) | 0 | 2 | 0 |
-| yamaha-hs5 | Yamaha | HS5 (`yamaha-hs5`) | 0 | 2 | 0 |
-| yamaha-hs7 | Yamaha | HS7 (`yamaha-hs7`) | 0 | 2 | 0 |
-| yamaha-hs8 | Yamaha | HS8 (`yamaha-hs8`) | 0 | 2 | 0 |
 | yamaha-hs80m | Yamaha | HS80M (`yamaha-hs80m`) | 0 | 2 | 0 |
 | yamaha-ns-aw392 | Yamaha | NS-AW392 (`yamaha-ns-aw392`) | 0 | 2 | 0 |
 | yamaha-ns1000m | Yamaha | NS-1000M (`yamaha-ns1000m`) | 0 | 2 | 0 |

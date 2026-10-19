@@ -1611,8 +1611,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -1666,10 +1666,16 @@
     },
     "notes": "Genelec 1030A technical specification: free-field response ±2.5 dB, 55 Hz–18 kHz.",
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: \"bi-amplified active monitoring system\" with two power amplifiers, one per driver, built into the enclosure."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome driver + 170 mm (6 1/2\") polymer composite cone bass driver."
     }
   },
   {
@@ -2305,8 +2311,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -2360,16 +2366,16 @@
     },
     "notes": "Genelec 1032A official datasheet (BBA32001a, 6.2000): free-field response 42 Hz–21 kHz ±2.5 dB; bass amplifier 180 W (4 Ω) + treble amplifier 120 W (8 Ω) short-term, summed per the 1031A convention (300 W); 10 in bass driver + 1 in metal dome; crossover 1.8 kHz. No sensitivity or passive impedance is published for this powered monitor; those stay N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Specifications list two drivers: Bass 250 mm (10\") cone + Treble 25 mm (1\") metal dome, with the note \"Both drivers are magnetically shielded\"."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Cover and system text: \"Bi-amplified Active Monitoring System\", with multiple power amplifiers and an active low-level crossover."
     }
   },
   {
@@ -2719,8 +2725,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -2774,16 +2780,16 @@
     },
     "notes": "Genelec 1029A official datasheet (BBA29001a, 1.2003): free-field response 70 Hz–18 kHz ±2.5 dB; bass 40 W + treble 40 W amplifiers into 8 Ω, summed per the 1031A convention (80 W); 5 in bass driver + 3/4 in metal dome; crossover 3.3 kHz. No sensitivity or passive impedance is published for this powered monitor; those stay N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone woofer."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Sheet title \"1029A Active Monitoring System\" and \"bi-amplified active monitor system\", with two power amplifiers, one per driver."
     }
   },
   {
@@ -3199,8 +3205,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3254,16 +3260,16 @@
     },
     "notes": "Manufacturer: 35 Hz–21 kHz; 150 W LF + 120 W HF amplification; 8-inch LF driver + HF driver. Source: Genelec 8050A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Drivers section: 25 mm (1\") metal dome tweeter + 205 mm (8\") bass cone driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Sheet title \"8050A Active Monitoring System\" and text \"bi-amplified active monitor system\", with 150 W bass / 120 W treble amplifiers."
     }
   },
   {
@@ -3273,8 +3279,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3327,16 +3333,16 @@
     },
     "notes": "Manufacturer historical specification presented on Genelec site: 8030A two-way active monitor with 5-inch bass driver and 3/4-inch tweeter; free-field frequency response 55 Hz–21 kHz. The cited page does not expose a complete per-speaker amplifier breakdown, so power remains unavailable. Source: Genelec 8030C page, which retains the 8030A historical specification.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Sheet title \"8030A Active Monitoring System\" and \"bi-amplified active monitor system\", with separate 40 W bass and treble amplifiers."
     }
   },
   {
@@ -3567,8 +3573,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3622,16 +3628,16 @@
     },
     "notes": "Manufacturer: 54 Hz–30 kHz (-10 dB); 74 Hz–24 kHz (-3 dB); 70 W bi-amped (45 W LF + 25 W HF); 5-inch woofer + 1-inch tweeter.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS5: LF 5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS5 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 70 W output power and balanced line inputs."
     }
   },
   {
@@ -3641,8 +3647,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3696,16 +3702,16 @@
     },
     "notes": "Manufacturer: 38 Hz–30 kHz (-10 dB); 47 Hz–24 kHz (-3 dB); 120 W bi-amped (75 W LF + 45 W HF); 8-inch woofer + 1-inch tweeter.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS8: LF 8\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS8 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 120 W output power."
     }
   },
   {
@@ -7650,8 +7656,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7705,16 +7711,16 @@
     },
     "notes": "Manufacturer: 43 Hz–30 kHz (-10 dB); 55 Hz–24 kHz (-3 dB); 95 W bi-amped (60 W LF + 35 W HF); 6.5-inch woofer + 1-inch tweeter.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS7: LF 6.5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: HS7 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 95 W output power."
     }
   },
   {
@@ -7798,8 +7804,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7853,16 +7859,16 @@
     },
     "notes": "Manufacturer data for Eris E8 XT: 8 in woven/composite LF transducer, 1.25 in silk-dome HF transducer, 140 W Class-AB bi-amplification, 105 dB peak SPL at 1 m, 100° x 60° coverage. The available source does not provide a complete published response number in the retained page text, so no response limits are invented.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Features list exactly two transducers: 8-inch woven composite low-frequency transducer and 1.25-inch silk-dome high-frequency transducer."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Overview heading \"2-Way Active Studio Monitor\"; \"140 Watt, Class AB bi-amplification\"; line-level inputs only."
     }
   },
   {

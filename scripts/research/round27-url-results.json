@@ -988,6 +988,305 @@
           "note": "The spec-sheet URL returns an S3 AccessDenied error document instead of a PDF. Field left unchanged."
         }
       ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+      "host": "usa.yamaha.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Yamaha HS Series (HS5/HS5I/HS7/HS7I/HS8/HS8I) specifications table",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification table row \"Speaker type\" reads \"2-way bi-amp powered studio monitor\" for HS5, HS7 and HS8 alike. Components: HS5 LF 5\" cone + HF 1\" dome; HS7 LF 6.5\" cone + HF 1\" dome; HS8 LF 8\" cone + HF 1\" dome. Output power HS5 70 W, HS7 95 W, HS8 120 W; I/O connectors XLR3-31 and PHONE (balanced) only, i.e. line-level inputs with no passive terminal. The model is named powered by the manufacturer itself.",
+      "fieldResults": [
+        {
+          "record": "yamaha-hs5",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS5: LF 5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        },
+        {
+          "record": "yamaha-hs5",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS5 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 70 W output power and balanced line inputs."
+        },
+        {
+          "record": "yamaha-hs7",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS7: LF 6.5\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        },
+        {
+          "record": "yamaha-hs7",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS7 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 95 W output power."
+        },
+        {
+          "record": "yamaha-hs8",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS8: LF 8\" cone + HF 1\" dome in the \"Components\" row of the HS Series spec table."
+        },
+        {
+          "record": "yamaha-hs8",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://usa.yamaha.com/products/proaudio/speakers/hs_series/specs.html",
+          "note": "HS8 row: \"Speaker type 2-way bi-amp powered studio monitor\" with 120 W output power."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+      "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 8050A datasheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Heading \"8050A Active Monitoring System\"; body: \"The Genelec 8050A is a powerful bi-amplified active monitor system\". Drivers: \"25 mm (1\") metal dome tweeter\" and \"205 mm (8\") bass cone driver\". Amplifiers \"150 and 120 watts of output power each\".",
+      "fieldResults": [
+        {
+          "record": "genelec-8050a",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+          "note": "Drivers section: 25 mm (1\") metal dome tweeter + 205 mm (8\") bass cone driver."
+        },
+        {
+          "record": "genelec-8050a",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/n5pJxfnNVm8eqKuWCsSeA/7eb8afbf22d64f536bfc447c9ec0ae89/8050A_datasheet.pdf",
+          "note": "Sheet title \"8050A Active Monitoring System\" and text \"bi-amplified active monitor system\", with 150 W bass / 120 W treble amplifiers."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+      "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 8030A datasheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Heading \"8030A Active Monitoring System\"; body: \"The Genelec 8030A is a very compact bi-amplified active monitor system\". Drivers: \"19 mm (3/4\") metal dome tweeter\" and \"130 mm (5\") bass cone driver\"; \"The bass and treble amplifiers produce 40 W of output power each\".",
+      "fieldResults": [
+        {
+          "record": "genelec-8030a",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+          "note": "Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone driver."
+        },
+        {
+          "record": "genelec-8030a",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/xjY6MIRReKqGu48sSkgEe/390d8f322adbae6773953b1c121078b8/8030A_datasheet.pdf",
+          "note": "Sheet title \"8030A Active Monitoring System\" and \"bi-amplified active monitor system\", with separate 40 W bass and treble amplifiers."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+      "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 1030A datasheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Text: \"The Genelec 1030A is a very compact bi-amplified active monitoring system ... two power amplifiers, one for each driver\". Drivers: \"19 mm (3/4\") metal dome driver\" and \"high efficiency 170 mm (6 1/2\") polymer composite cone driver\"; bass and treble amplifiers \"produce 80 Watts and 50 Watts of short term power\".",
+      "fieldResults": [
+        {
+          "record": "genelec-1030a",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+          "note": "Drivers section: 19 mm (3/4\") metal dome driver + 170 mm (6 1/2\") polymer composite cone bass driver."
+        },
+        {
+          "record": "genelec-1030a",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/671bY6aA8wCWeOuyc8SOYO/67d2bc20c4299aa8404be6a62080a5aa/1030A_datasheet.pdf",
+          "note": "\"bi-amplified active monitoring system\" with two power amplifiers, one per driver, built into the enclosure."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+      "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 1032A datasheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Cover reads \"1032A Bi-amplified Active Monitoring System\"; system section: \"two-way active monitoring system including ... multiple power amplifiers and active, low signal level crossover\". System specifications list exactly two entries under \"Drivers\": \"Bass 250 mm (10\") cone\" and \"Treble 25 mm (1\") metal dome\", followed by \"Both drivers are magnetically shielded\".",
+      "fieldResults": [
+        {
+          "record": "genelec-1032a",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+          "note": "Specifications list two drivers: Bass 250 mm (10\") cone + Treble 25 mm (1\") metal dome, with the note \"Both drivers are magnetically shielded\"."
+        },
+        {
+          "record": "genelec-1032a",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf",
+          "note": "Cover and system text: \"Bi-amplified Active Monitoring System\", with multiple power amplifiers and an active low-level crossover."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+      "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Genelec 1029A datasheet",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Heading \"1029A Active Monitoring System\"; text: \"very compact bi-amplified active monitor system ... two power amplifiers, one for each driver\". Drivers: \"19 mm (3/4\") metal dome tweeter\" and \"130 mm (5\") woofer ... bass cone driver\"; bass and treble amplifiers 40 W each.",
+      "fieldResults": [
+        {
+          "record": "genelec-1029a",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+          "note": "Drivers section: 19 mm (3/4\") metal dome tweeter + 130 mm (5\") bass cone woofer."
+        },
+        {
+          "record": "genelec-1029a",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf",
+          "note": "Sheet title \"1029A Active Monitoring System\" and \"bi-amplified active monitor system\", with two power amplifiers, one per driver."
+        }
+      ]
+    },
+    {
+      "url": "https://www.presonus.com/products/eris-e8-xt-monitor",
+      "sourceUrl": "https://www.presonus.com/products/eris-e8-xt-monitor",
+      "host": "www.presonus.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "PreSonus Eris E8 XT product page",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Overview heading: \"2-Way Active Studio Monitor with EBM Waveguide\". Features: \"8-inch woven composite low-frequency transducer\", \"1.25-inch (32 mm), ultra-low-mass, silk-dome, high-frequency transducer\", \"140 Watt, Class AB bi-amplification drives up to 105 dB of sound\". Specs: LF Transducers \"8\" Reinforced Woofer\", HF Transducers \"1.25\" Silk Dome Tweeter\", crossover 2.2 kHz, balanced XLR/TRS and RCA line inputs.",
+      "fieldResults": [
+        {
+          "record": "presonus-eris-e8",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.presonus.com/products/eris-e8-xt-monitor",
+          "note": "Features list exactly two transducers: 8-inch woven composite low-frequency transducer and 1.25-inch silk-dome high-frequency transducer."
+        },
+        {
+          "record": "presonus-eris-e8",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://www.presonus.com/products/eris-e8-xt-monitor",
+          "note": "Overview heading \"2-Way Active Studio Monitor\"; \"140 Watt, Class AB bi-amplification\"; line-level inputs only."
+        }
+      ]
     }
   ]
 }
