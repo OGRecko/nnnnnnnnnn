@@ -3564,6 +3564,100 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet"
+    },
+    {
+      "id": "dynaudio-lyd-5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two transducer rows: one 5in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-5"
+    },
+    {
+      "id": "dynaudio-lyd-7",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Two transducer rows: one 7in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-7"
+    },
+    {
+      "id": "dynaudio-lyd-48",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Three transducer rows: 8in MSP woofer, 4in MSP midrange and 1.1in soft dome tweeter in a 3-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48"
+    },
+    {
+      "id": "dynaudio-lyd-48",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: A separate amplifier power row per band (80 W / 50 W / 50 W) plus a 100-240 V AC input and a DSP crossover: the amplification is built into the monitor."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48"
     }
   ]
 }

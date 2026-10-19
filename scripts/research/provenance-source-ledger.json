@@ -7682,6 +7682,51 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "\"Components: 135 mm (5 1/4 in) low frequency loudspeaker, 19 mm (3/4 in) polycarbonate dome tweeter\". Architectural specification: \"The loudspeaker system shall consist of a 135 mm (5 1/4 in) low-frequency transducer, 19 mm (3/4 in) dome high-frequency transducer, and frequency dividing network installed in a ported enclosure.\" No passive/active row."
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "host": "dynaudio.com",
+      "document": "Dynaudio LYD 5 product page, Specifications",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specification rows: \"Crossover 2-way DSP-based\"; \"Crossover Frequency (Hz) 5200 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange/Woofer 5in MSP\"; \"Amplifier Power Woofer (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\"."
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "host": "dynaudio.com",
+      "document": "Dynaudio LYD 7 product page, Specifications",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specification rows: \"Crossover 2-way DSP-based\"; \"Crossover Frequency (Hz) 4300 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange/Woofer 7in MSP\"; \"Amplifier Power Woofer (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\"."
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "host": "dynaudio.com",
+      "document": "Dynaudio LYD 48 product page, Specifications",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Specification rows: \"Crossover 3-way DSP-based\"; \"Crossover Frequency (Hz) 460/5500 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange 4in MSP\"; \"Woofer 8in MSP\"; \"Amplifier Power Woofer (W) 80\"; \"Amplifier Power midrange (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\"."
     }
   ],
   "openQuestionsForOwner": [

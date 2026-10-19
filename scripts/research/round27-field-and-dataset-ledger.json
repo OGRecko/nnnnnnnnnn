@@ -1589,6 +1589,46 @@
       "valueAfter": 2,
       "source": "https://jblpro.com/en-US/site_elements/vintage-control-1-spec-sheet",
       "note": "Specification sheet lists exactly one low-frequency and one high-frequency transducer."
+    },
+    {
+      "record": "dynaudio-lyd-5",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "note": "Two transducer rows: one 5in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+    },
+    {
+      "record": "dynaudio-lyd-7",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "note": "Two transducer rows: one 7in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+    },
+    {
+      "record": "dynaudio-lyd-48",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 3,
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "note": "Three transducer rows: 8in MSP woofer, 4in MSP midrange and 1.1in soft dome tweeter in a 3-way system."
+    },
+    {
+      "record": "dynaudio-lyd-48",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "note": "A separate amplifier power row per band (80 W / 50 W / 50 W) plus a 100-240 V AC input and a DSP crossover: the amplification is built into the monitor."
     }
   ],
   "elx200_15": {

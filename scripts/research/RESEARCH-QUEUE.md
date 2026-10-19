@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **350** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
+Records still needing research: **347** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **100** fields (no source recorded).
-- NO_PROVENANCE: **173** fields (null value, no provenance object).
+- UNSOURCED: **98** fields (no source recorded).
+- NO_PROVENANCE: **171** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -38,7 +38,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-oberon-1 | DALI | Oberon 1 (`dali-oberon-1`) | 2 | 0 | 0 |
 | dali-oberon-9 | DALI | Oberon 9 (`dali-oberon-9`) | 2 | 0 | 0 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
-| dynaudio-lyd-48 | Dynaudio | LYD 48 (`dynaudio-lyd-48`) | 0 | 2 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
 | electro-voice-ekx-15p | Electro-Voice | EKX-15P (`electro-voice-ekx-15p`) | 0 | 2 | 0 |
 | electro-voice-evf-1152d-96 | Electro-Voice | EVF-1152D/96 (`electro-voice-evf-1152d-96`) | 2 | 0 | 0 |
@@ -198,8 +197,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dali-rubicon-8 | DALI | Rubicon 8 (`dali-rubicon-8`) | 0 | 0 | 1 |
 | danley-sh96 | Danley Sound Labs | SH-96 (`danley-sh96`) | 1 | 0 | 0 |
 | dutch-and-dutch-8c | Dutch & Dutch | 8c (`dutch-and-dutch-8c`) | 0 | 0 | 1 |
-| dynaudio-lyd-5 | Dynaudio | LYD 5 (`dynaudio-lyd-5`) | 0 | 0 | 1 |
-| dynaudio-lyd-7 | Dynaudio | LYD 7 (`dynaudio-lyd-7`) | 0 | 0 | 1 |
 | eaw-kf760 | EAW | KF760 (`eaw-kf760`) | 1 | 0 | 0 |
 | fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 0 | 0 | 1 |
 | focal-aria-926 | Focal | Aria 926 (`focal-aria-926`) | 1 | 0 | 0 |

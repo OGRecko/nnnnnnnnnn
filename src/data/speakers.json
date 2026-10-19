@@ -39128,7 +39128,7 @@
       "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Dynaudio LYD 5 official product specification table: 60 Hz–21 kHz. Manufacturer lists 50 W LF + 50 W HF amplification; the split-band power is not collapsed into the single power-handling field. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
@@ -39136,6 +39136,12 @@
       "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
       "sourceType": "MANUFACTURER",
       "note": "Round 4 URL check (2026-10-11): exact manufacturer source. LYD 5 page: bi-amped design with 2 x 50 W and Class-D amplification."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two transducer rows: one 5in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
     }
   },
   {
@@ -39195,7 +39201,7 @@
       "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Dynaudio LYD 7 official product specification table: 55 Hz–21 kHz. Manufacturer lists 50 W LF + 50 W HF amplification; the split-band power is not collapsed into the single power-handling field. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
@@ -39203,6 +39209,12 @@
       "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
       "sourceType": "MANUFACTURER",
       "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Page spec table: \"Amplifier Power Woofer (W) 50\", \"Amplifier Power Tweeter (W) 50\", 2-way DSP-based crossover."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Two transducer rows: one 7in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
     }
   },
   {
@@ -51309,8 +51321,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -51364,16 +51376,16 @@
     },
     "notes": "Manufacturer data: 3-way nearfield monitor; 80 W woofer + 50 W midrange + 50 W tweeter amplification; 8 in MSP woofer, 4 in MSP midrange and 1.1 in soft dome tweeter; lower cutoff 50 Hz and upper cutoff 21 kHz at 85 dB ±3 dB. No passive impedance/sensitivity is inferred.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Three transducer rows: 8in MSP woofer, 4in MSP midrange and 1.1in soft dome tweeter in a 3-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: A separate amplifier power row per band (80 W / 50 W / 50 W) plus a 100-240 V AC input and a DSP crossover: the amplification is built into the monitor."
     }
   },
   {

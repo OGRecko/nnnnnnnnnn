@@ -2970,6 +2970,100 @@
           "note": "Specification sheet lists exactly one low-frequency and one high-frequency transducer."
         }
       ]
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio LYD 5 product page, Specifications",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification rows: \"Crossover 2-way DSP-based\"; \"Crossover Frequency (Hz) 5200 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange/Woofer 5in MSP\"; \"Amplifier Power Woofer (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\".",
+      "fieldResults": [
+        {
+          "record": "dynaudio-lyd-5",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+          "note": "Two transducer rows: one 5in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio LYD 7 product page, Specifications",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification rows: \"Crossover 2-way DSP-based\"; \"Crossover Frequency (Hz) 4300 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange/Woofer 7in MSP\"; \"Amplifier Power Woofer (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\".",
+      "fieldResults": [
+        {
+          "record": "dynaudio-lyd-7",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 2,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+          "note": "Two transducer rows: one 7in MSP midrange/woofer and one 1.1in soft dome tweeter in a 2-way system."
+        }
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+      "host": "dynaudio.com",
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "checkedDate": "2026-10-19",
+      "document": "Dynaudio LYD 48 product page, Specifications",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Specification rows: \"Crossover 3-way DSP-based\"; \"Crossover Frequency (Hz) 460/5500 Hz\"; \"Tweeter 1.1in soft dome\"; \"Midrange 4in MSP\"; \"Woofer 8in MSP\"; \"Amplifier Power Woofer (W) 80\"; \"Amplifier Power midrange (W) 50\"; \"Amplifier Power Tweeter (W) 50\"; \"AC Power Input 100-240V 50/60Hz\".",
+      "fieldResults": [
+        {
+          "record": "dynaudio-lyd-48",
+          "field": "driverCount",
+          "valueBefore": null,
+          "valueAfter": 3,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+          "note": "Three transducer rows: 8in MSP woofer, 4in MSP midrange and 1.1in soft dome tweeter in a 3-way system."
+        },
+        {
+          "record": "dynaudio-lyd-48",
+          "field": "active",
+          "valueBefore": null,
+          "valueAfter": true,
+          "outcome": "PROMOTED",
+          "action": "PROMOTE",
+          "sourceUrl": "https://dynaudio.com/professional-audio/lyd/lyd-48",
+          "note": "A separate amplifier power row per band (80 W / 50 W / 50 W) plus a 100-240 V AC input and a DSP crossover: the amplification is built into the monitor."
+        }
+      ]
     }
   ]
 }

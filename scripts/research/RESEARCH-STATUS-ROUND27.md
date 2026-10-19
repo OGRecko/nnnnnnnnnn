@@ -673,6 +673,30 @@ passive/active classification, so `active` stays open under the batch 15 rule.
 Research backlog: 350 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 339 source URLs resolved in total.
 
+## Batch 19 — Dynaudio LYD 5 / LYD 7 / LYD 48
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `dynaudio-lyd-5` | `driverCount` | 2 | "Tweeter 1.1in soft dome" + "Midrange/Woofer 5in MSP"; 2-way DSP crossover |
+| `dynaudio-lyd-7` | `driverCount` | 2 | "Tweeter 1.1in soft dome" + "Midrange/Woofer 7in MSP"; 2-way DSP crossover |
+| `dynaudio-lyd-48` | `driverCount` / `active` | 3 / true | 8in woofer + 4in midrange + 1.1in tweeter; 80 W / 50 W / 50 W amplifier rows and 100–240 V AC input |
+
+The LYD tables print one row per transducer, so the counts are read directly. `active` was
+already verified for the LYD 5 and LYD 7; for the LYD 48 the per-band amplifier rows plus an AC
+mains input establish that the amplification is inside the cabinet.
+
+## Counts after batch 19
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 827 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 98 |
+| no provenance at all | 171 |
+
+Research backlog: 347 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+342 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
