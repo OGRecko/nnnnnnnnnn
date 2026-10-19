@@ -5,15 +5,15 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 227,
+  "uncheckedItems": 226,
   "uniqueSourceUrls": 165,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 148,
-    "INACCESSIBLE": 17
+    "CHECKED_PARTIAL": 149,
+    "INACCESSIBLE": 16
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 198,
-    "INACCESSIBLE": 29
+    "CHECKED_PARTIAL": 200,
+    "INACCESSIBLE": 26
   },
   "statusCounts": [
     {
@@ -44,13 +44,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 82
+      "count": 81
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 441
+      "count": 442
     },
     {
       "field": "driverCount",
@@ -359,7 +359,7 @@
     {
       "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
       "host": "www.dali-speakers.com",
-      "status": "INACCESSIBLE",
+      "status": "CHECKED_PARTIAL",
       "items": 3,
       "records": [
         "dali-oberon-3",
@@ -375,29 +375,30 @@
           "field": "driverCount",
           "value": 2,
           "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Specification table beyond the parser page limit; not read."
+          "recordedNote": "The manual points to \"Table 2\" for technical specifications, but that table is not present in the retrieved text, so no driver count can be read. Value left unchanged."
         },
         {
           "record": "dali-oberon-5",
           "field": "driverCount",
           "value": 3,
           "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Specification table beyond the parser page limit; not read."
+          "recordedNote": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
         },
         {
           "record": "dali-oberon7",
           "field": "driverCount",
           "value": 3,
           "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Specification table beyond the parser page limit; not read."
+          "recordedNote": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
-        0
+        0,
+        4
       ],
-      "evidence": "PDF parser returned the manual only up to its 30-page extraction limit; the OBERON specification table (Table 2) lies beyond that limit and could not be read. No field evidence was obtained."
+      "evidence": "The manual refers to \"TABLE 1\" for carton contents (speakers per carton, grilles, pads) and to \"TABLE 2\" for \"10.0 TECHNICAL SPECIFICATIONS\", stating \"I tabel 2 finder du de mest almindelige specifikationer for højttalerserien\". The retrieved text contains neither Table 2 nor any per-model driver complement, driver size or count; the specification table is not present in the extracted text of the pages retrieved (sections 1.0-10.0 in four languages are prose only). No driver count can be read from this document, so none is recorded."
     },
     {
       "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
@@ -468,41 +469,6 @@
         0
       ],
       "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained."
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
-      "host": "assets.klipsch.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "legacy-klip-6"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-klip-6",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
-        },
-        {
-          "record": "legacy-klip-6",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Spec sheet lists two 10 in woofers plus two compression drivers = 4 drive units, while the stored value is 3. Left unchanged pending reconciliation; the stored value is not promoted."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification sheet: three-way design with two 10 in woofers, one 1.75 in titanium compression driver and one 1 in titanium compression driver (four drive units)."
     },
     {
       "url": "https://audio-database.com/JBL/speaker/4312-e.html",
@@ -911,22 +877,22 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The sheet recommends amplifier power but does not state passive/active wording explicitly."
+          "recordedNote": "The sheet describes single-amplification and biamplification wiring and a recommended amplifier power but never states passive/active or built-in amplification. Field stays unverified."
         },
         {
           "record": "legacy-jbl-6",
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The sheet recommends amplifier power but does not state passive/active wording explicitly."
+          "recordedNote": "Same document, same finding: biamplification and external amplifier power are described, but no explicit passive/active classification appears. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Information sheet describes the 4430 and 4435 as passive studio monitors intended for use with an external amplifier; no powered/active variant is listed."
+      "evidence": "The sheet separates \"Single Amplification\" and \"Biamplification\" maximum power input rows, gives \"Recommended Amplifier Power\", and states \"A switch located adjacent to the connection terminals allows the monitor to be biamplified. A special crossover card is available for the JBL Model 5235 electronic frequency dividing network\". It never uses the words passive, active, powered or built-in amplification for either model. Driver complement: 4430 \"uses a single 380 mm (15 in) low frequency driver\"; 4435 \"uses a pair of 380 mm (15 in) low frequency drivers\"; both use one compression driver on the Bi-Radial horn."
     },
     {
       "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
@@ -2670,6 +2636,33 @@
         0
       ],
       "evidence": "Specification sheet: two-way bookshelf speaker with one 4 in (102 mm) IMG woofer and one 1 in (25 mm) aluminium dome tweeter."
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "host": "assets.klipsch.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "legacy-klip-6"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-klip-6",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The sheet gives power handling, sensitivity and binding-post/bi-amp inputs but never writes passive/active, powered or built-in amplification. Field stays unverified."
+        }
+      ],
+      "checkedRound": 27,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Specifications: \"HIGH FREQUENCY DRIVERS 1.75\\\" (4.45cm) titanium diaphragm compression driver\"; \"LOW FREQUENCY DRIVERS Two 10\\\" (25.4cm) Cerametallic cone woofers\"; \"SENSITIVITY 100 dB @ 2.83V / 1M\"; \"POWER HANDLING 250W / 1000W peak\"; \"INPUTS Dual binding posts / bi-wire / bi-amp\". Two woofers plus one compression driver = 3 transducers. The sheet never states passive, active, powered or built-in amplification; it publishes a peak power handling rating and passive-cabinet input terminals only, which is not an explicit classification statement."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",

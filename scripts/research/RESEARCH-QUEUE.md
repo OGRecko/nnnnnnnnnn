@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **227** fields across **165** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **226** fields across **165** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **193** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -128,7 +128,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
-| legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 2 | 0 | 0 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
 | legacy-mack-4 | Mackie | CR3 (`legacy-mack-4`) | 0 | 2 | 0 |
 | legacy-mack-5 | Mackie | Thump15 (`legacy-mack-5`) | 0 | 2 | 0 |
@@ -337,6 +336,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-jbl-6 | JBL | 4430 Studio Monitor (`legacy-jbl-6`) | 1 | 0 | 0 |
 | legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
+| legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |
 | legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |
 | legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 0 | 0 | 1 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |

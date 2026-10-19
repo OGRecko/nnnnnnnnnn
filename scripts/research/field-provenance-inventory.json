@@ -6,9 +6,9 @@
     "live": 3083,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 2273,
+      "MANUFACTURER_VERIFIED": 2274,
       "NO_PROVENANCE": 384,
-      "CITED_IN_NOTES_UNCHECKED": 262,
+      "CITED_IN_NOTES_UNCHECKED": 261,
       "REPUTABLE_DATABASE_VERIFIED": 204,
       "UNSOURCED": 193,
       "THIRD_PARTY_VERIFIED": 20,
@@ -19521,14 +19521,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 27: The sheet lists two 10-inch Cerametallic woofers and one 1.75-inch titanium compression driver: 3 transducers, matching the stored value.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-klip-6",

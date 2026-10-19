@@ -1,4 +1,589 @@
 {
   "round": 27,
-  "entries": []
+  "rebuiltFrom": [
+    "round27-url-results.json",
+    "queue-url-status.json",
+    "src/data/speakers.json"
+  ],
+  "entries": [
+    {
+      "id": "adam-audio-s3v",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.adam-audio.com/en/s-series/s3v/",
+          "sourceType": null,
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/en/s-series/s3v/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact S3V page lists one 9-inch ELE woofer, one 4-inch DCH midrange and one S-ART tweeter: 3 transducers, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.adam-audio.com/en/s-series/s3v/"
+    },
+    {
+      "id": "adam-s3x",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+          "sourceType": null,
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The S3X-V Technical Data tables state Number 1 for woofer, midrange and tweeter: 3 transducers, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.adam-audio.com/en/sx-series/s3x-v/"
+    },
+    {
+      "id": "adam-a8h",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.adam-audio.com/en/a-series/a8h/",
+          "sourceType": null,
+          "note": "Page lists two 8 in woofers + 3.5 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/en/a-series/a8h/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 8-inch MLM woofer, one 3.5-inch DCH midrange and one X-ART tweeter: 3 transducers, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.adam-audio.com/en/a-series/a8h/"
+    },
+    {
+      "id": "adam-a8h",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.adam-audio.com/en/a-series/a8h/",
+          "sourceType": null,
+          "note": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/en/a-series/a8h/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact page names the product an \"Active Studio Monitor\" and publishes internal amplification (\"Total Peak Amp. Power: 340 W\", hybrid amplification)."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.adam-audio.com/en/a-series/a8h/"
+    },
+    {
+      "id": "martinlogan-motion-40",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+          "sourceType": null,
+          "note": "Brochure lists 1 tweeter + 1 midrange + 2 woofers = 5 drive units, while the stored value is 4. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The brochure lists 1 Folded Motion tweeter + 1 midrange + two 6.5-inch woofers = 4 drive units, matching the stored value. The earlier \"5 drive units\" note was a mis-addition."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf"
+    },
+    {
+      "id": "focal-scala-utopia-evo",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+          "sourceType": null,
+          "note": "Sheet lists 1 tweeter + 1 midrange + 2 woofers = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact sheet lists one 27 cm woofer, one 16.5 cm midrange and one 27 mm tweeter = 3 transducers. The earlier CONFLICT note read the feature-callout numbers as quantities."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf"
+    },
+    {
+      "id": "jbl-jrx225",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+          "sourceType": null,
+          "note": "The sheet lists two 15 in woofers plus one compression driver = 3, matching the stored value, but the sheet also describes the model as \"dual 15 in\" which could be read as two total transducers. Not promoted pending an owner ruling on counting compression drivers."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The sheet lists \"JBL M115-8A x 2\" low-frequency drivers plus one 2414H-C compression driver: 3 transducers, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet"
+    },
+    {
+      "id": "yamaha-ns-6490",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+          "sourceType": null,
+          "note": "US manufacturer page lists three named drivers. Host usa.yamaha.com is not in source-host-allowlist.json, so no promotion until the host decision (owner decision 8) is made. Not a regional impedance answer."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The US manufacturer specification table lists an 8-inch woofer, a 4-inch midrange and a 7/8-inch tweeter: 3 transducers, matching the stored value. Host is ESTABLISHED (Yamaha Corporation of America); this is not evidence for any other regional variant."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html"
+    },
+    {
+      "id": "kef-q750",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 5,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://international.kef.com/products/q750-floorstanding-speaker",
+          "sourceType": null,
+          "note": "Page describes 3 driven units plus 2 ABR passive radiators; the schema does not define whether ABRs count, so the stored 5 is not promoted. Owner decision needed."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://international.kef.com/products/q750-floorstanding-speaker",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The page lists a Uni-Q (MF cone + HF dome), one LF driver and two ABRs. Under the convention already recorded for jbl-charge5, jbl-flip6 and klipsch-forte-iv, passive radiators are not counted as drivers, so the count is 3, not 5. The record's own note already stated that ABRs are not counted; the stored value contradicted it."
+        }
+      },
+      "round": 27,
+      "action": "CORRECT",
+      "source": "https://international.kef.com/products/q750-floorstanding-speaker"
+    },
+    {
+      "id": "legacy-adam-1",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.adam-audio.com/en/archived-products/s3a/",
+          "sourceType": null,
+          "note": "Page lists two 7 in woofers + 4 in midrange + 1 in tweeter = 4, while the stored value is 3. Left unchanged; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact S3A operation manual describes one ART tweeter and two HexaCone bass/midrange drivers = 3 transducers, matching the stored value. The provenance source is set to the manual because the archived page itself carries no specification table."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf"
+    },
+    {
+      "id": "qsc-wl3082",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive line-array element requiring external amplification."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The exact-model QSC manual states that \"audio power\" is connected to the loudspeaker and that it has no crossover network or internal processing; the only inputs are NL8 audio-power connectors. This is an explicit statement of the external-amplification signal path, so the stored passive value is retained and re-sourced from the specification sheet to the manual."
+        }
+      },
+      "round": 27,
+      "action": "RESOURCE",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf"
+    },
+    {
+      "id": "qsc-wl212-sw",
+      "field": "active",
+      "value": null,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 22 (2026-10-19): manufacturer page evidence: QSC WideLine-8 specification sheet: passive subwoofer element requiring external amplification."
+        }
+      },
+      "after": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 27: Neither the specification sheet nor the user manual states passive/active or built-in amplification for the WL212-sw; the manual only describes the NL8/NL4 wiring to the transducers and a 1100 W continuous power-handling capability. Under the standing explicit-evidence rule the Round 22 manufacturer-verified promotion is retracted and the field returns to unknown."
+        }
+      },
+      "round": 27,
+      "action": "RETRACT",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf"
+    },
+    {
+      "id": "legacy-klip-6",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+          "sourceType": null,
+          "note": "Spec sheet lists two 10 in woofers plus two compression drivers = 4 drive units, while the stored value is 3. Left unchanged pending reconciliation; the stored value is not promoted."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The sheet lists two 10-inch Cerametallic woofers and one 1.75-inch titanium compression driver: 3 transducers, matching the stored value."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf"
+    },
+    {
+      "id": "jbl-lsr32",
+      "field": "frequencyResponse.disputedPoints",
+      "value": 28,
+      "before": {
+        "status": "UNRESOLVED_SELF_CONFLICT_20KHZ",
+        "simulationExcluded": true,
+        "points": [
+          {
+            "hz": 20,
+            "db": 70
+          },
+          {
+            "hz": 30,
+            "db": 82
+          },
+          {
+            "hz": 40,
+            "db": 88
+          },
+          {
+            "hz": 50,
+            "db": 91
+          },
+          {
+            "hz": 60,
+            "db": 92
+          },
+          {
+            "hz": 70,
+            "db": 92.5
+          },
+          {
+            "hz": 80,
+            "db": 93
+          },
+          {
+            "hz": 90,
+            "db": 93.5
+          },
+          {
+            "hz": 100,
+            "db": 93.5
+          },
+          {
+            "hz": 200,
+            "db": 93
+          },
+          {
+            "hz": 300,
+            "db": 92.5
+          },
+          {
+            "hz": 400,
+            "db": 92.5
+          },
+          {
+            "hz": 500,
+            "db": 92.5
+          },
+          {
+            "hz": 600,
+            "db": 92.5
+          },
+          {
+            "hz": 700,
+            "db": 92
+          },
+          {
+            "hz": 800,
+            "db": 92
+          },
+          {
+            "hz": 900,
+            "db": 92.5
+          },
+          {
+            "hz": 1000,
+            "db": 93
+          },
+          {
+            "hz": 2000,
+            "db": 92.5
+          },
+          {
+            "hz": 3000,
+            "db": 92.5
+          },
+          {
+            "hz": 4000,
+            "db": 92.5
+          },
+          {
+            "hz": 5000,
+            "db": 92.5
+          },
+          {
+            "hz": 6000,
+            "db": 92.5
+          },
+          {
+            "hz": 7000,
+            "db": 92.5
+          },
+          {
+            "hz": 8000,
+            "db": 92.5
+          },
+          {
+            "hz": 9000,
+            "db": 92.5
+          },
+          {
+            "hz": 10000,
+            "db": 92.5
+          }
+        ]
+      },
+      "after": {
+        "status": "RESOLVED_VERBATIM_MANUAL_TABLE_20KHZ",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "points": [
+          {
+            "hz": 20,
+            "db": 70
+          },
+          {
+            "hz": 30,
+            "db": 80
+          },
+          {
+            "hz": 40,
+            "db": 86
+          },
+          {
+            "hz": 50,
+            "db": 90
+          },
+          {
+            "hz": 60,
+            "db": 92
+          },
+          {
+            "hz": 70,
+            "db": 93
+          },
+          {
+            "hz": 80,
+            "db": 93.5
+          },
+          {
+            "hz": 90,
+            "db": 93.5
+          },
+          {
+            "hz": 100,
+            "db": 93.5
+          },
+          {
+            "hz": 200,
+            "db": 93
+          },
+          {
+            "hz": 300,
+            "db": 93
+          },
+          {
+            "hz": 400,
+            "db": 93
+          },
+          {
+            "hz": 500,
+            "db": 93
+          },
+          {
+            "hz": 600,
+            "db": 93
+          },
+          {
+            "hz": 700,
+            "db": 92.5
+          },
+          {
+            "hz": 800,
+            "db": 92
+          },
+          {
+            "hz": 900,
+            "db": 92
+          },
+          {
+            "hz": 1000,
+            "db": 92.5
+          },
+          {
+            "hz": 2000,
+            "db": 92.5
+          },
+          {
+            "hz": 3000,
+            "db": 92.5
+          },
+          {
+            "hz": 4000,
+            "db": 92.5
+          },
+          {
+            "hz": 5000,
+            "db": 92.5
+          },
+          {
+            "hz": 6000,
+            "db": 92.5
+          },
+          {
+            "hz": 7000,
+            "db": 92.5
+          },
+          {
+            "hz": 8000,
+            "db": 92.5
+          },
+          {
+            "hz": 9000,
+            "db": 92.5
+          },
+          {
+            "hz": 10000,
+            "db": 92.5
+          },
+          {
+            "hz": 20000,
+            "db": 92
+          }
+        ]
+      },
+      "round": 27,
+      "action": "RESOLVE_SERIES",
+      "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual"
+    }
+  ]
 }

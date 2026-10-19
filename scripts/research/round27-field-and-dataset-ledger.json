@@ -3,28 +3,244 @@
   "checkedDate": "2026-10-19",
   "entries": [
     {
+      "record": "adam-audio-s3v",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.adam-audio.com/en/s-series/s3v/",
+      "note": "The exact S3V page lists one 9-inch ELE woofer, one 4-inch DCH midrange and one S-ART tweeter: 3 transducers, matching the stored value."
+    },
+    {
+      "record": "adam-s3x",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+      "note": "The S3X-V Technical Data tables state Number 1 for woofer, midrange and tweeter: 3 transducers, matching the stored value."
+    },
+    {
+      "record": "adam-a8h",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.adam-audio.com/en/a-series/a8h/",
+      "note": "One 8-inch MLM woofer, one 3.5-inch DCH midrange and one X-ART tweeter: 3 transducers, matching the stored value."
+    },
+    {
+      "record": "adam-a8h",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": true,
+      "valueAfter": true,
+      "source": "https://www.adam-audio.com/en/a-series/a8h/",
+      "note": "The exact page names the product an \"Active Studio Monitor\" and publishes internal amplification (\"Total Peak Amp. Power: 340 W\", hybrid amplification)."
+    },
+    {
+      "record": "martinlogan-motion-40",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 4,
+      "valueAfter": 4,
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "note": "The brochure lists 1 Folded Motion tweeter + 1 midrange + two 6.5-inch woofers = 4 drive units, matching the stored value. The earlier \"5 drive units\" note was a mis-addition."
+    },
+    {
+      "record": "focal-scala-utopia-evo",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+      "note": "The exact sheet lists one 27 cm woofer, one 16.5 cm midrange and one 27 mm tweeter = 3 transducers. The earlier CONFLICT note read the feature-callout numbers as quantities."
+    },
+    {
       "record": "focal-scala-utopia-evo",
       "field": "active",
       "outcome": "NOT_STATED",
-      "valueKept": false,
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
       "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
       "note": "The sheet gives only a recommended amplifier power range (50-500 W); it never states passive, active, powered or built-in amplification. Field stays unverified."
     },
     {
       "record": "jbl-jrx225",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "note": "The sheet lists \"JBL M115-8A x 2\" low-frequency drivers plus one 2414H-C compression driver: 3 transducers, matching the stored value."
+    },
+    {
+      "record": "jbl-jrx225",
       "field": "active",
       "outcome": "NOT_STATED",
-      "valueKept": false,
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
       "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
       "note": "The sheet publishes a recommended external amplifier range and passive-cabinet style inputs but never writes passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "yamaha-ns-6490",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "note": "The US manufacturer specification table lists an 8-inch woofer, a 4-inch midrange and a 7/8-inch tweeter: 3 transducers, matching the stored value. Host is ESTABLISHED (Yamaha Corporation of America); this is not evidence for any other regional variant."
+    },
+    {
+      "record": "kef-q750",
+      "field": "driverCount",
+      "outcome": "CORRECTED",
+      "action": "CORRECT",
+      "valueBefore": 5,
+      "valueAfter": 3,
+      "source": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "note": "The page lists a Uni-Q (MF cone + HF dome), one LF driver and two ABRs. Under the convention already recorded for jbl-charge5, jbl-flip6 and klipsch-forte-iv, passive radiators are not counted as drivers, so the count is 3, not 5. The record's own note already stated that ABRs are not counted; the stored value contradicted it."
     },
     {
       "record": "kef-q750",
       "field": "active",
       "outcome": "NOT_STATED",
-      "valueKept": false,
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
       "source": "https://international.kef.com/products/q750-floorstanding-speaker",
       "note": "Only a recommended amplifier power range (15-150 W) is given; no passive/active, powered or built-in amplification wording. Field stays unverified."
+    },
+    {
+      "record": "legacy-adam-1",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf",
+      "note": "The exact S3A operation manual describes one ART tweeter and two HexaCone bass/midrange drivers = 3 transducers, matching the stored value. The provenance source is set to the manual because the archived page itself carries no specification table."
+    },
+    {
+      "record": "qsc-wl3082",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "RESOURCE",
+      "valueBefore": false,
+      "valueAfter": false,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+      "note": "The exact-model QSC manual states that \"audio power\" is connected to the loudspeaker and that it has no crossover network or internal processing; the only inputs are NL8 audio-power connectors. This is an explicit statement of the external-amplification signal path, so the stored passive value is retained and re-sourced from the specification sheet to the manual."
+    },
+    {
+      "record": "qsc-wl212-sw",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "action": "RETRACT",
+      "valueBefore": false,
+      "valueAfter": null,
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+      "note": "Neither the specification sheet nor the user manual states passive/active or built-in amplification for the WL212-sw; the manual only describes the NL8/NL4 wiring to the transducers and a 1100 W continuous power-handling capability. Under the standing explicit-evidence rule the Round 22 manufacturer-verified promotion is retracted and the field returns to unknown."
+    },
+    {
+      "record": "legacy-klip-6",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "note": "The sheet lists two 10-inch Cerametallic woofers and one 1.75-inch titanium compression driver: 3 transducers, matching the stored value."
+    },
+    {
+      "record": "legacy-klip-6",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "note": "The sheet gives power handling, sensitivity and binding-post/bi-amp inputs but never writes passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "jbl-4430",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "note": "The sheet describes single-amplification and biamplification wiring and a recommended amplifier power but never states passive/active or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "legacy-jbl-6",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "action": null,
+      "valueBefore": false,
+      "valueAfter": false,
+      "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "note": "Same document, same finding: biamplification and external amplifier power are described, but no explicit passive/active classification appears. Field stays unverified."
+    },
+    {
+      "record": "dali-oberon-3",
+      "field": "driverCount",
+      "outcome": "NOT_EXTRACTED",
+      "action": null,
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "note": "The manual points to \"Table 2\" for technical specifications, but that table is not present in the retrieved text, so no driver count can be read. Value left unchanged."
+    },
+    {
+      "record": "dali-oberon-5",
+      "field": "driverCount",
+      "outcome": "NOT_EXTRACTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "note": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
+    },
+    {
+      "record": "dali-oberon7",
+      "field": "driverCount",
+      "outcome": "NOT_EXTRACTED",
+      "action": null,
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "note": "Table 2 is not present in the retrieved text of the manual; no driver count can be read. Value left unchanged."
+    },
+    {
+      "record": "jbl-lsr32",
+      "field": "frequencyResponse.points",
+      "outcome": "RESOLVED_DATASET",
+      "action": "REPLACE_SERIES",
+      "valueBefore": "27 points (20 Hz-10 kHz)",
+      "valueAfter": "28 points (20 Hz-20 kHz, verbatim Amplitude & Phase table)",
+      "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "note": "Round 27 (2026-10-19): the 20 kHz self-conflict is resolved. The same manual's LSR32 Amplitude & Phase table reads 92 dB at 20 kHz and the LSR32 Acoustic Contribution fundamental table also reads 92 dB at 20 kHz. The 61 dB value belongs to the LSR28P section (Amplitude and Phase, 61 dB at 10 kHz with a blank 20 kHz row), not to the LSR32. The stored 27-row series was also not the LSR32 table: 12 of its 27 values differed (30, 40, 50, 70, 80, 300, 400, 500, 600, 700, 900, 1000 Hz) and it omitted the 20 kHz row. It has been replaced by the verbatim 28-row table; the superseded rows are preserved in this resolution record and in scripts/research/round27-value-history.json."
+    },
+    {
+      "record": "electro-voice-elx200-15",
+      "field": "frequencyResponse.disputedPoints",
+      "outcome": "UNRESOLVED_EDITION_CONFLICT",
+      "action": "NONE",
+      "valueBefore": "85 points, UNRESOLVED_ROW_COUNT",
+      "valueAfter": "85 points retained, UNRESOLVED_ROW_COUNT, editionComparison recorded",
+      "source": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
+      "note": "Two official editions of the same sheet disagree with each other and with both stored series. The FR edition has 86 rows (2400 and 2600 Hz, no 2500 Hz); the EN edition has 87 rows (2400, 2500, 2600 Hz) and 64 of the shared sensitivity values differ. The FR impedance column falls to 1.1 ohm, below the 7.0 ohm minimum the same sheet publishes; the EN column peaks at 110 ohm at 2500 Hz. The stored 85-point series matches neither edition (9 values differ from FR, 61 from EN, and it has 2500 Hz without 2400/2600). Text-derived -3 dB and -10 dB crossings from either table do not reproduce the stated 77 Hz-16 kHz / 52 Hz-19 kHz limits, so the published limits cannot validate the tables either. Response data stays excluded from simulation; no series is adopted and no point is rewritten."
     }
   ],
   "elx200_15": {

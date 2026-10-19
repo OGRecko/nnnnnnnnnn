@@ -47,9 +47,13 @@ def main():
     results = json.load(open(RESULTS, encoding='utf-8'))
     db = json.load(open(DATA, encoding='utf-8'))
     by_id = {r['id']: r for r in db}
-    history = {'round': ROUND, 'entries': []}
-    seen = set()
-    field_rows = []
+    history = (json.load(open(HISTORY, encoding='utf-8')) if os.path.exists(HISTORY)
+               else {'round': ROUND, 'entries': []})
+    history['round'] = ROUND
+    seen = {(h['id'], h['field'], h.get('source'), h.get('action')) for h in history['entries']}
+    field_rows = (json.load(open(FIELD_LEDGER, encoding='utf-8'))['entries']
+                  if os.path.exists(FIELD_LEDGER) else [])
+    seen_rows = {(r['record'], r['field']) for r in field_rows}
     written = changed = 0
 
     for entry in results['entries']:
@@ -71,10 +75,12 @@ def main():
             outcome, action = fr['outcome'], fr.get('action')
             before = {'value': record.get(field), 'provenance': dict(prov)}
             if outcome not in ('PROMOTED', 'CORRECTED') and action not in ('RESOURCE', 'RETRACT'):
-                field_rows.append({
-                    'record': fr['record'], 'field': field, 'outcome': outcome,
-                    'valueKept': record.get(field), 'source': source, 'note': fr['note'],
-                })
+                if (fr['record'], field) not in seen_rows:
+                    field_rows.append({
+                        'record': fr['record'], 'field': field, 'outcome': outcome,
+                        'valueKept': record.get(field), 'source': source, 'note': fr['note'],
+                    })
+                    seen_rows.add((fr['record'], field))
                 continue
             if action == 'RETRACT':
                 record[field] = None
@@ -97,11 +103,13 @@ def main():
             written += 1
             if before['value'] != record[field]:
                 changed += 1
-            field_rows.append({
-                'record': fr['record'], 'field': field, 'outcome': outcome,
-                'action': action, 'valueBefore': before['value'], 'valueAfter': record[field],
-                'source': source, 'note': fr['note'],
-            })
+            if (fr['record'], field) not in seen_rows:
+                field_rows.append({
+                    'record': fr['record'], 'field': field, 'outcome': outcome,
+                    'action': action, 'valueBefore': before['value'], 'valueAfter': record[field],
+                    'source': source, 'note': fr['note'],
+                })
+                seen_rows.add((fr['record'], field))
 
     # ---------------------------------------------------------------- LSR32
     lsr = by_id['jbl-lsr32']
@@ -149,12 +157,14 @@ def main():
             'from the verified sensitivity field. No polar payload is imported; nominal coverage is not '
             'converted to directivity. Source: ' + ev.LSR32_MANUAL
         )
-        field_rows.append({
+        if ('jbl-lsr32', 'frequencyResponse.points') not in seen_rows:
+            field_rows.append({
             'record': 'jbl-lsr32', 'field': 'frequencyResponse.points', 'outcome': 'RESOLVED_DATASET',
             'action': 'REPLACE_SERIES', 'valueBefore': f'{len(old_points)} points (20 Hz-10 kHz)',
             'valueAfter': '28 points (20 Hz-20 kHz, verbatim Amplitude & Phase table)',
             'source': ev.LSR32_MANUAL, 'note': ev.LSR32_RESOLUTION_NOTE,
-        })
+            })
+            seen_rows.add(('jbl-lsr32', 'frequencyResponse.points'))
         history['entries'].append({
             'id': 'jbl-lsr32', 'field': 'frequencyResponse.disputedPoints', 'value': len(new_points),
             'before': {'status': prior['status'], 'simulationExcluded': prior.get('simulationExcluded'),
@@ -196,13 +206,14 @@ def main():
             'stated 7.0 ohm minimum, and a stored 85-point series matching neither edition. Excluded from '
             'simulation until an owner decision; no response series may be adopted from these tables.'
         )
-        field_rows.append({
+        if ('electro-voice-elx200-15', 'frequencyResponse.disputedPoints') not in seen_rows:
+            field_rows.append({
             'record': 'electro-voice-elx200-15', 'field': 'frequencyResponse.disputedPoints',
             'outcome': 'UNRESOLVED_EDITION_CONFLICT', 'action': 'NONE',
             'valueBefore': '85 points, UNRESOLVED_ROW_COUNT',
             'valueAfter': '85 points retained, UNRESOLVED_ROW_COUNT, editionComparison recorded',
             'source': ev.ELX['enEdition'], 'note': ev.ELX['reason'],
-        })
+            })
 
     with open(DATA, 'w', encoding='utf-8') as fh:
         fh.write(json.dumps(db, indent=2, ensure_ascii=False) + '\n')

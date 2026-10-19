@@ -326,14 +326,6 @@
       ]
     },
     {
-      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
-      "outstandingFields": 2,
-      "fields": [
-        "legacy-klip-6.driverCount",
-        "legacy-klip-6.active"
-      ]
-    },
-    {
       "url": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
       "outstandingFields": 2,
       "fields": [
@@ -936,6 +928,13 @@
       "outstandingFields": 1,
       "fields": [
         "legacy-yam-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-klip-6.active"
       ]
     },
     {

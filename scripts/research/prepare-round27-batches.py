@@ -112,6 +112,11 @@ def main():
             'fieldResults': field_results,
         })
 
+    known = {e['url'] for e in entries}
+    if os.path.exists(OUT):
+        for e in json.load(open(OUT, encoding='utf-8'))['entries']:
+            if e['url'] not in known:
+                entries.append(e)
     out = {'round': ev.ROUND, 'checkedDate': ev.CHECKED_DATE, 'entries': entries}
     with open(OUT, 'w', encoding='utf-8') as fh:
         fh.write(json.dumps(out, indent=2, ensure_ascii=False) + '\n')

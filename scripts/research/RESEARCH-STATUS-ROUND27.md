@@ -9,11 +9,11 @@
 | --- | --- | --- |
 | Live records in `src/data/speakers.json` | 657 | 657 |
 | `driverCount` + `active` fields | 1314 | 1314 |
-| `MANUFACTURER_VERIFIED` | 696 | **705** |
-| `CITED_IN_NOTES_UNCHECKED` | 237 | **227** |
+| `MANUFACTURER_VERIFIED` | 696 | **706** |
+| `CITED_IN_NOTES_UNCHECKED` | 237 | **226** |
 | `UNSOURCED` | 192 | **193** |
 | No provenance object | 189 | 189 |
-| Provenance queue | 171 URLs / 237 items | **165 URLs / 227 items** |
+| Provenance queue | 171 URLs / 237 items | **165 URLs / 226 items** |
 
 `UNSOURCED` rose by one because the WL212-sw `active` value was retracted rather than replaced.
 
@@ -137,8 +137,28 @@ publishes, which is physically impossible. **No point was written, no alternate 
 - `docs:consistency` — `issues: []`.
 - `make-provenance-queue.py` — `records=657 unchecked_items=227 unique_urls=165 warnings=0`.
 
+## Batch 2 — three more queue documents
+
+| URL | Tied fields | Outcome |
+| --- | --- | --- |
+| Klipsch RF-7 III spec sheet v01 | `legacy-klip-6.driverCount`, `legacy-klip-6.active` | driverCount **promoted** (two 10" woofers + one 1.75" compression driver = 3); `active` NOT_STATED |
+| JBL 4430/4435 information sheet | `jbl-4430.active`, `legacy-jbl-6.active` | NOT_STATED — the sheet describes single-amplification and bi-amplification wiring and a recommended amplifier power, never a passive/active classification |
+| DALI OBERON owner manual | `dali-oberon-3/5/7.driverCount` | NOT_EXTRACTED — the manual points to "Table 2" for technical specifications, but that table is not present in the retrieved text |
+
+The three DALI driver counts remain unchanged and unverified; nothing was inferred from the carton
+contents table or from another Oberon model.
+
+### History-integrity note
+
+The first applier rewrote `round27-value-history.json` from a fresh list on every run, so its own
+idempotent re-run (0 writes) emptied the file. Both artifacts were rebuilt from
+`round27-url-results.json`, the `queue-url-status.json` snapshots, the live records and the LSR32
+`resolution.priorPoints` block by `scripts/research/rebuild-round27-history.py` (14 history entries,
+24 ledger rows). The applier now merges into the existing files and de-duplicates instead of
+truncating them.
+
 ## Remaining in this round
 
-227 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
+226 cited-but-unchecked fields across 165 URLs, 193 unsourced fields, 189 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.

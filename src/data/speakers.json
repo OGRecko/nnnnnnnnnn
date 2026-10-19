@@ -20488,9 +20488,10 @@
     },
     "notes": "Exact Klipsch RF-7 III manufacturer spec sheet. It specifies 32 Hz–25 kHz ±3 dB, 100 dB at 2.83 V/1 m with a footnote 'Sensitivity in average listening room', 8-ohm-compatible nominal impedance, and two 10-inch LF woofers plus one 1.75-inch HF compression driver. The sheet lists power handling as 250 W / 1000 W peak; 250 W is retained as the stated handling figure without adding an unsupported continuous label, and 1000 W peak is context. This is RF-7 III, not RP-8000F or another RF revision. Source: https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The sheet lists two 10-inch Cerametallic woofers and one 1.75-inch titanium compression driver: 3 transducers, matching the stored value."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
