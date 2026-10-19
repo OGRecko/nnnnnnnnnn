@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **332** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 87 brands.
+Records still needing research: **326** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 86 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **208** fields across **155** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **195** fields across **149** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -54,8 +54,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
 | jbl-4310 | JBL | 4310 (`jbl-4310`) | 2 | 0 | 0 |
 | jbl-4312 | JBL | 4312 (`jbl-4312`) | 2 | 0 | 0 |
-| jbl-4350 | JBL | 4350 (`jbl-4350`) | 2 | 0 | 0 |
-| jbl-eon15 | JBL | EON15 (`jbl-eon15`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
@@ -64,16 +62,12 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
 | kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 2 | 0 | 0 |
-| kef-ls50 | KEF | LS50 (`kef-ls50`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
 | klipsch-klipschorn | Klipsch | Klipschorn (`klipsch-klipschorn`) | 0 | 0 | 2 |
-| krk-7000 | KRK | 7000B (`krk-7000`) | 2 | 0 | 0 |
-| krk-rokit-5 | KRK | Rokit 5 G1 (`krk-rokit-5`) | 2 | 0 | 0 |
-| krk-rokit-8 | KRK | Rokit 8 G3 (`krk-rokit-8`) | 2 | 0 | 0 |
 | lacoustics-arcs | L-Acoustics | ARCS Wide (`lacoustics-arcs`) | 2 | 0 | 0 |
 | legacy-bw-3 | Bowers & Wilkins | Matrix 801 (`legacy-bw-3`) | 0 | 0 | 2 |
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
@@ -97,7 +91,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-yam-2 | Yamaha | NS-10M (`legacy-yam-2`) | 1 | 0 | 1 |
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
 | m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
-| mackie-hr824 | Mackie | HR824 (`mackie-hr824`) | 2 | 0 | 0 |
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
@@ -211,6 +204,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
+| kef-ls50 | KEF | LS50 (`kef-ls50`) | 1 | 0 | 0 |
 | kef-q150 | KEF | Q150 (`kef-q150`) | 1 | 0 | 0 |
 | kef-q350 | KEF | Q350 (`kef-q350`) | 1 | 0 | 0 |
 | kef-q750 | KEF | Q750 (`kef-q750`) | 1 | 0 | 0 |

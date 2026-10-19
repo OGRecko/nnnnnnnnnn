@@ -1,9 +1,9 @@
 {
   "schema": "field-provenance-url-queue/v2",
   "note": "Live records are the audit queue. Entries labelled ARCHIVED come from archived records; they are recorded so the inventory is complete, but archived products are not restored and are not part of the research queue.",
-  "liveOutstandingFields": 208,
+  "liveOutstandingFields": 195,
   "archivedOutstandingFields": 35,
-  "liveUrls": 155,
+  "liveUrls": 149,
   "archivedOnlyUrls": 21,
   "urls": [
     {
@@ -58,24 +58,6 @@
       ]
     },
     {
-      "url": "https://audio-database.com/JBL/speaker/4350.html",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "jbl-4350",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "jbl-4350",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
       "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
       "outstandingFields": 2,
       "liveOutstandingFields": 2,
@@ -94,42 +76,6 @@
       ]
     },
     {
-      "url": "https://www.soundonsound.com/reviews/mackie-hr824",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "mackie-hr824",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "mackie-hr824",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.warehousesound.com/r/jblEon15.pdf",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "jbl-eon15",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "jbl-eon15",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
       "url": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
       "outstandingFields": 2,
       "liveOutstandingFields": 2,
@@ -142,78 +88,6 @@
         },
         {
           "record": "tannoy-system-600",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "krk-7000",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "krk-7000",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "krk-rokit-5",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "krk-rokit-5",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "krk-rokit-8",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "krk-rokit-8",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "kef-ls50",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "kef-ls50",
           "field": "active",
           "location": "LIVE"
         }
@@ -1220,6 +1094,19 @@
       "fields": [
         {
           "record": "jbl-4412",
+          "field": "active",
+          "location": "LIVE"
+        }
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+      "outstandingFields": 1,
+      "liveOutstandingFields": 1,
+      "archivedOutstandingFields": 0,
+      "fields": [
+        {
+          "record": "kef-ls50",
           "field": "active",
           "location": "LIVE"
         }

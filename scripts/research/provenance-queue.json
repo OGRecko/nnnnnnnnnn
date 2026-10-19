@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 208,
-  "assessedItems": 208,
+  "uncheckedItems": 195,
+  "assessedItems": 195,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 155,
+  "uniqueSourceUrls": 149,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 1,
-    "CHECKED_PARTIAL": 142,
+    "CHECKED_PARTIAL": 136,
     "INACCESSIBLE": 12
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 186,
+    "CHECKED_PARTIAL": 173,
     "INACCESSIBLE": 20
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 140
+      "count": 134
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 5
+      "count": 11
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 68
+      "count": 61
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 5
+      "count": 12
     },
     {
       "field": "driverCount",
@@ -153,6 +153,7 @@
     "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
     "https://atc.audio/professional/loudspeakers/scm45a-pro/",
     "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+    "https://audio-database.com/JBL/speaker/4350.html",
     "https://audison.com/product/av-k6/",
     "https://audison.com/product/th-k2-ii-a-coro-2/",
     "https://avantonepro.com/en/products/mixcube-passive",
@@ -160,6 +161,9 @@
     "https://barefootsound.com/micromain27/",
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
     "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+    "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+    "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+    "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
     "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
     "https://celestion.com/product/g12h-anniversary/",
     "https://celestion.com/product/g12m-greenback/",
@@ -446,6 +450,7 @@
     "https://www.sonusfaber.com/en/products/olympica-iii/tech-specs",
     "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
     "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+    "https://www.soundonsound.com/reviews/mackie-hr824",
     "https://www.svsound.com/products/pb-1000-pro-subwoofer",
     "https://www.svsound.com/products/pb-2000-pro",
     "https://www.svsound.com/products/pb-3000",
@@ -457,6 +462,7 @@
     "https://www.svsound.com/products/sb-4000",
     "https://www.svsound.com/products/sb16-ultra",
     "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "https://www.warehousesound.com/r/jblEon15.pdf",
     "https://www.wharfedale.co.uk/products/diamond-12-0",
     "https://www.wharfedale.co.uk/products/diamond-12-2",
     "https://www.wharfedale.co.uk/products/evo4-1",
@@ -569,41 +575,6 @@
         0
       ],
       "evidence": "Entry: \"Method 3-Way, 3-Speaker, Bass reflex system\"; \"For Low Band: 30 cm Cone Type (2213H)\"; \"For Middle Range: 13 cm Cone Type (LE5-12)\"; \"For High Range: 3.6 cm Cone Type (LE25-2)\"; \"Allowable input 80W (continuous program)\"; 8 Ω."
-    },
-    {
-      "url": "https://audio-database.com/JBL/speaker/4350.html",
-      "host": "audio-database.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "jbl-4350"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-4350",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The text states that the network is a multi-amplifier system requiring divider/filter boards \"in addition to the power amplifier\", i.e. external amplification; database host cannot promote."
-        },
-        {
-          "record": "jbl-4350",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Rating table counts a 4-way, 5-speaker system (two 2230A woofers, one 2202A, one 2440 horn driver, one 2405 ring tweeter); database host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Model Rating: \"4-Way, 5-Speaker, Bass Reflex System\"; units \"38 cm cone type (2230A) x2\", \"30 cm Cone Type (2202A)\", \"Horn Type (2440 + 2311 + 2308)\", \"Ring Type (2405)\"; commentary: \"The network section is a multi-amplifier system ... In addition to the power amplifier, a divider 5231 or 5232 and a filter board ... are required\"."
     },
     {
       "url": "https://audio-database.com/JBL/speaker/l16decade-e.html",
@@ -763,7 +734,7 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Sell sheet has no passive or active statement; a maximum power rating alone does not establish passive status."
+          "recordedNote": "Round 29: no passive/powered wording on the sell sheet."
         },
         {
           "record": "elac-uni-fi-ub5",
@@ -778,116 +749,7 @@
       "chunksOpened": [
         0
       ],
-      "evidence": "UB5: \"3-way bass reflex\"; tweeter 1 in soft dome, mid-range 4 in aluminium, woofer 5.25 in aluminium; the text says the tweeter and midrange form one concentric driver. The number of transducers is therefore ambiguous between two drive units and three transducers; the existing driverCount stays unresolved."
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
-      "host": "cdn.shopify.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "krk-7000"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-7000",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Sheet states an 8-ohm passive crossover and 150 W power handling, but never says passive/unpowered or that no amplifier is built in."
-        },
-        {
-          "record": "krk-7000",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
-        }
-      ],
-      "checkedRound": 24,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "7000B spec sheet: \"The components are comprised of a 7-inch Kevlar woofer and a 1-inch Kevlar dome tweeter\"; \"Drivers: 7\\\" kevlar/1\\\" kevlar\"; \"Crossover: Passive 2-way\"; \"Nominal Impedance: 8 ohms\"; \"Max. Power Handling: 150W\"."
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
-      "host": "cdn.shopify.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "krk-rokit-8"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-rokit-8",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The info sheet says \"System type: Active Studio Monitor\" and \"Bi-amped, class A/B amplifier\"; generic CDN host cannot promote."
-        },
-        {
-          "record": "krk-rokit-8",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The info sheet pairs one 1-inch soft-dome tweeter with one 8-inch woofer in a 2-way system: 2 transducers; generic CDN host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification table: \"System type: Active Studio Monitor\" for all models; ROKIT 8 column \"Configuration 2-Way\", \"HF Transducer 1\\\" Soft-dome tweeter\", \"LF Transducer 8\\\" Aramid glass composite woofer\"; \"Bi-amped, class A/B amplifier\"."
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
-      "host": "cdn.shopify.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "krk-rokit-5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "krk-rokit-5",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The RP5 specification gives a built-in amplifier power rating of 15 W HF / 30 W LF and the guide covers powered monitors; generic CDN host cannot promote."
-        },
-        {
-          "record": "krk-rokit-5",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The RP5 specification pairs one 1-inch soft-dome HF driver with one 5-inch aramid-glass-fibre LF driver: 2 transducers; generic CDN host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0,
-        1,
-        2,
-        3,
-        5
-      ],
-      "evidence": "Specifications table: RP5 \"High Frequency Driver 1\" Soft Dome\"; \"Low Frequency Driver 5\" Aramid Glass Fiber\"; \"AMPLIFIER Power Rating (HF/LF) 15 watts / 30 watts\"; the manual is titled \"ROKIT POWERED SERIES NEAR FIELD STUDIO MONITOR/SUBWOOFER GUIDE\"."
+      "evidence": "ELAC Uni-Fi sell sheet: \"3-way bass reflex\"; 1 in soft-dome tweeter, 4 in aluminium midrange, 5.25 in aluminium woofer (tweeter and midrange concentric). No passive/active statement; driver count remains ambiguous."
     },
     {
       "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
@@ -1893,22 +1755,22 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Queued archive URL returns the Polk error page; no document to read."
+          "recordedNote": "Round 29 retry: dead product page."
         },
         {
           "record": "polk-signature-s60",
           "field": "driverCount",
           "value": 4,
           "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Queued archive URL returns the Polk error page; no document to read."
+          "recordedNote": "Round 29 retry: dead product page."
         }
       ],
-      "checkedRound": 23,
+      "checkedRound": 29,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "The queued archive URL no longer resolves: the page returns the site error message \"Sorry, we've got our wires crossed.\" (product removed from the current catalogue). No specification text could be read; values were not changed."
+      "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
     },
     {
       "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
@@ -2051,41 +1913,6 @@
       "evidence": "The fetched page returned site navigation and review index content only; the measured-specifications table was not present in the served text."
     },
     {
-      "url": "https://www.soundonsound.com/reviews/mackie-hr824",
-      "host": "www.soundonsound.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "mackie-hr824"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "mackie-hr824",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Review calls the HR824 a \"two-way active nearfield monitor\" with built-in 150 W/100 W amplifiers; third-party review."
-        },
-        {
-          "record": "mackie-hr824",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Review names an 8.75-inch woofer and a 1-inch tweeter (2 transducers); third-party review."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Review: \"a compact, two-way active nearfield monitor\"; \"the HR824 uses a substantial 8.75-inch woofer ... complemented by a 1-inch, ferrofluid-cooled aluminium domed tweeter\"; \"an active crossover ... at 2kHz\"; bass/mid amplifier 150 W, tweeter 100 W."
-    },
-    {
       "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
       "host": "www.soundstagehifi.com",
       "status": "CHECKED_PARTIAL",
@@ -2154,41 +1981,6 @@
         0
       ],
       "evidence": "Specifications: \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\""
-    },
-    {
-      "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
-      "host": "www.stereophile.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "kef-ls50"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kef-ls50",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Sidebar describes a passive stand-mounted loudspeaker but uses no explicit passive/powered wording; third-party host could not promote in any case."
-        },
-        {
-          "record": "kef-ls50",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Specification sidebar of a third-party review (Stereophile) reproduces the model's drive-unit count, but a third-party host cannot promote a field to MANUFACTURER_VERIFIED; recorded for the audit trail only."
-        }
-      ],
-      "checkedRound": 23,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specifications: \"Two-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5.25\\\" (130mm) magnesium/aluminum alloy-cone woofer.\""
     },
     {
       "url": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
@@ -2294,41 +2086,6 @@
         0
       ],
       "evidence": "Release: \"a self-powered stage monitor loudspeaker\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\"; \"a 4in. diaphragm compression driver coupled to a symmetrical (50 degrees horizontal by 50 degrees vertical) constant-directivity horn\"."
-    },
-    {
-      "url": "https://www.warehousesound.com/r/jblEon15.pdf",
-      "host": "www.warehousesound.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "jbl-eon15"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-eon15",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document calls the EON 15 a \"two-way passive speaker system\"; dealer host cannot promote."
-        },
-        {
-          "record": "jbl-eon15",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document lists a 15-inch LF transducer and a 1-inch compression driver: 2 transducers; dealer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification document: \"The EON 15 is a 15 inch two-way passive speaker system\"; \"Proprietary 15\\\" Differential Drive Low Frequency Transducer\"; \"1\\\" Pure Titanium Diaphragm Compression Driver\"; power handling 250 W; 8 ohms."
     },
     {
       "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
@@ -4952,6 +4709,33 @@
         0
       ],
       "evidence": "System: \"3-way floorstanding loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Md Ø 150 mm paper cone driver; W Ø 2x150 mm paper cone drivers."
+    },
+    {
+      "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+      "host": "www.stereophile.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "kef-ls50"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "kef-ls50",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: only \"Amplifier requirements: 25-100W\" is printed; no passive/powered wording."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Stereophile LS50 sidebar: \"Two-way, reflex-loaded, stand-mounted loudspeaker\"; 1\" vented aluminium-dome tweeter plus 5.25\" alloy-cone woofer; \"Amplifier requirements: 25-100W\"; no passive/active statement."
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",

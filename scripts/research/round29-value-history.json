@@ -395,6 +395,337 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf"
+    },
+    {
+      "id": "jbl-4350",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "value": 5,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/JBL/speaker/4350.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 5,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/speaker/4350.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Audio Database JBL 4350 entry — \"Method: 4-Way, 5-Speaker, Bass Reflex System\"; \"Units Used: Low band: 38 cm cone type (2230A) x2 ... 30 cm cone type (2202A) ... Horn Type (2440 + 2311 + 2308) ... Ring Type (2405)\". Five transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/JBL/speaker/4350.html"
+    },
+    {
+      "id": "jbl-4350",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/JBL/speaker/4350.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/speaker/4350.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): same entry — \"The network section is a multi-amplifier system divided at a crossover frequency of 250 Hz. In addition to the power amplifier, a divider 5231 or 5232 and a filter board ... are required.\" The power amplifier is an external item; the loudspeaker is not self-powered."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/JBL/speaker/4350.html"
+    },
+    {
+      "id": "mackie-hr824",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.soundonsound.com/reviews/mackie-hr824",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.soundonsound.com/reviews/mackie-hr824",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Sound On Sound HR824 review — \"a compact, two-way active nearfield monitor\"; \"uses a substantial 8.75-inch woofer ... complemented by a 1-inch, ferrofluid-cooled aluminium domed tweeter\". Two drivers (the passive radiator is not a driven transducer)."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.soundonsound.com/reviews/mackie-hr824"
+    },
+    {
+      "id": "mackie-hr824",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.soundonsound.com/reviews/mackie-hr824",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.soundonsound.com/reviews/mackie-hr824",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same review — \"two-way active nearfield monitor\"; \"The bass/mid power amplifier is rated at 150W (350W burst power) and the tweeter is driven from a 100W amplifier\"; \"an EC mains inlet\". Built-in amplification."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.soundonsound.com/reviews/mackie-hr824"
+    },
+    {
+      "id": "jbl-eon15",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.warehousesound.com/r/jblEon15.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.warehousesound.com/r/jblEon15.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): JBL EON15 specification sheet — \"15 inch Two-way Speaker System\"; \"15 inch Differential Drive Low Frequency Transducer\" and \"1\\\" Pure Titanium Diaphragm Compression Driver\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.warehousesound.com/r/jblEon15.pdf"
+    },
+    {
+      "id": "jbl-eon15",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.warehousesound.com/r/jblEon15.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.warehousesound.com/r/jblEon15.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same sheet — \"The EON 15 is a 15 inch two-way passive speaker system that features the same advanced packaging and transducer technology used in the powered version.\" Neutrik Speakon input, 8 ohms, 250 W power handling."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.warehousesound.com/r/jblEon15.pdf"
+    },
+    {
+      "id": "krk-7000",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK 7000B legacy close-field information sheet: passive two-way, 2 drivers total (batch-117). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): KRK 7000B spec sheet — \"The components are comprised of a 7-inch Kevlar woofer and a 1-inch Kevlar dome tweeter\"; \"Drivers: 7\\\" kevlar/1\\\" kevlar\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022"
+    },
+    {
+      "id": "krk-7000",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK 7000B information sheet: passive two-way monitor (batch-117). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same sheet — \"Crossover: Passive 2-way\"; \"The system is crossed over at 3 kHz with a proprietary passive crossover network.\" No amplifier or mains input is specified."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022"
+    },
+    {
+      "id": "krk-rokit-5",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Powered Generation 1 manual, Rokit 5 G1: two transducers (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): ROKIT G1 manual, RP5 column — \"High Frequency Driver 1\\\" Soft Dome\"; \"Low Frequency Driver 5\\\" Aramid Glass Fiber\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708102022"
+    },
+    {
+      "id": "krk-rokit-5",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Powered Generation 1 manual, Rokit 5 G1: powered two-way monitor (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same table — \"AMPLIFIER Power Rating (HF/LF) 15 watts / 30 watts\"; \"IEC Mains Connector\"; fuse ratings and a power switch are listed. Built-in amplification."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708102022"
+    },
+    {
+      "id": "krk-rokit-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Generation 3 information sheet, Rokit 8 G3: one woofer and one tweeter (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): ROKIT G3 info sheet, ROKIT 8 column — \"Configuration 2-Way\"; \"HF Transducer 1\\\" Soft-dome tweeter\"; \"LF Transducer 8\\\" Aramid glass composite woofer\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708102022"
+    },
+    {
+      "id": "krk-rokit-8",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Generation 3 information sheet, Rokit 8 G3: powered two-way monitor (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708102022",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same sheet — \"System type Active Studio Monitor\"; per-model amplifier power (ROKIT 8: 25 W HF / 75 W LF) and \"Auto-Standby\". Built-in amplification."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708102022"
+    },
+    {
+      "id": "kef-ls50",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Stereophile LS50 specifications — \"Two-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5.25\\\" (130mm) magnesium/aluminum alloy-cone woofer.\" Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications"
     }
   ]
 }

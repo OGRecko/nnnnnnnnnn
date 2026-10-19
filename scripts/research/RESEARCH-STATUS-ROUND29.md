@@ -94,6 +94,31 @@ distributor. Because the host is not Bose, the new third-party tier applies:
 Neither field was labelled MANUFACTURER_VERIFIED: the host is a distributor, exactly the case the policy is
 meant to separate. Ledger: `round29-third-party-ledger.json`; history: `round29-value-history.json`.
 
+## Batch 36 — three explicit third-party documents
+
+| Record | Fields | Value | Source (host class) | Quote |
+| --- | --- | --- | --- | --- |
+| jbl-4350 | driverCount / active | 5 / false | audio-database.com (REPUTABLE_DATABASE) | "Method: 4-Way, 5-Speaker"; "In addition to the power amplifier, a divider 5231 or 5232 ... [is] required" |
+| mackie-hr824 | driverCount / active | 2 / true | soundonsound.com review (THIRD_PARTY) | "a compact, two-way active nearfield monitor"; 8.75" woofer + 1" dome |
+| jbl-eon15 | driverCount / active | 2 / false | warehousesound.com copy of the JBL sheet (THIRD_PARTY) | "The EON 15 is a 15 inch two-way passive speaker system" |
+
+## Batch 37 — KRK documents on a Shopify CDN
+
+All three are KRK publications served from `cdn.shopify.com` (not a KRK host), so the third-party tier
+applies: `krk-7000` 2 / false ("Crossover: Passive 2-way"); `krk-rokit-5` 2 / true ("AMPLIFIER Power
+Rating (HF/LF) 15 watts / 30 watts", IEC mains); `krk-rokit-8` 2 / true ("System type Active Studio
+Monitor"). Six fields promoted.
+
+## Batch 38 — KEF LS50 specification page; two dead pages
+
+* `kef-ls50.driverCount` 2 — Stereophile sidebar ("Two-way ... 1-inch vented aluminium-dome tweeter,
+  5.25-inch alloy-cone woofer"). Promoted to THIRD_PARTY_VERIFIED.
+* `kef-ls50.active` — only "Amplifier requirements: 25-100W"; no passive/powered wording → NOT_STATED.
+* `polk-signature-s60` — polkaudio.com still renders "Sorry, we've got our wires crossed."; both fields
+  INACCESSIBLE.
+* `elac-uni-fi-ub5.active` — the sell sheet has no passive/powered statement → NOT_STATED; the
+  driverCount ambiguity (2 vs 3 transducers) stands.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -107,12 +132,12 @@ meant to separate. Ledger: `round29-third-party-ledger.json`; history: `round29-
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2426** |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **243** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **230** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **30** |
+| `THIRD_PARTY_VERIFIED` | 24 | **43** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **208 / 155 URLs** |
-| records with backlog | 336 of 657 | **332 of 657** |
+| queue items | 212 / 157 URLs | **195 / 149 URLs** |
+| records with backlog | 336 of 657 | **326 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
