@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 306
+      "count": 313
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 67
+      "count": 60
     },
     {
       "field": "driverCount",
@@ -52,19 +52,19 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 494
+      "count": 501
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 38
+      "count": 37
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 52
+      "count": 46
     }
   ],
   "resolvedSourceUrls": [
@@ -346,6 +346,13 @@
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
     "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
     "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158",
+    "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+    "https://www.neumann.com/en-us/products/historical/kh-310-a",
+    "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+    "https://www.neumann.com/en-us/products/monitors/kh-150",
+    "https://www.neumann.com/en-us/products/monitors/kh-420",
+    "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+    "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
     "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
     "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",

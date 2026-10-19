@@ -1469,6 +1469,19 @@
         "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf"
       ],
       "note": "Dealer host; support only."
+    },
+    {
+      "host": "www.neumann.com",
+      "status": "ESTABLISHED",
+      "operator": "Georg Neumann GmbH (Sennheiser electronic GmbH & Co. KG)",
+      "evidence": [
+        "https://www.neumann.com/en-us/products/monitors/kh-120-ii/ newsletter consent block: \"You agree to receive newsletters from Georg Neumann GmbH ...\", and the same page carries the manufacturer's own \"DATA & DIAGRAMS\" specification table (woofer 130 mm, tweeter 25 mm, 145 W / 100 W amplifiers).",
+        "https://www.neumann.com/en-us/products/historical/kh-310-a \"DATA & DIAGRAMS\" table lists the KH 310 A drivers and amplifiers under the Neumann brand."
+      ],
+      "sources": [
+        "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+        "https://www.neumann.com/en-us/products/historical/kh-310-a"
+      ]
     }
   ]
 }

@@ -7478,6 +7478,112 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "\"HF Driver | 2409H\"; \"LF Driver | 728G - 8in (203mm)\"; \"Dividing Network Transition Frequency | 1.7 kHz\"; \"LF Driver Power Handling | 250W Class D\"; \"Amplifier Power Rating | 250W\"; inputs are XLR analog and XLR AES3."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 120 A G product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Page heading \"KH 120 A G - Two Way Nearfield Monitor\". Table: \"Woofer | 130 mm (5.25\\\") magnetically shielded with protecting black metal grille\"; \"Tweeter | 25 mm (1\\\") with protecting black metal grille\"; \"Controller design | Analog; active\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 80 W\"; \"Output power tweeter amplifier (THD+N with limiter deactivated: 10%) | 80 W\"; \"Mains Power Supply: SMPS: 100-240 V; 50/60 Hz\"."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/historical/kh-310-a",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 310 A product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 7,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Page heading \"KH 310 A - Three Way Nearfield Monitor\". Table: \"Woofer | 210 mm (8 1/4\\\") magnetically sheilded\"; \"Tweeter | 25 mm (1\\\") with protecting black metal grille\"; \"Protection circuitry | Independent thermo limiters for woofer, midrange dome and tweeter\"; \"Crossover frequency | 650 Hz and 2.0 kHz\"; \"Controller design | Analog; active\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 210 W\"; tweeter 90 W; \"Mains Power Supply: SMPS: 100-240 V\"."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 80 DSP A G product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2,
+        3
+      ],
+      "chunksTotal": 7,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Mechanics | Woofer | 100 mm (4\\\") with protecting black metal grille\"; \"Tweeter | 25 mm (1\\\") with protecting black metal grille\"; \"Controller design | Digital; active\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 120 W\"; \"Output power tweeter amplifier (THD+N with limiter deactivated: 10%) | 70 W\"; \"Mains Power Supply: input voltage; frequency | 100-240 V; 50/60 Hz\"."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 120 II product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Page title \"KH 120 II - Neumann Active Studio Monitor\". Table: \"Woofer | 130 mm; (5.25\\\") with protecting black metal grille\"; \"Tweeter | 25 mm; (1\\\") with protecting black metal grille\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 145 W\"; \"Output power tweeter amplifier (THD+N with limiter deactivated: 10%) | 100 W\"; \"Mains Power Supply: input voltage; frequency | 100-240 V; 50/60 Hz\"."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/monitors/kh-150",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 150 product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 5,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Mechanics | Woofer | 165 mm; (6.5\\\") with protecting black metal grille\"; \"Tweeter | 25 mm; (1\\\") with protecting black metal grille\"; \"Output power tweeter amplifier (THD+N with limiter deactivated: 10%) | 100 W\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 0.1%) | 120 W\"; \"Mains Power Supply: input voltage; frequency | 100-240 V; 50/60 Hz\"."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/monitors/kh-420",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 420 product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Page heading \"KH 420 - Three Way Midfield Monitor\". Table: \"Woofer | 265 mm (10\\\") with magnetic shielding\"; \"Tweeter | 25 mm (1\\\") with protecting black metal grille\"; \"Protection circuitry | Independent thermo limiters for woofer, midrange dome and tweeter\"; \"Crossover frequency | 570 Hz and 2.0 kHz\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 330 W\"; tweeter amplifier 140 W."
+    },
+    {
+      "url": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+      "host": "www.neumann.com",
+      "document": "Neumann KH 750 DSP product page, \"DATA & DIAGRAMS\"",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Description: \"The newly designed 10\\\" long-throw driver has a strong linear working magnet system with ELFF™ technology\". Table: \"Controller design | Digital; active\"; \"Output power woofer amplifier (THD+N with limiter deactivated: 10%) | 256 W\"; \"Mains Power Supply: input voltage; frequency | SMPS: 100-240 V; 50/60 Hz\"."
     }
   ],
   "openQuestionsForOwner": [

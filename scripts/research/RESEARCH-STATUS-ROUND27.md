@@ -530,6 +530,39 @@ lists the external Crown amplifier the system requires, so `active` is recorded 
 Research backlog: 361 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 325 source URLs resolved in total.
 
+## Batch 14 — the Neumann KH monitor line
+
+`www.neumann.com` was not in the source-host allowlist. It was added in this round as **ESTABLISHED**
+with the operator evidence taken from the site itself ("newsletters from Georg Neumann GmbH") and the
+two product pages used as sources. The policy rule — a host may support `MANUFACTURER_VERIFIED` only
+when `ESTABLISHED` and that link is recorded — is therefore satisfied before any value was written.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `neumann-kh120` | `driverCount` / `active` | 2 / true | KH 120 A G: 130 mm (5.25") woofer + 25 mm (1") tweeter; 80 W + 80 W amplifiers; "Analog; active" |
+| `neumann-kh310` | `driverCount` / `active` | 3 / true | KH 310 A: three-way, crossovers 650 Hz / 2.0 kHz, limiters "for woofer, midrange dome and tweeter"; 210 W / 90 W |
+| `neumann-kh-80-dsp` | `driverCount` / `active` | 2 / true | 100 mm (4") woofer + 25 mm (1") tweeter; 120 W / 70 W; "Digital; active" |
+| `neumann-kh-120-ii` | `driverCount` / `active` | 2 / true | 130 mm (5.25") woofer + 25 mm (1") tweeter; 145 W / 100 W; page titled "Active Studio Monitor" |
+| `neumann-kh-150` | `driverCount` / `active` | 2 / true | 165 mm (6.5") woofer + 25 mm (1") tweeter; built-in woofer/tweeter amplifiers |
+| `neumann-kh-420` | `driverCount` / `active` | 3 / true | KH 420: three-way, crossovers 570 Hz / 2.0 kHz, limiters naming midrange dome; 330 W / 140 W |
+| `neumann-kh-750-dsp` | `driverCount` / `active` | 1 / true | single 10" long-throw driver; 256 W amplifier; "Digital; active" |
+
+The KH 310 and KH 420 `driverCount` values rest on the three-way designation plus the protection
+clause that enumerates woofer, midrange dome and tweeter and the two printed crossover frequencies —
+not on a midrange dimension row, which those tables do not print.
+
+## Counts after batch 14
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 814 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 106 |
+| no provenance at all | 176 |
+
+Research backlog: 354 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+332 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

@@ -2986,6 +2986,365 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://jblpro.com/en-US/products/708p"
+    },
+    {
+      "id": "neumann-kh120",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 130 mm (5.25\") woofer plus one 25 mm (1\") tweeter in a two-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g"
+    },
+    {
+      "id": "neumann-kh120",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board woofer and tweeter amplifiers (80 W each at the 10% THD+N condition) with an internal switched-mode mains supply; controller design \"Analog; active\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g"
+    },
+    {
+      "id": "neumann-kh310",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/historical/kh-310-a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The three-way title, the two crossover frequencies (650 Hz and 2.0 kHz) and the protection clause naming \"woofer, midrange dome and tweeter\" enumerate three transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-310-a"
+    },
+    {
+      "id": "neumann-kh310",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/historical/kh-310-a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in amplifiers per band (210 W woofer, 90 W tweeter at the 10% THD+N condition), internal SMPS; controller design \"Analog; active\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-310-a"
+    },
+    {
+      "id": "neumann-kh-80-dsp",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 100 mm (4\") woofer plus one 25 mm (1\") tweeter; the protection and limiter text also names exactly a woofer and a tweeter."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g"
+    },
+    {
+      "id": "neumann-kh-80-dsp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board 120 W woofer / 70 W tweeter amplifiers with an internal universal mains supply; controller design \"Digital; active\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g"
+    },
+    {
+      "id": "neumann-kh-120-ii",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 130 mm (5.25\") woofer plus one 25 mm (1\") tweeter in a two-way system."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/"
+    },
+    {
+      "id": "neumann-kh-120-ii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board 145 W woofer / 100 W tweeter amplifiers with an internal mains supply; the page title calls it an \"Active Studio Monitor\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/"
+    },
+    {
+      "id": "neumann-kh-150",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-150",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 165 mm (6.5\") woofer plus one 25 mm (1\") tweeter in a two-way monitor."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-150"
+    },
+    {
+      "id": "neumann-kh-150",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-150",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Separate built-in woofer and tweeter amplifiers and an internal mains supply."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-150"
+    },
+    {
+      "id": "neumann-kh-420",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-420",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Three-way title, two crossover frequencies and a protection clause naming woofer, midrange dome and tweeter enumerate three transducers."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-420"
+    },
+    {
+      "id": "neumann-kh-420",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-420",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in per-band amplification (330 W woofer, 140 W tweeter at the 10% THD+N condition)."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-420"
+    },
+    {
+      "id": "neumann-kh-750-dsp",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: A single 10\" long-throw driver; the page describes no other transducer."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp"
+    },
+    {
+      "id": "neumann-kh-750-dsp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Built-in 256 W woofer amplifier and internal SMPS; controller design \"Digital; active\"."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp"
     }
   ]
 }

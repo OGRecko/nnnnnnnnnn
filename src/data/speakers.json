@@ -4089,8 +4089,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4144,16 +4144,16 @@
     },
     "notes": "Manufacturer data: 52 Hz–21 kHz ±3 dB; 5.25 in woofer; 1 in tweeter; 80 W + 80 W amplifier output at the published 10% THD+N condition. A separate 50 W + 50 W figure is specified at 0.1% THD+N. Powered monitor; no passive nominal impedance is asserted.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 130 mm (5.25\") woofer plus one 25 mm (1\") tweeter in a two-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-120-a-g",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board woofer and tweeter amplifiers (80 W each at the 10% THD+N condition) with an internal switched-mode mains supply; controller design \"Analog; active\"."
     }
   },
   {
@@ -4163,8 +4163,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4218,16 +4218,16 @@
     },
     "notes": "Manufacturer documentation: KH 310 three-way tri-amplified monitor with 210 mm LF driver (~8.27 in), 75 mm midrange and 25 mm tweeter; 150 W LF + 70 W mid + 70 W HF continuous amplification (310 W total). Frequency response is not populated here because the retained manufacturer page/datasheet variants use different response-limit definitions; do not collapse those into a single unqualified range. Source: Neumann KH 310 technical documentation.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-310-a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The three-way title, the two crossover frequencies (650 Hz and 2.0 kHz) and the protection clause naming \"woofer, midrange dome and tweeter\" enumerate three transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/historical/kh-310-a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in amplifiers per band (210 W woofer, 90 W tweeter at the 10% THD+N condition), internal SMPS; controller design \"Analog; active\"."
     }
   },
   {
@@ -38172,7 +38172,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38223,20 +38223,20 @@
       "source": "https://www.neumann.com/en-be/products/monitors/kh-80-dsp-a-g",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Neumann official KH 80 DSP A G page (the anthracite variant; the white KH 80 DSP A W is listed by Neumann as a colour variant and its page was not read). Free-field response 57 Hz–21 kHz (±3 dB) is stored; 53 Hz–21 kHz (±6 dB) and 61 Hz–20 kHz (±1.25 dB pass band) are also published. Amplifiers: 120 W woofer + 70 W tweeter at 10% THD+N with limiter deactivated (stored 190 W is that sum); 90 W + 50 W at 0.1% THD+N. Drivers: 100 mm (4 in) woofer + 25 mm (1 in) tweeter; crossover 1.8 kHz, 48 dB/oct; front-ported; 233 x 154 x 194 mm; 3.5 kg; max SPL 108.8 dB (half space, 3% THD). Active monitor: no sensitivity or speaker impedance is published (the 14 kOhm figure is analog input impedance, not a speaker rating). Horizontal and vertical directivity are published only as plot images on the page; no data file was imported.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 100 mm (4\") woofer plus one 25 mm (1\") tweeter; the protection and limiter text also names exactly a woofer and a tweeter."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board 120 W woofer / 70 W tweeter amplifiers with an internal universal mains supply; controller design \"Digital; active\"."
     }
   },
   {
@@ -38246,7 +38246,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38276,7 +38276,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": false,
     "frequencyResponse": {
       "low_hz": 44,
@@ -38301,16 +38301,16 @@
     },
     "notes": "Manufacturer: 44 Hz–21 kHz (±3 dB); 145 W LF + 100 W HF amplification; 5.25-inch woofer + tweeter. Active 2-way with DSP. Source: Neumann KH 120 II.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 130 mm (5.25\") woofer plus one 25 mm (1\") tweeter in a two-way system."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-120-ii/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board 145 W woofer / 100 W tweeter amplifiers with an internal mains supply; the page title calls it an \"Active Studio Monitor\"."
     }
   },
   {
@@ -38320,7 +38320,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38350,7 +38350,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "frequencyResponse": {
       "low_hz": 39,
@@ -38375,10 +38375,16 @@
     },
     "notes": "Neumann KH 150 official specification: 39 Hz–21 kHz ±3 dB.",
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-150",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Separate built-in woofer and tweeter amplifiers and an internal mains supply."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-150",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 165 mm (6.5\") woofer plus one 25 mm (1\") tweeter in a two-way monitor."
     }
   },
   {
@@ -38388,7 +38394,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38439,20 +38445,20 @@
       "source": "https://www.neumann.com/en-be/products/monitors/kh-420",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 3,
     "panel": null,
     "notes": "Neumann official KH 420 (KH 420 G) page. Free-field response 26 Hz–22 kHz (±3 dB) is stored; 25 Hz–22 kHz (±6 dB) and 28 Hz–20 kHz (±2 dB pass band) are also published. Three-way tri-amplified: the page text states Class AB amplifiers of 330 W and two times 140 W (the data table lists woofer 330 W and tweeter 140 W at 10% THD+N, limiter deactivated); the stored 610 W is 330 + 140 + 140. Drivers: 265 mm (10 in) woofer, fabric-dome midrange (size not published), 25 mm (1 in) tweeter; crossover 570 Hz and 2.0 kHz; front-ported; 645 x 330 x 444 mm; 35.0 kg; max SPL 122.4 dB (half space, 3% THD). Active monitor: no sensitivity or speaker impedance published. Directivity is published only as plot images (both cabinet orientations); no data file imported.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-420",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Three-way title, two crossover frequencies and a protection clause naming woofer, midrange dome and tweeter enumerate three transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-420",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in per-band amplification (330 W woofer, 140 W tweeter at the 10% THD+N condition)."
     }
   },
   {
@@ -38462,7 +38468,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38513,20 +38519,20 @@
       "source": "https://www.neumann.com/en-be/products/monitors/kh-750-dsp",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 1,
     "panel": null,
     "notes": "Neumann official KH 750 DSP (KH 750 DSP D G) page. Free-field response 18 Hz–750 Hz (±3 dB) is stored; 16–800 Hz (±6 dB) is also published. Amplifier: 256 W at 10% THD+N with limiter deactivated. Single 265 mm (10 in) driver in a sealed cabinet; fixed 80 Hz, 4th-order crossover for its bass-managed output; 383 x 330 x 383 mm; 19.5 kg; bass-capability max SPL 105.0 dB (half space, 3% THD, 50–100 Hz). Active subwoofer: no sensitivity or speaker impedance published (the >13 kOhm figure is analog input impedance).",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: A single 10\" long-throw driver; the page describes no other transducer."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Built-in 256 W woofer amplifier and internal SMPS; controller design \"Digital; active\"."
     }
   },
   {

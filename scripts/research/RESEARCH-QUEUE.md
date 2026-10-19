@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **361** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
+Records still needing research: **354** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **119** fields (no source recorded).
-- NO_PROVENANCE: **177** fields (null value, no provenance object).
+- UNSOURCED: **106** fields (no source recorded).
+- NO_PROVENANCE: **176** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -133,13 +133,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
-| neumann-kh-120-ii | Neumann | KH 120 II (`neumann-kh-120-ii`) | 0 | 2 | 0 |
-| neumann-kh-150 | Neumann | KH 150 (`neumann-kh-150`) | 0 | 1 | 1 |
-| neumann-kh-420 | Neumann | KH 420 (`neumann-kh-420`) | 0 | 2 | 0 |
-| neumann-kh-750-dsp | Neumann | KH 750 DSP (`neumann-kh-750-dsp`) | 0 | 2 | 0 |
-| neumann-kh-80-dsp | Neumann | KH 80 DSP (`neumann-kh-80-dsp`) | 0 | 2 | 0 |
-| neumann-kh120 | Neumann | KH 120 (`neumann-kh120`) | 0 | 2 | 0 |
-| neumann-kh310 | Neumann | KH 310 (`neumann-kh310`) | 0 | 2 | 0 |
 | nexo-ps15 | Nexo | PS15 (`nexo-ps15`) | 2 | 0 | 0 |
 | ohm-walsh-2 | Ohm Acoustics | Walsh 2 (`ohm-walsh-2`) | 0 | 0 | 2 |
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
