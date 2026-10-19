@@ -143,11 +143,20 @@ def main():
 
     total_items = len(items)
     total_urls = len(groups)
+    # An item is "assessed" when the URL that carries it has a recorded field outcome for
+    # that exact record+field. NOT_STATED / CONFLICT / INACCESSIBLE are assessments: the
+    # document was opened and the value could not be verified. Only items with no recorded
+    # outcome are still truly unassessed, so the two numbers are reported separately.
+    assessed_items = sum(
+        1 for row in url_rows for o in row['outstanding'] if o['recordedOutcome'])
+    unassessed_items = total_items - assessed_items
     queue = {
         'generated_from': ['src/data/speakers.json', 'scripts/research/queue-url-status.json'],
         'schema': 'provenance-queue/v2',
         'liveRecords': len(db),
         'uncheckedItems': total_items,
+        'assessedItems': assessed_items,
+        'unassessedItems': unassessed_items,
         'uniqueSourceUrls': total_urls,
         'urlsByStatus': dict(sorted(url_status_counts.items())),
         'uncheckedItemsByUrlStatus': dict(sorted(item_status_counts.items())),
@@ -239,7 +248,8 @@ def main():
     with open(OUT_MD, 'w', encoding='utf-8') as fh:
         fh.write('\n'.join(lines))
 
-    print(f'records={len(db)} unchecked_items={total_items} unique_urls={total_urls} '
+    print(f'records={len(db)} unchecked_items={total_items} (assessed={assessed_items}, '
+          f'unassessed={unassessed_items}) unique_urls={total_urls} '
           f'resolved_urls={len(resolved_urls)} warnings={len(warnings)}')
 
 

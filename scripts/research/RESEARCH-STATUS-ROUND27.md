@@ -183,6 +183,46 @@ provenance. The work below uses the repository numbers.
 | `martinlogan-esl-x` | driverCount 3 | **promoted** | "XStat electrostatic transducer" + "Twin 8-inch high-excursion woofers" = 3; `active` NOT_STATED |
 | `sony-sony-ht-a7000` | driverCount 11 → **null** | **retracted** | The Sony spec page states "Amplifier Channels 11ch" and "Speaker Structure 7.1.2ch" but never enumerates drive units; the stored 11 was the amplifier channel count, not a documented driver complement |
 
+## Batch 5 — the complete Klipsch spec-sheet cluster (13 URLs)
+
+Twelve sheets were retrieved in full; one URL serves no document.
+
+| Sheet | Record | Outcome |
+| --- | --- | --- |
+| AWR-650-SM | `klipsch-awr650sm` | `active` NOT_STATED |
+| Forte IV | `klipsch-forte-iv` | `active` NOT_STATED |
+| Heresy IV | `klipsch-heresy-iv` | `active` NOT_STATED |
+| R-41M | `legacy-klip-8` | `active` NOT_STATED |
+| RP-5000F II | `klipsch-rp-5000f-ii` | `active` NOT_STATED |
+| RP-500M II | `klipsch-rp500m` | `active` NOT_STATED |
+| RP-500M | `klipsch-rp-500m` | `active` NOT_STATED |
+| RP-6000F II | `klipsch-rp6000f` | `active` NOT_STATED |
+| RP-600M II | `klipsch-rp600m` | `active` NOT_STATED |
+| RP-600M | `klipsch-rp-600m` | `active` NOT_STATED |
+| RP-8000F II | `klipsch-rp-8000f-ii` | `active` NOT_STATED |
+| RP-8060FA II | `klipsch-rp8060fa` | `active` NOT_STATED |
+| Cornwall IV | `klipsch-cornwall-iv` | INACCESSIBLE — S3 `AccessDenied` XML, no PDF |
+
+Every one of the twelve sheets publishes a peak/continuous power-handling figure and passive input
+terminals (binding posts, bi-wire/bi-amp) but none writes "passive", "active", "powered" or "built-in
+amplification". Power handling is a rating, not a classification, so the fields stay unverified. The
+Forte IV sheet's "PASSIVE RADIATOR" line refers to the KD-15 driver that the same table lists as a
+"Passive cone radiator" beside the active woofer — it classifies a driver, not the system.
+
+## Queue reporting fix: assessed vs unassessed
+
+`uncheckedItems` counted every `CITED_IN_NOTES_UNCHECKED` field, including fields whose document had
+already been opened and found not to state the value. That made the queue look permanently unconverged.
+`make-provenance-queue.py` now also reports `assessedItems` (a recorded outcome exists for that exact
+record+field) and `unassessedItems`:
+
+```
+records=657 unchecked_items=221 (assessed=221, unassessed=0) unique_urls=162 resolved_urls=291 warnings=0
+```
+
+Every remaining cited field has been triaged against its document. What remains is that the evidence
+did not support the value, not that nobody looked.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs, 193 unsourced fields, 189 fields with no provenance,

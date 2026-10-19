@@ -323,6 +323,110 @@
       "valueKept": false,
       "source": "https://www.martinlogan.com/en/product/electromotion-esl-x",
       "note": "The page publishes a recommended amplifier power (20-400 W per channel), impedance and bi-wire binding posts but never states passive/active or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-awr650sm",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+      "note": "The AWR-650-SM outdoor speaker spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-forte-iv",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+      "note": "The Forte IV spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-heresy-iv",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+      "note": "The Heresy IV spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "legacy-klip-8",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+      "note": "The R-41M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp-5000f-ii",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+      "note": "The RP-5000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp500m",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+      "note": "The RP-500M II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp-500m",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+      "note": "The RP-500M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp6000f",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+      "note": "The RP-6000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp600m",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+      "note": "The RP-600M II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp-600m",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+      "note": "The RP-600M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp-8000f-ii",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+      "note": "The RP-8000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-rp8060fa",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+      "note": "The RP-8060FA II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
+    },
+    {
+      "record": "klipsch-cornwall-iv",
+      "field": "active",
+      "outcome": "INACCESSIBLE",
+      "valueKept": false,
+      "source": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+      "note": "The spec-sheet URL returns an S3 AccessDenied error document instead of a PDF. Field left unchanged."
     }
   ],
   "elx200_15": {

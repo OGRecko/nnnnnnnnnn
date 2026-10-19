@@ -92,7 +92,7 @@ Field outcomes: `PROMOTED` (value now verified), `NOT_STATED` (source opened, fi
 | 58 | CHECKED_PARTIAL | 2 | www.warehousesound.com | jbl-eon15.active (SUPPORTED_NOT_PROMOTED); jbl-eon15.driverCount (SUPPORTED_NOT_PROMOTED) | https://www.warehousesound.com/r/jblEon15.pdf |
 | 59 | CHECKED_PARTIAL | 1 | assets.boseprofessional.com | bose-freespace-ds40se.active (NOT_STATED) | https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf |
 | 60 | CHECKED_PARTIAL | 1 | assets.klipsch.com | klipsch-awr650sm.active (NOT_STATED) | https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf |
-| 61 | CHECKED_PARTIAL | 1 | assets.klipsch.com | klipsch-cornwall-iv.active (NOT_STATED) | https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf |
+| 61 | CHECKED_PARTIAL | 1 | assets.klipsch.com | klipsch-cornwall-iv.active (INACCESSIBLE) | https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf |
 | 62 | CHECKED_PARTIAL | 1 | assets.klipsch.com | klipsch-forte-iv.active (NOT_STATED) | https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf |
 | 63 | CHECKED_PARTIAL | 1 | assets.klipsch.com | klipsch-heresy-iv.active (NOT_STATED) | https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf |
 | 64 | CHECKED_PARTIAL | 1 | assets.klipsch.com | legacy-klip-8.active (NOT_STATED) | https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf |

@@ -6,6 +6,8 @@
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
   "uncheckedItems": 221,
+  "assessedItems": 221,
+  "unassessedItems": 0,
   "uniqueSourceUrls": 162,
   "urlsByStatus": {
     "CHECKED_PARTIAL": 147,
@@ -2453,15 +2455,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The AWR-650-SM outdoor speaker spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way outdoor speaker with one 6.5 in (165 mm) IMG woofer and two 0.75 in (19 mm) polymer dome tweeters (three drive units)."
+      "evidence": "Specifications table: \"power handling 50W continuous / 200W peak\", \"recommended amplifier power 100 W / 200 W peak\"; the data table lists no input connectors at all; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
@@ -2479,16 +2481,16 @@
           "record": "klipsch-cornwall-iv",
           "field": "active",
           "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "The spec-sheet URL returns an S3 AccessDenied error document instead of a PDF. Field left unchanged."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 15 in woofer (three drive units)."
+      "evidence": "The URL does not serve a document: the response is an S3 XML error, \"<Code>AccessDenied</Code> <Message>Access Denied</Message>\". No specification text is served, so the field cannot be assessed from this URL."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
@@ -2507,15 +2509,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The Forte IV spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 12 in woofer (three drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 100W / 400W\"; \"INPUTS Dual binding posts / bi-wire / bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
@@ -2534,15 +2536,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The Heresy IV spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: three-way design with a 1 in titanium diaphragm compression driver, a 1.75 in titanium diaphragm compression driver and a 12 in woofer (three drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 100W/400W\"; \"INPUTS Dual binding posts / bi-wire / bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
@@ -2561,15 +2563,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The R-41M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way bookshelf speaker with one 4 in (102 mm) IMG woofer and one 1 in (25 mm) aluminium dome tweeter."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 50W/200W\"; \"INPUTS Single Gold Plated Binding Posts\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
@@ -2615,15 +2617,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-5000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with two 5.25 in (133 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 100W / 400W\"; \"INPUTS Dual aluminum binding posts / bi-wire / bi-amp with Dolby Atmos passthrough\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
@@ -2642,15 +2644,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-500M II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with one 5.25 in (133 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 75W/300W\"; \"INPUTS Single aluminum binding posts\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
@@ -2669,15 +2671,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-500M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with one 5.25 in (133 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 75W/300W\"; \"INPUTS Single binding posts\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
@@ -2696,15 +2698,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-6000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with two 6.5 in (165 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 125W/500W\"; \"INPUTS Dual binding posts / bi-wire / bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
@@ -2723,15 +2725,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-600M II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with one 6.5 in (165 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 100W/400W\"; \"INPUTS Dual aluminum binding posts/bi-wire/bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
@@ -2750,15 +2752,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-600M spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with one 6.5 in (165 mm) Cerametallic woofer and one 1 in (25 mm) titanium LTS vented tweeter."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 100W/400W\"; \"INPUTS Dual binding posts/bi-wire/bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
@@ -2777,15 +2779,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-8000F II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: two-way design with two 8 in (203 mm) Cerametallic woofers and one 1 in (25 mm) titanium LTS vented tweeter (three drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 150W / 600W\"; \"INPUTS Dual aluminum binding posts / bi-wire / bi-amp with Dolby Atmos passthrough\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
@@ -2804,15 +2806,15 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "No explicit passive/active, powered/unpowered, or built-in amplifier wording for this model; a recommended amplifier-power range alone is not accepted as evidence, so the field stays unverified."
+          "recordedNote": "The RP-8060FA II spec sheet publishes power handling and passive input terminals but never states passive/active, powered or built-in amplification. Field stays unverified."
         }
       ],
-      "checkedRound": 22,
+      "checkedRound": 27,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
         0
       ],
-      "evidence": "Specification sheet: Dolby Atmos-enabled floorstanding speaker with two 8 in (203 mm) Cerametallic woofers, one 1 in titanium LTS vented tweeter, plus a height-channel 6.5 in woofer and 1 in titanium dome tweeter (five drive units)."
+      "evidence": "Specifications table: \"POWER HANDLING (CONT/PEAK) 150W / 600W\"; \"INPUTS Dual aluminum binding posts / bi-wire / bi-amp\"; nominal impedance 8 ohms compatible. The sheet never uses the words passive, active, powered or built-in amplification. In the Forte IV sheet \"PASSIVE RADIATOR\" refers to the KD-15 driver, which the same table lists as a \"Passive cone radiator\" beside the active woofer, not to the loudspeaker system."
     },
     {
       "url": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
