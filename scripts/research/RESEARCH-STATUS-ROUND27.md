@@ -337,7 +337,7 @@ run failed 15 suites only because the dependency tree had not been reinstalled i
 | --- | --- |
 | `npm ci` | 743 packages installed; the earlier `tsc: not found` and 15 red suites were a missing toolchain in a fresh sandbox, not a regression |
 | `npm run typecheck` | clean |
-| `npm test` | 82/82 suites |
+| `npm test` | 83/83 suites |
 | `npm run build` | Vite client bundle, `dist/server.cjs`, `dist/solverWorker.cjs` |
 | dev server | `:3000`, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |
 | `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
@@ -937,14 +937,17 @@ Run against the tree that contains every change in this round:
 | Check | Result |
 | --- | --- |
 | `npm run build` (vite + server + solver worker bundles) | pass — `dist/index.html`, one JS bundle, `dist/server.cjs`, `dist/solverWorker.cjs` |
+| `npm run validate:directivity` | **FAIL** (open gate): forward 20.02 dB / backward -21.17 dB against a specified 30 dB; up from -0.67/+0.87 before the equivalent-source rewrite |
 | `npm run typecheck` | clean |
-| `npm test` | 82/82 suites |
+| `npm test` | 83/83 suites |
 | `audit:speaker` / `audit:provenance` / `audit:final` / `audit:third-party` | `problems: []` |
 | `docs:release` / `docs:consistency` | regenerated; `issues: []` |
-| `release:source` / `release:source:verify` | 639 files, treeSha256 `81d6a2d04fa11b63913c82c8f0c83836cdfe349d82b9a74b8ab3b329a782d6d5`, verification `ok: true` |
+| `release:source` / `release:source:verify` | 641 files, treeSha256 `0bee44ba953172fbfc76911eebb150ebde3b1e06b851b6898d4f832908c2ed46`, verification `ok: true` |
 | `audit:release` | 657 files checked, 0 duplicate ids, 0 duplicate brand+model, `problems: []`, warningCount 0 |
 | `npm audit --audit-level=high` | no high/critical findings (8 moderate in the electron-builder toolchain only) |
 | dev server (`npm run dev`) | starts on :3000, `/` 200, `/api/health` `{"status":"ok","desktopStorage":false}` |
+| `APP_URL=… node scripts/production-smoke.mjs` | PASS health, public validation, Cloud Tasks 403 |
+| `APP_URL=… SMOKE_RUN_SOLVER=true node scripts/production-smoke.mjs` | PASS end to end: anonymous submission, capability authorization, solver completion, artifact retrieval, report export |
 
 Data-to-simulation spot check through the real response builder:
 
