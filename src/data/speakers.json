@@ -10577,8 +10577,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -10632,16 +10632,16 @@
     },
     "notes": "Focal Shape 65: active 2-way monitor; 6.5-inch Flax woofer and 1-inch aluminium-magnesium M-shaped tweeter; 40 Hz–35 kHz ±3 dB; high-frequency amplifier 35 W + LF/mid 80 W = 115 W internal amplification. Source: Focal official Shape 65 product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 6.5\" (16.5 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 6.5\" double passive radiator is not a driven transducer and is not counted."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The sheet lists the monitor's own 80 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
     }
   },
   {
@@ -10651,8 +10651,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -10706,16 +10706,16 @@
     },
     "notes": "Manufacturer: 60 Hz–35 kHz (±3 dB); 25 W LF + 25 W HF amplification; 4-inch LF + 1-inch HF. Active 2-way. Source: Focal Shape 40.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One 4\" (10 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 4\" double passive radiator is not a driven transducer and is not counted."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The sheet lists the monitor's own mid/bass and high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
     }
   },
   {
@@ -36853,7 +36853,7 @@
     "category": "custom",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -36914,10 +36914,10 @@
       "note": "Round 22 (2026-10-19): manufacturer page evidence: Focal Shape 50 product page: 1 in aluminium/magnesium inverted dome tweeter and 5 in Flax woofer (2 drive units)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The sheet lists the monitor's own 60 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
     }
   },
   {

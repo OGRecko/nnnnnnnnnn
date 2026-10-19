@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **354** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
+Records still needing research: **351** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **106** fields (no source recorded).
+- UNSOURCED: **101** fields (no source recorded).
 - NO_PROVENANCE: **176** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -23,8 +23,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | altec-model-19 | Altec Lansing | Model 19 (`altec-model-19`) | 0 | 0 | 2 |
 | amazon-echo | Amazon | Echo (4th gen) (`amazon-echo`) | 0 | 1 | 1 |
 | ar-3a | Acoustic Research | AR-3a (`ar-3a`) | 0 | 2 | 0 |
-| ath-focal-shape40 | Focal | Shape 40 (`ath-focal-shape40`) | 0 | 2 | 0 |
-| ath-focal-shape65 | Focal | Shape 65 (`ath-focal-shape65`) | 0 | 2 | 0 |
 | b&w-801 | Bowers & Wilkins | 801 Matrix (`b&w-801`) | 1 | 0 | 1 |
 | bang-olufsen-beosound-balance | Bang & Olufsen | Beosound Balance (`bang-olufsen-beosound-balance`) | 2 | 0 | 0 |
 | barefoot-micromain27 | Barefoot Sound | MicroMain27 (`barefoot-micromain27`) | 0 | 2 | 0 |
@@ -216,7 +214,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | focal-kanta-n-2 | Focal | Kanta N°2 (`focal-kanta-n-2`) | 1 | 0 | 0 |
 | focal-kanta-n-3 | Focal | Kanta N°3 (`focal-kanta-n-3`) | 1 | 0 | 0 |
 | focal-scala-utopia-evo | Focal | Scala Utopia Evo (`focal-scala-utopia-evo`) | 1 | 0 | 0 |
-| focal-shape-50 | Focal | Shape 50 (`focal-shape-50`) | 0 | 1 | 0 |
 | focal-sopra-n-1 | Focal | Sopra N°1 (`focal-sopra-n-1`) | 1 | 0 | 0 |
 | focal-sopra-n-2 | Focal | Sopra N°2 (`focal-sopra-n-2`) | 1 | 0 | 0 |
 | focal-sopra-n-3 | Focal | Sopra N°3 (`focal-sopra-n-3`) | 1 | 0 | 0 |

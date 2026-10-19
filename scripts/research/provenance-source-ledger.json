@@ -7598,6 +7598,48 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Per-model blocks of the specification table. 801 D4: \"3-way vented-box system\"; \"1x ø25mm (1in) diamond dome high-frequency 1x ø150mm (6in) Continuum cone FST midrange 2x ø250mm (10in) Aerofoil cone bass units\"; \"8Ω (minimum 3.0Ω)\"; \"50W – 1000W into 8Ω on unclipped programme\". 802 D4: \"2x ø200mm (8in)\" bass, \"8Ω (minimum 3.0Ω)\", \"50W – 500W into 8Ω\". 803 D4: \"1x ø130mm (5in)\" midrange, \"2x ø180mm (7in)\" bass, \"8Ω (minimum 3.0Ω)\", \"50W – 500W into 8Ω\". 804 D4: \"1x ø130mm (5in)\" midrange, \"2x ø165mm (6.5in)\" bass, \"8Ω (minimum 3.0Ω)\", \"50W – 200W into 8Ω\". 805 D4: \"2-way vented-box system\"; \"1x ø25mm (1in) diamond dome high-frequency 1x ø165mm (6.5in) Continuum cone bass midrange\"; \"8Ω (minimum 4.6Ω)\"; \"50W – 120W into 8Ω on unclipped programme\". No row names a passive or active design."
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+      "host": "media.focal-naim.com",
+      "document": "Focal Shape 40 product sheet (English), technical table",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Electronic section\" rows: \"Midrange and low frequency amplifier | 25W, Class AB\"; \"High frequency amplifier | 25W, Class AB\"; \"Automatic standby\"; \"Electrical supply | Voltages | 220-240V ... or 100-120V\"; \"Electrical supply | Connection | IEC plug and detachable power cord\". \"Transducers\": \"Woofer | 4\" (10cm) Flax Cone\"; \"Tweeter | 1\" (25mm) profile Aluminum-Magnesium\". The cabinet also carries a double passive radiator, which is not a driven transducer."
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf",
+      "host": "media.focal-naim.com",
+      "document": "Focal Shape 50 product sheet (English), technical table",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Electronic section\" rows: \"Midrange and low frequency amplifier | 60W, Class AB\"; \"High frequency amplifier | 25W, Class AB\"; \"Automatic standby\"; \"Electrical supply | Voltages | 220-240V ... or 100-120V\"; \"Electrical supply | Connection | IEC plug and detachable power cord\". \"Transducers\": \"Woofer | 5\" (13cm) Flax Cone\"; \"Tweeter | 1\" (25mm) profile Aluminum-Magnesium\". The cabinet also carries a double passive radiator, which is not a driven transducer."
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+      "host": "media.focal-naim.com",
+      "document": "Focal Shape 65 product sheet (English), technical table",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"Electronic section\" rows: \"Midrange and low frequency amplifier | 80W, Class AB\"; \"High frequency amplifier | 25W, Class AB\"; \"Automatic standby\"; \"Electrical supply | Voltages | 220-240V ... or 100-120V\"; \"Electrical supply | Connection | IEC plug and detachable power cord\". \"Transducers\": \"Woofer | 6.5\" (16.5cm) Flax Cone\"; \"Tweeter | 1\" (25mm) profile Aluminum-Magnesium\". The cabinet also carries a double passive radiator, which is not a driven transducer."
     }
   ],
   "openQuestionsForOwner": [

@@ -28,7 +28,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 313
+      "count": 316
     },
     {
       "field": "active",
@@ -40,7 +40,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 60
+      "count": 57
     },
     {
       "field": "driverCount",
@@ -52,7 +52,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 501
+      "count": 503
     },
     {
       "field": "driverCount",
@@ -64,7 +64,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 46
+      "count": 44
     }
   ],
   "resolvedSourceUrls": [
@@ -186,6 +186,9 @@
     "https://martin-audio.com/products/loudspeakers/mla",
     "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
     "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+    "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+    "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf",
+    "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
     "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
     "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
     "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",

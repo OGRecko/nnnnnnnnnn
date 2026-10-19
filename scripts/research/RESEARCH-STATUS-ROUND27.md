@@ -600,6 +600,34 @@ D3/D4 literature examined), so future rounds should not re-spend effort here.
 Research backlog: 354 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 333 source URLs resolved in total.
 
+## Batch 16 — Focal Shape 40 / 50 / 65
+
+Focal's product sheets print an **"Electronic section" that belongs to the loudspeaker**: a
+mid/bass amplifier, a high-frequency amplifier, an IEC mains inlet and a standby circuit. That is
+a statement that the cabinet contains its amplifiers — unlike a recommended external amplifier
+range, which the repository forbids converting into a passive/active verdict. The same table lists
+the transducers, so the driver count is a direct read.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `ath-focal-shape40` | `driverCount` / `active` | 2 / true | 4" (10 cm) Flax woofer + 1" tweeter; 25 W + 25 W Class AB, IEC inlet, standby |
+| `focal-shape-50` | `active` | true | 5" (13 cm) woofer; 60 W + 25 W Class AB, IEC inlet, standby (count already 2) |
+| `ath-focal-shape65` | `driverCount` / `active` | 2 / true | 6.5" (16.5 cm) Flax woofer + 1" tweeter; 80 W + 25 W Class AB, IEC inlet, standby |
+
+The "double passive radiator" printed for each model is not a driven transducer and is not counted.
+
+## Counts after batch 16
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 819 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 101 |
+| no provenance at all | 176 |
+
+Research backlog: 351 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+336 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

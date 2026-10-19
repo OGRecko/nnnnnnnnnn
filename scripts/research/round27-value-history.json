@@ -3345,6 +3345,136 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp"
+    },
+    {
+      "id": "ath-focal-shape40",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 4\" (10 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 4\" double passive radiator is not a driven transducer and is not counted."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf"
+    },
+    {
+      "id": "ath-focal-shape40",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The sheet lists the monitor's own mid/bass and high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf"
+    },
+    {
+      "id": "focal-shape-50",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The sheet lists the monitor's own 60 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf"
+    },
+    {
+      "id": "ath-focal-shape65",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One 6.5\" (16.5 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 6.5\" double passive radiator is not a driven transducer and is not counted."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf"
+    },
+    {
+      "id": "ath-focal-shape65",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The sheet lists the monitor's own 80 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf"
     }
   ]
 }

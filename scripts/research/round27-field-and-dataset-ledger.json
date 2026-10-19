@@ -1499,6 +1499,56 @@
       "valueKept": null,
       "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
       "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "ath-focal-shape40",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+      "note": "One 4\" (10 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 4\" double passive radiator is not a driven transducer and is not counted."
+    },
+    {
+      "record": "ath-focal-shape40",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://media.focal-naim.com/dam/shape-40/fp_shape40_en.pdf",
+      "note": "The sheet lists the monitor's own mid/bass and high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
+    },
+    {
+      "record": "focal-shape-50",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://media.focal-naim.com/dam/shape-50/fp_shape50_en.pdf",
+      "note": "The sheet lists the monitor's own 60 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
+    },
+    {
+      "record": "ath-focal-shape65",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+      "note": "One 6.5\" (16.5 cm) Flax woofer plus one 1\" (25 mm) tweeter. The 6.5\" double passive radiator is not a driven transducer and is not counted."
+    },
+    {
+      "record": "ath-focal-shape65",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://media.focal-naim.com/dam/shape-65/fp_shape65_en.pdf",
+      "note": "The sheet lists the monitor's own 80 W mid/bass and 25 W high-frequency Class AB amplifiers, an IEC mains inlet and a standby circuit as part of the product."
     }
   ],
   "elx200_15": {
