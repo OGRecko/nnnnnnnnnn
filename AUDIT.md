@@ -6,7 +6,7 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 640 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 646 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
 - `node scripts/speaker-quality-audit.mjs` — **PASS**, 657 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 24 embedded response-point datasets (24 manufacturer, 0 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
@@ -23,7 +23,7 @@ This file records the current release-engineering evidence and does not convert 
 - `PARTIALLY_VERIFIED`: 657
 - `UNVERIFIED`: 0
 - `UNAVAILABLE`: 0
-- source-backed fields: sensitivity 305, power 416, impedance 355, resonant frequency 17, voice-coil size 63, woofer size 589, frequency-response limits 561
+- source-backed fields: sensitivity 305, power 416, impedance 355, resonant frequency 18, voice-coil size 63, woofer size 589, frequency-response limits 561
 - embedded JSON response-point datasets: 24
 - declared response-point provenance: manufacturer 24, measurement 0, verified database 0
 - physically modeled response models: 633

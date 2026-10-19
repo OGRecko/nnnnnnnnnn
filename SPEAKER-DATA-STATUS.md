@@ -15,7 +15,7 @@ The live authoritative dataset contains **657 active catalog records**; the revi
 - Sensitivity: 305
 - Power: 416
 - Impedance: 355
-- Resonant frequency: 17
+- Resonant frequency: 18
 - Voice-coil size: 63
 - Woofer size: 589
 - Frequency-response limits: 561

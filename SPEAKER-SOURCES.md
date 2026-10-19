@@ -1326,6 +1326,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - JBL 4311 — frequency-response limits
 - JBL 4311 — impedance
 - JBL 4311 — power
+- JBL 4311 — resonant frequency
 - JBL 4311 — sensitivity
 - JBL 4311 — source-backed response points (manufacturer)
 - JBL 4311 — voice-coil size

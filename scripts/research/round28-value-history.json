@@ -567,6 +567,51 @@
       "action": "CORRECT_NOTE",
       "source": null,
       "reason": "The re-fetched table does not match the stored series; the discrepancy is recorded."
+    },
+    {
+      "id": "jbl-4311",
+      "field": "power",
+      "value": 75,
+      "before": {
+        "value": 75,
+        "notes": null
+      },
+      "after": {
+        "value": 75,
+        "notes": "Round 28 (2026-10-19) field audit: the page's specification row is \"Power Capacity: 75 W continuous program\", and its footnote defines continuous program power as 3 dB greater than continuous sine wave (RMS) power. The stored scalar is that program rating; it is not RMS and must not be converted."
+      },
+      "round": 28,
+      "action": "CORRECT_NOTE",
+      "source": "https://jblpro.com/en-US/site_elements/4311-information"
+    },
+    {
+      "id": "jbl-4311",
+      "field": "resonantFreq",
+      "value": 22,
+      "before": {
+        "value": null,
+        "provenance": {
+          "value": null,
+          "unit": "Hz",
+          "status": "UNAVAILABLE",
+          "source": null,
+          "sourceType": "NONE"
+        }
+      },
+      "after": {
+        "value": 22,
+        "provenance": {
+          "value": 22,
+          "unit": "Hz",
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/site_elements/4311-information",
+          "sourceType": "MANUFACTURER",
+          "notes": "Round 28 (2026-10-19) field audit: the page states of the 12-inch low-frequency loudspeaker that \"free air resonance is approximately 22 Hz\". Stored as 22 Hz with the source's approximation; this is the driver free-air resonance, not an enclosure tuning frequency."
+        }
+      },
+      "round": 28,
+      "action": "PROMOTE",
+      "source": "https://jblpro.com/en-US/site_elements/4311-information"
     }
   ]
 }

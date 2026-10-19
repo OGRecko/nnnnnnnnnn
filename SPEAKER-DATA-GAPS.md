@@ -15,7 +15,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | klipsch-heresy | Klipsch | Heresy | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | klipsch-klipschorn | Klipsch | Klipschorn | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| jbl-4311 | JBL | 4311 | PARTIALLY_VERIFIED | resonantFreq |
+| jbl-4311 | JBL | 4311 | PARTIALLY_VERIFIED | none |
 | advent-loudspeaker | Advent | The Advent Loudspeaker | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | bose-802 | Bose | 802 Series II | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | jbl-l112 | JBL | L112 | PARTIALLY_VERIFIED | power, resonantFreq, frequency-response limits |
