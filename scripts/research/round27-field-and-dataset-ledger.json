@@ -1443,6 +1443,62 @@
       "valueAfter": true,
       "source": "https://www.neumann.com/en-us/products/monitors/kh-750-dsp",
       "note": "Built-in 256 W woofer amplifier and internal SMPS; controller design \"Digital; active\"."
+    },
+    {
+      "record": "bowers-wilkins-801-d4",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0365a301/downloads/800_series_diamond_d4_brochure_low-res.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "bowers-wilkins-802-d4",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0365a301/downloads/800_series_diamond_d4_brochure_low-res.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "bw-803-d4",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0365a301/downloads/800_series_diamond_d4_brochure_low-res.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "bowers-wilkins-804-d4",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0365a301/downloads/800_series_diamond_d4_brochure_low-res.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "bw-805-d4",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0365a301/downloads/800_series_diamond_d4_brochure_low-res.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "bw-802d3",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
+    },
+    {
+      "record": "legacy-bw-7",
+      "field": "active",
+      "outcome": "NOT_STATED",
+      "valueKept": null,
+      "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+      "note": "The specification table prints the load and recommended-amplifier-power rows but no passive/active classification; classifying from that implication is forbidden by repository rule."
     }
   ],
   "elx200_15": {

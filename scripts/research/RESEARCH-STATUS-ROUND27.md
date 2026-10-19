@@ -563,6 +563,43 @@ not on a midrange dimension row, which those tables do not print.
 Research backlog: 354 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 332 source URLs resolved in total.
 
+## Batch 15 — Bowers & Wilkins 800 Series Diamond (D3 and D4): checked, nothing promotable
+
+Three manufacturer documents were opened in full:
+
+| Document | Models covered | Rows printed |
+| --- | --- | --- |
+| 800 Series Diamond D4 brochure | 801 D4, 802 D4, 803 D4, 804 D4, 805 D4 | drive units, 8 Ω (min 3.0–4.6 Ω), recommended amplifier power 50–1000 W into 8 Ω |
+| 802 D3 information sheet | 802 D3 | drive units, 8 Ω (min 3.0 Ω), 50–500 W into 8 Ω |
+| 800 D3 information sheet | 800 D3 | drive units, 8 Ω (min 3.0 Ω), 50–1000 W into 8 Ω |
+
+All seven `active` gaps looked closeable here — a nominal load plus a recommended amplifier power
+is what a passive loudspeaker prints — but **the repository forbids that step**:
+`src/data/speakers.test.ts` asserts `active === null` for `bw-802d3` and `legacy-bw-7` with the
+message *"do not infer passive/active classification from a recommended-amplifier range"*. The
+same reasoning covers the five D4 models, so none of the seven fields was written. The
+information is real but the classification is not printed anywhere in these documents, so the
+gaps stay open and are recorded here rather than converted into a value.
+
+`driverCount` was already resolved for all seven records, so no count was written either.
+
+**Consequence for planning:** Bowers & Wilkins accounts for 19 of the 354 records with an
+outstanding field, and almost all of those are `active`. That column cannot be closed for this
+brand without a document that prints a passive/active classification (no such row exists in the
+D3/D4 literature examined), so future rounds should not re-spend effort here.
+
+## Counts after batch 15
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 814 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 106 |
+| no provenance at all | 176 |
+
+Research backlog: 354 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
+333 source URLs resolved in total.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
