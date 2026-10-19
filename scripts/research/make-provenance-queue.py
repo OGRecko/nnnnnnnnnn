@@ -69,14 +69,15 @@ def main():
             rec_obj = item.get('record', item) if isinstance(item, dict) else {}
             if rec_obj.get('id'):
                 archived_by_id[rec_obj['id']] = rec_obj
-    # A recorded NOT_EXTRACTED means "this document did not yield the field". If the field has since
-    # been verified from a *different* manufacturer document, the honest report is RESOLVED_ELSEWHERE
+    # A recorded NOT_EXTRACTED means "this document did not yield the field"; SUPPORTED_NOT_PROMOTED
+    # means it yielded the value but the copy was not promotion-grade. If the field has since been
+    # verified from a *different* manufacturer document, the honest report is RESOLVED_ELSEWHERE
     # naming that document - not a conflict warning. The rewrite is derived here, so the stored
     # outcome in round27-url-results.json keeps what the document itself produced, and re-running the
     # apply step cannot lose the annotation.
     for u, st in status_by_url.items():
         for fr in st.get('fieldResults', []):
-            if fr.get('outcome') != 'NOT_EXTRACTED':
+            if fr.get('outcome') not in ('NOT_EXTRACTED', 'SUPPORTED_NOT_PROMOTED'):
                 continue
             rec = by_id.get(fr.get('record')) or archived_by_id.get(fr.get('record'))
             if rec is None:
@@ -85,7 +86,11 @@ def main():
             if prov.get('status') in VERIFIED and prov.get('source') and prov.get('source') != u:
                 fr['outcome'] = 'RESOLVED_ELSEWHERE'
                 fr['resolvedBy'] = prov['source']
-                note = 'This document did not yield the field; it was verified from the source named in resolvedBy.'
+                if fr.get('outcome') == 'SUPPORTED_NOT_PROMOTED':
+                    note = ('This document supports the value but its copy could not be promoted; it was '
+                            'verified from the manufacturer copy named in resolvedBy.')
+                else:
+                    note = 'This document did not yield the field; it was verified from the source named in resolvedBy.'
                 if fr.get('note'):
                     fr['note'] = fr['note'] + ' ' + note
                 else:

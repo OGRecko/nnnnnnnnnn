@@ -815,9 +815,58 @@ Two documents needed a caveat rather than a value:
 Research backlog: 345 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings,
 357 source URLs resolved in total.
 
+## Batch 24 — Bose 901 Series VI, REL S/812, JL Audio Fathom f113v2
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `bose-901-series-vi` | `driverCount` | 9 | Owner guide, "Technical information → Transducer complement": "Nine (9) 4½" (11.4 cm) full-range Helical Voice Coil drivers in each cabinet" |
+| `rel-s812` | `driverCount` | 1 | Brochure: one front-firing 12 in. active driver; the 12 in. down-firing passive radiator is not a driven transducer and is not counted |
+| `rel-s812` | `active` | true (provenance upgraded) | Brochure "TYPE: Front-firing active woofer, down-firing passive radiator" plus NextGen5 Class D amplifier at 800 W RMS |
+
+Caveats and limits:
+
+- **Bose**: the Technical information page was re-read in full (chunk 4 of 9) and the transducer row is
+  unambiguous: nine full-range drivers per cabinet. The same page states 8 Ω nominal, "Rated 250 watts
+  IEC" and compatibility with 10–450 W RMS amplifiers; the 901 is driven by an external amplifier and
+  its "active equalizer" is a separate outboard unit. `active` was left alone: amplifier compatibility
+  is not treated as a statement that the speaker is passive, and no promotion was made for that field.
+- **REL**: the recorded `rel.net` brochure URL was opened again and redirects to REL's Shopify CDN
+  copy (`cdn.shopify.com/.../S812-brochure.pdf`); the final URL and the full specification table were
+  observed. The promotion is recorded against the manufacturer URL already used for `rel-s812.power`.
+  Driver count follows the passive-radiator convention already applied to `jbl-charge5`, `jbl-flip6`,
+  `klipsch-forte-iv`, the KEF R3 and the Mackie HR624.
+- **JL Audio**: the recorded Fathom f113v2 product URL now redirects to Garmin's JL Audio category
+  page, which lists ranges rather than the product. No specification was read and no field was
+  written; the URL is recorded INACCESSIBLE rather than replaced with a reseller copy.
+- **Test updated with the evidence, not around it**: `src/data/speakers.test.ts` previously asserted
+  `rel-s812.driverCount === null` with the comment "retain uncertainty between the active woofer and
+  passive radiator count". The repository now has a settled convention (driven transducers only,
+  recorded on `jbl-charge5`, `jbl-flip6`, `klipsch-forte-iv` and the KEF R3), so the assertion is now
+  `1`, and the test additionally asserts the new note's passive-radiator sentence. Its other checks
+  (active, 800 W amplifier-output role and source, 12-inch woofer, 19 Hz extension with no upper
+  limit, no response points, null sensitivity and impedance) are unchanged.
+
+The queue status history was also repaired: repeated apply runs had appended 1,871 byte-identical
+adjacent snapshots (the file had grown to 4.4 MB). Those duplicates were removed while every distinct
+prior entry was retained (now 187 snapshots, 960 KB), and `apply-round27-batch.py` now snapshots only
+when the previous entry belongs to an earlier round, matching `apply-queue-batch.py`.
+
+## Counts after batch 24
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 842 |
+| `CITED_IN_NOTES_UNCHECKED` | 217 |
+| `UNSOURCED` | 85 |
+| no provenance at all | 170 |
+
+Research backlog: 344 of 657 records. Queue: 217 items across 160 URLs, all assessed, zero warnings,
+361 source URLs resolved in total. Counts cover the two audited scalar fields (`active`,
+`driverCount`) across all 657 records.
+
 ## Remaining in this round
 
-221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,
+217 cited-but-unchecked fields across 160 URLs (all assessed, 0 unassessed; see batch 8), 85 unsourced fields, 170 fields with no provenance,
 25 distinct response datasets (27 audit blocks) and 51 directivity leads. None of these are claimed
 resolved here; they are the next batches.
 

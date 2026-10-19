@@ -1749,6 +1749,36 @@
       "valueAfter": 3,
       "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf",
       "note": "One 1-inch high-frequency driver plus \"Dual 8\\\" \" low-frequency woofers."
+    },
+    {
+      "record": "bose-901-series-vi",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 9,
+      "source": "https://products.bose.com/pdf/customer_service/owners/og_901.pdf",
+      "note": "The manual's own \"Transducer complement\" row states nine full-range drivers in each cabinet."
+    },
+    {
+      "record": "rel-s812",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 1,
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+      "note": "One front-firing 12-inch active driver. The down-firing 12-inch passive radiator is not a driven transducer and is not counted."
+    },
+    {
+      "record": "rel-s812",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": true,
+      "valueAfter": true,
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+      "note": "The brochure specifies the subwoofer's own NextGen5 Class D amplifier at 800 W RMS along with its input and daisy-chain output connectors."
     }
   ],
   "elx200_15": {

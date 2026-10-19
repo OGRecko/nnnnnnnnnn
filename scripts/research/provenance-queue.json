@@ -5,16 +5,16 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 218,
-  "assessedItems": 218,
+  "uncheckedItems": 217,
+  "assessedItems": 217,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 161,
+  "uniqueSourceUrls": 160,
   "urlsByStatus": {
-    "CHECKED_PARTIAL": 146,
+    "CHECKED_PARTIAL": 145,
     "INACCESSIBLE": 15
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_PARTIAL": 194,
+    "CHECKED_PARTIAL": 193,
     "INACCESSIBLE": 24
   },
   "statusCounts": [
@@ -22,13 +22,13 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 145
+      "count": 144
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 320
+      "count": 321
     },
     {
       "field": "active",
@@ -52,19 +52,19 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 519
+      "count": 521
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 33
+      "count": 32
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 32
+      "count": 31
     }
   ],
   "resolvedSourceUrls": [
@@ -142,6 +142,7 @@
     "https://avantonepro.com/en/products/mixcube-passive",
     "https://barefootsound.com/footprint03/",
     "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+    "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
     "https://celestion.com/product/g12h-anniversary/",
     "https://celestion.com/product/g12m-greenback/",
     "https://celestion.com/product/vintage-30/",
@@ -218,12 +219,14 @@
     "https://pmc-speakers.com/studio/active/result6",
     "https://pmc-speakers.com/studio/pmc-6-2/",
     "https://pmc-speakers.com/studio/pmc-8-2/",
+    "https://products.bose.com/pdf/customer_service/owners/og_901.pdf",
     "https://products.electrovoice.com/binary/F01U303039.pdf",
     "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
     "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
     "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
     "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
     "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+    "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
     "https://rockfordfosgate.com/products/details/p3d4-12/",
     "https://rockfordfosgate.com/products/details/r165x3/",
     "https://rockfordfosgate.com/products/details/r1675x2/",
@@ -335,6 +338,7 @@
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
     "https://www.jensentone.com/specification-sheet/36",
     "https://www.jensentone.com/specification-sheet/38",
+    "https://www.jlaudio.com/products/f113v2-gloss-home-audio-fathom-powered-subwoofers-96142",
     "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
     "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
     "https://www.kicker.com/47KSC650",
@@ -2945,33 +2949,6 @@
         0
       ],
       "evidence": "The fetched page returned account/login and navigation content; the NS-5000 history narrative did not include any NS-690 drive-unit specification text in the served chunk."
-    },
-    {
-      "url": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
-      "host": "cdn.shopify.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "rel-s812"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "rel-s812",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
-        }
-      ],
-      "checkedRound": 24,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "S/812 specifications: \"TYPE Front-firing active woofer, down-firing passive radiator\"; \"ACTIVE DRIVER SIZE & MATERIAL 12 in., 300 mm\"; \"POWER OUTPUT 800 watts (RMS)\"; \"AMPLIFIER TYPE NextGen5 Class D\"."
     },
     {
       "url": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",

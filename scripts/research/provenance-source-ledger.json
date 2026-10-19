@@ -7939,6 +7939,50 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "The exact URL recorded as the source for this record's power, impedance, voiceCoil and woofer fields now returns JBL's \"404 - URL Error ... The requested URL is invalid.\" page. No specification content is served, so the driver complement cannot be re-read from this document. The existing verified fields are left untouched: they were read from this document before it stopped resolving."
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/og_901.pdf",
+      "host": "products.bose.com",
+      "document": "Bose 901 Series VI owner guide, Technical information",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        1,
+        4,
+        6
+      ],
+      "chunksTotal": null,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "Technical information page: \"Bose® 901® Series VI Direct/Reflecting® Loudspeakers\"; \"Transducer complement | Nine (9) 4 1/2” (11.4 cm) full-range Helical Voice Coil drivers in each cabinet\"; \"Nominal impedance | 8Ω (ohms)\"; \"Amplifier compatibility | Compatible with amplifiers/receivers rated from 10 - 450 watts RMS. Rated 250 watts IEC\"."
+    },
+    {
+      "url": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+      "host": "rel.net",
+      "document": "REL Acoustics S/812 brochure, SPECIFICATIONS",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "\"TYPE | Front-firing active woofer, down-firing passive radiator\"; \"ACTIVE DRIVER SIZE & MATERIAL | 12 in., 300 mm, long-throw, die cast Aluminium chassis\"; \"PASSIVE RADIATOR SIZE & MATERIAL | 12 in., 300mm, Carbon/Carbon flat cone structure, steel chassis\"; \"POWER OUTPUT | 800 watts (RMS)\"; \"AMPLIFIER TYPE | NextGen5 Class D\". The recorded rel.net URL answered with a redirect; the fetcher reported the final URL as https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf."
+    },
+    {
+      "url": "https://www.jlaudio.com/products/f113v2-gloss-home-audio-fathom-powered-subwoofers-96142",
+      "host": "www.jlaudio.com",
+      "document": "JL Audio Fathom f113v2 product page (recorded source)",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 27,
+      "coverage": "The URL now redirects to garmin.com, which presents a JL Audio brand landing page listing marine, motorsport, car and home ranges; no f113v2 product page or specification table is served. No value can be read from the recorded source."
     }
   ],
   "openQuestionsForOwner": [

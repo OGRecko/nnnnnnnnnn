@@ -234,7 +234,7 @@ def main():
             status['urls'].append(old)
             added_status += 1
         snapshots = list(old.get('history', []))
-        if old.get('status') not in (None, 'OPEN'):
+        if old.get('status') not in (None, 'OPEN') and old.get('round') != ROUND:
             snapshots.append({'snapshotOfRound': old.get('round'),
                               'entry': {k: v for k, v in old.items() if k != 'history'}})
         updated = {

@@ -3209,12 +3209,16 @@ check("REL S/812 keeps its powered-subwoofer output role and one-sided published
   nodeAssert.equal(s.frequencyResponse.points, undefined);
   nodeAssert.equal(s.sensitivity.value, null);
   nodeAssert.equal(s.impedance.value, null);
-  nodeAssert.equal(s.driverCount, null, "retain uncertainty between the active woofer and passive radiator count");
+  // Round 27: the brochure names one front-firing active driver and one down-firing passive
+  // radiator. The repository counts driven transducers only (jbl-charge5, jbl-flip6,
+  // klipsch-forte-iv, KEF R3), so the passive radiator is not added to the count.
+  nodeAssert.equal(s.driverCount, 1, "one active transducer; the passive radiator is not counted");
   assert(s.notes.includes(source));
   nodeAssert.match(s.notes, /800 W RMS output from a NextGen5 Class D amplifier/);
   nodeAssert.match(s.notes, /-6 dB at 19 Hz/);
   nodeAssert.match(s.notes, /power role is integrated amplifier output/);
-  nodeAssert.match(s.notes, /one active woofer from one passive radiator/);
+  nodeAssert.match(s.notes, /one active transducer/);
+  nodeAssert.match(s.notes, /passive radiator is not driven and is not counted/);
 });
 
 check("Revel, ATC, PMC, and KRK Batch 099 specs retain exact source context and honest rating roles", () => {

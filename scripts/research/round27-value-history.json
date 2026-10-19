@@ -3970,6 +3970,78 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://assets.klipsch.com/product-specsheets/RP-8000F_Spec-Sheet_v01.pdf"
+    },
+    {
+      "id": "bose-901-series-vi",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 9,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://products.bose.com/pdf/customer_service/owners/og_901.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The manual's own \"Transducer complement\" row states nine full-range drivers in each cabinet."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://products.bose.com/pdf/customer_service/owners/og_901.pdf"
+    },
+    {
+      "id": "rel-s812",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: One front-firing 12-inch active driver. The down-firing 12-inch passive radiator is not a driven transducer and is not counted."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf"
+    },
+    {
+      "id": "rel-s812",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: The brochure specifies the subwoofer's own NextGen5 Class D amplifier at 800 W RMS along with its input and daisy-chain output connectors."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf"
     }
   ]
 }

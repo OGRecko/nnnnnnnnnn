@@ -12179,7 +12179,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 9,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -12232,12 +12232,12 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Manufacturer: Bose 901 Series VI direct/reflecting loudspeaker, nine 4.5-inch full-range drivers per cabinet, 8 ohm nominal impedance, 250 W IEC rated; compatible with amplifiers/receivers rated 10–450 W RMS. Source: Bose 901 Series VI owner technical information.",
+    "notes": "Manufacturer: Bose 901 Series VI direct/reflecting loudspeaker, nine 4.5-inch full-range drivers per cabinet, 8 ohm nominal impedance, 250 W IEC rated; compatible with amplifiers/receivers rated 10–450 W RMS. Source: Bose 901 Series VI owner technical information. Round 27 (2026-10-19): the Technical information \"Transducer complement\" row is the source for driverCount = 9; the same page supplies the 8 ohm nominal impedance, the 250 W IEC rating and the 10-450 W RMS amplifier compatibility.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.bose.com/pdf/customer_service/owners/og_901.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The manual's own \"Transducer complement\" row states nine full-range drivers in each cabinet."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
@@ -17952,7 +17952,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
+    "driverCount": 1,
     "active": true,
     "panel": null,
     "sensitivity": {
@@ -18005,11 +18005,18 @@
       "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact REL Acoustics S/812 brochure. The REL-hosted PDF URL redirects to REL's current Shopify CDN asset (https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf). The brochure states front-firing active woofer plus down-firing passive radiator, a 12 in active driver, low-frequency extension of -6 dB at 19 Hz, and 800 W RMS output from a NextGen5 Class D amplifier. The stored power role is integrated amplifier output, not passive-speaker power handling. Only the published low-frequency extension is stored; no upper limit, passive impedance, or sensitivity is supplied by the brochure, so those fields remain N/A. Driver count remains unknown because the sheet distinguishes one active woofer from one passive radiator and the database count field does not encode that distinction. No response points or directivity data are imported. Source: https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf.",
+    "notes": "Exact REL Acoustics S/812 brochure. The REL-hosted PDF URL redirects to REL's current Shopify CDN asset (https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf). The brochure states front-firing active woofer plus down-firing passive radiator, a 12 in active driver, low-frequency extension of -6 dB at 19 Hz, and 800 W RMS output from a NextGen5 Class D amplifier. The stored power role is integrated amplifier output, not passive-speaker power handling. Only the published low-frequency extension is stored; no upper limit, passive impedance, or sensitivity is supplied by the brochure, so those fields remain N/A. Round 27 (2026-10-19): driverCount is one active transducer. The down-firing 12-inch passive radiator is not driven and is not counted, following the convention recorded for jbl-charge5, jbl-flip6 and klipsch-forte-iv. The brochure's \"Front-firing active woofer\" line and its NextGen5 Class D amplifier section also confirm active status from the manufacturer copy. No response points or directivity data are imported. Source: https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: The brochure specifies the subwoofer's own NextGen5 Class D amplifier at 800 W RMS along with its input and daisy-chain output connectors."
+    },
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: One front-firing 12-inch active driver. The down-firing 12-inch passive radiator is not a driven transducer and is not counted."
     }
   },
   {

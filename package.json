@@ -35,6 +35,7 @@
     "monitoring:ensure": "node scripts/ensure-gcp-monitoring.mjs",
     "docs:release": "node scripts/generate-archived-speaker-index.mjs && node scripts/generate-speaker-reference-doc.mjs && node scripts/generate-third-party-notices.mjs && node scripts/generate-release-docs.mjs && python3 scripts/research/make-provenance-queue.py",
     "audit:provenance": "node scripts/speaker-provenance-audit.mjs",
+    "audit:source-hosts": "python3 scripts/research/check-source-hosts.py",
     "docs:consistency": "node scripts/check-doc-consistency.mjs",
     "audit:third-party": "node scripts/check-third-party-notices.mjs",
     "release:source": "node scripts/source-release.mjs",

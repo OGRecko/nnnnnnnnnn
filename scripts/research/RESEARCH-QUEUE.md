@@ -2,15 +2,15 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **345** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 90 brands.
+Records still needing research: **344** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 89 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **86** fields (no source recorded).
-- NO_PROVENANCE: **171** fields (null value, no provenance object).
+- CITED_IN_NOTES_UNCHECKED: **217** fields across **160** source URLs (not yet opened and checked for these fields).
+- UNSOURCED: **85** fields (no source recorded).
+- NO_PROVENANCE: **170** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -28,7 +28,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | barefoot-micromain27 | Barefoot Sound | MicroMain27 (`barefoot-micromain27`) | 0 | 2 | 0 |
 | beolab-5 | Bang & Olufsen | BeoLab 5 (`beolab-5`) | 0 | 2 | 0 |
 | bose-802 | Bose | 802 Series II (`bose-802`) | 2 | 0 | 0 |
-| bose-901-series-vi | Bose | 901 Series VI (`bose-901-series-vi`) | 0 | 2 | 0 |
 | boston-vr-m50 | Boston Acoustics | VR-M50 (`boston-vr-m50`) | 1 | 0 | 1 |
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
@@ -125,7 +124,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
-| rel-s812 | REL Acoustics | S/812 (`rel-s812`) | 1 | 0 | 1 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
@@ -159,6 +157,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | audison-voce-av-k6 | Audison | Voce AV K6 (`audison-voce-av-k6`) | 0 | 0 | 1 |
 | behringer-b215xl | Behringer | B215XL (`behringer-b215xl`) | 1 | 0 | 0 |
 | bose-301 | Bose | 301 Series IV (`bose-301`) | 1 | 0 | 0 |
+| bose-901-series-vi | Bose | 901 Series VI (`bose-901-series-vi`) | 0 | 1 | 0 |
 | bose-freespace-ds40se | Bose | FreeSpace DS 40SE (`bose-freespace-ds40se`) | 1 | 0 | 0 |
 | bose-virtually-invisible-791 | Bose | Virtually Invisible 791 (`bose-virtually-invisible-791`) | 1 | 0 | 0 |
 | bowers-wilkins-603-s3 | Bowers & Wilkins | 603 S3 (`bowers-wilkins-603-s3`) | 1 | 0 | 0 |
