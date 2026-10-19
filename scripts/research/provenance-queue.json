@@ -28,13 +28,13 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 278
+      "count": 280
     },
     {
       "field": "active",
       "status": "MISSING",
       "value": "null",
-      "count": 142
+      "count": 140
     },
     {
       "field": "active",
@@ -52,13 +52,13 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 463
+      "count": 465
     },
     {
       "field": "driverCount",
       "status": "MISSING",
       "value": "null",
-      "count": 46
+      "count": 44
     },
     {
       "field": "driverCount",
@@ -294,6 +294,8 @@
     "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
     "https://www.genelec.com/1032c",
     "https://www.genelec.com/1237a",
+    "https://www.genelec.com/8020d",
+    "https://www.genelec.com/8030c",
     "https://www.genelec.com/8361a",
     "https://www.genelec.com/previous-models/8351a",
     "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",

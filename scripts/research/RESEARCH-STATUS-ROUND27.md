@@ -359,6 +359,40 @@ run failed 15 suites only because the dependency tree had not been reinstalled i
 * Unchanged owner rulings: ELX200-15 response series excluded; QSC WL3082/WL212-sw `active` unknown;
   Yamaha NS-6490 8 Ω US-only; Focal Sopra N°2 sensitivity; Genelec 8331A `LEAD_NOT_IMPORTED`.
 
+## Batch 9 — Genelec 8020D and 8030C
+
+Two records that carried no provenance at all. Both values come from the model's own technical
+specification block; the driver dimensions enumerate exactly two transducers and the amplifier line
+states the built-in power per band.
+
+| Record | Field | Value | Evidence |
+| --- | --- | --- | --- |
+| `genelec-8020d` | `driverCount` / `active` | 2 / true | ⌀ 105 mm bass + ⌀ 19 mm treble; 50 W + 50 W Class D |
+| `genelec-8030c` | `driverCount` / `active` | 2 / true | ⌀ 130 mm bass + ⌀ 19 mm treble; 50 W + 50 W Class D |
+
+### Documents checked and deliberately not used
+
+* `focal.com/en/solo6-be-40th` now redirects to the current ST6 **Solo6**, a different product from the
+  catalogue's `focal-solo6` "Solo6 Be". Its 6.5" W woofer + 1" beryllium tweeter and 80 W/50 W
+  amplification were **not** applied to the Solo6 Be record.
+* `mackie.com`'s SRM450 page is the current V-Class 1000 W revision, while `legacy-mack-6` is the
+  original SRM450 documented from its own "Active 2-Way" sheet. The page was not used to confirm the
+  legacy record's driver count, even though both revisions are two-way.
+* `mackie.com/.../cr3.html` and `.../thump15.html` both return the site error page; the CR3 and Thump15
+  records stay unsourced.
+
+## Counts after batch 9
+
+| Status | Fields |
+| --- | ---: |
+| `MANUFACTURER_VERIFIED` | 745 |
+| `CITED_IN_NOTES_UNCHECKED` | 218 |
+| `UNSOURCED` | 167 |
+| no provenance at all | 184 |
+
+Research backlog: 390 of 657 records. Queue: 218 items across 161 URLs, all assessed, zero warnings.
+`npm test` 82/82.
+
 ## Remaining in this round
 
 221 cited-but-unchecked fields across 162 URLs (all assessed, 0 unassessed; see batch 8), 193 unsourced fields, 189 fields with no provenance,

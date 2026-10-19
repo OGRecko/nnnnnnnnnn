@@ -1507,6 +1507,90 @@
       "round": 27,
       "action": "PROMOTE",
       "source": "https://www.dali-speakers.com/media/5341/techninformationen_dali_oberon.pdf"
+    },
+    {
+      "id": "genelec-8020d",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8020d",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Driver dimensions: ⌀ 105 mm bass + ⌀ 19 mm treble."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/8020d"
+    },
+    {
+      "id": "genelec-8020d",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8020d",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board 50 W bass and 50 W treble Class D amplification with a line-level XLR input."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/8020d"
+    },
+    {
+      "id": "genelec-8030c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8030c",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: Driver dimensions: ⌀ 130 mm bass + ⌀ 19 mm treble."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/8030c"
+    },
+    {
+      "id": "genelec-8030c",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": null,
+        "provenance": {}
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8030c",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 27: On-board 50 W bass and 50 W treble Class D amplification."
+        }
+      },
+      "round": 27,
+      "action": "PROMOTE",
+      "source": "https://www.genelec.com/8030c"
     }
   ]
 }

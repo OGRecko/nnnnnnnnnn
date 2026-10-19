@@ -713,6 +713,46 @@
       "valueAfter": true,
       "source": "https://www.genelec.com/1032c",
       "note": "On-board 250 W bass and 150 W treble Class D amplification, \"Active Crossovers\" and \"Smart Active Monitoring (SAM™)\"."
+    },
+    {
+      "record": "genelec-8020d",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.genelec.com/8020d",
+      "note": "Driver dimensions: ⌀ 105 mm bass + ⌀ 19 mm treble."
+    },
+    {
+      "record": "genelec-8020d",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.genelec.com/8020d",
+      "note": "On-board 50 W bass and 50 W treble Class D amplification with a line-level XLR input."
+    },
+    {
+      "record": "genelec-8030c",
+      "field": "driverCount",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": 2,
+      "source": "https://www.genelec.com/8030c",
+      "note": "Driver dimensions: ⌀ 130 mm bass + ⌀ 19 mm treble."
+    },
+    {
+      "record": "genelec-8030c",
+      "field": "active",
+      "outcome": "PROMOTED",
+      "action": "PROMOTE",
+      "valueBefore": null,
+      "valueAfter": true,
+      "source": "https://www.genelec.com/8030c",
+      "note": "On-board 50 W bass and 50 W treble Class D amplification."
     }
   ],
   "elx200_15": {

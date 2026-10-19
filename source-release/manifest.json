@@ -2,8 +2,8 @@
   "kind": "source-only",
   "product": "Cavity Audio",
   "version": "1.0.0",
-  "fileCount": 602,
-  "treeSha256": "31eba6fd239a6c313fd171112bffedf7ef79b189f0dbfe3591d3335d123db27f",
-  "generatedAt": "2026-10-19T13:24:16.676Z",
+  "fileCount": 604,
+  "treeSha256": "aa729a76603966aeb2d7653dc0ce59dd28f090fd4fc6e93d3319b60c26bf05af",
+  "generatedAt": "2026-10-19T13:31:45.888Z",
   "note": "This is a source integrity manifest. It is not a Windows installer release manifest."
 }

@@ -22893,7 +22893,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -22944,9 +22944,21 @@
       "source": "https://www.genelec.com/8020d",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
-    "notes": "Genelec 8020D official product page: system response 62 Hz–20 kHz (±2.5 dB); -6 dB cutoffs 56 Hz and 25 kHz; bass amp 50 W + treble amp 50 W Class D (summed to 100 W per the 1031A convention); bass driver diameter 105 mm (=4.13 in, unit conversion only) + 19 mm metal dome; crossover 3000 Hz; reflex enclosure; 3.2 kg; 230 x 148 x 142 mm. No sensitivity or passive impedance published. The page lists a CLF file named genelec_oy-8020.cf2.zip, but its name does not confirm the 8020D revision (sibling EASE files are labelled 8020b), so NO directivity data has been imported; response/directivity remain modeled/unavailable."
+    "notes": "Genelec 8020D official product page: system response 62 Hz–20 kHz (±2.5 dB); -6 dB cutoffs 56 Hz and 25 kHz; bass amp 50 W + treble amp 50 W Class D (summed to 100 W per the 1031A convention); bass driver diameter 105 mm (=4.13 in, unit conversion only) + 19 mm metal dome; crossover 3000 Hz; reflex enclosure; 3.2 kg; 230 x 148 x 142 mm. No sensitivity or passive impedance published. The page lists a CLF file named genelec_oy-8020.cf2.zip, but its name does not confirm the 8020D revision (sibling EASE files are labelled 8020b), so NO directivity data has been imported; response/directivity remain modeled/unavailable.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8020d",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Driver dimensions: ⌀ 105 mm bass + ⌀ 19 mm treble."
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8020d",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board 50 W bass and 50 W treble Class D amplification with a line-level XLR input."
+    }
   },
   {
     "id": "genelec-8030c",
@@ -22955,7 +22967,7 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -23006,9 +23018,21 @@
       "source": "https://www.genelec.com/8030c",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
-    "notes": "Genelec 8030C official product page: system response 54 Hz–20 kHz (±2 dB); -6 dB cutoffs 47 Hz and 25 kHz; bass amp 50 W + treble amp 50 W Class D (summed to 100 W per the 1031A convention); bass driver diameter 130 mm (=5.12 in, unit conversion only) + 19 mm metal dome; crossover 3000 Hz; reflex enclosure; 5 kg; 285 x 189 x 178 mm. No sensitivity or passive impedance published. The page lists a CLF file (genelec_oy-8030.cf2.zip) whose name does not confirm the 8030C revision (sibling EASE files are labelled 8030a), so NO directivity data has been imported."
+    "notes": "Genelec 8030C official product page: system response 54 Hz–20 kHz (±2 dB); -6 dB cutoffs 47 Hz and 25 kHz; bass amp 50 W + treble amp 50 W Class D (summed to 100 W per the 1031A convention); bass driver diameter 130 mm (=5.12 in, unit conversion only) + 19 mm metal dome; crossover 3000 Hz; reflex enclosure; 5 kg; 285 x 189 x 178 mm. No sensitivity or passive impedance published. The page lists a CLF file (genelec_oy-8030.cf2.zip) whose name does not confirm the 8030C revision (sibling EASE files are labelled 8030a), so NO directivity data has been imported.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8030c",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: Driver dimensions: ⌀ 130 mm bass + ⌀ 19 mm treble."
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8030c",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 27: On-board 50 W bass and 50 W treble Class D amplification."
+    }
   },
   {
     "id": "jbl-305p-mkii",

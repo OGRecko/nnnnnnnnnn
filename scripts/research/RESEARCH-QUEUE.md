@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **392** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 92 brands.
+Records still needing research: **390** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 91 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
@@ -10,7 +10,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 - CITED_IN_NOTES_UNCHECKED: **218** fields across **161** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **167** fields (no source recorded).
-- NO_PROVENANCE: **188** fields (null value, no provenance object).
+- NO_PROVENANCE: **184** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet opened (not a search snippet); populated fields carry their URL; unpublished values stay null or N/A.
@@ -62,8 +62,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
 | fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
-| genelec-8020d | Genelec | 8020D (`genelec-8020d`) | 0 | 0 | 2 |
-| genelec-8030c | Genelec | 8030C (`genelec-8030c`) | 0 | 0 | 2 |
 | harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 2 | 0 | 0 |
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
