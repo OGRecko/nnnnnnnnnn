@@ -5,8 +5,8 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 156,
-  "assessedItems": 156,
+  "uncheckedItems": 152,
+  "assessedItems": 152,
   "unassessedItems": 0,
   "uniqueSourceUrls": 135,
   "urlsByStatus": {
@@ -16,7 +16,7 @@
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 6,
-    "CHECKED_PARTIAL": 132,
+    "CHECKED_PARTIAL": 128,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 38
+      "count": 34
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 49
+      "count": 53
     },
     {
       "field": "driverCount",
@@ -591,41 +591,6 @@
       "evidence": "Beosound Balance technical page: \"SPEAKER DRIVERS 2 x 5,25\\\" woofer drivers; 2 x 3\\\" fullrange drivers; 2 x 2\\\" full range drivers; 1 x ¾\\\" tweeter\"; \"POWER AMPLIFIERS 2 x Class D at 200 W for woofer; 4 x Class D at 100 W for full range; 1 x Class D at 80 W for tweeter\"."
     },
     {
-      "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
-      "host": "cdn.elac.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "elac-uni-fi-ub5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "elac-uni-fi-ub5",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Round 29: no passive/powered wording on the sell sheet."
-        },
-        {
-          "record": "elac-uni-fi-ub5",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "CONFLICT",
-          "recordedNote": "Round 29: concentric tweeter/midrange makes 2 vs 3 ambiguous; not promoted."
-        }
-      ],
-      "checkedRound": 29,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "ELAC Uni-Fi sell sheet: \"3-way bass reflex\"; 1 in soft-dome tweeter, 4 in aluminium midrange, 5.25 in aluminium woofer (tweeter and midrange concentric). No passive/active statement; driver count remains ambiguous."
-    },
-    {
       "url": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
       "host": "onlinecarstereo.blob.core.windows.net",
       "status": "CHECKED_CONFIRMED",
@@ -659,41 +624,6 @@
         0
       ],
       "evidence": "Manual: \"12W3v3-2 / 12W3v3-4 / 12W3v3-8 Subwoofers owner's manual\"; \"Power Handling (continuous): 500W\"; \"We recommend the use of this speaker in a bi-amplified system using high-quality satellite speakers and amplifiers.\""
-    },
-    {
-      "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
-      "host": "stereonomono.blogspot.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "legacy-kef-4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-4",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
-        },
-        {
-          "record": "legacy-kef-4",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The brochure reprint describes three drive units (300 mm LF, 110 mm MF, 52 mm HF radiator): 3 transducers; blog host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Brochure text: \"Three fine drive units are used in Model 105\"; \"The low frequency unit is a 300 mm (12\") driver\"; \"The 110 mm (5\") mid range unit\"; \"The high frequency unit is a 52 mm (2\") radiator\"; \"Amplifier Requirements: 40 watts minimum into 8 ohms\"."
     },
     {
       "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
@@ -1086,41 +1016,6 @@
       "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
     },
     {
-      "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
-      "host": "www.radiomuseum.org",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "legacy-kef-1"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-1",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The entry states \"No Power needed\" and terminal inputs with a passive A6305 crossover; museum host cannot promote."
-        },
-        {
-          "record": "legacy-kef-1",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The museum entry lists the B139 bass unit and the T15 tweeter: 2 transducers; museum host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Technical specifications: \"Power type and voltage: No Power needed\"; \"Loudspeaker: 2 Loudspeakers\"; \"Drive units: B139 bass unit (A6171), T15 tweeter (A6236), Crossover: A6305\"; \"Maximum input power: 15W rms, 30W peak\"; \"Input connections: Terminals\"."
-    },
-    {
       "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
       "host": "www.soundandvision.com",
       "status": "INACCESSIBLE",
@@ -1189,41 +1084,6 @@
         0
       ],
       "evidence": "The fetched page returned site navigation and review index content only; the measured-specifications table was not present in the served text."
-    },
-    {
-      "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
-      "host": "www.soundstagehifi.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "kef-reference-1"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kef-reference-1",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
-        },
-        {
-          "record": "kef-reference-1",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The review itemises the Uni-Q tweeter, the 5-inch midrange cone and the 6.5-inch woofer: 3 transducers; review host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Review: \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"."
     },
     {
       "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
@@ -1791,6 +1651,33 @@
         0
       ],
       "evidence": "APK 165 page: \"Kit 2 way 4 ohm | AP 1 + AP 6.5 + Crossover\"; \"The two-way system features an AP 1 tweeter and AP 6.5 woofer\"; specs \"Woofer Size 165 mm (6.5 in)\" and \"Tweeter Size 26 mm (1 in)\"."
+    },
+    {
+      "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+      "host": "cdn.elac.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "elac-uni-fi-ub5"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "elac-uni-fi-ub5",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: impedance, power input and binding posts only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "UB5 column: \"3-way bass reflex\"; \"Tweeter ... 1-inch soft dome\"; \"Mid-Range ... 4-inch aluminum\"; \"Woofer ... 5.25-inch aluminum\"; \"Maximum Power Input ... 140 Watts\"; \"Binding Posts ... 5-way custom metal\"."
     },
     {
       "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
@@ -2903,6 +2790,33 @@
       "evidence": "Technical information, \"Driver complement\": \"Two (2) 1\\\" (2.54 cm) dome tweeters configured in an array\" and \"One (1) 7\\\" (17.8 cm) high-excursion woofer\"."
     },
     {
+      "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+      "host": "stereonomono.blogspot.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "legacy-kef-4"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-kef-4",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: amplifier-requirements figure only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"Three fine drive units are used in Model 105\"; \"300 mm (12\\\") driver\"; \"110 mm (5\\\") mid range unit\"; \"52 mm (2\\\") radiator\"; \"Amplifier Requirements: 40 watts minimum into 8 ohms\"."
+    },
+    {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
       "host": "tile.loc.gov",
       "status": "CHECKED_PARTIAL",
@@ -3987,6 +3901,33 @@
       "evidence": "Monitor SE 6000F specifications: \"DESIGN 5-driver, 3-way bass reflex, floorstanding\"; \"HIGH FREQUENCY DRIVER 1\\\" X-PAL dome\"; \"MIDRANGE FREQUENCY DRIVER 5-1/2\\\"\"; \"LOW FREQUENCY DRIVER Three 5-1/2\\\"\"."
     },
     {
+      "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+      "host": "www.radiomuseum.org",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "legacy-kef-1"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-kef-1",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Round 29: \"No Power needed\" is an explicit no-supply statement but not one of the three accepted forms in PROVENANCE-POLICY.md; flagged for an owner decision."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"Drive units: B139 bass unit (A6171), T15 tweeter (A6236)\"; \"Two-way, floor standing\"; \"Loudspeaker: 2 Loudspeakers\"; \"Power type and voltage: No Power needed\"; \"Input connections: Terminals\"."
+    },
+    {
       "url": "https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2",
       "host": "www.radiomuseum.org",
       "status": "CHECKED_PARTIAL",
@@ -4066,6 +4007,33 @@
         0
       ],
       "evidence": "System: \"3-way floorstanding loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Md Ø 150 mm paper cone driver; W Ø 2x150 mm paper cone drivers."
+    },
+    {
+      "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
+      "host": "www.soundstagehifi.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "kef-reference-1"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "kef-reference-1",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+        }
+      ],
+      "checkedRound": 26,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Review: \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"."
     },
     {
       "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",

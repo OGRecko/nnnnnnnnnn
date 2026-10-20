@@ -9,8 +9,8 @@
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "CITED_IN_NOTES_UNCHECKED": 191,
-      "THIRD_PARTY_VERIFIED": 105,
+      "CITED_IN_NOTES_UNCHECKED": 187,
+      "THIRD_PARTY_VERIFIED": 109,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
@@ -6453,14 +6453,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): ELAC Uni-Fi sell sheet — the UB5 column reads \"3-way bass reflex\", \"Tweeter 1-inch soft dome\", \"Mid-Range 4-inch aluminum\", \"Woofer 5.25-inch aluminum\". Three drive-unit rows: the concentric tweeter and 4-inch midrange count as two transducers, plus the 5.25-inch woofer.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "elac-uni-fi-ub5",
@@ -15831,14 +15831,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
-      "sourceType": null,
+      "storedStatus": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers",
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): SoundStage! review — \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"; and \"the outputs of the Reference 1's three drivers coalesced as one\". Three transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "kef-reference-1",
@@ -19215,14 +19215,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Radiomuseum page — \"Drive units: B139 bass unit (A6171), T15 tweeter (A6236)\"; \"System type: Two-way, floor standing\"; the technical block also lists \"Loudspeaker: 2 Loudspeakers\". Two transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-1",
@@ -19503,14 +19503,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): KEF Model 105 brochure — \"Three fine drive units are used in Model 105\"; \"The low frequency unit is a 300 mm (12\\\") driver\"; \"The 110 mm (5\\\") mid range unit\"; \"The high frequency unit is a 52 mm (2\\\") radiator\". Three transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-4",

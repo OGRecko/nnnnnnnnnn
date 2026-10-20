@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **156** fields across **135** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **152** fields across **135** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -29,7 +29,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | bryston-model-t | Bryston | Model T (`bryston-model-t`) | 0 | 0 | 2 |
 | cerwin-vega-d9 | Cerwin Vega | D-9 (`cerwin-vega-d9`) | 0 | 0 | 2 |
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
-| elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
 | electro-voice-evf-1152d-96 | Electro-Voice | EVF-1152D/96 (`electro-voice-evf-1152d-96`) | 2 | 0 | 0 |
 | eminence-legend | Eminence | Legend V12 (`eminence-legend`) | 0 | 2 | 0 |
 | eV-eliminator | Electro-Voice | Eliminator (`eV-eliminator`) | 0 | 0 | 2 |
@@ -48,7 +47,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jl-audio-c5-650 | JL Audio | C5-650 (`jl-audio-c5-650`) | 2 | 0 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
-| kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
@@ -58,9 +56,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
 | legacy-focal-1 | Focal | Chorus 707 (`legacy-focal-1`) | 1 | 0 | 1 |
 | legacy-focal-5 | Focal | Trio6 Be (`legacy-focal-5`) | 2 | 0 | 0 |
-| legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 2 | 0 | 0 |
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
-| legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
@@ -148,6 +144,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | danley-sh96 | Danley Sound Labs | SH-96 (`danley-sh96`) | 1 | 0 | 0 |
 | dutch-and-dutch-8c | Dutch & Dutch | 8c (`dutch-and-dutch-8c`) | 0 | 0 | 1 |
 | eaw-kf760 | EAW | KF760 (`eaw-kf760`) | 1 | 0 | 0 |
+| elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 1 | 0 | 0 |
 | electro-voice-sx100 | Electro-Voice | Sx100+ (`electro-voice-sx100`) | 1 | 0 | 0 |
 | electro-voice-zx4 | Electro-Voice | ZX4 (`electro-voice-zx4`) | 1 | 0 | 0 |
 | fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 0 | 0 | 1 |
@@ -197,6 +194,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kef-r3 | KEF | R3 (`kef-r3`) | 0 | 0 | 1 |
 | kef-r5 | KEF | R5 (`kef-r5`) | 0 | 0 | 1 |
 | kef-r7 | KEF | R7 (`kef-r7`) | 0 | 0 | 1 |
+| kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 1 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 1 | 0 | 0 |
 | kenwood-excelon-kfc-xp6903c | Kenwood | Excelon KFC-XP6903C (`kenwood-excelon-kfc-xp6903c`) | 0 | 0 | 1 |
 | kenwood-kfc-1666s | Kenwood | KFC-1666S (`kenwood-kfc-1666s`) | 0 | 0 | 1 |
@@ -235,7 +233,9 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-focal-8 | Focal | Aria 906 (`legacy-focal-8`) | 1 | 0 | 0 |
 | legacy-jbl-1 | JBL | D130 (`legacy-jbl-1`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
+| legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 1 | 0 | 0 |
 | legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 1 | 0 | 0 |
+| legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 1 | 0 | 0 |
 | legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |

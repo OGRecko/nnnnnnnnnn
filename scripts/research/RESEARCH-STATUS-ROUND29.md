@@ -278,6 +278,30 @@ LS50 record, and a passive radiator is not counted, matching the Mackie HR624 re
 rests on its connection chapter, which the policy's second accepted form covers; the Q100's wiring pages
 extract as images, so that record stays unresolved rather than inferred.
 
+## Batch 49 — four driver complements, no `active` changes
+
+| Record | Field | Quote | Outcome |
+| --- | --- | --- | --- |
+| elac-uni-fi-ub5 | driverCount 3 | UB5 column: "3-way bass reflex", "Tweeter ... 1-inch soft dome", "Mid-Range ... 4-inch aluminum", "Woofer ... 5.25-inch aluminum" | promoted; supersedes the round-29 CONFLICT row (counting question, not a contradicting source) |
+| kef-reference-1 | driverCount 3 | "a 1\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\" aluminum cone"; "Below the Uni-Q ... is a 6.5\" woofer"; "the outputs of the Reference 1's three drivers" | promoted; active NOT_STATED |
+| legacy-kef-4 | driverCount 3 | "Three fine drive units are used in Model 105"; 300 mm LF, 110 mm midrange, 52 mm HF radiator | promoted; active NOT_STATED |
+| legacy-kef-1 | driverCount 2 | "Drive units: B139 bass unit (A6171), T15 tweeter (A6236)"; "Two-way, floor standing" | promoted; active left as a candidate |
+
+### One counting convention, applied consistently
+
+A concentric tweeter/midrange assembly counts as **two** transducers (two voice coils, two drive units), never
+as one. That rule is what the KEF LS50 record already used, and it is repeated here for the KEF Uni-Q (Q100,
+Reference 1) and ELAC Uni-Fi records. A passive radiator is not counted (Mackie HR624). Both conventions are
+recorded in the notes so a later reader can re-check them without guessing.
+
+### Candidate evidence left unpromoted
+
+The Radiomuseum page for the KEF Concord prints `Power type and voltage: No Power needed` — an explicit
+statement that the loudspeaker takes no electrical supply. It is not one of the three accepted forms in
+`PROVENANCE-POLICY.md` (passive wording, amplifier-connection instructions, separate active electronics), so
+`legacy-kef-1.active` was recorded as SUPPORTED_NOT_PROMOTED rather than promoted. Widening the standard is an
+owner decision, not a batch decision.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -291,11 +315,11 @@ extract as images, so that record stays unresolved rather than inferred.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **156** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **152** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **105** |
+| `THIRD_PARTY_VERIFIED` | 24 | **109** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **156 / 135 URLs** |
+| queue items | 212 / 157 URLs | **152 / 135 URLs** |
 | records with backlog | 336 of 657 | **310 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no

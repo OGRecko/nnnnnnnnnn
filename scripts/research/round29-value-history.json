@@ -2916,6 +2916,106 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications"
+    },
+    {
+      "id": "elac-uni-fi-ub5",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): ELAC Uni-Fi sell sheet — the UB5 column reads \"3-way bass reflex\", \"Tweeter 1-inch soft dome\", \"Mid-Range 4-inch aluminum\", \"Woofer 5.25-inch aluminum\". Three drive-unit rows: the concentric tweeter and 4-inch midrange count as two transducers, plus the 5.25-inch woofer."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf"
+    },
+    {
+      "id": "kef-reference-1",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): SoundStage! review — \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"; and \"the outputs of the Reference 1's three drivers coalesced as one\". Three transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers"
+    },
+    {
+      "id": "legacy-kef-4",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): KEF Model 105 brochure — \"Three fine drive units are used in Model 105\"; \"The low frequency unit is a 300 mm (12\\\") driver\"; \"The 110 mm (5\\\") mid range unit\"; \"The high frequency unit is a 52 mm (2\\\") radiator\". Three transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html"
+    },
+    {
+      "id": "legacy-kef-1",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Radiomuseum page — \"Drive units: B139 bass unit (A6171), T15 tweeter (A6236)\"; \"System type: Two-way, floor standing\"; the technical block also lists \"Loudspeaker: 2 Loudspeakers\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.radiomuseum.org/r/kef_concord_a6243.html"
     }
   ]
 }
