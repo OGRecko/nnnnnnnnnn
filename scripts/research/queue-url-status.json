@@ -12517,33 +12517,65 @@
     },
     {
       "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "round": 25,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
-        9
+        0,
+        10
       ],
       "chunksTotal": 14,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "NEXO PS Series brochure, PS15 pages (dealer-hosted copy)",
-      "evidence": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\".",
+      "evidence": "\"one 15\\\" 6Ω cone transducer and a 2\\\"-exit compression driver\"; \"Passive In Passive Loop Thru, Active In\"; \"Passive 8 Ω\"; \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs\".",
       "fieldResults": [
         {
           "record": "nexo-ps15",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "PS15 components list one 15-inch LF driver and one 2-inch-throat HF driver: 2 transducers; dealer host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: 15 in LF + 2 in exit HF."
         },
         {
           "record": "nexo-ps15",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Brochure states an \"8Ω, 2-way passive design\" with passive or active crossover switching; dealer host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: passive input connector and recommended external amplifier."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+            "round": 25,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              9
+            ],
+            "chunksTotal": 14,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "NEXO PS Series brochure, PS15 pages (dealer-hosted copy)",
+            "evidence": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\".",
+            "fieldResults": [
+              {
+                "record": "nexo-ps15",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "PS15 components list one 15-inch LF driver and one 2-inch-throat HF driver: 2 transducers; dealer host cannot promote."
+              },
+              {
+                "record": "nexo-ps15",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Brochure states an \"8Ω, 2-way passive design\" with passive or active crossover switching; dealer host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
@@ -16069,33 +16101,64 @@
     },
     {
       "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "round": 25,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "L-Acoustics ARCS WIDE specification sheet (dealer-hosted copy)",
-      "evidence": "Specification sheet: \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms. It features one 12-inch LF speaker ... and one 3-inch diaphragm compression driver\"; \"Transducers LF: 1 x 12-inch, weather-resistant, bass-reflex HF: 1 x 3-inch, diaphragm compression driver\".",
+      "evidence": "\"based on a 2-way passive design with a nominal impedance of 8 ohms\"; \"Transducers LF: 1 × 12\\\" ... HF: 1 × 3\\\" ... compression driver\"; \"driven and amplified by the LA4X or the LA8 controller\".",
       "fieldResults": [
         {
           "record": "lacoustics-arcs",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Sheet lists one 12-inch LF speaker and one 3-inch compression driver: 2 transducers; dealer host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: 1 × 12 in LF + 1 × 3 in HF."
         },
         {
           "record": "lacoustics-arcs",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Sheet states a \"2-way passive design\"; dealer host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"2-way passive design\"; amplified by external LA4X/LA8."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+            "round": 25,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "L-Acoustics ARCS WIDE specification sheet (dealer-hosted copy)",
+            "evidence": "Specification sheet: \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms. It features one 12-inch LF speaker ... and one 3-inch diaphragm compression driver\"; \"Transducers LF: 1 x 12-inch, weather-resistant, bass-reflex HF: 1 x 3-inch, diaphragm compression driver\".",
+            "fieldResults": [
+              {
+                "record": "lacoustics-arcs",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Sheet lists one 12-inch LF speaker and one 3-inch compression driver: 2 transducers; dealer host cannot promote."
+              },
+              {
+                "record": "lacoustics-arcs",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Sheet states a \"2-way passive design\"; dealer host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",

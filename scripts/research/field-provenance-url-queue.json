@@ -1,9 +1,9 @@
 {
   "schema": "field-provenance-url-queue/v2",
   "note": "Live records are the audit queue. Entries labelled ARCHIVED come from archived records; they are recorded so the inventory is complete, but archived products are not restored and are not part of the research queue.",
-  "liveOutstandingFields": 174,
+  "liveOutstandingFields": 170,
   "archivedOutstandingFields": 35,
-  "liveUrls": 142,
+  "liveUrls": 140,
   "archivedOnlyUrls": 21,
   "urls": [
     {
@@ -119,42 +119,6 @@
         },
         {
           "record": "dbtechnologies-opera-405",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "lacoustics-arcs",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "lacoustics-arcs",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "nexo-ps15",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
-        {
-          "record": "nexo-ps15",
           "field": "active",
           "location": "LIVE"
         }

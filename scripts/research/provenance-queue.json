@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 174,
-  "assessedItems": 174,
+  "uncheckedItems": 170,
+  "assessedItems": 170,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 142,
+  "uniqueSourceUrls": 140,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 6,
-    "CHECKED_PARTIAL": 125,
+    "CHECKED_PARTIAL": 123,
     "INACCESSIBLE": 11
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 12,
-    "CHECKED_PARTIAL": 144,
+    "CHECKED_PARTIAL": 140,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 125
+      "count": 123
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 29
+      "count": 31
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 49
+      "count": 47
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 38
+      "count": 40
     },
     {
       "field": "driverCount",
@@ -356,6 +356,7 @@
     "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
     "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
     "https://www.focal.com/products/alpha-65-evo",
+    "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
     "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
     "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
     "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
@@ -430,6 +431,7 @@
     "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
     "https://www.presonus.com/products/eris-e45-studio-monitor",
     "https://www.presonus.com/products/eris-e8-xt-monitor",
+    "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
     "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
     "https://www.psbspeakers.com/products/synchrony-t600-tower",
     "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
@@ -973,41 +975,6 @@
       "evidence": "The server returned an IIS 404 page for the stored (truncated) URL. The complete brochure URL ending \"(1977).pdf\" was also requested and returned the same 404; no document was served for either form."
     },
     {
-      "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "nexo-ps15"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "nexo-ps15",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Brochure states an \"8Ω, 2-way passive design\" with passive or active crossover switching; dealer host cannot promote."
-        },
-        {
-          "record": "nexo-ps15",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "PS15 components list one 15-inch LF driver and one 2-inch-throat HF driver: 2 transducers; dealer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        9
-      ],
-      "evidence": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\"."
-    },
-    {
       "url": "https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black",
       "host": "www.fullcompass.com",
       "status": "CHECKED_PARTIAL",
@@ -1323,41 +1290,6 @@
         0
       ],
       "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
-    },
-    {
-      "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "host": "www.promusic.cz",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "lacoustics-arcs"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "lacoustics-arcs",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Sheet states a \"2-way passive design\"; dealer host cannot promote."
-        },
-        {
-          "record": "lacoustics-arcs",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Sheet lists one 12-inch LF speaker and one 3-inch compression driver: 2 transducers; dealer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification sheet: \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms. It features one 12-inch LF speaker ... and one 3-inch diaphragm compression driver\"; \"Transducers LF: 1 x 12-inch, weather-resistant, bass-reflex HF: 1 x 3-inch, diaphragm compression driver\"."
     },
     {
       "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",

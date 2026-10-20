@@ -8,14 +8,14 @@
     "byStoredStatus": {
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
-      "CITED_IN_NOTES_UNCHECKED": 209,
+      "CITED_IN_NOTES_UNCHECKED": 205,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "THIRD_PARTY_VERIFIED": 87,
+      "THIRD_PARTY_VERIFIED": 91,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 163
+    "citedUncheckedUrls": 161
   },
   "entries": [
     {
@@ -8397,14 +8397,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): ARCS WIDE sheet — \"Transducers LF: 1 × 12\\\", weather-resistant, bass-reflex HF: 1 × 3\\\", diaphragm compression driver, DOSC waveguide\". One LF transducer plus one HF compression driver.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lacoustics-arcs",
@@ -8415,14 +8415,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): same sheet — \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms\"; \"The ARCS WIDE is driven and amplified by the LA4X or the LA8 controller\". Explicit passive wording with external amplification.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "lacoustics-arcs",
@@ -8577,14 +8577,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): NEXO PS15 brochure — architect spec: \"The 2-way full range loudspeaker system shall have one 15\\\" 6Ω cone transducer and a 2\\\"-exit compression driver\"; product features list \"LF 1x 15\\\" (38cm) 6 Ω driver HF 1x 2\\\" throat, 3\\\" titanium diaphragm\". Two transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "nexo-ps15",
@@ -8595,14 +8595,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): same brochure — \"Connectors 3x NL4MP 4-pole SPEAKON; Passive In Passive Loop Thru, Active In\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs for 1x PS15\". Passive enclosure driven by external amplifiers; the active mode is bi-amplification, not an internal amplifier.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "nexo-ps15",

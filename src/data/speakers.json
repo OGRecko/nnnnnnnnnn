@@ -8986,16 +8986,18 @@
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact L-Acoustics ARCS WIDE. The cited PDF is the manufacturer-published ARCS WIDE Product Information/specification sheet, version 5.0 (03-17), hosted as a full document by ProMusic; it identifies the exact enclosure as 2-way passive, one 12-inch LF transducer plus one 3-inch HF diaphragm compression driver, 8 Ω nominal impedance, and 450 W RMS power handling. The 450 W value remains speaker power handling with its RMS definition retained here; it is not amplifier output or program/peak rating. The sheet states usable bandwidth 55 Hz–20 kHz at -10 dB with the [ARCS_WIFO] preset and maximum SPL 137 dB at 1 m in free field using pink noise with crest factor 4 and that preset. Frequency bounds remain N/A because the current record has no tolerance field and flattening -10 dB limits would erase the published response criterion; no response points are transcribed. The same sheet specifies a -6 dB nominal coverage angle of 30° × 90°, but that is not an angle-resolved polar-response dataset and is not imported as a directivity curve. L-Acoustics' official archive page lists the separate ARCS WIFO archive; its ZIP contents and any exact ARCS WIDE response/polar files remain uninspected because the direct archive fetch failed. Sensitivity, impedance-dependent sensitivity conversion, system resonance, voice-coil diameter, and measured response/directivity data remain N/A. Sources: https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf ; https://www.l-acoustics.com/archives-product/ ; https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip.",
+    "notes": "Exact L-Acoustics ARCS WIDE. The cited PDF is the manufacturer-published ARCS WIDE Product Information/specification sheet, version 5.0 (03-17), hosted as a full document by ProMusic; it identifies the exact enclosure as 2-way passive, one 12-inch LF transducer plus one 3-inch HF diaphragm compression driver, 8 Ω nominal impedance, and 450 W RMS power handling. The 450 W value remains speaker power handling with its RMS definition retained here; it is not amplifier output or program/peak rating. The sheet states usable bandwidth 55 Hz–20 kHz at -10 dB with the [ARCS_WIFO] preset and maximum SPL 137 dB at 1 m in free field using pink noise with crest factor 4 and that preset. Frequency bounds remain N/A because the current record has no tolerance field and flattening -10 dB limits would erase the published response criterion; no response points are transcribed. The same sheet specifies a -6 dB nominal coverage angle of 30° × 90°, but that is not an angle-resolved polar-response dataset and is not imported as a directivity curve. L-Acoustics' official archive page lists the separate ARCS WIFO archive; its ZIP contents and any exact ARCS WIDE response/polar files remain uninspected because the direct archive fetch failed. Sensitivity, impedance-dependent sensitivity conversion, system resonance, voice-coil diameter, and measured response/directivity data remain N/A. Sources: https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf ; https://www.l-acoustics.com/archives-product/ ; https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip. Round 29 (2026-10-19): driverCount 2 and active false verified from the ARCS WIDE sheet (\"2-way passive design\", \"driven and amplified by the LA4X or the LA8 controller\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): ARCS WIDE sheet — \"Transducers LF: 1 × 12\\\", weather-resistant, bass-reflex HF: 1 × 3\\\", diaphragm compression driver, DOSC waveguide\". One LF transducer plus one HF compression driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same sheet — \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms\"; \"The ARCS WIDE is driven and amplified by the LA4X or the LA8 controller\". Explicit passive wording with external amplification."
     }
   },
   {
@@ -9131,16 +9133,18 @@
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "NEXO-authored PS Series brochure section is explicitly for the base PS15 (not PS15-R2) with the PS15 TDcontroller MkII. It specifies 50 Hz–18 kHz ±3 dB and usable range 47 Hz–18 kHz at -6 dB; the response-data note states anechoic far-field response for PS15 + PS15 TD MkII. Sensitivity is 102 dB SPL nominal and 99 dB SPL wideband at 1 W/1 m; the brochure defines nominal as the 300 Hz–3 kHz voice decade and wideband as its specified ±3 dB range. The stored scalar is the wideband 99 dB value; measurement is band-limited pink noise and represents speaker + processor + recommended amplifier, with level depending on spectrum/crest factor. The passive full-range nominal impedance is 8 ohms; the same brochure lists different active bi-amp driver loads (LF 6 ohms, HF 8 ohms), which are not substituted for the passive system value. The cabinet has one 15-inch LF driver plus one HF compression driver (two transducers); it is externally amplified and not self-powered. Recommended amplifier ranges and peak SPL are not stored as speaker power handling. No response points are imported from chart/table extraction, and the brochure's off-axis/directivity curves and nominal 50°–100° horizontal by 55° vertical coverage are retained only as a lead. This is the unsuffixed PS15, not the PS15-R2. Source: https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf.",
+    "notes": "NEXO-authored PS Series brochure section is explicitly for the base PS15 (not PS15-R2) with the PS15 TDcontroller MkII. It specifies 50 Hz–18 kHz ±3 dB and usable range 47 Hz–18 kHz at -6 dB; the response-data note states anechoic far-field response for PS15 + PS15 TD MkII. Sensitivity is 102 dB SPL nominal and 99 dB SPL wideband at 1 W/1 m; the brochure defines nominal as the 300 Hz–3 kHz voice decade and wideband as its specified ±3 dB range. The stored scalar is the wideband 99 dB value; measurement is band-limited pink noise and represents speaker + processor + recommended amplifier, with level depending on spectrum/crest factor. The passive full-range nominal impedance is 8 ohms; the same brochure lists different active bi-amp driver loads (LF 6 ohms, HF 8 ohms), which are not substituted for the passive system value. The cabinet has one 15-inch LF driver plus one HF compression driver (two transducers); it is externally amplified and not self-powered. Recommended amplifier ranges and peak SPL are not stored as speaker power handling. No response points are imported from chart/table extraction, and the brochure's off-axis/directivity curves and nominal 50°–100° horizontal by 55° vertical coverage are retained only as a lead. This is the unsuffixed PS15, not the PS15-R2. Source: https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf. Round 29 (2026-10-19): driverCount 2 and active false verified from the NEXO PS15 brochure pages (\"Passive In Passive Loop Thru, Active In\", \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs for 1x PS15\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): NEXO PS15 brochure — architect spec: \"The 2-way full range loudspeaker system shall have one 15\\\" 6Ω cone transducer and a 2\\\"-exit compression driver\"; product features list \"LF 1x 15\\\" (38cm) 6 Ω driver HF 1x 2\\\" throat, 3\\\" titanium diaphragm\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same brochure — \"Connectors 3x NL4MP 4-pole SPEAKON; Passive In Passive Loop Thru, Active In\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs for 1x PS15\". Passive enclosure driven by external amplifiers; the active mode is bi-amplification, not an internal amplifier."
     }
   },
   {

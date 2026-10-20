@@ -223,6 +223,17 @@ Every page also prints "Nominal Impedance (Passive)" and most print "Internal Cr
 no "passive" in its name, so it rests on its own instruction to use an external processor and a dedicated
 amplifier channel; `Internal Crossover: No` is consistent with that.
 
+## Batch 44 — two manufacturer PDFs served by a distributor and a retailer
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| lacoustics-arcs | 2 / false | "based on a 2-way passive design with a nominal impedance of 8 ohms"; "Transducers LF: 1 × 12\" … HF: 1 × 3\" … compression driver"; "driven and amplified by the LA4X or the LA8 controller" | both promoted |
+| nexo-ps15 | 2 / false | "one 15\" 6Ω cone transducer and a 2\"-exit compression driver"; "Passive In Passive Loop Thru, Active In"; "Recommended Amplifiers 550 to 1200Watts into 8 Ωs" | both promoted |
+
+The PS15 needs the policy's second accepted form rather than the first: its brochure never calls the product
+"passive" outright, but it prints passive input connectors and a recommended external amplifier, and its
+"active" mode is bi-amplification with external amplifiers.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -236,12 +247,12 @@ amplifier channel; `Internal Crossover: No` is consistent with that.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **174** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **170** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **87** |
+| `THIRD_PARTY_VERIFIED` | 24 | **91** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **174 / 142 URLs** |
-| records with backlog | 336 of 657 | **317 of 657** |
+| queue items | 212 / 157 URLs | **170 / 140 URLs** |
+| records with backlog | 336 of 657 | **315 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

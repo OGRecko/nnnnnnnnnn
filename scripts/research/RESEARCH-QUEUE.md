@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **317** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 85 brands.
+Records still needing research: **315** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 84 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **174** fields across **142** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **170** fields across **140** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -58,7 +58,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
 | klipsch-klipschorn | Klipsch | Klipschorn (`klipsch-klipschorn`) | 0 | 0 | 2 |
-| lacoustics-arcs | L-Acoustics | ARCS Wide (`lacoustics-arcs`) | 2 | 0 | 0 |
 | legacy-bw-3 | Bowers & Wilkins | Matrix 801 (`legacy-bw-3`) | 0 | 0 | 2 |
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
@@ -88,7 +87,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
-| nexo-ps15 | Nexo | PS15 (`nexo-ps15`) | 2 | 0 | 0 |
 | ohm-walsh-2 | Ohm Acoustics | Walsh 2 (`ohm-walsh-2`) | 0 | 0 | 2 |
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
 | pioneer-ts-a | Pioneer | TS-A1670F (`pioneer-ts-a`) | 0 | 1 | 1 |

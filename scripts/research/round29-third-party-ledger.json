@@ -875,6 +875,58 @@
       "evidence": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice TX1152FM 15\\\" 2-Way Passive Vertical Floor Monitor with 90 x 50 Horn\" and the specs print \"Internal Crossover: Yes\".",
       "whyNotManufacturer": "The listing is served from fullcompass.com, a retailer, not from an Electro-Voice host; the manufacturer page for this legacy model was not opened.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "lacoustics-arcs",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+      "document": "L-Acoustics ARCS WIDE product information sheet, ARCSWIDE_SP_EN_5.0 (03/17)",
+      "evidence": "Round 29 (2026-10-19): ARCS WIDE sheet — \"Transducers LF: 1 × 12\\\", weather-resistant, bass-reflex HF: 1 × 3\\\", diaphragm compression driver, DOSC waveguide\". One LF transducer plus one HF compression driver.",
+      "whyNotManufacturer": "The PDF is the manufacturer-published ARCS WIDE sheet but it is served by promusic.cz, a distributor, not by an L-Acoustics host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "lacoustics-arcs",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+      "document": "L-Acoustics ARCS WIDE product information sheet, ARCSWIDE_SP_EN_5.0 (03/17)",
+      "evidence": "Round 29 (2026-10-19): same sheet — \"The ARCS WIDE loudspeaker enclosure is based on a 2-way passive design with a nominal impedance of 8 ohms\"; \"The ARCS WIDE is driven and amplified by the LA4X or the LA8 controller\". Explicit passive wording with external amplification.",
+      "whyNotManufacturer": "The PDF is the manufacturer-published ARCS WIDE sheet but it is served by promusic.cz, a distributor, not by an L-Acoustics host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "nexo-ps15",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+      "document": "NEXO PS Series brochure v1.3, PS15 loudspeaker and architect/engineering pages",
+      "evidence": "Round 29 (2026-10-19): NEXO PS15 brochure — architect spec: \"The 2-way full range loudspeaker system shall have one 15\\\" 6Ω cone transducer and a 2\\\"-exit compression driver\"; product features list \"LF 1x 15\\\" (38cm) 6 Ω driver HF 1x 2\\\" throat, 3\\\" titanium diaphragm\". Two transducers.",
+      "whyNotManufacturer": "The brochure is NEXO-authored but is served by fullcompass.com, a retailer, not by a NEXO host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "nexo-ps15",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+      "document": "NEXO PS Series brochure v1.3, PS15 loudspeaker and architect/engineering pages",
+      "evidence": "Round 29 (2026-10-19): same brochure — \"Connectors 3x NL4MP 4-pole SPEAKON; Passive In Passive Loop Thru, Active In\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs for 1x PS15\". Passive enclosure driven by external amplifiers; the active mode is bi-amplification, not an internal amplifier.",
+      "whyNotManufacturer": "The brochure is NEXO-authored but is served by fullcompass.com, a retailer, not by a NEXO host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8
