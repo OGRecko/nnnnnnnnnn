@@ -35,6 +35,25 @@ All six must hold; failing any one keeps the field unresolved.
    ambiguous, the field stays unresolved (`CITED_IN_NOTES_UNCHECKED` / `UNSOURCED`) and the conflict is
    recorded.
 
+## Evidence standard for `active: false`
+
+Condition 2 above lists what cannot prove a loudspeaker *is* powered. Batches 39–40 needed the mirror
+question, so the standard used for a passive statement is fixed here:
+
+Accepted (any one):
+* the document calls the product passive ("Passive 2-way", "passive loudspeakers", "passive speaker
+  system");
+* the document instructs the user to drive the loudspeaker from an external power amplifier and describes no
+  mains inlet or built-in amplifier (connection chapter: "use a single stereo amplifier or two mono
+  amplifiers ..."), including bi-wiring/bi-amping instructions that only make sense with external amplifiers;
+* the document places the active electronics (equalisation/controller/amplifier) in a separate unit that is
+  not part of the loudspeaker, and says so.
+
+Not accepted, on their own: nominal impedance, power-handling ratings, binding posts or terminal types,
+"recommended/suggested amplifier power" or "amplifier requirements" figures, product category, pictures, or
+the absence of any amplifier mention. Those leave `active` unresolved even when the value is obviously
+`false`; the queue records `NOT_STATED` so the gap stays visible.
+
 ## Rules for batches
 
 * One record at a time; no bulk promotion and no inference from a sibling field.

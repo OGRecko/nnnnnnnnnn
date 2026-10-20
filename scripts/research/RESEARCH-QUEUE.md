@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **335** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 86 brands.
+Records still needing research: **328** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 86 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **218** fields across **157** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **200** fields across **153** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -53,9 +53,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
 | jbl-4310 | JBL | 4310 (`jbl-4310`) | 2 | 0 | 0 |
-| jbl-4312 | JBL | 4312 (`jbl-4312`) | 2 | 0 | 0 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
-| jbl-l16 | JBL | L16 (`jbl-l16`) | 2 | 0 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
 | jbl-vrx932 | JBL | VRX932LA (`jbl-vrx932`) | 2 | 0 | 0 |
@@ -78,9 +76,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
 | legacy-focal-1 | Focal | Chorus 707 (`legacy-focal-1`) | 1 | 0 | 1 |
 | legacy-focal-5 | Focal | Trio6 Be (`legacy-focal-5`) | 2 | 0 | 0 |
-| legacy-jbl-1 | JBL | D130 (`legacy-jbl-1`) | 2 | 0 | 0 |
 | legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 2 | 0 | 0 |
-| legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 2 | 0 | 0 |
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
 | legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 2 | 0 | 0 |
@@ -115,13 +111,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
 | snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
-| sonus-faber-homage-tradition-amati | Sonus Faber | Homage Tradition Amati (`sonus-faber-homage-tradition-amati`) | 2 | 0 | 0 |
-| sonus-faber-homage-tradition-guarneri | Sonus Faber | Homage Tradition Guarneri (`sonus-faber-homage-tradition-guarneri`) | 2 | 0 | 0 |
-| sonus-faber-homage-tradition-serafino | Sonus Faber | Homage Tradition Serafino (`sonus-faber-homage-tradition-serafino`) | 2 | 0 | 0 |
-| sonus-faber-olympica-nova-i | Sonus Faber | Olympica Nova I (`sonus-faber-olympica-nova-i`) | 2 | 0 | 0 |
-| sonus-faber-olympica-nova-ii | Sonus Faber | Olympica Nova II (`sonus-faber-olympica-nova-ii`) | 2 | 0 | 0 |
-| sonus-faber-olympica-nova-iii | Sonus Faber | Olympica Nova III (`sonus-faber-olympica-nova-iii`) | 2 | 0 | 0 |
-| sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V (`sonus-faber-olympica-nova-v`) | 2 | 0 | 0 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
 | sonus-faber-sonetto-iii | Sonus Faber | Sonetto III (`sonus-faber-sonetto-iii`) | 0 | 0 | 2 |
 | sonus-faber-sonetto-v | Sonus Faber | Sonetto V (`sonus-faber-sonetto-v`) | 0 | 0 | 2 |
@@ -204,6 +193,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | hertz-dieci-dsk-165-3 | Hertz | Dieci DSK 165.3 (`hertz-dieci-dsk-165-3`) | 0 | 0 | 1 |
 | hertz-mille-pro-mpk-165-3 | Hertz | Mille Pro MPK 165.3 (`hertz-mille-pro-mpk-165-3`) | 0 | 0 | 1 |
 | jbl-4311 | JBL | 4311 (`jbl-4311`) | 1 | 0 | 0 |
+| jbl-4312 | JBL | 4312 (`jbl-4312`) | 1 | 0 | 0 |
 | jbl-4412 | JBL | 4412 (`jbl-4412`) | 1 | 0 | 0 |
 | jbl-4429 | JBL | 4429 (`jbl-4429`) | 0 | 1 | 0 |
 | jbl-control-1 | JBL | Control 1 (`jbl-control-1`) | 0 | 0 | 1 |
@@ -214,6 +204,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-k2-s9900 | JBL | K2 S9900 (`jbl-k2-s9900`) | 1 | 0 | 0 |
 | jbl-l100-classic | JBL | L100 Classic (`jbl-l100-classic`) | 1 | 0 | 0 |
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 1 | 0 |
+| jbl-l16 | JBL | L16 (`jbl-l16`) | 1 | 0 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
@@ -262,7 +253,9 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-dyn-3 | Dynaudio | Confidence C1 (`legacy-dyn-3`) | 0 | 0 | 1 |
 | legacy-focal-2 | Focal | Electra 1027Be (`legacy-focal-2`) | 1 | 0 | 0 |
 | legacy-focal-8 | Focal | Aria 906 (`legacy-focal-8`) | 1 | 0 | 0 |
+| legacy-jbl-1 | JBL | D130 (`legacy-jbl-1`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
+| legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |
 | legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Cavity Audio — Final Release Verification
 
-**Audit date:** 2026-10-19  
+**Audit date:** 2026-10-20  
 **Product:** Cavity Audio 1.0.0  
 **Release constraints:** free/public/no login/no payment; 50,000,000 FDTD grid-cell ceiling; 1–16 sources; 1–64 receivers.
 

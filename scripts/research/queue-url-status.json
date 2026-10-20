@@ -3397,33 +3397,64 @@
     },
     {
       "url": "https://audio-database.com/JBL/speaker/4312-e.html",
-      "round": 25,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "audio-database.com JBL 4312 specification entry",
-      "evidence": "Entry: \"Method 3-Way, 3-Speaker, Bass reflex system\"; \"For Low Band: 30 cm Cone Type (2213H)\"; \"For Middle Range: 13 cm Cone Type (LE5-12)\"; \"For High Range: 3.6 cm Cone Type (LE25-2)\"; \"Allowable input 80W (continuous program)\"; 8 Ω.",
+      "evidence": "\"Method: 3-Way, 3-Speaker, Bass reflex system, Bookshelf Type\"; 2213H / LE5-12 / LE25-2; \"Allowable input 80W (continuous program)\"; no passive/active statement.",
       "fieldResults": [
         {
           "record": "jbl-4312",
           "field": "driverCount",
           "value": 3,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Entry states \"3-Way, 3-Speaker\" and lists the three units; third-party database cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: three enumerated units."
         },
         {
           "record": "jbl-4312",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "Entry gives allowable input and impedance but no passive/active statement."
+          "note": "Round 29: power-handling rating only; policy excludes it as passive evidence."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://audio-database.com/JBL/speaker/4312-e.html",
+            "round": 25,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "audio-database.com JBL 4312 specification entry",
+            "evidence": "Entry: \"Method 3-Way, 3-Speaker, Bass reflex system\"; \"For Low Band: 30 cm Cone Type (2213H)\"; \"For Middle Range: 13 cm Cone Type (LE5-12)\"; \"For High Range: 3.6 cm Cone Type (LE25-2)\"; \"Allowable input 80W (continuous program)\"; 8 Ω.",
+            "fieldResults": [
+              {
+                "record": "jbl-4312",
+                "field": "driverCount",
+                "value": 3,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Entry states \"3-Way, 3-Speaker\" and lists the three units; third-party database cannot promote."
+              },
+              {
+                "record": "jbl-4312",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "Entry gives allowable input and impedance but no passive/active statement."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://audio-database.com/JBL/speaker/4350.html",
@@ -3488,93 +3519,186 @@
     },
     {
       "url": "https://audio-database.com/JBL/speaker/l16decade-e.html",
-      "round": 26,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "audio-database JBL L16 Decade page",
-      "evidence": "Model Rating: \"2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; \"Low Band : 20 cm Cone Type (116A)\"; \"For High Range : 5 cm Cone Type (LE25-2)\"; 8 ohms; 2.5 kHz crossover; no amplifier of any kind is listed.",
+      "evidence": "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; 116A / LE25-2; \"Allowable input 35W (continuous program)\".",
       "fieldResults": [
         {
           "record": "jbl-l16",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Rating table gives a 2-way, 2-speaker system with one 116A woofer and one LE25-2 tweeter; database host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two enumerated units."
         },
         {
           "record": "jbl-l16",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+          "note": "Round 29: no passive/active statement."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "audio-database JBL L16 Decade page",
+            "evidence": "Model Rating: \"2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; \"Low Band : 20 cm Cone Type (116A)\"; \"For High Range : 5 cm Cone Type (LE25-2)\"; 8 ohms; 2.5 kHz crossover; no amplifier of any kind is listed.",
+            "fieldResults": [
+              {
+                "record": "jbl-l16",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Rating table gives a 2-way, 2-speaker system with one 116A woofer and one LE25-2 tweeter; database host cannot promote."
+              },
+              {
+                "record": "jbl-l16",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://audio-database.com/JBL/unit/d130.html",
-      "round": 26,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "audio-database JBL D130 page",
-      "evidence": "Model Rating: \"Type: 38 cm cone type full range unit\"; 8/16 ohms; 60 W continuous program; voice-coil and magnet figures only; the page describes a bare drive unit with no enclosure or amplifier.",
+      "evidence": "\"Type: 38 cm cone type full range unit\"; 8/16 ohm; 60 W continuous program; no passive/active statement.",
       "fieldResults": [
         {
           "record": "legacy-jbl-1",
           "field": "driverCount",
           "value": 1,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The page documents a single 38 cm full-range drive unit: 1 transducer; database host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: a single drive unit."
         },
         {
           "record": "legacy-jbl-1",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The page describes a bare 38 cm drive unit (component) that accepts 60 W programme power, i.e. it is driven by an external amplifier; database host cannot promote."
+          "outcome": "NOT_STATED",
+          "note": "Round 29: product category is not accepted as evidence."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://audio-database.com/JBL/unit/d130.html",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "audio-database JBL D130 page",
+            "evidence": "Model Rating: \"Type: 38 cm cone type full range unit\"; 8/16 ohms; 60 W continuous program; voice-coil and magnet figures only; the page describes a bare drive unit with no enclosure or amplifier.",
+            "fieldResults": [
+              {
+                "record": "legacy-jbl-1",
+                "field": "driverCount",
+                "value": 1,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The page documents a single 38 cm full-range drive unit: 1 transducer; database host cannot promote."
+              },
+              {
+                "record": "legacy-jbl-1",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The page describes a bare 38 cm drive unit (component) that accepts 60 W programme power, i.e. it is driven by an external amplifier; database host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://audio-database.com/KEF/speaker/model104.html",
-      "round": 26,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "audio-database KEF Model 104 page",
-      "evidence": "Model Rating: \"2-way, 2-speaker, passive radiator system, bookshelf type\"; units \"For Low Band : 20 cm Cone Type (B200/SP1039)\", \"For High Range : Dome Type (T27/SP1032)\", \"Other : 32x21cm passive radiator (BD139/SP1037)\"; \"Adaptive input 15W ~ 50W (8 Ω)\".",
+      "evidence": "\"Method: 2-way, 2-speaker, passive radiator system, bookshelf type\"; B200/SP1039, T27/SP1032, BD139/SP1037 passive radiator; maximum allowable input 50 W music power.",
       "fieldResults": [
         {
           "record": "legacy-kef-2",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Rating table gives a 2-way, 2-speaker system (B200 woofer plus T27 dome); the third device is a passive radiator, not a driven transducer; database host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two driven units; the passive radiator is not driven."
         },
         {
           "record": "legacy-kef-2",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+          "note": "Round 29: \"passive radiator\" is not a passive-amplification statement."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://audio-database.com/KEF/speaker/model104.html",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "audio-database KEF Model 104 page",
+            "evidence": "Model Rating: \"2-way, 2-speaker, passive radiator system, bookshelf type\"; units \"For Low Band : 20 cm Cone Type (B200/SP1039)\", \"For High Range : Dome Type (T27/SP1032)\", \"Other : 32x21cm passive radiator (BD139/SP1037)\"; \"Adaptive input 15W ~ 50W (8 Ω)\".",
+            "fieldResults": [
+              {
+                "record": "legacy-kef-2",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Rating table gives a 2-way, 2-speaker system (B200 woofer plus T27 dome); the third device is a passive radiator, not a driven transducer; database host cannot promote."
+              },
+              {
+                "record": "legacy-kef-2",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://audison.com/product/apk-165/",
@@ -13576,76 +13700,105 @@
     },
     {
       "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
-      "round": 25,
+      "round": 29,
       "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
-        0,
         1
       ],
-      "chunksTotal": 46,
+      "chunksTotal": 3,
       "checkedDate": "2026-10-19",
-      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
-      "document": "Sonus Faber Homage Tradition owner's manual, page 29 \"Technical Specifications\" (aggregator copy)",
-      "evidence": "Header: \"Homage tradition passive loudspeakers\". AMATI column: \"3.5 way floorstanding loudspeaker system\"; \"H28 XTR-04 Sonus faber silk dome 28 mm\"; \"M15 XTR-04 ... 150 mm ... midrange\"; \"2 x W22XTR-08 Sonus faber designed 220 mm ... woofers\"; 4 Ω; \"100 – 500 W\".",
+      "evidence": "Homage Tradition manual p.29: header \"Homage tradition passive loudspeakers\"; AMATI \"3.5 way floorstanding\"; H28 28 mm tweeter, M15 150 mm midrange, 2 x W22XTR-08 220 mm woofers.",
       "fieldResults": [
         {
           "record": "sonus-faber-homage-tradition-amati",
           "field": "driverCount",
           "value": 4,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: four enumerated transducers; manualslib copy."
         },
         {
           "record": "sonus-faber-homage-tradition-amati",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: page header \"Homage tradition passive loudspeakers\"."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+            "round": 25,
+            "status": "CHECKED_CONFIRMED",
+            "chunksOpened": [
+              0,
+              1
+            ],
+            "chunksTotal": 46,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+            "document": "Sonus Faber Homage Tradition owner's manual, page 29 \"Technical Specifications\" (aggregator copy)",
+            "evidence": "Header: \"Homage tradition passive loudspeakers\". AMATI column: \"3.5 way floorstanding loudspeaker system\"; \"H28 XTR-04 Sonus faber silk dome 28 mm\"; \"M15 XTR-04 ... 150 mm ... midrange\"; \"2 x W22XTR-08 Sonus faber designed 220 mm ... woofers\"; 4 Ω; \"100 – 500 W\".",
+            "fieldResults": [
+              {
+                "record": "sonus-faber-homage-tradition-amati",
+                "field": "driverCount",
+                "value": 4,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-homage-tradition-amati",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "round": 15,
+      "round": 29,
       "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0,
         1
       ],
-      "chunksTotal": null,
-      "checkedDate": "2026-10-12",
-      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
-      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
-      "evidence": "Technical table Guarneri / Serafino / VOX; header \"Homage tradition passive loudspeakers\". Aggregator-hosted: THIRD_PARTY.",
+      "chunksTotal": 3,
+      "checkedDate": "2026-10-19",
+      "evidence": "Homage Tradition manual p.30: GUARNERI \"2 way stand mount\", H28 + W15 150 mm; SERAFINO \"3.5 way floorstanding\", H28 + M15 + 2 x W18XTR-08 180 mm.",
       "fieldResults": [
         {
           "record": "sonus-faber-homage-tradition-serafino",
           "field": "driverCount",
           "value": 4,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: four enumerated transducers."
         },
         {
           "record": "sonus-faber-homage-tradition-serafino",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"Homage tradition passive loudspeakers\"."
         },
         {
           "record": "sonus-faber-homage-tradition-guarneri",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two enumerated transducers."
         },
         {
           "record": "sonus-faber-homage-tradition-guarneri",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"Homage tradition passive loudspeakers\"."
         }
       ],
       "history": [
@@ -13713,6 +13866,53 @@
               }
             ]
           }
+        },
+        {
+          "snapshotOfRound": 15,
+          "entry": {
+            "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+            "round": 15,
+            "status": "CHECKED_CONFIRMED",
+            "chunksOpened": [
+              0,
+              1
+            ],
+            "chunksTotal": null,
+            "checkedDate": "2026-10-12",
+            "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+            "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+            "evidence": "Technical table Guarneri / Serafino / VOX; header \"Homage tradition passive loudspeakers\". Aggregator-hosted: THIRD_PARTY.",
+            "fieldResults": [
+              {
+                "record": "sonus-faber-homage-tradition-serafino",
+                "field": "driverCount",
+                "value": 4,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-homage-tradition-serafino",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-homage-tradition-guarneri",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-homage-tradition-guarneri",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              }
+            ]
+          }
         }
       ]
     },
@@ -13748,31 +13948,28 @@
     },
     {
       "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "round": 15,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
-        0,
         1
       ],
-      "chunksTotal": null,
-      "checkedDate": "2026-10-12",
-      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
-      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
-      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+      "chunksTotal": 4,
+      "checkedDate": "2026-10-19",
+      "evidence": "Olympica Nova manual p.42: Nova V \"3 way ... floorstanding\" H28 + M15 + 3 x W18XTR2-12; Nova III \"3 way ...\" H28 + M15 + 2 x W18XTR2-08.",
       "fieldResults": [
         {
           "record": "sonus-faber-olympica-nova-iii",
           "field": "driverCount",
           "value": 4,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: four enumerated transducers."
         },
         {
           "record": "sonus-faber-olympica-nova-v",
           "field": "driverCount",
           "value": 5,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: five enumerated transducers."
         },
         {
           "record": "sonus-faber-olympica-nova-iii",
@@ -13854,36 +14051,80 @@
               }
             ]
           }
+        },
+        {
+          "snapshotOfRound": 15,
+          "entry": {
+            "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+            "round": 15,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0,
+              1
+            ],
+            "chunksTotal": null,
+            "checkedDate": "2026-10-12",
+            "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+            "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+            "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+            "fieldResults": [
+              {
+                "record": "sonus-faber-olympica-nova-iii",
+                "field": "driverCount",
+                "value": 4,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-olympica-nova-v",
+                "field": "driverCount",
+                "value": 5,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-olympica-nova-iii",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": ""
+              },
+              {
+                "record": "sonus-faber-olympica-nova-v",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": ""
+              }
+            ]
+          }
         }
       ]
     },
     {
       "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "round": 15,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
-        0,
         1
       ],
-      "chunksTotal": null,
-      "checkedDate": "2026-10-12",
-      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
-      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
-      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+      "chunksTotal": 3,
+      "checkedDate": "2026-10-19",
+      "evidence": "Olympica Nova manual p.43: Nova I \"2 way ... stand mount\" H28 + MW15 150 mm; Nova II \"3 way ... floorstanding\" H28 + M15 + W18XTR2-04.",
       "fieldResults": [
         {
           "record": "sonus-faber-olympica-nova-i",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two enumerated transducers."
         },
         {
           "record": "sonus-faber-olympica-nova-ii",
           "field": "driverCount",
           "value": 3,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+          "outcome": "PROMOTED",
+          "note": "Round 29: three enumerated transducers."
         },
         {
           "record": "sonus-faber-olympica-nova-i",
@@ -13948,6 +14189,53 @@
                 "value": 3,
                 "outcome": "SUPPORTED_NOT_PROMOTED",
                 "note": ""
+              },
+              {
+                "record": "sonus-faber-olympica-nova-i",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": ""
+              },
+              {
+                "record": "sonus-faber-olympica-nova-ii",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "snapshotOfRound": 15,
+          "entry": {
+            "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+            "round": 15,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0,
+              1
+            ],
+            "chunksTotal": null,
+            "checkedDate": "2026-10-12",
+            "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+            "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+            "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+            "fieldResults": [
+              {
+                "record": "sonus-faber-olympica-nova-i",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
+              },
+              {
+                "record": "sonus-faber-olympica-nova-ii",
+                "field": "driverCount",
+                "value": 3,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
               },
               {
                 "record": "sonus-faber-olympica-nova-i",

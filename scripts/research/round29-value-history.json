@@ -1347,6 +1347,466 @@
       "action": "DEMOTE_POLICY",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
       "reason": "host NOT_MANUFACTURER under the 2026-10-19 policy"
+    },
+    {
+      "id": "jbl-4312",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/JBL/speaker/4312-e.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/speaker/4312-e.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Audio Database JBL 4312 entry — \"Method: 3-Way, 3-Speaker, Bass reflex system, Bookshelf Type\"; units: 30 cm cone (2213H), 13 cm cone (LE5-12), 3.6 cm cone (LE25-2). Three transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/JBL/speaker/4312-e.html"
+    },
+    {
+      "id": "jbl-l16",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Audio Database JBL L16 Decade entry — \"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type\"; units: 20 cm cone (116A), 5 cm cone (LE25-2). Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/JBL/speaker/l16decade-e.html"
+    },
+    {
+      "id": "legacy-jbl-1",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": 1,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/JBL/unit/d130.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/unit/d130.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Audio Database JBL D130 entry — \"Type: 38 cm cone type full range unit\"; voice coil 10.2 cm. A single transducer."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/JBL/unit/d130.html"
+    },
+    {
+      "id": "legacy-kef-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://audio-database.com/KEF/speaker/model104.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/KEF/speaker/model104.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Audio Database KEF Model 104 entry — \"Method: 2-way, 2-speaker, passive radiator system, bookshelf type\"; units: 20 cm cone (B200/SP1039) and dome (T27/SP1032); the BD139/SP1037 passive radiator is not a driven unit. Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://audio-database.com/KEF/speaker/model104.html"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-amati",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+          "sourceType": null,
+          "note": "Round 25: AMATI column lists one 28 mm tweeter, one 150 mm midrange and two 220 mm woofers: 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Homage Tradition manual, page 29 — \"3.5 way floorstanding loudspeaker system\"; \"H28 XTR-04 ... 28 mm\" tweeter, \"M15 XTR-04 ... 150 mm\" midrange, \"2 x W22XTR-08 ... 220 mm\" woofers. Four transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-amati",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+          "sourceType": null,
+          "note": "Round 25: The manual is headed \"Homage tradition passive loudspeakers\"; only a suggested amplifier power is given. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Homage Tradition manual — every page is headed \"Homage tradition passive loudspeakers\"; the specification table gives \"Suggested Amplifier Power Output\" and the connection chapter drives the speakers from external amplifiers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Homage Tradition manual, page 30, GUARNERI column — \"2 way stand mount loudspeaker system\"; \"H28 XTR-04 ... 28 mm\" tweeter and \"W15 XTR-04 ... 150 mm\" midwoofer. Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual — page header \"Homage tradition passive loudspeakers\"; the GUARNERI column lists only a \"Suggested Amplifier Power Output\" of 30-250 W."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Homage Tradition manual, page 30, SERAFINO column — \"3.5 way floorstanding loudspeaker system\"; H28 XTR-04 tweeter, M15 XTR-04 midrange, \"2 x W18XTR-08 ... 180 mm\" woofers. Four transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual — \"Homage tradition passive loudspeakers\"; SERAFINO column gives \"Suggested Amplifier Power Output\" 80-350 W."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Olympica Nova manual, page 43, Olympica Nova I column — \"2 way, full para-aperiodic vented box ... stand mount loudspeaker system\"; \"H28 XTR3 ... 28 mm\" tweeter and \"MW15 XTR2-04, 150mm\" driver. Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-i",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Olympica Nova manual, page 20 \"3.4.1 Standard connection\" — \"Use a single stereo amplifier or two mono amplifiers and a pair of power cables\"; the bi-wiring and bi-amping sections add external amplifiers. No mains inlet is described for the loudspeaker."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Olympica Nova manual, page 43, Olympica Nova II column — \"3 way ... floorstanding loudspeaker system\"; \"H28 XTR3\" tweeter, \"M15 XTR2-04, 150mm\" midrange, \"W18XTR2-04\" woofer. Three transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-ii",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual, page 20 — \"Use a single stereo amplifier or two mono amplifiers and a pair of power cables\"; bi-amping section uses external amplifiers only."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-iii",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Olympica Nova manual, page 42, Olympica Nova III column — \"3 way ... floorstanding\"; \"H28 XTR3\" tweeter, \"M15 XTR2-04, 150mm\" midrange, \"2 x W18XTR2-08 cone drivers\". Four transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-iii",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual, page 20 — \"Use a single stereo amplifier or two mono amplifiers and a pair of power cables\"; bi-wiring and bi-amping are described with external amplifiers only."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-v",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "value": 5,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": null,
+          "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 5,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Olympica Nova manual, page 42, Olympica Nova V column — \"3 way ... floorstanding\"; \"H28 XTR3\" tweeter, \"M15 XTR2-04\" midrange, \"3 x W18XTR2-12 cone drivers\". Five transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-v",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual, page 20 — \"Use a single stereo amplifier or two mono amplifiers and a pair of power cables\"; no built-in amplification is described."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=20"
     }
   ]
 }

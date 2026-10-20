@@ -1,6 +1,6 @@
 # Cavity Audio — Third-party notices
 
-Generated from `package-lock.json` on 2026-10-19 by `scripts/generate-third-party-notices.mjs`. This is an inventory, not a replacement for the license text shipped with each dependency.
+Generated from `package-lock.json` on 2026-10-20 by `scripts/generate-third-party-notices.mjs`. This is an inventory, not a replacement for the license text shipped with each dependency.
 
 | Package | Version | License |
 |---|---|---|

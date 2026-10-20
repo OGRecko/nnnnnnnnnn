@@ -137,6 +137,46 @@ entry. The queue rows move from `PROMOTED` to `SUPPORTED_NOT_PROMOTED`. Report:
 `round29-mv-host-audit.json`. This is a correction, not a loss of data — the MV count drops by 23 and the
 cited backlog grows by the same amount.
 
+## Policy clarification: what proves `active: false`
+
+The tier's condition 2 only said what cannot prove a loudspeaker *is* powered. Batches 39–40 needed the
+mirror rule, which is now written into `PROVENANCE-POLICY.md`:
+
+* accepted: the document calls the product passive; or it instructs the user to drive the loudspeaker from
+  an external power amplifier (including bi-wiring/bi-amping instructions) and describes no mains inlet; or
+  it places the active electronics in a separate unit and says so;
+* **not** accepted on their own: impedance, power-handling ratings, binding posts/terminals, "recommended /
+  suggested amplifier power" or "amplifier requirements" figures, product category, pictures, or the mere
+  absence of an amplifier mention.
+
+Consequences applied consistently: ATC SCM19, Wilson WATT/Puppy, KEF Q150/Q350, JBL 4312/L16/D130 and KEF
+Model 104 keep `active` unresolved (`NOT_STATED`) even though the value is obviously false, because those
+documents only give a recommended amplifier power or a power-handling rating.
+
+## Batch 39 — Audio Database (JBL 4312, JBL L16, JBL D130, KEF Model 104)
+
+| Record | driverCount | Quote | active |
+| --- | --- | --- | --- |
+| jbl-4312 | 3 | "Method: 3-Way, 3-Speaker" | NOT_STATED (only "Allowable input 80W") |
+| jbl-l16 | 2 | "Method: 2-Way, 2-Speaker" | NOT_STATED (only "Allowable input 35W") |
+| legacy-jbl-1 | 1 | "Type: 38 cm cone type full range unit" | NOT_STATED (category is not evidence) |
+| legacy-kef-2 | 2 | "2-way, 2-speaker, passive radiator system" | NOT_STATED ("passive radiator" is cabinet loading) |
+
+## Batch 40 — Sonus faber manuals (manualslib copy)
+
+These are the fields demoted earlier today by the MV host audit. The pages were opened and the evidence
+re-read, so they now hold the third-party tier instead of a mislabelled MV:
+
+| Record | driverCount | Quote | active |
+| --- | --- | --- | --- |
+| homage-tradition-amati | 4 | "3.5 way"; H28 28 mm + M15 150 mm + 2 × W22XTR-08 220 mm | false — "Homage tradition passive loudspeakers" |
+| homage-tradition-guarneri | 2 | "2 way stand mount"; H28 + W15 150 mm | false — same header |
+| homage-tradition-serafino | 4 | "3.5 way"; H28 + M15 + 2 × W18XTR-08 180 mm | false — same header |
+| olympica-nova-i | 2 | "2 way ... stand mount"; H28 XTR3 + MW15 XTR2-04 | false — "Use a single stereo amplifier or two mono amplifiers" |
+| olympica-nova-ii | 3 | "3 way"; H28 + M15 + W18XTR2-04 | false — same connection chapter |
+| olympica-nova-iii | 4 | "3 way"; H28 + M15 + 2 × W18XTR2-08 | false — same connection chapter |
+| olympica-nova-v | 5 | "3 way"; H28 + M15 + 3 × W18XTR2-12 | false — same connection chapter |
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -150,12 +190,12 @@ cited backlog grows by the same amount.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **253** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **235** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **43** |
+| `THIRD_PARTY_VERIFIED` | 24 | **61** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **218 / 157 URLs** |
-| records with backlog | 336 of 657 | **335 of 657** |
+| queue items | 212 / 157 URLs | **200 / 153 URLs** |
+| records with backlog | 336 of 657 | **328 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
