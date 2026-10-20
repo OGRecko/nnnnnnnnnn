@@ -2560,6 +2560,106 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf"
+    },
+    {
+      "id": "fostex-6301b",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": 1,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Fostex 6301B manual — \"Speaker section Type 10cm full range single cone\"; \"Frequency range 80Hz ~ 13kHz\". One full-range transducer, no separate HF device."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf"
+    },
+    {
+      "id": "fostex-6301b",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual — the cover reads \"PERSONAL MONITOR Self-Powered\", the specification lists an \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\" and \"Mains power 120VAC 60Hz (USA/Canada) 33W\". Built-in amplification."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf"
+    },
+    {
+      "id": "kali-lp6",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Kali LP-6 manual — \"LF Driver: 6.5\\\" Woofer\", \"HF Driver: 1\\\" Soft Dome Tweeter\", \"Crossover: 1.5 kHz\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
+    },
+    {
+      "id": "kali-lp6",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same manual — the specification table opens \"Powered: Yes\", then \"Amplifier Class: D\", \"Power Configuration: Bi-Amped\", \"LF Power: 40 W\", \"HF Power: 40 W\"; the rear panel is labelled \"Power AC -100-240V 50/60Hz\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
     }
   ]
 }

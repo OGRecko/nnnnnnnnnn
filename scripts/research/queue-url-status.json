@@ -8324,34 +8324,66 @@
     },
     {
       "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
-      "round": 26,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0,
         1
       ],
       "chunksTotal": 3,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Kali Audio LP-6 User's Manual (Squarespace CDN)",
-      "evidence": "Full Specifications: \"Powered: Yes\"; \"Amplifier Class: D\"; \"Power Configuration: Bi-Amped\"; \"LF Power: 40 W\"; \"HF Power: 40 W\"; \"LF Driver: 6.5\\\" Woofer\"; \"HF Driver: 1\\\" Soft Dome Tweeter\".",
+      "evidence": "\"Powered: Yes\"; \"Amplifier Class: D\"; \"Power Configuration: Bi-Amped\"; \"LF Driver: 6.5\\\" Woofer\"; \"HF Driver: 1\\\" Soft Dome Tweeter\"; \"Power AC -100-240V 50/60Hz\".",
       "fieldResults": [
         {
           "record": "kali-lp6",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The specification pairs a 6.5-inch woofer with a 1-inch soft-dome tweeter: 2 transducers; generic CDN host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: 6.5 in woofer + 1 in soft dome."
         },
         {
           "record": "kali-lp6",
           "field": "active",
           "value": true,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The specification states \"Powered: Yes\" with a bi-amped class-D 40 W + 40 W amplifier; generic CDN host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"Powered: Yes\", bi-amped class D."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0,
+              1
+            ],
+            "chunksTotal": 3,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Kali Audio LP-6 User's Manual (Squarespace CDN)",
+            "evidence": "Full Specifications: \"Powered: Yes\"; \"Amplifier Class: D\"; \"Power Configuration: Bi-Amped\"; \"LF Power: 40 W\"; \"HF Power: 40 W\"; \"LF Driver: 6.5\\\" Woofer\"; \"HF Driver: 1\\\" Soft Dome Tweeter\".",
+            "fieldResults": [
+              {
+                "record": "kali-lp6",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The specification pairs a 6.5-inch woofer with a 1-inch soft-dome tweeter: 2 transducers; generic CDN host cannot promote."
+              },
+              {
+                "record": "kali-lp6",
+                "field": "active",
+                "value": true,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The specification states \"Powered: Yes\" with a bi-amped class-D 40 W + 40 W amplifier; generic CDN host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
@@ -8468,33 +8500,64 @@
     },
     {
       "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
-      "round": 24,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 2,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Fostex Model 6301B Personal Monitor owner's manual",
-      "evidence": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\".",
+      "evidence": "\"PERSONAL MONITOR Self-Powered\"; \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS\"; \"Mains power 120VAC 60Hz\".",
       "fieldResults": [
         {
           "record": "fostex-6301b",
           "field": "driverCount",
           "value": 1,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
+          "outcome": "PROMOTED",
+          "note": "Round 29: one 10 cm full-range cone."
         },
         {
           "record": "fostex-6301b",
           "field": "active",
           "value": true,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"Self-Powered\", mains power and amplifier section."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 24,
+          "entry": {
+            "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+            "round": 24,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 2,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Fostex Model 6301B Personal Monitor owner's manual",
+            "evidence": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\".",
+            "fieldResults": [
+              {
+                "record": "fostex-6301b",
+                "field": "driverCount",
+                "value": 1,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
+              },
+              {
+                "record": "fostex-6301b",
+                "field": "active",
+                "value": true,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",

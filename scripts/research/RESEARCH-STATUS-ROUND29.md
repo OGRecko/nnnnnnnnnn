@@ -234,6 +234,16 @@ The PS15 needs the policy's second accepted form rather than the first: its broc
 "passive" outright, but it prints passive input connectors and a recommended external amplifier, and its
 "active" mode is bi-amplification with external amplifiers.
 
+## Batch 45 — two powered monitors
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| fostex-6301b | 1 / true | "PERSONAL MONITOR Self-Powered"; "Speaker section Type 10cm full range single cone"; "Amplifier section (EXT SP jack) Output Higher than 10W RMS"; "Mains power 120VAC 60Hz" | both promoted |
+| kali-lp6 | 2 / true | "Powered: Yes"; "Amplifier Class: D"; "LF Driver: 6.5\" Woofer"; "HF Driver: 1\" Soft Dome Tweeter" | both promoted |
+
+Both manuals are hosted by third parties (a rental house and the site's asset CDN), so neither reaches
+`MANUFACTURER_VERIFIED`; the wording is explicit enough for `THIRD_PARTY_VERIFIED`.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -247,12 +257,12 @@ The PS15 needs the policy's second accepted form rather than the first: its broc
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **170** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **166** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **91** |
+| `THIRD_PARTY_VERIFIED` | 24 | **95** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **170 / 140 URLs** |
-| records with backlog | 336 of 657 | **315 of 657** |
+| queue items | 212 / 157 URLs | **166 / 138 URLs** |
+| records with backlog | 336 of 657 | **313 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

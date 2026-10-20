@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **315** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 84 brands.
+Records still needing research: **313** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **170** fields across **140** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **166** fields across **138** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -37,7 +37,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
-| fostex-6301b | Fostex | 6301B (`fostex-6301b`) | 2 | 0 | 0 |
 | harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 2 | 0 | 0 |
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
@@ -50,7 +49,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jl-audio-c3-650 | JL Audio | C3-650 (`jl-audio-c3-650`) | 2 | 0 | 0 |
 | jl-audio-c5-650 | JL Audio | C5-650 (`jl-audio-c5-650`) | 2 | 0 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
-| kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |

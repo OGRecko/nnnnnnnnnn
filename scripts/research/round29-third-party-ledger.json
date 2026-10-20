@@ -927,6 +927,58 @@
       "evidence": "Round 29 (2026-10-19): same brochure — \"Connectors 3x NL4MP 4-pole SPEAKON; Passive In Passive Loop Thru, Active In\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Recommended Amplifiers 550 to 1200Watts into 8 Ωs for 1x PS15\". Passive enclosure driven by external amplifiers; the active mode is bi-amplification, not an internal amplifier.",
       "whyNotManufacturer": "The brochure is NEXO-authored but is served by fullcompass.com, a retailer, not by a NEXO host.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "fostex-6301b",
+      "field": "driverCount",
+      "valueBefore": 1,
+      "valueAfter": 1,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+      "document": "Fostex Model 6301B Personal Monitor owner's manual (Fostex, printed May 2004)",
+      "evidence": "Round 29 (2026-10-19): Fostex 6301B manual — \"Speaker section Type 10cm full range single cone\"; \"Frequency range 80Hz ~ 13kHz\". One full-range transducer, no separate HF device.",
+      "whyNotManufacturer": "The manual is Fostex-authored but is served by tcfurlong.com, a rental house, not by a Fostex host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "fostex-6301b",
+      "field": "active",
+      "valueBefore": true,
+      "valueAfter": true,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+      "document": "Fostex Model 6301B Personal Monitor owner's manual (Fostex, printed May 2004)",
+      "evidence": "Round 29 (2026-10-19): same manual — the cover reads \"PERSONAL MONITOR Self-Powered\", the specification lists an \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\" and \"Mains power 120VAC 60Hz (USA/Canada) 33W\". Built-in amplification.",
+      "whyNotManufacturer": "The manual is Fostex-authored but is served by tcfurlong.com, a rental house, not by a Fostex host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "kali-lp6",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+      "document": "Kali Audio LP-6 User Manual (Project Lone Pine), 'Full Specifications' table",
+      "evidence": "Round 29 (2026-10-19): Kali LP-6 manual — \"LF Driver: 6.5\\\" Woofer\", \"HF Driver: 1\\\" Soft Dome Tweeter\", \"Crossover: 1.5 kHz\". Two transducers.",
+      "whyNotManufacturer": "The manual is served from the Squarespace asset CDN rather than the kaliaudio.com domain, so manufacturer-host ownership cannot be established from the URL alone.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "kali-lp6",
+      "field": "active",
+      "valueBefore": true,
+      "valueAfter": true,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+      "document": "Kali Audio LP-6 User Manual (Project Lone Pine), 'Full Specifications' table",
+      "evidence": "Round 29 (2026-10-19): same manual — the specification table opens \"Powered: Yes\", then \"Amplifier Class: D\", \"Power Configuration: Bi-Amped\", \"LF Power: 40 W\", \"HF Power: 40 W\"; the rear panel is labelled \"Power AC -100-240V 50/60Hz\".",
+      "whyNotManufacturer": "The manual is served from the Squarespace asset CDN rather than the kaliaudio.com domain, so manufacturer-host ownership cannot be established from the URL alone.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8

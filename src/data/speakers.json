@@ -10880,16 +10880,18 @@
       "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact first-generation Kali Audio LP-6 powered studio monitor, not the LP-6 V2/2nd Wave. Kali's official legacy page groups LP-6 (original version) separately from its successor LP-6 V2, and its second-wave guide confirms this is a distinct generation. The exact LP-6 manual specifies a powered, bi-amplified two-way system with one 6.5-inch LF woofer and one 1-inch soft-dome HF tweeter; the internal amplifiers are 40 W LF plus 40 W HF (80 W total), stored only as amplifier_output, not passive speaker power handling. The manual publishes 45 Hz–21 kHz as the ±3 dB frequency range and 38 Hz–25 kHz as the separate -10 dB frequency-response range; the database stores only the ±3 dB bounds, with no response curve inferred. Its 85 dB continuous-at-2-meters figure includes 20 dB headroom and is not acoustic sensitivity; +4 dBu/-10 dBV are input sensitivities, not acoustic sensitivity. Passive impedance, resonant frequency, and voice-coil size are not published. Kali separately hosts exact LP-6 loudspeaker-measurement data, but no points or directivity are imported from that file here. Sources: https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf; https://www.kaliaudio.com/legacy-products; https://www.kaliaudio.com/secondwave; https://www.kaliaudio.com/s/Kali-Audio-LP-6_v10-1.CF2",
+    "notes": "Exact first-generation Kali Audio LP-6 powered studio monitor, not the LP-6 V2/2nd Wave. Kali's official legacy page groups LP-6 (original version) separately from its successor LP-6 V2, and its second-wave guide confirms this is a distinct generation. The exact LP-6 manual specifies a powered, bi-amplified two-way system with one 6.5-inch LF woofer and one 1-inch soft-dome HF tweeter; the internal amplifiers are 40 W LF plus 40 W HF (80 W total), stored only as amplifier_output, not passive speaker power handling. The manual publishes 45 Hz–21 kHz as the ±3 dB frequency range and 38 Hz–25 kHz as the separate -10 dB frequency-response range; the database stores only the ±3 dB bounds, with no response curve inferred. Its 85 dB continuous-at-2-meters figure includes 20 dB headroom and is not acoustic sensitivity; +4 dBu/-10 dBV are input sensitivities, not acoustic sensitivity. Passive impedance, resonant frequency, and voice-coil size are not published. Kali separately hosts exact LP-6 loudspeaker-measurement data, but no points or directivity are imported from that file here. Sources: https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf; https://www.kaliaudio.com/legacy-products; https://www.kaliaudio.com/secondwave; https://www.kaliaudio.com/s/Kali-Audio-LP-6_v10-1.CF2 Round 29 (2026-10-19): driverCount 2 and active true verified from the LP-6 manual (\"Powered: Yes\", \"Amplifier Class: D\", \"Power AC -100-240V 50/60Hz\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Kali LP-6 manual — \"LF Driver: 6.5\\\" Woofer\", \"HF Driver: 1\\\" Soft Dome Tweeter\", \"Crossover: 1.5 kHz\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same manual — the specification table opens \"Powered: Yes\", then \"Amplifier Class: D\", \"Power Configuration: Bi-Amped\", \"LF Power: 40 W\", \"HF Power: 40 W\"; the rear panel is labelled \"Power AC -100-240V 50/60Hz\"."
     }
   },
   {
@@ -12181,16 +12183,18 @@
       "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact Fostex Model 6301B Personal Monitor owner's manual (Fostex copyright; printed May 2004), not the later 6301N/6301NB series, describes a self-powered monitor with one 10 cm full-range cone. The built-in speaker section is specified as 80 Hz–13 kHz, 84 dB with the manual's exact sensitivity notation “dB (W/m),” and 4 ohms. The 84 dB value is retained with its unaltered W/m reference; because the manual does not write the reference in the schema's exact 1W/1m form, the shared sensitivity resolver deliberately uses its neutral fallback rather than normalizing it. The 4-ohm value is for the internal speaker section, not the active monitor's line-level input, so system impedance remains N/A. The “higher than 10 W RMS into 8 ohms” figure is the optional EXT SP output, not the monitor's built-in amplifier rating or internal speaker handling, and is not stored as power. The 10 cm driver diameter is represented as 3.94 in; no separate woofer, voice-coil diameter, Fs, response tolerance, published response-point table, or directivity data are specified. Source: https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf.",
+    "notes": "Exact Fostex Model 6301B Personal Monitor owner's manual (Fostex copyright; printed May 2004), not the later 6301N/6301NB series, describes a self-powered monitor with one 10 cm full-range cone. The built-in speaker section is specified as 80 Hz–13 kHz, 84 dB with the manual's exact sensitivity notation “dB (W/m),” and 4 ohms. The 84 dB value is retained with its unaltered W/m reference; because the manual does not write the reference in the schema's exact 1W/1m form, the shared sensitivity resolver deliberately uses its neutral fallback rather than normalizing it. The 4-ohm value is for the internal speaker section, not the active monitor's line-level input, so system impedance remains N/A. The “higher than 10 W RMS into 8 ohms” figure is the optional EXT SP output, not the monitor's built-in amplifier rating or internal speaker handling, and is not stored as power. The 10 cm driver diameter is represented as 3.94 in; no separate woofer, voice-coil diameter, Fs, response tolerance, published response-point table, or directivity data are specified. Source: https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf. Round 29 (2026-10-19): driverCount 1 and active true verified from the 6301B manual (\"PERSONAL MONITOR Self-Powered\", \"Mains power 120VAC 60Hz\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Fostex 6301B manual — \"Speaker section Type 10cm full range single cone\"; \"Frequency range 80Hz ~ 13kHz\". One full-range transducer, no separate HF device."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same manual — the cover reads \"PERSONAL MONITOR Self-Powered\", the specification lists an \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\" and \"Mains power 120VAC 60Hz (USA/Canada) 33W\". Built-in amplification."
     }
   },
   {

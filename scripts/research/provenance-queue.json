@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 170,
-  "assessedItems": 170,
+  "uncheckedItems": 166,
+  "assessedItems": 166,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 140,
+  "uniqueSourceUrls": 138,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 6,
-    "CHECKED_PARTIAL": 123,
+    "CHECKED_PARTIAL": 121,
     "INACCESSIBLE": 11
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 12,
-    "CHECKED_PARTIAL": 140,
+    "CHECKED_PARTIAL": 136,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 123
+      "count": 121
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 31
+      "count": 33
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 47
+      "count": 45
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 40
+      "count": 42
     },
     {
       "field": "driverCount",
@@ -263,9 +263,11 @@
     "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
     "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
     "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+    "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
     "https://support.apple.com/en-us/111843",
     "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
     "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L112_OM_EN.pdf",
+    "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
     "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
     "https://us.kef.com/products/ls50",
     "https://us.kef.com/products/ls50-meta",
@@ -656,42 +658,6 @@
       "evidence": "Manual: \"12W3v3-2 / 12W3v3-4 / 12W3v3-8 Subwoofers owner's manual\"; \"Power Handling (continuous): 500W\"; \"We recommend the use of this speaker in a bi-amplified system using high-quality satellite speakers and amplifiers.\""
     },
     {
-      "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
-      "host": "static1.squarespace.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "kali-lp6"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kali-lp6",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The specification states \"Powered: Yes\" with a bi-amped class-D 40 W + 40 W amplifier; generic CDN host cannot promote."
-        },
-        {
-          "record": "kali-lp6",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The specification pairs a 6.5-inch woofer with a 1-inch soft-dome tweeter: 2 transducers; generic CDN host cannot promote."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0,
-        1
-      ],
-      "evidence": "Full Specifications: \"Powered: Yes\"; \"Amplifier Class: D\"; \"Power Configuration: Bi-Amped\"; \"LF Power: 40 W\"; \"HF Power: 40 W\"; \"LF Driver: 6.5\\\" Woofer\"; \"HF Driver: 1\\\" Soft Dome Tweeter\"."
-    },
-    {
       "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
       "host": "stereonomono.blogspot.com",
       "status": "CHECKED_PARTIAL",
@@ -795,41 +761,6 @@
         0
       ],
       "evidence": "Manual: \"C5-650 6.50-inch (165 mm) 2-Way Component System\"; \"Two C5-650cw 6.50-inch (165 mm) Woofers; Two C5-075ct 0.75-inch (19 mm) Tweeters; Two C5-650-XO Crossover Networks\"; \"2-way network with 1st order low-pass and 2nd order high-pass circuit\"."
-    },
-    {
-      "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
-      "host": "tcfurlong.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "fostex-6301b"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "fostex-6301b",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
-        },
-        {
-          "record": "fostex-6301b",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Document is model-specific but served from a host that cannot be established as a manufacturer origin, so the value is supported and not promoted."
-        }
-      ],
-      "checkedRound": 24,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\"."
     },
     {
       "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
