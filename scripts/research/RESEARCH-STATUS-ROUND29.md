@@ -385,6 +385,29 @@ Still dead and unresolved (four records, six live fields): `kef-105.active`, `le
 `polk-signature-s60.active`, `marshall-marshall-1936.active`, `jbl-l19.active`, plus the IK iLoud MTM
 news id, the Pioneer Elite S-1EX Sound & Vision page, and the `jp.jbl.com` Paragon URL.
 
+## Batch 53 — UNSOURCED nulls from documents already in hand
+
+Workstream 3 of the brief (the unsourced / no-provenance pool) opened with the 71 `UNSOURCED` fields.
+Three records had exact-model manufacturer documents that were **already opened this session** for other
+work, so no new fetching was needed — the earlier passes had simply never pointed at these records:
+
+| Record | Field | Value | Document | Why it fits |
+| --- | --- | --- | --- | --- |
+| `yamaha-ns10m` (NS-10M **Studio**) | driverCount | 2 | Yamaha `ns10ms.pdf` | "Components \| LF: JA1801 (18 cm cone)  HF: JA0518A (3.5 cm soft dome)" |
+| `yamaha-ns10m` (NS-10M **Studio**) | active | false | Yamaha `ns10ms.pdf` | "BEFORE MAKING SPEAKER CONNECTIONS, MAKE SURE YOUR POWER AMPLIFIER IS TURNED OFF!" |
+| `klipsch-rp8000f` (RP-8000F) | active | false | Reference Premiere manual v03 | RP-8000F is on the cover model list; connection chapter wires it to an external amplifier |
+| `klipsch-r51m` (R-51M) | active | false | Reference Speakers 2018 v02 | R-51M is on the cover model list; same connection chapter |
+
+The Yamaha case is a revision catch worth recording. In batch 52 the `ns10ms.pdf` manual was **rejected**
+for `legacy-yam-2`, because that record is the **1978 NS-10M** and the manual covers the **NS-10M STUDIO**.
+That rejection was correct for `legacy-yam-2` — but `yamaha-ns10m` is a *separate catalogue record* for the
+Studio variant, and this manual is exactly its document. Same evidence, opposite verdicts, because the two
+records are different products. Rejecting a source for one record is not a judgement on the source.
+
+Written through `apply-structural-batch.py 29` (the sanctioned path for `UNSOURCED` nulls: it asserts the
+value is `None`, the status is `UNSOURCED`, and the source is an `https://` manufacturer URL), with
+`apply-round29-batch53.py` recording the same four decisions against the source URLs and the ledger.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -397,13 +420,13 @@ news id, the Pioneer Elite S-1EX Sound & Vision page, and the `jp.jbl.com` Parag
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2417** |
+| `MANUFACTURER_VERIFIED` | 2422 | **2421** |
 | `CITED_IN_NOTES_UNCHECKED` | 247 | **136 live** (171 stored, 35 archived) |
-| `UNSOURCED` | 81 (73 after policy) | **71** |
+| `UNSOURCED` | 81 (73 after policy) | **67** |
 | `THIRD_PARTY_VERIFIED` | 24 | **111** |
 | `NO_PROVENANCE` | 363 | 363 |
 | queue items | 212 / 157 URLs | **136 / 124 URLs** |
-| records with backlog | 336 of 657 | **301 of 657** |
+| records with backlog | 336 of 657 | **298 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

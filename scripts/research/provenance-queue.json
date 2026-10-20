@@ -30,7 +30,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 329
+      "count": 332
     },
     {
       "field": "active",
@@ -48,7 +48,7 @@
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 47
+      "count": 44
     },
     {
       "field": "driverCount",
@@ -60,7 +60,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 519
+      "count": 520
     },
     {
       "field": "driverCount",
@@ -78,7 +78,7 @@
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 24
+      "count": 23
     }
   ],
   "resolvedSourceUrls": [
@@ -502,7 +502,8 @@
     "https://www.wharfedale.co.uk/products/evo4-1",
     "https://www.wharfedale.co.uk/products/evo4-2",
     "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
-    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/"
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/",
+    "https://www.yamaha.com/yamahavgn/Documents/ProAudio/ns10ms.pdf"
   ],
   "warnings": [],
   "groups": [

@@ -8494,6 +8494,38 @@
         }
       ],
       "queueItemsResolved": 0
+    },
+    {
+      "url": "https://www.yamaha.com/yamahavgn/Documents/ProAudio/ns10ms.pdf",
+      "host": "www.yamaha.com",
+      "document": "Yamaha NS-10M STUDIO Monitor Speaker System owner's manual",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "coverage": "\"Congratulations on your purchase of a Yamaha NS-10M STUDIO Monitor Speaker System!\"; SPECIFICATIONS \"Components | LF: JA1801 (18 cm cone)  HF: JA0518A (3.5 cm soft dome)\"; CONNECTION \"BEFORE MAKING SPEAKER CONNECTIONS, MAKE SURE YOUR POWER AMPLIFIER IS TURNED OFF!\"",
+      "decisions": [
+        {
+          "id": "yamaha-ns10m",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: components table lists LF JA1801 (18 cm cone) and HF JA0518A (3.5 cm soft dome)."
+        },
+        {
+          "id": "yamaha-ns10m",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: connection chapter wires the speaker to an external power amplifier and describes no mains inlet."
+        }
+      ],
+      "queueItemsResolved": 2
     }
   ],
   "openQuestionsForOwner": [

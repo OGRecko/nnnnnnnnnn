@@ -1,0 +1,43 @@
+{
+  "round": 29,
+  "checkedDate": "2026-10-19",
+  "note": "Batch 53: UNSOURCED nulls settled from exact-model manufacturer documents already opened this session (owner's-manual connection chapters and a component table).",
+  "entries": [
+    {
+      "record": "yamaha-ns10m",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.yamaha.com/yamahavgn/Documents/ProAudio/ns10ms.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Yamaha 'NS-10M STUDIO Monitor Speaker System' owner's manual, SPECIFICATIONS table: \"Components | LF: JA1801 (18 cm cone)  HF: JA0518A (3.5 cm soft dome)\". Two transducers: one 18 cm cone woofer and one 3.5 cm soft-dome tweeter."
+    },
+    {
+      "record": "yamaha-ns10m",
+      "field": "active",
+      "value": false,
+      "source": "https://www.yamaha.com/yamahavgn/Documents/ProAudio/ns10ms.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Yamaha NS-10M STUDIO owner's manual CONNECTION chapter: \"BEFORE MAKING SPEAKER CONNECTIONS, MAKE SURE YOUR POWER AMPLIFIER IS TURNED OFF!\" and \"The terminals on the rear of the left and right speakers must be connected to the corresponding speaker output terminals on the rear of your power amplifier with appropriate speaker cables.\" No mains inlet, power cord or built-in amplifier is described; accepted form (b)."
+    },
+    {
+      "record": "klipsch-rp8000f",
+      "field": "active",
+      "value": false,
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Klipsch 'Reference Premiere Speakers' owner's manual v03; cover model list includes \"RP-8000F\", and the CONNECTION chapter reads \"Using 16-12 gauge speaker wire, connect the RED \\\"positive\\\" (+) terminal of the LEFT speaker to the RED \\\"positive\\\" (+) terminal of your amplifier's LEFT channel.\" No mains inlet or built-in amplifier described; accepted form (b)."
+    },
+    {
+      "record": "klipsch-r51m",
+      "field": "active",
+      "value": false,
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-19",
+      "evidence": "Klipsch 'Reference Speakers' 2018 owner's manual v02; cover model list includes \"R-51M\", and the CONNECTION chapter reads \"Using 16-12 gauge speaker wire, connect the RED \\\"positive\\\" (+) terminal of the LEFT speaker to the RED \\\"positive\\\" (+) terminal of your amplifier's LEFT channel.\" No mains inlet or built-in amplifier described; accepted form (b)."
+    }
+  ]
+}

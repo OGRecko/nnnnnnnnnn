@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **301** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
+Records still needing research: **298** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **136** fields across **124** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **71** fields (no source recorded).
+- UNSOURCED: **67** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
 
@@ -89,7 +89,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | yamaha-hs80m | Yamaha | HS80M (`yamaha-hs80m`) | 0 | 2 | 0 |
 | yamaha-ns-aw392 | Yamaha | NS-AW392 (`yamaha-ns-aw392`) | 0 | 2 | 0 |
 | yamaha-ns1000m | Yamaha | NS-1000M (`yamaha-ns1000m`) | 0 | 2 | 0 |
-| yamaha-ns10m | Yamaha | NS-10M Studio (`yamaha-ns10m`) | 0 | 2 | 0 |
 | yamaha-ns500 | Yamaha | NS-500 (`yamaha-ns500`) | 1 | 0 | 1 |
 | adamson-e15 | Adamson | E15 (`adamson-e15`) | 1 | 0 | 0 |
 | alpine-r-s65c | Alpine | R-S65C (`alpine-r-s65c`) | 0 | 0 | 1 |
@@ -205,8 +204,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-heresy | Klipsch | Heresy (`klipsch-heresy`) | 0 | 1 | 0 |
 | klipsch-heresy-iv | Klipsch | Heresy IV (`klipsch-heresy-iv`) | 1 | 0 | 0 |
 | klipsch-la-scala-ii | Klipsch | La Scala II (`klipsch-la-scala-ii`) | 0 | 0 | 1 |
-| klipsch-r51m | Klipsch | R-51M (`klipsch-r51m`) | 0 | 1 | 0 |
-| klipsch-rp8000f | Klipsch | RP-8000F (`klipsch-rp8000f`) | 0 | 1 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 1 | 0 | 0 |
 | legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 1 | 0 | 0 |
 | legacy-bw-1 | Bowers & Wilkins | DM6 (`legacy-bw-1`) | 0 | 0 | 1 |

@@ -24103,6 +24103,13 @@
           "value": false,
           "outcome": "PROMOTED",
           "note": "Round 29: the RP-500M owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "record": "klipsch-rp8000f",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Round 29: RP-8000F is on the cover model list and the connection chapter wires it to an external amplifier; no mains inlet described."
         }
       ],
       "history": []
@@ -24126,6 +24133,13 @@
           "value": false,
           "outcome": "PROMOTED",
           "note": "Round 29: the R-41M owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "record": "klipsch-r51m",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Round 29: R-51M is on the cover model list and the connection chapter wires it to an external amplifier; no mains inlet described."
         }
       ],
       "history": []
@@ -24302,6 +24316,36 @@
           "value": false,
           "outcome": "NOT_STATED",
           "note": "Round 29 (2026-10-19): the DALI OBERON 1 page rows \"Recommended Amp. Power [watts] 25 - 100\" and \"Connection Input | Single Wire\", both excluded evidence; the page never calls the loudspeaker passive."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.yamaha.com/yamahavgn/Documents/ProAudio/ns10ms.pdf",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Yamaha NS-10M STUDIO Monitor Speaker System owner's manual",
+      "evidence": "\"Congratulations on your purchase of a Yamaha NS-10M STUDIO Monitor Speaker System!\"; SPECIFICATIONS \"Components | LF: JA1801 (18 cm cone)  HF: JA0518A (3.5 cm soft dome)\"; CONNECTION \"BEFORE MAKING SPEAKER CONNECTIONS, MAKE SURE YOUR POWER AMPLIFIER IS TURNED OFF!\"",
+      "fieldResults": [
+        {
+          "record": "yamaha-ns10m",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Round 29: components table lists LF JA1801 (18 cm cone) and HF JA0518A (3.5 cm soft dome)."
+        },
+        {
+          "record": "yamaha-ns10m",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Round 29: connection chapter wires the speaker to an external power amplifier and describes no mains inlet."
         }
       ],
       "history": []
