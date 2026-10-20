@@ -96,6 +96,214 @@
       },
       "round": 29,
       "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "meyer-ups1p",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet, TRANSDUCERS table — \"Low Frequency | One 12-inch cone driver; 2 Ω nominal impedance\" and \"High Frequency | One 3-inch compression driver; 16 Ω nominal impedance\". Two transducers, and the model is named in the title."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: meyersound.com/product/upa-1p/ no longer serves a product page (it returns the product index), and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a pro-audio dealer."
+    },
+    {
+      "id": "meyer-ups1p",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet — \"A proprietary two-channel, class AB/bridged power amplifier with complementary MOSFET output stages drives the UPA-1P. Total peak power output is 1000 watts\"; the AC POWER table lists \"Connector | PowerCON20 input\". Built-in amplification with a mains inlet, so the loudspeaker is powered."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: meyersound.com/product/upa-1p/ no longer serves a product page (it returns the product index), and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a pro-audio dealer."
+    },
+    {
+      "id": "meyer-sound-upj-1p",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"a 10-inch low-frequency neodymium magnet cone driver and 3-inch diaphragm compression driver in the high-frequency section\"; TRANSDUCERS table \"Low Frequency | One 10-inch cone driver with neodymium magnet\" and \"High Frequency | One 3-inch diaphragm compression driver\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: meyersound.com/product/upj-1p/ returns \"Page not found\", and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a distributor."
+    },
+    {
+      "id": "meyer-sound-upj-1p",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"The UPJ-1P combines the advantages of self-powered systems\"; \"A proprietary Meyer Sound two-channel, class AB/bridged power amplifier with complementary MOSFET output stages provides a total output of 550 watts\"; AC POWER \"Connector | powerCON 20 input with loop output\". Self-powered with a mains inlet."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: meyersound.com/product/upj-1p/ returns \"Page not found\", and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a distributor."
+    },
+    {
+      "id": "yamaha-hs80m",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha HS series brochure, Speaker Components — HS80M is listed with \"LF: 8-in cone (Magnetic shielding Type)\" and \"HF: 1-in Dome (Magnetic shielding Type)\", and the product bullet reads \"2-way bass-reflex bi-amplified near-field studio monitor with 8-in cone woofer and 1-in dome high-frequency unit\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
+    },
+    {
+      "id": "yamaha-hs80m",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha HS series brochure, General Specifications — HS80M \"Type | Biamp 2-way Powered speaker\", and the section heading \"The Benefits Of Built-in Power And Bi-amplification\"; the HS80M bullet quotes \"120 watts dynamic bi-amplified power\". Built-in amplification, so the loudspeaker is powered."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-solo6",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Focal Solo6 Be data sheet — \"Solo6 Be is a 2-way monitor\"; Transducers: \"Woofer | 6W4370B, 6-1/2 in (16.5cm) Focal W composite sandwich cone drivers\" and \"High frequency | TB871, Focal Beryllium inverted dome tweeter with protective grille\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: focal.com/products/solo-6 now serves the current-generation Solo6 (1.5\" tweeter), not the Solo6 Be (1\" Beryllium, 150 W BASH + 100 W class AB); this is Focal's own Solo6 Be data sheet, mirrored by a reseller."
+    },
+    {
+      "id": "focal-solo6",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Focal Solo6 Be data sheet, Electronic section — \"Bass - Midrange | 150W rms, BASH technology\" and \"Treble | 100W rms, class AB\"; Power supply \"Connection | ... IEC inlet and detachable power cord\"; user controls include \"On/off switch, voltage selector\" and a \"Power On LED\". Built-in amplification with a mains inlet."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: focal.com/products/solo-6 now serves the current-generation Solo6 (1.5\" tweeter), not the Solo6 Be (1\" Beryllium, 150 W BASH + 100 W class AB); this is Focal's own Solo6 Be data sheet, mirrored by a reseller."
     }
   ]
 }

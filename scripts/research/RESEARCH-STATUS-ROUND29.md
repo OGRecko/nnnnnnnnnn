@@ -408,6 +408,59 @@ Written through `apply-structural-batch.py 29` (the sanctioned path for `UNSOURC
 value is `None`, the status is `UNSOURCED`, and the source is an `https://` manufacturer URL), with
 `apply-round29-batch53.py` recording the same four decisions against the source URLs and the ledger.
 
+## Batch 54 — powered studio monitors and two Meyer legacy boxes
+
+Four records where the drive complement and the built-in amplification are both stated, so one document
+settles two fields each:
+
+| Record | Field | Value | Document | Tier |
+| --- | --- | --- | --- | --- |
+| `meyer-ups1p` (UPA-1P) | driverCount | 2 | Meyer Sound UPA-1P datasheet | TPV |
+| `meyer-ups1p` (UPA-1P) | active | true | Meyer Sound UPA-1P datasheet | TPV |
+| `meyer-sound-upj-1p` (UPJ-1P) | driverCount | 2 | Meyer Sound UPJ-1P datasheet | TPV |
+| `meyer-sound-upj-1p` (UPJ-1P) | active | true | Meyer Sound UPJ-1P datasheet | TPV |
+| `yamaha-hs80m` (HS80M) | driverCount | 2 | Yamaha HS series brochure | MV |
+| `yamaha-hs80m` (HS80M) | active | true | Yamaha HS series brochure | MV |
+| `focal-solo6` (Solo6 Be) | driverCount | 2 | Focal Solo6 Be data sheet | TPV |
+| `focal-solo6` (Solo6 Be) | active | true | Focal Solo6 Be data sheet | TPV |
+
+Evidence, quoted at write time: the UPA-1P datasheet gives "One 12-inch cone driver" plus "One 3-inch
+compression driver" and "A proprietary two-channel, class AB/bridged power amplifier ... drives the UPA-1P"
+with a "powerCON20 connector for power"; the UPJ-1P datasheet gives "One 10-inch cone driver with neodymium
+magnet" plus "One 3-inch diaphragm compression driver" and calls the box part of "self-powered systems"
+(550 W, "powerCON 20 input"). The Yamaha brochure types the HS80M as "Biamp 2-way Powered speaker" with
+"LF: 8-in cone" and "HF: 1-in Dome". The Focal data sheet lists a 6W4370B woofer and TB871 tweeter, a 150 W
+BASH bass/midrange amplifier and a 100 W class AB treble amplifier, and an "IEC inlet".
+
+Host notes, since three of the four are `THIRD_PARTY_VERIFIED`:
+
+- `meyersound.com/product/upa-1p/` now returns the product index and `/product/upj-1p/` returns "Page not
+  found"; the Meyer documentation site publishes discontinued products only as
+  `discontinued/<model>_resources.zip`, so no individual page survives. The datasheet PDFs are Meyer
+  Sound's own, mirrored by a dealer (prg-proshop.com) and a distributor (imlight.ru).
+- `focal.com/products/solo-6` serves the **current** Solo6 (1.5" tweeter), not the **Solo6 Be** (1" Beryllium,
+  150 W BASH + 100 W class AB). Citing the current page for `focal-solo6` would be a revision substitution,
+  so the Solo6 Be data sheet is used instead.
+
+`meyer-ups1p` is a catalogue id typo for UPA-1P; the record's own `model` field already reads "UPA-1P", so
+the datasheet names the record's model exactly.
+
+### Checked and deliberately not promoted: the three Celestion drive units
+
+`celestion-v30`, `celestion-greenback` and `celestion-g12h30` each had one open field, `active`, and their
+`driverCount` was already `MANUFACTURER_VERIFIED` as 1. The product pages were opened in full this batch and
+give a complete spec table — `Rated impedance 8Ω or 16Ω`, `Power rating 60W / 25W / 30W`, `Nominal diameter
+305mm / 12in` — and nothing else about how the unit is driven. Under the `active:false` evidence standard in
+`PROVENANCE-POLICY.md`, nominal impedance and power-handling ratings are explicitly **not** accepted, nor is
+the absence of an amplifier mention. A bare drive unit is obviously not self-powered, but "obviously" is not
+the standard used here, so all three stay `UNSOURCED` and are recorded as checked-and-silent rather than
+promoted. Their `driverCount` needs no work.
+
+Written through `apply-round29-batch54.py`, a companion to `apply-structural-batch.py` that adds the
+`THIRD_PARTY_VERIFIED` tier (and the `MANUFACTURER` tier) while keeping the same assertions: the field is
+currently null with status `UNSOURCED`, the source is an `https://` URL opened this session, the note quotes
+the document, and the reason `MANUFACTURER_VERIFIED` was unavailable is recorded for every third-party row.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -420,13 +473,13 @@ value is `None`, the status is `UNSOURCED`, and the source is an `https://` manu
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2421** |
+| `MANUFACTURER_VERIFIED` | 2422 | **2423** |
 | `CITED_IN_NOTES_UNCHECKED` | 247 | **136 live** (171 stored, 35 archived) |
-| `UNSOURCED` | 81 (73 after policy) | **67** |
-| `THIRD_PARTY_VERIFIED` | 24 | **111** |
+| `UNSOURCED` | 81 (73 after policy) | **59** |
+| `THIRD_PARTY_VERIFIED` | 24 | **117** |
 | `NO_PROVENANCE` | 363 | 363 |
 | queue items | 212 / 157 URLs | **136 / 124 URLs** |
-| records with backlog | 336 of 657 | **298 of 657** |
+| records with backlog | 336 of 657 | **294 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

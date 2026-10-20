@@ -1174,6 +1174,90 @@
       "evidence": "Round 29 (2026-10-19): Sound & Vision Test Bench — \"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\" The measurement report calls the CM10 a passive loudspeaker and drives it at speaker level (2.83 V), with no mains connection.",
       "whyNotManufacturer": "Sound & Vision is an independent review magazine; the Test Bench measurement report is not a Bowers & Wilkins document.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "url": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+      "host": "www.imlight.ru",
+      "document": "Meyer Sound \"UPJ-1P Compact VariO Loudspeaker\" datasheet",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "openedDate": "2026-10-19",
+      "round": 29,
+      "whyNotManufacturer": "meyersound.com/product/upj-1p/ returns \"Page not found\", and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a distributor.",
+      "decisions": [
+        {
+          "id": "meyer-sound-upj-1p",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"a 10-inch low-frequency neodymium magnet cone driver and 3-inch diaphragm compression driver in the high-frequency section\"; TRANSDUCERS table \"Low Frequency | One 10-inch cone driver with neodymium magnet\" and \"High Frequency | One 3-inch diaphragm compression driver\". Two transducers."
+        },
+        {
+          "id": "meyer-sound-upj-1p",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"The UPJ-1P combines the advantages of self-powered systems\"; \"A proprietary Meyer Sound two-channel, class AB/bridged power amplifier with complementary MOSFET output stages provides a total output of 550 watts\"; AC POWER \"Connector | powerCON 20 input with loop output\". Self-powered with a mains inlet."
+        }
+      ]
+    },
+    {
+      "url": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+      "host": "prg-proshop.com",
+      "document": "Meyer Sound \"UPA-1P Compact Wide Coverage Loudspeaker\" datasheet",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "openedDate": "2026-10-19",
+      "round": 29,
+      "whyNotManufacturer": "meyersound.com/product/upa-1p/ no longer serves a product page (it returns the product index), and the Meyer documentation site publishes discontinued products only as ZIP archives; this is Meyer Sound's own datasheet PDF, mirrored by a pro-audio dealer.",
+      "decisions": [
+        {
+          "id": "meyer-ups1p",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet, TRANSDUCERS table — \"Low Frequency | One 12-inch cone driver; 2 Ω nominal impedance\" and \"High Frequency | One 3-inch compression driver; 16 Ω nominal impedance\". Two transducers, and the model is named in the title."
+        },
+        {
+          "id": "meyer-ups1p",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet — \"A proprietary two-channel, class AB/bridged power amplifier with complementary MOSFET output stages drives the UPA-1P. Total peak power output is 1000 watts\"; the AC POWER table lists \"Connector | PowerCON20 input\". Built-in amplification with a mains inlet, so the loudspeaker is powered."
+        }
+      ]
+    },
+    {
+      "url": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+      "host": "www.sounddd.shop",
+      "document": "Focal \"Solo6 Be\" product data sheet",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "openedDate": "2026-10-19",
+      "round": 29,
+      "whyNotManufacturer": "focal.com/products/solo-6 now serves the current-generation Solo6 (1.5\" tweeter), not the Solo6 Be (1\" Beryllium, 150 W BASH + 100 W class AB); this is Focal's own Solo6 Be data sheet, mirrored by a reseller.",
+      "decisions": [
+        {
+          "id": "focal-solo6",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Focal Solo6 Be data sheet — \"Solo6 Be is a 2-way monitor\"; Transducers: \"Woofer | 6W4370B, 6-1/2 in (16.5cm) Focal W composite sandwich cone drivers\" and \"High frequency | TB871, Focal Beryllium inverted dome tweeter with protective grille\". Two transducers."
+        },
+        {
+          "id": "focal-solo6",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): Focal Solo6 Be data sheet, Electronic section — \"Bass - Midrange | 150W rms, BASH technology\" and \"Treble | 100W rms, class AB\"; Power supply \"Connection | ... IEC inlet and detachable power cord\"; user controls include \"On/off switch, voltage selector\" and a \"Power On LED\". Built-in amplification with a mains inlet."
+        }
+      ]
     }
   ],
   "valuesWritten": 8

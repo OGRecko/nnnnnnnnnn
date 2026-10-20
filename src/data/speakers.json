@@ -3517,8 +3517,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3570,18 +3570,18 @@
       "source": "https://usa.yamaha.com/files/download/other_assets/0/319900/HS80M_EN.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer: HS80M two-way bi-amplified studio monitor; 8-inch woofer + 1-inch dome tweeter; 42 Hz–20 kHz; 120 W dynamic power. Source: Yamaha HS80M brochure.",
+    "notes": "Manufacturer: HS80M two-way bi-amplified studio monitor; 8-inch woofer + 1-inch dome tweeter; 42 Hz–20 kHz; 120 W dynamic power. Source: Yamaha HS80M brochure. Round 29 (2026-10-19): driverCount 2 verified from the Yamaha HS series brochure (\"LF: 8-in cone\" and \"HF: 1-in Dome\" for the HS80M). Round 29 (2026-10-19): active true verified from the Yamaha HS series brochure, which lists the HS80M type as \"Biamp 2-way Powered speaker\" with built-in bi-amplification.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha HS series brochure, Speaker Components — HS80M is listed with \"LF: 8-in cone (Magnetic shielding Type)\" and \"HF: 1-in Dome (Magnetic shielding Type)\", and the product bullet reads \"2-way bass-reflex bi-amplified near-field studio monitor with 8-in cone woofer and 1-in dome high-frequency unit\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.yamaha.com/catalogs/PDFs/brochures/pac/DMI/HS.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha HS series brochure, General Specifications — HS80M \"Type | Biamp 2-way Powered speaker\", and the section heading \"The Benefits Of Built-in Power And Bi-amplification\"; the HS80M bullet quotes \"120 watts dynamic bi-amplified power\". Built-in amplification, so the loudspeaker is powered."
     }
   },
   {
@@ -3959,8 +3959,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4012,18 +4012,18 @@
       "source": "https://www.focal.com/en/pro-audio/solo6",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer: Solo6 two-way active monitor with 6.5-inch W cone woofer and 1-inch Beryllium tweeter; 80 W LF + 50 W HF amplification (130 W total); 40 Hz–40 kHz ±3 dB in 2-way mode. Focus mode uses a different response and is not represented by the main frequency range. Source: Focal Solo6 product page.",
+    "notes": "Manufacturer: Solo6 two-way active monitor with 6.5-inch W cone woofer and 1-inch Beryllium tweeter; 80 W LF + 50 W HF amplification (130 W total); 40 Hz–40 kHz ±3 dB in 2-way mode. Focus mode uses a different response and is not represented by the main frequency range. Source: Focal Solo6 product page. Round 29 (2026-10-19): driverCount 2 verified from the Focal Solo6 Be data sheet (6W4370B 6.5-inch woofer plus TB871 Beryllium tweeter). Round 29 (2026-10-19): active true verified from the Focal Solo6 Be data sheet, which lists built-in 150 W BASH bass/midrange and 100 W class AB treble amplifiers and an IEC mains inlet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Focal Solo6 Be data sheet — \"Solo6 Be is a 2-way monitor\"; Transducers: \"Woofer | 6W4370B, 6-1/2 in (16.5cm) Focal W composite sandwich cone drivers\" and \"High frequency | TB871, Focal Beryllium inverted dome tweeter with protective grille\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Focal Solo6 Be data sheet, Electronic section — \"Bass - Midrange | 150W rms, BASH technology\" and \"Treble | 100W rms, class AB\"; Power supply \"Connection | ... IEC inlet and detachable power cord\"; user controls include \"On/off switch, voltage selector\" and a \"Power On LED\". Built-in amplification with a mains inlet."
     }
   },
   {
@@ -8715,8 +8715,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -8767,18 +8767,18 @@
       "source": "https://cdn01.4wall.com/cms/rentals/files/f67ab6de47f2f4.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Meyer Sound UPA-1P datasheet (PN 04.076.016.01 B, (c) 2019 Meyer Sound), read from a copy hosted on cdn01.4wall.com. Self-powered 2-way: one 12 in cone LF driver (2 ohm nominal) + one 3 in compression driver (16 ohm nominal) on a 100 x 40 deg constant-Q horn; two-channel class AB/bridged amplifier, 1000 W peak total; operating frequency range 60 Hz-18 kHz and free-field response 80 Hz-17 kHz +/-4 dB (NOT stored: dataset uses -6 dB limits); linear peak SPL 130.5 dB (M-noise, 4 m referred to 1 m); 368 x 569 x 363 mm; 34.93 kg. Power (peak amplifier figure) not stored.",
+    "notes": "Meyer Sound UPA-1P datasheet (PN 04.076.016.01 B, (c) 2019 Meyer Sound), read from a copy hosted on cdn01.4wall.com. Self-powered 2-way: one 12 in cone LF driver (2 ohm nominal) + one 3 in compression driver (16 ohm nominal) on a 100 x 40 deg constant-Q horn; two-channel class AB/bridged amplifier, 1000 W peak total; operating frequency range 60 Hz-18 kHz and free-field response 80 Hz-17 kHz +/-4 dB (NOT stored: dataset uses -6 dB limits); linear peak SPL 130.5 dB (M-noise, 4 m referred to 1 m); 368 x 569 x 363 mm; 34.93 kg. Power (peak amplifier figure) not stored. Round 29 (2026-10-19): driverCount 2 verified from the Meyer Sound UPA-1P datasheet (\"One 12-inch cone driver\" and \"One 3-inch compression driver\"). Round 29 (2026-10-19): active true verified from the Meyer Sound UPA-1P datasheet, which describes a built-in two-channel power amplifier (1000 W peak) and a PowerCON20 mains inlet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet, TRANSDUCERS table — \"Low Frequency | One 12-inch cone driver; 2 Ω nominal impedance\" and \"High Frequency | One 3-inch compression driver; 16 Ω nominal impedance\". Two transducers, and the model is named in the title."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://prg-proshop.com/themes/prg/assets/files/product/087a9d79e530f24051cf9f19ef0fe1ef.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Meyer Sound UPA-1P datasheet — \"A proprietary two-channel, class AB/bridged power amplifier with complementary MOSFET output stages drives the UPA-1P. Total peak power output is 1000 watts\"; the AC POWER table lists \"Connector | PowerCON20 input\". Built-in amplification with a mains inlet, so the loudspeaker is powered."
     }
   },
   {
@@ -52355,8 +52355,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -52408,18 +52408,18 @@
       "source": "https://fullcompass.com/common/files/48041-UPJ1datasheet.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Meyer Sound UPJ-1P datasheet (PN 04.134.097.01 B, (c) 2005 Meyer Sound), read from a copy hosted on fullcompass.com. Self-powered 2-way: LF one 10 in neodymium cone driver (4 ohm nominal, 2 in voice coil, 400 W AES), HF one 3 in compression driver (16 ohm nominal, 100 W AES) on an 80 x 50 deg rotatable horn; two-channel class AB/bridged amplifier, 300 W total; crossover 2 kHz; operating frequency range 55 Hz-20 kHz and free-field response 66 Hz-18 kHz +/-4 dB (NOT stored: the dataset's frequency-response limits use the -6 dB convention); maximum peak SPL 128 dB at 1 m with music; 283 x 570 x 311 mm; 20.87 kg.",
+    "notes": "Meyer Sound UPJ-1P datasheet (PN 04.134.097.01 B, (c) 2005 Meyer Sound), read from a copy hosted on fullcompass.com. Self-powered 2-way: LF one 10 in neodymium cone driver (4 ohm nominal, 2 in voice coil, 400 W AES), HF one 3 in compression driver (16 ohm nominal, 100 W AES) on an 80 x 50 deg rotatable horn; two-channel class AB/bridged amplifier, 300 W total; crossover 2 kHz; operating frequency range 55 Hz-20 kHz and free-field response 66 Hz-18 kHz +/-4 dB (NOT stored: the dataset's frequency-response limits use the -6 dB convention); maximum peak SPL 128 dB at 1 m with music; 283 x 570 x 311 mm; 20.87 kg. Round 29 (2026-10-19): driverCount 2 verified from the Meyer Sound UPJ-1P datasheet (\"One 10-inch cone driver\" and \"One 3-inch diaphragm compression driver\"). Round 29 (2026-10-19): active true verified from the Meyer Sound UPJ-1P datasheet, which states \"self-powered systems\" and describes a built-in 550 W two-channel amplifier with a powerCON mains inlet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"a 10-inch low-frequency neodymium magnet cone driver and 3-inch diaphragm compression driver in the high-frequency section\"; TRANSDUCERS table \"Low Frequency | One 10-inch cone driver with neodymium magnet\" and \"High Frequency | One 3-inch diaphragm compression driver\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.imlight.ru/files/PDF/ZVUK/MEYER/AS/ULTRA/upj-1p.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Meyer Sound UPJ-1P datasheet — \"The UPJ-1P combines the advantages of self-powered systems\"; \"A proprietary Meyer Sound two-channel, class AB/bridged power amplifier with complementary MOSFET output stages provides a total output of 550 watts\"; AC POWER \"Connector | powerCON 20 input with loop output\". Self-powered with a mains inlet."
     }
   },
   {
