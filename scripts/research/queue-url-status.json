@@ -24129,6 +24129,182 @@
         }
       ],
       "history": []
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "KEF Reference Series Model 103 (1976-77) archive sheet",
+      "evidence": "\"An 8 inch two way closed box design, it used the same low distortion B200 bass driver as the Model 104 with the new T52 tweeter\"; \"Drive units | B200 bass unit (SP1039), T52 tweeter (SP1049)\"; \"Amplifier Requirements | 25-100 watts per channel into 8 ohms\".",
+      "fieldResults": [
+        {
+          "record": "legacy-kef-3",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Round 29: KEF archive sheet lists B200 bass unit (SP1039) and T52 tweeter (SP1049)."
+        },
+        {
+          "record": "legacy-kef-3",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Round 29 (2026-10-19): the KEF 103 sheet gives \"Amplifier Requirements | 25-100 watts per channel into 8 ohms\" and the prose \"Model 103 will handle the output from 100 watt amplifiers on musical programme\"; power-handling wording is excluded evidence, so active stays unresolved."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "KEF Reference Series Model 105.2 (1979-87) archive sheet",
+      "evidence": "\"Three-way, floor standing\"; \"Drive units | B300 bass unit (SPI071), B110 midrange unit (SPI057), T52 tweeter (SPI049)\"; \"Amplifier Requirements | 40-200 watts per channel into 8 ohms\".",
+      "fieldResults": [
+        {
+          "record": "kef-105",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Round 29: KEF archive sheet lists B300 bass, B110 midrange and T52 tweeter."
+        },
+        {
+          "record": "kef-105",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Round 29 (2026-10-19): the KEF 105.2 sheet gives \"Amplifier Requirements | 40-200 watts per channel into 8 ohms\" and \"Rated maximum power | 200W programme\"; amplifier-requirement figures are excluded evidence, and the sheet never calls the system passive."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s60/112702.html",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Polk Audio Signature S60 archived product page",
+      "evidence": "\"Front Array Driver Complement • (3) 6.5\" (16.51 cm) d (Round) - Mid/Woofer • (1) 1\" (2.54 cm) d (Round) - Tweeter\"; \"Recommended Amplifier Power Per Channel 20 watts → 300 watts\"; \"(2) Pair of Dual 5-way Binding Posts\".",
+      "fieldResults": [
+        {
+          "record": "polk-signature-s60",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Round 29: Polk archive page lists three 6.5-inch mid/woofers and one 1-inch tweeter."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Yamaha Innovation Road display collection, NS-10M (1978)",
+      "evidence": "Page heading \"NS-10M / Speaker System／1978\"; \"The two-way construction features an 18-cm white cone woofer and 3.5-cm soft dome tweeter, along with an encapsulated enclosure.\"",
+      "fieldResults": [
+        {
+          "record": "legacy-yam-2",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Round 29: Yamaha NS-10M (1978) page lists an 18-cm cone woofer and a 3.5-cm soft dome."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/1936-2x12-cabinet",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "Marshall 1936 2x12 Cabinet product page",
+      "evidence": "\"Two 12\" Celestion G12T-75 speakers\"; \"Speaker configuration | 2x12\"\"; \"power handling | 150W MONO, 75W STEREO\"; \"Unit impedance | 8Ω Mono, 16Ω Stereo\".",
+      "fieldResults": [
+        {
+          "record": "marshall-marshall-1936",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Round 29: Marshall page states two 12-inch Celestion G12T-75 speakers."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/paragon.html",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "document": "audio-database JBL Paragon (D44000 / D44000WXA) entry",
+      "evidence": "\"Method | Integrated stereo speaker system, 3-way, 6-speaker, front loading horn system, floor type\"; unit table per revision: \"For low band : 38 cm cone type (150-4C) x2\", \"For Medium Range : Horn Type (375 + H5038P) x2\", \"For High Pass : Horn Type (075) x2\".",
+      "fieldResults": [
+        {
+          "record": "jbl-paragon",
+          "field": "driverCount",
+          "value": 6,
+          "outcome": "PROMOTED",
+          "note": "Round 29: audio-database lists a 6-speaker 3-way system, 2+2+2 in every revision."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/oberon/oberon-1/",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "checkedDate": "2026-10-19",
+      "sourceClass": "MANUFACTURER",
+      "document": "DALI OBERON 1 product page (discontinued section)",
+      "evidence": "\"High Frequency Driver(s) | 1 x 29 mm soft dome\"; \"Low/Mid Frequency Driver(s) | 1 x 5¼ inch\"; \"Recommended Amp. Power [watts] 25 - 100\"; \"Connection Input | Single Wire\". No passive/powered wording.",
+      "fieldResults": [
+        {
+          "record": "dali-oberon-1",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Round 29 (2026-10-19): the DALI OBERON 1 page rows \"Recommended Amp. Power [watts] 25 - 100\" and \"Connection Input | Single Wire\", both excluded evidence; the page never calls the loudspeaker passive."
+        }
+      ],
+      "history": []
     }
   ]
 }

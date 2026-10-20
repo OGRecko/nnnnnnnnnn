@@ -3266,7 +3266,157 @@
       "round": 29,
       "action": "PROMOTE",
       "source": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf"
+    },
+    {
+      "id": "legacy-kef-3",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): KEF product archive sheet \"REFERENCE SERIES MODEL 103 (1976-77)\" — \"An 8 inch two way closed box design, it used the same low distortion B200 bass driver as the Model 104 with the new T52 tweeter\"; drive-unit table \"Drive units | B200 bass unit (SP1039), T52 tweeter (SP1049)\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf"
+    },
+    {
+      "id": "kef-105",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): KEF product archive sheet \"REFERENCE SERIES MODEL 105.2 (1979-87)\" — \"Three-way, floor standing\"; drive-unit rows \"Drive units | B300 bass unit (SPI071), B110 midrange unit (SPI057), T52 tweeter (SPI049)\" repeated for each serial-number break (SPI072 tweeter from SN 2966). Three transducers in every revision listed."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf"
+    },
+    {
+      "id": "polk-signature-s60",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s60/112702.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Polk Audio archive page for the Signature S60 — \"Front Array Driver Complement • (3) 6.5\" (16.51 cm) d (Round) - Mid/Woofer • (1) 1\" (2.54 cm) d (Round) - Tweeter\". Three mid/woofers plus one tweeter."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s60/112702.html"
+    },
+    {
+      "id": "legacy-yam-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha corporate \"Innovation Road\" collection entry headed \"NS-10M / Speaker System／1978\" — \"The two-way construction features an 18-cm white cone woofer and 3.5-cm soft dome tweeter, along with an encapsulated enclosure.\" Two transducers, and the year identifies this page as the 1978 NS-10M rather than the later NS-10M STUDIO."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/"
+    },
+    {
+      "id": "marshall-marshall-1936",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Marshall 1936 2x12 cabinet product page — \"Two 12\" Celestion G12T-75 speakers\" and the specification block \"Speaker configuration | 2x12\"\". Two transducers. The recorded URL with \"?pid=1007263\" returns the site 404; the page itself answers without the stale tracking parameter."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet"
+    },
+    {
+      "id": "jbl-paragon",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "value": 6,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://jp.jbl.com/jamaica.html",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 6,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://audio-database.com/JBL/speaker/paragon.html",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): audio-database JBL Paragon (D44000 / D44000WXA) entry — \"Method | Integrated stereo speaker system, 3-way, 6-speaker, front loading horn system, floor type\", with a per-revision unit table giving 2x bass, 2x midrange (\"375 + H5038P\") and 2x high (\"075\") in the initial and medium-term D44000 and 2x bass, 2x \"376 + H5038P\" and 2x \"075\" in the D44000WXA. The complement is six in every revision the page lists, so the revision difference does not affect the count."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://audio-database.com/JBL/speaker/paragon.html"
     }
   ],
-  "marker": "round29-batch51-klipsch-manuals"
+  "marker": "round29-batch52-alternate-sources"
 }

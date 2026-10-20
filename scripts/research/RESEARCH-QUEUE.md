@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **142** fields across **126** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **136** fields across **124** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -41,12 +41,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
-| jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
 | jl-audio-12w3v3 | JL Audio | 12W3v3 (`jl-audio-12w3v3`) | 2 | 0 | 0 |
 | jl-audio-c3-650 | JL Audio | C3-650 (`jl-audio-c3-650`) | 2 | 0 | 0 |
 | jl-audio-c5-650 | JL Audio | C5-650 (`jl-audio-c5-650`) | 2 | 0 | 0 |
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
-| kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
@@ -55,7 +53,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
 | legacy-focal-1 | Focal | Chorus 707 (`legacy-focal-1`) | 1 | 0 | 1 |
 | legacy-focal-5 | Focal | Trio6 Be (`legacy-focal-5`) | 2 | 0 | 0 |
-| legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
@@ -65,19 +62,16 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-pio-4 | Pioneer | Elite S-1EX (`legacy-pio-4`) | 2 | 0 | 0 |
 | legacy-pio-5 | Pioneer | SP-BS22-LR (`legacy-pio-5`) | 2 | 0 | 0 |
 | legacy-pio-6 | Pioneer | SP-FS52 (`legacy-pio-6`) | 2 | 0 | 0 |
-| legacy-yam-2 | Yamaha | NS-10M (`legacy-yam-2`) | 1 | 0 | 1 |
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
 | m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
-| marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
 | ohm-walsh-2 | Ohm Acoustics | Walsh 2 (`ohm-walsh-2`) | 0 | 0 | 2 |
 | peavey-5150-412 | Peavey | 5150 412 (`peavey-5150-412`) | 0 | 1 | 1 |
 | pioneer-ts-a | Pioneer | TS-A1670F (`pioneer-ts-a`) | 0 | 1 | 1 |
-| polk-signature-s60 | Polk Audio | Signature S60 (`polk-signature-s60`) | 2 | 0 | 0 |
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
@@ -180,8 +174,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-l112 | JBL | L112 (`jbl-l112`) | 0 | 1 | 0 |
 | jbl-l16 | JBL | L16 (`jbl-l16`) | 1 | 0 | 0 |
 | jbl-l82-classic | JBL | L82 Classic (`jbl-l82-classic`) | 1 | 0 | 0 |
+| jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 0 | 0 | 1 |
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
+| kef-105 | KEF | Reference 105.2 (`kef-105`) | 1 | 0 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
 | kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 1 | 0 | 0 |
 | kef-ls50 | KEF | LS50 (`kef-ls50`) | 1 | 0 | 0 |
@@ -227,6 +223,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
 | legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 1 | 0 | 0 |
 | legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 1 | 0 | 0 |
+| legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 1 | 0 | 0 |
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 1 | 0 | 0 |
 | legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
@@ -234,11 +231,13 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 0 | 0 | 1 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |
 | legacy-la-5 | L-Acoustics | K2 (`legacy-la-5`) | 0 | 0 | 1 |
+| legacy-yam-2 | Yamaha | NS-10M (`legacy-yam-2`) | 0 | 0 | 1 |
 | legacy-yam-3 | Yamaha | NS-690 (`legacy-yam-3`) | 0 | 0 | 1 |
 | lg-lg-s80tr | LG | LG S80TR (`lg-lg-s80tr`) | 1 | 0 | 0 |
 | lg-lg-s90tr | LG | LG S90TR (`lg-lg-s90tr`) | 1 | 0 | 0 |
 | lg-lg-sc9s | LG | LG SC9S (`lg-lg-sc9s`) | 1 | 0 | 0 |
 | magnepan-mg1.7 | Magnepan | MG 1.7 (`magnepan-mg1.7`) | 1 | 0 | 0 |
+| marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 1 | 0 | 0 |
 | marshall-marshall-1936v | Marshall | Marshall 1936V (`marshall-marshall-1936v`) | 1 | 0 | 0 |
 | marshall-marshall-1960a | Marshall | Marshall 1960A (`marshall-marshall-1960a`) | 1 | 0 | 0 |
 | marshall-marshall-1960av | Marshall | Marshall 1960AV (`marshall-marshall-1960av`) | 1 | 0 | 0 |
@@ -279,6 +278,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | polk-rti-a7 | Polk Audio | RTi A7 (`polk-rti-a7`) | 0 | 0 | 1 |
 | polk-signature-s15 | Polk Audio | Signature S15 (`polk-signature-s15`) | 0 | 0 | 1 |
 | polk-signature-s50 | Polk Audio | Signature S50 (`polk-signature-s50`) | 0 | 0 | 1 |
+| polk-signature-s60 | Polk Audio | Signature S60 (`polk-signature-s60`) | 1 | 0 | 0 |
 | psb-synchrony-t600 | PSB | Synchrony T600 (`psb-synchrony-t600`) | 0 | 0 | 1 |
 | q-acoustics-3010i | Q Acoustics | 3010i (`q-acoustics-3010i`) | 0 | 0 | 1 |
 | q-acoustics-3020i | Q Acoustics | 3020i (`q-acoustics-3020i`) | 0 | 0 | 1 |

@@ -340,6 +340,51 @@ Also checked and deliberately **not** used:
 - The Forte IV and RF-7 III owner's manuals were not found on a manufacturer host (the RF-7 III manual is
   only on third-party manual sites), so those two records keep `NOT_STATED`.
 
+## Batch 52 — alternate sources for the dead URLs (workstream 5)
+
+Target 5 of the brief: replace the ten `INACCESSIBLE` URLs with a document that actually serves the same
+model. Six of the sixteen live fields behind them were settled on a source that answers.
+
+| Record | Field | Value | New source | Tier |
+| --- | --- | --- | --- | --- |
+| `legacy-kef-3` (Model 103) | driverCount | 2 | KEF archive `.../REFERENCE SERIES MODEL 103 (1976-77)/Reference_Series_Model_103_r.pdf` | manufacturer |
+| `kef-105` (Reference 105.2) | driverCount | 3 | KEF archive `.../REFERENCE SERIES MODEL 105.2 (1979-87)/Reference_Series_Model_105_2_r.pdf` | manufacturer |
+| `polk-signature-s60` | driverCount | 4 | polkaudio.com archive product page `/112702.html` | manufacturer |
+| `legacy-yam-2` (NS-10M) | driverCount | 2 | yamaha.com Innovation Road collection, "NS-10M / Speaker System／1978" | manufacturer |
+| `marshall-marshall-1936` | driverCount | 2 | marshall.com 1936 page without the stale `?pid=` parameter | manufacturer |
+| `jbl-paragon` (D44000) | driverCount | 6 | audio-database Paragon entry | reputable database |
+
+Why the old addresses failed, in each case:
+
+* **KEF archive** — the stored URLs were the *directory* plus a truncated filename; KEF serves
+  `Reference_Series_<MODEL>_r.pdf` inside that directory. Both sheets print a drive-unit table.
+* **Polk** — a retired product id (`/106513.html`); the same model is served from the archive section.
+* **Marshall** — the page exists; the recorded `?pid=1007263` tracking parameter is what 404s.
+* **Yamaha** — the history article (`hub.yamaha.com`) is gone, but the corporate collection entry for the
+  1978 NS-10M survives and states the drive complement directly.
+* **JBL Paragon** — `jp.jbl.com/jamaica.html` was never a Paragon page (it is a Jamaica jazz-bar profile).
+
+Rejected, and recorded so they are not retried:
+
+* **Yamaha `ns10ms.pdf`** — this is the **NS-10M STUDIO** owner's manual, not the 1978 NS-10M. Its
+  "18 cm woofer / 3.5 cm soft dome" pair is the same *sizes* but a different revision, so it was not used;
+  the manufacturer collection page covers the exact model instead.
+* **cieri.net JBL L19 brochure (1977)** — opened and it does enumerate "a 200-mm low frequency loudspeaker,
+  a 36-mm high frequency direct radiator" (two transducers), but cieri.net serves no HTTPS endpoint: the TLS
+  handshake fails and a direct HTTP request returns an empty reply. With no `https://` URL that can be
+  retained, the policy's source rule is unmet, so `jbl-l19.driverCount` is recorded
+  `SUPPORTED_NOT_PROMOTED` and stays `CITED`.
+* **DALI Oberon 1** — the live page is the discontinued-section URL and carries the spec table, but it only
+  offers "Recommended Amp. Power [watts] 25 - 100" and "Connection Input | Single Wire", both excluded
+  evidence, so `active` stays `NOT_STATED`.
+* **KEF 103 / 105.2 `active`** — both sheets give "Amplifier Requirements | 25-100 watts per channel into
+  8 ohms" (and 103: "will handle the output from 100 watt amplifiers"). Amplifier-requirement figures are
+  explicitly excluded, so both stay `NOT_STATED`.
+
+Still dead and unresolved (four records, six live fields): `kef-105.active`, `legacy-kef-3.active`,
+`polk-signature-s60.active`, `marshall-marshall-1936.active`, `jbl-l19.active`, plus the IK iLoud MTM
+news id, the Pioneer Elite S-1EX Sound & Vision page, and the `jp.jbl.com` Paragon URL.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -352,12 +397,12 @@ Also checked and deliberately **not** used:
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2412** |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **142 live** (177 stored, 35 archived) |
+| `MANUFACTURER_VERIFIED` | 2422 | **2417** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **136 live** (171 stored, 35 archived) |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **110** |
+| `THIRD_PARTY_VERIFIED` | 24 | **111** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **142 / 126 URLs** |
+| queue items | 212 / 157 URLs | **136 / 124 URLs** |
 | records with backlog | 336 of 657 | **301 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
@@ -365,9 +410,9 @@ values were written by an audit script and no test was relaxed.
 
 ## Still open
 
-- 142 live `CITED_IN_NOTES_UNCHECKED` fields on 126 URLs remain (108 `active`, 34 `driverCount`). Nine
-  Klipsch `active` fields closed in batch 51; the Klipsch spec sheets themselves are fully assessed, so
-  further Klipsch progress needs a revision-specific Forte IV / RF-7 III / Heresy IV / Cornwall IV document.
+- 136 live `CITED_IN_NOTES_UNCHECKED` fields on 124 URLs remain. Batch 51 closed nine Klipsch `active`
+  fields and batch 52 closed six `driverCount` fields behind dead URLs; what is left is dominated by
+  `active`, which the great majority of these documents never state at all.
 - 71 `UNSOURCED` fields and 168 no-provenance nulls remain. This round recorded 12 documented outcomes for
   that pool: 8 assessments (ATC, Wilson, Polk, Dutch & Dutch, EV SX300 ×2, EV Eliminator ×2) that stay null,
   and 4 promotions on explicit evidence (EV EKX-15P driverCount/active with MANUFACTURER_VERIFIED; Bose 802

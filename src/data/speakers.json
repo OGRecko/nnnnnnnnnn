@@ -1819,11 +1819,12 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "KEF's official archived Reference Series Model 105.2 sheet (1979–87), specification table explicitly labeled Model 105.2: three-way floor-standing closed-box system; input impedance 8 Ω; sensitivity 86 dB at 1 W/1 m, anechoic; frequency response 38 Hz–22,000 Hz ±2 dB on measuring axis; rated maximum input 200 W programme (stored as role=program_rating); separate amplifier requirement 40–200 W per channel into 8 Ω is retained here as a range only and is not collapsed into the scalar power field. The archived document lists driver-unit configurations by serial-number range; `driverCount` is 3 as supported by the 3-way, three-unit system description. It gives no unambiguous woofer diameter for all serial variants, so woofer remains N/A. Passive status is supported by the published external-amplifier requirements. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf. No measured-response data or directivity file is claimed/imported.",
+    "notes": "KEF's official archived Reference Series Model 105.2 sheet (1979–87), specification table explicitly labeled Model 105.2: three-way floor-standing closed-box system; input impedance 8 Ω; sensitivity 86 dB at 1 W/1 m, anechoic; frequency response 38 Hz–22,000 Hz ±2 dB on measuring axis; rated maximum input 200 W programme (stored as role=program_rating); separate amplifier requirement 40–200 W per channel into 8 Ω is retained here as a range only and is not collapsed into the scalar power field. The archived document lists driver-unit configurations by serial-number range; `driverCount` is 3 as supported by the 3-way, three-unit system description. It gives no unambiguous woofer diameter for all serial variants, so woofer remains N/A. Passive status is supported by the published external-amplifier requirements. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf. No measured-response data or directivity file is claimed/imported. Round 29 (2026-10-19): driverCount 3 verified from the KEF archive sheet for the exact model; every serial-number break lists the same three units.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): KEF product archive sheet \"REFERENCE SERIES MODEL 105.2 (1979-87)\" — \"Three-way, floor standing\"; drive-unit rows \"Drive units | B300 bass unit (SPI071), B110 midrange unit (SPI057), T52 tweeter (SPI049)\" repeated for each serial-number break (SPI072 tweeter from SN 2966). Three transducers in every revision listed."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -6357,11 +6358,12 @@
       "source": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 26 Hz–40 kHz overall response; 90 dB @ 1 W/1 m; 20–300 W recommended amplification; 8 Ω-compatible design; three 6.5 in mid/woofers plus one 1 in tweeter. Stored frequency limits are the published overall response, not a fabricated ±3 dB curve. Structured power withheld: the exact source publishes a recommended-amplifier range (20–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html.",
+    "notes": "Manufacturer data: 26 Hz–40 kHz overall response; 90 dB @ 1 W/1 m; 20–300 W recommended amplification; 8 Ω-compatible design; three 6.5 in mid/woofers plus one 1 in tweeter. Stored frequency limits are the published overall response, not a fabricated ±3 dB curve. Structured power withheld: the exact source publishes a recommended-amplifier range (20–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html. Round 29 (2026-10-19): driverCount 4 verified from the Polk Audio archive page for the exact model (\"(3) 6.5\" ... Mid/Woofer\" and \"(1) 1\" ... Tweeter\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s60/112702.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Polk Audio archive page for the Signature S60 — \"Front Array Driver Complement • (3) 6.5\" (16.51 cm) d (Round) - Mid/Woofer • (1) 1\" (2.54 cm) d (Round) - Tweeter\". Three mid/woofers plus one tweeter."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -14503,11 +14505,12 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact JBL Paragon / D44000 entry in Audio Database (a secondary, exact-model source, not a JBL-hosted page). Its shared model-rating table states a three-way, six-speaker integrated stereo loudspeaker system, 96 dB/W/m output sound-pressure level, 8 Ω impedance and 125 W allowable input (continuous program). The page explicitly distinguishes initial D44000, mid-term D44000, and late D44000WXA revisions and documents differing woofer/midrange assemblies; the single woofer field is therefore left N/A rather than merging revision-specific diameters. JBL's own article confirms the exact Paragon D44000 identity and says its pictured unit is an early model: https://jp.jbl.com/jamaica.html. The JBL article does not publish numeric specifications. No frequency-response limits, response curve, or directivity data are imported. Source for populated fields: https://audio-database.com/JBL/speaker/paragon.html.",
+    "notes": "Exact JBL Paragon / D44000 entry in Audio Database (a secondary, exact-model source, not a JBL-hosted page). Its shared model-rating table states a three-way, six-speaker integrated stereo loudspeaker system, 96 dB/W/m output sound-pressure level, 8 Ω impedance and 125 W allowable input (continuous program). The page explicitly distinguishes initial D44000, mid-term D44000, and late D44000WXA revisions and documents differing woofer/midrange assemblies; the single woofer field is therefore left N/A rather than merging revision-specific diameters. JBL's own article confirms the exact Paragon D44000 identity and says its pictured unit is an early model: https://jp.jbl.com/jamaica.html. The JBL article does not publish numeric specifications. No frequency-response limits, response curve, or directivity data are imported. Source for populated fields: https://audio-database.com/JBL/speaker/paragon.html. Round 29 (2026-10-19): driverCount 6 verified from the audio-database Paragon entry, which states a 6-speaker system and lists two bass, two midrange and two high units in each revision.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://jp.jbl.com/jamaica.html",
-      "sourceType": null
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://audio-database.com/JBL/speaker/paragon.html",
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): audio-database JBL Paragon (D44000 / D44000WXA) entry — \"Method | Integrated stereo speaker system, 3-way, 6-speaker, front loading horn system, floor type\", with a per-revision unit table giving 2x bass, 2x midrange (\"375 + H5038P\") and 2x high (\"075\") in the initial and medium-term D44000 and 2x bass, 2x \"376 + H5038P\" and 2x \"075\" in the D44000WXA. The complement is six in every revision the page lists, so the revision difference does not affect the count."
     }
   },
   {
@@ -19303,11 +19306,12 @@
       "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "KEF's official archived Reference Series Model 103 sheet (1976–77), explicitly labeled Model 103, specifies a two-way closed-box system with an 8 in B200 LF unit and T52 HF unit, 8 Ω impedance, 100 W programme rating, 50 Hz–20 kHz ±2 dB frequency response, and 58 Hz system resonance (Q=0.9). The source's extended table also gives a continuous sine-wave input limit of 25 V (80 W) from 100–2,500 Hz, reducing to 10 V (12 W) above 3 kHz; these band-specific limits are retained as context rather than collapsed into the power scalar. The resonantFreq field is the published complete-system resonance, not a claim about the B200 driver's free-air Fs. The published sensitivity is 96 dB for 25 W at 400 Hz; it is not a standard broadband 1 W/1 m or 2.83 V/1 m sensitivity and is therefore not populated in the standard sensitivity field. The separate amplifier requirement is 25–100 W per channel into 8 Ω and is retained here as a range only, not collapsed into scalar power. The extracted dimensions on the source appear corrupted and are not used. The archive includes horizontal/vertical dispersion material, but its extracted charts are not a clearly labeled machine-readable polar dataset; no chart digitization is imported. External amplification/passive system; two active transducers. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf.",
+    "notes": "KEF's official archived Reference Series Model 103 sheet (1976–77), explicitly labeled Model 103, specifies a two-way closed-box system with an 8 in B200 LF unit and T52 HF unit, 8 Ω impedance, 100 W programme rating, 50 Hz–20 kHz ±2 dB frequency response, and 58 Hz system resonance (Q=0.9). The source's extended table also gives a continuous sine-wave input limit of 25 V (80 W) from 100–2,500 Hz, reducing to 10 V (12 W) above 3 kHz; these band-specific limits are retained as context rather than collapsed into the power scalar. The resonantFreq field is the published complete-system resonance, not a claim about the B200 driver's free-air Fs. The published sensitivity is 96 dB for 25 W at 400 Hz; it is not a standard broadband 1 W/1 m or 2.83 V/1 m sensitivity and is therefore not populated in the standard sensitivity field. The separate amplifier requirement is 25–100 W per channel into 8 Ω and is retained here as a range only, not collapsed into scalar power. The extracted dimensions on the source appear corrupted and are not used. The archive includes horizontal/vertical dispersion material, but its extracted charts are not a clearly labeled machine-readable polar dataset; no chart digitization is imported. External amplification/passive system; two active transducers. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf. Round 29 (2026-10-19): driverCount 2 verified from the KEF archive sheet for the exact model, which prints \"Drive units | B200 bass unit (SP1039), T52 tweeter (SP1049)\".",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): KEF product archive sheet \"REFERENCE SERIES MODEL 103 (1976-77)\" — \"An 8 inch two way closed box design, it used the same low distortion B200 bass driver as the Model 104 with the new T52 tweeter\"; drive-unit table \"Drive units | B200 bass unit (SP1039), T52 tweeter (SP1049)\". Two transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -19952,11 +19956,12 @@
       "source": "https://usa.yamaha.com/products/contents/audio_visual/hifi_components/hifi-history/speaker/index.html",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "This row is the original NS-10M launched in 1978, not the separately named 1987 NS-10M STUDIO/PRO/MC or later MX/MT variants. Yamaha’s fetched official history identifies the original as a two-way speaker with an 18 cm (7-inch) white-cone woofer and a 3.5 cm soft-dome tweeter; the fetched exact-model text does not explicitly establish powered/passive status, so active remains N/A; the Yamaha Hub history also states 8-ohm impedance and 25–50 W power handling. The fetched Audio Database entry for the exact NS-10M lists 90 dB/W/m sensitivity, 8 ohms, 25 W rated input, and 50 W max input; 50 W is stored explicitly as allowable input, not amplifier output. The response range is deliberately left unavailable: the exact-model Audio Database entry says 60 Hz–20 kHz, while Yamaha Hub’s original-model history says 85 Hz–20 kHz, so no cutoff is selected. The Audio Database page mentions a 27 mm tweeter voice-coil bobbin, but that is not the LF woofer coil represented by the single voiceCoil field; woofer-coil diameter, resonance, and any response curve/directivity remain N/A. Sources: https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/; https://usa.yamaha.com/products/contents/proaudio/hs_series_story/index.html; https://usa.yamaha.com/products/contents/audio_visual/hifi_components/hifi-history/speaker/index.html; https://audio-database.com/YAMAHA/speaker/ns-10m.html.",
+    "notes": "This row is the original NS-10M launched in 1978, not the separately named 1987 NS-10M STUDIO/PRO/MC or later MX/MT variants. Yamaha’s fetched official history identifies the original as a two-way speaker with an 18 cm (7-inch) white-cone woofer and a 3.5 cm soft-dome tweeter; the fetched exact-model text does not explicitly establish powered/passive status, so active remains N/A; the Yamaha Hub history also states 8-ohm impedance and 25–50 W power handling. The fetched Audio Database entry for the exact NS-10M lists 90 dB/W/m sensitivity, 8 ohms, 25 W rated input, and 50 W max input; 50 W is stored explicitly as allowable input, not amplifier output. The response range is deliberately left unavailable: the exact-model Audio Database entry says 60 Hz–20 kHz, while Yamaha Hub’s original-model history says 85 Hz–20 kHz, so no cutoff is selected. The Audio Database page mentions a 27 mm tweeter voice-coil bobbin, but that is not the LF woofer coil represented by the single voiceCoil field; woofer-coil diameter, resonance, and any response curve/directivity remain N/A. Sources: https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/; https://usa.yamaha.com/products/contents/proaudio/hs_series_story/index.html; https://usa.yamaha.com/products/contents/audio_visual/hifi_components/hifi-history/speaker/index.html; https://audio-database.com/YAMAHA/speaker/ns-10m.html. Round 29 (2026-10-19): driverCount 2 verified from Yamaha's own 1978 NS-10M entry (\"18-cm white cone woofer and 3.5-cm soft dome tweeter\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha corporate \"Innovation Road\" collection entry headed \"NS-10M / Speaker System／1978\" — \"The two-way construction features an 18-cm white cone woofer and 3.5-cm soft dome tweeter, along with an encapsulated enclosure.\" Two transducers, and the year identifies this page as the 1978 NS-10M rather than the later NS-10M STUDIO."
     }
   },
   {
@@ -42127,11 +42132,12 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact Marshall 1936 product page: two 12-inch Celestion G12T-75 drivers; cabinet power handling 150 W mono / 75 W stereo; unit impedance 8 Ω mono / 16 Ω stereo. `power.value=150 W` retains the published mono total handling and the stereo rating is retained in context. The external-amplifier guitar cabinet is passive, so active=false. Impedance remains N/A because the load depends on mono/stereo wiring and the schema has one scalar impedance field. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263.",
+    "notes": "Exact Marshall 1936 product page: two 12-inch Celestion G12T-75 drivers; cabinet power handling 150 W mono / 75 W stereo; unit impedance 8 Ω mono / 16 Ω stereo. `power.value=150 W` retains the published mono total handling and the stereo rating is retained in context. The external-amplifier guitar cabinet is passive, so active=false. Impedance remains N/A because the load depends on mono/stereo wiring and the schema has one scalar impedance field. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263. Round 29 (2026-10-19): driverCount 2 verified from the Marshall 1936 page; the earlier INACCESSIBLE result came from a stale \"?pid=\" parameter, not from a missing page.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Marshall 1936 2x12 cabinet product page — \"Two 12\" Celestion G12T-75 speakers\" and the specification block \"Speaker configuration | 2x12\"\". Two transducers. The recorded URL with \"?pid=1007263\" returns the site 404; the page itself answers without the stale tracking parameter."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

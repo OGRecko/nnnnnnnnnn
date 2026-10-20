@@ -5,19 +5,19 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 142,
-  "assessedItems": 142,
+  "uncheckedItems": 136,
+  "assessedItems": 136,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 126,
+  "uniqueSourceUrls": 124,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 3,
     "CHECKED_PARTIAL": 113,
-    "INACCESSIBLE": 10
+    "INACCESSIBLE": 8
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 6,
     "CHECKED_PARTIAL": 120,
-    "INACCESSIBLE": 16
+    "INACCESSIBLE": 10
   },
   "statusCounts": [
     {
@@ -54,13 +54,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 34
+      "count": 28
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 514
+      "count": 519
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 53
+      "count": 54
     },
     {
       "field": "driverCount",
@@ -141,6 +141,8 @@
     "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
     "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
     "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77).pdf",
+    "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
+    "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf",
     "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
     "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
     "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
@@ -166,6 +168,7 @@
     "https://atc.audio/professional/loudspeakers/scm45a-pro/",
     "https://atc.audio/professional/loudspeakers/scm50a-pro/",
     "https://audio-database.com/JBL/speaker/4350.html",
+    "https://audio-database.com/JBL/speaker/paragon.html",
     "https://audison.com/product/av-k6/",
     "https://audison.com/product/th-k2-ii-a-coro-2/",
     "https://avantonepro.com/en/products/mixcube-passive",
@@ -205,6 +208,7 @@
     "https://dynaudio.com/professional-audio/lyd/lyd-7",
     "https://eminence.com/collections/legend-series",
     "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-monitors/",
+    "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
     "https://international.kef.com/products/kc62-subwoofer",
     "https://international.kef.com/products/ls50",
     "https://jblpro.com/en-US/products/708p",
@@ -221,6 +225,7 @@
     "https://jblpro.com/en/products/306p-mkii",
     "https://jblpro.com/en/products/308p-mkii",
     "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+    "https://jp.jbl.com/jamaica.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
     "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
@@ -351,6 +356,7 @@
     "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
     "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+    "https://www.dali-speakers.com/en/products/discontinued/oberon/oberon-1/",
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
     "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
@@ -420,6 +426,7 @@
     "https://www.marshall.com/gb/en/product/acton-iii",
     "https://www.marshall.com/gb/en/product/stanmore-iii",
     "https://www.marshall.com/gb/en/product/woburn-iii",
+    "https://www.marshall.com/us/en/product/1936-2x12-cabinet",
     "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
     "https://www.marshall.com/us/en/product/middleton?pid=1006034",
     "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
@@ -440,6 +447,7 @@
     "https://www.neumann.com/en-us/products/monitors/kh-80-dsp-a-g",
     "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
     "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+    "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s60/112702.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
     "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
@@ -493,80 +501,11 @@
     "https://www.wharfedale.co.uk/products/diamond-12-2",
     "https://www.wharfedale.co.uk/products/evo4-1",
     "https://www.wharfedale.co.uk/products/evo4-2",
-    "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8"
+    "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/7008/"
   ],
   "warnings": [],
   "groups": [
-    {
-      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
-      "host": "assets.kef.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "legacy-kef-3"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-3",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "HTTP 404 on the recorded archive URL."
-        },
-        {
-          "record": "legacy-kef-3",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "HTTP 404 on the recorded archive URL."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained."
-    },
-    {
-      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
-      "host": "assets.kef.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "kef-105"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kef-105",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "HTTP 404 on the recorded archive URL."
-        },
-        {
-          "record": "kef-105",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "HTTP 404 on the recorded archive URL."
-        }
-      ],
-      "checkedRound": 22,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained."
-    },
     {
       "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
       "host": "bangolufsenrmaskillgohel.blob.core.windows.net",
@@ -923,41 +862,6 @@
       "evidence": "Opera Live manual page 6: four-column specification table (202/205/402/405) and an amplifier section per model, but the extracted text is not column-aligned, so the 405 column could not be read with certainty. The series heading reads \"professional active speaker\"."
     },
     {
-      "url": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
-      "host": "www.marshall.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "marshall-marshall-1936"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "marshall-marshall-1936",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Round 29 retry: 404 page, no specification text."
-        },
-        {
-          "record": "marshall-marshall-1936",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Round 29 retry: 404 page, no specification text."
-        }
-      ],
-      "checkedRound": 29,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Retry returned \"Page not found - Sorry, the page you are looking for does not exist.\" The 1936 2x12 cabinet product page is still unavailable on marshall.com."
-    },
-    {
       "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
       "host": "www.parts-express.com",
       "status": "CHECKED_PARTIAL",
@@ -991,41 +895,6 @@
         0
       ],
       "evidence": "SP-BS22-LR page: \"4\" Structured Surface Woofer\"; \"1\" High Efficiency Soft Dome Tweeter\"; specifications \"Configuration 2-way\", \"Woofer 4\"\", \"Tweeter 1\"\", \"Maximum Input Power 80 W\"."
-    },
-    {
-      "url": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
-      "host": "www.polkaudio.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "polk-signature-s60"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "polk-signature-s60",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Round 29 retry: dead product page."
-        },
-        {
-          "record": "polk-signature-s60",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "Round 29 retry: dead product page."
-        }
-      ],
-      "checkedRound": 29,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
     },
     {
       "url": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
@@ -1088,6 +957,60 @@
         0
       ],
       "evidence": "DS 40SE specification: 'Driver complement: One 4.5 inch (113.4 mm) full-range driver'. The text about 'speaker components that are not self-powered' is for the DS 40F warranty only. No passive/active statement for the DS 40SE in chunk 0."
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
+      "host": "assets.kef.com",
+      "status": "INACCESSIBLE",
+      "items": 1,
+      "records": [
+        "legacy-kef-3"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-kef-3",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "HTTP 404 on the recorded archive URL."
+        }
+      ],
+      "checkedRound": 22,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained."
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
+      "host": "assets.kef.com",
+      "status": "INACCESSIBLE",
+      "items": 1,
+      "records": [
+        "kef-105"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "kef-105",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "HTTP 404 on the recorded archive URL."
+        }
+      ],
+      "checkedRound": 22,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "The recorded archive URL returns HTTP 404; the archived KEF Reference Series page could not be opened, so no evidence was obtained."
     },
     {
       "url": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
@@ -1684,33 +1607,6 @@
       "evidence": "Data-sheet driver list: \"Low-Frequency Driver: 15\" (380mm) Pulp-cone woofer (1500AL-1)\"; \"High-Frequency Driver: 4\" (100mm) Magnesium compression driver (476Mg)\"; \"Ultrahigh-Frequency Driver: 1\" (25mm) Magnesium compression driver (045Be-1)\"; \"Maximum Recommended Amplifier Power: 500 Watts\"; \"LF/HF Drive Mode Switch: Normal, bi amp\"; 93 dB."
     },
     {
-      "url": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
-      "host": "hub.yamaha.com",
-      "status": "INACCESSIBLE",
-      "items": 1,
-      "records": [
-        "legacy-yam-2"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-yam-2",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "No NS-10M driver count was served in the fetched chunk; the field remains unresolved."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        1
-      ],
-      "evidence": "The article narrates Yamaha monitor history and the HS series but the served chunk gives no NS-10M drive-unit count."
-    },
-    {
       "url": "https://international.kef.com/products/q150-bookshelf-speaker",
       "host": "international.kef.com",
       "status": "CHECKED_PARTIAL",
@@ -1926,33 +1822,6 @@
         0
       ],
       "evidence": "Specifications: \"Low Frequency Driver: JBL M115-8A x 2\"; \"High Frequency Driver: JBL 2414H-C, 1\\\" exit compression driver mounted on Progressive Transition Waveguide\"; \"System Type: Dual 15\\\" 2-way, sound reinforcement speaker\". Two woofers plus one compression driver = 3 transducers. The sheet says \"passive\" nowhere; it gives \"Recommended Amplifier Power: 500-1000 watts @ 4 ohms\", Speakon NL-4 and 1/4-inch inputs, and a 500 W power capacity."
-    },
-    {
-      "url": "https://jp.jbl.com/jamaica.html",
-      "host": "jp.jbl.com",
-      "status": "INACCESSIBLE",
-      "items": 1,
-      "records": [
-        "jbl-paragon"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-paragon",
-          "field": "driverCount",
-          "value": 6,
-          "recordedOutcome": "INACCESSIBLE",
-          "recordedNote": "The recorded URL is not a Paragon specification page; no model-specific drive-unit text exists there. The stored value of 6 remains unverified."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The page is a Jamaica jazz-bar/shop profile with no JBL Paragon specification text at all; it does not mention the Paragon driver complement."
     },
     {
       "url": "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
@@ -3311,6 +3180,33 @@
       "evidence": "Data sheet, OLYMPICA III column: \"Tweeter: Sonus faber silk dome 29 mm\"; \"Mid-Woofer: MW15XTR ... 150 mm\"; \"Woofers: Two W18XTR ... 180 mm\"; \"3 way floorstanding\"."
     },
     {
+      "url": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
+      "host": "www.marshall.com",
+      "status": "INACCESSIBLE",
+      "items": 1,
+      "records": [
+        "marshall-marshall-1936"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "marshall-marshall-1936",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Round 29 retry: 404 page, no specification text."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Retry returned \"Page not found - Sorry, the page you are looking for does not exist.\" The 1936 2x12 cabinet product page is still unavailable on marshall.com."
+    },
+    {
       "url": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
       "host": "www.marshall.com",
       "status": "CHECKED_PARTIAL",
@@ -3633,6 +3529,33 @@
         0
       ],
       "evidence": "Monitor SE 6000F specifications: \"DESIGN 5-driver, 3-way bass reflex, floorstanding\"; \"HIGH FREQUENCY DRIVER 1\\\" X-PAL dome\"; \"MIDRANGE FREQUENCY DRIVER 5-1/2\\\"\"; \"LOW FREQUENCY DRIVER Three 5-1/2\\\"\"."
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
+      "host": "www.polkaudio.com",
+      "status": "INACCESSIBLE",
+      "items": 1,
+      "records": [
+        "polk-signature-s60"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "polk-signature-s60",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "INACCESSIBLE",
+          "recordedNote": "Round 29 retry: dead product page."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
     },
     {
       "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
