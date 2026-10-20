@@ -206,6 +206,23 @@ Four fields promoted, four URL outcomes recorded. The contrast is deliberate: th
 word "Passive", so `active: false` is promotable, while the Zx4 sheet and the two JBL documents only print
 power-handling and crossover data, which the policy excludes.
 
+## Batch 43 — the rest of the Electro-Voice Tour X listings
+
+Six Full Compass listings, each opened and read; twelve fields promoted.
+
+| Record | driverCount | Passive evidence |
+| --- | --- | --- |
+| electro-voice-tx1152 | 2 (SMX2151 + DH3/2010A) | name reads "… 500W Passive Loudspeaker" |
+| electro-voice-tx2152 | 3 ((2) SMX2151 + ND2) | name reads "Dual 15\" 2-Way Passive Speaker" |
+| electro-voice-tx1181 | 1 (EVS18S) | name reads "18\" 500W Passive Subwoofer" |
+| electro-voice-tx2181 | 2 ((2) EVS18S) | "Use with processor and dedicated amp channel" |
+| electro-voice-tx1122fm | 2 (SMX2121 + DH3) | "The TX1122FM is a 12\", two-way passive floor monitor" |
+| electro-voice-tx1152fm | 2 (SMX2151 + DH3) | name reads "15\" 2-Way Passive Vertical Floor Monitor" |
+
+Every page also prints "Nominal Impedance (Passive)" and most print "Internal Crossover: Yes". The TX2181 has
+no "passive" in its name, so it rests on its own instruction to use an external processor and a dedicated
+amplifier channel; `Internal Crossover: No` is consistent with that.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -219,12 +236,12 @@ power-handling and crossover data, which the policy excludes.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **186** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **174** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **75** |
+| `THIRD_PARTY_VERIFIED` | 24 | **87** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **186 / 148 URLs** |
-| records with backlog | 336 of 657 | **323 of 657** |
+| queue items | 212 / 157 URLs | **174 / 142 URLs** |
+| records with backlog | 336 of 657 | **317 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

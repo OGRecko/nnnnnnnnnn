@@ -2160,6 +2160,306 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf"
+    },
+    {
+      "id": "electro-voice-tx1152",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX1152 listing — \"LF Transducer: 15-inch SMX2151\" and the feature list's \"1.25-inch DH3/2010A titanium HF compression driver\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black"
+    },
+    {
+      "id": "electro-voice-tx1152",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1152 15\\\" 2-Way 60x40 500W Passive Loudspeaker, Black\" and the spec list prints \"Internal Crossover: Yes\". Explicit passive wording."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black"
+    },
+    {
+      "id": "electro-voice-tx2152",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX2152 listing — \"LF Transducer: (2) SMX2151\" and \"HF Transducer: ND2\". Two woofers plus one HF device."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn"
+    },
+    {
+      "id": "electro-voice-tx2152",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX2152 Dual 15\\\" 2-Way Passive Speaker with a 60x40 Horn\", the spec list prints \"Internal Crossover: Yes\" and \"Nominal Impedance (passive): 4 ohms\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn"
+    },
+    {
+      "id": "electro-voice-tx1181",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "value": 1,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 1,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX1181 listing — \"LF Transducer: EVS18S\" and \"Speaker Type: Subs\"; no HF transducer is listed. One transducer."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black"
+    },
+    {
+      "id": "electro-voice-tx1181",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1181 18\\\" 500W Passive Subwoofer, Black\" and the spec list prints \"Nominal Impedance (Passive): 8 Ohms\" with \"Internal Crossover: Yes\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black"
+    },
+    {
+      "id": "electro-voice-tx2181",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX2181 listing — feature \"Two high-excursion EVS-18S woofers\" and specification \"LF Transducer: (2) EVS18S\"; \"Speaker Type: Subs\", no HF device. Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers"
+    },
+    {
+      "id": "electro-voice-tx2181",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — feature list instructs \"Use with processor and dedicated amp channel\", and the specification prints \"Nominal Impedance (Passive): 4 Ohms\" with \"Internal Crossover: No\". External processing and amplification."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers"
+    },
+    {
+      "id": "electro-voice-tx1122fm",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX1122FM listing — \"LF Transducer: SMX2121\" and \"HF Transducer: DH3\"; the overview names the \"SMX2121 woofer and 1-1/4\\\" DH3/2010A titanium HF driver\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn"
+    },
+    {
+      "id": "electro-voice-tx1122fm",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — \"The TX1122FM is a 12\", two-way passive floor monitor\", with \"Nominal Impedance (Passive): 8 Ohms\" and \"Internal Crossover: Yes\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn"
+    },
+    {
+      "id": "electro-voice-tx1152fm",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Full Compass TX1152FM listing — \"LF Transducer: SMX2151\" and \"HF Transducer: DH3\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn"
+    },
+    {
+      "id": "electro-voice-tx1152fm",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice TX1152FM 15\\\" 2-Way Passive Vertical Floor Monitor with 90 x 50 Horn\" and the specs print \"Internal Crossover: Yes\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn"
     }
   ]
 }

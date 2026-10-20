@@ -28489,16 +28489,18 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact Electro-Voice TX1122FM listing, MFR part F.01U.302.277. It publishes response 70 Hz–20 kHz (-3 dB), 55 Hz–20 kHz (-10 dB), 99 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.4-ohm minimum, a 12-inch SMX2121 LF driver plus DH3 HF driver, and passive operation. The linked EV-authored specification sheet identifies earlier part PRD000144-001 and gives the same principal specifications; the current MFR part identity comes from the fetched exact-model listing. The 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn; linked sheet: https://www.fullcompass.com/common/files/8876-TX1122FMSpecificationSheet.pdf.",
+    "notes": "Exact Electro-Voice TX1122FM listing, MFR part F.01U.302.277. It publishes response 70 Hz–20 kHz (-3 dB), 55 Hz–20 kHz (-10 dB), 99 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.4-ohm minimum, a 12-inch SMX2121 LF driver plus DH3 HF driver, and passive operation. The linked EV-authored specification sheet identifies earlier part PRD000144-001 and gives the same principal specifications; the current MFR part identity comes from the fetched exact-model listing. The 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn; linked sheet: https://www.fullcompass.com/common/files/8876-TX1122FMSpecificationSheet.pdf. Round 29 (2026-10-19): driverCount 2 and active false verified from the Full Compass TX1122FM listing (\"two-way passive floor monitor\", \"Nominal Impedance (Passive): 8 Ohms\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX1122FM listing — \"LF Transducer: SMX2121\" and \"HF Transducer: DH3\"; the overview names the \"SMX2121 woofer and 1-1/4\\\" DH3/2010A titanium HF driver\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — \"The TX1122FM is a 12\", two-way passive floor monitor\", with \"Nominal Impedance (Passive): 8 Ohms\" and \"Internal Crossover: Yes\"."
     }
   },
   {
@@ -28562,16 +28564,18 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact current Electro-Voice TX1152 listing, MFR part F.01U.302.273. The listing specifies 65 Hz–20 kHz (-3 dB), 45 Hz–20 kHz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.2-ohm minimum, one 15-inch SMX2151 LF driver plus DH3 HF driver, and passive operation. The older EV Tour X manual identifies TX1152 part PRD000139-001 and publishes different response limits/minimum impedance; those legacy values are not mixed into this current-part record. The listing does not state a measurement-space condition; only its explicitly published limits are stored, with no digitized response or directivity data. Published 60° x 40° coverage is descriptive only. Source: https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black.",
+    "notes": "Exact current Electro-Voice TX1152 listing, MFR part F.01U.302.273. The listing specifies 65 Hz–20 kHz (-3 dB), 45 Hz–20 kHz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.2-ohm minimum, one 15-inch SMX2151 LF driver plus DH3 HF driver, and passive operation. The older EV Tour X manual identifies TX1152 part PRD000139-001 and publishes different response limits/minimum impedance; those legacy values are not mixed into this current-part record. The listing does not state a measurement-space condition; only its explicitly published limits are stored, with no digitized response or directivity data. Published 60° x 40° coverage is descriptive only. Source: https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black. Round 29 (2026-10-19): driverCount 2 and active false verified from the Full Compass TX1152 listing, whose name reads \"Passive Loudspeaker\" and whose specs print \"Internal Crossover: Yes\".",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX1152 listing — \"LF Transducer: 15-inch SMX2151\" and the feature list's \"1.25-inch DH3/2010A titanium HF compression driver\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1152 15\\\" 2-Way 60x40 500W Passive Loudspeaker, Black\" and the spec list prints \"Internal Crossover: Yes\". Explicit passive wording."
     }
   },
   {
@@ -28635,16 +28639,18 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact current Electro-Voice TX1152FM listing, MFR part F.01U.302.278. It publishes 65 Hz–20 kHz (-3 dB), 45 Hz–20 kHz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.2-ohm minimum, one 15-inch SMX2151 LF driver plus DH3 HF driver, and passive operation. The linked EV-authored sheet is for earlier part PRD000145-001 and agrees on these principal limits and ratings; the current MFR part identity is from the fetched exact-model listing. Published 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn; linked sheet: https://www.fullcompass.com/common/files/8878-SpecSheet.pdf.",
+    "notes": "Exact current Electro-Voice TX1152FM listing, MFR part F.01U.302.278. It publishes 65 Hz–20 kHz (-3 dB), 45 Hz–20 kHz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 6.2-ohm minimum, one 15-inch SMX2151 LF driver plus DH3 HF driver, and passive operation. The linked EV-authored sheet is for earlier part PRD000145-001 and agrees on these principal limits and ratings; the current MFR part identity is from the fetched exact-model listing. Published 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn; linked sheet: https://www.fullcompass.com/common/files/8878-SpecSheet.pdf. Round 29 (2026-10-19): driverCount 2 and active false verified from the Full Compass TX1152FM listing (\"15\\\" 2-Way Passive Vertical Floor Monitor\", \"Nominal Impedance (Passive): 8 Ohms\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX1152FM listing — \"LF Transducer: SMX2151\" and \"HF Transducer: DH3\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice TX1152FM 15\\\" 2-Way Passive Vertical Floor Monitor with 90 x 50 Horn\" and the specs print \"Internal Crossover: Yes\"."
     }
   },
   {
@@ -28708,16 +28714,18 @@
     },
     "driverCount": 1,
     "panel": null,
-    "notes": "Exact current Electro-Voice TX1181 listing, MFR part F.01U.302.275. It publishes 50–160 Hz (-3 dB), 45–700 Hz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 7.5-ohm minimum, and one 18-inch EVS-18S LF driver in a passive subwoofer. The linked EV-authored TX1181 sheet identifies earlier part PRD000142-001 and explicitly labels its response/impedance measurement as half-space; the fetched current-part listing repeats the same response/rating values. Published omnidirectional coverage is descriptive only; no response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black; linked sheet: https://www.fullcompass.com/common/files/8879-SpecSheet.pdf.",
+    "notes": "Exact current Electro-Voice TX1181 listing, MFR part F.01U.302.275. It publishes 50–160 Hz (-3 dB), 45–700 Hz (-10 dB), 100 dB (1 W/1 m), 500 W continuous / 2000 W peak, 8-ohm nominal / 7.5-ohm minimum, and one 18-inch EVS-18S LF driver in a passive subwoofer. The linked EV-authored TX1181 sheet identifies earlier part PRD000142-001 and explicitly labels its response/impedance measurement as half-space; the fetched current-part listing repeats the same response/rating values. Published omnidirectional coverage is descriptive only; no response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black; linked sheet: https://www.fullcompass.com/common/files/8879-SpecSheet.pdf. Round 29 (2026-10-19): driverCount 1 and active false verified from the Full Compass TX1181 listing (\"18\\\" 500W Passive Subwoofer\", \"Nominal Impedance (Passive): 8 Ohms\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX1181 listing — \"LF Transducer: EVS18S\" and \"Speaker Type: Subs\"; no HF transducer is listed. One transducer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1181 18\\\" 500W Passive Subwoofer, Black\" and the spec list prints \"Nominal Impedance (Passive): 8 Ohms\" with \"Internal Crossover: Yes\"."
     }
   },
   {
@@ -28781,16 +28789,18 @@
     },
     "driverCount": 3,
     "panel": null,
-    "notes": "Exact current Electro-Voice TX2152 listing, MFR part F.01U.302.274. It publishes 55 Hz–13 kHz (-3 dB), 50 Hz–18 kHz (-10 dB), 103 dB (1 W/1 m), 1000 W continuous / 4000 W peak, 4-ohm nominal / 3.1-ohm minimum, two 15-inch SMX2151 LF drivers plus one ND2 HF driver, and passive operation. The linked EV-authored sheet identifies earlier part PRD000140-001 and lists matching limits/ratings with half-space context; the current MFR part identity is from the fetched exact-model listing. Published 60° x 40° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn; linked sheet: https://www.fullcompass.com/common/files/8880-SpecSheet.pdf.",
+    "notes": "Exact current Electro-Voice TX2152 listing, MFR part F.01U.302.274. It publishes 55 Hz–13 kHz (-3 dB), 50 Hz–18 kHz (-10 dB), 103 dB (1 W/1 m), 1000 W continuous / 4000 W peak, 4-ohm nominal / 3.1-ohm minimum, two 15-inch SMX2151 LF drivers plus one ND2 HF driver, and passive operation. The linked EV-authored sheet identifies earlier part PRD000140-001 and lists matching limits/ratings with half-space context; the current MFR part identity is from the fetched exact-model listing. Published 60° x 40° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn; linked sheet: https://www.fullcompass.com/common/files/8880-SpecSheet.pdf. Round 29 (2026-10-19): driverCount 3 and active false verified from the Full Compass TX2152 listing (\"Dual 15\\\" 2-Way Passive Speaker\", \"Nominal Impedance (passive): 4 ohms\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX2152 listing — \"LF Transducer: (2) SMX2151\" and \"HF Transducer: ND2\". Two woofers plus one HF device."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX2152 Dual 15\\\" 2-Way Passive Speaker with a 60x40 Horn\", the spec list prints \"Internal Crossover: Yes\" and \"Nominal Impedance (passive): 4 ohms\"."
     }
   },
   {
@@ -28854,16 +28864,18 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact current Electro-Voice TX2181 listing, MFR part F.01U.302.276. It publishes 50–160 Hz (-3 dB), 40 Hz–1.5 kHz (-10 dB), 103 dB (1 W/1 m), 1000 W continuous / 4000 W peak, 4-ohm nominal / 2.9-ohm minimum, and two 18-inch EVS-18S LF drivers in a passive subwoofer. The linked EV-authored sheet identifies earlier part PRD000143-001, repeats these limits/ratings, and explicitly labels the response/impedance measurement as half-space; the current MFR part identity is from the fetched exact-model listing. Published omnidirectional coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers; linked sheet: https://www.fullcompass.com/common/files/8881-SpecSheet.pdf.",
+    "notes": "Exact current Electro-Voice TX2181 listing, MFR part F.01U.302.276. It publishes 50–160 Hz (-3 dB), 40 Hz–1.5 kHz (-10 dB), 103 dB (1 W/1 m), 1000 W continuous / 4000 W peak, 4-ohm nominal / 2.9-ohm minimum, and two 18-inch EVS-18S LF drivers in a passive subwoofer. The linked EV-authored sheet identifies earlier part PRD000143-001, repeats these limits/ratings, and explicitly labels the response/impedance measurement as half-space; the current MFR part identity is from the fetched exact-model listing. Published omnidirectional coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers; linked sheet: https://www.fullcompass.com/common/files/8881-SpecSheet.pdf. Round 29 (2026-10-19): driverCount 2 and active false verified from the Full Compass TX2181 listing, whose feature list says \"Use with processor and dedicated amp channel\" and whose specs print \"Nominal Impedance (Passive): 4 Ohms\".",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX2181 listing — feature \"Two high-excursion EVS-18S woofers\" and specification \"LF Transducer: (2) EVS18S\"; \"Speaker Type: Subs\", no HF device. Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — feature list instructs \"Use with processor and dedicated amp channel\", and the specification prints \"Nominal Impedance (Passive): 4 Ohms\" with \"Internal Crossover: No\". External processing and amplification."
     }
   },
   {

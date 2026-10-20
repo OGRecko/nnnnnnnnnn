@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **323** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 85 brands.
+Records still needing research: **317** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 85 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **186** fields across **148** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **174** fields across **142** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -31,12 +31,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
 | electro-voice-evf-1152d-96 | Electro-Voice | EVF-1152D/96 (`electro-voice-evf-1152d-96`) | 2 | 0 | 0 |
-| electro-voice-tx1122fm | Electro-Voice | TX1122FM (`electro-voice-tx1122fm`) | 2 | 0 | 0 |
-| electro-voice-tx1152 | Electro-Voice | TX1152 (`electro-voice-tx1152`) | 2 | 0 | 0 |
-| electro-voice-tx1152fm | Electro-Voice | TX1152FM (`electro-voice-tx1152fm`) | 2 | 0 | 0 |
-| electro-voice-tx1181 | Electro-Voice | TX1181 (`electro-voice-tx1181`) | 2 | 0 | 0 |
-| electro-voice-tx2152 | Electro-Voice | TX2152 (`electro-voice-tx2152`) | 2 | 0 | 0 |
-| electro-voice-tx2181 | Electro-Voice | TX2181 (`electro-voice-tx2181`) | 2 | 0 | 0 |
 | eminence-legend | Eminence | Legend V12 (`eminence-legend`) | 0 | 2 | 0 |
 | eV-eliminator | Electro-Voice | Eliminator (`eV-eliminator`) | 0 | 0 | 2 |
 | eV-sentry-100 | Electro-Voice | Sentry 100 (`eV-sentry-100`) | 0 | 2 | 0 |

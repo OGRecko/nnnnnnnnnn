@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 186,
-  "assessedItems": 186,
+  "uncheckedItems": 174,
+  "assessedItems": 174,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 148,
+  "uniqueSourceUrls": 142,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 6,
-    "CHECKED_PARTIAL": 131,
+    "CHECKED_PARTIAL": 125,
     "INACCESSIBLE": 11
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 12,
-    "CHECKED_PARTIAL": 156,
+    "CHECKED_PARTIAL": 144,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 131
+      "count": 125
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 23
+      "count": 29
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 55
+      "count": 49
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 32
+      "count": 38
     },
     {
       "field": "driverCount",
@@ -357,6 +357,12 @@
     "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
     "https://www.focal.com/products/alpha-65-evo",
     "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
+    "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+    "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+    "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+    "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+    "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+    "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
     "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
     "https://www.genelec.com/1032c",
     "https://www.genelec.com/1237a",
@@ -1000,216 +1006,6 @@
         9
       ],
       "evidence": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx1152"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx1152",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer text and title describe a passive loudspeaker with an internal crossover; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx1152",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list names a 15-inch SMX2151 LF transducer and a DH3/2010A HF driver (2 transducers); retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: 15-inch SMX2151\"; \"1.25-inch DH3/2010A titanium HF compression driver\"; \"Power handling: 500 W continuous\"; \"Internal Crossover: Yes\"; page title \"500W Passive Loudspeaker\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx2152"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx2152",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list gives \"Nominal Impedance (passive)\" and an internal crossover; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx2152",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Two SMX2151 LF transducers plus one ND2 HF transducer = 3; retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: (2) SMX2151\"; \"HF Transducer: ND2\"; \"Nominal Impedance (passive): 4 ohms\"; \"Internal Crossover: Yes\"; page title \"Dual 15\\\" 2-Way Passive Speaker\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx1181"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx1181",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list gives \"Nominal Impedance (Passive)\"; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx1181",
-          "field": "driverCount",
-          "value": 1,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "One EVS18S LF transducer is listed; retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: EVS18S\"; \"Nominal Impedance (Passive): 8 Ohms\"; \"Speaker Type: Subs\"; page title \"18\\\" 500W Passive Subwoofer\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx2181"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx2181",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list gives \"Nominal Impedance (Passive)\" and no internal amplifier; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx2181",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Two EVS18S LF transducers are listed; retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: (2) EVS18S\"; \"Nominal Impedance (Passive): 4 Ohms\"; \"Internal Crossover: No\"; \"Two high-excursion EVS-18S woofers\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx1122fm"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx1122fm",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer text calls it a \"two-way passive floor monitor\" with passive impedance; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx1122fm",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "SMX2121 woofer plus DH3/2010A HF driver = 2 transducers; retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer description: \"The TX1122FM is a 12\\\", two-way passive floor monitor\"; \"12\\\", low-distortion SMX2121 woofer and 1-1/4\\\" DH3/2010A titanium high-frequency compression driver\"; \"Nominal Impedance (Passive): 8 Ohms\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx1152fm"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx1152fm",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list gives \"Nominal Impedance (Passive)\" and an internal crossover; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx1152fm",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "SMX2151 LF transducer plus DH3 HF transducer = 2; retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: SMX2151\"; \"HF Transducer: DH3\"; \"Nominal Impedance (Passive): 8 Ohms\"; page title \"15\\\" 2-Way Passive Vertical Floor Monitor\"."
     },
     {
       "url": "https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black",
