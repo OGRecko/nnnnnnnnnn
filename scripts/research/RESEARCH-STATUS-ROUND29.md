@@ -302,6 +302,15 @@ statement that the loudspeaker takes no electrical supply. It is not one of the 
 `legacy-kef-1.active` was recorded as SUPPORTED_NOT_PROMOTED rather than promoted. Widening the standard is an
 owner decision, not a batch decision.
 
+## Batch 50 — one explicit passive statement
+
+| Record | Field | Quote | Outcome |
+| --- | --- | --- | --- |
+| legacy-bw-6 (B&W CM10) | active false | "The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input." | promoted; driverCount NOT_STATED (the Test Bench never lists the drive units) |
+
+This is the cleanest form of the policy's first accepted case: the reviewing publication names the product
+"the passive loudspeaker" in the same sentence that documents a speaker-level 2.83 V measurement.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -315,11 +324,11 @@ owner decision, not a batch decision.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **152** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **151** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **109** |
+| `THIRD_PARTY_VERIFIED` | 24 | **110** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **152 / 135 URLs** |
+| queue items | 212 / 157 URLs | **151 / 135 URLs** |
 | records with backlog | 336 of 657 | **310 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no

@@ -19012,16 +19012,17 @@
       "source": "https://www.audioholics.com/tower-speaker-reviews/bowers-wilkins-cm10",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact first-generation Bowers & Wilkins CM10 (2013 model, not CM10 S2). Sound & Vision's Test Bench reports measured sensitivity of 88.5 dB from 500 Hz–2 kHz with the passive CM10 at 1 m/2.83 V, and reports a quasi-anechoic -3 dB point at 49 Hz and -6 dB point at 37 Hz; only the measured -3 dB lower point is entered, and no upper limit is inferred. Its published graph is not digitized and no directivity data are imported. The exact-model Audioholics specification table lists one 25 mm tweeter, one 150 mm midrange and three 165 mm (6.5-inch) bass drivers (five total), 8-ohm nominal impedance with a 3.1-ohm stated minimum, and 30–300 W recommended amplifier power. The database stores the nominal impedance and one bass-driver diameter; it does not collapse the amplifier range into scalar power. The Sound & Vision measurement found 3.72 ohms minimum at 115 Hz, which is noted as a separate measured minimum and not substituted for nominal impedance. The exact B&W CM10 manual shows externally amplified bi-wire terminals, supporting active=false. Sources: https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench; https://www.audioholics.com/tower-speaker-reviews/bowers-wilkins-cm10; https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwf7d96409/archive-manuals/cm10_manual.pdf.",
+    "notes": "Exact first-generation Bowers & Wilkins CM10 (2013 model, not CM10 S2). Sound & Vision's Test Bench reports measured sensitivity of 88.5 dB from 500 Hz–2 kHz with the passive CM10 at 1 m/2.83 V, and reports a quasi-anechoic -3 dB point at 49 Hz and -6 dB point at 37 Hz; only the measured -3 dB lower point is entered, and no upper limit is inferred. Its published graph is not digitized and no directivity data are imported. The exact-model Audioholics specification table lists one 25 mm tweeter, one 150 mm midrange and three 165 mm (6.5-inch) bass drivers (five total), 8-ohm nominal impedance with a 3.1-ohm stated minimum, and 30–300 W recommended amplifier power. The database stores the nominal impedance and one bass-driver diameter; it does not collapse the amplifier range into scalar power. The Sound & Vision measurement found 3.72 ohms minimum at 115 Hz, which is noted as a separate measured minimum and not substituted for nominal impedance. The exact B&W CM10 manual shows externally amplified bi-wire terminals, supporting active=false. Sources: https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench; https://www.audioholics.com/tower-speaker-reviews/bowers-wilkins-cm10; https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwf7d96409/archive-manuals/cm10_manual.pdf. Round 29 (2026-10-19): active false verified from the Sound & Vision Test Bench (\"The passive loudspeaker was measured ...\"); driverCount remains unresolved because the page does not enumerate the drive units.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
       "sourceType": null
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
-      "sourceType": null
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): Sound & Vision Test Bench — \"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\" The measurement report calls the CM10 a passive loudspeaker and drives it at speaker level (2.83 V), with no mains connection."
     }
   },
   {

@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **152** fields across **135** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **151** fields across **135** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -53,7 +53,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-klipschorn | Klipsch | Klipschorn (`klipsch-klipschorn`) | 0 | 0 | 2 |
 | legacy-bw-3 | Bowers & Wilkins | Matrix 801 (`legacy-bw-3`) | 0 | 0 | 2 |
 | legacy-bw-5 | Bowers & Wilkins | 802D (`legacy-bw-5`) | 0 | 0 | 2 |
-| legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 2 | 0 | 0 |
 | legacy-focal-1 | Focal | Chorus 707 (`legacy-focal-1`) | 1 | 0 | 1 |
 | legacy-focal-5 | Focal | Trio6 Be (`legacy-focal-5`) | 2 | 0 | 0 |
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
@@ -225,6 +224,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-bw-1 | Bowers & Wilkins | DM6 (`legacy-bw-1`) | 0 | 0 | 1 |
 | legacy-bw-2 | Bowers & Wilkins | 801 (`legacy-bw-2`) | 0 | 0 | 1 |
 | legacy-bw-4 | Bowers & Wilkins | Nautilus (`legacy-bw-4`) | 0 | 0 | 1 |
+| legacy-bw-6 | Bowers & Wilkins | CM10 (`legacy-bw-6`) | 1 | 0 | 0 |
 | legacy-bw-7 | Bowers & Wilkins | 800 D3 (`legacy-bw-7`) | 0 | 0 | 1 |
 | legacy-dyn-1 | Dynaudio | Contour 1.3 (`legacy-dyn-1`) | 0 | 0 | 1 |
 | legacy-dyn-2 | Dynaudio | Special Twenty-Five (`legacy-dyn-2`) | 0 | 0 | 1 |

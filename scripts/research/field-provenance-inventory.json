@@ -9,8 +9,8 @@
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "CITED_IN_NOTES_UNCHECKED": 187,
-      "THIRD_PARTY_VERIFIED": 109,
+      "CITED_IN_NOTES_UNCHECKED": 186,
+      "THIRD_PARTY_VERIFIED": 110,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
@@ -19071,14 +19071,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Sound & Vision Test Bench — \"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\" The measurement report calls the CM10 a passive loudspeaker and drives it at speaker level (2.83 V), with no mains connection.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-bw-6",

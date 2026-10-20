@@ -5,26 +5,26 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 152,
-  "assessedItems": 152,
+  "uncheckedItems": 151,
+  "assessedItems": 151,
   "unassessedItems": 0,
   "uniqueSourceUrls": 135,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 3,
-    "CHECKED_PARTIAL": 121,
-    "INACCESSIBLE": 11
+    "CHECKED_PARTIAL": 122,
+    "INACCESSIBLE": 10
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 6,
-    "CHECKED_PARTIAL": 128,
-    "INACCESSIBLE": 18
+    "CHECKED_PARTIAL": 129,
+    "INACCESSIBLE": 16
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 118
+      "count": 117
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 36
+      "count": 37
     },
     {
       "field": "active",
@@ -1014,41 +1014,6 @@
         0
       ],
       "evidence": "polkaudio.com product page renders \"Sorry, we've got our wires crossed.\" and no specification text."
-    },
-    {
-      "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
-      "host": "www.soundandvision.com",
-      "status": "INACCESSIBLE",
-      "items": 2,
-      "records": [
-        "legacy-bw-6"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-bw-6",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "The page body was not served (navigation only), so the CM10 amplification wording could not be read; the field remains unresolved."
-        },
-        {
-          "record": "legacy-bw-6",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "The page body was not served (navigation only), so the CM10 drive-unit count could not be read; the field remains unresolved."
-        }
-      ],
-      "checkedRound": 26,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "The served chunk contained only the site navigation and section menus; no CM10 specification or measurement text was served."
     },
     {
       "url": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
@@ -4007,6 +3972,35 @@
         0
       ],
       "evidence": "System: \"3-way floorstanding loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Md Ø 150 mm paper cone driver; W Ø 2x150 mm paper cone drivers."
+    },
+    {
+      "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
+      "host": "www.soundandvision.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "legacy-bw-6"
+      ],
+      "fields": [
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-bw-6",
+          "field": "driverCount",
+          "value": 5,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: the page measures the system but never lists its drive units."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1,
+        3
+      ],
+      "evidence": "\"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\"; \"Sensitivity: 88.5 dB from 500 Hz to 2 kHz\"; impedance minimum 3.72 ohms; no drive-unit list."
     },
     {
       "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",

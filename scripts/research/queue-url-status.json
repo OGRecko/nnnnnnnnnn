@@ -16999,33 +16999,66 @@
     },
     {
       "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
-      "round": 26,
-      "status": "INACCESSIBLE",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
       "chunksOpened": [
-        0
+        0,
+        1,
+        3
       ],
       "chunksTotal": 5,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Sound & Vision Bowers & Wilkins CM10 test bench",
-      "evidence": "The served chunk contained only the site navigation and section menus; no CM10 specification or measurement text was served.",
+      "evidence": "\"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\"; \"Sensitivity: 88.5 dB from 500 Hz to 2 kHz\"; impedance minimum 3.72 ohms; no drive-unit list.",
       "fieldResults": [
         {
           "record": "legacy-bw-6",
           "field": "driverCount",
           "value": 5,
-          "outcome": "NOT_EXTRACTED",
-          "note": "The page body was not served (navigation only), so the CM10 drive-unit count could not be read; the field remains unresolved."
+          "outcome": "NOT_STATED",
+          "note": "Round 29: the page measures the system but never lists its drive units."
         },
         {
           "record": "legacy-bw-6",
           "field": "active",
           "value": false,
-          "outcome": "NOT_EXTRACTED",
-          "note": "The page body was not served (navigation only), so the CM10 amplification wording could not be read; the field remains unresolved."
+          "outcome": "PROMOTED",
+          "note": "Round 29: the report calls the CM10 \"the passive loudspeaker\"."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
+            "round": 26,
+            "status": "INACCESSIBLE",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 5,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Sound & Vision Bowers & Wilkins CM10 test bench",
+            "evidence": "The served chunk contained only the site navigation and section menus; no CM10 specification or measurement text was served.",
+            "fieldResults": [
+              {
+                "record": "legacy-bw-6",
+                "field": "driverCount",
+                "value": 5,
+                "outcome": "NOT_EXTRACTED",
+                "note": "The page body was not served (navigation only), so the CM10 drive-unit count could not be read; the field remains unresolved."
+              },
+              {
+                "record": "legacy-bw-6",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_EXTRACTED",
+                "note": "The page body was not served (navigation only), so the CM10 amplification wording could not be read; the field remains unresolved."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",

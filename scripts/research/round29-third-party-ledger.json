@@ -1161,6 +1161,19 @@
       "evidence": "Round 29 (2026-10-19): Radiomuseum page — \"Drive units: B139 bass unit (A6171), T15 tweeter (A6236)\"; \"System type: Two-way, floor standing\"; the technical block also lists \"Loudspeaker: 2 Loudspeakers\". Two transducers.",
       "whyNotManufacturer": "Radiomuseum is a volunteer equipment database; its model page is not a KEF publication.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-bw-6",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "REPUTABLE_DATABASE",
+      "source": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
+      "document": "Sound & Vision, \"Bowers & Wilkins CM10 Loudspeaker Test Bench\"",
+      "evidence": "Round 29 (2026-10-19): Sound & Vision Test Bench — \"The passive loudspeaker was measured with the grille at a distance of 1 meter with a 2.83-volt input.\" The measurement report calls the CM10 a passive loudspeaker and drives it at speaker level (2.83 V), with no mains connection.",
+      "whyNotManufacturer": "Sound & Vision is an independent review magazine; the Test Bench measurement report is not a Bowers & Wilkins document.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8
