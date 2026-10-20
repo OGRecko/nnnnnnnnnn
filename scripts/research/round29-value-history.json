@@ -2660,6 +2660,110 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf"
+    },
+    {
+      "id": "legacy-mack-2",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "value": 2,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+          "sourceType": null,
+          "note": "Round 25: One 1-inch HF transducer plus one 6.7-inch LF transducer = 2 transducers; the passive radiator is not a driven transducer. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): Mackie HR624 sheet — \"a 1-inch aluminum-alloy high-frequency transducer, a high-precision 6.7-inch die-cast magnesium frame low-frequency transducer, and a 6-inch x 9-inch elliptical flat piston passive radiator in the back\". Two driven transducers; the passive radiator is not an electrically driven driver and is not counted."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html"
+    },
+    {
+      "id": "legacy-mack-2",
+      "field": "active",
+      "value": true,
+      "before": {
+        "value": true,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+          "sourceType": null,
+          "note": "Round 25: Sheet calls the HR624 \"bi-amplified, active monitors\" and gives built-in 100 W LF / 40 W HF amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same sheet — \"The HR624 studio monitors are high-resolution, two-way, bi-amplified, active monitors\"; \"The system is composed of a single, compact cabinet with built-in control and amplifier electronics\"; \"The low-frequency amplifier is rated at 100 watts rms continuous output, and the high-frequency amplifier is rated at 40 watts rms\"."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html"
+    },
+    {
+      "id": "jbl-vrx932",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+          "sourceType": null,
+          "note": "Round 25: One 12-inch 2262H LF driver plus three 2407J HF compression drivers = 4 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): VRX932LA guide — \"LF Driver: 1 x JBL 2262H 305 mm (12 in) Differential Drive® woofer with neodymium-magnet and dual voice-coils\"; \"HF Driver: 3 x JBL 2407J, 25.4 mm (1 in) voice-coil, neodymium magnet compression driver\". One woofer plus three HF drivers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4"
+    },
+    {
+      "id": "jbl-vrx932",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+          "sourceType": null,
+          "note": "Round 25: Specifications give a \"passive\" crossover mode and \"Passive\" power rating; the cabinet is driven by external amplifiers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): same guide — \"Crossover Modes: Bi-amp / passive, externally switchable\"; \"Power Rating (Continuous/Program/Peak): Passive: 800 W / 1600 W / 3200 W\"; the functional block diagram shows \"NL4 INPUT\" feeding \"PASSIVE MODE\" and \"BI-AMP MODE\" networks with no mains inlet. Both modes take external amplifier feeds."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4"
     }
   ]
 }

@@ -244,6 +244,16 @@ The PS15 needs the policy's second accepted form rather than the first: its broc
 Both manuals are hosted by third parties (a rental house and the site's asset CDN), so neither reaches
 `MANUFACTURER_VERIFIED`; the wording is explicit enough for `THIRD_PARTY_VERIFIED`.
 
+## Batch 46 — two ManualsLib copies
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| legacy-mack-2 | 2 / true | "two-way, bi-amplified, active monitors"; 1 in HF transducer + 6.7 in LF transducer + "elliptical flat piston passive radiator"; "built-in control and amplifier electronics" | both promoted |
+| jbl-vrx932 | 4 / false | "1 x JBL 2262H 305 mm (12 in)" and "3 x JBL 2407J, 25.4 mm (1 in)"; "Crossover Modes: Bi-amp / passive, externally switchable"; NL4 inputs, no mains | both promoted |
+
+The Mackie passive radiator is deliberately not counted as a driver: it is not electrically driven, and the
+record note already made that distinction.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -257,12 +267,12 @@ Both manuals are hosted by third parties (a rental house and the site's asset CD
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **166** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **162** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **95** |
+| `THIRD_PARTY_VERIFIED` | 24 | **99** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **166 / 138 URLs** |
-| records with backlog | 336 of 657 | **313 of 657** |
+| queue items | 212 / 157 URLs | **162 / 136 URLs** |
+| records with backlog | 336 of 657 | **311 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.

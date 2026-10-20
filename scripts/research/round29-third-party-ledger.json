@@ -979,6 +979,58 @@
       "evidence": "Round 29 (2026-10-19): same manual — the specification table opens \"Powered: Yes\", then \"Amplifier Class: D\", \"Power Configuration: Bi-Amped\", \"LF Power: 40 W\", \"HF Power: 40 W\"; the rear panel is labelled \"Power AC -100-240V 50/60Hz\".",
       "whyNotManufacturer": "The manual is served from the Squarespace asset CDN rather than the kaliaudio.com domain, so manufacturer-host ownership cannot be established from the URL alone.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-mack-2",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "document": "Mackie HR Series specification sheet for the HR624, \"Active 2-Way Studio Monitor\"",
+      "evidence": "Round 29 (2026-10-19): Mackie HR624 sheet — \"a 1-inch aluminum-alloy high-frequency transducer, a high-precision 6.7-inch die-cast magnesium frame low-frequency transducer, and a 6-inch x 9-inch elliptical flat piston passive radiator in the back\". Two driven transducers; the passive radiator is not an electrically driven driver and is not counted.",
+      "whyNotManufacturer": "The document is manufacturer-authored but is mirrored by manualslib.com, a manual library, not a manufacturer host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-mack-2",
+      "field": "active",
+      "valueBefore": true,
+      "valueAfter": true,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "document": "Mackie HR Series specification sheet for the HR624, \"Active 2-Way Studio Monitor\"",
+      "evidence": "Round 29 (2026-10-19): same sheet — \"The HR624 studio monitors are high-resolution, two-way, bi-amplified, active monitors\"; \"The system is composed of a single, compact cabinet with built-in control and amplifier electronics\"; \"The low-frequency amplifier is rated at 100 watts rms continuous output, and the high-frequency amplifier is rated at 40 watts rms\".",
+      "whyNotManufacturer": "The document is manufacturer-authored but is mirrored by manualslib.com, a manual library, not a manufacturer host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "jbl-vrx932",
+      "field": "driverCount",
+      "valueBefore": 4,
+      "valueAfter": 4,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "document": "JBL VRX932LA user's guide, specifications page",
+      "evidence": "Round 29 (2026-10-19): VRX932LA guide — \"LF Driver: 1 x JBL 2262H 305 mm (12 in) Differential Drive® woofer with neodymium-magnet and dual voice-coils\"; \"HF Driver: 3 x JBL 2407J, 25.4 mm (1 in) voice-coil, neodymium magnet compression driver\". One woofer plus three HF drivers.",
+      "whyNotManufacturer": "The document is manufacturer-authored but is mirrored by manualslib.com, a manual library, not a manufacturer host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "jbl-vrx932",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "document": "JBL VRX932LA user's guide, specifications page",
+      "evidence": "Round 29 (2026-10-19): same guide — \"Crossover Modes: Bi-amp / passive, externally switchable\"; \"Power Rating (Continuous/Program/Peak): Passive: 800 W / 1600 W / 3200 W\"; the functional block diagram shows \"NL4 INPUT\" feeding \"PASSIVE MODE\" and \"BI-AMP MODE\" networks with no mains inlet. Both modes take external amplifier feeds.",
+      "whyNotManufacturer": "The document is manufacturer-authored but is mirrored by manualslib.com, a manual library, not a manufacturer host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8

@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **313** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
+Records still needing research: **311** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **166** fields across **138** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **162** fields across **136** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -44,7 +44,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jbl-l100 | JBL | L100 Century (`jbl-l100`) | 0 | 2 | 0 |
 | jbl-l19 | JBL | L19 (`jbl-l19`) | 2 | 0 | 0 |
 | jbl-paragon | JBL | Paragon D44000 (`jbl-paragon`) | 1 | 0 | 1 |
-| jbl-vrx932 | JBL | VRX932LA (`jbl-vrx932`) | 2 | 0 | 0 |
 | jl-audio-12w3v3 | JL Audio | 12W3v3 (`jl-audio-12w3v3`) | 2 | 0 | 0 |
 | jl-audio-c3-650 | JL Audio | C3-650 (`jl-audio-c3-650`) | 2 | 0 | 0 |
 | jl-audio-c5-650 | JL Audio | C5-650 (`jl-audio-c5-650`) | 2 | 0 | 0 |
@@ -68,7 +67,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
-| legacy-mack-2 | Mackie | HR624 (`legacy-mack-2`) | 2 | 0 | 0 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
 | legacy-pio-1 | Pioneer | CS-99A (`legacy-pio-1`) | 1 | 0 | 1 |
 | legacy-pio-2 | Pioneer | HPM-100 (`legacy-pio-2`) | 1 | 0 | 1 |
