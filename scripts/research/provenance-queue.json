@@ -30,7 +30,7 @@
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 333
+      "count": 335
     },
     {
       "field": "active",
@@ -42,13 +42,13 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 40
+      "count": 41
     },
     {
       "field": "active",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 40
+      "count": 37
     },
     {
       "field": "driverCount",
@@ -60,7 +60,7 @@
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 521
+      "count": 523
     },
     {
       "field": "driverCount",
@@ -72,13 +72,13 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 57
+      "count": 58
     },
     {
       "field": "driverCount",
       "status": "UNSOURCED",
       "value": "null",
-      "count": 19
+      "count": 16
     }
   ],
   "resolvedSourceUrls": [

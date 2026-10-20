@@ -2,14 +2,14 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **294** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 81 brands.
+Records still needing research: **291** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 79 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **136** fields across **124** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **59** fields (no source recorded).
+- UNSOURCED: **53** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
 
@@ -34,7 +34,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-eliminator | Electro-Voice | Eliminator (`eV-eliminator`) | 0 | 0 | 2 |
 | eV-sentry-100 | Electro-Voice | Sentry 100 (`eV-sentry-100`) | 0 | 2 | 0 |
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
-| eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
@@ -62,7 +61,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-pio-5 | Pioneer | SP-BS22-LR (`legacy-pio-5`) | 2 | 0 | 0 |
 | legacy-pio-6 | Pioneer | SP-FS52 (`legacy-pio-6`) | 2 | 0 | 0 |
 | lg-lg-s95tr | LG | LG S95TR (`lg-lg-s95tr`) | 2 | 0 | 0 |
-| m-audio-bx5 | M-Audio | BX5 D3 (`m-audio-bx5`) | 0 | 2 | 0 |
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
@@ -84,7 +82,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
 | yamaha-ns-aw392 | Yamaha | NS-AW392 (`yamaha-ns-aw392`) | 0 | 2 | 0 |
-| yamaha-ns1000m | Yamaha | NS-1000M (`yamaha-ns1000m`) | 0 | 2 | 0 |
 | yamaha-ns500 | Yamaha | NS-500 (`yamaha-ns500`) | 1 | 0 | 1 |
 | adamson-e15 | Adamson | E15 (`adamson-e15`) | 1 | 0 | 0 |
 | alpine-r-s65c | Alpine | R-S65C (`alpine-r-s65c`) | 0 | 0 | 1 |

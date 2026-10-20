@@ -304,6 +304,162 @@
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.sounddd.shop/download/Specification/FOCAL/Focal_Solo6_BE_Spec.pdf",
       "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: focal.com/products/solo-6 now serves the current-generation Solo6 (1.5\" tweeter), not the Solo6 Be (1\" Beryllium, 150 W BASH + 100 W class AB); this is Focal's own Solo6 Be data sheet, mirrored by a reseller."
+    },
+    {
+      "id": "yamaha-ns1000m",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha NS-1000/NS-1000M Owner's Manual, Specifications — \"Type | Infinite baffle, 3-way system\"; Speaker Complement \"Woofer | 30 cm cone type (JA-3058)/NS-1000M: (JA-3058A)\", \"Squawker | 8.8 cm dome type (JA-0801)\", \"Tweeter | 3 cm dome type (JA-0513)\". Three transducers, and the manual distinguishes the M variant by its woofer."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
+    },
+    {
+      "id": "yamaha-ns1000m",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Yamaha NS-1000/NS-1000M Owner's Manual, \"Connecting the Amplifier\" — \"Connect the input terminal on the rear of the speaker to the output terminal on the amplifier with the speaker cord which is included. Make sure the amplifier is turned off.\" Impedance section: \"If a transistor amplifier is used, the speakers can be connected without giving any consideration to impedance.\" The speaker is driven from an external amplifier and the manual describes no mains inlet or built-in amplifier."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
+    },
+    {
+      "id": "eve-audio-sc207",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — heading \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Tweeter | AMT RS2\" and \"Mid-Woofer | 165mm/6.5 in\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: eve-audio.com/products/sc207 has no specification table in the page body; the only technical document it offers is this PDF, which is served from EVE Audio's Webflow asset host (cdn.prod.website-files.com) rather than from eve-audio.com."
+    },
+    {
+      "id": "eve-audio-sc207",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+          "sourceType": "THIRD_PARTY",
+          "note": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Number of amplifiers | 2\", \"Output power (woofer) | 100W\", \"Output power (tweeter) | 50W\", and a \"Power consumption\" block. Built-in amplification, so the monitor is powered."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+      "reason": "Exact-model manufacturer datasheet opened; explicit statement recorded. Host is not the manufacturer: eve-audio.com/products/sc207 has no specification table in the page body; the only technical document it offers is this PDF, which is served from EVE Audio's Webflow asset host (cdn.prod.website-files.com) rather than from eve-audio.com."
+    },
+    {
+      "id": "m-audio-bx5",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): M-Audio BX5-D3 specifications table — \"Type | 2-way near-field studio reference monitors\"; \"Low Freq. Driver | 5 inch (127mm) Kevlar curved cone with high temperature voice coil and damped rubber surround\"; \"High Freq. Driver | 1 inch (25mm) magnetically shielded natural silk dome\". Two transducers."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
+    },
+    {
+      "id": "m-audio-bx5",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): M-Audio BX5-D3 product page — \"Driving the BX5-D3 monitors are two Class A/B internal amplifiers that power the woofer and tweeter separately\"; key feature \"Bi-amplified design with 100 watts (60 LF, 40 HF)\"; the specification table lists \"Power | Voltage: 100-120V, 50/60 Hz / 220-240V, 50/60 Hz\" and an \"external mains fuse\". Built-in amplification with mains power."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_MANUFACTURER",
+      "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+      "reason": "Exact-model manufacturer document opened; explicit statement recorded."
     }
   ]
 }

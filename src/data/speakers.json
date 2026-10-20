@@ -1138,8 +1138,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": false,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -1191,18 +1191,18 @@
       "source": "https://www.hifiengine.com/manual_library/yamaha/ns-1000m.shtml",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Secondary-source transcription of Yamaha NS-1000M: 3-way/3-driver system, 40 Hz–20 kHz, 100 W power handling, 8 Ω. The woofer is the 12-inch class low-frequency driver. Sensitivity is not populated here because the retrieved source excerpt did not expose the value. Source: HiFi Engine Yamaha NS-1000M manual entry.",
+    "notes": "Secondary-source transcription of Yamaha NS-1000M: 3-way/3-driver system, 40 Hz–20 kHz, 100 W power handling, 8 Ω. The woofer is the 12-inch class low-frequency driver. Sensitivity is not populated here because the retrieved source excerpt did not expose the value. Source: HiFi Engine Yamaha NS-1000M manual entry. Round 29 (2026-10-19): driverCount 3 verified from the Yamaha NS-1000/NS-1000M Owner's Manual (\"3-way system\"; JA-3058A woofer, JA-0801 squawker, JA-0513 tweeter). Round 29 (2026-10-19): active false verified from the Yamaha NS-1000/NS-1000M Owner's Manual, which instructs the user to connect the speaker terminals to an external amplifier and describes no built-in amplifier or mains inlet.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha NS-1000/NS-1000M Owner's Manual, Specifications — \"Type | Infinite baffle, 3-way system\"; Speaker Complement \"Woofer | 30 cm cone type (JA-3058)/NS-1000M: (JA-3058A)\", \"Squawker | 8.8 cm dome type (JA-0801)\", \"Tweeter | 3 cm dome type (JA-0513)\". Three transducers, and the manual distinguishes the M variant by its woofer."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/files/download/other_assets/5/333935/NS-1000M.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Yamaha NS-1000/NS-1000M Owner's Manual, \"Connecting the Amplifier\" — \"Connect the input terminal on the rear of the speaker to the output terminal on the amplifier with the speaker cord which is included. Make sure the amplifier is turned off.\" Impedance section: \"If a transistor amplifier is used, the speakers can be connected without giving any consideration to impedance.\" The speaker is driven from an external amplifier and the manual describes no mains inlet or built-in amplifier."
     }
   },
   {
@@ -7900,8 +7900,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7953,18 +7953,18 @@
       "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 52 Hz–35 kHz response; 60 W LF + 40 W HF bi-amplification; 5 in Kevlar woofer and 1 in natural-silk tweeter; 110 dB maximum peak SPL. Input impedance is 10 kΩ balanced / 20 kΩ unbalanced and is not treated as speaker impedance.",
+    "notes": "Manufacturer data: 52 Hz–35 kHz response; 60 W LF + 40 W HF bi-amplification; 5 in Kevlar woofer and 1 in natural-silk tweeter; 110 dB maximum peak SPL. Input impedance is 10 kΩ balanced / 20 kΩ unbalanced and is not treated as speaker impedance. Round 29 (2026-10-19): driverCount 2 verified from the M-Audio BX5-D3 specification table (\"2-way near-field studio reference monitors\"; 5-inch Kevlar woofer and 1-inch silk dome tweeter). Round 29 (2026-10-19): active true verified from the M-Audio BX5-D3 page, which describes \"two Class A/B internal amplifiers\" and lists mains voltage and fuse specifications.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): M-Audio BX5-D3 specifications table — \"Type | 2-way near-field studio reference monitors\"; \"Low Freq. Driver | 5 inch (127mm) Kevlar curved cone with high temperature voice coil and damped rubber surround\"; \"High Freq. Driver | 1 inch (25mm) magnetically shielded natural silk dome\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.m-audio.com/monitors-headphones/bx5d3.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): M-Audio BX5-D3 product page — \"Driving the BX5-D3 monitors are two Class A/B internal amplifiers that power the woofer and tweeter separately\"; key feature \"Bi-amplified design with 100 watts (60 LF, 40 HF)\"; the specification table lists \"Power | Voltage: 100-120V, 50/60 Hz / 220-240V, 50/60 Hz\" and an \"external mains fuse\". Built-in amplification with mains power."
     }
   },
   {
@@ -8269,8 +8269,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -8322,18 +8322,18 @@
       "source": "https://www.eve-audio.com/products/sc207",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 44 Hz–21 kHz -3 dB at 1 m; 6.5 in woofer with 1.5 in voice coil; 100 W woofer + 50 W tweeter amplification; 106 dB max SPL. Powered monitor; no passive impedance/sensitivity asserted.",
+    "notes": "Manufacturer data: 44 Hz–21 kHz -3 dB at 1 m; 6.5 in woofer with 1.5 in voice coil; 100 W woofer + 50 W tweeter amplification; 106 dB max SPL. Powered monitor; no passive impedance/sensitivity asserted. Round 29 (2026-10-19): driverCount 2 verified from the EVE Audio SC207 spec sheet (\"Active 2-Way\"; AMT RS2 tweeter and 165 mm mid-woofer). Round 29 (2026-10-19): active true verified from the EVE Audio SC207 spec sheet, which lists two built-in amplifiers (100 W woofer, 50 W tweeter) and describes the product as \"Active 2-Way\".",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — heading \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Tweeter | AMT RS2\" and \"Mid-Woofer | 165mm/6.5 in\". Two transducers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Number of amplifiers | 2\", \"Output power (woofer) | 100W\", \"Output power (tweeter) | 50W\", and a \"Power consumption\" block. Built-in amplification, so the monitor is powered."
     }
   },
   {

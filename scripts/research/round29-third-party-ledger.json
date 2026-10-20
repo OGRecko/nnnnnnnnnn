@@ -1258,6 +1258,34 @@
           "evidence": "Round 29 (2026-10-19): Focal Solo6 Be data sheet, Electronic section — \"Bass - Midrange | 150W rms, BASH technology\" and \"Treble | 100W rms, class AB\"; Power supply \"Connection | ... IEC inlet and detachable power cord\"; user controls include \"On/off switch, voltage selector\" and a \"Power On LED\". Built-in amplification with a mains inlet."
         }
       ]
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64e73b2facaf3da66d66c009/65818de121e0eb407e084dbb_EveAudio_SpecSheet_SC207_EN.pdf",
+      "host": "cdn.prod.website-files.com",
+      "document": "EVE Audio \"SC207 - Spec sheet\" (English)",
+      "sourceType": "THIRD_PARTY",
+      "status": "THIRD_PARTY_VERIFIED",
+      "openedDate": "2026-10-19",
+      "round": 29,
+      "whyNotManufacturer": "eve-audio.com/products/sc207 has no specification table in the page body; the only technical document it offers is this PDF, which is served from EVE Audio's Webflow asset host (cdn.prod.website-files.com) rather than from eve-audio.com.",
+      "decisions": [
+        {
+          "id": "eve-audio-sc207",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — heading \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Tweeter | AMT RS2\" and \"Mid-Woofer | 165mm/6.5 in\". Two transducers."
+        },
+        {
+          "id": "eve-audio-sc207",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "THIRD_PARTY_VERIFIED",
+          "evidence": "Round 29 (2026-10-19): EVE Audio SC207 spec sheet — \"Active 2-Way 7 in Studio Monitor\"; Specification Chart \"Number of amplifiers | 2\", \"Output power (woofer) | 100W\", \"Output power (tweeter) | 50W\", and a \"Power consumption\" block. Built-in amplification, so the monitor is powered."
+        }
+      ]
     }
   ],
   "valuesWritten": 8

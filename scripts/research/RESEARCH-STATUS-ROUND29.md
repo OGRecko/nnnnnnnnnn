@@ -461,6 +461,36 @@ Written through `apply-round29-batch54.py`, a companion to `apply-structural-bat
 currently null with status `UNSOURCED`, the source is an `https://` URL opened this session, the note quotes
 the document, and the reason `MANUFACTURER_VERIFIED` was unavailable is recorded for every third-party row.
 
+## Batch 55 — three studio monitors where one document settles both fields
+
+| Record | Field | Value | Document | Tier |
+| --- | --- | --- | --- | --- |
+| `yamaha-ns1000m` (NS-1000M) | driverCount | 3 | Yamaha NS-1000/NS-1000M Owner's Manual | MV |
+| `yamaha-ns1000m` (NS-1000M) | active | false | Yamaha NS-1000/NS-1000M Owner's Manual | MV |
+| `eve-audio-sc207` (SC207) | driverCount | 2 | EVE Audio SC207 spec sheet | TPV |
+| `eve-audio-sc207` (SC207) | active | true | EVE Audio SC207 spec sheet | TPV |
+| `m-audio-bx5` (BX5 D3) | driverCount | 2 | M-Audio BX5-D3 product page | MV |
+| `m-audio-bx5` (BX5 D3) | active | true | M-Audio BX5-D3 product page | MV |
+
+Quoted at write time: the Yamaha manual gives "Type | Infinite baffle, 3-way system" with Speaker
+Complement "Woofer | 30 cm cone type (JA-3058)/NS-1000M: (JA-3058A)", "Squawker | 8.8 cm dome type
+(JA-0801)", "Tweeter | 3 cm dome type (JA-0513)", and the connection chapter reads "Connect the input
+terminal on the rear of the speaker to the output terminal on the amplifier with the speaker cord which is
+included" — external drive, no mains inlet, so `active` false on condition (b). The EVE spec sheet is headed
+"Active 2-Way 7 in Studio Monitor" with "Tweeter | AMT RS2", "Mid-Woofer | 165mm/6.5 in", "Number of
+amplifiers | 2", 100 W woofer and 50 W tweeter. The M-Audio table gives "Type | 2-way near-field studio
+reference monitors", a 5-inch Kevlar woofer and a 1-inch silk dome tweeter, while the page text describes
+"two Class A/B internal amplifiers" and the table lists mains voltage and an external mains fuse.
+
+Two things worth recording:
+
+- The Yamaha manual covers **both** NS-1000 and NS-1000M and separates them in the Speaker Complement row
+  ("(JA-3058)/NS-1000M: (JA-3058A)"), so the M variant is named inside the document that is being cited.
+- EVE Audio's own product page has **no** specification table; it links to a PDF served from their Webflow
+  asset host, which is why this record is `THIRD_PARTY_VERIFIED` rather than MV even though the document is
+  the manufacturer's. EVE's page headline calls the woofer 7" while the spec sheet's row says
+  165 mm/6.5" — that discrepancy concerns the `woofer` field, not `driverCount`, and was not imported.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -473,13 +503,13 @@ the document, and the reason `MANUFACTURER_VERIFIED` was unavailable is recorded
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2423** |
+| `MANUFACTURER_VERIFIED` | 2422 | **2427** |
 | `CITED_IN_NOTES_UNCHECKED` | 247 | **136 live** (171 stored, 35 archived) |
-| `UNSOURCED` | 81 (73 after policy) | **59** |
-| `THIRD_PARTY_VERIFIED` | 24 | **117** |
+| `UNSOURCED` | 81 (73 after policy) | **53** |
+| `THIRD_PARTY_VERIFIED` | 24 | **119** |
 | `NO_PROVENANCE` | 363 | 363 |
 | queue items | 212 / 157 URLs | **136 / 124 URLs** |
-| records with backlog | 336 of 657 | **294 of 657** |
+| records with backlog | 336 of 657 | **291 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
