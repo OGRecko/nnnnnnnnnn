@@ -9,13 +9,13 @@
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "CITED_IN_NOTES_UNCHECKED": 195,
-      "THIRD_PARTY_VERIFIED": 101,
+      "CITED_IN_NOTES_UNCHECKED": 191,
+      "THIRD_PARTY_VERIFIED": 105,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 157
+    "citedUncheckedUrls": 156
   },
   "entries": [
     {
@@ -15921,14 +15921,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, floorstanding loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers.\" Two Uni-Q transducers plus four woofers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "kef-reference-5",
@@ -19611,14 +19611,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
+      "note": "Round 29 (2026-10-19): KEF Q series specification page — the Q100 column reads \"Two-way bass reflex\", \"130mm (5.25in.) aluminium Uni-Q\" and \"25mm (1in.) vented aluminium dome HF\". Two transducers: the Uni-Q mid/bass cone plus its concentric HF dome.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-5",
@@ -19701,14 +19701,14 @@
       "field": "driverCount",
       "value": 6,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved.",
+      "note": "Round 29 (2026-10-19): KEF Blade manual — \"Uni-Q driver array: MF: 125mm (5in.) Li-Mg-Al /LCP hybrid cone HF: 25mm (1in.) Al dome; Bass units: LF: 4 x 225mm (9in.) with force cancelling\". Two Uni-Q transducers plus four bass units.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-7",
@@ -19719,14 +19719,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": null,
+      "storedStatus": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=9",
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): same manual, connection page — the section is titled \"Single, Bi-Wire and Bi-Amp Connections\", the diagrams label HF/LF terminal pairs with LINK bars, and the text says \"KEF recommends that high quality speaker cable be used for connecting your Blade speakers\". Speaker-level wiring from external amplifiers; bi-amping only makes sense with external amplifier channels.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "legacy-kef-7",

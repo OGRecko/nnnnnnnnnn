@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **311** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
+Records still needing research: **310** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **160** fields across **136** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **156** fields across **135** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -49,7 +49,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
-| kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
 | klh-model-6 | KLH | Model Six (`klh-model-6`) | 1 | 0 | 1 |
 | klipsch-kg4 | Klipsch | KG 4.5 (`klipsch-kg4`) | 1 | 0 | 1 |
@@ -62,8 +61,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-1 | KEF | Concord (`legacy-kef-1`) | 2 | 0 | 0 |
 | legacy-kef-3 | KEF | Model 103 (`legacy-kef-3`) | 2 | 0 | 0 |
 | legacy-kef-4 | KEF | Reference 105 (`legacy-kef-4`) | 2 | 0 | 0 |
-| legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 2 | 0 | 0 |
-| legacy-kef-7 | KEF | Blade (`legacy-kef-7`) | 2 | 0 | 0 |
 | legacy-klip-5 | Klipsch | Forte (`legacy-klip-5`) | 0 | 0 | 2 |
 | legacy-ma-1 | Martin Audio | Wavefront 8 (`legacy-ma-1`) | 0 | 1 | 1 |
 | legacy-mack-6 | Mackie | SRM450 (`legacy-mack-6`) | 1 | 0 | 1 |
@@ -200,6 +197,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | kef-r3 | KEF | R3 (`kef-r3`) | 0 | 0 | 1 |
 | kef-r5 | KEF | R5 (`kef-r5`) | 0 | 0 | 1 |
 | kef-r7 | KEF | R7 (`kef-r7`) | 0 | 0 | 1 |
+| kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 1 | 0 | 0 |
 | kenwood-excelon-kfc-xp6903c | Kenwood | Excelon KFC-XP6903C (`kenwood-excelon-kfc-xp6903c`) | 0 | 0 | 1 |
 | kenwood-kfc-1666s | Kenwood | KFC-1666S (`kenwood-kfc-1666s`) | 0 | 0 | 1 |
 | kicker-43dsc6504 | Kicker | 43DSC6504 (`kicker-43dsc6504`) | 0 | 0 | 1 |
@@ -238,6 +236,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-jbl-1 | JBL | D130 (`legacy-jbl-1`) | 1 | 0 | 0 |
 | legacy-jbl-11 | JBL | Control 25 (`legacy-jbl-11`) | 1 | 0 | 0 |
 | legacy-kef-2 | KEF | Model 104 (`legacy-kef-2`) | 1 | 0 | 0 |
+| legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |
 | legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |

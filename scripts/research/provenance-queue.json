@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 160,
-  "assessedItems": 160,
+  "uncheckedItems": 156,
+  "assessedItems": 156,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 136,
+  "uniqueSourceUrls": 135,
   "urlsByStatus": {
-    "CHECKED_CONFIRMED": 4,
+    "CHECKED_CONFIRMED": 3,
     "CHECKED_PARTIAL": 121,
     "INACCESSIBLE": 11
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 134,
+    "CHECKED_CONFIRMED": 6,
+    "CHECKED_PARTIAL": 132,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 119
+      "count": 118
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 35
+      "count": 36
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 41
+      "count": 38
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 46
+      "count": 49
     },
     {
       "field": "driverCount",
@@ -399,6 +399,7 @@
     "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
     "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
     "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+    "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
     "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
     "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
     "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
@@ -943,76 +944,6 @@
       "evidence": "Specifications: \"LF Transducer: DVX3151A 15-inch (381 mm) woofer\"; \"HF Transducer: DH7N 3-inch (76mm) diaphragm compression driver\"; \"Nominal Impedance (Passive): 8 ohm\"; \"Crossover Frequency: 1300 Hz\"; \"4th-order crossover with HF protection\"."
     },
     {
-      "url": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "legacy-kef-7"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-7",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The manual gives \"Amplifier requirements 50 - 400W\" but never says passive/unpowered or shows a built-in amplifier."
-        },
-        {
-          "record": "legacy-kef-7",
-          "field": "driverCount",
-          "value": 6,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification table: \"Design Three-way bass reflex\"; \"MF: 125mm (5in.) Li-Mg-Al/LCP hybrid cone\"; \"HF: 25mm (1in.) Al dome\"; \"Bass units: LF: 4 x 225mm (9in.) with force cancelling\"; \"Amplifier requirements 50 - 400W\". Page 8 (amplifier requirements) never uses the word passive."
-    },
-    {
-      "url": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_CONFIRMED",
-      "items": 2,
-      "records": [
-        "legacy-kef-5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "legacy-kef-5",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "The Q100 column marks \"Amplifier N/A\" and gives a separate \"Amplifier requirements 10 - 100W\" figure, i.e. no built-in amplifier. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
-        },
-        {
-          "record": "legacy-kef-5",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host manualslib.com is NOT_MANUFACTURER; status demoted to CITED_IN_NOTES_UNCHECKED, value kept."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specification table, Q100 column: \"Two-way bass reflex\"; \"130mm (5.25in.) aluminium Uni-Q\"; \"25mm (1in.) vented aluminium dome HF\"; \"Amplifier N/A\"; \"Amplifier requirements 10 - 100W\"; 86 dB; 8Ω."
-    },
-    {
       "url": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
       "host": "www.manualslib.com",
       "status": "CHECKED_PARTIAL",
@@ -1293,41 +1224,6 @@
         0
       ],
       "evidence": "Review: \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"."
-    },
-    {
-      "url": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
-      "host": "www.stereophile.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "kef-reference-5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "kef-reference-5",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The sidebar gives recommended amplifier power only; no passive/active statement."
-        },
-        {
-          "record": "kef-reference-5",
-          "field": "driverCount",
-          "value": 6,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "One tweeter, one midrange and four woofers are listed (6 transducers), but the page is a third-party review."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specifications sidebar: \"Three-way, reflex-loaded, floorstanding loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers\"; 90 dB/2.83V/m; 8 ohms; 50-400 W recommended."
     },
     {
       "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
@@ -3712,6 +3608,34 @@
       "evidence": "PDP specification block: \"Número de Colunas 11 EA\"; 5.1.3 channels; 580 W output. No amplifier-device count or passive/active wording."
     },
     {
+      "url": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "legacy-kef-5"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "legacy-kef-5",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: \"Amplifier N/A\" plus an amplifier-requirements figure only; policy excludes."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Q100 column: \"Two-way bass reflex\"; \"130mm (5.25in.) aluminium Uni-Q\"; \"25mm (1in.) vented aluminium dome HF\"; \"Amplifier N/A\"; \"Amplifier requirements 10 - 100W\"."
+    },
+    {
       "url": "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual",
       "host": "www.manualslib.com",
       "status": "CHECKED_PARTIAL",
@@ -4196,6 +4120,33 @@
         0
       ],
       "evidence": "Stereophile LS50 sidebar: \"Two-way, reflex-loaded, stand-mounted loudspeaker\"; 1\" vented aluminium-dome tweeter plus 5.25\" alloy-cone woofer; \"Amplifier requirements: 25-100W\"; no passive/active statement."
+    },
+    {
+      "url": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
+      "host": "www.stereophile.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "kef-reference-5"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "kef-reference-5",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: recommended amplifier power only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers\"; \"Recommended amplifier power: 50-400W\"; no passive wording."
     },
     {
       "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",

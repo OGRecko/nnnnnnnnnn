@@ -1057,6 +1057,58 @@
       "evidence": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way dynamic, acoustic-suspension loudspeaker. Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III).\" Four drive units for the A/III.",
       "whyNotManufacturer": "Stereophile is an independent review publication, not the manufacturer; the sidebar is its own transcription of the manufacturer specification.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-kef-5",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "document": "KEF Q series brochure and specification sheet (manualslib copy), Q100 column",
+      "evidence": "Round 29 (2026-10-19): KEF Q series specification page — the Q100 column reads \"Two-way bass reflex\", \"130mm (5.25in.) aluminium Uni-Q\" and \"25mm (1in.) vented aluminium dome HF\". Two transducers: the Uni-Q mid/bass cone plus its concentric HF dome.",
+      "whyNotManufacturer": "The KEF document is mirrored by manualslib.com, a manual library, not a KEF host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-kef-7",
+      "field": "driverCount",
+      "valueBefore": 6,
+      "valueAfter": 6,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
+      "document": "KEF Blade owner's manual, specifications page (manualslib copy)",
+      "evidence": "Round 29 (2026-10-19): KEF Blade manual — \"Uni-Q driver array: MF: 125mm (5in.) Li-Mg-Al /LCP hybrid cone HF: 25mm (1in.) Al dome; Bass units: LF: 4 x 225mm (9in.) with force cancelling\". Two Uni-Q transducers plus four bass units.",
+      "whyNotManufacturer": "The KEF document is mirrored by manualslib.com, a manual library, not a KEF host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "legacy-kef-7",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=9",
+      "document": "KEF Blade owner's manual, 'Single, Bi-Wire and Bi-Amp Connections' page (manualslib copy)",
+      "evidence": "Round 29 (2026-10-19): same manual, connection page — the section is titled \"Single, Bi-Wire and Bi-Amp Connections\", the diagrams label HF/LF terminal pairs with LINK bars, and the text says \"KEF recommends that high quality speaker cable be used for connecting your Blade speakers\". Speaker-level wiring from external amplifiers; bi-amping only makes sense with external amplifier channels.",
+      "whyNotManufacturer": "The KEF document is mirrored by manualslib.com, a manual library, not a KEF host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "kef-reference-5",
+      "field": "driverCount",
+      "valueBefore": 6,
+      "valueAfter": 6,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "REPUTABLE_DATABASE",
+      "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
+      "document": "Stereophile, \"KEF Reference 5 loudspeaker Specifications\", Sidebar 1: Specifications",
+      "evidence": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, floorstanding loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers.\" Two Uni-Q transducers plus four woofers.",
+      "whyNotManufacturer": "Stereophile is an independent review publication, not the manufacturer; the sidebar is its own transcription of the specification.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8

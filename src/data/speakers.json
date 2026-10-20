@@ -15864,11 +15864,12 @@
       "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Stereophile's exact KEF Reference 5 (non-Meta) specification page lists response 40 Hz–35 kHz ±3 dB; sensitivity 90 dB at 2.83 V/1 m; 8 Ω nominal/3.2 Ω minimum impedance; four 165 mm (6.5 in) woofers, a 125 mm midrange transducer and a 25 mm tweeter. The published 50–400 W recommended-amplifier range is preserved as a range only and is not stored as scalar power. The record is the original Reference 5, not Reference 5 Meta. Passive loudspeaker; six active drive transducers. Specification data only: no measured response curve or directivity dataset is imported. Source: https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications.",
+    "notes": "Stereophile's exact KEF Reference 5 (non-Meta) specification page lists response 40 Hz–35 kHz ±3 dB; sensitivity 90 dB at 2.83 V/1 m; 8 Ω nominal/3.2 Ω minimum impedance; four 165 mm (6.5 in) woofers, a 125 mm midrange transducer and a 25 mm tweeter. The published 50–400 W recommended-amplifier range is preserved as a range only and is not stored as scalar power. The record is the original Reference 5, not Reference 5 Meta. Passive loudspeaker; six active drive transducers. Specification data only: no measured response curve or directivity dataset is imported. Source: https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications. Round 29 (2026-10-19): driverCount 6 verified from the Stereophile specification sidebar; active stays unresolved because the sidebar prints only \"Recommended amplifier power: 50-400W\".",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
-      "sourceType": null
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, floorstanding loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers.\" Two Uni-Q transducers plus four woofers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -19439,12 +19440,12 @@
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "The cited page is the KEF Q100 specification table in a third-party-hosted copy of the Q100 manual. It lists 49 Hz–40 kHz ±3 dB response, 86 dB sensitivity at 2.83 V/1 m, 8 Ω impedance, and a 130 mm (5.25 in) LF driver. KEF's 10–100 W recommended-amplifier range is retained as a range only and is not placed in the scalar power field. Passive two-way Uni-Q design; driverCount counts LF and HF transducers. This is published specification data only; no measured response curve or directivity dataset is imported. Source: https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12.",
+    "notes": "The cited page is the KEF Q100 specification table in a third-party-hosted copy of the Q100 manual. It lists 49 Hz–40 kHz ±3 dB response, 86 dB sensitivity at 2.83 V/1 m, 8 Ω impedance, and a 130 mm (5.25 in) LF driver. KEF's 10–100 W recommended-amplifier range is retained as a range only and is not placed in the scalar power field. Passive two-way Uni-Q design; driverCount counts LF and HF transducers. This is published specification data only; no measured response curve or directivity dataset is imported. Source: https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12. Round 29 (2026-10-19): driverCount 2 verified from the Q series specification page; active stays unresolved because the wiring pages of the installation manual extract as images and the brochure prints only \"Amplifier N/A\" and an amplifier-requirements figure.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
-      "sourceType": null,
-      "note": "Round 25: Q100 column lists a 130 mm aluminium Uni-Q unit and a 25 mm vented dome HF unit: 2 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): KEF Q series specification page — the Q100 column reads \"Two-way bass reflex\", \"130mm (5.25in.) aluminium Uni-Q\" and \"25mm (1in.) vented aluminium dome HF\". Two transducers: the Uni-Q mid/bass cone plus its concentric HF dome."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -19513,17 +19514,18 @@
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Page 10 of the third-party-hosted KEF Blade owner's manual contains a specification table headed Blade, with no Meta, One or Two suffix; it supports this exact original Blade record only and must not be transferred to Blade Meta. The table lists 40 Hz–35 kHz ±3 dB response (and separately 28 Hz–45 kHz ±6 dB), sensitivity 90 dB at 2.83 V/1 m, 4 Ω nominal/3.2 Ω minimum impedance, four 225 mm (9 in) LF units plus 125 mm MF and 25 mm HF transducers, 117 dB maximum output, and 50–400 W recommended-amplifier requirements. The amplifier range is retained as a range only and is not collapsed into scalar power. The six active transducers are counted; this is a passive loudspeaker. Source: https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10.",
+    "notes": "Page 10 of the third-party-hosted KEF Blade owner's manual contains a specification table headed Blade, with no Meta, One or Two suffix; it supports this exact original Blade record only and must not be transferred to Blade Meta. The table lists 40 Hz–35 kHz ±3 dB response (and separately 28 Hz–45 kHz ±6 dB), sensitivity 90 dB at 2.83 V/1 m, 4 Ω nominal/3.2 Ω minimum impedance, four 225 mm (9 in) LF units plus 125 mm MF and 25 mm HF transducers, 117 dB maximum output, and 50–400 W recommended-amplifier requirements. The amplifier range is retained as a range only and is not collapsed into scalar power. The six active transducers are counted; this is a passive loudspeaker. Source: https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10. Round 29 (2026-10-19): driverCount 6 and active false verified from the Blade owner's manual (specification page and \"Single, Bi-Wire and Bi-Amp Connections\").",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": null,
-      "note": "Round 25: Specification names one 125 mm MF unit, one 25 mm HF unit and four 225 mm bass units: 6 transducers. Round 29 (2026-10-19): host is NOT_MANUFACTURER in source-host-allowlist.json, so it cannot support MANUFACTURER_VERIFIED; demoted to CITED_IN_NOTES_UNCHECKED. The quoted evidence above is preserved."
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): KEF Blade manual — \"Uni-Q driver array: MF: 125mm (5in.) Li-Mg-Al /LCP hybrid cone HF: 25mm (1in.) Al dome; Bass units: LF: 4 x 225mm (9in.) with force cancelling\". Two Uni-Q transducers plus four bass units."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
-      "sourceType": null
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=9",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same manual, connection page — the section is titled \"Single, Bi-Wire and Bi-Amp Connections\", the diagrams label HF/LF terminal pairs with LINK bars, and the text says \"KEF recommends that high quality speaker cable be used for connecting your Blade speakers\". Speaker-level wiring from external amplifiers; bi-amping only makes sense with external amplifier channels."
     }
   },
   {

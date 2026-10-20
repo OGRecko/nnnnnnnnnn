@@ -264,6 +264,20 @@ record note already made that distinction.
 Both sidebars print only impedance and sensitivity, so `active` remains unresolved in both records; the
 attempt is recorded as NOT_STATED rather than converted into an inference.
 
+## Batch 48 — three KEF documents re-read
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| legacy-kef-5 (Q100) | driverCount 2 | Q100 column: "Two-way bass reflex"; "130mm (5.25in.) aluminium Uni-Q"; "25mm (1in.) vented aluminium dome HF" | promoted; active NOT_STATED ("Amplifier N/A" + requirements figure only) |
+| legacy-kef-7 (Blade) | driverCount 6 / false | "Uni-Q driver array: MF: 125mm (5in.) … HF: 25mm (1in.) Al dome; Bass units: LF: 4 x 225mm (9in.)"; "Single, Bi-Wire and Bi-Amp Connections"; "KEF recommends that high quality speaker cable be used" | both promoted |
+| kef-reference-5 | driverCount 6 | "Uni-Q driver array with 1\" … tweeter, 5\" … midrange unit, four 6.5\" … woofers" | promoted; active NOT_STATED (recommended amplifier power only) |
+
+Two counts are convention-dependent and were checked against existing records before promotion: a Uni-Q array
+is counted as its two transducers (mid/bass cone plus concentric HF dome), matching the already-promoted KEF
+LS50 record, and a passive radiator is not counted, matching the Mackie HR624 record. The Blade's `active`
+rests on its connection chapter, which the policy's second accepted form covers; the Q100's wiring pages
+extract as images, so that record stays unresolved rather than inferred.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -277,12 +291,12 @@ attempt is recorded as NOT_STATED rather than converted into an inference.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **160** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **156** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **101** |
+| `THIRD_PARTY_VERIFIED` | 24 | **105** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **160 / 136 URLs** |
-| records with backlog | 336 of 657 | **311 of 657** |
+| queue items | 212 / 157 URLs | **156 / 135 URLs** |
+| records with backlog | 336 of 657 | **310 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
