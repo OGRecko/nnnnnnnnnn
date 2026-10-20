@@ -15216,7 +15216,7 @@
       "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact RP-8060FA II manufacturer spec sheet (v02, 2022-05-16). Main-channel specification is 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 8-ohm-compatible impedance, and dual 8-inch LF drivers. The product also includes a separate up-firing height channel with its own 6.5-inch woofer, tweeter, 100 W / 400 W handling specification, and separate frequency-response/sensitivity language; no single system power scalar is stored because the channels have different ratings. Five transducers are listed across the main and height channels. Sensitivity footnote for the main channel: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'. The stored woofer size refers only to the main channel's two 8-inch LF units; height-channel driver details remain in this note. Source: https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf.",
+    "notes": "Exact RP-8060FA II manufacturer spec sheet (v02, 2022-05-16). Main-channel specification is 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 8-ohm-compatible impedance, and dual 8-inch LF drivers. The product also includes a separate up-firing height channel with its own 6.5-inch woofer, tweeter, 100 W / 400 W handling specification, and separate frequency-response/sensitivity language; no single system power scalar is stored because the channels have different ratings. Five transducers are listed across the main and height channels. Sensitivity footnote for the main channel: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'. The stored woofer size refers only to the main channel's two 8-inch LF units; height-channel driver details remain in this note. Source: https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf. Round 29 (2026-10-19): active false verified from the RP-8060FA II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
@@ -15224,9 +15224,10 @@
       "note": "Round 22: Spec sheet lists 2 main woofers + 1 tweeter + 1 height woofer + 1 height tweeter = 5."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-8060FA II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -15290,7 +15291,7 @@
       "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact RP-6000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 38 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 125 W continuous / 500 W peak handling, 8-ohm-compatible nominal impedance and two 6.5-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the voltage reference is retained verbatim. Source: https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf.",
+    "notes": "Exact RP-6000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 38 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 125 W continuous / 500 W peak handling, 8-ohm-compatible nominal impedance and two 6.5-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the voltage reference is retained verbatim. Source: https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf. Round 29 (2026-10-19): active false verified from the RP-6000F II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
@@ -15298,9 +15299,10 @@
       "note": "Round 22: Spec sheet lists two 6.5 in woofers and one 1 in tweeter = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-6000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -15364,7 +15366,7 @@
       "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact RP-600M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-600M. It specifies 44 Hz–25 kHz ±3 dB, 94.5 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF driver and one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is kept as 2.83 V/1 m and no graph points are inferred. Source: https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf.",
+    "notes": "Exact RP-600M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-600M. It specifies 44 Hz–25 kHz ±3 dB, 94.5 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF driver and one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is kept as 2.83 V/1 m and no graph points are inferred. Source: https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf. Round 29 (2026-10-19): active false verified from the RP-600M II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
@@ -15372,9 +15374,10 @@
       "note": "Round 22: Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-600M II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -15438,7 +15441,7 @@
       "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact RP-500M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-500M. It specifies 50 Hz–25 kHz ±3 dB, 92 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF driver, and one HF tweeter. The spec-sheet sensitivity footnote reads 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is retained as 2.83 V/1 m without claiming the in-room figure is a directivity measurement. Source: https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf.",
+    "notes": "Exact RP-500M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-500M. It specifies 50 Hz–25 kHz ±3 dB, 92 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF driver, and one HF tweeter. The spec-sheet sensitivity footnote reads 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is retained as 2.83 V/1 m without claiming the in-room figure is a directivity measurement. Source: https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf. Round 29 (2026-10-19): active false verified from the RP-500M II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
@@ -15446,9 +15449,10 @@
       "note": "Round 22: Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-500M II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -20635,7 +20639,7 @@
       "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact Klipsch R-41M manufacturer spec sheet (v01; built from 2018). It lists 68 Hz–21 kHz ±3 dB, sensitivity 90 dB at 2.83 V/1 m, 50 W continuous / 200 W peak handling, 8-ohm-compatible nominal impedance, and one 4-inch LF woofer with one tweeter. The 50 W continuous value is stored; the peak rating is context. This is R-41M, not the later R-41PM powered model. Source: https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf.",
+    "notes": "Exact Klipsch R-41M manufacturer spec sheet (v01; built from 2018). It lists 68 Hz–21 kHz ±3 dB, sensitivity 90 dB at 2.83 V/1 m, 50 W continuous / 200 W peak handling, 8-ohm-compatible nominal impedance, and one 4-inch LF woofer with one tweeter. The 50 W continuous value is stored; the peak rating is context. This is R-41M, not the later R-41PM powered model. Source: https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf. Round 29 (2026-10-19): active false verified from the R-41M owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
@@ -20643,9 +20647,10 @@
       "note": "Round 22: Spec sheet lists one 4 in woofer and one 1 in tweeter = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Speakers\" 2018 owner's manual v02 names R-41M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -36028,7 +36033,7 @@
     },
     "driverCount": 2,
     "panel": false,
-    "notes": "Exact original RP-500M manufacturer spec sheet (v01, built from 2018); this is not the RP-500M II record. It specifies 48 Hz–25 kHz ±3 dB, 93 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf.",
+    "notes": "Exact original RP-500M manufacturer spec sheet (v01, built from 2018); this is not the RP-500M II record. It specifies 48 Hz–25 kHz ±3 dB, 93 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf. Round 29 (2026-10-19): active false verified from the RP-500M owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
@@ -36036,9 +36041,10 @@
       "note": "Round 22: Spec sheet lists one 5.25 in woofer and one 1 in tweeter = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" owner's manual v03 (2018 generation) names RP-500M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -36102,7 +36108,7 @@
     },
     "driverCount": 2,
     "panel": false,
-    "notes": "Exact original RP-600M manufacturer spec sheet (v01, built from 2018); this is not the RP-600M II record. It specifies 45 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf.",
+    "notes": "Exact original RP-600M manufacturer spec sheet (v01, built from 2018); this is not the RP-600M II record. It specifies 45 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf. Round 29 (2026-10-19): active false verified from the RP-600M owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
@@ -36110,9 +36116,10 @@
       "note": "Round 22: Spec sheet lists one 6.5 in woofer and one 1 in tweeter = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" owner's manual v03 (2018 generation) names RP-600M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -36176,7 +36183,7 @@
     },
     "driverCount": 3,
     "panel": false,
-    "notes": "Exact RP-5000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 40 Hz–25 kHz ±3 dB, 95 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance and dual 5.25-inch LF drivers with one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; only the published voltage reference is placed in the structured field. This is the II revision; original RP-5000F/related family values are not transferred. Source: https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf.",
+    "notes": "Exact RP-5000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 40 Hz–25 kHz ±3 dB, 95 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance and dual 5.25-inch LF drivers with one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; only the published voltage reference is placed in the structured field. This is the II revision; original RP-5000F/related family values are not transferred. Source: https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf. Round 29 (2026-10-19): active false verified from the RP-5000F II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
@@ -36184,9 +36191,10 @@
       "note": "Round 22: Spec sheet lists two 5.25 in woofers and one 1 in tweeter = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-5000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {
@@ -36250,7 +36258,7 @@
     },
     "driverCount": 3,
     "panel": false,
-    "notes": "Exact RP-8000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 150 W continuous / 600 W peak handling, 8-ohm-compatible nominal impedance and two 8-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the structured value preserves the 2.83 V/1 m reference, and the peak handling remains context. Source: https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf.",
+    "notes": "Exact RP-8000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 150 W continuous / 600 W peak handling, 8-ohm-compatible nominal impedance and two 8-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the structured value preserves the 2.83 V/1 m reference, and the peak handling remains context. Source: https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf. Round 29 (2026-10-19): active false verified from the RP-8000F II owner's manual connection chapter (external-amplifier wiring, no mains inlet described); the spec sheet alone had left the field NOT_STATED.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
@@ -36258,9 +36266,10 @@
       "note": "Round 22: Spec sheet lists two 8 in woofers and one 1 in tweeter = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
-      "sourceType": null
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-8000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
     }
   },
   {

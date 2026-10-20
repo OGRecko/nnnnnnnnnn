@@ -8174,6 +8174,123 @@
       "sourceClass": "MANUFACTURER",
       "round": 27,
       "coverage": "Lead: \"The CDD12 is a compact, passive two-way system\". Features: \"Compact, CDD™ passive two-way system\". Specification: TYPE \"Compact, high-output, Coaxial Differential Dispersion passive two-way system\"; DRIVER \"LF: 12\" (300mm) ... HF: 1\" (25mm) exit ... compression driver\"; CROSSOVER \"1.9kHz passive\"; NOMINAL IMPEDANCE 8Ω."
+    },
+    {
+      "url": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+      "host": "assets.klipsch.com",
+      "document": "Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "coverage": "Cover model list: \"REFERENCE PREMIERE SPEAKERS RP-8060FA II RP-8000F II RP-6000F II RP-5000F II RP-600M II RP-500M II\". Connection chapter: \"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\" Dual-binding-post note: \"Reference Premiere models RP-8060FA II, RP-8000F II, RP-6000F II, RP-5000F II, and RP-600M II are equipped with dual binding posts.\" The manual describes no mains inlet, power cord or built-in amplifier for the loudspeaker.",
+      "decisions": [
+        {
+          "id": "klipsch-rp8060fa",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-8060FA II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp-8000f-ii",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-8000F II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp6000f",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-6000F II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp-5000f-ii",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-5000F II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp600m",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-600M II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp500m",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-500M II owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        }
+      ],
+      "queueItemsResolved": 6
+    },
+    {
+      "url": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+      "host": "assets.klipsch.com",
+      "document": "Klipsch \"Reference Premiere Speakers\" owner's manual v03 (2018 generation)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "coverage": "Cover model list: \"REFERENCE PREMIERE SPEAKERS RP-8060FA RP-8000F RP-6000F RP-5000F RP-4000F RP-600M RP-500M RP-400M RP-502S RP-402S RP-500SA RP-504C RP-404C RP-600C RP-500C RP-400C\". Connection chapter: \"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\" The manual describes no mains inlet, power cord or built-in amplifier for the loudspeaker.",
+      "decisions": [
+        {
+          "id": "klipsch-rp-600m",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-600M owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        },
+        {
+          "id": "klipsch-rp-500m",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the RP-500M owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        }
+      ],
+      "queueItemsResolved": 2
+    },
+    {
+      "url": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf",
+      "host": "assets.klipsch.com",
+      "document": "Klipsch \"Reference Speakers\" 2018 owner's manual v02",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 4,
+      "coverage": "Cover model list: \"REFERENCE SPEAKERS ... R-51M R-41M R-52C R-625FA R-820F R-620F R-610F R-34C R-41SA\". Connection chapter: \"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\" The manual describes no mains inlet, power cord or built-in amplifier for the loudspeaker.",
+      "decisions": [
+        {
+          "id": "legacy-klip-8",
+          "field": "active",
+          "value": false,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Round 29: the R-41M owner's manual wires the speaker to an external amplifier and describes no mains inlet."
+        }
+      ],
+      "queueItemsResolved": 1
     }
   ],
   "openQuestionsForOwner": [

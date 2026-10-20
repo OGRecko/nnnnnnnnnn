@@ -1,9 +1,9 @@
 {
   "schema": "field-provenance-url-queue/v2",
   "note": "Live records are the audit queue. Entries labelled ARCHIVED come from archived records; they are recorded so the inventory is complete, but archived products are not restored and are not part of the research queue.",
-  "liveOutstandingFields": 151,
+  "liveOutstandingFields": 142,
   "archivedOutstandingFields": 35,
-  "liveUrls": 135,
+  "liveUrls": 126,
   "archivedOnlyUrls": 21,
   "urls": [
     {
@@ -1041,58 +1041,6 @@
       ]
     },
     {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp8060fa",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp6000f",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp600m",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp500m",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
       "url": "https://international.kef.com/products/q350-bookshelf-speaker",
       "outstandingFields": 1,
       "liveOutstandingFields": 1,
@@ -1366,19 +1314,6 @@
       ]
     },
     {
-      "url": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "legacy-klip-8",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
       "url": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",
       "outstandingFields": 1,
       "liveOutstandingFields": 1,
@@ -1555,58 +1490,6 @@
       "fields": [
         {
           "record": "kef-blade-two-meta",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp-500m",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp-600m",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp-5000f-ii",
-          "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
-      "outstandingFields": 1,
-      "liveOutstandingFields": 1,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "klipsch-rp-8000f-ii",
           "field": "active",
           "location": "LIVE"
         }

@@ -311,6 +311,35 @@ owner decision, not a batch decision.
 This is the cleanest form of the policy's first accepted case: the reviewing publication names the product
 "the passive loudspeaker" in the same sentence that documents a speaker-level 2.83 V measurement.
 
+## Batch 51 — Klipsch owner's manuals, not spec sheets
+
+The Klipsch spec sheets are exhausted: all fourteen were read (Cornwall-2019 was `INACCESSIBLE` in round 27
+and is now readable), and none calls the loudspeaker passive or tells the user to drive it from an external
+amplifier, so each recorded `NOT_STATED`. The owner's manuals are a different document class and do satisfy
+the policy's second accepted form. Three manuals name every target model on their cover model list:
+
+| Document | Models named on the cover | Records settled |
+| --- | --- | --- |
+| Reference Premiere Speakers 2021 Manual v02 | RP-8060FA II, RP-8000F II, RP-6000F II, RP-5000F II, RP-600M II, RP-500M II (plus RP-502S II / RP-500SA II / RP-504C II / RP-404C II / RP-500C II) | `klipsch-rp8060fa`, `klipsch-rp-8000f-ii`, `klipsch-rp6000f`, `klipsch-rp-5000f-ii`, `klipsch-rp600m`, `klipsch-rp500m` |
+| Reference Premiere Speakers Manual v03 (2018 generation) | RP-600M, RP-500M, RP-400M (plus RP-8060FA / RP-8000F / RP-6000F / RP-5000F / RP-4000F and the centres/surrounds) | `klipsch-rp-600m`, `klipsch-rp-500m` |
+| Reference Speakers 2018 Manual v02 | R-51M, R-41M, R-52C, R-625FA, R-820F, R-620F, R-610F, R-34C, R-41SA | `legacy-klip-8` |
+
+Each connection chapter reads: "Using 16-12 gauge speaker wire, connect the RED "positive" (+) terminal of
+the LEFT speaker to the RED "positive" (+) terminal of your amplifier's LEFT channel. Connect the BLACK
+"negative" (–) terminal of the LEFT speaker to the BLACK "negative" (–) terminal of your amplifier's LEFT
+channel." No mains inlet, power cord or built-in amplifier is described anywhere in the manuals, so the
+external-amplifier form applies and `active` is `false` at `MANUFACTURER_VERIFIED`.
+
+Also checked and deliberately **not** used:
+
+- `Heritage-Manual-2005_…rccj.pdf` covers Klipschorn, La Scala II, **Cornwall III** and **Heresy III**. The
+  records are the IV revisions, so substituting it would be a related-model promotion.
+- `Cornwall-2019_Manual_v02.pdf` and `Heresy-2019_Manual_v01_…egqp.pdf` have the same amplifier wiring
+  chapters, but the documents name only "Cornwall" and "Heresy" — no IV suffix anywhere. They stay
+  unrecorded until the revision can be tied to the document.
+- The Forte IV and RF-7 III owner's manuals were not found on a manufacturer host (the RF-7 III manual is
+  only on third-party manual sites), so those two records keep `NOT_STATED`.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -323,19 +352,22 @@ This is the cleanest form of the policy's first accepted case: the reviewing pub
 
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
-| `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **151** |
+| `MANUFACTURER_VERIFIED` | 2422 | **2412** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **142 live** (177 stored, 35 archived) |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
 | `THIRD_PARTY_VERIFIED` | 24 | **110** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **151 / 135 URLs** |
-| records with backlog | 336 of 657 | **310 of 657** |
+| queue items | 212 / 157 URLs | **142 / 126 URLs** |
+| records with backlog | 336 of 657 | **301 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
 
 ## Still open
 
+- 142 live `CITED_IN_NOTES_UNCHECKED` fields on 126 URLs remain (108 `active`, 34 `driverCount`). Nine
+  Klipsch `active` fields closed in batch 51; the Klipsch spec sheets themselves are fully assessed, so
+  further Klipsch progress needs a revision-specific Forte IV / RF-7 III / Heresy IV / Cornwall IV document.
 - 71 `UNSOURCED` fields and 168 no-provenance nulls remain. This round recorded 12 documented outcomes for
   that pool: 8 assessments (ATC, Wilson, Polk, Dutch & Dutch, EV SX300 ×2, EV Eliminator ×2) that stay null,
   and 4 promotions on explicit evidence (EV EKX-15P driverCount/active with MANUFACTURER_VERIFIED; Bose 802

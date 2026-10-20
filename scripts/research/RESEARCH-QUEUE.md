@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **310** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
+Records still needing research: **301** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 82 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **151** fields across **135** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **142** fields across **126** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -210,15 +210,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | klipsch-heresy-iv | Klipsch | Heresy IV (`klipsch-heresy-iv`) | 1 | 0 | 0 |
 | klipsch-la-scala-ii | Klipsch | La Scala II (`klipsch-la-scala-ii`) | 0 | 0 | 1 |
 | klipsch-r51m | Klipsch | R-51M (`klipsch-r51m`) | 0 | 1 | 0 |
-| klipsch-rp-5000f-ii | Klipsch | RP-5000F II (`klipsch-rp-5000f-ii`) | 1 | 0 | 0 |
-| klipsch-rp-500m | Klipsch | RP-500M (`klipsch-rp-500m`) | 1 | 0 | 0 |
-| klipsch-rp-600m | Klipsch | RP-600M (`klipsch-rp-600m`) | 1 | 0 | 0 |
-| klipsch-rp-8000f-ii | Klipsch | RP-8000F II (`klipsch-rp-8000f-ii`) | 1 | 0 | 0 |
-| klipsch-rp500m | Klipsch | RP-500M II (`klipsch-rp500m`) | 1 | 0 | 0 |
-| klipsch-rp6000f | Klipsch | RP-6000F II (`klipsch-rp6000f`) | 1 | 0 | 0 |
-| klipsch-rp600m | Klipsch | RP-600M II (`klipsch-rp600m`) | 1 | 0 | 0 |
 | klipsch-rp8000f | Klipsch | RP-8000F (`klipsch-rp8000f`) | 0 | 1 | 0 |
-| klipsch-rp8060fa | Klipsch | RP-8060FA II (`klipsch-rp8060fa`) | 1 | 0 | 0 |
 | legacy-bose-2 | Bose | 501 (`legacy-bose-2`) | 1 | 0 | 0 |
 | legacy-bose-7 | Bose | 251 Environmental (`legacy-bose-7`) | 1 | 0 | 0 |
 | legacy-bw-1 | Bowers & Wilkins | DM6 (`legacy-bw-1`) | 0 | 0 | 1 |
@@ -239,7 +231,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | legacy-kef-5 | KEF | Q100 (`legacy-kef-5`) | 1 | 0 | 0 |
 | legacy-kef-9 | KEF | LS50 Meta (`legacy-kef-9`) | 0 | 0 | 1 |
 | legacy-klip-6 | Klipsch | RF-7 III (`legacy-klip-6`) | 1 | 0 | 0 |
-| legacy-klip-8 | Klipsch | R-41M (`legacy-klip-8`) | 1 | 0 | 0 |
 | legacy-la-3 | L-Acoustics | Kara (`legacy-la-3`) | 0 | 0 | 1 |
 | legacy-la-4 | L-Acoustics | K1 (`legacy-la-4`) | 0 | 0 | 1 |
 | legacy-la-5 | L-Acoustics | K2 (`legacy-la-5`) | 0 | 0 | 1 |

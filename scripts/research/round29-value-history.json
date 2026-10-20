@@ -3041,6 +3041,232 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench"
+    },
+    {
+      "id": "klipsch-rp8060fa",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-8060FA II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp-8000f-ii",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-8000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp6000f",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-6000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp-5000f-ii",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-5000F II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp600m",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-600M II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp500m",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" 2021 owner's manual v02 names RP-500M II on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-2021-Manual-v02.pdf"
+    },
+    {
+      "id": "klipsch-rp-600m",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" owner's manual v03 (2018 generation) names RP-600M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf"
+    },
+    {
+      "id": "klipsch-rp-500m",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Premiere Speakers\" owner's manual v03 (2018 generation) names RP-500M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Premiere-Speakers-Manual-v03.pdf"
+    },
+    {
+      "id": "legacy-klip-8",
+      "field": "active",
+      "value": false,
+      "before": {
+        "value": false,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": false,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 29 (2026-10-19): Klipsch \"Reference Speakers\" 2018 owner's manual v02 names R-41M on its cover model list, and its connection chapter instructs the user to wire the loudspeaker terminals to the corresponding channel of an external amplifier (\"Using 16-12 gauge speaker wire, connect the RED “positive” (+) terminal of the LEFT speaker to the RED “positive” (+) terminal of your amplifier’s LEFT channel. Connect the BLACK “negative” (–) terminal of the LEFT speaker to the BLACK “negative” (–) terminal of your amplifier’s LEFT channel.\"); no mains inlet or built-in amplifier is described, which is accepted form (b) for active: false."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE",
+      "source": "https://assets.klipsch.com/product-manuals/Reference-Speakers-2018-Manual-v02.pdf"
     }
-  ]
+  ],
+  "marker": "round29-batch51-klipsch-manuals"
 }
