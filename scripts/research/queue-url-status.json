@@ -6520,63 +6520,125 @@
     },
     {
       "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
-      "round": 26,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 3,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Spendor SP-100 owner's manual (ManualMachine)",
-      "evidence": "Specification: \"Low Frequency unit Spendor 300mm Bextrene\"; \"Mid Frequency unit Spendor 160mm Homopolymer Polypropylene\"; \"High Frequency unit 19mm Soft Dome\"; \"Crossover point 600Hz, 4kHz\"; \"Bi-wiring and Tri-wiring ... Switch off your amplifier ... Connect the black terminal on the amplifier left channel\".",
+      "evidence": "SP-100: 300 mm Bextrene LF, 160 mm mid, 19 mm soft dome HF; crossover 600 Hz/4 kHz; wiring chapter drives the terminals from the amplifier, bi-/tri-wiring.",
       "fieldResults": [
         {
           "record": "spendor-sp100",
           "field": "driverCount",
           "value": 3,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The specification lists three drive units (300 mm LF, 160 mm MF, 19 mm HF): 3 transducers; aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: three units listed."
         },
         {
           "record": "spendor-sp100",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The wiring section connects the loudspeaker terminals to an external amplifier for single-, bi- or tri-wiring; aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: amplifier wiring instructions; passive."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 3,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Spendor SP-100 owner's manual (ManualMachine)",
+            "evidence": "Specification: \"Low Frequency unit Spendor 300mm Bextrene\"; \"Mid Frequency unit Spendor 160mm Homopolymer Polypropylene\"; \"High Frequency unit 19mm Soft Dome\"; \"Crossover point 600Hz, 4kHz\"; \"Bi-wiring and Tri-wiring ... Switch off your amplifier ... Connect the black terminal on the amplifier left channel\".",
+            "fieldResults": [
+              {
+                "record": "spendor-sp100",
+                "field": "driverCount",
+                "value": 3,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The specification lists three drive units (300 mm LF, 160 mm MF, 19 mm HF): 3 transducers; aggregator host cannot promote."
+              },
+              {
+                "record": "spendor-sp100",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The wiring section connects the loudspeaker terminals to an external amplifier for single-, bi- or tri-wiring; aggregator host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
-      "round": 26,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
-      "chunksTotal": 8,
+      "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "KEF Reference Series Model LS3/5A installation manual (Manualsnet)",
-      "evidence": "Specification: \"System type Two-way, bookshelf\"; \"Drive units B110 bass/midrange unit (SP1228), and T27 tweeter (SP1032)\"; \"Amplifier requirements 25-75W (into 8 ohms)\".",
+      "evidence": "LS3/5A: B110 + T27 drive units; two-way closed box; \"Amplifier requirements 25-75W (into 8 ohms)\"; no passive/active statement.",
       "fieldResults": [
         {
           "record": "kef-ls3-5a",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The manual names exactly two drive units, the B110 bass/midrange and the T27 tweeter; aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two named drive units."
         },
         {
           "record": "kef-ls3-5a",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+          "note": "Round 29: amplifier-requirements figure only; policy excludes it."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 8,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "KEF Reference Series Model LS3/5A installation manual (Manualsnet)",
+            "evidence": "Specification: \"System type Two-way, bookshelf\"; \"Drive units B110 bass/midrange unit (SP1228), and T27 tweeter (SP1032)\"; \"Amplifier requirements 25-75W (into 8 ohms)\".",
+            "fieldResults": [
+              {
+                "record": "kef-ls3-5a",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The manual names exactly two drive units, the B110 bass/midrange and the T27 tweeter; aggregator host cannot promote."
+              },
+              {
+                "record": "kef-ls3-5a",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://manualzz.com/doc/1623732/magneplanar-mg20.1-instruction-manual",
@@ -6603,63 +6665,125 @@
     },
     {
       "url": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
-      "round": 26,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 2,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Electro-Voice Sentry500 data sheet (Manualzz)",
-      "evidence": "Data sheet: \"The Sentry 500 employs a Super-Dome tweeter\"; \"The low-frequency section ... is a 12-inch direct radiator woofer\"; \"The integral crossover network is a 12-dB/octave type with crossover occurring at 1500 Hz\"; \"Since the woofer's short-term power handling capacity is 400 watts, amplifiers as large as 400 watts can be used\".",
+      "evidence": "Sentry 500: 12 in woofer + Super-Dome tweeter; integral 12 dB/oct crossover at 1.5 kHz; bi-amp access panel; amplifiers up to 400 W.",
       "fieldResults": [
         {
           "record": "eV-sentry-500",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The data sheet names a 12-inch direct-radiator woofer and one Super-Dome tweeter: 2 transducers; aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: woofer + tweeter."
         },
         {
           "record": "eV-sentry-500",
           "field": "active",
           "value": false,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The data sheet describes an integral passive 12 dB/octave crossover and external amplifiers up to 400 W (including a bi-amp access panel); aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: integral passive crossover, bi-amp with external amplifiers."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 2,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Electro-Voice Sentry500 data sheet (Manualzz)",
+            "evidence": "Data sheet: \"The Sentry 500 employs a Super-Dome tweeter\"; \"The low-frequency section ... is a 12-inch direct radiator woofer\"; \"The integral crossover network is a 12-dB/octave type with crossover occurring at 1500 Hz\"; \"Since the woofer's short-term power handling capacity is 400 watts, amplifiers as large as 400 watts can be used\".",
+            "fieldResults": [
+              {
+                "record": "eV-sentry-500",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The data sheet names a 12-inch direct-radiator woofer and one Super-Dome tweeter: 2 transducers; aggregator host cannot promote."
+              },
+              {
+                "record": "eV-sentry-500",
+                "field": "active",
+                "value": false,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The data sheet describes an integral passive 12 dB/octave crossover and external amplifiers up to 400 W (including a bi-amp access panel); aggregator host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual",
-      "round": 26,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 1,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Electro-Voice Sx100+ user manual (Manualzz)",
-      "evidence": "Data sheet: \"The Electro-Voice Sx100+ is a 200-watt, 12-inch two-way\"; \"LF Transducer: 12\\\" (300mm)\"; \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"Power Handling: 200W Continuous, 800W Peak\"; \"Connectors: Neutrik Speakon\".",
+      "evidence": "Sx100+: \"12-inch two-way\"; LF 12 in, HF 1 in DH3 compression driver; 200 W continuous, Speakon connectors; no passive/active statement.",
       "fieldResults": [
         {
           "record": "electro-voice-sx100",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The data sheet lists one 12-inch LF transducer and one 1-inch-exit DH3 compression driver: 2 transducers; aggregator host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: LF + HF transducers."
         },
         {
           "record": "electro-voice-sx100",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+          "note": "Round 29: power handling and connectors only."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 1,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Electro-Voice Sx100+ user manual (Manualzz)",
+            "evidence": "Data sheet: \"The Electro-Voice Sx100+ is a 200-watt, 12-inch two-way\"; \"LF Transducer: 12\\\" (300mm)\"; \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"Power Handling: 200W Continuous, 800W Peak\"; \"Connectors: Neutrik Speakon\".",
+            "fieldResults": [
+              {
+                "record": "electro-voice-sx100",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The data sheet lists one 12-inch LF transducer and one 1-inch-exit DH3 compression driver: 2 transducers; aggregator host cannot promote."
+              },
+              {
+                "record": "electro-voice-sx100",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "The opened document gives no explicit passive/active, powered/unpowered or built-in-amplifier wording for this model (only enclosure power handling, impedance or a recommended amplifier-power range), so `active` stays `unverified`."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://martin-audio.com/products/archive/w8lm",
@@ -14318,33 +14442,66 @@
     },
     {
       "url": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
-      "round": 25,
-      "status": "INACCESSIBLE",
+      "round": 29,
+      "status": "CHECKED_PARTIAL",
       "chunksOpened": [
-        0
+        0,
+        1,
+        2
       ],
-      "chunksTotal": 14,
+      "chunksTotal": 4,
       "checkedDate": "2026-10-19",
-      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
-      "document": "dB Technologies Opera Live user manual, page 6 \"Technical Specification\" (aggregator copy)",
-      "evidence": "The technical table covers Opera Live 202, 205 and 402 only (\"1 woofer 12\\\" ... 1 driver 1\\\"\", \"bi-amp\", built-in amplifiers); the document contains no Opera 405 column.",
+      "evidence": "Opera Live manual page 6: four-column specification table (202/205/402/405) and an amplifier section per model, but the extracted text is not column-aligned, so the 405 column could not be read with certainty. The series heading reads \"professional active speaker\".",
       "fieldResults": [
         {
           "record": "dbtechnologies-opera-405",
           "field": "driverCount",
           "value": 2,
           "outcome": "NOT_EXTRACTED",
-          "note": "Opened page is the Opera Live 202/205/402 specification table; it has no Opera 405 column, so no value is asserted for this record."
+          "note": "Round 29: 405 column not recoverable from the page; no model-specific quote."
         },
         {
           "record": "dbtechnologies-opera-405",
           "field": "active",
           "value": true,
           "outcome": "NOT_EXTRACTED",
-          "note": "Opened page is the Opera Live 202/205/402 specification table; it has no Opera 405 column."
+          "note": "Round 29: series heading says \"active\", but the 405 row could not be isolated; not promoted."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
+            "round": 25,
+            "status": "INACCESSIBLE",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 14,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+            "document": "dB Technologies Opera Live user manual, page 6 \"Technical Specification\" (aggregator copy)",
+            "evidence": "The technical table covers Opera Live 202, 205 and 402 only (\"1 woofer 12\\\" ... 1 driver 1\\\"\", \"bi-amp\", built-in amplifiers); the document contains no Opera 405 column.",
+            "fieldResults": [
+              {
+                "record": "dbtechnologies-opera-405",
+                "field": "driverCount",
+                "value": 2,
+                "outcome": "NOT_EXTRACTED",
+                "note": "Opened page is the Opera Live 202/205/402 specification table; it has no Opera 405 column, so no value is asserted for this record."
+              },
+              {
+                "record": "dbtechnologies-opera-405",
+                "field": "active",
+                "value": true,
+                "outcome": "NOT_EXTRACTED",
+                "note": "Opened page is the Opera Live 202/205/402 specification table; it has no Opera 405 column."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
@@ -16589,33 +16746,64 @@
     },
     {
       "url": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
-      "round": 26,
-      "status": "CHECKED_PARTIAL",
+      "round": 29,
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 2,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Meyer Sound MJF-212 announcement (SVC Online)",
-      "evidence": "Release: \"a self-powered stage monitor loudspeaker\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\"; \"a 4in. diaphragm compression driver coupled to a symmetrical (50 degrees horizontal by 50 degrees vertical) constant-directivity horn\".",
+      "evidence": "\"self-powered stage monitor\"; 4 in compression driver + a pair of 12 in cone drivers; 3-channel class AB/H amplifier inside.",
       "fieldResults": [
         {
           "record": "meyer-mjf212",
           "field": "driverCount",
           "value": 3,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The release itemises two 12-inch cone drivers and one 4-inch compression driver: 3 transducers; trade-press host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: one HF + two LF drivers."
         },
         {
           "record": "meyer-mjf212",
           "field": "active",
           "value": true,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "The release describes a \"self-powered\" monitor whose drivers are each powered by a channel of a built-in 3-channel amplifier; trade-press host cannot promote."
+          "outcome": "PROMOTED",
+          "note": "Round 29: \"self-powered\"; built-in three-channel amplifier."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 26,
+          "entry": {
+            "url": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
+            "round": 26,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 2,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Meyer Sound MJF-212 announcement (SVC Online)",
+            "evidence": "Release: \"a self-powered stage monitor loudspeaker\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\"; \"a 4in. diaphragm compression driver coupled to a symmetrical (50 degrees horizontal by 50 degrees vertical) constant-directivity horn\".",
+            "fieldResults": [
+              {
+                "record": "meyer-mjf212",
+                "field": "driverCount",
+                "value": 3,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The release itemises two 12-inch cone drivers and one 4-inch compression driver: 3 transducers; trade-press host cannot promote."
+              },
+              {
+                "record": "meyer-mjf212",
+                "field": "active",
+                "value": true,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "The release describes a \"self-powered\" monitor whose drivers are each powered by a channel of a built-in 3-channel amplifier; trade-press host cannot promote."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.svsound.com/products/pb-1000-pro-subwoofer",

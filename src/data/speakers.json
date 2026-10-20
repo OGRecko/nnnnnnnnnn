@@ -2454,16 +2454,18 @@
       "source": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact Tannoy System 600 manual. 52 Hz–20 kHz ±3 dB; 90 dB SPL / 1 W @ 1 m; 8 ohm nominal; 80 W RMS average / 160 W RMS programme; 6.5-inch Dual Concentric driver. Power field stores the average rating; programme rating is retained in notes. Source: https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
+    "notes": "Exact Tannoy System 600 manual. 52 Hz–20 kHz ±3 dB; 90 dB SPL / 1 W @ 1 m; 8 ohm nominal; 80 W RMS average / 160 W RMS programme; 6.5-inch Dual Concentric driver. Power field stores the average rating; programme rating is retained in notes. Source: https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da Round 29 (2026-10-19): driverCount 2 and active false verified from the Tannoy System 600 manual (manualzz copy); the separate System 600a active model is not this record.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
-      "sourceType": null
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Tannoy System 600 manual — \"Using an advanced Dual Concentric 6.5\\\" driver\"; the servicing chapter separates the two transducers: \"The HF unit may be fitted with a new diaphragm assembly\" and \"The LF unit may be re-coned in the normal way\", the Dual Concentric integrating an HF unit and an LF unit in one chassis. Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
-      "sourceType": null
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual",
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same manual — the terminals \"must be connected to the red or positive terminal on the power amplifier\", and the manual carries a \"Power amplifiers\" chapter matching amplifier power to the speaker's rating. External amplification, no mains inlet described."
     }
   },
   {
@@ -8836,16 +8838,18 @@
       "source": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact original Meyer Sound MJF-212 (announced January 2007), not the later MJF-212A: the contemporaneous report identifies a self-powered system with two 12-inch neodymium cone drivers and one 4-inch-diaphragm compression driver on a three-channel Class AB/H amplifier. Its 1,275 W figure is total burst amplifier output (the release also states 2,550 W peak), not passive-speaker handling, so the stored role is amplifier_output. Two contemporaneous January 2007 announcements disagree on the phase-corrected lower response endpoint (55 Hz versus 60 Hz) and peak amplifier output (2,550 W versus 2,250 W); both agree on 1,275 W total burst output. Without the original MJF-212 datasheet to resolve the differences, response bounds and disputed peak output remain N/A. The 10 kΩ line-input value and the later A-revision's driver-load impedances are not treated as system speaker impedance. No sensitivity, Fs, voice-coil size, numeric response-point table, or polar/directivity dataset for the exact non-A model is asserted. Sources: https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 ; https://fohonline.com/newsroom/news/meyer-sound-releases-mjf-212-stage-monitor/ ; later but distinct MJF-212A manual for identity contrast only: https://cdn-docs.av-iq.com/instructions/Meyer%20Sound%20MJF-212A%20Operating%20Instructions.pdf.",
+    "notes": "Exact original Meyer Sound MJF-212 (announced January 2007), not the later MJF-212A: the contemporaneous report identifies a self-powered system with two 12-inch neodymium cone drivers and one 4-inch-diaphragm compression driver on a three-channel Class AB/H amplifier. Its 1,275 W figure is total burst amplifier output (the release also states 2,550 W peak), not passive-speaker handling, so the stored role is amplifier_output. Two contemporaneous January 2007 announcements disagree on the phase-corrected lower response endpoint (55 Hz versus 60 Hz) and peak amplifier output (2,550 W versus 2,250 W); both agree on 1,275 W total burst output. Without the original MJF-212 datasheet to resolve the differences, response bounds and disputed peak output remain N/A. The 10 kΩ line-input value and the later A-revision's driver-load impedances are not treated as system speaker impedance. No sensitivity, Fs, voice-coil size, numeric response-point table, or polar/directivity dataset for the exact non-A model is asserted. Sources: https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 ; https://fohonline.com/newsroom/news/meyer-sound-releases-mjf-212-stage-monitor/ ; later but distinct MJF-212A manual for identity contrast only: https://cdn-docs.av-iq.com/instructions/Meyer%20Sound%20MJF-212A%20Operating%20Instructions.pdf. Round 29 (2026-10-19): driverCount 3 and active true verified from the SVC announcement (self-powered, three-channel amplifier).",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): SVC announcement — \"The MJF-212's high-frequency section comprises a 4in. diaphragm compression driver\"; \"A pair of high-power 12in. neodymium magnet cone drivers ... reproduces low frequencies\". Three transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same announcement — \"the MJF-212, a self-powered stage monitor loudspeaker\"; \"Each of the drivers is powered by one channel of a 3-channel class AB/H amplifier\". Built-in amplification."
     }
   },
   {
@@ -9937,16 +9941,18 @@
       "source": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "The Spendor SP-100 owner’s manual specifies one 300 mm Bextrene LF unit, one 160 mm midrange, and one 19 mm soft-dome HF unit (three drivers); 8 ohms nominal; 45 Hz–20 kHz ±3 dB; 90 dB at 1 W/1 m; and 125 W power handling (the manual does not label this RMS/continuous). The stored 11.81-inch woofer size is a direct unit conversion of the published 300 mm. Its tri-wire/external-amplifier connections identify a passive loudspeaker. The manual’s illustrative “typical loudspeaker response curve” is not a measured SP100 response dataset, so no points or directivity are imported. Source: https://manualmachine.com/spendor/sp100/2351828-owners-manual/.",
+    "notes": "The Spendor SP-100 owner’s manual specifies one 300 mm Bextrene LF unit, one 160 mm midrange, and one 19 mm soft-dome HF unit (three drivers); 8 ohms nominal; 45 Hz–20 kHz ±3 dB; 90 dB at 1 W/1 m; and 125 W power handling (the manual does not label this RMS/continuous). The stored 11.81-inch woofer size is a direct unit conversion of the published 300 mm. Its tri-wire/external-amplifier connections identify a passive loudspeaker. The manual’s illustrative “typical loudspeaker response curve” is not a measured SP100 response dataset, so no points or directivity are imported. Source: https://manualmachine.com/spendor/sp100/2351828-owners-manual/. Round 29 (2026-10-19): driverCount 3 and active false verified from the Spendor SP-100 owner's manual (manualmachine copy).",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Spendor SP-100 manual — \"Low Frequency unit Spendor 300mm Bextrene\", \"Mid Frequency unit Spendor 160mm Homopolymer Polypropylene\", \"High Frequency unit 19mm Soft Dome\"; crossover points 600 Hz, 4 kHz. Three transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same manual — the wiring chapter says \"Switch off your amplifier. Take the first cable pair. Connect the black terminal on the amplifier left channel to the black HF terminal on the left loudspeaker\", with bi-wiring and tri-wiring described. External amplifier drive only."
     }
   },
   {
@@ -14137,11 +14143,12 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "The cited third-party-hosted copy of KEF's Reference Series Model LS3/5A installation manual is explicitly headed 1994–98 and says KEF began manufacturing the complete BBC-licensed system in 1994; it identifies the KEF version, not a different licensee's LS3/5A. Its specification table gives a two-way closed-box bookshelf system, 11 Ω nominal impedance, 70 Hz–20 kHz ±3 dB at 2 m on the reference axis, and 82.5 dB at 1 m on the reference axis for pink noise at 2.83 V in anechoic conditions. The sensitivity keeps the published voltage reference; the simulator may normalize it using the separately sourced 11 Ω nominal impedance. The manual identifies B110/SP1228 bass-midrange and T27/SP1032 tweeter; the 25–75 W (into 8 Ω) amplifier requirement is a range, not speaker power handling, so scalar power remains N/A. The manual gives 95 dB maximum output on programme peaks; this is not a power rating. No individual driver diameter, free-air resonance, or voice-coil size is stated in this exact-model table, so those fields remain N/A. Source is a readable mirror of the exact KEF manual: https://manualsnet.com/kef/reference-series-model-ls3-5a.",
+    "notes": "The cited third-party-hosted copy of KEF's Reference Series Model LS3/5A installation manual is explicitly headed 1994–98 and says KEF began manufacturing the complete BBC-licensed system in 1994; it identifies the KEF version, not a different licensee's LS3/5A. Its specification table gives a two-way closed-box bookshelf system, 11 Ω nominal impedance, 70 Hz–20 kHz ±3 dB at 2 m on the reference axis, and 82.5 dB at 1 m on the reference axis for pink noise at 2.83 V in anechoic conditions. The sensitivity keeps the published voltage reference; the simulator may normalize it using the separately sourced 11 Ω nominal impedance. The manual identifies B110/SP1228 bass-midrange and T27/SP1032 tweeter; the 25–75 W (into 8 Ω) amplifier requirement is a range, not speaker power handling, so scalar power remains N/A. The manual gives 95 dB maximum output on programme peaks; this is not a power rating. No individual driver diameter, free-air resonance, or voice-coil size is stated in this exact-model table, so those fields remain N/A. Source is a readable mirror of the exact KEF manual: https://manualsnet.com/kef/reference-series-model-ls3-5a. Round 29 (2026-10-19): driverCount 2 verified from the KEF LS3/5A sheet (manualsnet copy); active stays unresolved because only \"Amplifier requirements 25-75W\" is printed.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): KEF LS3/5A sheet — \"This ultra compact system used the KEF B110 and T27 bass and treble units\"; \"Drive units B110 bass/midrange unit (SP1228), and T27 tweeter (SP1032)\". Two transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -14284,16 +14291,18 @@
       "source": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact-model Electro-Voice Sentry 500 data sheet (manufacturer-authored 1991 document; fetched copy hosted by Manualzz). It describes a passive two-way monitor with a 12-inch woofer and Super-Dome tweeter. Sensitivity is 96 dB at 1 W/1 m, averaged over 300–2,000 Hz in an anechoic environment. Continuous/long-term handling is 100 W at 8 ohms (400 W is the separate 10 ms short-term capacity); nominal impedance is 8 ohms and minimum is 6 ohms. The fetched text gives 40–18,000 Hz but renders its response tolerance as '+3 dB', not an unambiguous ±3 dB; frequency-response bounds therefore remain N/A rather than assuming a tolerance. No response points or polar/directivity data are digitized. Source: https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet.",
+    "notes": "Exact-model Electro-Voice Sentry 500 data sheet (manufacturer-authored 1991 document; fetched copy hosted by Manualzz). It describes a passive two-way monitor with a 12-inch woofer and Super-Dome tweeter. Sensitivity is 96 dB at 1 W/1 m, averaged over 300–2,000 Hz in an anechoic environment. Continuous/long-term handling is 100 W at 8 ohms (400 W is the separate 10 ms short-term capacity); nominal impedance is 8 ohms and minimum is 6 ohms. The fetched text gives 40–18,000 Hz but renders its response tolerance as '+3 dB', not an unambiguous ±3 dB; frequency-response bounds therefore remain N/A rather than assuming a tolerance. No response points or polar/directivity data are digitized. Source: https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet. Round 29 (2026-10-19): driverCount 2 and active false verified from the EV Sentry 500 data sheet (manualzz copy).",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): EV Sentry 500 data sheet — \"The low-frequency section of the Sentry 500 is a 12-inch direct radiator woofer\" and \"The Sentry 500 employs a Super-Dome tweeter\". Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same sheet — \"The integral crossover network is a 12-dB/octave type with crossover occurring at 1500 Hz\"; \"Bi-amplification is easily accomplished by removing the 'Bi-Amp Access Panel' ... Woofer and tweeter input connections are then made on the system input board\"; \"amplifiers as large as 400 watts can be used\". External amplifiers."
     }
   },
   {
@@ -27926,11 +27935,12 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact Sx100+ family specifications from Electro-Voice-authored manual 535581 Rev E (July 2006; fetched copy hosted by Manualzz). The manual lists Sx100+E and Sx100+WE finish variants; their shared published system specifications support the dataset's Sx100+ family record. Passive two-way system with a 12-inch low-frequency driver; 60 Hz–25 kHz response at -10 dB; 200 W continuous handling (800 W peak is not substituted); nominal impedance 8 ohms (5.6 ohms minimum). The manual lists sensitivity as 98 dB but gives no measurement reference in the fetched document, so referenced sensitivity remains N/A. No response or directivity graph points are digitized; unsupported Fs and voice-coil diameter remain N/A. Source: https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual. Both fetched Manualzz URLs (`https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual` and `https://manualzz.com/doc/3125205/electrovoice-sx100--user-s-manual`) return the same document 3125205, containing the July 2006, Part Number 535581 Rev E Sx100+ manual; the stored field source uses the hyphenated URL.",
+    "notes": "Exact Sx100+ family specifications from Electro-Voice-authored manual 535581 Rev E (July 2006; fetched copy hosted by Manualzz). The manual lists Sx100+E and Sx100+WE finish variants; their shared published system specifications support the dataset's Sx100+ family record. Passive two-way system with a 12-inch low-frequency driver; 60 Hz–25 kHz response at -10 dB; 200 W continuous handling (800 W peak is not substituted); nominal impedance 8 ohms (5.6 ohms minimum). The manual lists sensitivity as 98 dB but gives no measurement reference in the fetched document, so referenced sensitivity remains N/A. No response or directivity graph points are digitized; unsupported Fs and voice-coil diameter remain N/A. Source: https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual. Both fetched Manualzz URLs (`https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual` and `https://manualzz.com/doc/3125205/electrovoice-sx100--user-s-manual`) return the same document 3125205, containing the July 2006, Part Number 535581 Rev E Sx100+ manual; the stored field source uses the hyphenated URL. Round 29 (2026-10-19): driverCount 2 verified from the Sx100+ data sheet (manualzz copy); active stays unresolved because the sheet gives only power handling and connectors.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): EV Sx100+ data sheet — \"LF Transducer: 12\\\" (300mm)\" and \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"12-inch two-way\". Two transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

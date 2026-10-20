@@ -2,13 +2,13 @@
 
 Generated, not hand-edited. Regenerate with: `node scripts/research/make-research-queue.mjs`
 
-Records still needing research: **328** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 86 brands.
+Records still needing research: **324** of 657 (0 UNVERIFIED, 0 UNAVAILABLE) across 85 brands.
 
 A record is counted when at least one live provenance field is `CITED_IN_NOTES_UNCHECKED`, `UNSOURCED`, or missing; every record remains `PARTIALLY_VERIFIED`, so record-level status alone would understate the queue.
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **200** fields across **153** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **190** fields across **149** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -31,7 +31,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dbtechnologies-opera-405 | dB Technologies | Opera 405 (`dbtechnologies-opera-405`) | 2 | 0 | 0 |
 | elac-uni-fi-ub5 | ELAC | Uni-Fi UB5 (`elac-uni-fi-ub5`) | 2 | 0 | 0 |
 | electro-voice-evf-1152d-96 | Electro-Voice | EVF-1152D/96 (`electro-voice-evf-1152d-96`) | 2 | 0 | 0 |
-| electro-voice-sx100 | Electro-Voice | Sx100+ (`electro-voice-sx100`) | 2 | 0 | 0 |
 | electro-voice-tx1122 | Electro-Voice | TX1122 (`electro-voice-tx1122`) | 2 | 0 | 0 |
 | electro-voice-tx1122fm | Electro-Voice | TX1122FM (`electro-voice-tx1122fm`) | 2 | 0 | 0 |
 | electro-voice-tx1152 | Electro-Voice | TX1152 (`electro-voice-tx1152`) | 2 | 0 | 0 |
@@ -43,7 +42,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eminence-legend | Eminence | Legend V12 (`eminence-legend`) | 0 | 2 | 0 |
 | eV-eliminator | Electro-Voice | Eliminator (`eV-eliminator`) | 0 | 0 | 2 |
 | eV-sentry-100 | Electro-Voice | Sentry 100 (`eV-sentry-100`) | 0 | 2 | 0 |
-| eV-sentry-500 | Electro-Voice | Sentry 500 (`eV-sentry-500`) | 2 | 0 | 0 |
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
@@ -63,7 +61,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jl-audio-fathom-f113 | JL Audio | Fathom f113 (`jl-audio-fathom-f113`) | 0 | 2 | 0 |
 | kali-lp6 | Kali Audio | LP-6 (`kali-lp6`) | 2 | 0 | 0 |
 | kef-105 | KEF | Reference 105.2 (`kef-105`) | 2 | 0 | 0 |
-| kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 2 | 0 | 0 |
 | kef-reference-1 | KEF | Reference 1 (`kef-reference-1`) | 2 | 0 | 0 |
 | kef-reference-5 | KEF | Reference 5 (`kef-reference-5`) | 2 | 0 | 0 |
 | kicker-compvr | Kicker | CompVR 12 (43CVR124, 4Ω DVC) (`kicker-compvr`) | 0 | 2 | 0 |
@@ -97,7 +94,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | magico-m2 | Magico | M2 (`magico-m2`) | 0 | 2 | 0 |
 | magnepan-mg20 | Magnepan | MG 20.1 (`magnepan-mg20`) | 1 | 0 | 1 |
 | marshall-marshall-1936 | Marshall | Marshall 1936 (`marshall-marshall-1936`) | 2 | 0 | 0 |
-| meyer-mjf212 | Meyer Sound | MJF-212 (`meyer-mjf212`) | 2 | 0 | 0 |
 | meyer-sound-upj-1p | Meyer Sound | UPJ-1P (`meyer-sound-upj-1p`) | 0 | 2 | 0 |
 | meyer-ups1p | Meyer Sound | UPA-1P (`meyer-ups1p`) | 0 | 2 | 0 |
 | morel-virtus-602 | Morel | Virtus 602 (`morel-virtus-602`) | 0 | 0 | 2 |
@@ -117,9 +113,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sony-sony-ht-a3000 | Sony | Sony HT-A3000 (`sony-sony-ht-a3000`) | 0 | 0 | 2 |
 | sony-sony-ht-a5000 | Sony | Sony HT-A5000 (`sony-sony-ht-a5000`) | 0 | 0 | 2 |
 | sony-sony-ht-a7000 | Sony | Sony HT-A7000 (`sony-sony-ht-a7000`) | 0 | 1 | 1 |
-| spendor-sp100 | Spendor | SP100 (`spendor-sp100`) | 2 | 0 | 0 |
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 (`tannoy-monitor-gold`) | 0 | 2 | 0 |
-| tannoy-system-600 | Tannoy | System 600 (`tannoy-system-600`) | 2 | 0 | 0 |
 | totem-model1 | Totem Acoustic | Model 1 (`totem-model1`) | 1 | 0 | 1 |
 | vandersteen-2ce | Vandersteen | 2Ce Signature (`vandersteen-2ce`) | 1 | 0 | 1 |
 | vox-v212bn | Vox | V212BN (`vox-v212bn`) | 1 | 0 | 1 |
@@ -174,6 +168,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | danley-sh96 | Danley Sound Labs | SH-96 (`danley-sh96`) | 1 | 0 | 0 |
 | dutch-and-dutch-8c | Dutch & Dutch | 8c (`dutch-and-dutch-8c`) | 0 | 0 | 1 |
 | eaw-kf760 | EAW | KF760 (`eaw-kf760`) | 1 | 0 | 0 |
+| electro-voice-sx100 | Electro-Voice | Sx100+ (`electro-voice-sx100`) | 1 | 0 | 0 |
 | fender-bassman-410 | Fender | Bassman 410 (`fender-bassman-410`) | 0 | 0 | 1 |
 | focal-aria-926 | Focal | Aria 926 (`focal-aria-926`) | 1 | 0 | 0 |
 | focal-aria-936 | Focal | Aria 936 (`focal-aria-936`) | 1 | 0 | 0 |
@@ -209,6 +204,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | jensen-p10r | Jensen | P10R (`jensen-p10r`) | 0 | 1 | 0 |
 | jensen-p12n | Jensen | P12N (`jensen-p12n`) | 0 | 1 | 0 |
 | kef-blade-two-meta | KEF | Blade Two Meta (`kef-blade-two-meta`) | 1 | 0 | 0 |
+| kef-ls3-5a | KEF | LS3/5a (`kef-ls3-5a`) | 1 | 0 | 0 |
 | kef-ls50 | KEF | LS50 (`kef-ls50`) | 1 | 0 | 0 |
 | kef-q150 | KEF | Q150 (`kef-q150`) | 1 | 0 | 0 |
 | kef-q350 | KEF | Q350 (`kef-q350`) | 1 | 0 | 0 |

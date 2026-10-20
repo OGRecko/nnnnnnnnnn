@@ -177,6 +177,22 @@ re-read, so they now hold the third-party tier instead of a mislabelled MV:
 | olympica-nova-iii | 4 | "3 way"; H28 + M15 + 2 × W18XTR2-08 | false — same connection chapter |
 | olympica-nova-v | 5 | "3 way"; H28 + M15 + 3 × W18XTR2-12 | false — same connection chapter |
 
+## Batch 41 — aggregator-hosted manufacturer documents
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| tannoy-system-600 | 2 / false | "Dual Concentric 6.5\" driver"; HF and LF units serviced separately; terminals "must be connected to ... the power amplifier" | both promoted |
+| spendor-sp100 | 3 / false | "Low Frequency unit ... 300mm Bextrene", "Mid Frequency unit ... 160mm", "High Frequency unit 19mm Soft Dome"; amplifier wiring and tri-wiring instructions | both promoted |
+| kef-ls3-5a | 2 | "B110 bass/midrange unit (SP1228), and T27 tweeter (SP1032)" | driverCount promoted; active NOT_STATED ("Amplifier requirements 25-75W" only) |
+| meyer-mjf212 | 3 / true | "self-powered stage monitor"; 4 in compression driver + "a pair of ... 12in." cone drivers; "3-channel class AB/H amplifier" | both promoted |
+| eV-sentry-500 | 2 / false | "12-inch direct radiator woofer" + "Super-Dome tweeter"; integral crossover; bi-amp access panel; external amplifiers | both promoted |
+| electro-voice-sx100 | 2 | "LF Transducer: 12\" (300mm)", "HF Transducer: 1\" ... DH3" | driverCount promoted; active NOT_STATED |
+| dbtechnologies-opera-405 | — | specification table columns not recoverable; series heading says "professional active speaker" | NOT_EXTRACTED for both; values untouched |
+
+Ten fields promoted, seven URL outcomes recorded. Note the deliberate differences: KEF LS3/5A and EV Sx100+
+keep `active` unresolved because their sheets only print an amplifier-requirements figure, while the Tannoy
+and Spendor manuals give wiring instructions to an external amplifier.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -190,12 +206,12 @@ re-read, so they now hold the third-party tier instead of a mislabelled MV:
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **235** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **190** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **61** |
+| `THIRD_PARTY_VERIFIED` | 24 | **71** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **200 / 153 URLs** |
-| records with backlog | 336 of 657 | **328 of 657** |
+| queue items | 212 / 157 URLs | **190 / 149 URLs** |
+| records with backlog | 336 of 657 | **324 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
