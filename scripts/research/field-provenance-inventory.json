@@ -8,14 +8,14 @@
     "byStoredStatus": {
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
-      "CITED_IN_NOTES_UNCHECKED": 225,
+      "CITED_IN_NOTES_UNCHECKED": 221,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "THIRD_PARTY_VERIFIED": 71,
+      "THIRD_PARTY_VERIFIED": 75,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
-    "citedUncheckedUrls": 170
+    "citedUncheckedUrls": 169
   },
   "entries": [
     {
@@ -27,14 +27,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: ",
+      "note": "Round 29 (2026-10-19): JBL 4310 manual — \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure\"; the component section describes the 12-inch woofer, the 5-inch midrange transducer and the 1-3/4-inch ultra-high frequency transducer. Three transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-4310",
@@ -26235,14 +26235,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": "Round 21 (2026-10-16): Datasheet lists two transducers: EVS15-SF 15 in LF and DH3 1 in exit compression driver. Supports 2; not promoted because the only host is a retailer (owner decision needed).",
+      "note": "Round 29 (2026-10-19): EV Zx4 data sheet — \"LF Transducer: EVS15-SF, 15 in (381mm) Driver\" and \"HF Transducer: DH3, 1 in (25.4mm) exit Compression Driver\"; crossover 1.5 kHz. Two transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "electro-voice-zx4",
@@ -26865,14 +26865,14 @@
       "field": "active",
       "value": false,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1122 12\\\" 2-Way 90x50 500W Passive Loudspeaker, Black\", and the specification list prints \"Internal Crossover: Yes\" with \"Nominal Impedance (Passive): 8 Ohms\". Explicit passive wording.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "electro-voice-tx1122",
@@ -26955,14 +26955,14 @@
       "field": "driverCount",
       "value": 2,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "sourceType": null,
+      "sourceType": "THIRD_PARTY",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Full Compass TX1122 listing — \"LF Transducer: SMX2120\" and \"HF Transducer: DH3\"; the overview calls them \"EV's SMX woofers\" driving a two-way system. Two transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "electro-voice-tx1122fm",

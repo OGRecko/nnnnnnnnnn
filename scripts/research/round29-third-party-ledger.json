@@ -667,6 +667,58 @@
       "evidence": "Round 29 (2026-10-19): EV Sx100+ data sheet — \"LF Transducer: 12\\\" (300mm)\" and \"HF Transducer: 1\\\" (25mm) exit DH3 Comp. Driver\"; \"12-inch two-way\". Two transducers.",
       "whyNotManufacturer": "The Electro-Voice data sheet is served from manualzz.com, a document aggregator, not from an Electro-Voice host.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "electro-voice-tx1122",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
+      "document": "Full Compass listing, 'Electro-Voice Tour X TX1122 12\" 2-Way 90x50 500W Passive Loudspeaker, Black', MFR # F.01U.302.272",
+      "evidence": "Round 29 (2026-10-19): Full Compass TX1122 listing — \"LF Transducer: SMX2120\" and \"HF Transducer: DH3\"; the overview calls them \"EV's SMX woofers\" driving a two-way system. Two transducers.",
+      "whyNotManufacturer": "The listing is served from fullcompass.com, a retailer, not from an Electro-Voice host; the manufacturer page for this legacy model was not opened.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "electro-voice-tx1122",
+      "field": "active",
+      "valueBefore": false,
+      "valueAfter": false,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
+      "document": "Full Compass listing, 'Electro-Voice Tour X TX1122 12\" 2-Way 90x50 500W Passive Loudspeaker, Black', MFR # F.01U.302.272",
+      "evidence": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1122 12\\\" 2-Way 90x50 500W Passive Loudspeaker, Black\", and the specification list prints \"Internal Crossover: Yes\" with \"Nominal Impedance (Passive): 8 Ohms\". Explicit passive wording.",
+      "whyNotManufacturer": "The listing is served from fullcompass.com, a retailer, not from an Electro-Voice host; the manufacturer page for this legacy model was not opened.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "driverCount",
+      "valueBefore": 2,
+      "valueAfter": 2,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "THIRD_PARTY",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "document": "Electro-Voice Zx4 engineering data sheet, Part Number 38110416 Rev D (12/2010)",
+      "evidence": "Round 29 (2026-10-19): EV Zx4 data sheet — \"LF Transducer: EVS15-SF, 15 in (381mm) Driver\" and \"HF Transducer: DH3, 1 in (25.4mm) exit Compression Driver\"; crossover 1.5 kHz. Two transducers.",
+      "whyNotManufacturer": "The data sheet is manufacturer-authored (Part Number 38110416 Rev D) but is served from fullcompass.com, a retailer, so the manufacturer-host requirement is not met.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "jbl-4310",
+      "field": "driverCount",
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "REPUTABLE_DATABASE",
+      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "document": "JBL Professional Series Model 4310 control room monitor manual (architectural specifications)",
+      "evidence": "Round 29 (2026-10-19): JBL 4310 manual — \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure\"; the component section describes the 12-inch woofer, the 5-inch midrange transducer and the 1-3/4-inch ultra-high frequency transducer. Three transducers.",
+      "whyNotManufacturer": "The JBL manual is served from tile.loc.gov (Library of Congress), an archive rather than a JBL host.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8

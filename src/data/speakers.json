@@ -60,12 +60,12 @@
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact JBL Professional Series Model 4310 Control Room Monitor manual, hosted by the Library of Congress. It specifies 45 Hz–15 kHz ±3 dB, 50 W program capacity, 8-ohm impedance, a 12-inch LF driver, and three transducers. Sensitivity is quoted as 42 dB at 30 ft with 1 mW, EIA averaged over 500–2500 Hz; that nonstandard reference is preserved verbatim and must not be normalized or treated as 1 W/1 m. The manual has only partial response-table/graph coverage and no complete exact numeric response-point series, so no curve is imported. Its dispersion/off-axis information is retained as a directivity lead, not encoded as a complete polar. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
+    "notes": "Exact JBL Professional Series Model 4310 Control Room Monitor manual, hosted by the Library of Congress. It specifies 45 Hz–15 kHz ±3 dB, 50 W program capacity, 8-ohm impedance, a 12-inch LF driver, and three transducers. Sensitivity is quoted as 42 dB at 30 ft with 1 mW, EIA averaged over 500–2500 Hz; that nonstandard reference is preserved verbatim and must not be normalized or treated as 1 W/1 m. The manual has only partial response-table/graph coverage and no complete exact numeric response-point series, so no curve is imported. Its dispersion/off-axis information is retained as a directivity lead, not encoded as a complete polar. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf. Round 29 (2026-10-19): driverCount 3 verified from the JBL 4310 manual (Library of Congress copy); active stays unresolved because the manual prints only a power-capacity rating and a dividing network.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: "
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): JBL 4310 manual — \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure\"; the component section describes the 12-inch woofer, the 5-inch midrange transducer and the 1-3/4-inch ultra-high frequency transducer. Three transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -27709,13 +27709,12 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact-model Electro-Voice ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (December 2010): 60 Hz–20 kHz (-3 dB), 42 Hz–20 kHz (-10 dB), 100 dB axial sensitivity at 1 W/1 m, 400 W continuous / 1600 W peak handling, 8 Ω nominal (6.5 Ω minimum), EVS15-SF 15-inch LF driver and DH3 HF compression driver, 90° × 50° nominal coverage, 132 dB calculated maximum SPL, 42 Hz recommended high-pass, and 1.5 kHz crossover. The datasheet labels the frequency-response and axial-sensitivity specifications as half-space measurements. The stored curve is the complete 28-row manufacturer-published half-space table, in its published SPL units; its 1 kHz value (99 dB) is not substituted for the separate 100 dB sensitivity specification. The sheet also contains numerical beamwidth and directivity-index/factor tables, but no per-speaker directivity payload is imported because the current speaker-record schema/audit does not support that representation; nominal coverage is context only. Source: https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf.",
+    "notes": "Exact-model Electro-Voice ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (December 2010): 60 Hz–20 kHz (-3 dB), 42 Hz–20 kHz (-10 dB), 100 dB axial sensitivity at 1 W/1 m, 400 W continuous / 1600 W peak handling, 8 Ω nominal (6.5 Ω minimum), EVS15-SF 15-inch LF driver and DH3 HF compression driver, 90° × 50° nominal coverage, 132 dB calculated maximum SPL, 42 Hz recommended high-pass, and 1.5 kHz crossover. The datasheet labels the frequency-response and axial-sensitivity specifications as half-space measurements. The stored curve is the complete 28-row manufacturer-published half-space table, in its published SPL units; its 1 kHz value (99 dB) is not substituted for the separate 100 dB sensitivity specification. The sheet also contains numerical beamwidth and directivity-index/factor tables, but no per-speaker directivity payload is imported because the current speaker-record schema/audit does not support that representation; nominal coverage is context only. Source: https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf. Round 29 (2026-10-19): driverCount 2 verified from the Zx4 data sheet; active stays unresolved because the sheet gives power handling and Speakon connectors but no passive statement or amplifier-connection instruction.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "sourceType": null,
-      "note": "Round 21 (2026-10-16): Datasheet lists two transducers: EVS15-SF 15 in LF and DH3 1 in exit compression driver. Supports 2; not promoted because the only host is a retailer (owner decision needed).",
-      "checkedSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf"
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): EV Zx4 data sheet — \"LF Transducer: EVS15-SF, 15 in (381mm) Driver\" and \"HF Transducer: DH3, 1 in (25.4mm) exit Compression Driver\"; crossover 1.5 kHz. Two transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -28415,16 +28414,18 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "The fetched Full Compass listing identifies the exact TX1122 MFR part F.01U.302.272 and specifies 97 dB sensitivity (1 W/1 m), 500 W continuous handling, 8-ohm nominal impedance, a 12-inch LF transducer, and passive two-way operation. Its page links the EV-authored TX1122 sheet LIT000175 Rev 3, which identifies the earlier part PRD000138-001. Because the database row does not identify which TX1122 part/revision is intended and a directly retrievable EDS for F.01U.302.272 was not obtained, response limits and minimum impedance remain N/A rather than merging the legacy part's values. Published 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black.",
+    "notes": "The fetched Full Compass listing identifies the exact TX1122 MFR part F.01U.302.272 and specifies 97 dB sensitivity (1 W/1 m), 500 W continuous handling, 8-ohm nominal impedance, a 12-inch LF transducer, and passive two-way operation. Its page links the EV-authored TX1122 sheet LIT000175 Rev 3, which identifies the earlier part PRD000138-001. Because the database row does not identify which TX1122 part/revision is intended and a directly retrievable EDS for F.01U.302.272 was not obtained, response limits and minimum impedance remain N/A rather than merging the legacy part's values. Published 90° x 50° coverage is descriptive only. No response points or directivity data are imported. Source: https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black. Round 29 (2026-10-19): driverCount 2 and active false verified from the Full Compass listing, whose title reads \"Passive Loudspeaker\" and whose spec list prints \"Internal Crossover: Yes\".",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): Full Compass TX1122 listing — \"LF Transducer: SMX2120\" and \"HF Transducer: DH3\"; the overview calls them \"EV's SMX woofers\" driving a two-way system. Two transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "sourceType": null
+      "sourceType": "THIRD_PARTY",
+      "note": "Round 29 (2026-10-19): same listing — the product name is \"Electro-Voice Tour X TX1122 12\\\" 2-Way 90x50 500W Passive Loudspeaker, Black\", and the specification list prints \"Internal Crossover: Yes\" with \"Nominal Impedance (Passive): 8 Ohms\". Explicit passive wording."
     }
   },
   {

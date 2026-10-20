@@ -5,18 +5,18 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 190,
-  "assessedItems": 190,
+  "uncheckedItems": 186,
+  "assessedItems": 186,
   "unassessedItems": 0,
-  "uniqueSourceUrls": 149,
+  "uniqueSourceUrls": 148,
   "urlsByStatus": {
-    "CHECKED_CONFIRMED": 7,
+    "CHECKED_CONFIRMED": 6,
     "CHECKED_PARTIAL": 131,
     "INACCESSIBLE": 11
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_CONFIRMED": 14,
-    "CHECKED_PARTIAL": 158,
+    "CHECKED_CONFIRMED": 12,
+    "CHECKED_PARTIAL": 156,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -24,7 +24,7 @@
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 132
+      "count": 131
     },
     {
       "field": "active",
@@ -42,7 +42,7 @@
       "field": "active",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 22
+      "count": 23
     },
     {
       "field": "active",
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 58
+      "count": 55
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 29
+      "count": 32
     },
     {
       "field": "driverCount",
@@ -356,6 +356,7 @@
     "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
     "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
     "https://www.focal.com/products/alpha-65-evo",
+    "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
     "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
     "https://www.genelec.com/1032c",
     "https://www.genelec.com/1237a",
@@ -823,41 +824,6 @@
       "evidence": "6301B owner's manual: cover \"PERSONAL MONITOR Self-Powered\"; specifications \"Speaker section Type 10cm full range single cone\"; \"Amplifier section (EXT SP jack) Output Higher than 10W RMS (8Ω load)\"."
     },
     {
-      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "host": "tile.loc.gov",
-      "status": "CHECKED_CONFIRMED",
-      "items": 2,
-      "records": [
-        "jbl-4310"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-4310",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Round 29 (2026-10-19): dividing network inside the enclosure plus \"driven by a 50 Watt sine wave signal\" and \"50 watts program material\" establish a passive system; no amplifier is described. Promotion blocked by the same host policy."
-        },
-        {
-          "record": "jbl-4310",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Round 29 (2026-10-19): manual states three direct-radiator transducers (12\" LF, 5\" MF, 1-3/4\" UHF). Host policy (tile.loc.gov is NOT_MANUFACTURER) still blocks promotion; status stays CITED_IN_NOTES_UNCHECKED."
-        }
-      ],
-      "checkedRound": 29,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Architectural specification: \"The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure.\" Components: 12\" woofer (1500 Hz crossover), 5\" midrange, 1-3/4\" ultra-high transducer. Passive wording: the system is \"driven by a 50 Watt sine wave signal\", rated \"50 watts program material\", and the dividing network sits inside the enclosure; no amplifier or mains input is described. Round 12's \"passive/active not stated\" reading is superseded by this quote."
-    },
-    {
       "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
       "host": "valueelectronics.com",
       "status": "CHECKED_PARTIAL",
@@ -1001,41 +967,6 @@
       "evidence": "The server returned an IIS 404 page for the stored (truncated) URL. The complete brochure URL ending \"(1977).pdf\" was also requested and returned the same 404; no document was served for either form."
     },
     {
-      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-zx4"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-zx4",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Data sheet shows a passive crossover block diagram and 8-ohm input with no amplifier; dealer host cannot promote."
-        },
-        {
-          "record": "electro-voice-zx4",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Data sheet names an EVS15-SF 15-inch LF transducer and a DH3 1-inch exit compression driver: 2 transducers; dealer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Data sheet: \"EVS15-SF 15\" LF Transducer\"; \"DH3 1.25\" Voice Coil, 1\" Exit Compression Driver\"; \"Nominal Impedance: 8 Ohms\"; block diagram shows a passive LPF/HPF crossover and limiter with no amplifier."
-    },
-    {
       "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
       "host": "www.fullcompass.com",
       "status": "CHECKED_PARTIAL",
@@ -1069,41 +1000,6 @@
         9
       ],
       "evidence": "Brochure: \"The 8Ω, 2-way passive design requires a single amplifier channel\"; \"Components LF 1x 15\" (38cm) 6Ω driver HF 1x 2\" throat, 3\" titanium diaphragm\"; \"Crossover Frequencies 900Hz Passive or Active (internally switchable)\"; \"Nominal Impedance Passive 8 Ω\"."
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "host": "www.fullcompass.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "electro-voice-tx1122"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-tx1122",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list gives \"Nominal Impedance (Passive)\" and an internal crossover; retailer host cannot promote."
-        },
-        {
-          "record": "electro-voice-tx1122",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Dealer list names an SMX2120 LF transducer and a DH3 HF transducer (2 transducers); retailer host cannot promote."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Dealer specification list: \"LF Transducer: SMX2120\"; \"HF Transducer: DH3\"; \"Nominal Impedance (Passive): 8 Ohms\"; \"Internal Crossover: Yes\"; page title \"500W Passive Loudspeaker\"."
     },
     {
       "url": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
@@ -2901,15 +2797,16 @@
           "field": "active",
           "value": false,
           "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The page lists components and power handling but never states passive/active or a built-in amplifier."
+          "recordedNote": "Round 29: the page never states passive; the value stays unverified."
         }
       ],
-      "checkedRound": 25,
+      "checkedRound": 29,
       "checkedDate": "2026-10-19",
       "chunksOpened": [
-        0
+        0,
+        1
       ],
-      "evidence": "Page specification text: \"Components: 300-mm (12-in) LF loudspeaker; 130-mm (5-in) midrange; 36-mm (1.4-in) HF direct radiator\"; 75 W continuous program; 8 Ω; 45 Hz-15 kHz ±3 dB."
+      "evidence": "\"300-mm (12-in), long excursion, low frequency loudspeaker; 130-mm (5-in) midrange loudspeaker; 36-mm (1.4-in) high frequency direct radiator\"; \"Power Capacity 75 W continuous program\"; no passive wording."
     },
     {
       "url": "https://jblpro.com/en-US/site_elements/4412-information",
@@ -3589,6 +3486,34 @@
       "evidence": "Technical information, \"Driver complement\": \"Two (2) 1\\\" (2.54 cm) dome tweeters configured in an array\" and \"One (1) 7\\\" (17.8 cm) high-excursion woofer\"."
     },
     {
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "host": "tile.loc.gov",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "jbl-4310"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "jbl-4310",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: power capacity and dividing network only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "\"three direct-radiator transducers and frequency dividing network\"; 12 in woofer, 5 in midrange, 1-3/4 in ultra-high transducer; \"Power capacity 50 watts program\"."
+    },
+    {
       "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
       "host": "trianglehifi.com",
       "status": "CHECKED_PARTIAL",
@@ -3830,6 +3755,33 @@
         0
       ],
       "evidence": "Spec sheet: \"The Mackie Designs SRM450 is a full range, portable, active loudspeaker system\"; \"Two amplifiers independently power a high precision 12-inch professional woofer and 1.75-inch diaphragm titanium compression driver\"; \"Low Frequency Section Number of Drivers 1\"."
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "host": "www.fullcompass.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "electro-voice-zx4"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "electro-voice-zx4",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: no passive wording or amplifier-connection instruction."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"EVS15-SF, 15 in (381mm) Driver\"; \"DH3, 1 in (25.4mm) exit Compression Driver\"; block diagram shows \"HPF PASSIVE LIMITER\"; Speakon NL4 inputs; no passive sentence."
     },
     {
       "url": "https://www.hifi-guide.com/loudspeaker/bowers-wilkins-801-matrix/",

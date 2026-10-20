@@ -1,22 +1,17 @@
 {
   "schema": "field-provenance-url-queue/v2",
   "note": "Live records are the audit queue. Entries labelled ARCHIVED come from archived records; they are recorded so the inventory is complete, but archived products are not restored and are not part of the research queue.",
-  "liveOutstandingFields": 190,
+  "liveOutstandingFields": 186,
   "archivedOutstandingFields": 35,
-  "liveUrls": 149,
+  "liveUrls": 148,
   "archivedOnlyUrls": 21,
   "urls": [
     {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "outstandingFields": 4,
-      "liveOutstandingFields": 2,
+      "outstandingFields": 3,
+      "liveOutstandingFields": 1,
       "archivedOutstandingFields": 2,
       "fields": [
-        {
-          "record": "jbl-4310",
-          "field": "driverCount",
-          "location": "LIVE"
-        },
         {
           "record": "jbl-4310",
           "field": "active",
@@ -503,42 +498,6 @@
         {
           "record": "legacy-pio-6",
           "field": "active",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "electro-voice-zx4",
-          "field": "active",
-          "location": "LIVE"
-        },
-        {
-          "record": "electro-voice-zx4",
-          "field": "driverCount",
-          "location": "LIVE"
-        }
-      ]
-    },
-    {
-      "url": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
-      "outstandingFields": 2,
-      "liveOutstandingFields": 2,
-      "archivedOutstandingFields": 0,
-      "fields": [
-        {
-          "record": "electro-voice-tx1122",
-          "field": "active",
-          "location": "LIVE"
-        },
-        {
-          "record": "electro-voice-tx1122",
-          "field": "driverCount",
           "location": "LIVE"
         }
       ]
@@ -1771,6 +1730,19 @@
       "fields": [
         {
           "record": "legacy-bose-7",
+          "field": "active",
+          "location": "LIVE"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "outstandingFields": 1,
+      "liveOutstandingFields": 1,
+      "archivedOutstandingFields": 0,
+      "fields": [
+        {
+          "record": "electro-voice-zx4",
           "field": "active",
           "location": "LIVE"
         }

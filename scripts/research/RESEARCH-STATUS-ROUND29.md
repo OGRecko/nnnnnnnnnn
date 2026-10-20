@@ -193,6 +193,19 @@ Ten fields promoted, seven URL outcomes recorded. Note the deliberate difference
 keep `active` unresolved because their sheets only print an amplifier-requirements figure, while the Tannoy
 and Spendor manuals give wiring instructions to an external amplifier.
 
+## Batch 42 — two Electro-Voice documents on a retailer host, one archive copy
+
+| Record | Fields | Quote | Outcome |
+| --- | --- | --- | --- |
+| electro-voice-tx1122 | 2 / false | title "… 500W Passive Loudspeaker, Black"; "LF Transducer: SMX2120", "HF Transducer: DH3"; "Internal Crossover: Yes" | both promoted |
+| electro-voice-zx4 | 2 | "LF Transducer: EVS15-SF, 15 in (381mm) Driver", "HF Transducer: DH3, 1 in (25.4mm) exit Compression Driver" | driverCount promoted; active NOT_STATED (only power handling, Speakon connectors and an "HPF PASSIVE LIMITER" block) |
+| jbl-4310 | 3 | "The loudspeaker system shall consist of three direct-radiator transducers and frequency dividing network installed in a tube-ported enclosure" | driverCount promoted (`REPUTABLE_DATABASE`, Library of Congress copy); active NOT_STATED ("Power capacity 50 watts program" only) |
+| jbl-4311 | — | "300-mm (12-in) … low frequency loudspeaker; 130-mm (5-in) midrange loudspeaker; 36-mm (1.4-in) high frequency direct radiator" | driverCount already `MANUFACTURER_VERIFIED`; active NOT_STATED, unchanged |
+
+Four fields promoted, four URL outcomes recorded. The contrast is deliberate: the TX1122 listing prints the
+word "Passive", so `active: false` is promotable, while the Zx4 sheet and the two JBL documents only print
+power-handling and crossover data, which the policy excludes.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -206,12 +219,12 @@ and Spendor manuals give wiring instructions to an external amplifier.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **190** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **186** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **71** |
+| `THIRD_PARTY_VERIFIED` | 24 | **75** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **190 / 149 URLs** |
-| records with backlog | 336 of 657 | **324 of 657** |
+| queue items | 212 / 157 URLs | **186 / 148 URLs** |
+| records with backlog | 336 of 657 | **323 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
 values were written by an audit script and no test was relaxed.
