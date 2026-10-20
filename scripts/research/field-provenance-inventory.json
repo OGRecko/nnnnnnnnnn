@@ -9,8 +9,8 @@
       "MANUFACTURER_VERIFIED": 2403,
       "NO_PROVENANCE": 363,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "CITED_IN_NOTES_UNCHECKED": 197,
-      "THIRD_PARTY_VERIFIED": 99,
+      "CITED_IN_NOTES_UNCHECKED": 195,
+      "THIRD_PARTY_VERIFIED": 101,
       "UNSOURCED": 71,
       "MEASUREMENT_VERIFIED": 1
     },
@@ -9441,14 +9441,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\" Three drive units.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "harbeth-shl5",
@@ -10017,14 +10017,14 @@
       "field": "driverCount",
       "value": 4,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
-      "sourceType": null,
+      "sourceType": "REPUTABLE_DATABASE",
       "reference": null,
-      "note": null,
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way dynamic, acoustic-suspension loudspeaker. Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III).\" Four drive units for the A/III.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "snell-typeAIII",

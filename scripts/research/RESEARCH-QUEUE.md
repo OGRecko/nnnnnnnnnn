@@ -8,7 +8,7 @@ A record is counted when at least one live provenance field is `CITED_IN_NOTES_U
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **162** fields across **136** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **160** fields across **136** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **71** fields (no source recorded).
 - NO_PROVENANCE: **168** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL). The URL queue labels every entry LIVE or ARCHIVED; archived records are inventoried for completeness but are not restored or re-researched, so they are never part of this live queue.
@@ -37,7 +37,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eV-sx300 | Electro-Voice | SX300 (`eV-sx300`) | 0 | 0 | 2 |
 | eve-audio-sc207 | Eve Audio | SC207 (`eve-audio-sc207`) | 0 | 2 | 0 |
 | focal-solo6 | Focal | Solo6 Be (`focal-solo6`) | 0 | 2 | 0 |
-| harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 2 | 0 | 0 |
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM (`ik-multimedia-iloud-mtm`) | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor (`iloud-micro-monitor`) | 0 | 2 | 0 |
 | infinity-irs-v | Infinity | IRS V (`infinity-irs-v`) | 0 | 0 | 2 |
@@ -90,7 +89,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | proac-response-d2 | ProAc | Response D2 (`proac-response-d2`) | 1 | 0 | 1 |
 | qsc-ad-c4t | QSC | AD-C4T (`qsc-ad-c4t`) | 0 | 0 | 2 |
 | quad-esl-63 | Quad | ESL-63 (`quad-esl-63`) | 0 | 0 | 2 |
-| snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 2 | 0 | 0 |
 | sonus-faber-guarneri | Sonus faber | Guarneri Evolution (`sonus-faber-guarneri`) | 1 | 0 | 1 |
 | sonus-faber-olympica3 | Sonus faber | Olympica III (`sonus-faber-olympica3`) | 1 | 0 | 1 |
 | sonus-faber-sonetto-iii | Sonus Faber | Sonetto III (`sonus-faber-sonetto-iii`) | 0 | 0 | 2 |
@@ -170,6 +168,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | focal-sopra-n-3 | Focal | Sopra N°3 (`focal-sopra-n-3`) | 1 | 0 | 0 |
 | focal-twin6 | Focal | Twin6 Be (`focal-twin6`) | 0 | 1 | 0 |
 | funktion-one-res2 | Funktion-One | Res 2 (`funktion-one-res2`) | 1 | 0 | 0 |
+| harbeth-shl5 | Harbeth | Super HL5 Plus (`harbeth-shl5`) | 1 | 0 | 0 |
 | hertz-cento-ck-165 | Hertz | Cento CK 165 (`hertz-cento-ck-165`) | 0 | 0 | 1 |
 | hertz-dieci-dsk-165-3 | Hertz | Dieci DSK 165.3 (`hertz-dieci-dsk-165-3`) | 0 | 0 | 1 |
 | hertz-mille-pro-mpk-165-3 | Hertz | Mille Pro MPK 165.3 (`hertz-mille-pro-mpk-165-3`) | 0 | 0 | 1 |
@@ -308,6 +307,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | rockford-fosgate-r1675x2 | Rockford Fosgate | R1675X2 (`rockford-fosgate-r1675x2`) | 0 | 0 | 1 |
 | rockford-fosgate-t1650 | Rockford Fosgate | T1650 (`rockford-fosgate-t1650`) | 0 | 0 | 1 |
 | rockford-fosgate-t1650-s | Rockford Fosgate | T1650-S (`rockford-fosgate-t1650-s`) | 0 | 0 | 1 |
+| snell-typeAIII | Snell Acoustics | Type A/III (`snell-typeAIII`) | 1 | 0 | 0 |
 | sonance-vp86 | Sonance | Visual Performance VP86 (`sonance-vp86`) | 0 | 1 | 0 |
 | sonos-play1 | Sonos | Play:1 (`sonos-play1`) | 0 | 0 | 1 |
 | sonus-faber-lumina-ii | Sonus Faber | Lumina II (`sonus-faber-lumina-ii`) | 1 | 0 | 0 |

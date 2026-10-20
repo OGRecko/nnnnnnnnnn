@@ -17024,33 +17024,64 @@
     },
     {
       "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
-      "round": 23,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
-      "chunksTotal": null,
+      "chunksTotal": 2,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Stereophile Harbeth Super HL5 plus loudspeaker specifications sidebar",
-      "evidence": "Specifications: \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\"",
+      "evidence": "\"Three-way, reflex-loaded, stand-mounted loudspeaker\"; \"0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) ... mid/woofer\"; no passive wording.",
       "fieldResults": [
         {
           "record": "harbeth-shl5",
           "field": "driverCount",
           "value": 3,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Specification sidebar of a third-party review (Stereophile) reproduces the model's drive-unit count, but a third-party host cannot promote a field to MANUFACTURER_VERIFIED; recorded for the audit trail only."
+          "outcome": "PROMOTED",
+          "note": "Round 29: two tweeters + mid/woofer."
         },
         {
           "record": "harbeth-shl5",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "Sidebar describes a passive stand-mounted loudspeaker but uses no explicit passive/powered wording; third-party host could not promote in any case."
+          "note": "Round 29: impedance and sensitivity only."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 23,
+          "entry": {
+            "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+            "round": 23,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": null,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Stereophile Harbeth Super HL5 plus loudspeaker specifications sidebar",
+            "evidence": "Specifications: \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\"",
+            "fieldResults": [
+              {
+                "record": "harbeth-shl5",
+                "field": "driverCount",
+                "value": 3,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Specification sidebar of a third-party review (Stereophile) reproduces the model's drive-unit count, but a third-party host cannot promote a field to MANUFACTURER_VERIFIED; recorded for the audit trail only."
+              },
+              {
+                "record": "harbeth-shl5",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "Sidebar describes a passive stand-mounted loudspeaker but uses no explicit passive/powered wording; third-party host could not promote in any case."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
@@ -17145,33 +17176,64 @@
     },
     {
       "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
-      "round": 25,
+      "round": 29,
       "status": "CHECKED_PARTIAL",
       "chunksOpened": [
         0
       ],
       "chunksTotal": 2,
       "checkedDate": "2026-10-19",
-      "sourceClass": "NON_MANUFACTURER_HOST",
-      "document": "Stereophile Snell Type A loudspeaker specifications",
-      "evidence": "Specifications sidebar: \"Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III)\"; 86 dB/W/m; 4 ohms; three-way acoustic-suspension.",
+      "evidence": "\"Three-way dynamic, acoustic-suspension loudspeaker\"; \"10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III)\"; no passive wording.",
       "fieldResults": [
         {
           "record": "snell-typeAIII",
           "field": "driverCount",
           "value": 4,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "Woofer, midrange, tweeter and rear-firing supertweeter = 4 transducers; third-party review page."
+          "outcome": "PROMOTED",
+          "note": "Round 29: woofer, midrange, tweeter, supertweeter."
         },
         {
           "record": "snell-typeAIII",
           "field": "active",
           "value": false,
           "outcome": "NOT_STATED",
-          "note": "The sidebar gives sensitivity and impedance but no passive/active statement."
+          "note": "Round 29: impedance and sensitivity only."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "snapshotOfRound": 25,
+          "entry": {
+            "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+            "round": 25,
+            "status": "CHECKED_PARTIAL",
+            "chunksOpened": [
+              0
+            ],
+            "chunksTotal": 2,
+            "checkedDate": "2026-10-19",
+            "sourceClass": "NON_MANUFACTURER_HOST",
+            "document": "Stereophile Snell Type A loudspeaker specifications",
+            "evidence": "Specifications sidebar: \"Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III)\"; 86 dB/W/m; 4 ohms; three-way acoustic-suspension.",
+            "fieldResults": [
+              {
+                "record": "snell-typeAIII",
+                "field": "driverCount",
+                "value": 4,
+                "outcome": "SUPPORTED_NOT_PROMOTED",
+                "note": "Woofer, midrange, tweeter and rear-firing supertweeter = 4 transducers; third-party review page."
+              },
+              {
+                "record": "snell-typeAIII",
+                "field": "active",
+                "value": false,
+                "outcome": "NOT_STATED",
+                "note": "The sidebar gives sensitivity and impedance but no passive/active statement."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",

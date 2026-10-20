@@ -5,8 +5,8 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 657,
-  "uncheckedItems": 162,
-  "assessedItems": 162,
+  "uncheckedItems": 160,
+  "assessedItems": 160,
   "unassessedItems": 0,
   "uniqueSourceUrls": 136,
   "urlsByStatus": {
@@ -16,7 +16,7 @@
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 136,
+    "CHECKED_PARTIAL": 134,
     "INACCESSIBLE": 18
   },
   "statusCounts": [
@@ -54,7 +54,7 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 43
+      "count": 41
     },
     {
       "field": "driverCount",
@@ -72,7 +72,7 @@
       "field": "driverCount",
       "status": "THIRD_PARTY_VERIFIED",
       "value": "value",
-      "count": 44
+      "count": 46
     },
     {
       "field": "driverCount",
@@ -1295,41 +1295,6 @@
       "evidence": "Review: \"the newest version of KEF's Uni-Q driver array: a 1\\\" aluminum-dome tweeter nestled into the center of an ideally shaped 5\\\" aluminum cone for the midrange\"; \"Below the Uni-Q, and crossed over to it at 350Hz, is a 6.5\\\" woofer\"."
     },
     {
-      "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
-      "host": "www.stereophile.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "harbeth-shl5"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "harbeth-shl5",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "Sidebar describes a passive stand-mounted loudspeaker but uses no explicit passive/powered wording; third-party host could not promote in any case."
-        },
-        {
-          "record": "harbeth-shl5",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Specification sidebar of a third-party review (Stereophile) reproduces the model's drive-unit count, but a third-party host cannot promote a field to MANUFACTURER_VERIFIED; recorded for the audit trail only."
-        }
-      ],
-      "checkedRound": 23,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specifications: \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\""
-    },
-    {
       "url": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
       "host": "www.stereophile.com",
       "status": "CHECKED_PARTIAL",
@@ -1363,41 +1328,6 @@
         0
       ],
       "evidence": "Specifications sidebar: \"Three-way, reflex-loaded, floorstanding loudspeaker. Drive-units: Uni-Q driver array with 1\\\" (25mm) vented aluminum-dome tweeter, 5\\\" (125mm) aluminum-cone midrange unit, four 6.5\\\" (165mm) aluminum-cone woofers\"; 90 dB/2.83V/m; 8 ohms; 50-400 W recommended."
-    },
-    {
-      "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
-      "host": "www.stereophile.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "snell-typeAIII"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "snell-typeAIII",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": "The sidebar gives sensitivity and impedance but no passive/active statement."
-        },
-        {
-          "record": "snell-typeAIII",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Woofer, midrange, tweeter and rear-firing supertweeter = 4 transducers; third-party review page."
-        }
-      ],
-      "checkedRound": 25,
-      "checkedDate": "2026-10-19",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Specifications sidebar: \"Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III)\"; 86 dB/W/m; 4 ohms; three-way acoustic-suspension."
     },
     {
       "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
@@ -4214,6 +4144,33 @@
       "evidence": "System: \"3-way floorstanding loudspeaker system. Vented box design\". Loudspeakers: Tw Ø 29 mm DAD driver; Md Ø 150 mm paper cone driver; W Ø 2x150 mm paper cone drivers."
     },
     {
+      "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+      "host": "www.stereophile.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "harbeth-shl5"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "harbeth-shl5",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: impedance and sensitivity only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"Three-way, reflex-loaded, stand-mounted loudspeaker\"; \"0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) ... mid/woofer\"; no passive wording."
+    },
+    {
       "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
       "host": "www.stereophile.com",
       "status": "CHECKED_PARTIAL",
@@ -4239,6 +4196,33 @@
         0
       ],
       "evidence": "Stereophile LS50 sidebar: \"Two-way, reflex-loaded, stand-mounted loudspeaker\"; 1\" vented aluminium-dome tweeter plus 5.25\" alloy-cone woofer; \"Amplifier requirements: 25-100W\"; no passive/active statement."
+    },
+    {
+      "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+      "host": "www.stereophile.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 1,
+      "records": [
+        "snell-typeAIII"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "snell-typeAIII",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": "Round 29: impedance and sensitivity only."
+        }
+      ],
+      "checkedRound": 29,
+      "checkedDate": "2026-10-19",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"Three-way dynamic, acoustic-suspension loudspeaker\"; \"10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III)\"; no passive wording."
     },
     {
       "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",

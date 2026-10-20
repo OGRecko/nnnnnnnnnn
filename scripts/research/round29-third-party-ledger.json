@@ -1031,6 +1031,32 @@
       "evidence": "Round 29 (2026-10-19): same guide — \"Crossover Modes: Bi-amp / passive, externally switchable\"; \"Power Rating (Continuous/Program/Peak): Passive: 800 W / 1600 W / 3200 W\"; the functional block diagram shows \"NL4 INPUT\" feeding \"PASSIVE MODE\" and \"BI-AMP MODE\" networks with no mains inlet. Both modes take external amplifier feeds.",
       "whyNotManufacturer": "The document is manufacturer-authored but is mirrored by manualslib.com, a manual library, not a manufacturer host.",
       "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "harbeth-shl5",
+      "field": "driverCount",
+      "valueBefore": 3,
+      "valueAfter": 3,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "REPUTABLE_DATABASE",
+      "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+      "document": "Stereophile, \"Harbeth Super HL5 plus loudspeaker Specifications\", Sidebar 1: Specifications",
+      "evidence": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\" Three drive units.",
+      "whyNotManufacturer": "Stereophile is an independent review publication, not the manufacturer; the sidebar is its own transcription of the manufacturer specification.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
+    },
+    {
+      "record": "snell-typeAIII",
+      "field": "driverCount",
+      "valueBefore": 4,
+      "valueAfter": 4,
+      "status": "THIRD_PARTY_VERIFIED",
+      "sourceType": "REPUTABLE_DATABASE",
+      "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+      "document": "Stereophile, \"Snell Type A loudspeaker Specifications\", Sidebar 2: Specifications",
+      "evidence": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way dynamic, acoustic-suspension loudspeaker. Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III).\" Four drive units for the A/III.",
+      "whyNotManufacturer": "Stereophile is an independent review publication, not the manufacturer; the sidebar is its own transcription of the manufacturer specification.",
+      "decision": "Promoted per PROVENANCE-POLICY.md: exact model, explicit wording, opened https source, quoted evidence, this ledger row."
     }
   ],
   "valuesWritten": 8

@@ -2764,6 +2764,56 @@
       "round": 29,
       "action": "PROMOTE_THIRD_PARTY",
       "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4"
+    },
+    {
+      "id": "harbeth-shl5",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "value": 3,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 3,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\" Three drive units."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications"
+    },
+    {
+      "id": "snell-typeAIII",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "value": 4,
+        "provenance": {
+          "status": "CITED_IN_NOTES_UNCHECKED",
+          "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+          "sourceType": null
+        }
+      },
+      "after": {
+        "value": 4,
+        "provenance": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+          "sourceType": "REPUTABLE_DATABASE",
+          "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way dynamic, acoustic-suspension loudspeaker. Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III).\" Four drive units for the A/III."
+        }
+      },
+      "round": 29,
+      "action": "PROMOTE_THIRD_PARTY",
+      "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications"
     }
   ]
 }

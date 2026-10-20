@@ -9872,11 +9872,12 @@
       "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact original Harbeth Super HL5 plus (RADIAL2 generation, without XD/XD2 suffix): Stereophile's 2015 technical specification sidebar identifies the model, a three-way reflex-loaded standmount, 7.8-inch (200 mm) polymeric-cone mid/woofer, 20 mm and 25 mm tweeters, 40 Hz–20 kHz ±3 dB, nominal 6 ohms, and 86 dB/W/m. The review identifies the measured pair as serials 12287L/R. Its companion measurement article specifies DRA Labs MLSSA, calibrated DPA 4006 far-field and Earthworks QTC-40 near-field methods, and plots horizontal/vertical response families. The The Ear's exact Super HL5 Plus review (not XD) explicitly records sensitivity as 86 dB/1W/1m and 150 W programme handling; that programme rating is stored separately with its proper role. Response curves/polar plots are not digitized into the dataset because the published plots are not a numeric point table; no Fs or voice-coil size is stated. No data from the distinct XD/XD2 revisions are transferred. Sources: https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications ; https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-measurements ; https://the-ear.net/review-hardware/harbeth-super-hl5-plus-loudspeaker/.",
+    "notes": "Exact original Harbeth Super HL5 plus (RADIAL2 generation, without XD/XD2 suffix): Stereophile's 2015 technical specification sidebar identifies the model, a three-way reflex-loaded standmount, 7.8-inch (200 mm) polymeric-cone mid/woofer, 20 mm and 25 mm tweeters, 40 Hz–20 kHz ±3 dB, nominal 6 ohms, and 86 dB/W/m. The review identifies the measured pair as serials 12287L/R. Its companion measurement article specifies DRA Labs MLSSA, calibrated DPA 4006 far-field and Earthworks QTC-40 near-field methods, and plots horizontal/vertical response families. The The Ear's exact Super HL5 Plus review (not XD) explicitly records sensitivity as 86 dB/1W/1m and 150 W programme handling; that programme rating is stored separately with its proper role. Response curves/polar plots are not digitized into the dataset because the published plots are not a numeric point table; no Fs or voice-coil size is stated. No data from the distinct XD/XD2 revisions are transferred. Sources: https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications ; https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-measurements ; https://the-ear.net/review-hardware/harbeth-super-hl5-plus-loudspeaker/. Round 29 (2026-10-19): driverCount 3 verified from the Stereophile specification sidebar; active stays unresolved because the sidebar prints only impedance and sensitivity.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
-      "sourceType": null
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way, reflex-loaded, stand-mounted loudspeaker. Drive-units: 0.78\\\" (20mm) titanium-dome and 1\\\" (25mm) aluminum-dome tweeters; 7.8\\\" (200mm) polymeric composite-cone mid/woofer.\" Three drive units."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -10304,11 +10305,12 @@
       "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact Snell Type A/III specification: 24 Hz–26 kHz ±3 dB, 86 dB/W/m, 4 ohm nominal, 10-inch woofer, 4 total acoustic drivers including rear-firing supertweeter. Source: https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+    "notes": "Exact Snell Type A/III specification: 24 Hz–26 kHz ±3 dB, 86 dB/W/m, 4 ohm nominal, 10-inch woofer, 4 total acoustic drivers including rear-firing supertweeter. Source: https://www.stereophile.com/content/snell-type-loudspeaker-specifications Round 29 (2026-10-19): driverCount 4 verified from the Stereophile specification sidebar; active stays unresolved because the sidebar prints only impedance and sensitivity.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
-      "sourceType": null
+      "sourceType": "REPUTABLE_DATABASE",
+      "note": "Round 29 (2026-10-19): Stereophile sidebar — \"Three-way dynamic, acoustic-suspension loudspeaker. Drive-units: 10\\\" cone-woofer, 4\\\" midrange, 1\\\" soft-dome tweeter, rear-firing supertweeter (A/III).\" Four drive units for the A/III."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

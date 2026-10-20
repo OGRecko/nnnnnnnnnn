@@ -254,6 +254,16 @@ Both manuals are hosted by third parties (a rental house and the site's asset CD
 The Mackie passive radiator is deliberately not counted as a driver: it is not electrically driven, and the
 record note already made that distinction.
 
+## Batch 47 — driver counts from two Stereophile sidebars
+
+| Record | Field | Quote | Outcome |
+| --- | --- | --- | --- |
+| harbeth-shl5 | driverCount 3 | "0.78\" (20mm) titanium-dome and 1\" (25mm) aluminum-dome tweeters; 7.8\" (200mm) polymeric composite-cone mid/woofer" | promoted; active NOT_STATED |
+| snell-typeAIII | driverCount 4 | "10\" cone-woofer, 4\" midrange, 1\" soft-dome tweeter, rear-firing supertweeter (A/III)" | promoted; active NOT_STATED |
+
+Both sidebars print only impedance and sensitivity, so `active` remains unresolved in both records; the
+attempt is recorded as NOT_STATED rather than converted into an inference.
+
 ## Tool fixes in this round
 
 - `make-provenance-queue.py`: accepts `RECORD_ARCHIVED` outcomes and verifies the record really is retired.
@@ -267,11 +277,11 @@ record note already made that distinction.
 | Status | Before (Round 28 tip) | Now |
 | --- | --- | --- |
 | `MANUFACTURER_VERIFIED` | 2422 | **2403** (23 demotions on non-manufacturer hosts) |
-| `CITED_IN_NOTES_UNCHECKED` | 247 | **162** |
+| `CITED_IN_NOTES_UNCHECKED` | 247 | **160** |
 | `UNSOURCED` | 81 (73 after policy) | **71** |
-| `THIRD_PARTY_VERIFIED` | 24 | **99** |
+| `THIRD_PARTY_VERIFIED` | 24 | **101** |
 | `NO_PROVENANCE` | 363 | 363 |
-| queue items | 212 / 157 URLs | **162 / 136 URLs** |
+| queue items | 212 / 157 URLs | **160 / 136 URLs** |
 | records with backlog | 336 of 657 | **311 of 657** |
 
 `npm test`, typecheck, both audit scripts and the release-docs generators are run after every batch; no
